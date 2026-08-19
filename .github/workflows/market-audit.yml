@@ -1,59 +1,51 @@
-name: Markt-Audit 15 km
+name: Markt-Whitelist Audit
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'importer/market-audit-v2.js'
-      - '.github/workflows/market-audit.yml'
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: market-audit-15km
+  group: market-whitelist-audit
   cancel-in-progress: true
 
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - name: Märkte im 15-km-Radius neu ermitteln
-        id: audit
+      - name: Abhängigkeiten installieren
         working-directory: importer
-        shell: bash
+        run: npm install --no-audit --no-fund
+      - name: Markt-Policy und Produktlogik testen
+        working-directory: importer
+        run: npm test
+      - name: Aktive Märkte strikt validieren
+        working-directory: importer
         run: |
-          set +e
-          node market-audit-v2.js 2>&1 | tee ../data/market-audit.log
-          CODE=${PIPESTATUS[0]}
-          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
-          exit 0
-
-      - name: Ergebnisse oder Fehlerlog veröffentlichen
-        if: always()
-        shell: bash
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import {isAllowedMarket} from './market-policy.js';
+          const data=JSON.parse(fs.readFileSync('../data/markets.json','utf8'));
+          const markets=data.markets||[];
+          const bad=markets.filter(m=>!isAllowedMarket(m));
+          const invalidRiem=markets.filter(m=>/riem/i.test(`${m.market||''} ${m.address||''}`)&&!m.isRiemArcaden);
+          if(bad.length||invalidRiem.length){
+            console.error('Unerlaubte Märkte:', bad);
+            console.error('Ungültige Riem-Einträge:', invalidRiem);
+            process.exit(1);
+          }
+          console.log(`Whitelist korrekt: ${markets.length} aktive Filialen.`);
+          NODE
+      - name: Sicherstellen, dass kein 15-km-Produktionsworkflow zurückkehrt
         run: |
-          git config user.name "AngebotsRadar Bot"
-          git config user.email "actions@users.noreply.github.com"
-          touch data/market-audit.log
-          git add data/market-audit.log
-          [ -f data/markets.json ] && git add data/markets.json
-          [ -f data/market-audit-report.json ] && git add data/market-audit-report.json
-          if git diff --cached --quiet; then exit 0; fi
-          if [ "${{ steps.audit.outputs.exit_code }}" = "0" ]; then MSG="Markt-Audit 15 km V2 aktualisieren"; else MSG="Markt-Audit V2 Fehlerdiagnose aktualisieren"; fi
-          git commit -m "$MSG"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin main && exit 0
-            sleep 4
-          done
-          exit 1
-
-      - name: Auditstatus bewerten
-        if: always()
-        run: test "${{ steps.audit.outputs.exit_code }}" = "0"
+          if grep -RniE 'Markt-Audit 15 km|RADIUS_KM=15|15-km-radius' .github/workflows importer --exclude=market-audit-v2.js; then
+            echo 'Veraltete 15-km-Produktionslogik gefunden.'
+            exit 1
+          fi
+          echo 'Keine aktive 15-km-Produktionslogik gefunden.'
