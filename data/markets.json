@@ -9,7 +9,8 @@
     {"store":"Lidl","market":"Aschheim / Haar","address":"Ohmstraße 5, 85609 Aschheim","url":"https://www.lidl.de/c/online-prospekte/s10005610/","scope":"regional"},
     {"store":"Netto","market":"Trudering","address":"Truderinger Str. 217, 81825 München","url":"https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317","scope":"market"},
     {"store":"NORMA","market":"Vaterstetten","address":"Johann-Sebastian-Bach-Strasse 44, 85591 Vaterstetten","url":"https://www.norma-online.de/de/angebote/?desktop=1","scope":"regional"},
-    {"store":"Kaufland","market":"München-Berg am Laim","address":"Berg-am-Laim-Straße 117, 81673 München","url":"https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html","scope":"market"}
+    {"store":"Kaufland","market":"München-Berg am Laim","address":"Berg-am-Laim-Straße 117, 81673 München","url":"https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html","scope":"market"},
+    {"store":"METRO","market":"München-Freimann","address":"Helene-Wessel-Bogen 39, 80939 München","url":"https://www.metro.de/standorte/muenchen-freimann","scope":"market","distanceKm":11.0,"radiusException":true}
   ],
   "nearbyMarkets": [
     {"store":"REWE","market":"Feldkirchen","address":"Kapellenstr. 16b, 85622 Feldkirchen"},
@@ -24,6 +25,7 @@
     {"store":"Netto","market":"Mitterfeld","address":"Am Mitterfeld 18, 81829 München"},
     {"store":"Netto","market":"Wasserburger Landstraße","address":"Wasserburger Landstr. 8, 81825 München"},
     {"store":"NORMA","market":"Vaterstetten","address":"Johann-Sebastian-Bach-Strasse 44, 85591 Vaterstetten"},
-    {"store":"Kaufland","market":"München-Berg am Laim","address":"Berg-am-Laim-Straße 117, 81673 München"}
+    {"store":"Kaufland","market":"München-Berg am Laim","address":"Berg-am-Laim-Straße 117, 81673 München"},
+    {"store":"METRO","market":"München-Freimann","address":"Helene-Wessel-Bogen 39, 80939 München","distanceKm":11.0,"radiusException":true}
   ]
 }
