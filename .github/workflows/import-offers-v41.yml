@@ -1,6 +1,6 @@
 name: Live-Angebote importieren V5.1
 
-# Audit-Lauf: kompletter Produktionspfad mit Release-Gate, Post-Tests und Browser-E2E.
+# Vollständiger Produktionspfad mit Release-Gate, Post-Tests und Browser-E2E.
 on:
   workflow_dispatch:
   schedule:
@@ -57,17 +57,21 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - name: Dependencies installieren
         working-directory: importer
         run: npm install --no-audit --no-fund
+
       - name: Produktlogik und Markt-Whitelist vor Import testen
         id: product_tests
         working-directory: importer
         run: npm test
+
       - name: Chromium installieren
         if: steps.product_tests.outcome == 'success'
         working-directory: importer
         run: npx playwright install --with-deps chromium
+
       - name: Angebote per Browser und API importieren
         id: importer
         if: steps.product_tests.outcome == 'success'
@@ -83,42 +87,49 @@ jobs:
           echo "finished_ms=$END_MS" >> "$GITHUB_OUTPUT"
           echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
           exit 0
+
       - name: Server-HTML Fallback
         id: fallback
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: npm run fallback
+
       - name: Reader-Fallback für REWE EDEKA METRO
         id: reader
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node reader-fallback.js
+
       - name: Netto Filial-Reader V2
         id: netto_reader
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node netto-reader-v2.js
+
       - name: Spezialreader für aktive Discounter
         id: rich_reader
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node rich-retailers.js
+
       - name: Lidl Preisfallback
         id: lidl_table
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node lidl-table-reader.js
+
       - name: Bio-Reader Alnatura und Denns
         id: bio_reader
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node bio-retailers.js
+
       - name: METRO Kundenlogin
         id: metro_auth
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
@@ -128,46 +139,55 @@ jobs:
           METRO_EMAIL: ${{ secrets.METRO_EMAIL }}
           METRO_PASSWORD: ${{ secrets.METRO_PASSWORD }}
         run: node metro-auth.js
+
       - name: Qualitätsprüfung Stufe 1
         id: sanitize
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         working-directory: importer
         run: node sanitize.js
+
       - name: Qualitätsprüfung Stufe 2
         id: quality_v2
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0' && steps.sanitize.outcome == 'success'
         working-directory: importer
         run: node quality-v2.js
+
       - name: Qualitätsprüfung Stufe 3 Lebensmittel
         id: quality_v3
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0' && steps.quality_v2.outcome == 'success'
         working-directory: importer
         run: node quality-v3.js
+
       - name: Qualitätsprüfung Stufe 4 Semantik
         id: quality_v4
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0' && steps.quality_v3.outcome == 'success'
         working-directory: importer
         run: node quality-v4.js
+
       - name: Strikte Markt-Whitelist und regulären Katalog erzwingen
         id: market_guard
         if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0' && steps.quality_v4.outcome == 'success'
         working-directory: importer
         run: npm run merge
+
       - name: Preishistorie aktualisieren
         id: price_history
         if: always() && steps.market_guard.outcome == 'success'
         working-directory: importer
         run: npm run history
+
       - name: Generierte Live-Daten erneut vollständig testen
         id: post_tests
         if: always() && steps.price_history.outcome == 'success'
         working-directory: importer
         run: npm test
+
       - name: Frontend auf Desktop und iPhone durchklicken
         id: frontend_e2e
         if: always() && steps.post_tests.outcome == 'success'
         working-directory: importer
         run: node frontend-e2e.js
+
       - name: Diagnose erzeugen
         id: diagnostics
         if: always()
@@ -178,6 +198,7 @@ jobs:
           IMPORT_STARTED_MS: ${{ steps.importer.outputs.started_ms }}
           IMPORT_FINISHED_MS: ${{ steps.importer.outputs.finished_ms }}
         run: node diagnostics.js
+
       - name: Freigabe vor Veröffentlichung
         id: release_gate
         if: always()
@@ -216,6 +237,7 @@ jobs:
             exit 1
           fi
           echo "Alle Pflichtprüfungen bestanden. Veröffentlichung freigegeben."
+
       - name: CI-Testquittung erzeugen
         if: always()
         shell: bash
@@ -263,20 +285,9 @@ jobs:
           };
           fs.writeFileSync('docs/live-ci-results.json',JSON.stringify(receipt,null,2)+'\n');
           NODE
-      - name: CI-Testquittung veröffentlichen
-        if: always()
-        continue-on-error: true
-        shell: bash
-        run: |
-          git config user.name "AngebotsRadar CI Bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add docs/live-ci-results.json
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Live-CI-Testquittung aktualisieren [skip ci]"
-          git pull --rebase --autostash origin main
-          git push origin main
-      - name: Ergebnisse veröffentlichen
-        id: publish
+
+      - name: Erfolgreichen Lauf atomar veröffentlichen
+        id: publish_success
         if: always() && steps.release_gate.outcome == 'success'
         continue-on-error: true
         shell: bash
@@ -284,18 +295,41 @@ jobs:
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
           touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log data/price-history.json
-          git add data/offers-live.json data/price-history.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log
+          git add \
+            docs/live-ci-results.json \
+            data/offers-live.json data/price-history.json data/import-diagnostics.json \
+            data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log \
+            data/lidl-table.log data/bio-retailers.log
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Live-Produkte und Angebote V5.1 aktualisieren [skip ci]"
-          git pull --rebase --autostash origin main
+          git commit -m "Live-Produkte, Diagnose und CI-Quittung V5.1 aktualisieren [skip ci]"
+          git pull --rebase origin main
           git push origin main
+
+      - name: Fehlgeschlagenen Lauf nur als Quittung veröffentlichen
+        id: publish_failure_receipt
+        if: always() && steps.release_gate.outcome != 'success'
+        continue-on-error: true
+        shell: bash
+        run: |
+          cp docs/live-ci-results.json /tmp/live-ci-results.json
+          git reset --hard HEAD
+          mkdir -p docs
+          cp /tmp/live-ci-results.json docs/live-ci-results.json
+          git config user.name "AngebotsRadar CI Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/live-ci-results.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Fehlgeschlagene Live-CI-Testquittung aktualisieren [skip ci]"
+          git pull --rebase origin main
+          git push origin main
+
       - name: Ergebnis bewerten
         if: always()
         shell: bash
         env:
           RELEASE_GATE_OUTCOME: ${{ steps.release_gate.outcome }}
-          PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
+          PUBLISH_SUCCESS_OUTCOME: ${{ steps.publish_success.outcome }}
         run: |
-          if [ "$RELEASE_GATE_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ]; then
+          if [ "$RELEASE_GATE_OUTCOME" != "success" ] || [ "$PUBLISH_SUCCESS_OUTCOME" != "success" ]; then
             exit 1
           fi
