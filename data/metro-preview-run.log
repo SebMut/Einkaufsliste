@@ -4,5 +4,5 @@ METRO PDF: 46449007 Bytes, 443037 Textzeichen.
 PDF_DEBUG_EXIT=0
 BBox Debug: 33 Preisblöcke auf 12 Seiten.
 BBOX_DEBUG_EXIT=0
-METRO Vorschau: 265 Preis-Treffer -> 95 Produkte.
+METRO BBox-Vorschau: 26 Preiszuordnungen -> 10 Produkte.
 PARSER_EXIT=0
