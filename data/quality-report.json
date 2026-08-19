@@ -1,471 +1,399 @@
 {
-  "generatedAt": "2026-08-19T20:40:43.738Z",
-  "before": 451,
-  "after": 386,
-  "rejected": 65,
-  "repaired": 623,
+  "generatedAt": "2026-08-19T20:57:56.975Z",
+  "before": 1301,
+  "after": 1232,
+  "rejected": 69,
+  "repaired": 1105,
   "rejectedReasons": {
-    "quantity_as_name": 23,
-    "navigation_or_ui": 11,
-    "name_length": 16,
-    "invalid_price": 6,
-    "duplicate": 4,
-    "number_as_name": 3,
-    "invalid_unit": 2
+    "invalid_unit": 4,
+    "name_length": 38,
+    "duplicate": 20,
+    "invalid_price": 7
   },
   "storeBefore": {
-    "ALDI SÜD": 67,
-    "PENNY": 140,
-    "ROSSMANN": 60,
-    "dm": 96,
-    "EDEKA": 40,
-    "MÜLLER": 17,
+    "ALDI SÜD": 54,
+    "MÜLLER": 355,
+    "ROSSMANN": 88,
+    "EDEKA": 41,
+    "dm": 627,
     "REWE": 30,
-    "Lidl": 1
+    "PENNY": 104,
+    "Lidl": 2
   },
   "storeAfter": {
-    "ALDI SÜD": 61,
+    "ALDI SÜD": 54,
+    "MÜLLER": 328,
+    "ROSSMANN": 65,
     "EDEKA": 40,
-    "PENNY": 109,
-    "MÜLLER": 17,
-    "dm": 85,
-    "ROSSMANN": 43,
+    "dm": 609,
     "REWE": 30,
-    "Lidl": 1
+    "PENNY": 104,
+    "Lidl": 2
   },
   "rejectedExamples": [
     {
-      "store": "PENNY",
-      "name": "je 1-kg-Packung",
-      "reason": "quantity_as_name"
+      "store": "ROSSMANN",
+      "name": "bedrop - BeeBalm LippenpflegeNur OnlineGesponsert6bedropBeeBalm Lippenpflege6 ml",
+      "reason": "invalid_unit"
     },
     {
       "store": "ROSSMANN",
-      "name": "12 Stück (10Stück = 7,24 €) / 12 x 80 Tücher",
-      "reason": "quantity_as_name"
+      "name": "Doonails - Soft Gel Press Ons Medium Almond BabyboomerNur Online4526DoonailsSoft Gel Press Ons Medium Almond Babyboomer30 Stück (10Stück = 5,33 €) 15.99€",
+      "reason": "name_length"
     },
     {
       "store": "ROSSMANN",
-      "name": "132 Stück (100Stück = 40,49 €)",
-      "reason": "quantity_as_name"
+      "name": "Doonails - Soft Gel Press Ons Medium Round Classic FrenchNur Online4526DoonailsSoft Gel Press Ons Medium Round Classic French30 Stück (10Stück = 5,33 €) 15.99€",
+      "reason": "name_length"
     },
     {
       "store": "ROSSMANN",
-      "name": "138 Stück (100Stück = 38,88 €)",
-      "reason": "quantity_as_name"
+      "name": "Babydream - extra sensitiv Feuchttücher Spar-Pack4371Babydreamextra sensitiv Feuchttücher Spar-Pack320 Stück (100Stück = 0,93 €) / 4x80 Tücher",
+      "reason": "name_length"
     },
     {
       "store": "ROSSMANN",
-      "name": "144 Stück (100Stück = 41,63 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "148 Stück (100Stück = 36,15 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "PENNY",
-      "name": "je 150 g (1 kg = 1.93)\nAngebotspreis 0.39€\n0.39\nMILPRIMA Pudding*\nje 150 g (1 kg = 2.60)\nAngebotspreis 1.79€\n1.79\nMILPRIMA Mini Max*\nje 12 x",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "PENNY",
-      "name": "je 150 g (1 kg = 2.60)\nAngebotspreis 1.79€\n1.79\nMILPRIMA Mini Max*\nje 12 x 60 g (1 kg = 2.49)\nAngebotspreis 0.89€\n0.89\nMILPRIMA High Protein",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "152 Stück (100Stück = 38,78 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "160 Stück (100Stück = 34,59 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "174 Stück (100Stück = 31,32 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "174 Stück (100Stück = 32,16 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "PENNY",
-      "name": "je 175 g (1 kg = 2.57)\nAngebotspreis 0.29€\n0.29\nMILPRIMA FruchtiGurt 3,8%*\nje 150 g (1 kg = 1.93)\nAngebotspreis 0.39€\n0.39\nMILPRIMA Pudding*",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "180 Stück (100Stück = 21,97 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "204 Stück (100Stück = 26,69 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "204 Stück (100Stück = 27,18 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "240 Stück (100Stück = 22,06 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "320 Stück (100Stück = 0,93 €) / 4x80 Tücher",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "PENNY",
-      "name": "je 3er-Schale",
-      "reason": "quantity_as_name"
+      "name": "Babydream - extra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück119Babydreamextra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück12 Stück (10Stück = 7,24 €) / 12 x 80 Tücher",
+      "reason": "name_length"
     },
     {
       "store": "dm",
-      "name": "Alle dm-Märkte",
-      "reason": "navigation_or_ui"
-    },
-    {
-      "store": "PENNY",
-      "name": "Angebotspreis 0.29€\n0.29",
+      "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, sensitiv Multipack (12x85 g), 1,02 kg; Rechtliche Kategorie: Alleinfuttermittel;",
       "reason": "name_length"
     },
     {
-      "store": "PENNY",
-      "name": "Angebotspreis 0.39€\n0.39",
+      "store": "dm",
+      "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, sensitiv Multipack (12x85 g), 1,02 kg; Rechtliche Kategorie: Alleinfuttermittel;",
       "reason": "name_length"
     },
     {
-      "store": "PENNY",
-      "name": "Angebotspreis 0.45€\n0.45",
+      "store": "dm",
+      "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, sensitiv Multipack (12x85 g), 1,02 kg; Rechtliche Kategorie: Alleinfuttermittel;",
       "reason": "name_length"
     },
     {
-      "store": "PENNY",
-      "name": "Angebotspreis 0.69€\n0.69",
+      "store": "dm",
+      "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, Indoor Multipack (12x85 g), 1.020 g; Rechtliche Kategorie: Alleinfuttermittel;",
       "reason": "name_length"
     },
     {
-      "store": "PENNY",
-      "name": "Angebotspreis 0.89€\n0.89",
+      "store": "dm",
+      "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, Indoor Multipack (12x85 g), 1.020 g; Rechtliche Kategorie: Alleinfuttermittel;",
       "reason": "name_length"
     },
     {
-      "store": "PENNY",
-      "name": "Angebotspreis 1.11€\n1.11",
+      "store": "dm",
+      "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, Indoor Multipack (12x85 g), 1.020 g; Rechtliche Kategorie: Alleinfuttermittel;",
       "reason": "name_length"
     },
     {
-      "store": "PENNY",
-      "name": "Angebotspreis 1.25€\n1.25",
+      "store": "dm",
+      "name": "Marke: Felix; Produktname: Nassfutter Katze mit Rind, Huhn & Lamm, Original Soup Time Multipack (6x48 g), 288 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
       "reason": "name_length"
     },
     {
-      "store": "PENNY",
-      "name": "Angebotspreis 1.35€\n1.35",
+      "store": "dm",
+      "name": "Marke: Felix; Produktname: Nassfutter Katze mit Rind, Huhn & Lamm, Original Soup Time Multipack (6x48 g), 288 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
       "reason": "name_length"
     },
     {
-      "store": "PENNY",
-      "name": "Angebotspreis 1.75€\n1.75",
+      "store": "dm",
+      "name": "Marke: Felix; Produktname: Nassfutter Katze mit Rind, Huhn & Lamm, Original Soup Time Multipack (6x48 g), 288 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
       "reason": "name_length"
     },
     {
-      "store": "PENNY",
-      "name": "Angebotspreis 1.79€\n1.79",
+      "store": "ROSSMANN",
+      "name": "L’Oréal Paris - Color Riche Blurred Matte Lippenstift 601 Worth It6266L’Oréal ParisColor Riche Blurred Matte Lippenstift 601 Worth It4,3 g",
+      "reason": "invalid_unit"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "L’Oréal Paris - Le Shadow Stick 150 Captivating SepiaLetzte Chance!Nur Online16113L’Oréal ParisLe Shadow Stick 150 Captivating Sepia1,4 g 7.99€",
       "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "Lenor - Weichspüler Konzentrat Luftfrisch Wildblumenfeld 50 WL3856LenorWeichspüler Konzentrat Luftfrisch Wildblumenfeld 50 WL50 WL (1WL = 0,09 €)",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: yuicy; Produktname: Haarvitamine Hair Glow Biotin I B12 + 8 Essentials Gummies (45 Stück), 121 g; Rechtliche Kategorie: Nahrungsergänzungsmittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: yuicy; Produktname: Haarvitamine Hair Glow Biotin I B12 + 8 Essentials Gummies (45 Stück), 121 g; Rechtliche Kategorie: Nahrungsergänzungsmittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: yuicy; Produktname: Haarvitamine Hair Glow Biotin I B12 + 8 Essentials Gummies (45 Stück), 121 g; Rechtliche Kategorie: Nahrungsergänzungsmittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "MCoBeauty - Lip Stain & Sculpt - Natural NudeNeu40MCoBeautyLip Stain & Sculpt - Natural Nude1 ml 8.99€",
+      "reason": "invalid_unit"
+    },
+    {
+      "store": "MÜLLER",
+      "name": "Oral-B Elektrische Zahnbürste iO Series 6 Grey Opal",
+      "reason": "invalid_unit"
+    },
+    {
+      "store": "MÜLLER",
+      "name": "Pampers Premium Protection Pants Gr. 4",
+      "reason": "invalid_price"
+    },
+    {
+      "store": "MÜLLER",
+      "name": "Pampers Premium Protection Pants Gr. 5",
+      "reason": "invalid_price"
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T20:40:43.827Z",
-    "before": 386,
-    "after": 194,
-    "rejected": 192,
-    "repaired": 115,
+    "generatedAt": "2026-08-19T20:57:57.201Z",
+    "before": 1232,
+    "after": 600,
+    "rejected": 632,
+    "repaired": 563,
     "rejectedReasons": {
-      "name": 6,
-      "ui": 32,
-      "produce_unit": 1,
+      "name": 15,
+      "unit_high": 4,
       "price": 1,
-      "concatenated_offer": 9,
-      "unit_high": 1,
-      "duplicate": 39,
-      "size_duplicate": 39,
-      "semantic_duplicate": 61
+      "duplicate": 62,
+      "size_duplicate": 71,
+      "semantic_duplicate": 476
     },
     "rejectedExamples": [
       {
-        "store": "PENNY",
-        "name": "je 12 x 60 g (1 kg = 2.49) Angebotspreis 0.89€ 0.89 MILPRIMA High Protein Pudding* je 200 g (1 kg = 4.45) Angebotspreis 0.39€ 0.39 MILPRIMA",
+        "store": "ROSSMANN",
+        "name": "alouette - Classic Küchentücher2390alouetteClassic Küchentücher4 Stück (1Stück = 0,69 €) / 4 Rollen á 64 Blatt = 256 Blatt 2.75€",
         "reason": "name"
       },
       {
         "store": "ROSSMANN",
-        "name": "Alle ablehnen Alle Cookies akzeptieren",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "Auflistung mit 12 Elementen. Zum Ende der Liste springen.",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "Auflistung mit 20 Elementen. Zum Ende der Liste springen.",
-        "reason": "ui"
-      },
-      {
-        "store": "ALDI SÜD",
-        "name": "Himbeeren",
-        "reason": "produce_unit"
-      },
-      {
-        "store": "PENNY",
-        "name": "Diese Woche",
-        "reason": "ui"
-      },
-      {
-        "store": "PENNY",
-        "name": "Diese Woche",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "Du verwendest einen veralteten Browser. Dadurch kommt es zu Darstellungs- und Funktionsfehlern auf dm.de. Bitte nutze Google Chrome, Mozilla",
+        "name": "alouette - Toilettenpapier Premium XXL-Pack2080alouetteToilettenpapier Premium XXL-Pack16 Stück (10Stück = 4,91 €) / 16 Rollen à 200 Blatt",
         "reason": "name"
-      },
-      {
-        "store": "ALDI SÜD",
-        "name": "Duschgel 675 ml, Noire",
-        "reason": "price"
       },
       {
         "store": "ROSSMANN",
-        "name": "FotoweltGutscheineKarriereUnternehmenGeschäftskundenbabyweltFiliale findenAnmelden0NeuIDEENWELTMake-UpPflege & DuftBaby & SpielzeugHaushaltT",
+        "name": "Nestlé - Cerelac Junior Erdbeer & Crisps Getreidebrei 200gGesponsert1NestléCerelac Junior Erdbeer & Crisps Getreidebrei 200g200 g",
         "reason": "name"
-      },
-      {
-        "store": "PENNY",
-        "name": "Mo-Sa Angebotspreis 0.45€ 0.45 MILPRIMA Joghurt Crisp* je 175 g (1 kg = 2.57) Angebotspreis 0.29€ 0.29 MILPRIMA FruchtiGurt 3,8%* je 150 g (",
-        "reason": "name"
-      },
-      {
-        "store": "PENNY",
-        "name": "MILPRIMA Joghurt Crisp* je 175 g (1 kg = 2.57) Angebotspreis 0.29€ 0.29 MILPRIMA FruchtiGurt 3,8%* je 150 g (1 kg =",
-        "reason": "concatenated_offer"
-      },
-      {
-        "store": "PENNY",
-        "name": "UVP 0.99 Angebotspreis 0.69€ 0.69 -40% mit App -30% MÖVENPICK Feinjoghurt* mit App: je 150 g (1 kg = 3.93); ohne App:",
-        "reason": "concatenated_offer"
-      },
-      {
-        "store": "PENNY",
-        "name": "Nur mit App 6.78 Angebotspreis 3.49€ 3.49",
-        "reason": "concatenated_offer"
-      },
-      {
-        "store": "PENNY",
-        "name": "Nur mit App App-preis 0.99*€ 0.99* Angebotspreis 1.11€ 1.11 Aktion Deutsche Bundmöhren* je Bund",
-        "reason": "concatenated_offer"
-      },
-      {
-        "store": "PENNY",
-        "name": "Nur mit App App-preis 0.99*€ 0.99* Angebotspreis 1.11€ 1.11",
-        "reason": "concatenated_offer"
-      },
-      {
-        "store": "PENNY",
-        "name": "Nur mit App App-preis 3.29*€ 3.29* Angebotspreis 3.49€ 3.49",
-        "reason": "concatenated_offer"
-      },
-      {
-        "store": "PENNY",
-        "name": "Nur mit App App-preis 3.29*€ 3.29* Angebotspreis 3.49€ 3.49 Aktion DR. OETKER Bistro Flammkuchen* mit App: je 530 g (1 kg = 6.21); ohne App:",
-        "reason": "concatenated_offer"
-      },
-      {
-        "store": "PENNY",
-        "name": "UVP 3.59 Angebotspreis 1.99€ 1.99 -50% mit App -44% MARS Schokoriegel* mit App: je 5 x 45 g (1 kg = 7.96); ohne App: je 5 x 45 g (1 kg = 8.8",
-        "reason": "concatenated_offer"
       },
       {
         "store": "ROSSMANN",
-        "name": "Services in Ihrer FilialeGeschenkgutscheineRossmann FotoservicePrepaidkartenRücknahmegarantieTeppichreiniger-VerleihGratis WLANRücknahme Ele",
+        "name": "Nestlé - Cerelac Milch-Getreidebrei Weizen ab dem 6. MonatGesponsert14NestléCerelac Milch-Getreidebrei Weizen ab dem 6. Monat400 g",
+        "reason": "name"
+      },
+      {
+        "store": "dm",
+        "name": "Marke: M. Asam; Produktname: Lippenpflege Smoothing Lip Butter Coco Bliss, 14 g;",
+        "reason": "unit_high"
+      },
+      {
+        "store": "dm",
+        "name": "Marke: M. Asam; Produktname: Lippenpflege Smoothing Lip Butter Coco Bliss, 14 g;",
+        "reason": "unit_high"
+      },
+      {
+        "store": "dm",
+        "name": "Marke: M. Asam; Produktname: Lippenpflege Smoothing Lip Butter Coco Bliss, 14 g;",
+        "reason": "unit_high"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "Catrice - Glam & Doll Volume Mascara Waterproof3246CatriceGlam & Doll Volume Mascara Waterproof10 ml (1L = 449,00 €) 4.49€",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "domol - Geschirr-Reiniger Tabs All-in-one XL-Sparpack874domolGeschirr-Reiniger Tabs All-in-one XL-Sparpack70 Stück (10Stück = 0,83 €)",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "domol - Spülmaschinen Hygiene-Reiniger818domolSpülmaschinen Hygiene-Reiniger250 ml (1L = 3,96 €) / 1 Flasche = 1 Anwendung",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "L’Oréal Paris - Infaillible 3-Second Setting Mist Setting Spray2L’Oréal ParisInfaillible 3-Second Setting Mist Setting Spray75 ml",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "manuka health - Manuka Honey Lip BalmGesponsert9manuka healthManuka Honey Lip Balm4,5 g 6.99€",
+        "reason": "unit_high"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "NIVEA - CC Fluid Luminous630° Anti-Pigmentflecken LSF 30 hellGesponsert369NIVEACC Fluid Luminous630° Anti-Pigmentflecken LSF 30 hell40 ml",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "NIVEA - Expert Finish Cellular 3in1 Pflege Cushion 01 HellGesponsert195NIVEAExpert Finish Cellular 3in1 Pflege Cushion 01 Hell15 g",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "NIVEA - Expert Finish Cellular 3in1 Pflege Cushion 02 MittelGesponsert225NIVEAExpert Finish Cellular 3in1 Pflege Cushion 02 Mittel15 g",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "NIVEA - Expert Finish Cellular 3in1 Pflege Cushion 03 DunkelGesponsert176NIVEAExpert Finish Cellular 3in1 Pflege Cushion 03 Dunkel15 g",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "Spee - Vollwaschmittel Flüssig Frische Kick 20 WLGesponsert5342SpeeVollwaschmittel Flüssig Frische Kick 20 WL20 WL (1WL = 0,20 €)",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "Spee - Vollwaschmittel Flüssig Sensitive 20 WLGesponsert5328SpeeVollwaschmittel Flüssig Sensitive 20 WL20 WL (1WL = 0,20 €)",
         "reason": "name"
       },
       {
         "store": "MÜLLER",
-        "name": "Sicher einkaufen",
-        "reason": "unit_high"
+        "name": "Pampers Premium Protection Windeln Gr.2",
+        "reason": "price"
       },
       {
-        "store": "PENNY",
-        "name": "ZESPRI SunGold Kiwi Gold* je 3er-Schale Angebotspreis 2.49€ 2.49 Aktion PINK LADY Rote Äpfel* je 1-kg-Packun",
-        "reason": "concatenated_offer"
-      },
-      {
-        "store": "ALDI SÜD",
-        "name": "Zum Inhalt springen Aktuelle Filiale45475, Mülheim an der RuhrFilialauswahlWähle deine Filiale aus, um die verfügbaren Produkte zu entdecken",
+        "store": "ROSSMANN",
+        "name": "Zewa - Haushaltstücher Wisch & Weg Reinweiß1424ZewaHaushaltstücher Wisch & Weg Reinweiß4 Stück (1Stück = 0,80 €) / 4 Rollen à 45 Blatt",
         "reason": "name"
       }
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T20:40:43.911Z",
-    "before": 194,
-    "after": 166,
-    "rejected": 28,
-    "repaired": 6,
+    "generatedAt": "2026-08-19T20:57:57.321Z",
+    "before": 600,
+    "after": 285,
+    "rejected": 315,
+    "repaired": 31,
     "reasons": {
-      "not_food": 18,
-      "nonfood": 10
+      "not_food": 241,
+      "nonfood": 74
     },
     "rejectedExamples": [
+      {
+        "store": "dm",
+        "name": "8in1 Kausnack Hund super meaty, Größe L",
+        "cleaned": "8in1 Kausnack Hund super meaty, Größe L",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "ALANA Bettwäsche mit Baum-Muster, rot, 140 x 200 + 80 x 80",
+        "cleaned": "ALANA Bettwäsche mit Baum-Muster, rot, 140 x 200 + 80 x 80",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "ALMASED Vitalkost Pflanzen K Pulver",
+        "cleaned": "ALMASED Vitalkost Pflanzen K Pulver",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Alnatura Bio Café Classic",
+        "cleaned": "Alnatura Bio Café Classic",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Alnatura Bio Farfalle",
+        "cleaned": "Alnatura Bio Farfalle",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Alnatura Bio Flohsamen",
+        "cleaned": "Alnatura Bio Flohsamen",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Alnatura Bio Linsenwaffeln",
+        "cleaned": "Alnatura Bio Linsenwaffeln",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Alnatura Bio Sticks Rote Bete & Meersalz",
+        "cleaned": "Alnatura Bio Sticks Rote Bete & Meersalz",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Alnatura Bio Sticks Rote Bete &amp; Meersalz",
+        "cleaned": "Alnatura Bio Sticks Rote Bete &amp; Meersalz",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Alnavit Bio Protein Porridge glutenfrei",
+        "cleaned": "Alnavit Bio Protein Porridge glutenfrei",
+        "reason": "not_food"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "alouette - Taschentücherbox2647alouetteTaschentücherbox100 Stück 0.99€",
+        "cleaned": "alouette - Taschentücherbox2647alouetteTaschentücherbox100 Stück 0.99€",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Alpecin Shampoo Grey Attack XStrong",
+        "cleaned": "Alpecin Shampoo Grey Attack XStrong",
+        "reason": "nonfood"
+      },
+      {
+        "store": "dm",
+        "name": "alverde NATURKOSMETIK Beach Waves Spray Seaside Balance",
+        "cleaned": "alverde NATURKOSMETIK Beach Waves Spray Seaside Balance",
+        "reason": "nonfood"
+      },
+      {
+        "store": "dm",
+        "name": "alverde NATURKOSMETIK Shampoo Locken",
+        "cleaned": "alverde NATURKOSMETIK Shampoo Locken",
+        "reason": "nonfood"
+      },
       {
         "store": "dm",
         "name": "AMORELIE Beckenbodentrainer Perifit Care App-gesteuert, Pink",
@@ -474,8 +402,194 @@
       },
       {
         "store": "dm",
-        "name": "Bewertung",
-        "cleaned": "Bewertung",
+        "name": "PEDIAKID Bakto Gums Apfelgeschmack 60 St",
+        "cleaned": "PEDIAKID Bakto Gums Apfelgeschmack 60 St",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Ariel All-in-1 Colorwaschmittel Flüssig Pods 38WL",
+        "cleaned": "Ariel All-in-1 Colorwaschmittel Flüssig Pods 38WL",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Ariel All-in-1 Vollwaschmittel Flüssig Pods Universal 38WL",
+        "cleaned": "Ariel All-in-1 Vollwaschmittel Flüssig Pods Universal 38WL",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Ariel Colorwaschmittel Flüssig 50WL",
+        "cleaned": "Ariel Colorwaschmittel Flüssig 50WL",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Ariel Colorwaschmittel Pulver 45WL",
+        "cleaned": "Ariel Colorwaschmittel Pulver 45WL",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Ariel MaxPower Colorwaschmittel Pods - 15WL",
+        "cleaned": "Ariel MaxPower Colorwaschmittel Pods - 15WL",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Ariel Vollwaschmittel Flüssig Universal 50WL",
+        "cleaned": "Ariel Vollwaschmittel Flüssig Universal 50WL",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Ariel Vollwaschmittel Pulver Universal 45WL",
+        "cleaned": "Ariel Vollwaschmittel Pulver Universal 45WL",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "aronal/elmex Doppel-Schutz",
+        "cleaned": "aronal/elmex Doppel-Schutz",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "ARTDECO Geschenkset All in One Mascara + Micellar Water 2tlg",
+        "cleaned": "ARTDECO Geschenkset All in One Mascara + Micellar Water 2tlg",
+        "reason": "nonfood"
+      },
+      {
+        "store": "dm",
+        "name": "Balea Cleanser Gentle Mochi, korean skincare balea",
+        "cleaned": "Balea Cleanser Gentle Mochi, korean skincare balea",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Balea Flüssigseife Ginseng & Green Mandarin Nachfüllpack",
+        "cleaned": "Balea Flüssigseife Ginseng & Green Mandarin Nachfüllpack",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Balea Gesichtscreme Beauty Expert NMF Base",
+        "cleaned": "Balea Gesichtscreme Beauty Expert NMF Base",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Balea Gesichtshaarentferner",
+        "cleaned": "Balea Gesichtshaarentferner",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Balea Handmaske Sweet Berry bedruckt (1 Paar)",
+        "cleaned": "Balea Handmaske Sweet Berry bedruckt (1 Paar",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Balea Locken Revitalizing Spray",
+        "cleaned": "Balea Locken Revitalizing Spray",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Balea med Shampoo Ultra Sensitive",
+        "cleaned": "Balea med Shampoo Ultra Sensitive",
+        "reason": "nonfood"
+      },
+      {
+        "store": "dm",
+        "name": "Balea PROFESSIONAL Haarkur Silberglanz 2in1 Color Intense Kur",
+        "cleaned": "Balea PROFESSIONAL Haarkur Silberglanz 2in1 Color Intense Kur",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Balea Trockenshampoo Soft Cotton",
+        "cleaned": "Balea Trockenshampoo Soft Cotton",
+        "reason": "nonfood"
+      },
+      {
+        "store": "dm",
+        "name": "BALI CURLS Leave-In Spray Curl Defining",
+        "cleaned": "BALI CURLS Leave-In Spray Curl Defining",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Barebells Proteinriegel Pistachio Spread",
+        "cleaned": "Barebells Proteinriegel Pistachio Spread",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Barebells Proteinriegel Soft Cinnamon Bun",
+        "cleaned": "Barebells Proteinriegel Soft Cinnamon Bun",
+        "reason": "not_food"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGesponsert83BEBAExpert HA2 Folgenahrung nach dem 6. Monat550 g",
+        "cleaned": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGesponsert83BEBAExpert HA2 Folgenahrung nach dem 6. Monat550 g",
+        "reason": "not_food"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "BEBA - SUPREME 2 Folgenahrung nach dem 6. MonatGesponsert255BEBASUPREME 2 Folgenahrung nach dem 6. Monat800 g",
+        "cleaned": "BEBA - SUPREME 2 Folgenahrung nach dem 6. MonatGesponsert255BEBASUPREME 2 Folgenahrung nach dem 6. Monat800 g",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Perwoll Renew Colorwaschmittel für Helles",
+        "cleaned": "Perwoll Renew Colorwaschmittel für Helles",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Blink Farb- und Schmutzfangtücher XL-Pack",
+        "cleaned": "Blink Farb- und Schmutzfangtücher XL-Pack",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Blink Geschirr-Reiniger Tabs All-in-1",
+        "cleaned": "Blink Geschirr-Reiniger Tabs All-in-1",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Blink Geschirr-Reiniger Tabs All-in-1",
+        "cleaned": "Blink Geschirr-Reiniger Tabs All-in-1",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Blink Geschirrreiniger Pulver Classic",
+        "cleaned": "Blink Geschirrreiniger Pulver Classic",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Blink Power WC-Tabs",
+        "cleaned": "Blink Power WC-Tabs",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Blink Universal Waschmittelblätter",
+        "cleaned": "Blink Universal Waschmittelblätter",
+        "reason": "nonfood"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "CALISI BEAUTY - Wimpern Curler211CALISI BEAUTYWimpern Curler1 Stück",
+        "cleaned": "CALISI BEAUTY - Wimpern Curler211CALISI BEAUTYWimpern Curler1 Stück",
         "reason": "not_food"
       },
       {
@@ -486,9 +600,9 @@
       },
       {
         "store": "dm",
-        "name": "CD Deo Roll-on, Mein erstes Deo",
-        "cleaned": "CD Deo Roll-on, Mein erstes Deo",
-        "reason": "not_food"
+        "name": "CB12 Mundspülung Zahnfleischschutz",
+        "cleaned": "CB12 Mundspülung Zahnfleischschutz",
+        "reason": "nonfood"
       },
       {
         "store": "dm",
@@ -497,149 +611,71 @@
         "reason": "nonfood"
       },
       {
-        "store": "ALDI SÜD",
-        "name": "Bio Champignons braun",
-        "cleaned": "Bio Champignons braun",
+        "store": "MÜLLER",
+        "name": "CleanPac Bio-Abfallsack 120 Liter",
+        "cleaned": "CleanPac Bio-Abfallsack 120 Liter",
         "reason": "not_food"
       },
       {
-        "store": "ALDI SÜD",
-        "name": "Duschgel 675 ml, Noire",
-        "cleaned": "Duschgel 675 ml, Noire",
-        "reason": "nonfood"
-      },
-      {
-        "store": "ALDI SÜD",
-        "name": "Frischei-Waffeln",
-        "cleaned": "Frischei-Waffeln",
+        "store": "MÜLLER",
+        "name": "CleanPac nature Recycling Abfallsack mit Zugband 120 Liter",
+        "cleaned": "CleanPac nature Recycling Abfallsack mit Zugband 120 Liter",
         "reason": "not_food"
       },
       {
         "store": "dm",
-        "name": "Lansinoh Regenerationsspray",
-        "cleaned": "Lansinoh Regenerationsspray",
+        "name": "Sportness Proteinriegel 30% Natural Protein, Salty Chocolate Nut Geschmack",
+        "cleaned": "Sportness Proteinriegel 30% Natural Protein, Salty Chocolate Nut Geschmack",
         "reason": "not_food"
       },
       {
         "store": "dm",
-        "name": "LILLYDOO Shampoo & Waschlotion 2in1",
-        "cleaned": "LILLYDOO Shampoo & Waschlotion 2in1",
-        "reason": "nonfood"
-      },
-      {
-        "store": "MÜLLER",
-        "name": "meridol Mundspülung gegen Zahnfleischentzündung, Mundgeruch & Parodontitis",
-        "cleaned": "meridol Mundspülung gegen Zahnfleischentzündung, Mundgeruch & Parodontitis",
-        "reason": "nonfood"
-      },
-      {
-        "store": "ALDI SÜD",
-        "name": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
-        "cleaned": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
+        "name": "Schwarzkopf LIVE Glossing Go Gloss, Cherry Cola Red",
+        "cleaned": "Schwarzkopf LIVE Glossing Go Gloss, Cherry Cola Red",
         "reason": "not_food"
       },
       {
         "store": "dm",
-        "name": "Mivolis Arzneitee, Erkältungs Tee für Kinder (12 Beutel)",
-        "cleaned": "Mivolis Arzneitee, Erkältungs Tee für Kinder (12 Beutel",
+        "name": "Colgate Zahnbürste Extra gründlich mittel (2+1Gratis)",
+        "cleaned": "Colgate Zahnbürste Extra gründlich mittel (2+1Gratis",
         "reason": "not_food"
       },
       {
         "store": "dm",
-        "name": "Mivolis Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel)",
-        "cleaned": "Mivolis Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel",
+        "name": "Compeed Blasenpflaster Medium",
+        "cleaned": "Compeed Blasenpflaster Medium",
         "reason": "not_food"
       },
       {
-        "store": "ALDI SÜD",
-        "name": "Bio Naturland Hokkaido, lose",
-        "cleaned": "Bio Naturland Hokkaido, lose",
+        "store": "dm",
+        "name": "Danke Küchenrolle Halbblatt 3-lagig (4x100 Blatt)",
+        "cleaned": "Danke Küchenrolle Halbblatt 3-lagig (4x100 Blatt",
         "reason": "not_food"
       },
       {
-        "store": "EDEKA",
-        "name": "Perwoll Woll- und Feinwaschmittel",
-        "cleaned": "Perwoll Woll- und Feinwaschmittel",
+        "store": "dm",
+        "name": "Dein Bestes Katzenstreu Aktiv-Klumpstreu mit Aloe Vera Duft, Exquisit",
+        "cleaned": "Dein Bestes Katzenstreu Aktiv-Klumpstreu mit Aloe Vera Duft, Exquisit",
         "reason": "nonfood"
       },
       {
-        "store": "ROSSMANN",
-        "name": "SICHER BEZAHLEN",
-        "cleaned": "SICHER BEZAHLEN",
-        "reason": "not_food"
-      },
-      {
-        "store": "MÜLLER",
-        "name": "SoftStar Feuchtes Toilettenpapier Das Ultra Weiche Sensitive",
-        "cleaned": "SoftStar Feuchtes Toilettenpapier Das Ultra Weiche Sensitive",
+        "store": "dm",
+        "name": "Dein Bestes Katzenstreu, Holzstreu",
+        "cleaned": "Dein Bestes Katzenstreu, Holzstreu",
         "reason": "nonfood"
       },
       {
-        "store": "MÜLLER",
-        "name": "SoftStar Taschentücher Die Verwöhnsicheren 4-lagig",
-        "cleaned": "SoftStar Taschentücher Die Verwöhnsicheren 4-lagig",
-        "reason": "not_food"
-      },
-      {
-        "store": "MÜLLER",
-        "name": "SoftStar Toilettenpapier Das Zuverlässige 3-lagig 20x200 Blatt",
-        "cleaned": "SoftStar Toilettenpapier Das Zuverlässige 3-lagig 20x200 Blatt",
-        "reason": "nonfood"
-      },
-      {
-        "store": "ALDI SÜD",
-        "name": "Steckdosenwürfel mit USB, Schwarz",
-        "cleaned": "Steckdosenwürfel mit USB, Schwarz",
-        "reason": "nonfood"
-      },
-      {
-        "store": "ROSSMANN",
-        "name": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
-        "cleaned": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
-        "reason": "nonfood"
-      },
-      {
-        "store": "ROSSMANN",
-        "name": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung",
-        "cleaned": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung",
-        "reason": "nonfood"
-      },
-      {
-        "store": "ROSSMANN",
-        "name": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
-        "cleaned": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
-        "reason": "not_food"
-      },
-      {
-        "store": "ALDI SÜD",
-        "name": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
-        "cleaned": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
-        "reason": "not_food"
-      },
-      {
-        "store": "MÜLLER",
-        "name": "Wrigley's Extra® Kaugummis Dose Spearmint",
-        "cleaned": "Wrigley's Extra® Kaugummis Dose Spearmint",
-        "reason": "not_food"
-      },
-      {
-        "store": "MÜLLER",
-        "name": "Wrigley's Extra® Kaugummis Dose Strong Mint",
-        "cleaned": "Wrigley's Extra® Kaugummis Dose Strong Mint",
-        "reason": "not_food"
-      },
-      {
-        "store": "MÜLLER",
-        "name": "Wrigley's Extra® Professional White Dose",
-        "cleaned": "Wrigley's Extra® Professional White Dose",
+        "store": "dm",
+        "name": "Dein Bestes Kausnack Hund Twister reich an Huhn",
+        "cleaned": "Dein Bestes Kausnack Hund Twister reich an Huhn",
         "reason": "not_food"
       }
     ]
   },
   "semanticPass": {
-    "at": "2026-08-19T20:40:43.996Z",
-    "before": 166,
-    "after": 166,
+    "at": "2026-08-19T20:57:57.431Z",
+    "before": 285,
+    "after": 285,
     "repaired": 0,
     "normalizer": "product-normalizer-v1"
   }
