@@ -39,7 +39,7 @@ jobs:
           node-version: 20
       - name: Abhängigkeiten installieren
         working-directory: importer
-        run: npm ci
+        run: npm install --no-audit --no-fund
       - name: Semantik, EAN und Markt-Whitelist testen
         working-directory: importer
         run: npm test
