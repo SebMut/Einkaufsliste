@@ -1,5 +1,6 @@
 {
   "name": "angebotsradar-live-importer",
+  "version": "3.0.0",
   "private": true,
   "type": "module",
   "scripts": {"import": "node import.js"},
