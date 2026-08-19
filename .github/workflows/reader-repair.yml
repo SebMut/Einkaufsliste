@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - '.github/workflows/reader-repair.yml'
+      - 'importer/quality-v2.js'
 
 permissions:
   contents: write
@@ -61,7 +62,7 @@ jobs:
           for(const s of d.sources||[]) console.log(`${s.store}: ${s.status} / ${s.count||0} / ${s.message||''}`);
           console.log(`Gesamt: ${d.offerCount||0}`);
           console.log(`Stufe 1: ${q.before} -> ${q.after}; verworfen=${q.rejected}; repariert=${q.repaired}`);
-          if(q.finalPass) console.log(`Stufe 2: ${q.finalPass.before} -> ${q.finalPass.after}; verworfen=${q.finalPass.rejected}`);
+          if(q.finalPass) console.log(`Stufe 2: ${q.finalPass.before} -> ${q.finalPass.after}; verworfen=${q.finalPass.rejected}; repariert=${q.finalPass.repaired||0}`);
           NODE
 
       - name: Reparierte Live-Daten veröffentlichen
