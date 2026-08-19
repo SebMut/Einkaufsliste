@@ -1,4 +1,4 @@
-name: Live-Angebote importieren V4.3
+name: Live-Angebote importieren V4.4
 
 on:
   workflow_dispatch:
@@ -6,6 +6,8 @@ on:
     - cron: '17 4,10,16,22 * * *'
   push:
     paths:
+      - 'index.html'
+      - 'sw.js'
       - 'importer/import.js'
       - 'importer/fallback.js'
       - 'importer/reader-fallback.js'
@@ -19,6 +21,9 @@ on:
       - 'importer/quality-v2.js'
       - 'importer/quality-v3.js'
       - 'importer/quality-v4.js'
+      - 'importer/product-normalizer.js'
+      - 'importer/product-normalizer.test.js'
+      - 'importer/price-history.js'
       - 'importer/diagnostics.js'
       - 'importer/package.json'
       - 'data/markets.json'
@@ -28,7 +33,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: live-offers-v43
+  group: live-offers-v44
   cancel-in-progress: true
 
 jobs:
@@ -44,6 +49,11 @@ jobs:
       - name: Dependencies installieren
         working-directory: importer
         run: npm install --no-audit --no-fund
+
+      - name: Produktlogik testen
+        id: product_tests
+        working-directory: importer
+        run: npm test
 
       - name: Chromium installieren
         working-directory: importer
@@ -151,6 +161,13 @@ jobs:
         working-directory: importer
         run: node quality-v4.js
 
+      - name: Preishistorie aktualisieren
+        id: price_history
+        if: always() && steps.importer.outputs.exit_code == '0' && steps.quality_v4.outcome == 'success'
+        continue-on-error: true
+        working-directory: importer
+        run: npm run history
+
       - name: Diagnose erzeugen
         id: diagnostics
         if: always()
@@ -170,13 +187,13 @@ jobs:
         run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log
-          git add data/offers-live.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log
+          touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/price-history.json
+          git add data/offers-live.json data/price-history.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
             exit 0
           fi
-          git commit -m "Live-Angebote V4.3 aktualisieren"
+          git commit -m "Live-Angebote V4.4 und Preishistorie aktualisieren"
           git pull --rebase origin main
           git push origin main
 
@@ -184,6 +201,7 @@ jobs:
         if: always()
         shell: bash
         env:
+          PRODUCT_TEST_OUTCOME: ${{ steps.product_tests.outcome }}
           IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
           FALLBACK_OUTCOME: ${{ steps.fallback.outcome }}
           READER_OUTCOME: ${{ steps.reader.outcome }}
@@ -197,11 +215,12 @@ jobs:
           QUALITY_V2_OUTCOME: ${{ steps.quality_v2.outcome }}
           QUALITY_V3_OUTCOME: ${{ steps.quality_v3.outcome }}
           QUALITY_V4_OUTCOME: ${{ steps.quality_v4.outcome }}
+          PRICE_HISTORY_OUTCOME: ${{ steps.price_history.outcome }}
           DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
         run: |
-          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));const q=JSON.parse(fs.readFileSync('data/quality-report.json'));console.log(d.summary);console.log({final:d.summary.offerCount,strict:q.strictFoodPass||null,semantic:q.semanticPass||null});if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
+          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));const q=JSON.parse(fs.readFileSync('data/quality-report.json'));const h=JSON.parse(fs.readFileSync('data/price-history.json'));console.log(d.summary);console.log({final:d.summary.offerCount,strict:q.strictFoodPass||null,semantic:q.semanticPass||null,historyEvents:h.eventCount||0});if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
           DIAG_CODE=$?
-          if [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$RICH_READER_OUTCOME" != "success" ] || [ "$LIDL_TABLE_OUTCOME" != "success" ] || [ "$TEXT_READER_OUTCOME" != "success" ] || [ "$HIT_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$QUALITY_V2_OUTCOME" != "success" ] || [ "$QUALITY_V3_OUTCOME" != "success" ] || [ "$QUALITY_V4_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
+          if [ "$PRODUCT_TEST_OUTCOME" != "success" ] || [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$RICH_READER_OUTCOME" != "success" ] || [ "$LIDL_TABLE_OUTCOME" != "success" ] || [ "$TEXT_READER_OUTCOME" != "success" ] || [ "$HIT_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$QUALITY_V2_OUTCOME" != "success" ] || [ "$QUALITY_V3_OUTCOME" != "success" ] || [ "$QUALITY_V4_OUTCOME" != "success" ] || [ "$PRICE_HISTORY_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
             exit 1
           fi
