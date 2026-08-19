@@ -20,9 +20,14 @@ const rawLog = await readText(path.join(DATA, 'import-run.log'));
 const exitCode = Number(process.env.IMPORT_EXIT_CODE || 99);
 const startedMs = Number(process.env.IMPORT_STARTED_MS || Date.now());
 const finishedMs = Number(process.env.IMPORT_FINISHED_MS || Date.now());
-const now = new Date().toISOString();
+const checkedMs = Date.now();
+const now = new Date(checkedMs).toISOString();
 const liveMs = live?.generatedAt ? Date.parse(live.generatedAt) : NaN;
-const liveDataCurrent = Number.isFinite(liveMs) && liveMs >= startedMs - 5000 && liveMs <= finishedMs + 5000;
+// offers-live.json wird nach dem Browserimport noch durch Fallbacks, Qualitätsstufen
+// und den Katalog-Merge neu geschrieben. Deshalb darf generatedAt nach dem Ende des
+// Browserimport-Schritts liegen. Entscheidend ist: Die Datei stammt aus diesem Lauf
+// und nicht aus der Zukunft bzw. aus einem alten Lauf.
+const liveDataCurrent = Number.isFinite(liveMs) && liveMs >= startedMs - 5000 && liveMs <= checkedMs + 5000;
 const currentLive = liveDataCurrent ? live : { sources: [], offers: [], generatedAt: null };
 
 const lines = rawLog.split(/\r?\n/).filter(Boolean).map(line => {
