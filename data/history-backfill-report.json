@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-19T20:05:54.144Z",
-  "gitCommitsInspected": 37,
-  "offerFilesRead": 37,
-  "rawPriceRecords": 9954,
-  "historicalPriceEvents": 232,
+  "generatedAt": "2026-08-19T20:11:24.514Z",
+  "gitCommitsInspected": 38,
+  "offerFilesRead": 38,
+  "rawPriceRecords": 10085,
+  "historicalPriceEvents": 258,
   "productsWithHistory": 134,
   "oldestPriceDate": "2026-08-19T11:27:00.000Z",
   "retailers": [
@@ -14,8 +14,8 @@
     "PENNY",
     "REWE"
   ],
-  "duplicatesRemoved": 2906,
-  "rejectedUncertain": 6615,
+  "duplicatesRemoved": 2929,
+  "rejectedUncertain": 6697,
   "archivedExcludedMarketEvents": 201,
   "minConfidence": 0.8
 }
