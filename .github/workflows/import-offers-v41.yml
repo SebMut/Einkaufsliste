@@ -1,4 +1,4 @@
-name: Live-Angebote importieren V5.0
+name: Live-Angebote importieren V5.1
 
 on:
   workflow_dispatch:
@@ -12,8 +12,6 @@ on:
       - 'importer/reader-fallback.js'
       - 'importer/netto-reader-v2.js'
       - 'importer/rich-retailers.js'
-      - 'importer/text-retailers.js'
-      - 'importer/hit-reader-v4.js'
       - 'importer/lidl-table-reader.js'
       - 'importer/bio-retailers.js'
       - 'importer/metro-auth.js'
@@ -23,6 +21,8 @@ on:
       - 'importer/quality-v4.js'
       - 'importer/semantic-products.js'
       - 'importer/semantic-live-audit.test.js'
+      - 'importer/semantic-edge-cases.test.js'
+      - 'importer/gtin.js'
       - 'importer/product-normalizer.js'
       - 'importer/product-normalizer.test.js'
       - 'importer/product-identity.js'
@@ -42,7 +42,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: live-offers-v50
+  group: live-offers-v51
   cancel-in-progress: true
 
 jobs:
@@ -57,15 +57,17 @@ jobs:
       - name: Dependencies installieren
         working-directory: importer
         run: npm install --no-audit --no-fund
-      - name: Produktlogik und Markt-Whitelist testen
+      - name: Produktlogik und Markt-Whitelist vor Import testen
         id: product_tests
         working-directory: importer
         run: npm test
       - name: Chromium installieren
+        if: steps.product_tests.outcome == 'success'
         working-directory: importer
         run: npx playwright install --with-deps chromium
       - name: Angebote per Browser und API importieren
         id: importer
+        if: steps.product_tests.outcome == 'success'
         working-directory: importer
         shell: bash
         run: |
@@ -80,55 +82,43 @@ jobs:
           exit 0
       - name: Server-HTML Fallback
         id: fallback
-        if: always() && steps.importer.outputs.exit_code == '0'
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: npm run fallback
       - name: Reader-Fallback für REWE EDEKA METRO
         id: reader
-        if: always() && steps.importer.outputs.exit_code == '0'
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node reader-fallback.js
       - name: Netto Filial-Reader V2
         id: netto_reader
-        if: always() && steps.importer.outputs.exit_code == '0'
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node netto-reader-v2.js
-      - name: Spezialreader NORMA Lidl Kaufland
+      - name: Spezialreader für aktive Discounter
         id: rich_reader
-        if: always() && steps.importer.outputs.exit_code == '0'
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node rich-retailers.js
       - name: Lidl Preisfallback
         id: lidl_table
-        if: always() && steps.importer.outputs.exit_code == '0'
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node lidl-table-reader.js
-      - name: Kaufland Textreader
-        id: text_reader
-        if: always() && steps.importer.outputs.exit_code == '0'
-        continue-on-error: true
-        working-directory: importer
-        run: node text-retailers.js
-      - name: HIT Nested-Reader
-        id: hit_reader
-        if: always() && steps.importer.outputs.exit_code == '0'
-        continue-on-error: true
-        working-directory: importer
-        run: node hit-reader-v4.js
       - name: Bio-Reader Alnatura und Denns
         id: bio_reader
-        if: always() && steps.importer.outputs.exit_code == '0'
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node bio-retailers.js
       - name: METRO Kundenlogin
         id: metro_auth
-        if: always() && steps.importer.outputs.exit_code == '0'
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         env:
@@ -137,39 +127,39 @@ jobs:
         run: node metro-auth.js
       - name: Qualitätsprüfung Stufe 1
         id: sanitize
-        if: always() && steps.importer.outputs.exit_code == '0'
-        continue-on-error: true
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0'
         working-directory: importer
         run: node sanitize.js
       - name: Qualitätsprüfung Stufe 2
         id: quality_v2
-        if: always() && steps.importer.outputs.exit_code == '0'
-        continue-on-error: true
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0' && steps.sanitize.outcome == 'success'
         working-directory: importer
         run: node quality-v2.js
       - name: Qualitätsprüfung Stufe 3 Lebensmittel
         id: quality_v3
-        if: always() && steps.importer.outputs.exit_code == '0'
-        continue-on-error: true
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0' && steps.quality_v2.outcome == 'success'
         working-directory: importer
         run: node quality-v3.js
       - name: Qualitätsprüfung Stufe 4 Semantik
         id: quality_v4
-        if: always() && steps.importer.outputs.exit_code == '0'
-        continue-on-error: true
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0' && steps.quality_v3.outcome == 'success'
         working-directory: importer
         run: node quality-v4.js
       - name: Strikte Markt-Whitelist und regulären Katalog erzwingen
         id: market_guard
-        if: always() && steps.importer.outputs.exit_code == '0'
+        if: always() && steps.product_tests.outcome == 'success' && steps.importer.outputs.exit_code == '0' && steps.quality_v4.outcome == 'success'
         working-directory: importer
         run: npm run merge
       - name: Preishistorie aktualisieren
         id: price_history
-        if: always() && steps.importer.outputs.exit_code == '0' && steps.market_guard.outcome == 'success'
-        continue-on-error: true
+        if: always() && steps.market_guard.outcome == 'success'
         working-directory: importer
         run: npm run history
+      - name: Generierte Live-Daten erneut vollständig testen
+        id: post_tests
+        if: always() && steps.price_history.outcome == 'success'
+        working-directory: importer
+        run: npm test
       - name: Diagnose erzeugen
         id: diagnostics
         if: always()
@@ -180,9 +170,45 @@ jobs:
           IMPORT_STARTED_MS: ${{ steps.importer.outputs.started_ms }}
           IMPORT_FINISHED_MS: ${{ steps.importer.outputs.finished_ms }}
         run: node diagnostics.js
+      - name: Freigabe vor Veröffentlichung
+        id: release_gate
+        if: always()
+        shell: bash
+        env:
+          PRODUCT_TEST_OUTCOME: ${{ steps.product_tests.outcome }}
+          IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
+          SANITIZE_OUTCOME: ${{ steps.sanitize.outcome }}
+          QUALITY_V2_OUTCOME: ${{ steps.quality_v2.outcome }}
+          QUALITY_V3_OUTCOME: ${{ steps.quality_v3.outcome }}
+          QUALITY_V4_OUTCOME: ${{ steps.quality_v4.outcome }}
+          MARKET_GUARD_OUTCOME: ${{ steps.market_guard.outcome }}
+          PRICE_HISTORY_OUTCOME: ${{ steps.price_history.outcome }}
+          POST_TEST_OUTCOME: ${{ steps.post_tests.outcome }}
+          DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json','utf8'));
+          console.log('Diagnose:', d.summary);
+          if((d.summary.errors||0)>0 || d.summary.liveDataCurrent!==true) process.exit(2);
+          NODE
+          if [ "$PRODUCT_TEST_OUTCOME" != "success" ] || \
+             [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || \
+             [ "$SANITIZE_OUTCOME" != "success" ] || \
+             [ "$QUALITY_V2_OUTCOME" != "success" ] || \
+             [ "$QUALITY_V3_OUTCOME" != "success" ] || \
+             [ "$QUALITY_V4_OUTCOME" != "success" ] || \
+             [ "$MARKET_GUARD_OUTCOME" != "success" ] || \
+             [ "$PRICE_HISTORY_OUTCOME" != "success" ] || \
+             [ "$POST_TEST_OUTCOME" != "success" ] || \
+             [ "$DIAGNOSTICS_OUTCOME" != "success" ]; then
+            echo "Veröffentlichung gesperrt: mindestens eine Pflichtprüfung ist fehlgeschlagen."
+            exit 1
+          fi
+          echo "Alle Pflichtprüfungen bestanden. Veröffentlichung freigegeben."
       - name: Ergebnisse veröffentlichen
         id: publish
-        if: always() && steps.market_guard.outcome == 'success'
+        if: always() && steps.release_gate.outcome == 'success'
         continue-on-error: true
         shell: bash
         run: |
@@ -191,19 +217,16 @@ jobs:
           touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log data/price-history.json
           git add data/offers-live.json data/price-history.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Live-Produkte und Angebote V5.0 aktualisieren [skip ci]"
+          git commit -m "Live-Produkte und Angebote V5.1 aktualisieren [skip ci]"
           git pull --rebase origin main
           git push origin main
       - name: Ergebnis bewerten
         if: always()
         shell: bash
         env:
-          PRODUCT_TEST_OUTCOME: ${{ steps.product_tests.outcome }}
-          IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
-          MARKET_GUARD_OUTCOME: ${{ steps.market_guard.outcome }}
-          DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
+          RELEASE_GATE_OUTCOME: ${{ steps.release_gate.outcome }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
         run: |
-          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));console.log(d.summary);if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
-          DIAG_CODE=$?
-          if [ "$PRODUCT_TEST_OUTCOME" != "success" ] || [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$MARKET_GUARD_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then exit 1; fi
+          if [ "$RELEASE_GATE_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ]; then
+            exit 1
+          fi
