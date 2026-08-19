@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'importer/metro-prospekt-debug.js'
+      - 'importer/metro-pdf-debug.js'
       - '.github/workflows/metro-prospekt-debug.yml'
 
 permissions:
@@ -22,14 +23,18 @@ jobs:
       - name: Dependencies installieren
         working-directory: importer
         run: npm install --no-audit --no-fund
+      - name: PDF Werkzeug installieren
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
       - name: Prospekt analysieren
         working-directory: importer
-        run: node metro-prospekt-debug.js
+        run: |
+          node metro-prospekt-debug.js
+          node metro-pdf-debug.js
       - name: Diagnose veröffentlichen
         run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/metro-prospekt-debug.json
+          git add data/metro-prospekt-debug.json data/metro-pdf-debug.txt
           git commit -m "METRO Prospekt-Diagnose aktualisieren" || exit 0
           git pull --rebase origin main
           git push origin main
