@@ -7,7 +7,7 @@ V3 einer mobilen Web-App zum lokalen Lebensmittel-Angebotsvergleich rund um **85
 - responsive Web-App / PWA
 - **automatischer Live-Importer über GitHub Actions**
 - Import direkt von den offiziellen Angebotsseiten der Händler
-- aktuell konfigurierte Quellen: REWE Feldkirchen, EDEKA Berghammer Feldkirchen, PENNY, HIT Parsdorf, ALDI SÜD, Lidl, Netto Trudering und NORMA
+- aktuell konfigurierte Quellen: REWE Feldkirchen, EDEKA Berghammer Feldkirchen, PENNY, HIT Parsdorf, ALDI SÜD, Lidl, Netto Trudering, NORMA und Kaufland München-Berg am Laim
 - Import viermal täglich sowie manuell über `workflow_dispatch`
 - Händler- und Kategorie-Filter
 - Produktsuche
