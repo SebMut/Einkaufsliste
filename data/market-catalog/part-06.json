@@ -1,0 +1,36 @@
+[
+  {
+    "store": "ALDI SÜD",
+    "market": "München-Riem Arcaden",
+    "address": "Willy-Brandt-Platz 5, 81829 München",
+    "lat": null,
+    "lon": null,
+    "distanceKm": 3.3,
+    "distanceVerified": true,
+    "type": "Discounter",
+    "sourceUrl": "https://www.aldi-sued.de/filialen",
+    "offerUrl": "https://www.aldi-sued.de/angebote",
+    "scope": "regional",
+    "active": true,
+    "importStatus": "partial",
+    "distanceMethod": "riem_arcaden_official_directory",
+    "isRiemArcaden": true
+  },
+  {
+    "store": "MÜLLER",
+    "market": "München-Riem Arcaden",
+    "address": "Willy-Brandt-Platz 5, 81829 München",
+    "lat": null,
+    "lon": null,
+    "distanceKm": 3.3,
+    "distanceVerified": true,
+    "type": "Drogerie",
+    "sourceUrl": "https://www.mueller.de/",
+    "offerUrl": "https://www.mueller.de/online-angebote/",
+    "scope": "regional",
+    "active": true,
+    "importStatus": "partial",
+    "distanceMethod": "riem_arcaden_official_directory",
+    "isRiemArcaden": true
+  }
+]

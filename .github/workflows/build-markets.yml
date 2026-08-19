@@ -13,6 +13,7 @@ on:
       - 'importer/product-identity.js'
       - 'importer/product-identity.test.js'
       - 'importer/catalog-import.js'
+      - 'importer/mueller-catalog.js'
       - 'importer/catalog-merge.js'
       - 'importer/history-backfill.js'
       - 'importer/price-history.js'
@@ -29,7 +30,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -49,9 +50,12 @@ jobs:
       - name: Chromium für dynamische Händlerkataloge installieren
         working-directory: importer
         run: npx playwright install --with-deps chromium
-      - name: Offizielle reguläre Katalogdaten importieren
+      - name: Offizielle reguläre Katalogdaten dm und ROSSMANN importieren
         working-directory: importer
         run: npm run catalog
+      - name: Offiziellen MÜLLER-Teilkatalog importieren
+        working-directory: importer
+        run: node mueller-catalog.js
       - name: Katalog und Angebote zusammenführen und Marktgrenze erzwingen
         working-directory: importer
         run: npm run merge
@@ -75,8 +79,9 @@ jobs:
           const badMarkets=(markets.markets||[]).filter(m=>!isAllowedMarket(m));
           const badProducts=(live.offers||[]).filter(o=>!isAllowedMarket(o));
           const badHistory=(history.events||[]).filter(e=>e.activeMarket===false);
-          if(badMarkets.length||badProducts.length||badHistory.length){
-            console.error({badMarkets:badMarkets.length,badProducts:badProducts.length,badHistory:badHistory.length});
+          const invalidRiem=(markets.markets||[]).filter(m=>/riem/i.test(m.market||'')&&!m.isRiemArcaden);
+          if(badMarkets.length||badProducts.length||badHistory.length||invalidRiem.length){
+            console.error({badMarkets:badMarkets.length,badProducts:badProducts.length,badHistory:badHistory.length,invalidRiem:invalidRiem.length});
             process.exit(1);
           }
           console.log(`Validiert: ${markets.markets.length} Filialen, ${live.productCount??live.offers.length} Produkte, ${live.offerCount??0} Angebote, ${catalog.productCount??0} Katalogprodukte, ${history.eventCount??history.events.length} aktive Preisereignisse.`);
