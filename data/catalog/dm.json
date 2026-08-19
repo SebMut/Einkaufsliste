@@ -1,6 +1,6 @@
 {
-  "schema": 4,
-  "generatedAt": "2026-08-19T20:29:34.831Z",
+  "schema": 3,
+  "generatedAt": "2026-08-19T20:18:41.021Z",
   "retailer": "dm",
   "catalogStatus": "partial_catalog",
   "branches": [
@@ -20,15 +20,15 @@
       "isRiemArcaden": false
     }
   ],
-  "productCount": 233,
+  "productCount": 196,
   "sources": [
     {
       "category": "Haushalt",
       "url": "https://www.dm.de/haushalt",
       "status": "ok",
-      "count": 47,
+      "count": 43,
       "mode": "browser",
-      "htmlBytes": 486637,
+      "htmlBytes": 469104,
       "jsonResponses": 11,
       "networkProducts": 0
     },
@@ -38,8 +38,8 @@
       "status": "ok",
       "count": 45,
       "mode": "browser",
-      "htmlBytes": 499606,
-      "jsonResponses": 10,
+      "htmlBytes": 499759,
+      "jsonResponses": 11,
       "networkProducts": 0
     },
     {
@@ -48,18 +48,18 @@
       "status": "ok",
       "count": 47,
       "mode": "browser",
-      "htmlBytes": 537474,
+      "htmlBytes": 538159,
       "jsonResponses": 10,
       "networkProducts": 0
     },
     {
       "category": "Mundpflege",
-      "url": "https://www.dm.de/gesundheit/zahnpflege",
-      "status": "ok",
-      "count": 70,
+      "url": "https://www.dm.de/mund-und-zahnpflege",
+      "status": "no_data",
+      "count": 0,
       "mode": "browser",
-      "htmlBytes": 460385,
-      "jsonResponses": 10,
+      "htmlBytes": 114656,
+      "jsonResponses": 6,
       "networkProducts": 0
     },
     {
@@ -68,8 +68,8 @@
       "status": "ok",
       "count": 71,
       "mode": "browser",
-      "htmlBytes": 614700,
-      "jsonResponses": 13,
+      "htmlBytes": 613314,
+      "jsonResponses": 12,
       "networkProducts": 0
     },
     {
@@ -78,7 +78,7 @@
       "status": "ok",
       "count": 57,
       "mode": "browser",
-      "htmlBytes": 645248,
+      "htmlBytes": 631035,
       "jsonResponses": 11,
       "networkProducts": 0
     },
@@ -88,7 +88,7 @@
       "status": "ok",
       "count": 35,
       "mode": "browser",
-      "htmlBytes": 391896,
+      "htmlBytes": 391895,
       "jsonResponses": 10,
       "networkProducts": 0
     }
@@ -145,7 +145,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: HEITMANN pure; Produktname: Reines Aktiv Natron Pulver, 400 g;",
@@ -198,7 +198,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: HEITMANN pure; Produktname: Zitronensäure Pulver, 350 g;",
@@ -251,7 +251,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Tempo; Produktname: Feuchtes Toilettenpapier Just 1 XL-Tuch, 56 St;",
@@ -304,7 +304,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Vakuumbeutel-Set, 3",
@@ -357,7 +357,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Denkmit; Produktname: Lufterfrischer Duftstecker Orchidee, 1 St;",
@@ -410,7 +410,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Hawaiian Tropic; Produktname: Sonnenschutz Travel Set 3tlg, 1 St;",
@@ -463,7 +463,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Punch; Produktname: Spülschwamm Zitrone, 1 St;",
@@ -516,7 +516,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Energizer; Produktname: Knopfzelle CR2032 Lithium Child Shield, 2 St;",
@@ -569,7 +569,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Ungezieferspray, 500 ml;",
@@ -622,7 +622,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Vanish Oxi Action; Produktname: Fleckenentferner Pulver Oxi Action Pink, 750 g;",
@@ -675,7 +675,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine Sauerstoffbleiche, 400 g;",
@@ -728,7 +728,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Tempo; Produktname: Taschentücher Light Box XXL, 140 St;",
@@ -781,7 +781,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Verschlussklammern aus Edelstahl, 3 St;",
@@ -834,7 +834,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Denkmit; Produktname: Lufterfrischer Duftstecker Vanille, 1 St;",
@@ -887,7 +887,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Finish; Produktname: Spülmaschinen-Caps Ultimate Citrus, 49 St;",
@@ -940,7 +940,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Energizer; Produktname: Knopfzelle CR2025 Lithium Child Shield, 2 St;",
@@ -993,7 +993,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Nexa Lotte; Produktname: Mottenpapier, 6 St; Rechtliche Kategorie: Biozidprodukt;",
@@ -1046,7 +1046,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Vanish Oxi Action; Produktname: Fleckenentferner Pulver Oxi Action Weiß, 750 g;",
@@ -1099,7 +1099,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Flower Nachfüllpack 1 St, 75 ml;",
@@ -1152,7 +1152,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Danke; Produktname: Küchenrolle Halbblatt 3-lagig (4x100 Blatt), 4 St;",
@@ -1205,113 +1205,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Domestos; Produktname: WC-Stein Pink Magnolie, 2 St;",
-      "brand": "Domestos",
-      "ean": null,
-      "size": "2 St",
-      "currentPrice": 2.75,
-      "regularPrice": 2.75,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 1.38,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/1493307/domestos-wc-stein-pink-magnolie",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747534754/assets/pas/images/3abf7386-1092-4a90-8745-9e379c6af5f8/domestos-wc-stein-pink-magnolie",
-      "sourceUrl": "https://www.dm.de/haushalt",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Haushalt",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 2.75,
-      "unit": 1.38,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Domestos; Produktname: WC-Stein Pink Magnolie, 2 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Domestos; Produktname: WC-Stein Pink Magnolie, 2",
-      "canonicalProduct": "Marke: Domestos; Produktname: WC-Stein Pink Magnolie, 2",
-      "canonicalId": "marke-domestos-produktname-wc-stein-pink-magnolie-2-marke-domestos-produktname-wc-stein-pink-magnolie-2",
-      "bundleKey": "Marke: Domestos; Produktname: WC-Stein Pink Magnolie, 2",
-      "key": "Marke: Domestos; Produktname: WC-Stein Pink Magnolie, 2",
-      "similarityKey": "Marke: Domestos; Produktname: WC-Stein Pink Magnolie, 2|Marke: Domestos; Produktname: WC-Stein Pink Magnolie, 2",
-      "exactMatchKey": "Marke: Domestos; Produktname: WC-Stein Pink Magnolie, 2|Marke: Domestos; Produktname: WC-Stein Pink Magnolie, 2|label:domestos",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 2,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-domestos-2-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: MELLERUD; Produktname: Duschkabinen Reiniger, 500 ml;",
-      "brand": "MELLERUD",
-      "ean": null,
-      "size": "500 ml",
-      "currentPrice": 5.95,
-      "regularPrice": 5.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 11.9,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1647753/mellerud-duschkabinen-reiniger",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1763250523/assets/pas/images/73c35323-075a-45ac-ac70-05497c6ce185/mellerud-duschkabinen-reiniger",
-      "sourceUrl": "https://www.dm.de/haushalt",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Haushalt",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 5.95,
-      "unit": 11.9,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: MELLERUD; Produktname: Duschkabinen Reiniger, 500 ml;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: MELLERUD; Produktname: Duschkabinen Reiniger, 50",
-      "canonicalProduct": "Marke: MELLERUD; Produktname: Duschkabinen Reiniger, 50",
-      "canonicalId": "marke-mellerud-produktname-duschkabinen-reiniger-50-marke-mellerud-produktname-duschkabinen-reiniger-50",
-      "bundleKey": "Marke: MELLERUD; Produktname: Duschkabinen Reiniger, 50",
-      "key": "Marke: MELLERUD; Produktname: Duschkabinen Reiniger, 50",
-      "similarityKey": "Marke: MELLERUD; Produktname: Duschkabinen Reiniger, 50|Marke: MELLERUD; Produktname: Duschkabinen Reiniger, 50",
-      "exactMatchKey": "Marke: MELLERUD; Produktname: Duschkabinen Reiniger, 50|Marke: MELLERUD; Produktname: Duschkabinen Reiniger, 50|label:mellerud",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-mellerud-500-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Einmalhandschuhe latexfrei schwarz Mittel, 60 St;",
@@ -1364,7 +1258,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Einmal-Handschuhe latexfrei weiß Mittel, 60 St;",
@@ -1417,7 +1311,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Lebensmittelmottenfallen, 2 St; Rechtliche Kategorie: Biozidprodukt;",
@@ -1470,7 +1364,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Fusselroller Nachfüllpack, 2 St;",
@@ -1523,7 +1417,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Sanft&Sicher; Produktname: Feuchtes Toilettenpapier Ultra Sensitiv (2x50 Stück), 100 St;",
@@ -1576,7 +1470,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Denkmit; Produktname: Colorwaschmittel Touch of Brazil, 30 Wl;",
@@ -1629,7 +1523,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Sanft&Sicher; Produktname: Feuchtes Toilettenpapier Zarte Pflege (3x50 St), 150 St;",
@@ -1682,7 +1576,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Kühne; Produktname: Essigreiniger Essenz zum Reinigen & Kochen, 0,4 l;",
@@ -1735,7 +1629,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Müllbeutel Recycling Schwerlastsack heavy duty 120L, 10 St;",
@@ -1788,7 +1682,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Desinfektionstücher, 30 St; Rechtliche Kategorie: Biozidprodukt, Medizinprodukt;",
@@ -1841,60 +1735,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Gesponsert",
-      "brand": "",
-      "ean": null,
-      "size": "Packung",
-      "currentPrice": 1.05,
-      "regularPrice": 1.05,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": null,
-      "baseUnit": null,
-      "productUrl": "/p/d/1493307/domestos-wc-stein-pink-magnolie",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747534754/assets/pas/images/3abf7386-1092-4a90-8745-9e379c6af5f8/domestos-wc-stein-pink-magnolie",
-      "sourceUrl": "https://www.dm.de/haushalt",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Haushalt",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 1.05,
-      "unit": 1.05,
-      "unitLabel": "€/Packung",
-      "bio": false,
-      "originalName": "Gesponsert",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Gesponsert",
-      "canonicalProduct": "Gesponsert",
-      "canonicalId": "gesponsert-gesponsert",
-      "bundleKey": "Gesponsert",
-      "key": "Gesponsert",
-      "similarityKey": "Gesponsert|Gesponsert",
-      "exactMatchKey": "Gesponsert|Gesponsert|label:gesponsert",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-gesponsert-packung",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Neu im Sortiment",
@@ -1947,7 +1788,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Estrid; Produktname: Rasierklingen Body, 4 St;",
@@ -2000,7 +1841,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: S-QUiTO free; Produktname: Insektenstichpflaster Soforthilfe, 30 St; Rechtliche Kategorie: Medizinprodukt;",
@@ -2053,7 +1894,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea; Produktname: Gesichtscreme Beauty Expert NMF Base, 125 ml;",
@@ -2106,7 +1947,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea; Produktname: Cleanser Gentle Mochi, korean skincare balea, 100 ml;",
@@ -2159,7 +2000,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: sebamed; Produktname: Duschgel Frische Dusche Allantoin, 400 ml;",
@@ -2212,7 +2053,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: SUNDANCE; Produktname: Sonncreme Gel MED ultra sensitiv, LSF 50+, 100 ml;",
@@ -2265,7 +2106,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: SHIRIN BEAUTY; Produktname: Body Milk Strawberry, 300 g;",
@@ -2318,7 +2159,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Multi-Gyn; Produktname: FloraBalance Vaginalgel gesunde Vaginalflora, 50 ml; Rechtliche Kategorie: Medizinprodukt;",
@@ -2371,7 +2212,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Jean&Len; Produktname: Flüssigseife Tutto Bene Coco/Vanilla, 250 ml;",
@@ -2424,7 +2265,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Old Spice; Produktname: Antitranspirant Deostick Cold Spice Clear Gel, 70 ml;",
@@ -2477,7 +2318,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Compeed; Produktname: Blasenpflaster Medium, 4 St; Rechtliche Kategorie: Medizinprodukt;",
@@ -2530,7 +2371,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Körper- & Shampoobürste Seaside Balance 2in1, 1 St;",
@@ -2583,7 +2424,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea; Produktname: Handmaske Sweet Berry bedruckt (1 Paar), 2 St;",
@@ -2636,7 +2477,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: LeGer; Produktname: Signature Velvet Eau de Parfum, 30 ml;",
@@ -2689,7 +2530,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Jessa; Produktname: Periodenunterwäsche Slip Teens Gr. 146/152, 1 St;",
@@ -2742,7 +2583,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: TENA; Produktname: discreet Einlagen Inkontinenz Protect+ Maxi, 8 St; Rechtliche Kategorie: Medizinprodukt;",
@@ -2795,7 +2636,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: M. Asam; Produktname: Lippenpflege Smoothing Lip Butter Coco Bliss, 14 g;",
@@ -2848,7 +2689,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ARTDECO; Produktname: Geschenkset All in One Mascara + Micellar Water 2tlg, 1 St;",
@@ -2901,7 +2742,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: AMORELIE; Produktname: Beckenbodentrainer Perifit Care App-gesteuert, Pink, 1 St;",
@@ -2954,7 +2795,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: NIVEA SUN; Produktname: Sonnenspray sensitiv Sofortschutz LSF 50+, 200 ml;",
@@ -3007,60 +2848,60 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
-      "name": "Marke: NIVEA SUN; Produktname: After Sun Lotion mit Aloe Vera & Hyaluron, 400 ml;",
-      "brand": "NIVEA SUN",
+      "name": "Marke: Veet MEN; Produktname: Haarentfernungsset Intimbereich (Creme & Pflegebalsam), 1 St;",
+      "brand": "Veet MEN",
       "ean": null,
-      "size": "400 ml",
-      "currentPrice": 7.45,
-      "regularPrice": 7.45,
+      "size": "1 St",
+      "currentPrice": 10.95,
+      "regularPrice": 10.95,
       "offerPrice": null,
       "isOffer": false,
-      "basePrice": 18.63,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1268421/nivea-sun-after-sun-lotion-mit-aloe-vera-und-hyaluron",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1772922068/assets/pas/images/6243fd99-cd04-4b8c-b33b-300cf164a454/nivea-sun-after-sun-lotion-mit-aloe-vera-und-hyaluron",
+      "basePrice": 10.95,
+      "baseUnit": "€/Stk.",
+      "productUrl": "/p/d/1635600/veet-men-haarentfernungsset-intimbereich-creme-und-pflegebalsam",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747430909/assets/pas/images/e2d6d6a5-b030-4ff1-af8b-1caf4ce82062/veet-men-haarentfernungsset-intimbereich-creme-und-pflegebalsam",
       "sourceUrl": "https://www.dm.de/pflege-und-parfum",
       "sourceType": "official_catalog",
       "sourceCategory": "Körperpflege",
       "store": "dm",
       "market": "Katalog",
       "cat": "Lebensmittel",
-      "price": 7.45,
-      "unit": 18.63,
-      "unitLabel": "€/l",
+      "price": 10.95,
+      "unit": 10.95,
+      "unitLabel": "€/Stk.",
       "bio": false,
-      "originalName": "Marke: NIVEA SUN; Produktname: After Sun Lotion mit Aloe Vera & Hyaluron, 400 ml;",
+      "originalName": "Marke: Veet MEN; Produktname: Haarentfernungsset Intimbereich (Creme & Pflegebalsam), 1 St;",
       "department": "Lebensmittel",
       "category": "Lebensmittel",
       "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: NIVEA SUN; Produktname: After Sun Lotion mit Alo",
-      "canonicalProduct": "Marke: NIVEA SUN; Produktname: After Sun Lotion mit Alo",
-      "canonicalId": "marke-nivea-sun-produktname-after-sun-lotion-mit-alo-marke-nivea-sun-produktname-after-sun-lotion-mit-alo",
-      "bundleKey": "Marke: NIVEA SUN; Produktname: After Sun Lotion mit Alo",
-      "key": "Marke: NIVEA SUN; Produktname: After Sun Lotion mit Alo",
-      "similarityKey": "Marke: NIVEA SUN; Produktname: After Sun Lotion mit Alo|Marke: NIVEA SUN; Produktname: After Sun Lotion mit Alo",
-      "exactMatchKey": "Marke: NIVEA SUN; Produktname: After Sun Lotion mit Alo|Marke: NIVEA SUN; Produktname: After Sun Lotion mit Alo|label:nivea-sun",
+      "canonicalGroup": "Marke: Veet MEN; Produktname: Haarentfernungsset Intimb",
+      "canonicalProduct": "Marke: Veet MEN; Produktname: Haarentfernungsset Intimb",
+      "canonicalId": "marke-veet-men-produktname-haarentfernungsset-intimb-marke-veet-men-produktname-haarentfernungsset-intimb",
+      "bundleKey": "Marke: Veet MEN; Produktname: Haarentfernungsset Intimb",
+      "key": "Marke: Veet MEN; Produktname: Haarentfernungsset Intimb",
+      "similarityKey": "Marke: Veet MEN; Produktname: Haarentfernungsset Intimb|Marke: Veet MEN; Produktname: Haarentfernungsset Intimb",
+      "exactMatchKey": "Marke: Veet MEN; Produktname: Haarentfernungsset Intimb|Marke: Veet MEN; Produktname: Haarentfernungsset Intimb|label:veet-men",
       "organic": false,
       "variant": "",
       "attributes": {
         "fatContent": null,
         "diaperSize": null,
-        "packageCount": null,
+        "packageCount": 1,
         "processing": null,
         "form": null
       },
       "marketSection": "Lebensmittel",
       "confidence": 0.58,
       "icon": "🛒",
-      "canonicalProductId": "dm-nivea-sun-400-ml",
+      "canonicalProductId": "dm-veet-men-1-st",
       "identitySource": "label",
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Moskinto; Produktname: Mückenstichpflaster Soforthilfe, 24 St; Rechtliche Kategorie: Medizinprodukt;",
@@ -3113,7 +2954,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: SUNDANCE; Produktname: Sonnenspray transparent Sport, LSF 50, 200 ml;",
@@ -3166,7 +3007,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: SUNDANCE; Produktname: Sonnenmilch Kids MED ultra sensitiv LSF 50+, 200 ml;",
@@ -3219,7 +3060,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Rexona; Produktname: Antitranspirant Deocreme Maximum Protection Confidence, 45 ml;",
@@ -3272,7 +3113,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: SUNDANCE; Produktname: Sonnenspray sensitiv, Emulsion LSF 50, 150 ml;",
@@ -3325,7 +3166,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea; Produktname: Flüssigseife Ginseng & Green Mandarin Nachfüllpack, 500 ml;",
@@ -3378,7 +3219,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea; Produktname: Gesichtshaarentferner, 3 St;",
@@ -3431,7 +3272,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea; Produktname: Flüssigseife Eukalyptus & Lotus, Nachfüllpack, 500 ml;",
@@ -3484,7 +3325,60 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
+    },
+    {
+      "name": "Gesponsert",
+      "brand": "",
+      "ean": null,
+      "size": "Packung",
+      "currentPrice": 1.05,
+      "regularPrice": 1.05,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": null,
+      "baseUnit": null,
+      "productUrl": "/p/d/1667258/nivea-sun-sonnenspray-sensitiv-sofortschutz-lsf-50",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1771937124/assets/pas/images/caf3f68f-9ba4-4a72-86c8-5bc85a91d742/nivea-sun-sonnenspray-sensitiv-sofortschutz-lsf-50",
+      "sourceUrl": "https://www.dm.de/pflege-und-parfum",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Körperpflege",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Lebensmittel",
+      "price": 1.05,
+      "unit": 1.05,
+      "unitLabel": "€/Packung",
+      "bio": false,
+      "originalName": "Gesponsert",
+      "department": "Lebensmittel",
+      "category": "Lebensmittel",
+      "subcategory": "Lebensmittel",
+      "canonicalGroup": "Gesponsert",
+      "canonicalProduct": "Gesponsert",
+      "canonicalId": "gesponsert-gesponsert",
+      "bundleKey": "Gesponsert",
+      "key": "Gesponsert",
+      "similarityKey": "Gesponsert|Gesponsert",
+      "exactMatchKey": "Gesponsert|Gesponsert|label:gesponsert",
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "fatContent": null,
+        "diaperSize": null,
+        "packageCount": null,
+        "processing": null,
+        "form": null
+      },
+      "marketSection": "Lebensmittel",
+      "confidence": 0.58,
+      "icon": "🛒",
+      "canonicalProductId": "dm-gesponsert-packung",
+      "identitySource": "label",
+      "gtin": null,
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Neu im Sortiment",
@@ -3537,7 +3431,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ebelin PROFESSIONAL; Produktname: Spiralentwirrbürste Pflege, Mischborste, 1 St;",
@@ -3590,7 +3484,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: BALI CURLS; Produktname: Leave-In Spray Curl Defining, 150 ml;",
@@ -3643,7 +3537,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Haarturban Seaside Balance, 1 St;",
@@ -3696,7 +3590,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: DEJAN GARZ; Produktname: Shampoo The Sensitive, 300 ml;",
@@ -3749,7 +3643,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Alpecin; Produktname: Shampoo Grey Attack XStrong, 200 ml;",
@@ -3802,7 +3696,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: NEQI; Produktname: Glossing Dark Brown, 120 ml;",
@@ -3855,7 +3749,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: WAVYTALK; Produktname: Volumenbürste Blowout Boost, 1 St;",
@@ -3908,7 +3802,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ARTDECO; Produktname: Beauty Box Trio, 1 St;",
@@ -3961,7 +3855,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Haarbürste gemustert, Leooptik, 1 St;",
@@ -4014,7 +3908,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea; Produktname: Locken Revitalizing Spray, 150 ml;",
@@ -4067,7 +3961,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Schwarzkopf taft; Produktname: Refresh Spray Good Hair Soft Jasmine, 150 ml;",
@@ -4120,7 +4014,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Haarhaube Seaside Balance, 1 St;",
@@ -4173,7 +4067,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: L'ORÉAL PARiS ELVITAL; Produktname: Haarmaske Glycolic Gloss Spiegelglanz, 300 ml;",
@@ -4226,7 +4120,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Schwarzkopf Brillance; Produktname: Haarfarbe L854 Goldbraun, 1 St;",
@@ -4279,7 +4173,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Spiralbürste ohne Griff, 1 St;",
@@ -4332,7 +4226,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: alverde NATURKOSMETIK; Produktname: Shampoo Locken, 200 ml;",
@@ -4385,7 +4279,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: alverde NATURKOSMETIK; Produktname: Beach Waves Spray Seaside Balance, 150 ml;",
@@ -4438,7 +4332,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Haarklammer In My Pink Era, 1 St;",
@@ -4491,7 +4385,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea PROFESSIONAL; Produktname: Haarkur Silberglanz 2in1 Color Intense Kur, 150 ml;",
@@ -4544,7 +4438,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Schwarzkopf Brillance; Produktname: Haarfarbe L865 Honigbraun, 1 St;",
@@ -4597,7 +4491,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Schwarzkopf; Produktname: Ansatzset A2 Goldbraun, 1 St;",
@@ -4650,7 +4544,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Schwarzkopf LIVE; Produktname: Glossing Go Gloss, Cherry Cola Red, 150 ml;",
@@ -4703,7 +4597,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: PANTENE PRO-V; Produktname: Haarserum Grow Abundant Anti-Haarverlust, 60 ml;",
@@ -4756,7 +4650,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: PANTENE PRO-V; Produktname: Conditioner Grow Abundant Anti-Haarverlust, 250 ml;",
@@ -4809,7 +4703,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea med; Produktname: Shampoo Ultra Sensitive, 250 ml;",
@@ -4862,7 +4756,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ebelin PROFESSIONAL; Produktname: 5in1 Multi-Styler, 1 St;",
@@ -4915,7 +4809,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ebelin PROFESSIONAL; Produktname: Haarbürste Anti-Haarverlust, 1 St;",
@@ -4968,7 +4862,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea; Produktname: Trockenshampoo Soft Cotton, 200 ml;",
@@ -5021,7 +4915,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: head&shoulders; Produktname: Shampoo Anti-Schuppen Classic Clean, 500 ml;",
@@ -5074,7 +4968,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Herbal Essences; Produktname: Haarserum Fiji mit Kokosnussöl, 95 ml;",
@@ -5127,7 +5021,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: yuicy; Produktname: Haarvitamine Hair Glow Biotin I B12 + 8 Essentials Gummies (45 Stück), 121 g; Rechtliche Kategorie: Nahrungsergänzungsmittel;",
@@ -5180,7 +5074,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Balea med; Produktname: Conditioner Ultra Sensitive, 250 ml;",
@@ -5233,1862 +5127,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Philips Sonicare; Produktname: Schallzahnbürste 2100 schwarz, 1 St;",
-      "brand": "Philips Sonicare",
-      "ean": null,
-      "size": "1 St",
-      "currentPrice": 29.95,
-      "regularPrice": 29.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 29.95,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3123061/philips-sonicare-schallzahnbuerste-2100-schwarz",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1775170153/assets/pas/images/66c23b43-264a-45a3-b690-6d0a761208ff/philips-sonicare-schallzahnbuerste-2100-schwarz",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 29.95,
-      "unit": 29.95,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Philips Sonicare; Produktname: Schallzahnbürste 2100 schwarz, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Philips Sonicare; Produktname: Schallzahnbürste ",
-      "canonicalProduct": "Marke: Philips Sonicare; Produktname: Schallzahnbürste ",
-      "canonicalId": "marke-philips-sonicare-produktname-schallzahnburste-marke-philips-sonicare-produktname-schallzahnburste",
-      "bundleKey": "Marke: Philips Sonicare; Produktname: Schallzahnbürste ",
-      "key": "Marke: Philips Sonicare; Produktname: Schallzahnbürste ",
-      "similarityKey": "Marke: Philips Sonicare; Produktname: Schallzahnbürste |Marke: Philips Sonicare; Produktname: Schallzahnbürste ",
-      "exactMatchKey": "Marke: Philips Sonicare; Produktname: Schallzahnbürste |Marke: Philips Sonicare; Produktname: Schallzahnbürste |label:philips-sonicare",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 1,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-philips-sonicare-1-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: CB12; Produktname: Mundspülung Zahnfleischschutz, 200 ml;",
-      "brand": "CB12",
-      "ean": null,
-      "size": "200 ml",
-      "currentPrice": 6.95,
-      "regularPrice": 6.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 34.75,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/3137206/cb12-mundspuelung-zahnfleischschutz",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1777333120/assets/pas/images/ed053681-e42f-4930-8348-ff4b6cb4b389/cb12-mundspuelung-zahnfleischschutz",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 6.95,
-      "unit": 34.75,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: CB12; Produktname: Mundspülung Zahnfleischschutz, 200 ml;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: CB12; Produktname: Mundspülung Zahnfleischschutz",
-      "canonicalProduct": "Marke: CB12; Produktname: Mundspülung Zahnfleischschutz",
-      "canonicalId": "marke-cb12-produktname-mundspulung-zahnfleischschutz-marke-cb12-produktname-mundspulung-zahnfleischschutz",
-      "bundleKey": "Marke: CB12; Produktname: Mundspülung Zahnfleischschutz",
-      "key": "Marke: CB12; Produktname: Mundspülung Zahnfleischschutz",
-      "similarityKey": "Marke: CB12; Produktname: Mundspülung Zahnfleischschutz|Marke: CB12; Produktname: Mundspülung Zahnfleischschutz",
-      "exactMatchKey": "Marke: CB12; Produktname: Mundspülung Zahnfleischschutz|Marke: CB12; Produktname: Mundspülung Zahnfleischschutz|label:cb12",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-cb12-200-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Oral-B; Produktname: Zahnpasta PRO 3D White Clinical Intensive Whitening, 75 ml;",
-      "brand": "Oral-B",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 6.95,
-      "regularPrice": 6.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 92.67,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/3088314/oral-b-zahnpasta-pro-3d-white-clinical-intensive-whitening",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784240098/assets/pas/images/5302e22b-31f2-40e0-b548-f0a610e3d666/oral-b-zahnpasta-pro-3d-white-clinical-intensive-whitening",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 6.95,
-      "unit": 92.67,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Oral-B; Produktname: Zahnpasta PRO 3D White Clinical Intensive Whitening, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:oral-b",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-oral-b-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahren, 1 St;",
-      "brand": "elmex",
-      "ean": null,
-      "size": "1 St",
-      "currentPrice": 3.95,
-      "regularPrice": 3.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 3.95,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/1244925/elmex-zahnbuerste-kinder-2-6-jahren",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1762294179/assets/pas/images/d890ba3d-065b-44aa-b580-d232bef869b9/elmex-zahnbuerste-kinder-2-6-jahren",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 3.95,
-      "unit": 3.95,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahren, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahre",
-      "canonicalProduct": "Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahre",
-      "canonicalId": "marke-elmex-produktname-zahnburste-kinder-2-6-jahre-marke-elmex-produktname-zahnburste-kinder-2-6-jahre",
-      "bundleKey": "Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahre",
-      "key": "Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahre",
-      "similarityKey": "Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahre|Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahre",
-      "exactMatchKey": "Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahre|Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahre|label:elmex",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 1,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-elmex-1-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 Jahren, 1 St;",
-      "brand": "elmex",
-      "ean": null,
-      "size": "1 St",
-      "currentPrice": 3.95,
-      "regularPrice": 3.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 3.95,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/1014528/elmex-zahnpflege-set-kinder-0-2-jahren",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1768341265/assets/pas/images/b0f6b904-0d97-47b0-bd0b-6e58c227650d/elmex-zahnpflege-set-kinder-0-2-jahren",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 3.95,
-      "unit": 3.95,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 Jahren, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 J",
-      "canonicalProduct": "Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 J",
-      "canonicalId": "marke-elmex-produktname-zahnpflege-set-kinder-0-2-j-marke-elmex-produktname-zahnpflege-set-kinder-0-2-j",
-      "bundleKey": "Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 J",
-      "key": "Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 J",
-      "similarityKey": "Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 J|Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 J",
-      "exactMatchKey": "Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 J|Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 J|label:elmex",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 1,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-elmex-1-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: elmex; Produktname: Zahnpasta Sensitive Professional Repair & Prevent, 75 ml; Rechtliche Kategorie: Medizinprodukt;",
-      "brand": "elmex",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 7.45,
-      "regularPrice": 7.45,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 99.33,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1464634/elmex-zahnpasta-sensitive-professional-repair-und-prevent",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1777677135/assets/pas/images/184b4445-b00d-4726-8e40-43ebc076e27d/elmex-zahnpasta-sensitive-professional-repair-und-prevent",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 7.45,
-      "unit": 99.33,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: elmex; Produktname: Zahnpasta Sensitive Professional Repair & Prevent, 75 ml; Rechtliche Kategorie: Medizinprodukt;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:elmex",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-elmex-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: elmex; Produktname: Zahnpasta Kinder Junior, 6-12 Jahren, 75 ml;",
-      "brand": "elmex",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 3.95,
-      "regularPrice": 3.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 52.67,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1126069/elmex-zahnpasta-kinder-junior-6-12-jahren",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1777589138/assets/pas/images/52d03946-bbdf-448c-8290-109f69375d71/elmex-zahnpasta-kinder-junior-6-12-jahren",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 3.95,
-      "unit": 52.67,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: elmex; Produktname: Zahnpasta Kinder Junior, 6-12 Jahren, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:elmex",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-elmex-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: meridol; Produktname: Zahnpasta Parodont Expert, 75 ml;",
-      "brand": "meridol",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 7.45,
-      "regularPrice": 7.45,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 99.33,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1476011/meridol-zahnpasta-parodont-expert",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784410843/assets/pas/images/16719bc3-3bfd-42d2-8f9e-595e0b37ac05/meridol-zahnpasta-parodont-expert",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 7.45,
-      "unit": 99.33,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: meridol; Produktname: Zahnpasta Parodont Expert, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:meridol",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-meridol-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimative Reinigung schwarz, 4 St;",
-      "brand": "Oral-B",
-      "ean": null,
-      "size": "4 St",
-      "currentPrice": 29.95,
-      "regularPrice": 29.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 7.49,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3038979/oral-b-aufsteckbuerste-io-ultimative-reinigung-schwarz",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1755015432/assets/pas/images/6959f4c9-1b5a-4db4-b09b-f2d0c698cc77/oral-b-aufsteckbuerste-io-ultimative-reinigung-schwarz",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 29.95,
-      "unit": 7.49,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimative Reinigung schwarz, 4 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ",
-      "canonicalProduct": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ",
-      "canonicalId": "marke-oral-b-produktname-aufsteckburste-io-ultimativ-marke-oral-b-produktname-aufsteckburste-io-ultimativ",
-      "bundleKey": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ",
-      "key": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ",
-      "similarityKey": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ|Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ",
-      "exactMatchKey": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ|Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ|label:oral-b",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 4,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-oral-b-4-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: AJONA; Produktname: Zahnpasta Konzentrat fluoridfrei, 25 ml;",
-      "brand": "AJONA",
-      "ean": null,
-      "size": "25 ml",
-      "currentPrice": 1.75,
-      "regularPrice": 1.75,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 70,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1001989/ajona-zahnpasta-konzentrat-fluoridfrei",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747436397/assets/pas/images/6f49a8ff-176a-485b-9c9b-5b50b9e2d476/ajona-zahnpasta-konzentrat-fluoridfrei",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 1.75,
-      "unit": 70,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: AJONA; Produktname: Zahnpasta Konzentrat fluoridfrei, 25 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:ajona",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-ajona-25-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Oral-B; Produktname: Zahnpasta Pro-Expert Professioneller Schutz, 75 ml;",
-      "brand": "Oral-B",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 3.95,
-      "regularPrice": 3.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 52.67,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/3040879/oral-b-zahnpasta-pro-expert-professioneller-schutz",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784240323/assets/pas/images/33b64f1d-3b4a-4ccb-84af-eacda897f35c/oral-b-zahnpasta-pro-expert-professioneller-schutz",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 3.95,
-      "unit": 52.67,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Oral-B; Produktname: Zahnpasta Pro-Expert Professioneller Schutz, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:oral-b",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-oral-b-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Zähne, 0-2 Jahren, 1 St;",
-      "brand": "Dr. BEST",
-      "ean": null,
-      "size": "1 St",
-      "currentPrice": 2.95,
-      "regularPrice": 2.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 2.95,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/2970446/dr-best-zahnbuerste-kinder-erste-zaehne-0-2-jahren",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747498928/assets/pas/images/2d8d9b7f-6ae7-4561-a3c3-e769bb1785a8/dr-best-zahnbuerste-kinder-erste-zaehne-0-2-jahren",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 2.95,
-      "unit": 2.95,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Zähne, 0-2 Jahren, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Z",
-      "canonicalProduct": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Z",
-      "canonicalId": "marke-dr-best-produktname-zahnburste-kinder-erste-z-marke-dr-best-produktname-zahnburste-kinder-erste-z",
-      "bundleKey": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Z",
-      "key": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Z",
-      "similarityKey": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Z|Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Z",
-      "exactMatchKey": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Z|Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Z|label:dr-best",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 1,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-dr-best-1-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: SENSODYNE; Produktname: Zahnpasta Clinical Repair, 75 ml; Rechtliche Kategorie: Medizinprodukt;",
-      "brand": "SENSODYNE",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 6.95,
-      "regularPrice": 6.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 92.67,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1493561/sensodyne-zahnpasta-clinical-repair",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784245713/assets/pas/images/5d5833cc-325a-4fea-a349-c5f5fdfb1590/sensodyne-zahnpasta-clinical-repair",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 6.95,
-      "unit": 92.67,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: SENSODYNE; Produktname: Zahnpasta Clinical Repair, 75 ml; Rechtliche Kategorie: Medizinprodukt;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:sensodyne",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-sensodyne-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: CB12; Produktname: Mundspülung white, 200 ml;",
-      "brand": "CB12",
-      "ean": null,
-      "size": "200 ml",
-      "currentPrice": 6.95,
-      "regularPrice": 6.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 34.75,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1496697/cb12-mundspuelung-white",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1782520710/assets/pas/images/238ebe1d-dde7-4e7d-8e8f-c19cb2cbdeac/cb12-mundspuelung-white",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 6.95,
-      "unit": 34.75,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: CB12; Produktname: Mundspülung white, 200 ml;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: CB12; Produktname: Mundspülung white, 200 ml;",
-      "canonicalProduct": "Marke: CB12; Produktname: Mundspülung white, 200 ml;",
-      "canonicalId": "marke-cb12-produktname-mundspulung-white-200-ml-marke-cb12-produktname-mundspulung-white-200-ml",
-      "bundleKey": "Marke: CB12; Produktname: Mundspülung white, 200 ml;",
-      "key": "Marke: CB12; Produktname: Mundspülung white, 200 ml;",
-      "similarityKey": "Marke: CB12; Produktname: Mundspülung white, 200 ml;|Marke: CB12; Produktname: Mundspülung white, 200 ml;",
-      "exactMatchKey": "Marke: CB12; Produktname: Mundspülung white, 200 ml;|Marke: CB12; Produktname: Mundspülung white, 200 ml;|label:cb12",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-cb12-200-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Philips Sonicare; Produktname: Schallzahnbürste 4100 weiß, 1 St;",
-      "brand": "Philips Sonicare",
-      "ean": null,
-      "size": "1 St",
-      "currentPrice": 64.95,
-      "regularPrice": 64.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 64.95,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3123083/philips-sonicare-schallzahnbuerste-4100-weiss",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1772238206/assets/pas/images/6d5bab14-63c8-4837-b7eb-d23c58aa0a8b/philips-sonicare-schallzahnbuerste-4100-weiss",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 64.95,
-      "unit": 64.95,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Philips Sonicare; Produktname: Schallzahnbürste 4100 weiß, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Philips Sonicare; Produktname: Schallzahnbürste ",
-      "canonicalProduct": "Marke: Philips Sonicare; Produktname: Schallzahnbürste ",
-      "canonicalId": "marke-philips-sonicare-produktname-schallzahnburste-marke-philips-sonicare-produktname-schallzahnburste",
-      "bundleKey": "Marke: Philips Sonicare; Produktname: Schallzahnbürste ",
-      "key": "Marke: Philips Sonicare; Produktname: Schallzahnbürste ",
-      "similarityKey": "Marke: Philips Sonicare; Produktname: Schallzahnbürste |Marke: Philips Sonicare; Produktname: Schallzahnbürste ",
-      "exactMatchKey": "Marke: Philips Sonicare; Produktname: Schallzahnbürste |Marke: Philips Sonicare; Produktname: Schallzahnbürste |label:philips-sonicare",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 1,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-philips-sonicare-1-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Odol med 3; Produktname: Zahnpasta Juniorzahn 6-13 Jahren, 75 ml;",
-      "brand": "Odol med 3",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 2.95,
-      "regularPrice": 2.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 39.33,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1580424/odol-med-3-zahnpasta-juniorzahn-6-13-jahren",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1785629059/assets/pas/images/419d90a1-23d1-44f6-a6e2-59691f1a10d5/odol-med-3-zahnpasta-juniorzahn-6-13-jahren",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 2.95,
-      "unit": 39.33,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Odol med 3; Produktname: Zahnpasta Juniorzahn 6-13 Jahren, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:odol-med-3",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-odol-med-3-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Oral-B; Produktname: Zahnpasta 3D White Luxe Perfection, 75 ml;",
-      "brand": "Oral-B",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 3.95,
-      "regularPrice": 3.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 52.67,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/3088278/oral-b-zahnpasta-3d-white-luxe-perfection",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1779492629/assets/pas/images/f0262433-15df-4a89-a02d-5ccca0b45e8b/oral-b-zahnpasta-3d-white-luxe-perfection",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 3.95,
-      "unit": 52.67,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Oral-B; Produktname: Zahnpasta 3D White Luxe Perfection, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:oral-b",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-oral-b-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Oral-B; Produktname: Zahnpasta Pro-Expert Frischer Atem, 75 ml;",
-      "brand": "Oral-B",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 3.95,
-      "regularPrice": 3.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 52.67,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/3040962/oral-b-zahnpasta-pro-expert-frischer-atem",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784240896/assets/pas/images/9b1a4d27-f5e8-4ce1-8120-14d02020f0bc/oral-b-zahnpasta-pro-expert-frischer-atem",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 3.95,
-      "unit": 52.67,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Oral-B; Produktname: Zahnpasta Pro-Expert Frischer Atem, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:oral-b",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-oral-b-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten W2 OptimalWhite schwarz, 3 St;",
-      "brand": "Philips Sonicare",
-      "ean": null,
-      "size": "3 St",
-      "currentPrice": 19.95,
-      "regularPrice": 19.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 6.65,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3049648/philips-sonicare-aufsteckbuersten-w2-optimalwhite-schwarz",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747535388/assets/pas/images/c7b630bd-5e17-4562-852c-e92eb8d87355/philips-sonicare-aufsteckbuersten-w2-optimalwhite-schwarz",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 19.95,
-      "unit": 6.65,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten W2 OptimalWhite schwarz, 3 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten W",
-      "canonicalProduct": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten W",
-      "canonicalId": "marke-philips-sonicare-produktname-aufsteckbursten-w-marke-philips-sonicare-produktname-aufsteckbursten-w",
-      "bundleKey": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten W",
-      "key": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten W",
-      "similarityKey": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten W|Marke: Philips Sonicare; Produktname: Aufsteckbürsten W",
-      "exactMatchKey": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten W|Marke: Philips Sonicare; Produktname: Aufsteckbürsten W|label:philips-sonicare",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 3,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-philips-sonicare-3-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten C3 Premium Plaque Defence weiß, 3 St;",
-      "brand": "Philips Sonicare",
-      "ean": null,
-      "size": "3 St",
-      "currentPrice": 24.95,
-      "regularPrice": 24.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 8.32,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3063827/philips-sonicare-aufsteckbuersten-c3-premium-plaque-defence-weiss",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747534753/assets/pas/images/0f2a7f03-d6fd-4aa6-8c0f-443b5a141558/philips-sonicare-aufsteckbuersten-c3-premium-plaque-defence-weiss",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 24.95,
-      "unit": 8.32,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten C3 Premium Plaque Defence weiß, 3 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten C",
-      "canonicalProduct": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten C",
-      "canonicalId": "marke-philips-sonicare-produktname-aufsteckbursten-c-marke-philips-sonicare-produktname-aufsteckbursten-c",
-      "bundleKey": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten C",
-      "key": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten C",
-      "similarityKey": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten C|Marke: Philips Sonicare; Produktname: Aufsteckbürsten C",
-      "exactMatchKey": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten C|Marke: Philips Sonicare; Produktname: Aufsteckbürsten C|label:philips-sonicare",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 3,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-philips-sonicare-3-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Patrol, bis 7 Jahren Vorteilspack (2+1 Gratis), 3 St;",
-      "brand": "Dr. BEST",
-      "ean": null,
-      "size": "3 St",
-      "currentPrice": 3.45,
-      "regularPrice": 3.45,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 1.15,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/1635706/dr-best-zahnbuerste-kinder-paw-patrol-bis-7-jahren-vorteilspack-2-1-gratis",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1787007068/assets/pas/images/ef93eb13-4e29-4040-86e4-9eaba55cdb49/dr-best-zahnbuerste-kinder-paw-patrol-bis-7-jahren-vorteilspack-2-1-gratis",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 3.45,
-      "unit": 1.15,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Patrol, bis 7 Jahren Vorteilspack (2+1 Gratis), 3 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Pat",
-      "canonicalProduct": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Pat",
-      "canonicalId": "marke-dr-best-produktname-zahnburste-kinder-paw-pat-marke-dr-best-produktname-zahnburste-kinder-paw-pat",
-      "bundleKey": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Pat",
-      "key": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Pat",
-      "similarityKey": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Pat|Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Pat",
-      "exactMatchKey": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Pat|Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Pat|label:dr-best",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 3,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-dr-best-3-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Oral-B; Produktname: Zahnseide Superfloss Threader, 50 St;",
-      "brand": "Oral-B",
-      "ean": null,
-      "size": "50 St",
-      "currentPrice": 4.45,
-      "regularPrice": 4.45,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 0.09,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3038941/oral-b-zahnseide-superfloss-threader",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1755094088/assets/pas/images/1a24beb9-a4ca-451c-8172-f9fe42dd5859/oral-b-zahnseide-superfloss-threader",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 4.45,
-      "unit": 0.09,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Oral-B; Produktname: Zahnseide Superfloss Threader, 50 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Oral-B; Produktname: Zahnseide Superfloss Thread",
-      "canonicalProduct": "Marke: Oral-B; Produktname: Zahnseide Superfloss Thread",
-      "canonicalId": "marke-oral-b-produktname-zahnseide-superfloss-thread-marke-oral-b-produktname-zahnseide-superfloss-thread",
-      "bundleKey": "Marke: Oral-B; Produktname: Zahnseide Superfloss Thread",
-      "key": "Marke: Oral-B; Produktname: Zahnseide Superfloss Thread",
-      "similarityKey": "Marke: Oral-B; Produktname: Zahnseide Superfloss Thread|Marke: Oral-B; Produktname: Zahnseide Superfloss Thread",
-      "exactMatchKey": "Marke: Oral-B; Produktname: Zahnseide Superfloss Thread|Marke: Oral-B; Produktname: Zahnseide Superfloss Thread|label:oral-b",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 50,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-oral-b-50-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Odol med 3; Produktname: Zahnpasta Milchzahn 0-6 Jahren, 50 ml;",
-      "brand": "Odol med 3",
-      "ean": null,
-      "size": "50 ml",
-      "currentPrice": 2.45,
-      "regularPrice": 2.45,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 49,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1580425/odol-med-3-zahnpasta-milchzahn-0-6-jahren",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1773867675/assets/pas/images/7b5b3608-651a-4f4f-80c0-11863655d078/odol-med-3-zahnpasta-milchzahn-0-6-jahren",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 2.45,
-      "unit": 49,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Odol med 3; Produktname: Zahnpasta Milchzahn 0-6 Jahren, 50 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:odol-med-3",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-odol-med-3-50-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Colgate; Produktname: Zahnpasta Komplett Extra Frisch, 75 ml;",
-      "brand": "Colgate",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 1.65,
-      "regularPrice": 1.65,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 22,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1503217/colgate-zahnpasta-komplett-extra-frisch",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1761602067/assets/pas/images/9a26adb0-5963-4c90-8cc2-a3e51fcea151/colgate-zahnpasta-komplett-extra-frisch",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 1.65,
-      "unit": 22,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Colgate; Produktname: Zahnpasta Komplett Extra Frisch, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:colgate",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-colgate-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Oral-B; Produktname: Elektrische Zahnbürste iO Series 6 Black Lava, 1 St;",
-      "brand": "Oral-B",
-      "ean": null,
-      "size": "1 St",
-      "currentPrice": 129.95,
-      "regularPrice": 129.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 129.95,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/1607331/oral-b-elektrische-zahnbuerste-io-series-6-black-lava",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1768603561/assets/pas/images/c457fac2-65d1-4c28-8132-ee5da1323154/oral-b-elektrische-zahnbuerste-io-series-6-black-lava",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 129.95,
-      "unit": 129.95,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Oral-B; Produktname: Elektrische Zahnbürste iO Series 6 Black Lava, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Oral-B; Produktname: Elektrische Zahnbürste iO S",
-      "canonicalProduct": "Marke: Oral-B; Produktname: Elektrische Zahnbürste iO S",
-      "canonicalId": "marke-oral-b-produktname-elektrische-zahnburste-io-s-marke-oral-b-produktname-elektrische-zahnburste-io-s",
-      "bundleKey": "Marke: Oral-B; Produktname: Elektrische Zahnbürste iO S",
-      "key": "Marke: Oral-B; Produktname: Elektrische Zahnbürste iO S",
-      "similarityKey": "Marke: Oral-B; Produktname: Elektrische Zahnbürste iO S|Marke: Oral-B; Produktname: Elektrische Zahnbürste iO S",
-      "exactMatchKey": "Marke: Oral-B; Produktname: Elektrische Zahnbürste iO S|Marke: Oral-B; Produktname: Elektrische Zahnbürste iO S|label:oral-b",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 1,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-oral-b-1-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: SENSODYNE; Produktname: Zahnpasta Proschmelz, 75 ml;",
-      "brand": "SENSODYNE",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 4.95,
-      "regularPrice": 4.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 66,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1714592/sensodyne-zahnpasta-proschmelz",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1782513865/assets/pas/images/32ec71a8-a527-4da3-ba3a-4ff133c121f6/sensodyne-zahnpasta-proschmelz",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 4.95,
-      "unit": 66,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: SENSODYNE; Produktname: Zahnpasta Proschmelz, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:sensodyne",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-sensodyne-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: lavera NATURKOSMETIK; Produktname: Zahnpasta Complete Care fluoridfrei, 75 ml;",
-      "brand": "lavera NATURKOSMETIK",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 3.25,
-      "regularPrice": 3.25,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 43.33,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1567152/lavera-naturkosmetik-zahnpasta-complete-care-fluoridfrei",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1755080310/assets/pas/images/7c66d605-95c8-4c73-87dd-3bc9202c00f8/lavera-naturkosmetik-zahnpasta-complete-care-fluoridfrei",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 3.25,
-      "unit": 43.33,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: lavera NATURKOSMETIK; Produktname: Zahnpasta Complete Care fluoridfrei, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:lavera-naturkosmetik",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-lavera-naturkosmetik-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Odol med 3; Produktname: Zahnpasta White & Shine, 75 ml;",
-      "brand": "Odol med 3",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 2.45,
-      "regularPrice": 2.45,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 32.67,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1494435/odol-med-3-zahnpasta-white-und-shine",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747498709/assets/pas/images/1594da60-b34d-4169-a410-feeae0b1ee2c/odol-med-3-zahnpasta-white-und-shine",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 2.45,
-      "unit": 32.67,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Odol med 3; Produktname: Zahnpasta White & Shine, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:odol-med-3",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-odol-med-3-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Oral-B; Produktname: Zahnpasta 3D White Professional Express Whitening frisches Strahlen, 75 ml;",
-      "brand": "Oral-B",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 5.45,
-      "regularPrice": 5.45,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 72.67,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/3088279/oral-b-zahnpasta-3d-white-professional-express-whitening-frisches-strahlen",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1780004412/assets/pas/images/eab36374-f287-4514-b5b0-9973a51574eb/oral-b-zahnpasta-3d-white-professional-express-whitening-frisches-strahlen",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 5.45,
-      "unit": 72.67,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Oral-B; Produktname: Zahnpasta 3D White Professional Express Whitening frisches Strahlen, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:oral-b",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-oral-b-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Parodontax; Produktname: Zahnpasta Complete Protection extra frisch, 75 ml;",
-      "brand": "Parodontax",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 5.95,
-      "regularPrice": 5.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 79.33,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1685311/parodontax-zahnpasta-complete-protection-extra-frisch",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1755079365/assets/pas/images/5a587ffd-4540-4eb9-87da-7497af48c288/parodontax-zahnpasta-complete-protection-extra-frisch",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 5.95,
-      "unit": 79.33,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Parodontax; Produktname: Zahnpasta Complete Protection extra frisch, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:parodontax",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-parodontax-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimative Reinigung weiß, 4 St;",
-      "brand": "Oral-B",
-      "ean": null,
-      "size": "4 St",
-      "currentPrice": 29.95,
-      "regularPrice": 29.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 7.49,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3039023/oral-b-aufsteckbuerste-io-ultimative-reinigung-weiss",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1755038428/assets/pas/images/50240e20-0f66-4526-b0e1-971617c60c93/oral-b-aufsteckbuerste-io-ultimative-reinigung-weiss",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 29.95,
-      "unit": 7.49,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimative Reinigung weiß, 4 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ",
-      "canonicalProduct": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ",
-      "canonicalId": "marke-oral-b-produktname-aufsteckburste-io-ultimativ-marke-oral-b-produktname-aufsteckburste-io-ultimativ",
-      "bundleKey": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ",
-      "key": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ",
-      "similarityKey": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ|Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ",
-      "exactMatchKey": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ|Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimativ|label:oral-b",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 4,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-oral-b-4-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: elmex; Produktname: Zahnbürste Junior weich, 1 St;",
-      "brand": "elmex",
-      "ean": null,
-      "size": "1 St",
-      "currentPrice": 3.95,
-      "regularPrice": 3.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 3.95,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/1237596/elmex-zahnbuerste-junior-weich",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1782513263/assets/pas/images/ac97c285-0289-48b9-8bbb-a63971647d92/elmex-zahnbuerste-junior-weich",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 3.95,
-      "unit": 3.95,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: elmex; Produktname: Zahnbürste Junior weich, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: elmex; Produktname: Zahnbürste Junior weich, 1 S",
-      "canonicalProduct": "Marke: elmex; Produktname: Zahnbürste Junior weich, 1 S",
-      "canonicalId": "marke-elmex-produktname-zahnburste-junior-weich-1-s-marke-elmex-produktname-zahnburste-junior-weich-1-s",
-      "bundleKey": "Marke: elmex; Produktname: Zahnbürste Junior weich, 1 S",
-      "key": "Marke: elmex; Produktname: Zahnbürste Junior weich, 1 S",
-      "similarityKey": "Marke: elmex; Produktname: Zahnbürste Junior weich, 1 S|Marke: elmex; Produktname: Zahnbürste Junior weich, 1 S",
-      "exactMatchKey": "Marke: elmex; Produktname: Zahnbürste Junior weich, 1 S|Marke: elmex; Produktname: Zahnbürste Junior weich, 1 S|label:elmex",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 1,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-elmex-1-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: SENSODYNE; Produktname: Zahnpasta ProSchmelz Repair Whitening, 75 ml;",
-      "brand": "SENSODYNE",
-      "ean": null,
-      "size": "75 ml",
-      "currentPrice": 5.95,
-      "regularPrice": 5.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 79.33,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1714604/sensodyne-zahnpasta-proschmelz-repair-whitening",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1778537428/assets/pas/images/9a310087-1a1a-47f1-9100-791bacd3251b/sensodyne-zahnpasta-proschmelz-repair-whitening",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 5.95,
-      "unit": 79.33,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: SENSODYNE; Produktname: Zahnpasta ProSchmelz Repair Whitening, 75 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:sensodyne",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-sensodyne-75-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: KAREX; Produktname: Zahnpasta Kinder, 0-6 Jahren fluoridfrei, 50 ml;",
-      "brand": "KAREX",
-      "ean": null,
-      "size": "50 ml",
-      "currentPrice": 4.45,
-      "regularPrice": 4.45,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 89,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/1431247/karex-zahnpasta-kinder-0-6-jahren-fluoridfrei",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747436070/assets/pas/images/d4a43612-b7a0-45a9-b248-24b4803a4bfd/karex-zahnpasta-kinder-0-6-jahren-fluoridfrei",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Vorrat",
-      "price": 4.45,
-      "unit": 89,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: KAREX; Produktname: Zahnpasta Kinder, 0-6 Jahren fluoridfrei, 50 ml;",
-      "department": "Lebensmittel",
-      "category": "Vorrat",
-      "subcategory": "Nudeln",
-      "canonicalGroup": "Nudeln",
-      "canonicalProduct": "Nudeln",
-      "canonicalId": "nudeln-nudeln",
-      "bundleKey": "Nudeln",
-      "key": "Nudeln",
-      "similarityKey": "Nudeln|Nudeln",
-      "exactMatchKey": "Nudeln|Nudeln|label:karex",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Trockenwaren",
-      "confidence": 0.96,
-      "icon": "🍝",
-      "canonicalProductId": "dm-karex-50-ml",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
-    },
-    {
-      "name": "Marke: Colgate; Produktname: Zahnbürste Extra gründlich mittel (2+1Gratis), 3 St;",
-      "brand": "Colgate",
-      "ean": null,
-      "size": "3 St",
-      "currentPrice": 1.95,
-      "regularPrice": 1.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 0.65,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/1283992/colgate-zahnbuerste-extra-gruendlich-mittel-2-1gratis",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747532343/assets/pas/images/0e888703-e222-4b32-871e-c80c5814a519/colgate-zahnbuerste-extra-gruendlich-mittel-2-1gratis",
-      "sourceUrl": "https://www.dm.de/gesundheit/zahnpflege",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Mundpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 1.95,
-      "unit": 0.65,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Colgate; Produktname: Zahnbürste Extra gründlich mittel (2+1Gratis), 3 St;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Colgate; Produktname: Zahnbürste Extra gründlich",
-      "canonicalProduct": "Marke: Colgate; Produktname: Zahnbürste Extra gründlich",
-      "canonicalId": "marke-colgate-produktname-zahnburste-extra-grundlich-marke-colgate-produktname-zahnburste-extra-grundlich",
-      "bundleKey": "Marke: Colgate; Produktname: Zahnbürste Extra gründlich",
-      "key": "Marke: Colgate; Produktname: Zahnbürste Extra gründlich",
-      "similarityKey": "Marke: Colgate; Produktname: Zahnbürste Extra gründlich|Marke: Colgate; Produktname: Zahnbürste Extra gründlich",
-      "exactMatchKey": "Marke: Colgate; Produktname: Zahnbürste Extra gründlich|Marke: Colgate; Produktname: Zahnbürste Extra gründlich|label:colgate",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": 3,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "canonicalProductId": "dm-colgate-3-st",
-      "identitySource": "label",
-      "gtin": null,
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Neu im Sortiment",
@@ -7141,7 +5180,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: CD; Produktname: Deo Roll-on, Mein erstes Deo, 50 ml;",
@@ -7194,7 +5233,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Kölln; Produktname: Getreidebrei Hafer Schmelzflocken ab dem 5. Monat, 275 g; Rechtliche Kategorie: Beikost;",
@@ -7247,7 +5286,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Flaschen- und Saugerbürste, 1 St;",
@@ -7300,7 +5339,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Pampers baby-dry; Produktname: Windeln baby-dry Gr. 5 (11-16 kg) Big Economy Pack, 68 St;",
@@ -7353,7 +5392,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Carlsen; Produktname: Adventskalender Wieso? Weshalb? Warum? 2026, 1 St;",
@@ -7406,7 +5445,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 110/116, 1 St;",
@@ -7459,7 +5498,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Trinkflasche Kinder Edelstahl beige Flamingo, 1 St;",
@@ -7512,7 +5551,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 ml;",
@@ -7565,7 +5604,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Naty; Produktname: Feuchttücher herunterspülbar, 56 St;",
@@ -7618,7 +5657,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in1, 150 ml;",
@@ -7671,7 +5710,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee für Kinder (12 Beutel), 18 g; Rechtliche Kategorie: Arzneimittel;",
@@ -7724,7 +5763,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, rot, 140 x 200 + 80 x 80, 1 St;",
@@ -7777,7 +5816,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel), 18 g; Rechtliche Kategorie: Arzneimittel;",
@@ -7830,7 +5869,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spülung 3in1 Dinorino, 250 ml;",
@@ -7883,7 +5922,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack Kakao Waffeln ab 3 Jahren, 100 g;",
@@ -7936,7 +5975,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Schnuller Naturlatex, symmetrisch, beige/lila, Gr. 2, 5-18 Monate, 2 St;",
@@ -7989,7 +6028,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 5+ (12-17 kg) Monatsbox, 148 St;",
@@ -8042,7 +6081,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: fehn; Produktname: Rasselring Raupe, 1 St;",
@@ -8095,7 +6134,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Sagrotan; Produktname: Seifenspender No-Touch Kids, 1 St;",
@@ -8148,7 +6187,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: PEDIAKID; Produktname: Bakto Gums Apfelgeschmack 60 St, 137 g; Rechtliche Kategorie: Nahrungsergänzungsmittel;",
@@ -8201,7 +6240,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: HiPP; Produktname: Anfangsmilch Pre Combiotik von Geburt an, 600 g; Rechtliche Kategorie: Säuglingsanfangsnahrung;",
@@ -8254,7 +6293,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Pampers; Produktname: Feuchttücher 99 % water (18x60 St), 1.080 St;",
@@ -8307,7 +6346,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 5 Junior (11-16 kg) Monatsbox, 152 St;",
@@ -8360,7 +6399,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Pampers; Produktname: Feuchttücher 99 % water (4x60 St), 240 St;",
@@ -8413,7 +6452,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 4 Maxi (9-14 kg) Monatsbox, 174 St;",
@@ -8466,7 +6505,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Aptamil; Produktname: Anfangsmilch Pre Pronutra von Geburt an, 1,2 kg; Rechtliche Kategorie: Säuglingsanfangsnahrung;",
@@ -8519,7 +6558,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Pampers; Produktname: Feuchttücher aqua soft touch (18x48 St), 864 St;",
@@ -8572,7 +6611,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 3 Midi (6-10 kg) Monatsbox, 204 St;",
@@ -8625,7 +6664,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 6 Extra Large (13+ kg) Monatsbox, 144 St;",
@@ -8678,7 +6717,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Bebivita; Produktname: Anfangsmilch Pre von Geburt an, 500 g; Rechtliche Kategorie: Säuglingsanfangsnahrung;",
@@ -8731,7 +6770,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Neuheiten von babylove",
@@ -8784,7 +6823,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Feuchte Waschlappen, 80 St;",
@@ -8837,7 +6876,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Milchpulverbox mit Portionierlöffel 800 g, 1 St;",
@@ -8890,7 +6929,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Sonnenspray Baby ultra sensitive LSF 50+, 150 ml;",
@@ -8943,7 +6982,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Schwimmwindeln Disney Gr. Large (10-14 kg), 12 St;",
@@ -8996,7 +7035,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Windelbeutel mit Frischeduft, 100 St;",
@@ -9049,7 +7088,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Nagelschere Baby antiallergen, 1 St;",
@@ -9102,7 +7141,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Sicherheits-Wattestäbchen, 72 St;",
@@ -9155,7 +7194,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Flaschenbürste Premium, 1 St;",
@@ -9208,7 +7247,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Snack-Piekser, 10 St;",
@@ -9261,7 +7300,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Reinigungs Wattepads, 60 St;",
@@ -9314,7 +7353,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: babylove; Produktname: Schwimmwindeln Disney Gr. Extralarge (13+ kg), 12 St;",
@@ -9367,7 +7406,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Gesponsert",
@@ -9420,7 +7459,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Neu im Sortiment",
@@ -9473,7 +7512,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Trockenfrüchte, Mangostücke gefriergetrocknet, 25 g;",
@@ -9526,7 +7565,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Pasta Bucatini No 6, 500 g;",
@@ -9579,7 +7618,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Barebells; Produktname: Proteinriegel Pistachio Spread, 45 g;",
@@ -9632,7 +7671,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Vitamin Well; Produktname: Erfrischungsgetränk, Zero Lemon, 500 ml EINWEG;",
@@ -9685,7 +7724,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Mivolis; Produktname: Erythrit, 500 g;",
@@ -9738,7 +7777,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: pukka; Produktname: Grüner Tee Matcha, Vanilla Chai, 30 g;",
@@ -9791,7 +7830,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Tomatensauce Ziegenfrischkäse, 320 ml;",
@@ -9844,7 +7883,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Seeberger; Produktname: Adventskalender 2026, O du fröhliche Snackzeit, 1 St;",
@@ -9897,7 +7936,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Mivolis; Produktname: Arzneitee, Brennnessel Tee (12 Beutel), 21,6 g; Rechtliche Kategorie: Arzneimittel;",
@@ -9950,7 +7989,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: EXTRA; Produktname: Kaugummi, Strong Mint, zuckerfrei, 50 St;",
@@ -10003,7 +8042,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Pasta Gigli, 500 g;",
@@ -10056,7 +8095,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: oatsome; Produktname: Karamell-Keks Creme, Lovely Caramel, 190 g;",
@@ -10109,7 +8148,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Naduria; Produktname: Proteinpulver Hanf, Mandel & Macadamia, ungesüßt, vegan, 240 g;",
@@ -10162,7 +8201,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Ivorell; Produktname: Erfrischungsgetränk, Wasser+ Protein, Mango-Maracuja, 330 ml EINWEG;",
@@ -10215,7 +8254,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: pukka; Produktname: Grüner Tee Matcha, Tulsi Lemon, 30 g;",
@@ -10268,7 +8307,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: LaSelva; Produktname: Pesto, Zitrone, 130 g;",
@@ -10321,7 +8360,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Schoko Adventskalender 2026, 1 St;",
@@ -10374,7 +8413,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12 Beutel), 24 g;",
@@ -10427,7 +8466,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: JUMA; Produktname: Erfrischungsgetränk, Recharge+ Peach Hibiscus, 0,38 l EINWEG;",
@@ -10480,7 +8519,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Mandelmus, braun, 250 g;",
@@ -10533,7 +8572,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Bourbon-Vanille gemahlen, 5 g;",
@@ -10586,7 +8625,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Mandelmus weiß, 250 g;",
@@ -10639,7 +8678,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Haferflocken, Feinblatt, glutenfrei, 500 g;",
@@ -10692,7 +8731,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Sportness; Produktname: Zero Sirup Pfirsich Eistee Geschmack, 65 ml;",
@@ -10745,7 +8784,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Trockenfrüchte, Gojibeeren sonnengetrocknet, 150 g;",
@@ -10798,7 +8837,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: oatsome; Produktname: Haselnussmus, \"Happy Hazel\" Feelgood Spreads, Haselnuss Kakao, 200 g;",
@@ -10851,7 +8890,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Dinkelflakes, 400 g;",
@@ -10904,7 +8943,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Vanillezucker mit Bourbon-Vanille (4x8g), 32 g;",
@@ -10957,7 +8996,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Sportness; Produktname: Proteinriegel 30% Natural Protein, Salty Chocolate Nut Geschmack, 40 g;",
@@ -11010,7 +9049,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Barebells; Produktname: Proteinriegel Soft Cinnamon Bun, 55 g;",
@@ -11063,7 +9102,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Natumi; Produktname: Mandeldrink, Barista, 1 l;",
@@ -11116,7 +9155,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: HEIMATGUT; Produktname: Linsenchips mit Meersalz, 75 g;",
@@ -11169,7 +9208,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: ESN; Produktname: Ultrapure Creatine, 250 g; Rechtliche Kategorie: Nahrungsergänzungsmittel;",
@@ -11222,7 +9261,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten Granola, 500 g;",
@@ -11275,7 +9314,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Neu im Sortiment",
@@ -11328,7 +9367,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Katzenleckerli Leberwurstcreme (8x10 g), 80 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -11381,7 +9420,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: 8in1; Produktname: Kausnack Hund super meaty, Größe L, 150 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -11434,7 +9473,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, sensitiv Multipack (12x85 g), 1,02 kg; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -11487,7 +9526,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Good Boy; Produktname: Kausnack Hund, Enten Happen, 75 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -11540,7 +9579,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -11593,7 +9632,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Kausnack Hund Twister reich an Huhn, 70 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -11646,7 +9685,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -11699,7 +9738,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, Indoor Multipack (12x85 g), 1.020 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -11752,7 +9791,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Hühnerleber & Thunfisch in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -11805,7 +9844,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Trockenfutter Katze reich an Pute, 750 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -11858,7 +9897,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: PURINA ONE; Produktname: Trockenfutter Katze reich an Huhn, high protein, 650 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -11911,7 +9950,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Purina Adventuros; Produktname: Hundeleckerli Strips mit Hirschgeschmack, 90 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -11964,7 +10003,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Katzenstreu Aktiv-Klumpstreu mit Aloe Vera Duft, Exquisit, 6 l;",
@@ -12017,7 +10056,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Katzenstreu, Ultra-Klumpstreu, 6 l;",
@@ -12070,7 +10109,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Katzenstreu, Holzstreu, 10 l;",
@@ -12123,7 +10162,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Good Boy; Produktname: Kausnack Hund Mega Kau-Twister mit Hӓhnchen, Adult, 70 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -12176,7 +10215,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Trockenfutter Katze reich an Huhn, Naturverliebt, 500 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -12229,7 +10268,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Felix; Produktname: Nassfutter Katze mit Rind, Huhn & Lamm, Original Soup Time Multipack (6x48 g), 288 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -12282,7 +10321,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Good Boy; Produktname: Hundeleckerli Hähnchen Reis-Sticks, Adult, 90 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -12335,7 +10374,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Felix; Produktname: Nassfutter Katze mit Kabeljau, Thunfisch, Scholle, Original Soup Time, Multipack (6x48g), 288 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -12388,7 +10427,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Hundeleckerli Leberwurst, 75 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -12441,7 +10480,7 @@
       "gtin": null,
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:29:34.831Z"
+      "importedAt": "2026-08-19T20:18:41.021Z"
     }
   ]
 }

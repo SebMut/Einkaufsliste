@@ -1,23 +1,22 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-19T20:32:52.204Z",
-  "gitCommitsInspected": 42,
-  "offerFilesRead": 42,
-  "rawPriceRecords": 13577,
-  "historicalPriceEvents": 831,
-  "productsWithHistory": 423,
+  "generatedAt": "2026-08-19T20:19:40.850Z",
+  "gitCommitsInspected": 40,
+  "offerFilesRead": 40,
+  "rawPriceRecords": 11520,
+  "historicalPriceEvents": 530,
+  "productsWithHistory": 241,
   "oldestPriceDate": "2026-08-19T11:27:00.000Z",
   "retailers": [
     "ALDI SÜD",
     "dm",
     "EDEKA",
-    "MÜLLER",
     "PENNY",
     "REWE",
     "ROSSMANN"
   ],
-  "duplicatesRemoved": 3635,
-  "rejectedUncertain": 8910,
+  "duplicatesRemoved": 3145,
+  "rejectedUncertain": 7644,
   "archivedExcludedMarketEvents": 201,
   "minConfidence": 0.8
 }
