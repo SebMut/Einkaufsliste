@@ -1,42 +1,92 @@
-name: Marktkatalog aktualisieren
+name: Strikte Markt-, Katalog- und Preisdaten
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '15 3 * * *'
   push:
     paths:
       - 'data/market-catalog/**'
       - 'importer/build-markets.js'
+      - 'importer/market-policy.js'
+      - 'importer/market-policy.test.js'
+      - 'importer/product-identity.js'
+      - 'importer/product-identity.test.js'
+      - 'importer/catalog-import.js'
+      - 'importer/catalog-merge.js'
+      - 'importer/history-backfill.js'
+      - 'importer/price-history.js'
+      - 'importer/package.json'
       - '.github/workflows/build-markets.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: market-catalog-build
+  group: strict-market-catalog-history
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: markets.json erzeugen und validieren
+      - name: Abhängigkeiten installieren
         working-directory: importer
-        run: node build-markets.js
-      - name: Marktkatalog veröffentlichen
+        run: npm ci
+      - name: Semantik, EAN und Markt-Whitelist testen
+        working-directory: importer
+        run: npm test
+      - name: Erlaubte Märkte erzeugen
+        working-directory: importer
+        run: npm run markets
+      - name: Offizielle reguläre Katalogdaten importieren
+        working-directory: importer
+        run: npm run catalog
+      - name: Katalog und Angebote zusammenführen und Marktgrenze erzwingen
+        working-directory: importer
+        run: npm run merge
+      - name: Git-Historie für echte Altdaten auswerten
+        working-directory: importer
+        run: npm run history:backfill
+      - name: Aktuelle Preisbeobachtung ergänzen
+        working-directory: importer
+        run: npm run history
+      - name: Ergebnis strikt validieren
+        working-directory: importer
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import {isAllowedMarket} from './market-policy.js';
+          const root='../data/';
+          const markets=JSON.parse(fs.readFileSync(root+'markets.json','utf8'));
+          const live=JSON.parse(fs.readFileSync(root+'offers-live.json','utf8'));
+          const history=JSON.parse(fs.readFileSync(root+'price-history.json','utf8'));
+          const badMarkets=(markets.markets||[]).filter(m=>!isAllowedMarket(m));
+          const badProducts=(live.offers||[]).filter(o=>!isAllowedMarket(o));
+          const badHistory=(history.events||[]).filter(e=>e.activeMarket===false);
+          if(badMarkets.length||badProducts.length||badHistory.length){
+            console.error({badMarkets:badMarkets.length,badProducts:badProducts.length,badHistory:badHistory.length});
+            process.exit(1);
+          }
+          console.log(`Validiert: ${markets.markets.length} Filialen, ${live.productCount??live.offers.length} Produkte, ${history.eventCount??history.events.length} aktive Preisereignisse.`);
+          NODE
+      - name: Generierte Daten veröffentlichen
         shell: bash
         run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/markets.json
+          git add data/markets.json data/offers-live.json data/price-history.json data/catalog data/history-backfill-report.json
           if git diff --cached --quiet; then
-            echo "Keine Änderungen."
+            echo "Keine Datenänderungen."
             exit 0
           fi
-          git commit -m "Marktkatalog 15 km aktualisieren"
+          git commit -m "Strikte Markt- und Preisdaten aktualisieren [skip ci]"
           git pull --rebase origin main
           git push origin main

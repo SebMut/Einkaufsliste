@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { ALLOWED_AREAS, catalogStatusFor, isAllowedMarket, withMarketPolicy, normalizeMarketText } from './market-policy.js';
 
 const ROOT=path.resolve(process.cwd(),'..');
 const catalogDir=path.join(ROOT,'data','market-catalog');
@@ -8,33 +9,89 @@ const parts=await Promise.all(partNames.map(async n=>JSON.parse(await fs.readFil
 const baseSources=JSON.parse(await fs.readFile(path.join(catalogDir,'sources.json'),'utf8'));
 let extraSources=[];
 try{extraSources=JSON.parse(await fs.readFile(path.join(catalogDir,'sources-extra.json'),'utf8'))}catch{}
-const sources=[...baseSources,...extraSources];
+const rawSources=[...baseSources,...extraSources];
 const raw=parts.flat();
 
-const normalize=s=>String(s??'').toLocaleLowerCase('de-DE').replace(/straße/g,'str').replace(/strasse/g,'str').replace(/\s+/g,' ').trim();
-const sourceFor=m=>sources.find(s=>s.store===m.store&&(s.scope==='regional'||s.market===m.market));
+const keyOf=m=>[normalizeMarketText(m.store),normalizeMarketText(m.address),m.lat??'',m.lon??''].join('|');
 const seen=new Set();
 const markets=[];
 let duplicatesRemoved=0;
+const excluded=[];
+
 for(const original of raw){
   if(original.active===false) continue;
-  if(!Number.isFinite(Number(original.distanceKm))||Number(original.distanceKm)>15) continue;
-  const key=[normalize(original.store),normalize(original.address),original.lat??'',original.lon??''].join('|');
+  if(!isAllowedMarket(original)) {
+    excluded.push({store:original.store,market:original.market,address:original.address,reason:'outside_strict_whitelist'});
+    continue;
+  }
+  const key=keyOf(original);
   if(seen.has(key)){duplicatesRemoved++;continue}
   seen.add(key);
-  const src=sourceFor(original);
-  const m={...original,distanceKm:+Number(original.distanceKm).toFixed(1)};
-  if(src?.importStatus) m.importStatus=src.importStatus;
+  const source=rawSources.find(s=>s.store===original.store && s.scope==='market' && (s.market===original.market || normalizeMarketText(s.address)===normalizeMarketText(original.address)))
+    || rawSources.find(s=>s.store===original.store && s.scope==='regional');
+  const m=withMarketPolicy({
+    ...original,
+    distanceKm:Number.isFinite(Number(original.distanceKm)) ? +Number(original.distanceKm).toFixed(1) : null,
+    importStatus:source?.importStatus || original.importStatus,
+    catalogStatus:catalogStatusFor({...original,...source})
+  });
   markets.push(m);
 }
-markets.sort((a,b)=>a.distanceKm-b.distanceKm||a.store.localeCompare(b.store,'de')||a.market.localeCompare(b.market,'de'));
+markets.sort((a,b)=>(a.distanceKm??999)-(b.distanceKm??999)||a.store.localeCompare(b.store,'de')||a.market.localeCompare(b.market,'de'));
+
+// Regionale Quellen werden auf eine tatsächlich erlaubte Filiale gebunden. Dadurch
+// kann kein generischer "Region Feldkirchen"-Datensatz versehentlich einen Markt
+// außerhalb der Whitelist in Angebote/Preisvergleiche tragen.
+const sources=[];
+const sourceSeen=new Set();
+for(const source of rawSources){
+  const candidates=markets.filter(m=>m.store===source.store);
+  if(!candidates.length) continue;
+  let branch=null;
+  if(source.scope==='market') {
+    branch=candidates.find(m=>m.market===source.market || normalizeMarketText(m.address)===normalizeMarketText(source.address));
+    if(!branch) continue;
+  } else {
+    branch=candidates[0];
+  }
+  const rebound=withMarketPolicy({
+    ...source,
+    market:branch.market,
+    address:branch.address,
+    lat:branch.lat ?? null,
+    lon:branch.lon ?? null,
+    type:branch.type || source.type,
+    branchMarkets:candidates.map(m=>({market:m.market,address:m.address,isRiemArcaden:!!m.isRiemArcaden})),
+    catalogStatus:catalogStatusFor({...branch,...source})
+  });
+  delete rebound.mode; // dm/ROSSMANN nicht länger künstlich auf Baby beschränken.
+  const sk=[rebound.store,rebound.scope,rebound.market,rebound.url].join('|');
+  if(sourceSeen.has(sk)) continue;
+  sourceSeen.add(sk);
+  sources.push(rebound);
+}
 
 const countBy=key=>Object.fromEntries([...markets.reduce((map,m)=>map.set(m[key],(map.get(m[key])||0)+1),new Map())].sort((a,b)=>String(a[0]).localeCompare(String(b[0]),'de')));
-const importCounts=Object.fromEntries([...markets.reduce((map,m)=>map.set(m.importStatus,(map.get(m.importStatus)||0)+1),new Map())].sort());
+const catalogCounts=Object.fromEntries([...markets.reduce((map,m)=>map.set(m.catalogStatus,(map.get(m.catalogStatus)||0)+1),new Map())].sort());
 const brandCount=new Set(markets.map(m=>m.store)).size;
-const verified=markets.filter(m=>m.distanceVerified).length;
-const boundary=markets.filter(m=>m.distanceKm>=14.5).map(m=>({store:m.store,market:m.market,distanceKm:m.distanceKm,distanceVerified:m.distanceVerified}));
-
-const result={schema:8,generatedAt:new Date().toISOString(),center:{name:'85622 Feldkirchen bei München',lat:48.145,lon:11.73,radiusKm:15},markets,nearbyMarkets:markets,sources,audit:{method:'Mehrstufige Recherche: offizielle Händler-/Filialsuchen plus Karten-/Business-Suche; Radiusprüfung um 48.145, 11.730. Keine Koordinaten erfunden.',before:{brands:12,branches:27},after:{brands:brandCount,branches:markets.length},duplicatesRemoved,distanceVerified:verified,distanceEstimated:markets.length-verified,boundaryCases:boundary,storeCounts:countBy('store'),typeCounts:countBy('type'),importStatusCounts:importCounts,coordinateNote:'lat/lon bleiben null, wenn keine belastbaren Koordinaten vorlagen. distanceVerified=false kennzeichnet eine Distanzschätzung. Grenzfälle ab 14,5 km werden separat im Audit ausgewiesen.'}};
+const result={
+  schema:9,
+  generatedAt:new Date().toISOString(),
+  center:{name:'85622 Feldkirchen bei München',lat:48.145,lon:11.73},
+  marketPolicy:{mode:'strict_whitelist',allowedAreas:ALLOWED_AREAS,riemArcadenRule:'Nur verifizierte Geschäfte in den Riem Arcaden; Standardadresse Willy-Brandt-Platz 5, 81829 München.'},
+  markets,nearbyMarkets:markets,sources,
+  audit:{
+    method:'Strikte Orts-Whitelist statt Radius. Riem ist ausschließlich für nachweisliche Riem-Arcaden-Filialen erlaubt.',
+    rawBranches:raw.filter(m=>m.active!==false).length,
+    activeBranches:markets.length,
+    activeBrands:brandCount,
+    excludedBranches:excluded.length,
+    duplicatesRemoved,
+    excluded,
+    storeCounts:countBy('store'),
+    typeCounts:countBy('type'),
+    catalogStatusCounts:catalogCounts
+  }
+};
 await fs.writeFile(path.join(ROOT,'data','markets.json'),JSON.stringify(result,null,2)+'\n');
-console.log(`Marktkatalog: ${brandCount} Händler, ${markets.length} Filialen, ${duplicatesRemoved} Duplikate entfernt, ${verified} Distanzen verifiziert.`);
+console.log(`Markt-Whitelist: ${brandCount} Händler, ${markets.length} aktive Filialen, ${excluded.length} ausgeschlossen, ${duplicatesRemoved} Duplikate entfernt.`);
