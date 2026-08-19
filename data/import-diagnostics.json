@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "generatedAt": null,
+  "run": {
+    "status": "pending",
+    "exitCode": null,
+    "startedAt": null,
+    "finishedAt": null,
+    "durationMs": null
+  },
+  "summary": {
+    "configuredSources": 9,
+    "ok": 0,
+    "noData": 0,
+    "errors": 0,
+    "skipped": 9,
+    "offerCount": 0,
+    "liveGeneratedAt": null
+  },
+  "sources": [],
+  "lastLogLines": []
+}
