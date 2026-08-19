@@ -20,6 +20,7 @@ on:
       - 'importer/quality-v2.js'
       - 'importer/quality-v3.js'
       - 'importer/quality-v4.js'
+      - 'importer/semantic-products.js'
       - 'importer/product-normalizer.js'
       - 'importer/product-normalizer.test.js'
       - 'importer/product-identity.js'
