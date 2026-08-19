@@ -1,0 +1,1996 @@
+{
+  "overview": {
+    "currentCount": 48,
+    "current": [
+      {
+        "id": "019ff08c-e2d8-7677-995f-e824659481d9",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "national",
+            "code": "0"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-799968&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08c-e2d8-7677-995f-e824659481d9/Aktionsprospekt-17-08-2026-22-08-2026-05.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-799968/ar/0?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08d-0782-74ae-87ca-256141a8dfec",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "25"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-d8f306&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08d-0782-74ae-87ca-256141a8dfec/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-d8f306/ar/25?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-5e63-76d4-8baa-2847678120b1",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "21"
+          },
+          {
+            "type": "offer_region",
+            "code": "7"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-aef13c&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-5e63-76d4-8baa-2847678120b1/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-aef13c/ar/21?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-65a9-7636-b5b4-a86139d4d9f8",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "647"
+          },
+          {
+            "type": "offer_region",
+            "code": "9"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-5d9104&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-65a9-7636-b5b4-a86139d4d9f8/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-5d9104/ar/647?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-707d-78dd-b7c0-980166d0c261",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "32"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-6bed8f&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-707d-78dd-b7c0-980166d0c261/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-6bed8f/ar/32?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-7728-7673-a788-4bcbde3d0d35",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "12"
+          },
+          {
+            "type": "offer_region",
+            "code": "16"
+          },
+          {
+            "type": "offer_region",
+            "code": "2"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-3d4777&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-7728-7673-a788-4bcbde3d0d35/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-3d4777/ar/12?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-7c9c-78c7-8edf-754f73548937",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "27"
+          },
+          {
+            "type": "offer_region",
+            "code": "441"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-bd37e7&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-7c9c-78c7-8edf-754f73548937/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-bd37e7/ar/27?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-8211-77d5-a3c0-5b3e873f41bd",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "448"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-dbc7ce&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-8211-77d5-a3c0-5b3e873f41bd/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-dbc7ce/ar/448?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-87da-7a18-8a97-54e9f9201771",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "5"
+          },
+          {
+            "type": "offer_region",
+            "code": "6"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-678f2a&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-87da-7a18-8a97-54e9f9201771/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-678f2a/ar/5?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-8d95-7503-9fc6-0fdd86f7e5d6",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "4"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-c294dc&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-8d95-7503-9fc6-0fdd86f7e5d6/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-c294dc/ar/4?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-92fe-74de-b31d-ea879dc12095",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "28"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-81f6aa&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-92fe-74de-b31d-ea879dc12095/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-81f6aa/ar/28?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-988b-78a9-ba1d-736c98e7a2b7",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "22"
+          },
+          {
+            "type": "offer_region",
+            "code": "24"
+          },
+          {
+            "type": "offer_region",
+            "code": "445"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-125858&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-988b-78a9-ba1d-736c98e7a2b7/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-125858/ar/22?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-9f9d-7990-9f65-510751843ce1",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "36"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-bf9531&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-9f9d-7990-9f65-510751843ce1/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-bf9531/ar/36?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-a5dc-7da0-9c4c-a87f34eecd62",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "19"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-3ebb0c&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-a5dc-7da0-9c4c-a87f34eecd62/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-3ebb0c/ar/19?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-ac5b-7e16-a4c6-d7cd20a066e1",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "10"
+          },
+          {
+            "type": "offer_region",
+            "code": "13"
+          },
+          {
+            "type": "offer_region",
+            "code": "17"
+          },
+          {
+            "type": "offer_region",
+            "code": "42"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-895843&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-ac5b-7e16-a4c6-d7cd20a066e1/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-895843/ar/10?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-b117-7678-8fcd-829ab8a821fe",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "15"
+          },
+          {
+            "type": "offer_region",
+            "code": "23"
+          },
+          {
+            "type": "offer_region",
+            "code": "446"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-8b732a&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-b117-7678-8fcd-829ab8a821fe/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-8b732a/ar/15?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-b60f-7ca1-81a8-925b0fd9869a",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "11"
+          },
+          {
+            "type": "offer_region",
+            "code": "439"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-594892&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-b60f-7ca1-81a8-925b0fd9869a/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-594892/ar/11?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-baf5-70b2-b994-46eafb52842e",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "26"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-2f5b33&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-baf5-70b2-b994-46eafb52842e/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-2f5b33/ar/26?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-bfe6-71f5-aae5-705f89bda368",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "8"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-bc15f3&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-bfe6-71f5-aae5-705f89bda368/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-bc15f3/ar/8?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-c567-7080-bc2b-8794b896b96d",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "14"
+          },
+          {
+            "type": "offer_region",
+            "code": "3"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-4d59c5&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-c567-7080-bc2b-8794b896b96d/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-4d59c5/ar/14?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-ca95-7ede-96b8-0829ac2b3d10",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "20"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-92f96c&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-ca95-7ede-96b8-0829ac2b3d10/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-92f96c/ar/20?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-cf8e-74ee-802e-3704367db0a3",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "35"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-4a47d3&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-cf8e-74ee-802e-3704367db0a3/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-4a47d3/ar/35?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-d788-79a2-9505-7140a624bd5c",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "440"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-475295&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-d788-79a2-9505-7140a624bd5c/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-475295/ar/440?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-dcac-76b3-8314-f9f381dff88e",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "31"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-a323cb&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-dcac-76b3-8314-f9f381dff88e/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-a323cb/ar/31?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "019ff08f-f21d-7e4e-a4e5-eae05d69dcd9",
+        "title": "17.08.2026 – 22.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "18"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-2524da&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08f-f21d-7e4e-a4e5-eae05d69dcd9/Aktionsprospekt-17-08-2026-22-08-2026-03.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-17-08-2026-22-08-2026-2524da/ar/18?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00050-4e6c-7325-89e4-fee767617219",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "national",
+            "code": "0"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-75dd1a&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00050-4e6c-7325-89e4-fee767617219/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-75dd1a/ar/0?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00059-3286-75de-aea5-f9d1f0b7ddc4",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "647"
+          },
+          {
+            "type": "offer_region",
+            "code": "9"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-431a72&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00059-3286-75de-aea5-f9d1f0b7ddc4/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-431a72/ar/647?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00059-696d-7f61-9f1d-4c151e9a3a93",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "19"
+          },
+          {
+            "type": "offer_region",
+            "code": "20"
+          },
+          {
+            "type": "offer_region",
+            "code": "32"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-a52526&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00059-696d-7f61-9f1d-4c151e9a3a93/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-a52526/ar/19?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00059-a550-7764-8382-75d4f29d4217",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "16"
+          },
+          {
+            "type": "offer_region",
+            "code": "36"
+          },
+          {
+            "type": "offer_region",
+            "code": "5"
+          },
+          {
+            "type": "offer_region",
+            "code": "6"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-6f09b9&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00059-a550-7764-8382-75d4f29d4217/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-6f09b9/ar/16?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00059-dc24-7252-bfff-e669b8cd19b2",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "21"
+          },
+          {
+            "type": "offer_region",
+            "code": "7"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-45be93&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00059-dc24-7252-bfff-e669b8cd19b2/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-45be93/ar/21?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a0005a-138d-7c1d-8809-0a2ca31b42aa",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "27"
+          },
+          {
+            "type": "offer_region",
+            "code": "441"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-cc023e&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a0005a-138d-7c1d-8809-0a2ca31b42aa/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-cc023e/ar/27?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a0005a-4a70-7ab9-9001-acd500f77938",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "448"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-627fba&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a0005a-4a70-7ab9-9001-acd500f77938/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-627fba/ar/448?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00060-56d6-7e13-87fd-3f7483babbe5",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "28"
+          },
+          {
+            "type": "offer_region",
+            "code": "3"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-7cf4f5&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00060-56d6-7e13-87fd-3f7483babbe5/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-7cf4f5/ar/28?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00060-9694-7858-81c8-f9b4b99ce12e",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "4"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-7fa954&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00060-9694-7858-81c8-f9b4b99ce12e/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-7fa954/ar/4?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00060-d9ae-7ebb-8fe9-281450bd2834",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "22"
+          },
+          {
+            "type": "offer_region",
+            "code": "24"
+          },
+          {
+            "type": "offer_region",
+            "code": "445"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-876b24&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00060-d9ae-7ebb-8fe9-281450bd2834/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-876b24/ar/22?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00061-10ea-7c35-8b3d-a263bcd7f813",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "10"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-2d9ad5&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00061-10ea-7c35-8b3d-a263bcd7f813/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-2d9ad5/ar/10?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00061-4d55-7e2d-a898-66f5ab337937",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "15"
+          },
+          {
+            "type": "offer_region",
+            "code": "18"
+          },
+          {
+            "type": "offer_region",
+            "code": "23"
+          },
+          {
+            "type": "offer_region",
+            "code": "446"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-481ab9&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00061-4d55-7e2d-a898-66f5ab337937/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-481ab9/ar/15?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00061-8930-77da-999b-bf95f31110f6",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "11"
+          },
+          {
+            "type": "offer_region",
+            "code": "439"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-c278f4&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00061-8930-77da-999b-bf95f31110f6/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-c278f4/ar/11?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00061-bcbd-7539-b812-a537f900cd87",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "26"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-b9af75&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00061-bcbd-7539-b812-a537f900cd87/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-b9af75/ar/26?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00061-fac6-735d-a691-cb499d9b847d",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "13"
+          },
+          {
+            "type": "offer_region",
+            "code": "17"
+          },
+          {
+            "type": "offer_region",
+            "code": "42"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-c42fe3&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00061-fac6-735d-a691-cb499d9b847d/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-c42fe3/ar/13?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00062-2fd1-75ae-b3ca-8321c49aa7ac",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "8"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-d8d2f4&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00062-2fd1-75ae-b3ca-8321c49aa7ac/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-d8d2f4/ar/8?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00062-6622-7525-8186-1058a7dd6c97",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "35"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-462f02&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00062-6622-7525-8186-1058a7dd6c97/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-462f02/ar/35?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00062-a71e-7cf1-a233-a82a05cf69d7",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "440"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-5341c1&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00062-a71e-7cf1-a233-a82a05cf69d7/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-5341c1/ar/440?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00062-e656-7b15-8d93-d5172fac2116",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "12"
+          },
+          {
+            "type": "offer_region",
+            "code": "2"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-e66a72&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00062-e656-7b15-8d93-d5172fac2116/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-e66a72/ar/12?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00063-2072-7898-9813-83ae3c1d1116",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "31"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-11d301&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00063-2072-7898-9813-83ae3c1d1116/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-11d301/ar/31?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00063-5f20-74a5-87fc-8e1f5db44d8c",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "25"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-bc53a5&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00063-5f20-74a5-87fc-8e1f5db44d8c/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-bc53a5/ar/25?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a00063-9490-703f-9f90-f04a3dae3d8f",
+        "title": "24.08.2026 – 29.08.2026",
+        "regions": [
+          {
+            "type": "offer_region",
+            "code": "14"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-24-08-2026-29-08-2026-c550de&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a00063-9490-703f-9f90-f04a3dae3d8f/Aktionsprospekt-24-08-2026-29-08-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-24-08-2026-29-08-2026-c550de/ar/14?_ab=1&lf=HHZ"
+      },
+      {
+        "id": "01a0009e-4d44-7f80-acc6-937f05fa88fe",
+        "title": "31.08.2026 – 05.09.2026",
+        "regions": [
+          {
+            "type": "national",
+            "code": "0"
+          }
+        ],
+        "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-31-08-2026-05-09-2026-c665d6&client=lidl",
+        "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/01a0009e-4d44-7f80-acc6-937f05fa88fe/Aktionsprospekt-31-08-2026-05-09-2026-01.pdf",
+        "flyerUrlAbsolute": "https://www.lidl.de/l/prospekte/aktionsprospekt-31-08-2026-05-09-2026-c665d6/ar/0?_ab=1&lf=HHZ"
+      }
+    ],
+    "selected": {
+      "id": "019ff08c-e2d8-7677-995f-e824659481d9",
+      "title": "17.08.2026 – 22.08.2026",
+      "regions": [
+        {
+          "type": "national",
+          "code": "0"
+        }
+      ],
+      "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-799968&client=lidl"
+    }
+  },
+  "detail": {
+    "http": 200,
+    "chars": 420234,
+    "topKeys": [
+      "self",
+      "version",
+      "success",
+      "message",
+      "dateTime",
+      "numberOfEntries",
+      "flyer"
+    ],
+    "arrays": [
+      {
+        "path": "root.flyer.regions",
+        "length": 1,
+        "sampleType": "object",
+        "sampleKeys": [
+          "code"
+        ]
+      },
+      {
+        "path": "root.flyer.pages",
+        "length": 72,
+        "sampleType": "object",
+        "sampleKeys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ]
+      },
+      {
+        "path": "root.flyer.pages[].links",
+        "length": 6,
+        "sampleType": "object",
+        "sampleKeys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left"
+        ]
+      },
+      {
+        "path": "root.flyer.pages[].links",
+        "length": 4,
+        "sampleType": "object",
+        "sampleKeys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left"
+        ]
+      },
+      {
+        "path": "root.flyer.topics",
+        "length": 0,
+        "sampleType": "undefined",
+        "sampleKeys": []
+      },
+      {
+        "path": "root.flyer.videos",
+        "length": 0,
+        "sampleType": "undefined",
+        "sampleKeys": []
+      },
+      {
+        "path": "root.flyer.texts",
+        "length": 0,
+        "sampleType": "undefined",
+        "sampleKeys": []
+      },
+      {
+        "path": "root.flyer.notifications",
+        "length": 0,
+        "sampleType": "undefined",
+        "sampleKeys": []
+      },
+      {
+        "path": "root.flyer.relatedFlyers",
+        "length": 4,
+        "sampleType": "object",
+        "sampleKeys": [
+          "id",
+          "slug",
+          "name",
+          "title",
+          "url",
+          "startDate",
+          "endDate",
+          "thumbnailUrl",
+          "pdfUrl",
+          "regionCodes",
+          "stores"
+        ]
+      },
+      {
+        "path": "root.flyer.relatedFlyers[].regionCodes",
+        "length": 0,
+        "sampleType": "undefined",
+        "sampleKeys": []
+      },
+      {
+        "path": "root.flyer.relatedFlyers[].stores",
+        "length": 0,
+        "sampleType": "undefined",
+        "sampleKeys": []
+      },
+      {
+        "path": "root.flyer.relatedFlyers[].regionCodes",
+        "length": 0,
+        "sampleType": "undefined",
+        "sampleKeys": []
+      },
+      {
+        "path": "root.flyer.relatedFlyers[].stores",
+        "length": 0,
+        "sampleType": "undefined",
+        "sampleKeys": []
+      }
+    ],
+    "candidates": [
+      {
+        "path": "root.flyer.pages[0]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d4ffd606\",\"number\":1,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd15965b12\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=kaffee&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Lavazza-Kaffee-Titel\",\"title\":\"Link\",\"icon\":\"link\",\"width\":33.974358974359,\"height\":22.7959697733,\"top\":26.700251889168996,\"left\":0},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd13ac899b\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/livarno-premium-musselin-bettwasche-155-x-220-cm/p100409050?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409050\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 155 x 220 cm\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":50.629722921914,\"left\":35.25641025641,\"productDetails\":{\"productId\":\"100409050\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 155 x 220 cm\"}},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd1430ad81\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/livarno-premium-musselin-bettwasche-135-x-200-cm/p100408989?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408989\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 135 x 200 cm\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":50.629722921914,\"left\":46.153846153846,\"productDetails\":{\"productId\":\"100408989\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 135 x 200 cm\"}},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd15035c31\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/livarno-premium-musselin-bettwasche-200-x-220-cm/p100409121?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409121\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 200 x 220 cm\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":50.629722921914,\"left\":56.837606837607,\"productDetails\":{\"productId\":\"100409121\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 200 x 220 cm\"}},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd15fb893d\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=Weintrauben&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Trauben-hell\",\"title\":\"Link\",\"icon\":\"link\",\"width\":33.333333333333,\"height\":19.647355163728,\"top\":74.811083123426,\"left\":33.119658119658},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd152b"
+      },
+      {
+        "path": "root.flyer.pages[0].links[1]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd13ac899b\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/livarno-premium-musselin-bettwasche-155-x-220-cm/p100409050?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409050\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 155 x 220 cm\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":50.629722921914,\"left\":35.25641025641,\"productDetails\":{\"productId\":\"100409050\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 155 x 220 cm\"}}"
+      },
+      {
+        "path": "root.flyer.pages[0].links[1].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100409050\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 155 x 220 cm\"}"
+      },
+      {
+        "path": "root.flyer.pages[0].links[2]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd1430ad81\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/livarno-premium-musselin-bettwasche-135-x-200-cm/p100408989?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408989\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 135 x 200 cm\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":50.629722921914,\"left\":46.153846153846,\"productDetails\":{\"productId\":\"100408989\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 135 x 200 cm\"}}"
+      },
+      {
+        "path": "root.flyer.pages[0].links[2].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408989\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 135 x 200 cm\"}"
+      },
+      {
+        "path": "root.flyer.pages[0].links[3]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd15035c31\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/livarno-premium-musselin-bettwasche-200-x-220-cm/p100409121?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409121\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 200 x 220 cm\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":50.629722921914,\"left\":56.837606837607,\"productDetails\":{\"productId\":\"100409121\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 200 x 220 cm\"}}"
+      },
+      {
+        "path": "root.flyer.pages[0].links[3].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100409121\",\"title\":\"LIVARNO® Musselin-Bettwäsche, 200 x 220 cm\"}"
+      },
+      {
+        "path": "root.flyer.pages[0].links[5]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd152b7cb1\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/parkside-elektro-kettensage-peks-2200-b1-2-hand-schutzschalter/p100393714?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100393714\",\"title\":\"PARKSIDE® Elektro-Kettensäge »PEKS 2200 B1«, 2-Hand-Schutzschalter\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":78.96725440806,\"left\":67.948717948718,\"productDetails\":{\"productId\":\"100393714\",\"title\":\"PARKSIDE® Elektro-Kettensäge »PEKS 2200 B1«, 2-Hand-Schutzschalter\"}}"
+      },
+      {
+        "path": "root.flyer.pages[0].links[5].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100393714\",\"title\":\"PARKSIDE® Elektro-Kettensäge »PEKS 2200 B1«, 2-Hand-Schutzschalter\"}"
+      },
+      {
+        "path": "root.flyer.pages[1]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d5f976a9\",\"number\":2,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd170bfb79\",\"displayType\":\"standard\",\"url\":\"https://www.lidl.de/c/bewusste-ernaehrung/s10097179\",\"title\":\"Link\",\"icon\":\"link\",\"width\":27.058823529412,\"height\":16.507177033493,\"top\":30.861244019138994,\"left\":51.56862745098},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd17f6c5a8\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=Weintrauben&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Trauben-hell\",\"title\":\"Link\",\"icon\":\"link\",\"width\":44.313725490196,\"height\":44.856459330144,\"top\":47.607655502392,\"left\":3.921568627451},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd16c1b295\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=zitronen&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Zitronen\",\"title\":\"Link\",\"icon\":\"link\",\"width\":48.235294117647,\"height\":22.607655502392,\"top\":41.985645933014,\"left\":47.843137254902},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd18adb925\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=feigen&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Feigen\",\"title\":\"Link\",\"icon\":\"link\",\"width\":47.254901960784,\"height\":27.033492822967,\"top\":65.55023923445,\"left\":49.803921568627}],\"keyWords\":\"Großer Frische-Sieger Winziger Preis Lidl Dienstleistung & Sieger Kategorie Discount Fruitnet Media International Düsseldorf -33% -25% Helle Kernlose Trauben Ursprung Klasse Zitronen Argentinien 500-G-Netz Frische Feigen Lose Türkei Stück Bewusst Ernähren Wigald Boning Hhz – Auftrag Fruchthandel Magazin Yougov Frühjahr Insgesamt Haushalte Meinung Obst Gemüseangebot Verschiedenen Handelsgruppen Einschließlich Kategorien Gegensatz Preisen Einzelne Geschäft Abteilung Leistung Gesamten Handelsgruppe Retail Award Informationen Awards 2016 2017 2019 2020 2021 2022 1200\",\"altText\":\"Werbeseite von Lidl mit der Auszeichnung als Frische-Sieger in der Kategorie Discount und Angeboten für kernlose Trauben, Zitronen und Feigen.\",\"image\":\"https://imgproxy.leaflets.schwarz/-_Fl3FZDnmIxqIRJIsV0-HU8quvDrIsHJuSjoKeAP2Q/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDJfZjRhZmRmODkxOWJiZjY0YmYzZTUzY2M5MDU1NjJlYmIucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/_JgfO2K6OfTDFt3ECtObNnAXXIn4advuEgqh3VTEd_0/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9p"
+      },
+      {
+        "path": "root.flyer.pages[2]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d6c3de77\",\"number\":3,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd18c9d861\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=karotten&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Mini-Moehren\",\"title\":\"Link\",\"icon\":\"link\",\"width\":34.401709401709,\"height\":27.581863979849,\"top\":8.060453400504002,\"left\":32.264957264957},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd1a37242a\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=zwiebeln&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Zwiebeln\",\"title\":\"Link\",\"icon\":\"link\",\"width\":32.905982905983,\"height\":27.581863979849,\"top\":37.27959697733,\"left\":0},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd196776e5\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=salat-mix&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Salat-Mix\",\"title\":\"Link\",\"icon\":\"link\",\"width\":32.905982905983,\"height\":27.581863979849,\"top\":37.27959697733,\"left\":33.547008547009},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd1a7a18f9\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=maiskolben&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Zuckermais\",\"title\":\"Link\",\"icon\":\"link\",\"width\":66.666666666667,\"height\":29.848866498741,\"top\":64.48362720403,\"left\":0}],\"keyWords\":\"Saison Highlight Woche Lidl Plus Aktion -20% Galiamelone Ursprung Spanien Klasse Frischer Zuckermais Stück Salat-Mix Italien Deutsche Rote Zwiebeln Bio Mini Möhren Dänemark -1€ Drinnen Draußen Romantisches Rosen-Duo Höhe Topf Heidekraut Lizenzsorte Calluna Beauty 6Er-Tray Lilien Orientalisch Phalaenopsis Multiflora Echte Bienen- Lieblinge Deutsc Dwir Tsc 1-Kg-Netz Kg- Eis Artikel Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Pflanzen Gilt Angebot Ausschließlich Nutzer Gelten Infos Hhz – 1305\",\"altText\":\"Saisonaler Lidl-Prospekt mit Angeboten für Galiamelonen, Zuckermais, Rote Zwiebeln, Mini-Möhren sowie verschiedenen Blumen und Pflanzen.\",\"image\":\"https://imgproxy.leaflets.schwarz/CCBa28rPizRBJ3VApaq8aKpnbKi4-1YFNRsPJBV_pag/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDNfY2E1NDUzNWIwMTUyOWVmMjQ2MzEwMTY1NTkxNDZkODgucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/dOt0CIlR4A9dklKD8VBHdzEv1UYogcOSvQ96lp4Bpmw/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMv"
+      },
+      {
+        "path": "root.flyer.pages[3]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d70aa799\",\"number\":4,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[],\"keyWords\":\"Frische Kategorie Motiviert Täglicher Dauerhafter Discount Fruitnet Media International Düsseldorf Lidl Dienstleistung & Sieger Ieger Vollsortimenter Frische-Sieger Auftrag Fruchthandel Magazin Yougov Frühjahr Insgesamt Haushalte Meinung Obst Gemüseangebot Verschiedenen Handelsgruppen Einschließlich Kategorien Gegensatz Preisen Einzelne Geschäft Abteilung Leistung Gesamten Handelsgruppe Retail Award Informationen Awards 2016 2017 2019 2020 2021 2022 1128\",\"altText\":\"Werbeseite von Lidl zur Auszeichnung als Frische-Sieger im Bereich Obst und Gemüse mit einem Foto von Wigald Boning.\",\"image\":\"https://imgproxy.leaflets.schwarz/rIaMe771Ldh12Kmf8EDHo3M6vSJCyF31MSEsGvkXMNw/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDRfMzc0N2VhMTZmZjQxYTA1NGZjNGQwMjU0NTU0Mzg1NTMucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/MrcqMyGPAXh4SDV8aOWndHLcsUAVZM16bMCstprO0Bk/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDRfMzc0N2VhMTZmZjQxYTA1NGZjNGQwMjU0NTU0Mzg1NTMucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/mgF6LXfcG1e-lt9oFxKnOPgddlIHTcNqhoEsPgRIapM/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDRfMzc0N2VhMTZmZjQxYTA1NGZjNGQwMjU0NTU0Mzg1NTMucG5n.jpg\",\"pageType\":\"page\"}"
+      },
+      {
+        "path": "root.flyer.pages[4]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d75f98c4\",\"number\":5,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[],\"keyWords\":\"Frische Kategorie Discount Einsatz Tägliche Vielfalt Täglich Obst- & Frische- Kontrollen Filialen Sichern Möglichst Saisonal Deutscher Ernte 45% Bioland-Qualität – Bio-Anbau Chemisch- Synthetische Pestizide Deutschland Deutsc Dwir Tsc Plastik Wähle Obst Gemüse Kar- Ton Papier Silphie-Papier Nutze Wiederver- Wendbaren Durchschnittswert 1128\",\"altText\":\"Informationsseite von Lidl über Frische, Vielfalt und Qualitätskontrollen bei Obst und Gemüse sowie den Einsatz von Bioland-Qualität und umweltfreundlichen Verpackungen.\",\"image\":\"https://imgproxy.leaflets.schwarz/fSG8PAQvXRb4a5GHWct5TDX5jW6FCjhFh8YTGlRIQ9s/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDVfNzk1NjNmZTVhZTYwNTYzYzgyMWQyYTdiMzYyNjUwZDEucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/WXiH9ly5FZNypt1nprUezHgUhrgfqUs5J7qwYBMz0Zw/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDVfNzk1NjNmZTVhZTYwNTYzYzgyMWQyYTdiMzYyNjUwZDEucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/sreB9t73N5PBSyUtHNiEyBTdq0SJiv7ZqFV83EPF__o/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDVfNzk1NjNmZTVhZTYwNTYzYzgyMWQyYTdiMzYyNjUwZDEucG5n.jpg\",\"pageType\":\"page\"}"
+      },
+      {
+        "path": "root.flyer.pages[5]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d78b775a\",\"number\":6,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[],\"keyWords\":\"Große Vielfalt Winziger Preis Dauerhaft Sortiment Ehr Infos & Rezepte Bewusst Wigald Boning Ernähren Ür Tierwohl Haltungsform Hf3-Artikel Stammen Komplett Deutschland Hf3 Bedeutet Platz Frischluft Tiere Jederzeit Zugang Deutlich Artikel Deutscher Landwirtschaft Garantierte Heimqualität 100% Trinkmilch Produkte Eigenmarke Metzgerfrisch Herkunft Frischluftstall Deutsc Dwir Tsc Dhz – Jahresverlauf Label „Gutes Landwirtschaft“ 1405\",\"altText\":\"Werbeseite von Lidl mit Fokus auf Tierwohl (Haltungsform 3), heimische Landwirtschaft und bewusste Ernährung, präsentiert von Wigald Boning.\",\"image\":\"https://imgproxy.leaflets.schwarz/AfxUd47VqUtfc-ZbQu1xsfWUEqla47TDjeWHctWlX7w/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDZfMjFlNGM1NTYyOTc3NDM1OThkMDU1NGMzMTM0NTAzNWUucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/w-MSCR7op2MhMnMfQRXdJ942fLt2gOMX08AIRW4Z0tE/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDZfMjFlNGM1NTYyOTc3NDM1OThkMDU1NGMzMTM0NTAzNWUucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/EFkv3hWtgTcRg0Rb3-vKkkAV240yK-vDMHbZxIJmkZY/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDZfMjFlNGM1NTYyOTc3NDM1OThkMDU1NGMzMTM0NTAzNWUucG5n.jpg\",\"pageType\":\"page\"}"
+      },
+      {
+        "path": "root.flyer.pages[6]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d7d7afef\",\"number\":7,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd1babefda\",\"displayType\":\"standard\",\"url\":\"https://lidlplus.com/benefits/detail/BEN0000014130\",\"title\":\"Link\",\"icon\":\"link\",\"width\":85.042735042735,\"height\":91.183879093199,\"top\":4.408060453401006,\"left\":7.4786324786325}],\"keyWords\":\"Aktionszeitraum – Lidl Plus-Kunden Nextory Tage Ostenlos 14 Millionen Books Hörbücher Exklusive Plus Partner- Vorteile Stunden Gratis Testen Lohnt Kostenlos Hören & 999 Testzeitraum Vertragsbindung Jederzeit Kündbar Dhz Angebotszeitraum Angebot Gilt Einschließlich Neukunden Ehemaligen Kund* Vergangenen Monaten Abonnement Abgeschlossen Fragen Wende Bitte Kundendienst Link 0829\",\"altText\":\"Lidl Plus Partner-Vorteil mit einem Angebot für einen kostenlosen Testzeitraum bei Nextory für Hörbücher und E-Books.\",\"image\":\"https://imgproxy.leaflets.schwarz/bzOZAcyb8CLzO84vCxGIvYQAoRGy6fRqrk4nrL-hTTc/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDdfOWI1OTE3MDBjZDY3ZjFjNWNmYTIyMGZiZjk1ZTczMDIucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/tTuqmtFwL1oRFNE6c4Z-nqlUo2DFbg_lsDIdhb5TLLg/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDdfOWI1OTE3MDBjZDY3ZjFjNWNmYTIyMGZiZjk1ZTczMDIucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/9bRVSF3CGSinXOrQrNUMpAeT9vrEayLHGDwbZzwDTJU/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMDdfOWI1OTE3MDBjZDY3ZjFjNWNmYTIyMGZiZjk1ZTczMDIucG5n.jpg\",\"pageType\":\"page\"}"
+      },
+      {
+        "path": "root.flyer.pages[7]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d87a5504\",\"number\":8,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8f-79c4-a785-3a1171a8b37a\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-kuchenmaschine/p100409109?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409109\",\"title\":\"SILVERCREST® Küchenmaschine\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":37.153652392947,\"left\":16.666666666667,\"productDetails\":{\"productId\":\"100409109\",\"title\":\"SILVERCREST® Küchenmaschine\"}},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd1be61479\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-kuchenmaschine/p100409084?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409084\",\"title\":\"SILVERCREST® Küchenmaschine\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":40.176322418136,\"left\":4.9145299145299,\"productDetails\":{\"productId\":\"100409084\",\"title\":\"SILVERCREST® Küchenmaschine\"}},{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd1bf5c5f3\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-kuchenmaschine-digital-pastell/p100409131?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409131\",\"title\":\"SILVERCREST® Küchenmaschine digital Pastell\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":45.591939546599,\"left\":46.794871794872,\"productDetails\":{\"productId\":\"100409131\",\"title\":\"SILVERCREST® Küchenmaschine digital Pastell\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a1171b33a7a\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-induktionskochplatte-sikp-2200-b1/p100401552?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401552\",\"title\":\"SILVERCREST® Induktionskochplatte »SIKP 2200 B1«\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":71.66246851385401,\"left\":7.4786324786325,\"productDetails\":{\"productId\":\"100401552\",\"title\":\"SILVERCREST® Induktionskochplatte »SIKP 2200 B1«\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a1172ad79ca\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-reiskocher-srk-400-d2/p100397680?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220"
+      },
+      {
+        "path": "root.flyer.pages[7].links[0]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a1171a8b37a\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-kuchenmaschine/p100409109?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409109\",\"title\":\"SILVERCREST® Küchenmaschine\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":37.153652392947,\"left\":16.666666666667,\"productDetails\":{\"productId\":\"100409109\",\"title\":\"SILVERCREST® Küchenmaschine\"}}"
+      },
+      {
+        "path": "root.flyer.pages[7].links[0].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100409109\",\"title\":\"SILVERCREST® Küchenmaschine\"}"
+      },
+      {
+        "path": "root.flyer.pages[7].links[1]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd1be61479\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-kuchenmaschine/p100409084?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409084\",\"title\":\"SILVERCREST® Küchenmaschine\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":40.176322418136,\"left\":4.9145299145299,\"productDetails\":{\"productId\":\"100409084\",\"title\":\"SILVERCREST® Küchenmaschine\"}}"
+      },
+      {
+        "path": "root.flyer.pages[7].links[1].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100409084\",\"title\":\"SILVERCREST® Küchenmaschine\"}"
+      },
+      {
+        "path": "root.flyer.pages[7].links[2]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8e-7f0e-bb32-11bd1bf5c5f3\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-kuchenmaschine-digital-pastell/p100409131?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409131\",\"title\":\"SILVERCREST® Küchenmaschine digital Pastell\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":45.591939546599,\"left\":46.794871794872,\"productDetails\":{\"productId\":\"100409131\",\"title\":\"SILVERCREST® Küchenmaschine digital Pastell\"}}"
+      },
+      {
+        "path": "root.flyer.pages[7].links[2].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100409131\",\"title\":\"SILVERCREST® Küchenmaschine digital Pastell\"}"
+      },
+      {
+        "path": "root.flyer.pages[7].links[3]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a1171b33a7a\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-induktionskochplatte-sikp-2200-b1/p100401552?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401552\",\"title\":\"SILVERCREST® Induktionskochplatte »SIKP 2200 B1«\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":71.66246851385401,\"left\":7.4786324786325,\"productDetails\":{\"productId\":\"100401552\",\"title\":\"SILVERCREST® Induktionskochplatte »SIKP 2200 B1«\"}}"
+      },
+      {
+        "path": "root.flyer.pages[7].links[3].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100401552\",\"title\":\"SILVERCREST® Induktionskochplatte »SIKP 2200 B1«\"}"
+      },
+      {
+        "path": "root.flyer.pages[7].links[4]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a1172ad79ca\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-reiskocher-srk-400-d2/p100397680?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100397680\",\"title\":\"SILVERCREST® Reiskocher SRK 400 D2\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":75.818639798489,\"left\":54.487179487179,\"productDetails\":{\"productId\":\"100397680\",\"title\":\"SILVERCREST® Reiskocher SRK 400 D2\"}}"
+      },
+      {
+        "path": "root.flyer.pages[7].links[4].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100397680\",\"title\":\"SILVERCREST® Reiskocher SRK 400 D2\"}"
+      },
+      {
+        "path": "root.flyer.pages[8]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d87d8cfc\",\"number\":9,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8f-79c4-a785-3a1172edcbb7\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-edelstahl-besteck-set-30-teilig/p100399274?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399274\",\"title\":\"SILVERCREST® Edelstahl-Besteck-Set, 30-teilig\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":14.987405541561998,\"left\":19.444444444444,\"productDetails\":{\"productId\":\"100399274\",\"title\":\"SILVERCREST® Edelstahl-Besteck-Set, 30-teilig\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a117310aadc\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/russell-hobbs-salz-und-pfeffermuhlen/p100406811?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100406811\",\"title\":\"RUSSELL HOBBS Salz- und Pfeffermühlen\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":16.876574307305006,\"left\":72.008547008547,\"productDetails\":{\"productId\":\"100406811\",\"title\":\"RUSSELL HOBBS Salz- und Pfeffermühlen\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a1173beaebe\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-glasschussel-set-5-tlg/p100397686?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100397686\",\"title\":\"SILVERCREST® Glasschüssel-Set, 5-tlg.\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":45.969773299748,\"left\":18.589743589744,\"productDetails\":{\"productId\":\"100397686\",\"title\":\"SILVERCREST® Glasschüssel-Set, 5-tlg.\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a11749042dd\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/mepal-aufbewahrungsdosen-2er-set-rund/p100410046?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100410046\",\"title\":\"MEPAL Aufbewahrungsdosen, 2er Set rund\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":43.828715365239,\"left\":67.735042735043,\"productDetails\":{\"productId\":\"100410046\",\"title\":\"MEPAL Aufbewahrungsdosen, 2er Set rund\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a1174b652f4\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-4-in-1-eiscrememaschine-semk-100-a1/p100408344?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf"
+      },
+      {
+        "path": "root.flyer.pages[8].links[0]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a1172edcbb7\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-edelstahl-besteck-set-30-teilig/p100399274?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399274\",\"title\":\"SILVERCREST® Edelstahl-Besteck-Set, 30-teilig\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":14.987405541561998,\"left\":19.444444444444,\"productDetails\":{\"productId\":\"100399274\",\"title\":\"SILVERCREST® Edelstahl-Besteck-Set, 30-teilig\"}}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[0].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100399274\",\"title\":\"SILVERCREST® Edelstahl-Besteck-Set, 30-teilig\"}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[1]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117310aadc\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/russell-hobbs-salz-und-pfeffermuhlen/p100406811?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100406811\",\"title\":\"RUSSELL HOBBS Salz- und Pfeffermühlen\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":16.876574307305006,\"left\":72.008547008547,\"productDetails\":{\"productId\":\"100406811\",\"title\":\"RUSSELL HOBBS Salz- und Pfeffermühlen\"}}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[1].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100406811\",\"title\":\"RUSSELL HOBBS Salz- und Pfeffermühlen\"}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[2]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a1173beaebe\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-glasschussel-set-5-tlg/p100397686?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100397686\",\"title\":\"SILVERCREST® Glasschüssel-Set, 5-tlg.\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":45.969773299748,\"left\":18.589743589744,\"productDetails\":{\"productId\":\"100397686\",\"title\":\"SILVERCREST® Glasschüssel-Set, 5-tlg.\"}}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[2].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100397686\",\"title\":\"SILVERCREST® Glasschüssel-Set, 5-tlg.\"}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[3]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a11749042dd\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/mepal-aufbewahrungsdosen-2er-set-rund/p100410046?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100410046\",\"title\":\"MEPAL Aufbewahrungsdosen, 2er Set rund\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":43.828715365239,\"left\":67.735042735043,\"productDetails\":{\"productId\":\"100410046\",\"title\":\"MEPAL Aufbewahrungsdosen, 2er Set rund\"}}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[3].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100410046\",\"title\":\"MEPAL Aufbewahrungsdosen, 2er Set rund\"}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[4]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a1174b652f4\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/silvercrest-4-in-1-eiscrememaschine-semk-100-a1/p100408344?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408344\",\"title\":\"SILVERCREST® 4-in-1-Eiscrememaschine »SEMK 100 A1«\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":66.120906801008,\"left\":2.3504273504274,\"productDetails\":{\"productId\":\"100408344\",\"title\":\"SILVERCREST® 4-in-1-Eiscrememaschine »SEMK 100 A1«\"}}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[4].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408344\",\"title\":\"SILVERCREST® 4-in-1-Eiscrememaschine »SEMK 100 A1«\"}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[5]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117524da5e\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/delonghi-kombi-kaffeemaschine-bco411-fur-espresso-und-filterkaffee/p100405590?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100405590\",\"title\":\"DELONGHI Kombi-Kaffeemaschine »BCO411« für Espresso und Filterkaffee\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":69.143576826196,\"left\":54.700854700855,\"productDetails\":{\"productId\":\"100405590\",\"title\":\"DELONGHI Kombi-Kaffeemaschine »BCO411« für Espresso und Filterkaffee\"}}"
+      },
+      {
+        "path": "root.flyer.pages[8].links[5].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100405590\",\"title\":\"DELONGHI Kombi-Kaffeemaschine »BCO411« für Espresso und Filterkaffee\"}"
+      },
+      {
+        "path": "root.flyer.pages[9]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d8f4ec67\",\"number\":10,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8f-79c4-a785-3a11758184a5\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-lightweight-funktionsjacke/p100408864?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408864\",\"title\":\"CRIVIT Damen Lightweight-Funktionsjacke\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":15.491183879093,\"left\":62.393162393162,\"productDetails\":{\"productId\":\"100408864\",\"title\":\"CRIVIT Damen Lightweight-Funktionsjacke\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a11757ca7cd\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-herren-lightweight-funktionsjacke/p100408844?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408844\",\"title\":\"CRIVIT Herren Lightweight-Funktionsjacke\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":15.491183879093,\"left\":83.119658119658,\"productDetails\":{\"productId\":\"100408844\",\"title\":\"CRIVIT Herren Lightweight-Funktionsjacke\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a1176f2cbc2\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-funktionsshirt/p100408786?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408786\",\"title\":\"CRIVIT Damen Funktionsshirt\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":36.020151133501,\"left\":62.393162393162,\"productDetails\":{\"productId\":\"100408786\",\"title\":\"CRIVIT Damen Funktionsshirt\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a11766e19e9\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-herren-funktionsshirt/p100409107?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409107\",\"title\":\"CRIVIT Herren Funktionsshirt\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":36.020151133501,\"left\":84.401709401709,\"productDetails\":{\"productId\":\"100409107\",\"title\":\"CRIVIT Herren Funktionsshirt\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a1177e11ff4\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-herren-funktionsweste/p100408884?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408884\",\"ti"
+      },
+      {
+        "path": "root.flyer.pages[9].links[0]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a11758184a5\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-lightweight-funktionsjacke/p100408864?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408864\",\"title\":\"CRIVIT Damen Lightweight-Funktionsjacke\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":15.491183879093,\"left\":62.393162393162,\"productDetails\":{\"productId\":\"100408864\",\"title\":\"CRIVIT Damen Lightweight-Funktionsjacke\"}}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[0].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408864\",\"title\":\"CRIVIT Damen Lightweight-Funktionsjacke\"}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[1]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a11757ca7cd\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-herren-lightweight-funktionsjacke/p100408844?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408844\",\"title\":\"CRIVIT Herren Lightweight-Funktionsjacke\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":15.491183879093,\"left\":83.119658119658,\"productDetails\":{\"productId\":\"100408844\",\"title\":\"CRIVIT Herren Lightweight-Funktionsjacke\"}}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[1].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408844\",\"title\":\"CRIVIT Herren Lightweight-Funktionsjacke\"}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[2]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a1176f2cbc2\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-funktionsshirt/p100408786?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408786\",\"title\":\"CRIVIT Damen Funktionsshirt\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":36.020151133501,\"left\":62.393162393162,\"productDetails\":{\"productId\":\"100408786\",\"title\":\"CRIVIT Damen Funktionsshirt\"}}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[2].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408786\",\"title\":\"CRIVIT Damen Funktionsshirt\"}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[3]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a11766e19e9\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-herren-funktionsshirt/p100409107?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409107\",\"title\":\"CRIVIT Herren Funktionsshirt\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":36.020151133501,\"left\":84.401709401709,\"productDetails\":{\"productId\":\"100409107\",\"title\":\"CRIVIT Herren Funktionsshirt\"}}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[3].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100409107\",\"title\":\"CRIVIT Herren Funktionsshirt\"}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[4]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a1177e11ff4\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-herren-funktionsweste/p100408884?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408884\",\"title\":\"CRIVIT Herren Funktionsweste\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":59.697732997481,\"left\":67.521367521368,\"productDetails\":{\"productId\":\"100408884\",\"title\":\"CRIVIT Herren Funktionsweste\"}}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[4].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408884\",\"title\":\"CRIVIT Herren Funktionsweste\"}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[5]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117986f66c\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-laufschuhe/p100401432?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401432\",\"title\":\"CRIVIT Damen Laufschuhe\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":70.780856423174,\"left\":14.102564102564,\"productDetails\":{\"productId\":\"100401432\",\"title\":\"CRIVIT Damen Laufschuhe\"}}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[5].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100401432\",\"title\":\"CRIVIT Damen Laufschuhe\"}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[6]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117905b014\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-herren-laufschuhe/p100401415?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401415\",\"title\":\"CRIVIT Herren Laufschuhe\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":70.780856423174,\"left\":37.606837606838,\"productDetails\":{\"productId\":\"100401415\",\"title\":\"CRIVIT Herren Laufschuhe\"}}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[6].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100401415\",\"title\":\"CRIVIT Herren Laufschuhe\"}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[7]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a11780be87f\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-funktionsweste/p100408867?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408867\",\"title\":\"CRIVIT Damen Funktionsweste\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":61.083123425693,\"left\":48.931623931624,\"productDetails\":{\"productId\":\"100408867\",\"title\":\"CRIVIT Damen Funktionsweste\"}}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[7].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408867\",\"title\":\"CRIVIT Damen Funktionsweste\"}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[8]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117a6ed4aa\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-funktionsshorts-2-in-1/p100409110?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409110\",\"title\":\"CRIVIT Damen Funktionsshorts, 2- in-1\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":73.803526448363,\"left\":63.461538461538,\"productDetails\":{\"productId\":\"100409110\",\"title\":\"CRIVIT Damen Funktionsshorts, 2- in-1\"}}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[8].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100409110\",\"title\":\"CRIVIT Damen Funktionsshorts, 2- in-1\"}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[9]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117a0533f3\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-herren-funktionsshorts-mit-handytasche/p100408829?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408829\",\"title\":\"CRIVIT Herren Funktionsshorts, mit Handytasche\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":83.37531486146099,\"left\":65.598290598291,\"productDetails\":{\"productId\":\"100408829\",\"title\":\"CRIVIT Herren Funktionsshorts, mit Handytasche\"}}"
+      },
+      {
+        "path": "root.flyer.pages[9].links[9].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408829\",\"title\":\"CRIVIT Herren Funktionsshorts, mit Handytasche\"}"
+      },
+      {
+        "path": "root.flyer.pages[10]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d99f7a4a\",\"number\":11,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8f-79c4-a785-3a117b275e5a\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-sportbustier/p100408852?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408852\",\"title\":\"CRIVIT Damen Sportbustier\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":6.2972292191440005,\"left\":16.880341880342,\"productDetails\":{\"productId\":\"100408852\",\"title\":\"CRIVIT Damen Sportbustier\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a117b914ec4\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-funktionscapri-mit-handytasche/p100408828?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408828\",\"title\":\"CRIVIT Damen Funktionscapri, mit Handytasche\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":5.289672544081,\"left\":64.74358974359,\"productDetails\":{\"productId\":\"100408828\",\"title\":\"CRIVIT Damen Funktionscapri, mit Handytasche\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a117c3f1679\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-2-in-1-funktionsrock/p100408826?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408826\",\"title\":\"CRIVIT Damen 2-in-1-Funktionsrock\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":30.352644836272006,\"left\":17.735042735043,\"productDetails\":{\"productId\":\"100408826\",\"title\":\"CRIVIT Damen 2-in-1-Funktionsrock\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a117c618208\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-funktionstights-mit-handytasche/p100408818?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408818\",\"title\":\"CRIVIT Damen Funktionstights, mit Handytasche\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":44.458438287154,\"left\":54.487179487179,\"productDetails\":{\"productId\":\"100408818\",\"title\":\"CRIVIT Damen Funktionstights, mit Handytasche\"}},{\"id\":\"01a0196e-fa8f-79c4-a785-3a117c85a419\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/christopeit-sport-walking-pad/p100392466?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_1"
+      },
+      {
+        "path": "root.flyer.pages[10].links[0]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117b275e5a\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-sportbustier/p100408852?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408852\",\"title\":\"CRIVIT Damen Sportbustier\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":6.2972292191440005,\"left\":16.880341880342,\"productDetails\":{\"productId\":\"100408852\",\"title\":\"CRIVIT Damen Sportbustier\"}}"
+      },
+      {
+        "path": "root.flyer.pages[10].links[0].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408852\",\"title\":\"CRIVIT Damen Sportbustier\"}"
+      },
+      {
+        "path": "root.flyer.pages[10].links[1]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117b914ec4\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-funktionscapri-mit-handytasche/p100408828?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408828\",\"title\":\"CRIVIT Damen Funktionscapri, mit Handytasche\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":5.289672544081,\"left\":64.74358974359,\"productDetails\":{\"productId\":\"100408828\",\"title\":\"CRIVIT Damen Funktionscapri, mit Handytasche\"}}"
+      },
+      {
+        "path": "root.flyer.pages[10].links[1].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408828\",\"title\":\"CRIVIT Damen Funktionscapri, mit Handytasche\"}"
+      },
+      {
+        "path": "root.flyer.pages[10].links[2]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117c3f1679\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-2-in-1-funktionsrock/p100408826?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408826\",\"title\":\"CRIVIT Damen 2-in-1-Funktionsrock\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":30.352644836272006,\"left\":17.735042735043,\"productDetails\":{\"productId\":\"100408826\",\"title\":\"CRIVIT Damen 2-in-1-Funktionsrock\"}}"
+      },
+      {
+        "path": "root.flyer.pages[10].links[2].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408826\",\"title\":\"CRIVIT Damen 2-in-1-Funktionsrock\"}"
+      },
+      {
+        "path": "root.flyer.pages[10].links[3]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117c618208\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/crivit-damen-funktionstights-mit-handytasche/p100408818?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408818\",\"title\":\"CRIVIT Damen Funktionstights, mit Handytasche\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":44.458438287154,\"left\":54.487179487179,\"productDetails\":{\"productId\":\"100408818\",\"title\":\"CRIVIT Damen Funktionstights, mit Handytasche\"}}"
+      },
+      {
+        "path": "root.flyer.pages[10].links[3].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100408818\",\"title\":\"CRIVIT Damen Funktionstights, mit Handytasche\"}"
+      },
+      {
+        "path": "root.flyer.pages[10].links[4]",
+        "keys": [
+          "id",
+          "displayType",
+          "url",
+          "title",
+          "icon",
+          "width",
+          "height",
+          "top",
+          "left",
+          "productDetails"
+        ],
+        "sample": "{\"id\":\"01a0196e-fa8f-79c4-a785-3a117c85a419\",\"displayType\":\"product\",\"url\":\"https://www.lidl.de/p/christopeit-sport-walking-pad/p100392466?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100392466\",\"title\":\"CHRISTOPEIT SPORT Walking Pad\",\"icon\":\"link\",\"width\":10.897435897436,\"height\":6.4231738035264,\"top\":54.534005037783,\"left\":70.940170940171,\"productDetails\":{\"productId\":\"100392466\",\"title\":\"CHRISTOPEIT SPORT Walking Pad\"}}"
+      },
+      {
+        "path": "root.flyer.pages[10].links[4].productDetails",
+        "keys": [
+          "productId",
+          "title"
+        ],
+        "sample": "{\"productId\":\"100392466\",\"title\":\"CHRISTOPEIT SPORT Walking Pad\"}"
+      },
+      {
+        "path": "root.flyer.pages[11]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65d9f7b241\",\"number\":12,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8f-79c4-a785-3a117d7bd483\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=orangensaft&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Orangensaft\",\"title\":\"Link\",\"icon\":\"link\",\"width\":48.290598290598,\"height\":29.093198992443,\"top\":19.521410579345,\"left\":49.786324786325},{\"id\":\"01a0196e-fa8f-79c4-a785-3a117df34607\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=waln%C3%BCsse&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Walnuesskerne\",\"title\":\"Link\",\"icon\":\"link\",\"width\":41.880341880342,\"height\":17.002518891688,\"top\":49.874055415617,\"left\":2.7777777777778}],\"keyWords\":\"Sparen Preisführer Lohnt Lidl Plus -33% Uvp -44% -37% -29% Lenor Waschmittel Gel Pulver Waschladungen Granini Pfand Arla Kaergarden Xxl Alesto Walnuss Kerne Normalpreis - Steller Pepsi 175 Tiefpreis Garantie Gara Ntie Aktionszeitraum Pepsi-Artikel Kaufen & Gewinnen 100X Uefa Champions League Tickets Teilnehmen Tief Preis Antie Lhz – Teilnahme 18 Wohnsitz Deutschland Gewinne Spiel Kommenden Saison Einkauf Pepsi-Aktionsartikels Identifizieren Gewinnspiel-Los Klick „Teilnahme Abschicken“ Aktionsartikel Getränke Marke Mehrfachteilnahmen Lose Mehreren Gesonderten Einkäufen Losentscheid Aktionsende Gewinn Gewinnbenachrichtigung Rückmeldung Gewinner Tagen Erforderlich Gewinnverfall Auslosung Abreise Übernachtung Eigene Barauszahlung Rechtsweg Veranstalter Dienstleistung Kg Bonfelder Bad Pepsico Offiziellem Partner Infos Angebot Ausschließlich Nutzer Gelten 21301\",\"altText\":\"Lidl Plus Prospektseite mit Rabatten auf Lenor Waschmittel, Granini Säfte, Arla Kærgården und Alesto Walnusskerne sowie einem Pepsi-Gewinnspiel für UEFA Champions League Tickets.\",\"image\":\"https://imgproxy.leaflets.schwarz/LNL-2oJhXqT7tf4PQaiyOxrYAi9VxW2WYyv4gL3ah7U/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTJfYzdhNWM1OWM5OGZkZmE3MzY0YjYwZTRiNWJlNDlmOTAucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/5sCqMqn9ITntQILJp-ujGa8FolMY97wp7jAQ8pzpBNE/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTJfYzdhNWM1OWM5OGZkZmE3MzY0YjYwZTRiNWJlNDlmOTAucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/wJ-ZTJfvhkaPTfUnDnjQFwoRihYcoXHT3Bbv-KUsIh4/rs:fit:400:400:1/g:no/czM6Ly9s"
+      },
+      {
+        "path": "root.flyer.pages[12]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65da557d25\",\"number\":13,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[],\"keyWords\":\"Lidl Plus -53% Uvp -46% -55% -35% -44% -41% Jägermeister Vol 07 Müller Müllermilch Matcha Pfand -20% -16% -24% -28% -47% -33% -34% -31% Pringles Normalpreis Heinz Tomato Original 117 Milka Tafelschokolade Jack Daniel's Mixgetränk 033 Nordsee Matjesfilets Xxl Grünländer Käsescheiben Standardpackung Oetker Ristorante Flamm Kuchen Elsässer Art Pizza Conditorei Coppenrath & Wiese Cafeteria Fein Sahnig Jameson Irish Whiskey Langnese Magnum Classic Tief­ Standard­ Packung 2Er-Pack Stück Aufsteller Longdrinkglas Shotgläser Gratis Servicevalue Kooperation Wirtschaftswoche Studie „Deutschlands Preisfavoriten 2026“ Verbraucher November Dezember ­Access­panel Befragt Genannten Unternehmen Verschiedenen Branchen Grund Preisgünstigkeit Leistungen Produkte Insgesamt Verbraucherurteile Besten Ergebnisses Branche „Lebensmittel­discounter“ Auszeichnung „Höchste Empfehlung“ Gesamtsieger Ergebnisse Informationen Artikel Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Angebot Ausschließlich Nutzer Gelten Infos Preisvorteil Gegenüber Grundpreis Lhz – 0855\",\"altText\":\"Lidl Plus Rabattseite mit Angeboten für Jägermeister, Müllermilch, Pringles, Milka Schokolade, Tiefkühlpizza und Eiscreme.\",\"image\":\"https://imgproxy.leaflets.schwarz/b1bYXDTern817XpxBptpUZUFi-rBIjp9ZIIrTDOk9Qg/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTNfOGU3NTY0NDI2ODVjYTg2ZTM0MDM0MDBhZGM1ZDk5YjAucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/j3dZC733quom0Va_lzlCboxy7S9OCjQM2MOBXzVOVKk/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTNfOGU3NTY0NDI2ODVjYTg2ZTM0MDM0MDBhZGM1ZDk5YjAucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/XnNRnjbr5uOSfpeAWmAOCL80wIFcWJvk0m-x6hvS7ks/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTNfOGU3NTY0NDI2ODVjYTg2ZTM0MDM0MDBhZGM1ZDk5YjAucG5n.jpg\",\"pageType\":\"page\"}"
+      },
+      {
+        "path": "root.flyer.pages[13]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65daae34bc\",\"number\":14,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[],\"keyWords\":\"Uvp -25% San­ Pellegrino Italian Sparkling Drink 033 Pfand Gratis Duplo -24% -30% -20% Iglo Filegro Xxl Ice Cream Ml 12Er-Pack Haribo Plüschkissen Kissen Stück ­Varianten­erhältlich Duftkerze Brenndauer Inhalt Varianten­ Erhältlich Mövenpick -33% Aufsteller Aktion Biff Bad Fit Spülmittel Finish Ultimate Vorsichtig Gebrauch Etikett Produkt- Informationen Schweppes Erfrischungs­ Getränk 125 Naschen Kuscheln Lhz – Ecd Artikel­­ 1318\",\"altText\":\"Lidl-Angebote für Lebensmittel und Haushaltsartikel, darunter San Pellegrino, Duplo, Iglo Filegro, Mövenpick Eis sowie Haribo-Plüschkissen und Duftkerzen.\",\"image\":\"https://imgproxy.leaflets.schwarz/jrRBrGTlkuxEEKIU5CI5I90wBMnZoUHDbXD9XjNHwkk/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTRfY2ExMzkwYWVkZWEzYmY0N2MyZDY4Mzc3MGRmZGFjMmEucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/a_LZ32loOZzBvnyFK0M8UFrKIdBpmwlkiYm3tn3N87g/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTRfY2ExMzkwYWVkZWEzYmY0N2MyZDY4Mzc3MGRmZGFjMmEucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/1HccJP976XhY2m6l5VDXoRXKFtTzrEdRynhqi7SS0rM/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTRfY2ExMzkwYWVkZWEzYmY0N2MyZDY4Mzc3MGRmZGFjMmEucG5n.jpg\",\"pageType\":\"page\"}"
+      },
+      {
+        "path": "root.flyer.pages[14]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65db3f616f\",\"number\":15,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[],\"keyWords\":\"Xxl Fürs Geld! -30% -25% Uvp -33% -13% -23% -22% -16% -28% Kinder Bueno Standardpackung Milka Haselnuss Creme Schoko-Bons Schwartau Samt Standard Packung Schwarzkopf Taft Haarspray Axe Bodyspray Snack Day Flips Sondey Jaffa Cake Orange Maggi Minuten Terrine Doppelkekse Gebinde Standard- Mcennedy Erdnussbutter +177 Gratis +10 12Er-Pack 3Er-Pack *    Artikel   Begrenzter Vorratsmenge   Laufe   Angebotstages Ausverkauft   Preisvorteil Gegenüber  Grundpreis  Standardpackung 110035\",\"altText\":\"Lidl XXL-Angebote mit Rabatten auf Kinder Bueno, Milka Haselnusscreme, Schoko-Bons, Taft Haarspray, Axe Bodyspray und Erdnussbutter.\",\"image\":\"https://imgproxy.leaflets.schwarz/uIvFTAIaWKKa3BV4ZxmZA9H6NgFuC5Xbc4k5f11fidw/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTVfNTQ1MjM3OGRlOGI3N2JkM2MzOGJkN2FjMGY1ZGI2MGYucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/dC6p3ZJJNCsipo6wLVR74b2vPfY0EnGKGowznkGund8/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTVfNTQ1MjM3OGRlOGI3N2JkM2MzOGJkN2FjMGY1ZGI2MGYucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/HRNoTBdMBUdxOUhyhX5e2Q8FPU_ebv2PVMgCOqqv7r4/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTVfNTQ1MjM3OGRlOGI3N2JkM2MzOGJkN2FjMGY1ZGI2MGYucG5n.jpg\",\"pageType\":\"page\"}"
+      },
+      {
+        "path": "root.flyer.pages[15]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65dc03907a\",\"number\":16,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8f-79c4-a785-3a117e60952d\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=parmesan&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Parmesan-Grana-Padano\",\"title\":\"Link\",\"icon\":\"link\",\"width\":33.547008547009,\"height\":22.921914357683,\"top\":71.788413098237,\"left\":33.760683760684},{\"id\":\"01a0196e-fa8f-79c4-a785-3a117ee8f01c\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=k%C3%A4se-gerieben&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Kaese-gerieben\",\"title\":\"Link\",\"icon\":\"link\",\"width\":32.264957264957,\"height\":22.921914357683,\"top\":71.788413098237,\"left\":67.948717948718}],\"keyWords\":\"-50% Sparen Uvp -27% Milram Kefir Drink 5Er-Pack -20% -37% 4Er-Pack -16% Milbona 4-Käse-Mix Xxl Standardpackung Alpenhain Back-Käse Kinder Maxi King Exquisa Quark-Genuss Milchschnitte Eridanous Mini Käseschnecken Müller Milchreis Giovanni Ferrari Grana Padano Aktion Boujee Ice Cream Balls -42% Dhz – Ecd Artikel Versandkostenpauschale Bestellbar Abweichend Angegeben Preisvorteil Gegenüber Grundpreis 1618\",\"altText\":\"Lidl-Angebote für Milchprodukte und Snacks, darunter Milram Kefir, Milbona Käsemix, Kinder Maxi King, Exquisa Quark und Grana Padano.\",\"image\":\"https://imgproxy.leaflets.schwarz/5I6grrckdeze_W3LT4WdkEI77ul-I3Rlt8S3FFmshYM/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTZfYjAwMDIyNmU0ZjhlMWY0OWZkMTQ0YTg4YTE5YTE1MDkucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/i8WFwiw_HNjTUw0vIXd1HpyVCWX7oRG4RFv_7JhTuJk/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTZfYjAwMDIyNmU0ZjhlMWY0OWZkMTQ0YTg4YTE5YTE1MDkucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/YLwciEgEFOUne85gs3AcoxisTXg_pOLvg-U029VcAzQ/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTZfYjAwMDIyNmU0ZjhlMWY0OWZkMTQ0YTg4YTE5YTE1MDkucG5n.jpg\",\"pageType\":\"page\"}"
+      },
+      {
+        "path": "root.flyer.pages[16]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65dc03f83c\",\"number\":17,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8f-79c4-a785-3a117fcff48b\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=gnocchi&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Gnocchi\",\"title\":\"Link\",\"icon\":\"link\",\"width\":31.372549019608,\"height\":20.454545454545,\"top\":8.133971291866004,\"left\":3.921568627451}],\"keyWords\":\"Campari Vol 07 -31% Uvp Aoste Longhetti -22% -30% -16% -24% -35% -32% -33% Schauma Shampoo Ouzo Heineken Bier 12X Pfand Meica Curry King Mövenpick Himmlische Bebe Reinigungs­ Tücher Stück Bürger Gnocchi Xxl Frisia Ufonauten 12Er-Pack -23% Bertolli Natives Olivenöl Extra 075 Vernel Weichspüler 11 Doppelpack Liter Aktion -28% Aufsteller *    Artikel   Begrenzter Vorratsmenge   Laufe   Angebotstages Ausverkauft  Dhz – Ecd 1341\",\"altText\":\"Lidl-Angebote für Spirituosen, Lebensmittel und Drogerieartikel, darunter Campari, Aoste Longhetti, Schauma Shampoo, Heineken Bier und Bertolli Olivenöl.\",\"image\":\"https://imgproxy.leaflets.schwarz/XQYSpyRneMFyyTGrKIEiar0VcCVBms8lBZ5vs0qbK98/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTdfY2QzNjQ2YjljYTJhM2Y1YjU4MWYyZjk1NjM0NTNlNWQucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/TVOyeXwcvCzckRVFTTcj4ayJiBFcH8DUzLpZwBZ-18g/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTdfY2QzNjQ2YjljYTJhM2Y1YjU4MWYyZjk1NjM0NTNlNWQucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/62IB9q36ZbWI79CskPoYW0uU_ep6IGNKjhgI74TX0Vw/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMTdfY2QzNjQ2YjljYTJhM2Y1YjU4MWYyZjk1NjM0NTNlNWQucG5n.jpg\",\"pageType\":\"page\"}"
+      },
+      {
+        "path": "root.flyer.pages[17]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65dcb4b638\",\"number\":18,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[],\"keyWords\":\"Bester Backshop Lohnt -Pr Eis Aktion Parkside Berliner Mehrfruchtfüllung Stück Lidl Plus 6Er-Pack Walnuss- Honig-Brot Buttercroissant Entspricht Kauf Normalpreis Quark- Bällchen Marillen- Spitz Apfeltasche Lhz – Angebot Ausschließlich Nutzer Gelten Infos Deutsche Gesellschaft Verbraucherstudien Studie „Deutschlands Beste Marken 2026“ Untersucht Zufrieden Kundinnen Kunden Eigenmarken Lebensmitteleinzelhandels Insgesamt Interviews Bewerteten Unterschiedlichen Produktgruppen Kategorien Auswertung Berücksichtigt Bewertungen Abgegeben De_26_Kw34_Food_Hz-De-Wal 8-9 8-9_• 1330\",\"altText\":\"Lidl Backshop-Angebote mit Rabatten auf Berliner, Walnuss-Honig-Brot, Buttercroissants und Quarkbällchen sowie einer Auszeichnung für Kundenzufriedenheit.\",\"image\":\"https://imgproxy.leaflets.schwarz/m2tMZsZ5G2deyD3tM_TGhwjNs2krzaGNAmnr1X-kj5s/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMThfZWM0MTVkYjQyMGQ5NGY4MmNlZmRiYzZhMDkzN2Y1YzgucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/33WUMj7qichZiscoelRzo0s4_c5mBfmx-AWZtBl-At4/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMThfZWM0MTVkYjQyMGQ5NGY4MmNlZmRiYzZhMDkzN2Y1YzgucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/IMzK37wqjuMfOwI541nZudkSiFQoFcYyOUfoUeOuz7I/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMThfZWM0MTVkYjQyMGQ5NGY4MmNlZmRiYzZhMDkzN2Y1YzgucG5n.jpg\",\"pageType\":\"page\"}"
+      },
+      {
+        "path": "root.flyer.pages[18]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65dd23eb45\",\"number\":19,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8f-79c4-a785-3a118018fe86\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=lachsfilet&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Lachsseite\",\"title\":\"Link\",\"icon\":\"link\",\"width\":61.965811965812,\"height\":23.173803526448,\"top\":6.9269521410579955,\"left\":2.5641025641026},{\"id\":\"01a0196e-fa8f-79c4-a785-3a1180d8207e\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=H%C3%A4hnchenbrust&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Haehnchenminutenschnitzel\",\"title\":\"Link\",\"icon\":\"link\",\"width\":50.42735042735,\"height\":19.269521410579,\"top\":55.037783375315,\"left\":0},{\"id\":\"01a0196e-fa8f-79c4-a785-3a11814560e8\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=rindergulasch&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Rindergulasch\",\"title\":\"Link\",\"icon\":\"link\",\"width\":34.188034188034,\"height\":19.899244332494,\"top\":74.55919395466,\"left\":0},{\"id\":\"01a0196e-fa8f-79c4-a785-3a11817227b5\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=hackfleisch&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Hackfleisch-gemischt\",\"title\":\"Link\",\"icon\":\"link\",\"width\":32.264957264957,\"height\":19.899244332494,\"top\":74.55919395466,\"left\":35.25641025641}],\"keyWords\":\"Aktion Chef Select Go! Kochbox Enthält Grundzutaten -Pr Eis 12 -23% Fischerstolz Norwegische Lachsseite Schockgefrostet Metzgerfrisch Frisches Hack- Fleisch Gemischt Schwein Kg Metzger- Frisch Rindergulasch Frische Hähnchen-Minutenschnitzel Standardpackung 400G Puten- Oberkeule Hkl 11 Lidl Plus -20% Grillmeister Schweine Spare Ribs Mariniert – Kg-Preis Normalpreis Hähnchenflügel -25% Diy Hähnchen- Teriyaki Sesam Tiefpreis Garantie Gilt Fleisch- Geflügel-Artikel Hackfleisch Stall Platz Deutsc Dwir Tsc - Klusive Rezept- Karte Kategorie „Backshops“ „ Brot“ Hierfür Eigenmarke Onlinebefragung Teilkategorien „Qualität“ „Preis-Leistung“ „Kundenvertrauen“ Jeweils Besten Marken Infos Studie Studien Vorjahre Artikel Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Angebot Ausschließlich Nutzer Gelten Preisvorteil Gegenüber Grundpreis Lhz Ecd 1327\",\"altText\":\"Lidl-Angebote für frisches Fleisch und Geflügel, darunter Lachsseite, Hackfleisch, Rindergulasch und Hähnchen-Minutenschnitzel sowie "
+      },
+      {
+        "path": "root.flyer.pages[19]",
+        "keys": [
+          "id",
+          "number",
+          "width",
+          "height",
+          "type",
+          "links",
+          "keyWords",
+          "altText",
+          "image",
+          "zoom",
+          "thumbnail",
+          "pageType"
+        ],
+        "sample": "{\"id\":\"01a0196e-e217-7ebe-a11d-4a65ddfb2bb1\",\"number\":20,\"width\":1415,\"height\":2400,\"type\":\"STANDARD\",\"links\":[{\"id\":\"01a0196e-fa8f-79c4-a785-3a11821b55ab\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=gouda-gerieben&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Gouda-gerieben\",\"title\":\"Link\",\"icon\":\"link\",\"width\":34.188034188034,\"height\":22.418136020151,\"top\":27.329974811083005,\"left\":66.025641025641},{\"id\":\"01a0196e-fa8f-79c4-a785-3a11829a4e9b\",\"displayType\":\"standard\",\"url\":\"https://rezepte.lidl.de/alle-rezepte?q=frischk%C3%A4se&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Frischkaese\",\"title\":\"Link\",\"icon\":\"link\",\"width\":34.188034188034,\"height\":20.654911838791,\"top\":51.385390428212,\"left\":32.478632478632}],\"keyWords\":\"Qualität Schmeckt Lohnt -18% Lidl Plus -20% Milbona Edamer Fett Deidesheimer Weinmanufaktur Mariengarten Riesling Qba Weißwein Trocken 075 Normalpreis -11% Französischer Weichkäse -17% Emmentaler Sandwich Scheiben Bioland Käse Gouda Gerieben -15% -16% Frischkäse Sahnige Sparen Lhz – Ecd Artikel Versandkostenpauschale Bestellbar Abweichend Angegeben Angebot Ausschließlich Nutzer Gelten Infos 1353\",\"altText\":\"Lidl-Angebote für Milchprodukte und Wein, darunter Milbona Edamer, französischer Weichkäse, Frischkäse und Riesling Weißwein.\",\"image\":\"https://imgproxy.leaflets.schwarz/gJCyAktSsnt8XrNdSgrJt5lwg4fXU7UuGPwchSu8wmk/rs:fit:1200:1200:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMjBfMGUyY2EyMDJkODJjODg5MmI3YzdkY2MyZmUyMzFmMmYucG5n.jpg\",\"zoom\":\"https://imgproxy.leaflets.schwarz/ui0onRhwP2y2Yw9PdT0l-Lb6TCExtTE6RCjIM3J7m7I/rs:fit:2400:2400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMjBfMGUyY2EyMDJkODJjODg5MmI3YzdkY2MyZmUyMzFmMmYucG5n.jpg\",\"thumbnail\":\"https://imgproxy.leaflets.schwarz/CM56t7omjffbuJmmQv4ROwa5nE5TvG3HvYFnc4UbN-g/rs:fit:400:400:1/g:no/czM6Ly9sZWFmbGV0cy9pbWFnZXMvMDE5ZmYwOGMtZTJkOC03Njc3LTk5NWYtZTgyNDY1OTQ4MWQ5L3BhZ2UtMjBfMGUyY2EyMDJkODJjODg5MmI3YzdkY2MyZmUyMzFmMmYucG5n.jpg\",\"pageType\":\"page\"}"
+      }
+    ]
+  }
+}
