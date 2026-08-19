@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-19T22:11:14.314Z",
-  "before": 455,
-  "after": 390,
+  "generatedAt": "2026-08-19T23:04:53.101Z",
+  "before": 449,
+  "after": 384,
   "rejected": 65,
   "repaired": 622,
   "rejectedReasons": {
@@ -16,20 +16,20 @@
   "storeBefore": {
     "ALDI SÜD": 67,
     "PENNY": 140,
-    "ROSSMANN": 60,
-    "dm": 99,
-    "EDEKA": 41,
+    "ROSSMANN": 59,
+    "dm": 96,
+    "EDEKA": 39,
     "MÜLLER": 17,
     "REWE": 30,
     "Lidl": 1
   },
   "storeAfter": {
     "ALDI SÜD": 61,
-    "EDEKA": 41,
+    "EDEKA": 39,
     "PENNY": 109,
     "MÜLLER": 17,
-    "dm": 88,
-    "ROSSMANN": 43,
+    "dm": 85,
+    "ROSSMANN": 42,
     "REWE": 30,
     "Lidl": 1
   },
@@ -186,20 +186,20 @@
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T22:11:14.403Z",
-    "before": 390,
+    "generatedAt": "2026-08-19T23:04:53.181Z",
+    "before": 384,
     "after": 193,
-    "rejected": 197,
-    "repaired": 115,
+    "rejected": 191,
+    "repaired": 114,
     "rejectedReasons": {
       "name": 6,
-      "ui": 35,
+      "ui": 32,
       "produce_unit": 1,
       "price": 1,
       "concatenated_offer": 9,
       "unit_high": 1,
       "duplicate": 39,
-      "size_duplicate": 41,
+      "size_duplicate": 38,
       "semantic_duplicate": 61
     },
     "rejectedExamples": [
@@ -236,21 +236,6 @@
       {
         "store": "PENNY",
         "name": "Diese Woche",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
         "reason": "ui"
       },
       {
@@ -452,24 +437,45 @@
         "store": "ROSSMANN",
         "name": "Services in Ihrer FilialeGeschenkgutscheineRossmann FotoservicePrepaidkartenRücknahmegarantieTeppichreiniger-VerleihGratis WLANRücknahme Ele",
         "reason": "name"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Sicher einkaufen",
+        "reason": "unit_high"
+      },
+      {
+        "store": "PENNY",
+        "name": "ZESPRI SunGold Kiwi Gold* je 3er-Schale Angebotspreis 2.49€ 2.49 Aktion PINK LADY Rote Äpfel* je 1-kg-Packun",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Zum Inhalt springen Aktuelle Filiale45475, Mülheim an der RuhrFilialauswahlWähle deine Filiale aus, um die verfügbaren Produkte zu entdecken",
+        "reason": "name"
       }
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T22:11:14.477Z",
+    "generatedAt": "2026-08-19T23:04:53.248Z",
     "before": 193,
-    "after": 166,
-    "rejected": 27,
+    "after": 163,
+    "rejected": 30,
     "repaired": 6,
     "reasons": {
-      "not_food": 17,
-      "nonfood": 10
+      "not_food": 19,
+      "nonfood": 11
     },
     "rejectedExamples": [
       {
         "store": "dm",
         "name": "AMORELIE Beckenbodentrainer Perifit Care App-gesteuert, Pink",
         "cleaned": "AMORELIE Beckenbodentrainer Perifit Care App-gesteuert, Pink",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Bewertung",
+        "cleaned": "Bewertung",
         "reason": "not_food"
       },
       {
@@ -545,6 +551,12 @@
         "reason": "not_food"
       },
       {
+        "store": "ROSSMANN",
+        "name": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
+        "cleaned": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
+        "reason": "nonfood"
+      },
+      {
         "store": "ALDI SÜD",
         "name": "Bio Naturland Hokkaido, lose",
         "cleaned": "Bio Naturland Hokkaido, lose",
@@ -600,6 +612,12 @@
       },
       {
         "store": "ROSSMANN",
+        "name": "Supreme Junior Kindergetränk am dem 1. Geburtstag",
+        "cleaned": "Supreme Junior Kindergetränk am dem 1. Geburtstag",
+        "reason": "not_food"
+      },
+      {
+        "store": "ROSSMANN",
         "name": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
         "cleaned": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
         "reason": "not_food"
@@ -631,9 +649,9 @@
     ]
   },
   "semanticPass": {
-    "at": "2026-08-19T22:11:14.571Z",
-    "before": 166,
-    "after": 166,
+    "at": "2026-08-19T23:04:53.325Z",
+    "before": 163,
+    "after": 163,
     "repaired": 0,
     "normalizer": "product-normalizer-v1"
   }
