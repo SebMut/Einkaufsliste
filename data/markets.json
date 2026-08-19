@@ -1,6 +1,6 @@
 {
-  "schema": 9,
-  "generatedAt": "2026-08-19T20:18:14.030Z",
+  "schema": 10,
+  "generatedAt": "2026-08-19T20:28:33.913Z",
   "center": {
     "name": "85622 Feldkirchen bei München",
     "lat": 48.145,
@@ -179,6 +179,26 @@
       "isRiemArcaden": false
     },
     {
+      "store": "ALDI SÜD",
+      "market": "München-Riem Arcaden",
+      "address": "Willy-Brandt-Platz 5, 81829 München",
+      "lat": null,
+      "lon": null,
+      "distanceKm": 3.3,
+      "distanceVerified": true,
+      "type": "Discounter",
+      "sourceUrl": "https://www.aldi-sued.de/filialen",
+      "offerUrl": "https://www.aldi-sued.de/angebote",
+      "scope": "regional",
+      "active": true,
+      "importStatus": "partial",
+      "distanceMethod": "riem_arcaden_official_directory",
+      "isRiemArcaden": true,
+      "catalogStatus": "offers_only",
+      "activeMarket": true,
+      "allowedArea": "Riem Arcaden"
+    },
+    {
       "store": "dm",
       "market": "München-Riem Arcaden",
       "address": "Willy-Brandt-Platz 5, 81829 München",
@@ -237,6 +257,26 @@
       "activeMarket": true,
       "allowedArea": "Aschheim",
       "isRiemArcaden": false
+    },
+    {
+      "store": "MÜLLER",
+      "market": "München-Riem Arcaden",
+      "address": "Willy-Brandt-Platz 5, 81829 München",
+      "lat": null,
+      "lon": null,
+      "distanceKm": 3.3,
+      "distanceVerified": true,
+      "type": "Drogerie",
+      "sourceUrl": "https://www.mueller.de/",
+      "offerUrl": "https://www.mueller.de/online-angebote/",
+      "scope": "regional",
+      "active": true,
+      "importStatus": "partial",
+      "distanceMethod": "riem_arcaden_official_directory",
+      "isRiemArcaden": true,
+      "catalogStatus": "partial_catalog",
+      "activeMarket": true,
+      "allowedArea": "Riem Arcaden"
     },
     {
       "store": "dm",
@@ -521,6 +561,26 @@
       "isRiemArcaden": false
     },
     {
+      "store": "ALDI SÜD",
+      "market": "München-Riem Arcaden",
+      "address": "Willy-Brandt-Platz 5, 81829 München",
+      "lat": null,
+      "lon": null,
+      "distanceKm": 3.3,
+      "distanceVerified": true,
+      "type": "Discounter",
+      "sourceUrl": "https://www.aldi-sued.de/filialen",
+      "offerUrl": "https://www.aldi-sued.de/angebote",
+      "scope": "regional",
+      "active": true,
+      "importStatus": "partial",
+      "distanceMethod": "riem_arcaden_official_directory",
+      "isRiemArcaden": true,
+      "catalogStatus": "offers_only",
+      "activeMarket": true,
+      "allowedArea": "Riem Arcaden"
+    },
+    {
       "store": "dm",
       "market": "München-Riem Arcaden",
       "address": "Willy-Brandt-Platz 5, 81829 München",
@@ -579,6 +639,26 @@
       "activeMarket": true,
       "allowedArea": "Aschheim",
       "isRiemArcaden": false
+    },
+    {
+      "store": "MÜLLER",
+      "market": "München-Riem Arcaden",
+      "address": "Willy-Brandt-Platz 5, 81829 München",
+      "lat": null,
+      "lon": null,
+      "distanceKm": 3.3,
+      "distanceVerified": true,
+      "type": "Drogerie",
+      "sourceUrl": "https://www.mueller.de/",
+      "offerUrl": "https://www.mueller.de/online-angebote/",
+      "scope": "regional",
+      "active": true,
+      "importStatus": "partial",
+      "distanceMethod": "riem_arcaden_official_directory",
+      "isRiemArcaden": true,
+      "catalogStatus": "partial_catalog",
+      "activeMarket": true,
+      "allowedArea": "Riem Arcaden"
     },
     {
       "store": "dm",
@@ -951,6 +1031,11 @@
           "market": "Aschheim",
           "address": "Ludwig-Thoma-Straße 2, 85609 Aschheim",
           "isRiemArcaden": false
+        },
+        {
+          "market": "München-Riem Arcaden",
+          "address": "Willy-Brandt-Platz 5, 81829 München",
+          "isRiemArcaden": true
         }
       ],
       "catalogStatus": "offers_only",
@@ -1038,13 +1123,35 @@
       "activeMarket": true,
       "allowedArea": "Kirchheim bei München",
       "isRiemArcaden": false
+    },
+    {
+      "store": "MÜLLER",
+      "market": "München-Riem Arcaden",
+      "address": "Willy-Brandt-Platz 5, 81829 München",
+      "url": "https://www.mueller.de/c/drogerie/alle-drogerie-produkte/",
+      "scope": "regional",
+      "type": "Drogerie",
+      "importStatus": "partial",
+      "isRiemArcaden": true,
+      "lat": null,
+      "lon": null,
+      "branchMarkets": [
+        {
+          "market": "München-Riem Arcaden",
+          "address": "Willy-Brandt-Platz 5, 81829 München",
+          "isRiemArcaden": true
+        }
+      ],
+      "catalogStatus": "partial_catalog",
+      "activeMarket": true,
+      "allowedArea": "Riem Arcaden"
     }
   ],
   "audit": {
     "method": "Strikte Orts-Whitelist statt Radius. Riem ist ausschließlich für nachweisliche Riem-Arcaden-Filialen erlaubt.",
-    "rawBranches": 109,
-    "activeBranches": 17,
-    "activeBrands": 8,
+    "rawBranches": 111,
+    "activeBranches": 19,
+    "activeBrands": 9,
     "excludedBranches": 92,
     "duplicatesRemoved": 0,
     "excluded": [
@@ -1602,25 +1709,26 @@
       }
     ],
     "storeCounts": {
-      "ALDI SÜD": 1,
+      "ALDI SÜD": 2,
       "dm": 3,
       "EDEKA": 4,
       "Getränke Haußmann": 1,
       "Lidl": 2,
+      "MÜLLER": 1,
       "PENNY": 2,
       "REWE": 3,
       "ROSSMANN": 1
     },
     "typeCounts": {
-      "Discounter": 5,
-      "Drogerie": 4,
+      "Discounter": 6,
+      "Drogerie": 5,
       "Getränkemarkt": 1,
       "Supermarkt": 7
     },
     "catalogStatusCounts": {
-      "offers_only": 11,
+      "offers_only": 12,
       "unavailable": 2,
-      "partial_catalog": 4
+      "partial_catalog": 5
     }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "schema": 3,
-  "generatedAt": "2026-08-19T20:18:41.021Z",
+  "schema": 4,
+  "generatedAt": "2026-08-19T20:29:34.831Z",
   "retailer": "ROSSMANN",
   "catalogStatus": "partial_catalog",
   "branches": [
@@ -14,11 +14,11 @@
   "sources": [
     {
       "category": "Haushalt",
-      "url": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "url": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "status": "ok",
       "count": 26,
       "mode": "browser",
-      "htmlBytes": 1286861,
+      "htmlBytes": 1288033,
       "jsonResponses": 2,
       "networkProducts": 0
     },
@@ -28,7 +28,7 @@
       "status": "ok",
       "count": 26,
       "mode": "browser",
-      "htmlBytes": 1294363,
+      "htmlBytes": 1294131,
       "jsonResponses": 2,
       "networkProducts": 0
     },
@@ -38,7 +38,7 @@
       "status": "ok",
       "count": 22,
       "mode": "browser",
-      "htmlBytes": 1360374,
+      "htmlBytes": 1360056,
       "jsonResponses": 2,
       "networkProducts": 0
     }
@@ -55,9 +55,9 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/haushalt-der-general-universalreiniger-sensitiv-aloe-vera/p/4015200035437?rm_tt=eyJhZF9pZCI6Ijg1NzY1YzZiLTY0YzktNDE5ZC04ZmQ4LWE2YzdhNWFlMTNiYSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM1NDM3IiwiaWF0IjoxNzg3MTcwNzU2LCJsaSI6IjZiY2QxMTQwLWU4ZTAtNDMyOC05ZTE0LWViNDk1ZWE1N2MzZiIsImFzIjoiZDRmMTNiNTAtMTE1OS00ZGEwLTlkZGUtMWY4OWM4YmFiYjhhIiwiYmMiOjU1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc1NjIxOX0%3D.uK1O9ud9pzcgVZRTlKuQk68ydDheRrsBzVobayaIB9I%3D",
+      "productUrl": "/de/haushalt-der-general-universalreiniger-sensitiv-aloe-vera/p/4015200035437?rm_tt=eyJhZF9pZCI6IjczMzZjNDc0LTZmYmItNDY0OS04YmEzLTE3MTc0NTQyZWZhZCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM1NDM3IiwiaWF0IjoxNzg3MTcxNTQzLCJsaSI6IjZiY2QxMTQwLWU4ZTAtNDMyOC05ZTE0LWViNDk1ZWE1N2MzZiIsImFzIjoiNzIzNjA0YjUtMDE3ZS00ZjBhLTg3MWEtODc4ZWRjNzEyNTMwIiwiYmMiOjU1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU0MzgzMX0%3D.gZGFUFS5BMT8gXjMw8qChtfAwZfm9m98PyZLe93eqF4%3D",
       "image": "https://www.rossmann.de/media-neu/161/MAM_16111490/MAM_16111490_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -95,12 +95,12 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
-      "name": "Spee - Vollwaschmittel Megaperls 17 WLGesponsert2251SpeeVollwaschmittel Megaperls 17 WL17 WL (1WL = 0,23 €)",
+      "name": "Spee - Vollwaschmittel Flüssig Sensitive 20 WLGesponsert5328SpeeVollwaschmittel Flüssig Sensitive 20 WL20 WL (1WL = 0,20 €)",
       "brand": "",
-      "ean": "4015200037769",
+      "ean": "4015200037295",
       "size": "1WL",
       "currentPrice": 3.99,
       "regularPrice": 3.99,
@@ -108,9 +108,9 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/haushalt-spee-vollwaschmittel-megaperls-17-wl/p/4015200037769?rm_tt=eyJhZF9pZCI6IjBjZGQwNzllLWNkN2YtNDJiYi1hNThlLTgxOTUzZTA0Njg3MSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM3NzY5IiwiaWF0IjoxNzg3MTcwNzU2LCJsaSI6ImMyOTk2ZTJhLTU5YTMtNDNjZi1hM2FjLWUxMWM0MDY3ZjdiMiIsImFzIjoiZDRmMTNiNTAtMTE1OS00ZGEwLTlkZGUtMWY4OWM4YmFiYjhhIiwiYmMiOjY3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc1NjIxOX0%3D.yAXlP7DWS9jSOZmHs__I7aChCEpQ_d7g_58ytHsAAE4%3D",
-      "image": "https://www.rossmann.de/media-neu/532/MAM_53274994/MAM_53274994_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "productUrl": "/de/haushalt-spee-vollwaschmittel-fluessig-sensitive-20-wl/p/4015200037295?rm_tt=eyJhZF9pZCI6IjQ0MTVlM2RiLTNiYjQtNGEzZS1hMTMzLWU0ZmYyZDU1OWU4NyIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM3Mjk1IiwiaWF0IjoxNzg3MTcxNTQzLCJsaSI6ImMyOTk2ZTJhLTU5YTMtNDNjZi1hM2FjLWUxMWM0MDY3ZjdiMiIsImFzIjoiNzIzNjA0YjUtMDE3ZS00ZjBhLTg3MWEtODc4ZWRjNzEyNTMwIiwiYmMiOjY3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU0MzgzMX0%3D.d9eVdnO1-FpKPXUd-Te0zJ_jFzZXv5Vw9X1qvJjJvQ0%3D",
+      "image": "https://www.rossmann.de/media-neu/532/MAM_53274989/MAM_53274989_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -120,7 +120,7 @@
       "unit": 3.99,
       "unitLabel": "€/Packung",
       "bio": false,
-      "originalName": "Spee - Vollwaschmittel Megaperls 17 WLGesponsert2251SpeeVollwaschmittel Megaperls 17 WL17 WL (1WL = 0,23 €)",
+      "originalName": "Spee - Vollwaschmittel Flüssig Sensitive 20 WLGesponsert5328SpeeVollwaschmittel Flüssig Sensitive 20 WL20 WL (1WL = 0,20 €)",
       "department": "Drogerie",
       "category": "Haushalt & Drogerie",
       "subcategory": "Waschen",
@@ -130,7 +130,7 @@
       "bundleKey": "Vollwaschmittel",
       "key": "Vollwaschmittel",
       "similarityKey": "Waschmittel|Vollwaschmittel",
-      "exactMatchKey": "gtin:4015200037769",
+      "exactMatchKey": "gtin:4015200037295",
       "organic": false,
       "variant": "",
       "attributes": {
@@ -143,12 +143,12 @@
       "marketSection": "Drogerie / Haushalt",
       "confidence": 0.97,
       "icon": "🧴",
-      "gtin": "4015200037769",
-      "canonicalProductId": "gtin-4015200037769",
+      "gtin": "4015200037295",
+      "canonicalProductId": "gtin-4015200037295",
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "alouette - Classic Küchentücher2390alouetteClassic Küchentücher4 Stück (1Stück = 0,69 €) / 4 Rollen á 64 Blatt = 256 Blatt 2.75€",
@@ -163,7 +163,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-alouette-classic-kuechentuecher/p/4305615764283",
       "image": "https://www.rossmann.de/media-neu/134/MAM_13472269/MAM_13472269_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -201,7 +201,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "TASSIMO - Kapselmaschine Happy friendlyNur Online1TASSIMOKapselmaschine Happy friendly1 Stück 39.99€",
@@ -216,7 +216,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-tassimo-kapselmaschine-happy-friendly/p/4242005463770",
       "image": "https://www.rossmann.de/media-neu/302/MAM_30236848/MAM_30236848_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -254,7 +254,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "domol - Spülmaschinen Hygiene-Reiniger818domolSpülmaschinen Hygiene-Reiniger250 ml (1L = 3,96 €) / 1 Flasche = 1 Anwendung",
@@ -269,7 +269,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-domol-spuelmaschinen-hygiene-reiniger/p/4305615167053",
       "image": "https://www.rossmann.de/media-neu/758/MAM_7580549/MAM_7580549_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -307,7 +307,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "alouette - Toilettenpapier Classic XXL Pack828alouetteToilettenpapier Classic XXL Pack20 Stück (10Stück = 3,83 €) / 20 Rollen à 220 Blatt 7.65€",
@@ -322,7 +322,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-alouette-toilettenpapier-classic-xxl-pack/p/4068134153203",
       "image": "https://www.rossmann.de/media-neu/536/MAM_53640324/MAM_53640324_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -360,7 +360,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "domol - Spezial-Salz1084domolSpezial-Salz2 kg (1kg = 0,38 €)",
@@ -375,7 +375,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-domol-spezial-salz/p/4305615714677",
       "image": "https://www.rossmann.de/media-neu/651/MAM_6517984/MAM_6517984_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -413,7 +413,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Der General - Universalreiniger Frische ZitroneGesponsert30Der GeneralUniversalreiniger Frische Zitrone750 ml (1L = 2,65 €)",
@@ -426,9 +426,9 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/haushalt-der-general-universalreiniger-frische-zitrone/p/4015200035352?rm_tt=eyJhZF9pZCI6IjZhOTcwNzEyLWQxMGUtNGViYS05MTliLTliZWI0NjkzYjg3NSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM1MzUyIiwiaWF0IjoxNzg3MTcwNzU2LCJsaSI6IjZiY2QxMTQwLWU4ZTAtNDMyOC05ZTE0LWViNDk1ZWE1N2MzZiIsImFzIjoiZDRmMTNiNTAtMTE1OS00ZGEwLTlkZGUtMWY4OWM4YmFiYjhhIiwiYmMiOjU1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc1NjIxOX0%3D.DBBTm9ae5qilr5q_VZKA9cL4SE--SSzNXLG6FlFoQPc%3D",
+      "productUrl": "/de/haushalt-der-general-universalreiniger-frische-zitrone/p/4015200035352?rm_tt=eyJhZF9pZCI6IjhlMTIwYWJkLWYxNmYtNDI2ZC05MzNmLTY3ZmMyMmRkMzQxYiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM1MzUyIiwiaWF0IjoxNzg3MTcxNTQzLCJsaSI6IjZiY2QxMTQwLWU4ZTAtNDMyOC05ZTE0LWViNDk1ZWE1N2MzZiIsImFzIjoiNzIzNjA0YjUtMDE3ZS00ZjBhLTg3MWEtODc4ZWRjNzEyNTMwIiwiYmMiOjU1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU0MzgzMX0%3D.W_E_KQ2BkVoZ6OinZlqSS_6O5Nh0Amzd7F7CAUAy5lA%3D",
       "image": "https://www.rossmann.de/media-neu/161/MAM_16112302/MAM_16112302_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -466,7 +466,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Spee - Vollwaschmittel Flüssig Frische Kick 20 WLGesponsert5342SpeeVollwaschmittel Flüssig Frische Kick 20 WL20 WL (1WL = 0,20 €)",
@@ -479,9 +479,9 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/haushalt-spee-vollwaschmittel-fluessig-frische-kick-20-wl/p/4015200037288?rm_tt=eyJhZF9pZCI6IjY3YTYxYjk3LTY4MzktNDA1ZS05OWE0LTI1MWQ4MGI4ZGY3OSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM3Mjg4IiwiaWF0IjoxNzg3MTcwNzU2LCJsaSI6ImMyOTk2ZTJhLTU5YTMtNDNjZi1hM2FjLWUxMWM0MDY3ZjdiMiIsImFzIjoiZDRmMTNiNTAtMTE1OS00ZGEwLTlkZGUtMWY4OWM4YmFiYjhhIiwiYmMiOjY3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc1NjIxOX0%3D.uefvLEIx33IRk6x7rUgN6AiZVHAv7HlZrhzy1nCHgFo%3D",
+      "productUrl": "/de/haushalt-spee-vollwaschmittel-fluessig-frische-kick-20-wl/p/4015200037288?rm_tt=eyJhZF9pZCI6Ijk3MWEwZWVlLTcwMzEtNGM3Mi05Mzg4LTQyYjllMDc4ODhhNyIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM3Mjg4IiwiaWF0IjoxNzg3MTcxNTQzLCJsaSI6ImMyOTk2ZTJhLTU5YTMtNDNjZi1hM2FjLWUxMWM0MDY3ZjdiMiIsImFzIjoiNzIzNjA0YjUtMDE3ZS00ZjBhLTg3MWEtODc4ZWRjNzEyNTMwIiwiYmMiOjY3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU0MzgzMX0%3D.bHwSeSlY-bP9-LjUUaFo2B81WgbzXMq_bB1ErTuH95A%3D",
       "image": "https://www.rossmann.de/media-neu/532/MAM_53274991/MAM_53274991_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -519,7 +519,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "domol - Klarspüler1055domolKlarspüler1 L",
@@ -534,7 +534,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-domol-klarspueler/p/4305615642512",
       "image": "https://www.rossmann.de/media-neu/115/MAM_11543367/MAM_11543367_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -572,7 +572,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "alouette - Taschentücherbox2647alouetteTaschentücherbox100 Stück 0.99€",
@@ -587,7 +587,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-alouette-taschentuecherbox/p/4068134043290",
       "image": "https://www.rossmann.de/media-neu/258/MAM_25891730/MAM_25891730_SHOP_IMAGE_3.2.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -625,7 +625,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "RUBIN - Müllbeutel mit Tragegriffen 25 l1413RUBINMüllbeutel mit Tragegriffen 25 l30 Stück (10Stück = 0,23 €)",
@@ -640,7 +640,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-rubin-muellbeutel-mit-tragegriffen-25-l/p/4305615567129",
       "image": "https://www.rossmann.de/media-neu/376/MAM_3762961/MAM_3762961_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -678,7 +678,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "domol - Geschirr-Reiniger Tabs All-in-one XL-Sparpack874domolGeschirr-Reiniger Tabs All-in-one XL-Sparpack70 Stück (10Stück = 0,83 €)",
@@ -693,7 +693,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-domol-geschirr-reiniger-tabs-all-in-one-xl-sparpack/p/4305615965802",
       "image": "https://www.rossmann.de/media-neu/165/MAM_16576073/MAM_16576073_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -731,7 +731,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Spee - Vollwaschmittel Flüssig 50 WLGesponsert454SpeeVollwaschmittel Flüssig 50 WL50 WL (1WL = 0,18 €) 8.99€",
@@ -744,9 +744,9 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/haushalt-spee-vollwaschmittel-fluessig-50-wl/p/4015200036168?rm_tt=eyJhZF9pZCI6ImJlNTdjY2U1LWE4MzItNGJhMy04OTAxLWUzNGE1M2YxNzcyMiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM2MTY4IiwiaWF0IjoxNzg3MTcwNzU2LCJsaSI6ImMyOTk2ZTJhLTU5YTMtNDNjZi1hM2FjLWUxMWM0MDY3ZjdiMiIsImFzIjoiZDRmMTNiNTAtMTE1OS00ZGEwLTlkZGUtMWY4OWM4YmFiYjhhIiwiYmMiOjY3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc1NjIxOX0%3D.Hrb4Dq4cdroRzyN8JeRxjOyDH_hiC6PtaAtnuXyUax4%3D",
+      "productUrl": "/de/haushalt-spee-vollwaschmittel-fluessig-50-wl/p/4015200036168?rm_tt=eyJhZF9pZCI6ImY1YjgzYzZiLWMxOTUtNDcyOS1hNzZhLTEyYzQ0YjRlMTcxNyIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM2MTY4IiwiaWF0IjoxNzg3MTcxNTQzLCJsaSI6ImMyOTk2ZTJhLTU5YTMtNDNjZi1hM2FjLWUxMWM0MDY3ZjdiMiIsImFzIjoiNzIzNjA0YjUtMDE3ZS00ZjBhLTg3MWEtODc4ZWRjNzEyNTMwIiwiYmMiOjY3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU0MzgzMX0%3D.rykcFQ0TmZ7qY7nAeNwbhdt9D8QF9FcDxock-9Pd280%3D",
       "image": "https://www.rossmann.de/media-neu/156/MAM_15677797/MAM_15677797_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -784,7 +784,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Spee - Colorwaschmittel Flüssig 20 WLGesponsert5332SpeeColorwaschmittel Flüssig 20 WL20 WL (1WL = 0,20 €)",
@@ -797,9 +797,9 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/haushalt-spee-colorwaschmittel-fluessig-20-wl/p/4015200037554?rm_tt=eyJhZF9pZCI6ImNhN2UzZTBhLTNkMmEtNGM0MS1hMzkyLWJkZDNjN2IxYzhkYSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM3NTU0IiwiaWF0IjoxNzg3MTcwNzU2LCJsaSI6ImMyOTk2ZTJhLTU5YTMtNDNjZi1hM2FjLWUxMWM0MDY3ZjdiMiIsImFzIjoiZDRmMTNiNTAtMTE1OS00ZGEwLTlkZGUtMWY4OWM4YmFiYjhhIiwiYmMiOjY3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc1NjIxOX0%3D.8d-0NzxMC3JYol2sCqgglia_axYkDChv1BlARqDcn90%3D",
+      "productUrl": "/de/haushalt-spee-colorwaschmittel-fluessig-20-wl/p/4015200037554?rm_tt=eyJhZF9pZCI6ImZhN2JlMDYwLTg2NTctNDNhZi05MWJiLWFhNTIyM2JlMTZiNiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM3NTU0IiwiaWF0IjoxNzg3MTcxNTQzLCJsaSI6ImMyOTk2ZTJhLTU5YTMtNDNjZi1hM2FjLWUxMWM0MDY3ZjdiMiIsImFzIjoiNzIzNjA0YjUtMDE3ZS00ZjBhLTg3MWEtODc4ZWRjNzEyNTMwIiwiYmMiOjY3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU0MzgzMX0%3D.QpxLSrUvgiQqe0yOgCSOnK5xQNVOsNbWH2slaSJcA14%3D",
       "image": "https://www.rossmann.de/media-neu/533/MAM_53371813/MAM_53371813_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -837,7 +837,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "alouette - Toilettenpapier Premium XXL-Pack2080alouetteToilettenpapier Premium XXL-Pack16 Stück (10Stück = 4,91 €) / 16 Rollen à 200 Blatt",
@@ -852,7 +852,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-alouette-toilettenpapier-premium-xxl-pack/p/4068134002358",
       "image": "https://www.rossmann.de/media-neu/124/MAM_12402187/MAM_12402187_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -890,7 +890,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "domol - Geschirr-Reiniger Tabs 12-fach Power1011domolGeschirr-Reiniger Tabs 12-fach Power40 Stück (10Stück = 0,94 €)",
@@ -905,7 +905,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-domol-geschirr-reiniger-tabs-12-fach-power/p/4305615596570",
       "image": "https://www.rossmann.de/media-neu/124/MAM_12439145/MAM_12439145_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -943,7 +943,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Zewa - Haushaltstücher Wisch & Weg Reinweiß1424ZewaHaushaltstücher Wisch & Weg Reinweiß4 Stück (1Stück = 0,80 €) / 4 Rollen à 45 Blatt",
@@ -958,7 +958,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-zewa-haushaltstuecher-wisch-und-weg-reinweiss/p/7322540973372",
       "image": "https://www.rossmann.de/media-neu/374/MAM_37412675/MAM_37412675_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -996,7 +996,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "domol - Geschirr-Reiniger Caps Extra Power400domolGeschirr-Reiniger Caps Extra Power30 Stück (10Stück = 1,32 €)",
@@ -1011,7 +1011,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-domol-geschirr-reiniger-caps-extra-power/p/4068134040787",
       "image": "https://www.rossmann.de/media-neu/147/MAM_14721307/MAM_14721307_SHOP_IMAGE_3.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -1049,7 +1049,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Lenor - Weichspüler Konzentrat Luftfrisch Wildblumenfeld 50 WL3856LenorWeichspüler Konzentrat Luftfrisch Wildblumenfeld 50 WL50 WL (1WL = 0,09 €)",
@@ -1064,7 +1064,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-lenor-weichspueler-konzentrat-luftfrisch-wildblumenfeld-50-wl/p/8700216929905",
       "image": "https://www.rossmann.de/media-neu/177/MAM_17756066/MAM_17756066_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -1102,7 +1102,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "domol - Glasreiniger680domolGlasreiniger750 ml (1L = 1,13 €)",
@@ -1117,7 +1117,7 @@
       "baseUnit": null,
       "productUrl": "/de/haushalt-domol-glasreiniger/p/4305615596075",
       "image": "https://www.rossmann.de/media-neu/859/MAM_8596255/MAM_8596255_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -1155,7 +1155,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Sagrotan - Wäsche-Hygienespüler Desinfektion Himmelsfrische 20 WL250SagrotanWäsche-Hygienespüler Desinfektion Himmelsfrische 20 WL20 WL (1WL = 0,19 €) / 1,5 lBiozidprodukt",
@@ -1170,7 +1170,7 @@
       "baseUnit": null,
       "productUrl": "/de/gesundheit-sagrotan-waesche-hygienespueler-desinfektion-himmelsfrische-20-wl/p/4002448112488",
       "image": "https://www.rossmann.de/media-neu/136/MAM_13651543/MAM_13651543_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -1208,7 +1208,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Der General - Universalreiniger BergfrühlingGesponsert30Der GeneralUniversalreiniger Bergfrühling750 ml (1L = 2,65 €)",
@@ -1221,9 +1221,9 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/haushalt-der-general-universalreiniger-bergfruehling/p/4015200035369?rm_tt=eyJhZF9pZCI6IjNiMGVlNzQwLTg4YTAtNGU4OS05ZmYyLWMyZmYwMmQ5NmIyOCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM1MzY5IiwiaWF0IjoxNzg3MTcwNzU2LCJsaSI6IjZiY2QxMTQwLWU4ZTAtNDMyOC05ZTE0LWViNDk1ZWE1N2MzZiIsImFzIjoiZDRmMTNiNTAtMTE1OS00ZGEwLTlkZGUtMWY4OWM4YmFiYjhhIiwiYmMiOjU1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc1NjIxOX0%3D.IEW2ZkMwbkwVtUawKrb3OXxncDfHkXH2umBl-Nzn1BI%3D",
+      "productUrl": "/de/haushalt-der-general-universalreiniger-bergfruehling/p/4015200035369?rm_tt=eyJhZF9pZCI6ImUxZTNiY2RlLTUzOGEtNDIxOS05OTQ2LWYxYmUzN2Q1NWI2ZSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MjAwMDM1MzY5IiwiaWF0IjoxNzg3MTcxNTQzLCJsaSI6IjZiY2QxMTQwLWU4ZTAtNDMyOC05ZTE0LWViNDk1ZWE1N2MzZiIsImFzIjoiNzIzNjA0YjUtMDE3ZS00ZjBhLTg3MWEtODc4ZWRjNzEyNTMwIiwiYmMiOjU1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU0MzgzMX0%3D.dmuupg-l0o45rZB1iYsLDAO9sPwMj7aPt8trm1oJb8M%3D",
       "image": "https://www.rossmann.de/media-neu/571/MAM_57176752/MAM_57176752_SHOP_IMAGE_1.6.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -1261,7 +1261,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Heitmann - pure Küchenreiniger NatronGesponsert3Heitmannpure Küchenreiniger Natron500 ml (1L = 5,58 €)",
@@ -1274,9 +1274,9 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/haushalt-heitmann-pure-kuechenreiniger-natron/p/4062196384148?rm_tt=eyJhZF9pZCI6IjdiOGMzMTcyLTE1ZGYtNGMzNS05Y2U5LTNiMTZiODlkYWQ5YSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDYyMTk2Mzg0MTQ4IiwiaWF0IjoxNzg3MTcwNzU2LCJsaSI6ImQ0NzJlZDM3LWI5ZGYtNGI4OS04Y2ExLTQ3MDQyYzJhZjI4ZCIsImFzIjoiZDRmMTNiNTAtMTE1OS00ZGEwLTlkZGUtMWY4OWM4YmFiYjhhIiwiYmMiOjY1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc1NjIxOX0%3D.e96zzBmqNxxQnryDRieE-lW_F2vrc0G5aJkLagrgSyQ%3D",
+      "productUrl": "/de/haushalt-heitmann-pure-kuechenreiniger-natron/p/4062196384148?rm_tt=eyJhZF9pZCI6IjE4MzZkYjkxLThlZmItNGU1ZC1iMzE0LTQxOGY3NGVkY2Y1ZSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDYyMTk2Mzg0MTQ4IiwiaWF0IjoxNzg3MTcxNTQzLCJsaSI6ImQ0NzJlZDM3LWI5ZGYtNGI4OS04Y2ExLTQ3MDQyYzJhZjI4ZCIsImFzIjoiNzIzNjA0YjUtMDE3ZS00ZjBhLTg3MWEtODc4ZWRjNzEyNTMwIiwiYmMiOjY1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU0MzgzMX0%3D.25cvpDP5lpT6na65CrwEHWP1EbC1h4qJfi5pl2p9jxA%3D",
       "image": "https://www.rossmann.de/media-neu/563/MAM_56396032/MAM_56396032_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "sourceUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "ROSSMANN",
@@ -1314,7 +1314,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "NIVEA - Expert Finish Cellular 3in1 Pflege Cushion 01 HellGesponsert195NIVEAExpert Finish Cellular 3in1 Pflege Cushion 01 Hell15 g (1kg = 999,33 €)",
@@ -1327,7 +1327,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/make-up-nivea-expert-finish-cellular-3in1-pflege-cushion-01-hell/p/4005900897305?rm_tt=eyJhZF9pZCI6IjFhZGJlZTU2LWEzN2MtNGE2ZC05ZTMzLTNlZmRiMTEwZWVhMCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA1OTAwODk3MzA1IiwiaWF0IjoxNzg3MTcwNzY0LCJsaSI6IjMwYzJiMmE3LWZjM2UtNDFiNi1hOGI0LWQ5YTg0NmYwMWMzNiIsImFzIjoiZWZkMjY0N2MtZTc0YS00ZmNlLTk3NWItMWU2ZGE5ZjYxMWE2IiwiYmMiOjQzLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc2NDYwOH0%3D.hHovtlCaI06vPXtk88n5aUE0471zP9oJrk2eZjaLHL8%3D",
+      "productUrl": "/de/make-up-nivea-expert-finish-cellular-3in1-pflege-cushion-01-hell/p/4005900897305?rm_tt=eyJhZF9pZCI6ImY5ZTkzMjJkLWIzNjQtNDNiMS05Nzg4LWVmNTVhZDMwYzUzYSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA1OTAwODk3MzA1IiwiaWF0IjoxNzg3MTcxNTUxLCJsaSI6IjMwYzJiMmE3LWZjM2UtNDFiNi1hOGI0LWQ5YTg0NmYwMWMzNiIsImFzIjoiYjIwZmY1YTMtMmEwMS00OTA1LWI3ODYtNzZlZTBlZDc3ODNmIiwiYmMiOjQzLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU1MTQ1OX0%3D.yHUpqrHpkzktSQynl5xzjLYOdpNNYZM2g-JRrWWf52M%3D",
       "image": "https://www.rossmann.de/media-neu/145/MAM_14549935/MAM_14549935_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
       "sourceType": "official_catalog",
@@ -1367,7 +1367,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "NIVEA - CC Fluid Luminous630° Anti-Pigmentflecken LSF 30 hellGesponsert369NIVEACC Fluid Luminous630° Anti-Pigmentflecken LSF 30 hell40 ml (1L = 674,75 €)",
@@ -1380,7 +1380,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/make-up-nivea-cc-fluid-luminous630-anti-pigmentflecken-lsf-30-hell/p/4006000088150?rm_tt=eyJhZF9pZCI6ImEzZGU4YzNlLTY5ZWYtNDY0NC05Zjc2LTVlYTYxOTM0NzRhNSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA2MDAwMDg4MTUwIiwiaWF0IjoxNzg3MTcwNzY0LCJsaSI6IjhhYjU4ZjgxLTdhYzAtNGU4YS05NjRkLTdiY2FkMTZhZTRkMyIsImFzIjoiZWZkMjY0N2MtZTc0YS00ZmNlLTk3NWItMWU2ZGE5ZjYxMWE2IiwiYmMiOjU3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc2NDYwOH0%3D.bz3oSnN675kBYgdkBpVhKXLD0x1A0rhT_gxxgi950mA%3D",
+      "productUrl": "/de/make-up-nivea-cc-fluid-luminous630-anti-pigmentflecken-lsf-30-hell/p/4006000088150?rm_tt=eyJhZF9pZCI6IjAxODg2NTcyLWZhZjYtNDIzNi05NDU4LWMwNzdmODk5NzlmOSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA2MDAwMDg4MTUwIiwiaWF0IjoxNzg3MTcxNTUxLCJsaSI6IjhhYjU4ZjgxLTdhYzAtNGU4YS05NjRkLTdiY2FkMTZhZTRkMyIsImFzIjoiYjIwZmY1YTMtMmEwMS00OTA1LWI3ODYtNzZlZTBlZDc3ODNmIiwiYmMiOjU3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU1MTQ1OX0%3D.oH7BHMsRtq8G8lWcTh2pEMOreXmJxGEtOe4G1qOVoHA%3D",
       "image": "https://www.rossmann.de/media-neu/343/MAM_34317367/MAM_34317367_SHOP_IMAGE_3.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
       "sourceType": "official_catalog",
@@ -1420,7 +1420,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Wilkinson Sword - Intuition Eyebrow Styler218Wilkinson SwordIntuition Eyebrow Styler3 Stück (1Stück = 1,66 €) 4.99€",
@@ -1473,7 +1473,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "L’Oréal Paris - Le Shadow Stick 150 Captivating SepiaLetzte Chance!Nur Online16113L’Oréal ParisLe Shadow Stick 150 Captivating Sepia1,4 g 7.99€",
@@ -1526,7 +1526,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "L’Oréal Paris - Infaillible 3-Second Setting Mist Setting Spray2L’Oréal ParisInfaillible 3-Second Setting Mist Setting Spray75 ml (1L = 119,87 €)",
@@ -1579,7 +1579,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "L’Oréal Paris - Color Riche Blurred Matte Lippenstift 601 Worth It6266L’Oréal ParisColor Riche Blurred Matte Lippenstift 601 Worth It4,3 g",
@@ -1632,7 +1632,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Wilkinson Sword - Intuition Perfect Finish Augenbrauen Rasierer38Wilkinson SwordIntuition Perfect Finish Augenbrauen Rasierer3 Stück (1Stück = 1,16 €) 3.49€",
@@ -1685,7 +1685,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "NIVEA - Expert Finish Cellular 3in1 Pflege Cushion 02 MittelGesponsert225NIVEAExpert Finish Cellular 3in1 Pflege Cushion 02 Mittel15 g (1kg = 999,33 €)",
@@ -1698,7 +1698,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/make-up-nivea-expert-finish-cellular-3in1-pflege-cushion-02-mittel/p/4005900897336?rm_tt=eyJhZF9pZCI6ImFkYmU5MjRjLTJmOTEtNGIyNS1iMmU0LTM1NzliMDRhYWUwOCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA1OTAwODk3MzM2IiwiaWF0IjoxNzg3MTcwNzY0LCJsaSI6IjMwYzJiMmE3LWZjM2UtNDFiNi1hOGI0LWQ5YTg0NmYwMWMzNiIsImFzIjoiZWZkMjY0N2MtZTc0YS00ZmNlLTk3NWItMWU2ZGE5ZjYxMWE2IiwiYmMiOjQzLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc2NDYwOH0%3D.rmrra7rEALvdxH0cKNV0ipGTNYsi3eWFONSfkCfCb_U%3D",
+      "productUrl": "/de/make-up-nivea-expert-finish-cellular-3in1-pflege-cushion-02-mittel/p/4005900897336?rm_tt=eyJhZF9pZCI6IjhjOTVlYzVhLTcwMDQtNDY4YS1hZjdmLWQzNzk2MzY0MzU3YiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA1OTAwODk3MzM2IiwiaWF0IjoxNzg3MTcxNTUxLCJsaSI6IjMwYzJiMmE3LWZjM2UtNDFiNi1hOGI0LWQ5YTg0NmYwMWMzNiIsImFzIjoiYjIwZmY1YTMtMmEwMS00OTA1LWI3ODYtNzZlZTBlZDc3ODNmIiwiYmMiOjQzLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU1MTQ1OX0%3D.Xz_nAFq4HoMRHFC-3z2uSCmyZ__TuNqOTnYEqHfPeJo%3D",
       "image": "https://www.rossmann.de/media-neu/145/MAM_14549962/MAM_14549962_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
       "sourceType": "official_catalog",
@@ -1738,7 +1738,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "NIVEA - Expert Finish Cellular 3in1 Pflege Cushion 03 DunkelGesponsert176NIVEAExpert Finish Cellular 3in1 Pflege Cushion 03 Dunkel15 g (1kg = 999,33 €)",
@@ -1751,7 +1751,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/make-up-nivea-expert-finish-cellular-3in1-pflege-cushion-03-dunkel/p/4005900897367?rm_tt=eyJhZF9pZCI6IjRlN2E1ZWQxLTg5NDEtNDU2Mi04OGVkLTYzZDRhMjAyMTBhYSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA1OTAwODk3MzY3IiwiaWF0IjoxNzg3MTcwNzY0LCJsaSI6IjMwYzJiMmE3LWZjM2UtNDFiNi1hOGI0LWQ5YTg0NmYwMWMzNiIsImFzIjoiZWZkMjY0N2MtZTc0YS00ZmNlLTk3NWItMWU2ZGE5ZjYxMWE2IiwiYmMiOjQzLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc2NDYwOH0%3D.khid5h9FVm-osenxlsEvpkdwqFFVtNYQ_VrXR4Q6I4I%3D",
+      "productUrl": "/de/make-up-nivea-expert-finish-cellular-3in1-pflege-cushion-03-dunkel/p/4005900897367?rm_tt=eyJhZF9pZCI6ImZjNWM4ODhiLTc1MGEtNGMxZC05OGMyLTQ3MGQ5ZWQ3MDlmOSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA1OTAwODk3MzY3IiwiaWF0IjoxNzg3MTcxNTUxLCJsaSI6IjMwYzJiMmE3LWZjM2UtNDFiNi1hOGI0LWQ5YTg0NmYwMWMzNiIsImFzIjoiYjIwZmY1YTMtMmEwMS00OTA1LWI3ODYtNzZlZTBlZDc3ODNmIiwiYmMiOjQzLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU1MTQ1OX0%3D.ywbai_XeLFJDIPJ_5eR-ThazCIIyTZs4o1hUANxQy1Y%3D",
       "image": "https://www.rossmann.de/media-neu/145/MAM_14549990/MAM_14549990_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
       "sourceType": "official_catalog",
@@ -1791,7 +1791,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "CALISI BEAUTY - Wimpern Curler211CALISI BEAUTYWimpern Curler1 Stück",
@@ -1844,7 +1844,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Doonails - Press Ons Pedicure BallerinaNeuNur Online61DoonailsPress Ons Pedicure Ballerina30 Stück (10Stück = 5,33 €)",
@@ -1897,7 +1897,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "MCoBeauty - Hydrate & Glow Ultra-Dew SerumNeu0MCoBeautyHydrate & Glow Ultra-Dew Serum40 ml (1L = 374,75 €)",
@@ -1950,7 +1950,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "M. Asam - MAGIC FINISH Make-up Mousse8118M. AsamMAGIC FINISH Make-up Mousse30 ml (1L = 766,33 €) 22.99€",
@@ -2003,7 +2003,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "manuka health - Manuka Honey Lip BalmGesponsert9manuka healthManuka Honey Lip Balm4,5 g 6.99€",
@@ -2016,7 +2016,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/make-up-manuka-health-manuka-honey-lip-balm/p/9421023623020?rm_tt=eyJhZF9pZCI6ImIwNmVkNmUyLTljMTgtNGZlNi05NDdiLTQzN2M4YWMzNmM2OSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI5NDIxMDIzNjIzMDIwIiwiaWF0IjoxNzg3MTcwNzY0LCJsaSI6IjZmNmEzNmNjLTQ3NzUtNDFjMC05OTA3LTYyYjg2MTI0ODcyNSIsImFzIjoiZWZkMjY0N2MtZTc0YS00ZmNlLTk3NWItMWU2ZGE5ZjYxMWE2IiwiYmMiOjI1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc2NDYwOH0%3D.gc601r0ADDlP0G2kH0us9lzEqCZxGWUVan-sbrYAKyM%3D",
+      "productUrl": "/de/make-up-manuka-health-manuka-honey-lip-balm/p/9421023623020?rm_tt=eyJhZF9pZCI6IjUwZWFjN2UyLWI0YjgtNGJhYS05NzA2LTgxMGNjNzAyMGU4YyIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI5NDIxMDIzNjIzMDIwIiwiaWF0IjoxNzg3MTcxNTUxLCJsaSI6IjZmNmEzNmNjLTQ3NzUtNDFjMC05OTA3LTYyYjg2MTI0ODcyNSIsImFzIjoiYjIwZmY1YTMtMmEwMS00OTA1LWI3ODYtNzZlZTBlZDc3ODNmIiwiYmMiOjI1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU1MTQ1OX0%3D.dcdAivpCdM0ZZOcn7iuzS1SGdMz-3grtwWjtOo9TEH8%3D",
       "image": "https://www.rossmann.de/media-neu/830/MAM_8305922/MAM_8305922_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
       "sourceType": "official_catalog",
@@ -2056,7 +2056,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "NIVEA - Double Effect Augen Make-up EntfernerGesponsert4NIVEADouble Effect Augen Make-up Entferner125 ml (1L = 31,92 €)",
@@ -2069,7 +2069,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/make-up-nivea-double-effect-augen-make-up-entferner/p/4006000184562?rm_tt=eyJhZF9pZCI6IjhmYWIwZGM4LWFmMmEtNDMwMC04ZGI4LTgzYmZjNmViNWY1YiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA2MDAwMTg0NTYyIiwiaWF0IjoxNzg3MTcwNzY0LCJsaSI6IjUwNmVkNTU5LWNjYjEtNDk2My1hZmIyLTQ5YTkwMjczMWNjYyIsImFzIjoiZWZkMjY0N2MtZTc0YS00ZmNlLTk3NWItMWU2ZGE5ZjYxMWE2IiwiYmMiOjI3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc2NDYwOH0%3D.cJNjKKTOwatViRru6E6ON54VxJDehycooLNLKooh0CM%3D",
+      "productUrl": "/de/make-up-nivea-double-effect-augen-make-up-entferner/p/4006000184562?rm_tt=eyJhZF9pZCI6ImY3MmZjNmUxLWFmOWQtNGJmNS05ZDA3LTA4M2EyYTdmMjRlMiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA2MDAwMTg0NTYyIiwiaWF0IjoxNzg3MTcxNTUxLCJsaSI6IjUwNmVkNTU5LWNjYjEtNDk2My1hZmIyLTQ5YTkwMjczMWNjYyIsImFzIjoiYjIwZmY1YTMtMmEwMS00OTA1LWI3ODYtNzZlZTBlZDc3ODNmIiwiYmMiOjI3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU1MTQ1OX0%3D.SPWOJQBl-9jZxgNxLFKRnEc_OpjxsdqI5y1FMmPSkZ4%3D",
       "image": "https://www.rossmann.de/media-neu/554/MAM_55483541/MAM_55483541_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
       "sourceType": "official_catalog",
@@ -2109,7 +2109,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "essence - Brow Lift & Freeze Glue 01 - Clear Control259essenceBrow Lift & Freeze Glue 01 - Clear Control7 ml",
@@ -2162,7 +2162,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Doonails - Soft Gel Press Ons Medium Round Classic FrenchNur Online4526DoonailsSoft Gel Press Ons Medium Round Classic French30 Stück (10Stück = 5,33 €) 15.99€",
@@ -2215,7 +2215,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Catrice - Glam & Doll Volume Mascara Waterproof3246CatriceGlam & Doll Volume Mascara Waterproof10 ml (1L = 449,00 €) 4.49€",
@@ -2268,7 +2268,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Doonails - Soft Gel Press Ons Medium Almond BabyboomerNur Online4526DoonailsSoft Gel Press Ons Medium Almond Babyboomer30 Stück (10Stück = 5,33 €) 15.99€",
@@ -2321,7 +2321,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "essence - I LOVE EXTREME crazy volume mascara6289essenceI LOVE EXTREME crazy volume mascara12 ml (1L = 249,17 €) 2.99€",
@@ -2374,7 +2374,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "ISANA - 5in1 Pflegende Reinigungstücher1337ISANA5in1 Pflegende Reinigungstücher25 Stück (10Stück = 0,30 €) 0.75€",
@@ -2427,7 +2427,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "MCoBeauty - Lip Stain & Sculpt - Natural NudeNeu40MCoBeautyLip Stain & Sculpt - Natural Nude1 ml 8.99€",
@@ -2480,7 +2480,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "bedrop - BeeBalm LippenpflegeNur OnlineGesponsert6bedropBeeBalm Lippenpflege6 ml",
@@ -2493,7 +2493,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/make-up-bedrop-beebalm-lippenpflege/p/0654170778179?rm_tt=eyJhZF9pZCI6ImQzOTJkNWE4LTU0YjktNDExMi05ZjE1LTc0YzMzYmJkM2VkMSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiIwNjU0MTcwNzc4MTc5IiwiaWF0IjoxNzg3MTcwNzY0LCJsaSI6IjI0YjBiOGViLWZiNmMtNDA1MS1hYmYxLWU3YmM1NjhmZDc5MyIsImFzIjoiZWZkMjY0N2MtZTc0YS00ZmNlLTk3NWItMWU2ZGE5ZjYxMWE2IiwiYmMiOjE1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc2NDYwOH0%3D.uoU4wcAlkVDGuXmlc-8U-QfTaov5ugnfgyLXGHXVB9g%3D",
+      "productUrl": "/de/make-up-bedrop-beebalm-lippenpflege/p/0654170778179?rm_tt=eyJhZF9pZCI6IjZiOGE1ZmZjLTI2MzAtNDg4OS04MzFlLWE4NGZkMTgwNzliNiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiIwNjU0MTcwNzc4MTc5IiwiaWF0IjoxNzg3MTcxNTUxLCJsaSI6IjI0YjBiOGViLWZiNmMtNDA1MS1hYmYxLWU3YmM1NjhmZDc5MyIsImFzIjoiYjIwZmY1YTMtMmEwMS00OTA1LWI3ODYtNzZlZTBlZDc3ODNmIiwiYmMiOjE1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU1MTQ1OX0%3D.nQbfVZ7-Q5QZVglAKcO1CyNPZDwgJWgpx2nq--Fhy7U%3D",
       "image": "https://www.rossmann.de/media-neu/164/MAM_16448608/MAM_16448608_SHOP_IMAGE_3.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
       "sourceType": "official_catalog",
@@ -2533,7 +2533,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "ISANA - Nagellackentferner Mandelduft547ISANANagellackentferner Mandelduft125 ml (1L = 5,52 €)",
@@ -2586,7 +2586,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray SpülungGesponsertStérimarNasenhygiene Baby 2 in 1 Nasenspray Spülung50 ml (1L = 119,80 €)Medizinprodukt",
@@ -2599,7 +2599,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6ImIyZDJiZWI4LThlN2EtNDhlYi1iMzcxLTZiOGQyNDBjNDA5NyIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MTcwNzcyLCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiOGVmZjBmNDQtNmJlMS00OGQ2LThjYTktMDc1MzMwN2NjNTkwIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzA3NzI1NzZ9.CaJlB8GHlEFYUggIaHLFCrV7CM8tOgy1VNtTagUpMzs%3D",
+      "productUrl": "/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6IjRlZjk1MjA3LTE5ZjQtNDI0Mi1iNWVhLTY0ZGZkMmVhOWYwYiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MTcxNTU5LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiYzViM2Y0ZTQtNzgxZS00MzE0LTg1MGYtNDk2NWFhM2UyNjM1IiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzE1NTkwNTR9.mOommVDbG-lIk3DVcEDYk6beFvkOzJQ8jMR5LVERSWA%3D",
       "image": "https://www.rossmann.de/media-neu/144/MAM_14437875/MAM_14437875_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
       "sourceType": "official_catalog",
@@ -2639,7 +2639,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "BEBA - 2 Folgemilch nach dem 6. MonatGesponsert114BEBA2 Folgemilch nach dem 6. Monat800 g (1kg = 23,69 €)",
@@ -2652,7 +2652,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/baby-und-spielzeug-beba-2-folgemilch-nach-dem-6-monat/p/7613038463384?rm_tt=eyJhZF9pZCI6ImI4NmE0ZmZhLTdjODAtNGE2YS1iOTY4LWQ2NmVlZDc5ZWI0OCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjEzMDM4NDYzMzg0IiwiaWF0IjoxNzg3MTcwNzcyLCJsaSI6IjQ4MjY5YTc1LTllNDktNDFkNy05ZGIwLWVkY2ZiYTA0NjMwOCIsImFzIjoiOGVmZjBmNDQtNmJlMS00OGQ2LThjYTktMDc1MzMwN2NjNTkwIiwiYmMiOjExNywiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzA3NzI1NzZ9.CeEWrylTf0EfX6YZQGZ2wL1m0zd_74jFe4mqxYW95Wg%3D",
+      "productUrl": "/de/baby-und-spielzeug-beba-2-folgemilch-nach-dem-6-monat/p/7613038463384?rm_tt=eyJhZF9pZCI6ImMzZmYxYWU0LTc2ZGUtNDcwYS1hNjFjLTUwZjBlNTI1ZGE2OCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjEzMDM4NDYzMzg0IiwiaWF0IjoxNzg3MTcxNTU5LCJsaSI6IjQ4MjY5YTc1LTllNDktNDFkNy05ZGIwLWVkY2ZiYTA0NjMwOCIsImFzIjoiYzViM2Y0ZTQtNzgxZS00MzE0LTg1MGYtNDk2NWFhM2UyNjM1IiwiYmMiOjExNywiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzE1NTkwNTR9.GZD89MPdYVe_ljLP2AKxt4o8TbiqfhyFaIeglC3lhkM%3D",
       "image": "https://www.rossmann.de/media-neu/559/MAM_55987293/MAM_55987293_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
       "sourceType": "official_catalog",
@@ -2692,7 +2692,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Babydream - extra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück119Babydreamextra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück12 Stück (10Stück = 7,24 €) / 12 x 80 Tücher",
@@ -2745,7 +2745,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Pampers - Premium Protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 174 StückNur Online106026PampersPremium Protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 174 Stück174 Stück (100Stück = 32,16 €)",
@@ -2798,7 +2798,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Pampers - Premium Protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox 204 StückNur Online106026PampersPremium Protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox 204 Stück204 Stück (100Stück = 27,18 €)",
@@ -2851,60 +2851,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
-    },
-    {
-      "name": "Nestlé - Cerelac Junior Multifrucht & Crisps Getreidebrei 200gGesponsert5NestléCerelac Junior Multifrucht & Crisps Getreidebrei 200g200 g (1kg = 12,45 €)",
-      "brand": "",
-      "ean": "8445291987784",
-      "size": "1kg",
-      "currentPrice": 2.49,
-      "regularPrice": 2.49,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": null,
-      "baseUnit": null,
-      "productUrl": "/de/baby-und-spielzeug-nestle-cerelac-junior-multifrucht-und-crisps-getreidebrei-200g/p/8445291987784?rm_tt=eyJhZF9pZCI6IjFiOGI4Njg1LTdjOWYtNGI5My05NjgzLWFjMGQzM2FkMGRjZiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI4NDQ1MjkxOTg3Nzg0IiwiaWF0IjoxNzg3MTcwNzcyLCJsaSI6IjNjZDQyODg2LTdjZmUtNGViZC1hNzZlLTIzODFhNWY2NzE4NyIsImFzIjoiOGVmZjBmNDQtNmJlMS00OGQ2LThjYTktMDc1MzMwN2NjNTkwIiwiYmMiOjg2LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc3MjU3Nn0%3D.q2rhYoMQdodr6Z8Y-8yOopt1_cl9ueqveoAWxnK6nsk%3D",
-      "image": "https://www.rossmann.de/media-neu/321/MAM_32192181/MAM_32192181_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
-      "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "ROSSMANN",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 2.49,
-      "unit": 2.49,
-      "unitLabel": "€/Packung",
-      "bio": false,
-      "originalName": "Nestlé - Cerelac Junior Multifrucht & Crisps Getreidebrei 200gGesponsert5NestléCerelac Junior Multifrucht & Crisps Getreidebrei 200g200 g (1kg = 12,45 €)",
-      "department": "Lebensmittel",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Babynahrung",
-      "canonicalGroup": "Babybrei",
-      "canonicalProduct": "Babybrei",
-      "canonicalId": "babybrei-babybrei",
-      "bundleKey": "Babybrei",
-      "key": "Babybrei",
-      "similarityKey": "Babybrei|Babybrei",
-      "exactMatchKey": "gtin:8445291987784",
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "fatContent": null,
-        "diaperSize": null,
-        "packageCount": null,
-        "processing": null,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.97,
-      "icon": "👶",
-      "gtin": "8445291987784",
-      "canonicalProductId": "gtin-8445291987784",
-      "identitySource": "gtin",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "BEBA - 3 Folgemilch ab dem 10. MonatGesponsert92BEBA3 Folgemilch ab dem 10. Monat800 g (1kg = 23,69 €)",
@@ -2917,7 +2864,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/baby-und-spielzeug-beba-3-folgemilch-ab-dem-10-monat/p/7613038464244?rm_tt=eyJhZF9pZCI6ImRkMjhlM2U4LWE2OGMtNDk4NC05YTg3LWQ3YjI5ZDUyZTM5YiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjEzMDM4NDY0MjQ0IiwiaWF0IjoxNzg3MTcwNzcyLCJsaSI6IjQ4MjY5YTc1LTllNDktNDFkNy05ZGIwLWVkY2ZiYTA0NjMwOCIsImFzIjoiOGVmZjBmNDQtNmJlMS00OGQ2LThjYTktMDc1MzMwN2NjNTkwIiwiYmMiOjExNywiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzA3NzI1NzZ9.0-gUdO1Dz5xsMX0wmBvJ_zoinLVf2_0ALxVvkPPgNnw%3D",
+      "productUrl": "/de/baby-und-spielzeug-beba-3-folgemilch-ab-dem-10-monat/p/7613038464244?rm_tt=eyJhZF9pZCI6ImEzNDc5NWRlLTM5MWUtNDIwNS1hODhhLWNiZDc3NTFiOTY5YiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjEzMDM4NDY0MjQ0IiwiaWF0IjoxNzg3MTcxNTU5LCJsaSI6IjQ4MjY5YTc1LTllNDktNDFkNy05ZGIwLWVkY2ZiYTA0NjMwOCIsImFzIjoiYzViM2Y0ZTQtNzgxZS00MzE0LTg1MGYtNDk2NWFhM2UyNjM1IiwiYmMiOjExNywiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzE1NTkwNTR9.Shf1m0dWcNX0u62t6WPe8ThtiKr93tvTGanIFTQUcuo%3D",
       "image": "https://www.rossmann.de/media-neu/559/MAM_55987366/MAM_55987366_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
       "sourceType": "official_catalog",
@@ -2957,7 +2904,60 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
+    },
+    {
+      "name": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGesponsert83BEBAExpert HA2 Folgenahrung nach dem 6. Monat550 g (1kg = 30,82 €)",
+      "brand": "",
+      "ean": "8445290917928",
+      "size": "1kg",
+      "currentPrice": 16.95,
+      "regularPrice": 16.95,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": null,
+      "baseUnit": null,
+      "productUrl": "/de/baby-und-spielzeug-beba-expert-ha2-folgenahrung-nach-dem-6-monat/p/8445290917928?rm_tt=eyJhZF9pZCI6IjBjZjc0Zjc3LTFlNTgtNDRhMC05MDI0LWY3ZmNiYTZmNjRkNSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI4NDQ1MjkwOTE3OTI4IiwiaWF0IjoxNzg3MTcxNTU5LCJsaSI6IjQ4MjY5YTc1LTllNDktNDFkNy05ZGIwLWVkY2ZiYTA0NjMwOCIsImFzIjoiYzViM2Y0ZTQtNzgxZS00MzE0LTg1MGYtNDk2NWFhM2UyNjM1IiwiYmMiOjExNywiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzE1NTkwNTR9.i1gwnPXnLNxQYJGlF-S3DAOFJxrNfYYNuzzy1-Q-bH0%3D",
+      "image": "https://www.rossmann.de/media-neu/559/MAM_55987519/MAM_55987519_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
+      "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "ROSSMANN",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 16.95,
+      "unit": 16.95,
+      "unitLabel": "€/Packung",
+      "bio": false,
+      "originalName": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGesponsert83BEBAExpert HA2 Folgenahrung nach dem 6. Monat550 g (1kg = 30,82 €)",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons",
+      "canonicalProduct": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons",
+      "canonicalId": "beba-expert-ha2-folgenahrung-nach-dem-6-monatgespons-beba-expert-ha2-folgenahrung-nach-dem-6-monatgespons",
+      "bundleKey": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons",
+      "key": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons",
+      "similarityKey": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons|BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons",
+      "exactMatchKey": "gtin:8445290917928",
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "fatContent": null,
+        "diaperSize": null,
+        "packageCount": null,
+        "processing": null,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": "8445290917928",
+      "canonicalProductId": "gtin-8445290917928",
+      "identitySource": "gtin",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Pampers - Premium Protection Windeln Gr. 2 Mini (4-8 kg) Monatsbox 240 StückNur Online108825PampersPremium Protection Windeln Gr. 2 Mini (4-8 kg) Monatsbox 240 Stück240 Stück (100Stück = 22,06 €)",
@@ -3010,7 +3010,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Babydream - Wickelunterlage31312BabydreamWickelunterlage10 Stück",
@@ -3063,42 +3063,42 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
-      "name": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGesponsert83BEBAExpert HA2 Folgenahrung nach dem 6. Monat550 g (1kg = 30,82 €)",
+      "name": "Nestlé - Cerelac Junior Erdbeer & Crisps Getreidebrei 200gGesponsert1NestléCerelac Junior Erdbeer & Crisps Getreidebrei 200g200 g (1kg = 12,45 €)",
       "brand": "",
-      "ean": "8445290917928",
+      "ean": "8445291988132",
       "size": "1kg",
-      "currentPrice": 16.95,
-      "regularPrice": 16.95,
+      "currentPrice": 2.49,
+      "regularPrice": 2.49,
       "offerPrice": null,
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/baby-und-spielzeug-beba-expert-ha2-folgenahrung-nach-dem-6-monat/p/8445290917928?rm_tt=eyJhZF9pZCI6IjBiN2NmYmQwLTMwMzUtNGFjNi1iZjBiLWYzZDc5ODZkODExYSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI4NDQ1MjkwOTE3OTI4IiwiaWF0IjoxNzg3MTcwNzcyLCJsaSI6IjQ4MjY5YTc1LTllNDktNDFkNy05ZGIwLWVkY2ZiYTA0NjMwOCIsImFzIjoiOGVmZjBmNDQtNmJlMS00OGQ2LThjYTktMDc1MzMwN2NjNTkwIiwiYmMiOjExNywiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzA3NzI1NzZ9.bdgjY6pQj-KVWIff0DIjDWfybu7DviJXf382Kab1j24%3D",
-      "image": "https://www.rossmann.de/media-neu/559/MAM_55987519/MAM_55987519_SHOP_IMAGE_1.4.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
+      "productUrl": "/de/baby-und-spielzeug-nestle-cerelac-junior-erdbeer-und-crisps-getreidebrei-200g/p/8445291988132?rm_tt=eyJhZF9pZCI6ImU5MDlmZDE2LWYyOTctNGYxYS04MGU5LWVjZmViZWZlYjUwMCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI4NDQ1MjkxOTg4MTMyIiwiaWF0IjoxNzg3MTcxNTU5LCJsaSI6IjNjZDQyODg2LTdjZmUtNGViZC1hNzZlLTIzODFhNWY2NzE4NyIsImFzIjoiYzViM2Y0ZTQtNzgxZS00MzE0LTg1MGYtNDk2NWFhM2UyNjM1IiwiYmMiOjg2LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU1OTA1NH0%3D.F0_Kr_QnjPMjkeEUBMocYOO351BO4PUq43sdMQhAM8k%3D",
+      "image": "https://www.rossmann.de/media-neu/321/MAM_32192548/MAM_32192548_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
       "sourceType": "official_catalog",
       "sourceCategory": "Baby & Kleinkind",
       "store": "ROSSMANN",
       "market": "Katalog",
       "cat": "Baby & Kleinkind",
-      "price": 16.95,
-      "unit": 16.95,
+      "price": 2.49,
+      "unit": 2.49,
       "unitLabel": "€/Packung",
       "bio": false,
-      "originalName": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGesponsert83BEBAExpert HA2 Folgenahrung nach dem 6. Monat550 g (1kg = 30,82 €)",
+      "originalName": "Nestlé - Cerelac Junior Erdbeer & Crisps Getreidebrei 200gGesponsert1NestléCerelac Junior Erdbeer & Crisps Getreidebrei 200g200 g (1kg = 12,45 €)",
       "department": "Lebensmittel",
       "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons",
-      "canonicalProduct": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons",
-      "canonicalId": "beba-expert-ha2-folgenahrung-nach-dem-6-monatgespons-beba-expert-ha2-folgenahrung-nach-dem-6-monatgespons",
-      "bundleKey": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons",
-      "key": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons",
-      "similarityKey": "BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons|BEBA - Expert HA2 Folgenahrung nach dem 6. MonatGespons",
-      "exactMatchKey": "gtin:8445290917928",
+      "subcategory": "Babynahrung",
+      "canonicalGroup": "Babybrei",
+      "canonicalProduct": "Babybrei",
+      "canonicalId": "babybrei-babybrei",
+      "bundleKey": "Babybrei",
+      "key": "Babybrei",
+      "similarityKey": "Babybrei|Babybrei",
+      "exactMatchKey": "gtin:8445291988132",
       "organic": false,
       "variant": "",
       "attributes": {
@@ -3109,14 +3109,14 @@
         "form": null
       },
       "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
+      "confidence": 0.97,
       "icon": "👶",
-      "gtin": "8445290917928",
-      "canonicalProductId": "gtin-8445290917928",
+      "gtin": "8445291988132",
+      "canonicalProductId": "gtin-8445291988132",
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung 50mlGesponsertStérimarStérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung 50ml50 ml (1L = 119,80 €)Medizinprodukt",
@@ -3129,7 +3129,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/baby-und-spielzeug-sterimar-sterimar-verstopfte-nase-baby-2-in-1-nasenspray-und-spuelung-50ml/p/5010724538623?rm_tt=eyJhZF9pZCI6IjU0NmU2ZTAxLTNkYjUtNDQ3Yi05ZjkxLWI2ZjA2NDVkZDAwMSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0NTM4NjIzIiwiaWF0IjoxNzg3MTcwNzcyLCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiOGVmZjBmNDQtNmJlMS00OGQ2LThjYTktMDc1MzMwN2NjNTkwIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzA3NzI1NzZ9.T_HBZm4MpkZD7uUZs-Pv9AH_c5BwbhKSitZYiUH9P70%3D",
+      "productUrl": "/de/baby-und-spielzeug-sterimar-sterimar-verstopfte-nase-baby-2-in-1-nasenspray-und-spuelung-50ml/p/5010724538623?rm_tt=eyJhZF9pZCI6IjVlOTkxYjMzLTA4MGEtNDg5MS04YmU1LTM0MjIzZmJhNzU4NSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0NTM4NjIzIiwiaWF0IjoxNzg3MTcxNTU5LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiYzViM2Y0ZTQtNzgxZS00MzE0LTg1MGYtNDk2NWFhM2UyNjM1IiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzE1NTkwNTR9.HG4rM7LoAkDnyeIwmL-8_pnTKLKWtISlqcHAXAUKXjI%3D",
       "image": "https://www.rossmann.de/media-neu/116/MAM_11639884/MAM_11639884_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
       "sourceType": "official_catalog",
@@ -3169,7 +3169,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Babydream - extra sensitiv Feuchttücher Spar-Pack4371Babydreamextra sensitiv Feuchttücher Spar-Pack320 Stück (100Stück = 0,93 €) / 4x80 Tücher",
@@ -3222,7 +3222,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Pampers - Baby Dry Windeln Gr. 5 Junior (11-16 kg) Monatsbox 174 StückNur Online911068PampersBaby Dry Windeln Gr. 5 Junior (11-16 kg) Monatsbox 174 Stück174 Stück (100Stück = 31,32 €)",
@@ -3275,7 +3275,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Pampers - Baby Dry Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 204 StückNur Online911068PampersBaby Dry Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 204 Stück204 Stück (100Stück = 26,69 €)",
@@ -3328,7 +3328,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Pampers - Baby Dry Windeln Gr. 6 Extra Large (13-18 kg) Monatsbox 148 StückNur Online911068PampersBaby Dry Windeln Gr. 6 Extra Large (13-18 kg) Monatsbox 148 Stück148 Stück (100Stück = 36,15 €)",
@@ -3381,7 +3381,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Pampers - Baby Dry Windeln Gr. 7 Extra Large (15+ kg) Monatsbox 132 StückNur Online911068PampersBaby Dry Windeln Gr. 7 Extra Large (15+ kg) Monatsbox 132 Stück132 Stück (100Stück = 40,49 €)",
@@ -3434,7 +3434,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Pampers - Baby Dry Pants Gr. 6 Extra Large (14-19 kg) Monatsbox 138 StückNur Online72023PampersBaby Dry Pants Gr. 6 Extra Large (14-19 kg) Monatsbox 138 Stück138 Stück (100Stück = 38,88 €)",
@@ -3487,7 +3487,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Pampers - Baby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox 160 StückNur Online72023PampersBaby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox 160 Stück160 Stück (100Stück = 34,59 €)",
@@ -3540,7 +3540,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "BEBA - SUPREME 2 Folgenahrung nach dem 6. MonatGesponsert255BEBASUPREME 2 Folgenahrung nach dem 6. Monat800 g (1kg = 37,44 €)",
@@ -3553,7 +3553,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/baby-und-spielzeug-beba-supreme-2-folgenahrung-nach-dem-6-monat/p/7613287226679?rm_tt=eyJhZF9pZCI6IjQwNTQyYjBlLThlZjQtNDE4ZC1iMmE5LWI2NGY4YTE2YTVlMCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjEzMjg3MjI2Njc5IiwiaWF0IjoxNzg3MTcwNzcyLCJsaSI6IjQ4MjY5YTc1LTllNDktNDFkNy05ZGIwLWVkY2ZiYTA0NjMwOCIsImFzIjoiOGVmZjBmNDQtNmJlMS00OGQ2LThjYTktMDc1MzMwN2NjNTkwIiwiYmMiOjExNywiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzA3NzI1NzZ9.i1-MDs41wJFytLhRagcWl_aIMtT38GZZ7w_R4c8IhUQ%3D",
+      "productUrl": "/de/baby-und-spielzeug-beba-supreme-2-folgenahrung-nach-dem-6-monat/p/7613287226679?rm_tt=eyJhZF9pZCI6ImNjYmMwNDQ3LTQ3NTUtNGE5MS04ODA3LWYwMjM2NDc0NzNmZiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjEzMjg3MjI2Njc5IiwiaWF0IjoxNzg3MTcxNTU5LCJsaSI6IjQ4MjY5YTc1LTllNDktNDFkNy05ZGIwLWVkY2ZiYTA0NjMwOCIsImFzIjoiYzViM2Y0ZTQtNzgxZS00MzE0LTg1MGYtNDk2NWFhM2UyNjM1IiwiYmMiOjExNywiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcxNzE1NTkwNTR9.IkTcRhkzKROzYsCe_JhMNt1bdqKC93ON9FekaMLzjHk%3D",
       "image": "https://www.rossmann.de/media-neu/144/MAM_14484522/MAM_14484522_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
       "sourceType": "official_catalog",
@@ -3593,7 +3593,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     },
     {
       "name": "Nestlé - Cerelac Milch-Getreidebrei Weizen ab dem 6. MonatGesponsert14NestléCerelac Milch-Getreidebrei Weizen ab dem 6. Monat400 g (1kg = 9,98 €)",
@@ -3606,7 +3606,7 @@
       "isOffer": false,
       "basePrice": null,
       "baseUnit": null,
-      "productUrl": "/de/baby-und-spielzeug-nestle-cerelac-milch-getreidebrei-weizen-ab-dem-6-monat/p/7616100005079?rm_tt=eyJhZF9pZCI6IjAyOGY4NzkwLTFjNzItNDdkOC04OWRiLWI4NTNmMWFjMGQyNCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjE2MTAwMDA1MDc5IiwiaWF0IjoxNzg3MTcwNzcyLCJsaSI6IjNjZDQyODg2LTdjZmUtNGViZC1hNzZlLTIzODFhNWY2NzE4NyIsImFzIjoiOGVmZjBmNDQtNmJlMS00OGQ2LThjYTktMDc1MzMwN2NjNTkwIiwiYmMiOjg2LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MDc3MjU3Nn0%3D.xE0mia-YuEwt01ZzQqRpoyy3BUoao_1TOSief1me0jw%3D",
+      "productUrl": "/de/baby-und-spielzeug-nestle-cerelac-milch-getreidebrei-weizen-ab-dem-6-monat/p/7616100005079?rm_tt=eyJhZF9pZCI6IjI2MTEzYTA0LWE2NzAtNGU3NS05N2NjLTMwYjg1YzhmODg1OSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjE2MTAwMDA1MDc5IiwiaWF0IjoxNzg3MTcxNTU5LCJsaSI6IjNjZDQyODg2LTdjZmUtNGViZC1hNzZlLTIzODFhNWY2NzE4NyIsImFzIjoiYzViM2Y0ZTQtNzgxZS00MzE0LTg1MGYtNDk2NWFhM2UyNjM1IiwiYmMiOjg2LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzE3MTU1OTA1NH0%3D.gdpGMaupgZrbTwY1UA33WRIaO6nckQyskUtvpBXWOSQ%3D",
       "image": "https://www.rossmann.de/media-neu/157/MAM_15709568/MAM_15709568_SHOP_IMAGE_2.0.png?quality=85&auto=webp&width=160&height=160&fit=bounds&format=webply&canvas=160%2C160",
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
       "sourceType": "official_catalog",
@@ -3646,7 +3646,7 @@
       "identitySource": "gtin",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-19T20:18:41.021Z"
+      "importedAt": "2026-08-19T20:29:34.831Z"
     }
   ]
 }
