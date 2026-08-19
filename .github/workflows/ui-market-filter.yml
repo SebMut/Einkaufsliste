@@ -1,30 +1,26 @@
-name: UI Händlertyp-Filter
+name: UI Händlertyp-Filter Diagnose
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'scripts/patch-market-type-filter.mjs'
-      - '.github/workflows/ui-market-filter.yml'
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  patch:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Frontend patchen
-        run: node scripts/patch-market-type-filter.mjs
-      - name: Änderungen veröffentlichen
+      - name: Abhängigkeiten installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+      - name: Aktuelles Frontend und Produktlogik testen
+        working-directory: importer
+        run: npm test
+      - name: Legacy-Patcher nur im Arbeitsverzeichnis prüfen
         run: |
-          git config user.name "AngebotsRadar Bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add index.html
-          git commit -m "V4.6 Händlertyp-Filter und Marktinventur" || exit 0
-          git pull --rebase origin main
-          git push origin main
+          node scripts/patch-market-type-filter.mjs
+          echo 'Der Workflow ist absichtlich read-only und veröffentlicht keine automatischen UI-Patches.'
