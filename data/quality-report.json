@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-19T15:40:46.321Z",
-  "before": 217,
-  "after": 217,
+  "generatedAt": "2026-08-19T15:42:33.382Z",
+  "before": 215,
+  "after": 215,
   "rejected": 0,
   "repaired": 133,
   "rejectedReasons": {},
   "storeBefore": {
     "EDEKA": 11,
     "ALDI SÜD": 26,
-    "NORMA": 47,
+    "NORMA": 45,
     "PENNY": 51,
     "dm": 30,
     "ROSSMANN": 18,
@@ -21,7 +21,7 @@
   "storeAfter": {
     "EDEKA": 11,
     "ALDI SÜD": 26,
-    "NORMA": 47,
+    "NORMA": 45,
     "PENNY": 51,
     "dm": 30,
     "ROSSMANN": 18,
@@ -33,15 +33,13 @@
   },
   "rejectedExamples": [],
   "finalPass": {
-    "generatedAt": "2026-08-19T15:40:46.366Z",
-    "before": 217,
+    "generatedAt": "2026-08-19T15:42:33.447Z",
+    "before": 215,
     "after": 214,
-    "rejected": 3,
+    "rejected": 1,
     "repaired": 16,
     "rejectedReasons": {
-      "name": 1,
-      "duplicate": 1,
-      "semantic_duplicate": 1
+      "name": 1
     },
     "rejectedExamples": [
       {
@@ -52,7 +50,7 @@
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T15:40:46.407Z",
+    "generatedAt": "2026-08-19T15:42:33.506Z",
     "before": 214,
     "after": 210,
     "rejected": 4,

@@ -1,8 +1,8 @@
 HIT: reader=56439 Zeichen, Zeilen=240, Treffer=0, vorher=1
 Kaufland: reader=102243 Zeichen, Zeilen=603, Treffer=20, vorher=15
-HIT chars=56439 Bildblöcke=182 valide=0 vorher=1
-Qualitätsfilter: 217 -> 217 Angebote (0 verworfen, 133 Reparaturen).
-Qualität V2: 217 -> 214; 3 weitere Einträge entfernt, 16 repariert.
+HIT chars=56439 Blöcke=0 valide=0 vorher=1
+Qualitätsfilter: 215 -> 215 Angebote (0 verworfen, 133 Reparaturen).
+Qualität V2: 215 -> 214; 1 weitere Einträge entfernt, 16 repariert.
 Qualität V3: 214 -> 210; 4 verworfen; 19 Namen bereinigt.
 REWE: 10 / 10 streng geprüfte Angebote
 EDEKA: 11 / 11 streng geprüfte Angebote
