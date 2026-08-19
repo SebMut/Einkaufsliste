@@ -1,81 +1,118 @@
 {
-  "schema": 2,
-  "generatedAt": "2026-08-19T20:11:20.591Z",
+  "schema": 3,
+  "generatedAt": "2026-08-19T20:15:47.794Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
-      "catalogStatus": "unavailable",
-      "productCount": 0,
+      "catalogStatus": "partial_catalog",
+      "productCount": 198,
       "branchCount": 3,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.dm.de/haushalt",
           "status": "ok",
-          "count": 0
+          "count": 47,
+          "mode": "browser",
+          "htmlBytes": 486670,
+          "jsonResponses": 11,
+          "networkProducts": 0
         },
         {
           "category": "Körperpflege",
           "url": "https://www.dm.de/pflege-und-parfum",
           "status": "ok",
-          "count": 0
+          "count": 45,
+          "mode": "browser",
+          "htmlBytes": 499714,
+          "jsonResponses": 10,
+          "networkProducts": 0
         },
         {
           "category": "Haarpflege",
           "url": "https://www.dm.de/haare",
           "status": "ok",
-          "count": 0
+          "count": 47,
+          "mode": "browser",
+          "htmlBytes": 538139,
+          "jsonResponses": 13,
+          "networkProducts": 0
         },
         {
           "category": "Mundpflege",
           "url": "https://www.dm.de/mund-und-zahnpflege",
-          "status": "ok",
-          "count": 0
+          "status": "no_data",
+          "count": 0,
+          "mode": "browser",
+          "htmlBytes": 114660,
+          "jsonResponses": 6,
+          "networkProducts": 0
         },
         {
           "category": "Baby & Kleinkind",
           "url": "https://www.dm.de/baby-und-kind",
           "status": "ok",
-          "count": 0
+          "count": 71,
+          "mode": "browser",
+          "htmlBytes": 614707,
+          "jsonResponses": 11,
+          "networkProducts": 0
         },
         {
           "category": "Lebensmittel",
           "url": "https://www.dm.de/ernaehrung",
           "status": "ok",
-          "count": 0
+          "count": 57,
+          "mode": "browser",
+          "htmlBytes": 623275,
+          "jsonResponses": 10,
+          "networkProducts": 0
         },
         {
           "category": "Tierbedarf",
           "url": "https://www.dm.de/tier",
           "status": "ok",
-          "count": 0
+          "count": 35,
+          "mode": "browser",
+          "htmlBytes": 390505,
+          "jsonResponses": 11,
+          "networkProducts": 0
         }
       ]
     },
     {
       "retailer": "ROSSMANN",
-      "catalogStatus": "unavailable",
-      "productCount": 0,
+      "catalogStatus": "partial_catalog",
+      "productCount": 44,
       "branchCount": 1,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
-          "status": "ok",
-          "count": 0
+          "status": "unavailable",
+          "count": 0,
+          "message": "page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:291:30), <anonymous>:1:38)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonym"
         },
         {
           "category": "Körperpflege",
           "url": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
           "status": "ok",
-          "count": 0
+          "count": 26,
+          "mode": "browser",
+          "htmlBytes": 1295020,
+          "jsonResponses": 2,
+          "networkProducts": 0
         },
         {
           "category": "Baby & Kleinkind",
           "url": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
           "status": "ok",
-          "count": 0
+          "count": 22,
+          "mode": "browser",
+          "htmlBytes": 1361261,
+          "jsonResponses": 2,
+          "networkProducts": 0
         }
       ]
     }
@@ -84,5 +121,5 @@
     "dm.json",
     "rossmann.json"
   ],
-  "productCount": 0
+  "productCount": 242
 }

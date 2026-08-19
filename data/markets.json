@@ -1,6 +1,6 @@
 {
   "schema": 9,
-  "generatedAt": "2026-08-19T20:11:20.237Z",
+  "generatedAt": "2026-08-19T20:14:18.530Z",
   "center": {
     "name": "85622 Feldkirchen bei München",
     "lat": 48.145,
@@ -193,7 +193,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "business_search",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Riem Arcaden",
       "isRiemArcaden": true
@@ -253,7 +253,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "business_search",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Aschheim",
       "isRiemArcaden": false
@@ -313,7 +313,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "estimated_from_location",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Aschheim",
       "isRiemArcaden": false
@@ -333,7 +333,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "estimated_from_location",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Kirchheim bei München",
       "isRiemArcaden": false
@@ -535,7 +535,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "business_search",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Riem Arcaden",
       "isRiemArcaden": true
@@ -595,7 +595,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "business_search",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Aschheim",
       "isRiemArcaden": false
@@ -655,7 +655,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "estimated_from_location",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Aschheim",
       "isRiemArcaden": false
@@ -675,7 +675,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "estimated_from_location",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Kirchheim bei München",
       "isRiemArcaden": false
@@ -1012,7 +1012,7 @@
           "isRiemArcaden": false
         }
       ],
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Riem Arcaden",
       "isRiemArcaden": true
@@ -1034,7 +1034,7 @@
           "isRiemArcaden": false
         }
       ],
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Kirchheim bei München",
       "isRiemArcaden": false
@@ -1619,7 +1619,8 @@
     },
     "catalogStatusCounts": {
       "offers_only": 11,
-      "unavailable": 6
+      "unavailable": 2,
+      "partial_catalog": 4
     }
   }
 }
