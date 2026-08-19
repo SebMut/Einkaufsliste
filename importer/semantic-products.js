@@ -285,7 +285,7 @@ export function classifySemanticProduct(name = '', size = '', currentCat = '') {
     department: 'Lebensmittel', category: 'Vorrat', subcategory: 'Fette & Öle',
     marketSection: 'Trockenwaren', useCase: 'Butterreinfett zum Braten/Kochen'
   });
-  else if (/\bbutter\b|markenbutter|streichzart/.test(n)) {
+  else if (/\bbutter\b|markenbutter|süßrahmbutter|sauerrahmbutter|streichzart/.test(n)) {
     const variant = /süßrahm/.test(n) ? 'Süßrahmbutter' : /sauerrahm/.test(n) ? 'Sauerrahmbutter' : 'Butter';
     p = profile('Butter', {
       department: 'Lebensmittel', category: 'Milchprodukte', subcategory: 'Butter & Fette',
