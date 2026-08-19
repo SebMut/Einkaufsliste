@@ -1,0 +1,2625 @@
+{
+  "flyer": {
+    "title": "17.08.2026 – 22.08.2026",
+    "regions": [
+      {
+        "type": "national",
+        "code": "0"
+      }
+    ],
+    "flyerJson": "https://endpoints.leaflets.schwarz/v4/flyer?version=4&flyer_identifier=aktionsprospekt-17-08-2026-22-08-2026-799968&client=lidl",
+    "pdfUrl": "https://assets.leaflets.schwarz/leaflets/pdfs/019ff08c-e2d8-7677-995f-e824659481d9/Aktionsprospekt-17-08-2026-22-08-2026-05.pdf"
+  },
+  "pageCount": 72,
+  "pages": [
+    {
+      "number": 1,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Schwip Schwap Xxl 175 Pfand -38% Uvp -44% Funny-Frisch Pom-Bär Normalpreis Lidl Plus -50% Tiefpreis Garantie Livarno Musselin-Bettwäsche Stück Standardgröße Komfortgröße King-Size Varianten Farben Lavazza Caffè Crema Musselin -28% Letzter Preis Drucktermin Parkside Elektro- Kettensäge Typ „Peks Traumhaft Günstig Helle Kernlose Trauben Ursprung Klasse Filial-Angebote Dienstleistung & Kg Bonfelder Bad Namen Anschrift Regional Tätigen Unternehmen Nonfood-Aktionsartikel Kleinstfilialen -Angebote Digital Deutschland Straße Bio-Zertifiziert Angebot Ausschließlich Nutzer Gelten Infos Ausgabe Hhz – 1143",
+      "altText": "Werbeprospekt von Lidl mit Angeboten für Schwip Schwap, Pom-Bär, Lavazza Kaffee, Trauben und einer Parkside Elektro-Kettensäge.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=kaffee&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Lavazza-Kaffee-Titel",
+          "productDetails": null
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Musselin-Bettwäsche, 155 x 220 cm",
+          "url": "https://www.lidl.de/p/livarno-premium-musselin-bettwasche-155-x-220-cm/p100409050?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409050",
+          "productDetails": {
+            "productId": "100409050",
+            "title": "LIVARNO® Musselin-Bettwäsche, 155 x 220 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Musselin-Bettwäsche, 135 x 200 cm",
+          "url": "https://www.lidl.de/p/livarno-premium-musselin-bettwasche-135-x-200-cm/p100408989?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408989",
+          "productDetails": {
+            "productId": "100408989",
+            "title": "LIVARNO® Musselin-Bettwäsche, 135 x 200 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Musselin-Bettwäsche, 200 x 220 cm",
+          "url": "https://www.lidl.de/p/livarno-premium-musselin-bettwasche-200-x-220-cm/p100409121?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409121",
+          "productDetails": {
+            "productId": "100409121",
+            "title": "LIVARNO® Musselin-Bettwäsche, 200 x 220 cm"
+          }
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=Weintrauben&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Trauben-hell",
+          "productDetails": null
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Elektro-Kettensäge »PEKS 2200 B1«, 2-Hand-Schutzschalter",
+          "url": "https://www.lidl.de/p/parkside-elektro-kettensage-peks-2200-b1-2-hand-schutzschalter/p100393714?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100393714",
+          "productDetails": {
+            "productId": "100393714",
+            "title": "PARKSIDE® Elektro-Kettensäge »PEKS 2200 B1«, 2-Hand-Schutzschalter"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Großer Frische-Sieger Winziger Preis Lidl Dienstleistung & Sieger Kategorie Discount Fruitnet Media International Düsseldorf -33% -25% Helle Kernlose Trauben Ursprung Klasse Zitronen Argentinien 500-G-Netz Frische Feigen Lose Türkei Stück Bewusst Ernähren Wigald Boning Hhz – Auftrag Fruchthandel Magazin Yougov Frühjahr Insgesamt Haushalte Meinung Obst Gemüseangebot Verschiedenen Handelsgruppen Einschließlich Kategorien Gegensatz Preisen Einzelne Geschäft Abteilung Leistung Gesamten Handelsgruppe Retail Award Informationen Awards 2016 2017 2019 2020 2021 2022 1200",
+      "altText": "Werbeseite von Lidl mit der Auszeichnung als Frische-Sieger in der Kategorie Discount und Angeboten für kernlose Trauben, Zitronen und Feigen.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://www.lidl.de/c/bewusste-ernaehrung/s10097179",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=Weintrauben&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Trauben-hell",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=zitronen&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Zitronen",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=feigen&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Feigen",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Saison Highlight Woche Lidl Plus Aktion -20% Galiamelone Ursprung Spanien Klasse Frischer Zuckermais Stück Salat-Mix Italien Deutsche Rote Zwiebeln Bio Mini Möhren Dänemark -1€ Drinnen Draußen Romantisches Rosen-Duo Höhe Topf Heidekraut Lizenzsorte Calluna Beauty 6Er-Tray Lilien Orientalisch Phalaenopsis Multiflora Echte Bienen- Lieblinge Deutsc Dwir Tsc 1-Kg-Netz Kg- Eis Artikel Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Pflanzen Gilt Angebot Ausschließlich Nutzer Gelten Infos Hhz – 1305",
+      "altText": "Saisonaler Lidl-Prospekt mit Angeboten für Galiamelonen, Zuckermais, Rote Zwiebeln, Mini-Möhren sowie verschiedenen Blumen und Pflanzen.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=karotten&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Mini-Moehren",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=zwiebeln&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Zwiebeln",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=salat-mix&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Salat-Mix",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=maiskolben&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Zuckermais",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Frische Kategorie Motiviert Täglicher Dauerhafter Discount Fruitnet Media International Düsseldorf Lidl Dienstleistung & Sieger Ieger Vollsortimenter Frische-Sieger Auftrag Fruchthandel Magazin Yougov Frühjahr Insgesamt Haushalte Meinung Obst Gemüseangebot Verschiedenen Handelsgruppen Einschließlich Kategorien Gegensatz Preisen Einzelne Geschäft Abteilung Leistung Gesamten Handelsgruppe Retail Award Informationen Awards 2016 2017 2019 2020 2021 2022 1128",
+      "altText": "Werbeseite von Lidl zur Auszeichnung als Frische-Sieger im Bereich Obst und Gemüse mit einem Foto von Wigald Boning.",
+      "links": []
+    },
+    {
+      "number": 5,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Frische Kategorie Discount Einsatz Tägliche Vielfalt Täglich Obst- & Frische- Kontrollen Filialen Sichern Möglichst Saisonal Deutscher Ernte 45% Bioland-Qualität – Bio-Anbau Chemisch- Synthetische Pestizide Deutschland Deutsc Dwir Tsc Plastik Wähle Obst Gemüse Kar- Ton Papier Silphie-Papier Nutze Wiederver- Wendbaren Durchschnittswert 1128",
+      "altText": "Informationsseite von Lidl über Frische, Vielfalt und Qualitätskontrollen bei Obst und Gemüse sowie den Einsatz von Bioland-Qualität und umweltfreundlichen Verpackungen.",
+      "links": []
+    },
+    {
+      "number": 6,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Große Vielfalt Winziger Preis Dauerhaft Sortiment Ehr Infos & Rezepte Bewusst Wigald Boning Ernähren Ür Tierwohl Haltungsform Hf3-Artikel Stammen Komplett Deutschland Hf3 Bedeutet Platz Frischluft Tiere Jederzeit Zugang Deutlich Artikel Deutscher Landwirtschaft Garantierte Heimqualität 100% Trinkmilch Produkte Eigenmarke Metzgerfrisch Herkunft Frischluftstall Deutsc Dwir Tsc Dhz – Jahresverlauf Label „Gutes Landwirtschaft“ 1405",
+      "altText": "Werbeseite von Lidl mit Fokus auf Tierwohl (Haltungsform 3), heimische Landwirtschaft und bewusste Ernährung, präsentiert von Wigald Boning.",
+      "links": []
+    },
+    {
+      "number": 7,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Aktionszeitraum – Lidl Plus-Kunden Nextory Tage Ostenlos 14 Millionen Books Hörbücher Exklusive Plus Partner- Vorteile Stunden Gratis Testen Lohnt Kostenlos Hören & 999 Testzeitraum Vertragsbindung Jederzeit Kündbar Dhz Angebotszeitraum Angebot Gilt Einschließlich Neukunden Ehemaligen Kund* Vergangenen Monaten Abonnement Abgeschlossen Fragen Wende Bitte Kundendienst Link 0829",
+      "altText": "Lidl Plus Partner-Vorteil mit einem Angebot für einen kostenlosen Testzeitraum bei Nextory für Hörbücher und E-Books.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://lidlplus.com/benefits/detail/BEN0000014130",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Lidl Plus Shoppen Versand- Kosten Sparen Kostenlose Retoure Tage Silvercrest Induktionskochplatte Typ „Sikp Einstellbare Leistungs- Temperaturstufen Boost-Funktion Abschaltautomatik Geeignet Topf- Größen Stück Reiskocher „Srk Zubereitung Messbecher Fassungsvermögen Küchenmaschine „Skm Stufenlose Geschwindig- Keitsregelung Puls- Edelstahlschüssel Küche & Haushalt Shoppe -25% -13% Dhz – Genereller Hinweis Artikel Vorrat Preise Deko Versandkostenpauschale Abweichend Angebote Richten Ausschließlich Endkunden Lieferanschrift Onlineshop-Angebote Digital Deutschland Kg Bonfelder Straße Bad Wimpfen Telefon Samstag 800 2000 Angebot Nutzer Gelten Coupon Bedingungen Infos Preis Gültig Aktionszeitraum Versandkosten Kundenbewertungen 15515",
+      "altText": "Lidl Plus Online-Angebote für Küchengeräte wie eine Induktionskochplatte, einen Reiskocher und eine Küchenmaschine von Silvercrest.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Küchenmaschine",
+          "url": "https://www.lidl.de/p/silvercrest-kuchenmaschine/p100409109?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409109",
+          "productDetails": {
+            "productId": "100409109",
+            "title": "SILVERCREST® Küchenmaschine"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Küchenmaschine",
+          "url": "https://www.lidl.de/p/silvercrest-kuchenmaschine/p100409084?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409084",
+          "productDetails": {
+            "productId": "100409084",
+            "title": "SILVERCREST® Küchenmaschine"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Küchenmaschine digital Pastell",
+          "url": "https://www.lidl.de/p/silvercrest-kuchenmaschine-digital-pastell/p100409131?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409131",
+          "productDetails": {
+            "productId": "100409131",
+            "title": "SILVERCREST® Küchenmaschine digital Pastell"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Induktionskochplatte »SIKP 2200 B1«",
+          "url": "https://www.lidl.de/p/silvercrest-induktionskochplatte-sikp-2200-b1/p100401552?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401552",
+          "productDetails": {
+            "productId": "100401552",
+            "title": "SILVERCREST® Induktionskochplatte »SIKP 2200 B1«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Reiskocher SRK 400 D2",
+          "url": "https://www.lidl.de/p/silvercrest-reiskocher-srk-400-d2/p100397680?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100397680",
+          "productDetails": {
+            "productId": "100397680",
+            "title": "SILVERCREST® Reiskocher SRK 400 D2"
+          }
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Farbe Schwarz Russell Hobbs Salz- Pfeffermühlen 237 Set Silvercrest Glasschüssel-Set Spülmaschinen- Nutzvolumen 5-Teilig 2-Teilig Mepal Aufbewahrungsdosen Mikrowellen- Geeignet 075 125 4-Teilig -6% Uvp Delonghi Kombi- Kaffeemaschine Typ Espresso Manuellem Cappuccino- Stück Bar -20% Eiscrememaschine „Semk Zubereitung Speiseeis Frozen Yogurt Smoothie Vorein- Gestellten Fassungsvermögen Lidl Ratenzahlung € Monat Laufzeit Monate Gesamtpreis Modell „Klassisch“ „Modern“ Tafel Besteck-Set Spülmaschinen 30-Teilig -21% -63% Dhz – Vorbehaltlich Laufzeiten 3691218 Bestellwert Monatlicher Mindestrate Gilt Effektiver Jahreszins Entspricht Festen Sollzinssatz 1048% Repräsentatives Beispiel §17 Pangv Nettodarlehensbetrag Gesamtbetrag Monatliche Raten Teilzahlungsverkäufer Digital Deutschland & Kg Bonfelder Straße Bad Infos 15530",
+      "altText": "Online-Angebote von Lidl für Haushalts- und Küchenartikel, darunter Salz- und Pfeffermühlen, eine DeLonghi Kaffeemaschine, eine Eiscrememaschine und Besteck.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Edelstahl-Besteck-Set, 30-teilig",
+          "url": "https://www.lidl.de/p/silvercrest-edelstahl-besteck-set-30-teilig/p100399274?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399274",
+          "productDetails": {
+            "productId": "100399274",
+            "title": "SILVERCREST® Edelstahl-Besteck-Set, 30-teilig"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "RUSSELL HOBBS Salz- und Pfeffermühlen",
+          "url": "https://www.lidl.de/p/russell-hobbs-salz-und-pfeffermuhlen/p100406811?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100406811",
+          "productDetails": {
+            "productId": "100406811",
+            "title": "RUSSELL HOBBS Salz- und Pfeffermühlen"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Glasschüssel-Set, 5-tlg.",
+          "url": "https://www.lidl.de/p/silvercrest-glasschussel-set-5-tlg/p100397686?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100397686",
+          "productDetails": {
+            "productId": "100397686",
+            "title": "SILVERCREST® Glasschüssel-Set, 5-tlg."
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "MEPAL Aufbewahrungsdosen, 2er Set rund",
+          "url": "https://www.lidl.de/p/mepal-aufbewahrungsdosen-2er-set-rund/p100410046?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100410046",
+          "productDetails": {
+            "productId": "100410046",
+            "title": "MEPAL Aufbewahrungsdosen, 2er Set rund"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® 4-in-1-Eiscrememaschine »SEMK 100 A1«",
+          "url": "https://www.lidl.de/p/silvercrest-4-in-1-eiscrememaschine-semk-100-a1/p100408344?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408344",
+          "productDetails": {
+            "productId": "100408344",
+            "title": "SILVERCREST® 4-in-1-Eiscrememaschine »SEMK 100 A1«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "DELONGHI Kombi-Kaffeemaschine »BCO411« für Espresso und Filterkaffee",
+          "url": "https://www.lidl.de/p/delonghi-kombi-kaffeemaschine-bco411-fur-espresso-und-filterkaffee/p100405590?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100405590",
+          "productDetails": {
+            "productId": "100405590",
+            "title": "DELONGHI Kombi-Kaffeemaschine »BCO411« für Espresso und Filterkaffee"
+          }
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Lidl Plus Shoppen Versand- Kosten Sparen Kostenlose Retoure Tage Sport & Freizeit Crivit Lightweight-Funktionsjacke Damenxs Herrens Stück 2--1- Funktionsshorts Polyester Teilweise Elasthan Herren Laufschuhe Mesh Robuste Laufsohle Gummimischung Dämpfender Paar Funktionsweste Polyamid -28% -33% -20% Funktionsshirt Dhz – Genereller Hinweis Artikel Vorrat Preise Deko Versandkostenpauschale Abweichend Angebote Richten Ausschließlich Endkunden Lieferanschrift Onlineshop-Angebote Digital Deutschland Kg Bonfelder Straße Bad Wimpfen Telefon Samstag 800 2000 Angebot Nutzer Gelten Coupon Bedingungen Infos Preis Gültig Aktionszeitraum Versandkosten Kundenbewertungen 1525",
+      "altText": "Lidl Plus Online-Angebote für Sport- und Freizeitbekleidung von Crivit, darunter Funktionsjacken, Shorts, Laufschuhe und Westen.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "CRIVIT Damen Lightweight-Funktionsjacke",
+          "url": "https://www.lidl.de/p/crivit-damen-lightweight-funktionsjacke/p100408864?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408864",
+          "productDetails": {
+            "productId": "100408864",
+            "title": "CRIVIT Damen Lightweight-Funktionsjacke"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Herren Lightweight-Funktionsjacke",
+          "url": "https://www.lidl.de/p/crivit-herren-lightweight-funktionsjacke/p100408844?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408844",
+          "productDetails": {
+            "productId": "100408844",
+            "title": "CRIVIT Herren Lightweight-Funktionsjacke"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Damen Funktionsshirt",
+          "url": "https://www.lidl.de/p/crivit-damen-funktionsshirt/p100408786?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408786",
+          "productDetails": {
+            "productId": "100408786",
+            "title": "CRIVIT Damen Funktionsshirt"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Herren Funktionsshirt",
+          "url": "https://www.lidl.de/p/crivit-herren-funktionsshirt/p100409107?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409107",
+          "productDetails": {
+            "productId": "100409107",
+            "title": "CRIVIT Herren Funktionsshirt"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Herren Funktionsweste",
+          "url": "https://www.lidl.de/p/crivit-herren-funktionsweste/p100408884?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408884",
+          "productDetails": {
+            "productId": "100408884",
+            "title": "CRIVIT Herren Funktionsweste"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Damen Laufschuhe",
+          "url": "https://www.lidl.de/p/crivit-damen-laufschuhe/p100401432?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401432",
+          "productDetails": {
+            "productId": "100401432",
+            "title": "CRIVIT Damen Laufschuhe"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Herren Laufschuhe",
+          "url": "https://www.lidl.de/p/crivit-herren-laufschuhe/p100401415?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401415",
+          "productDetails": {
+            "productId": "100401415",
+            "title": "CRIVIT Herren Laufschuhe"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Damen Funktionsweste",
+          "url": "https://www.lidl.de/p/crivit-damen-funktionsweste/p100408867?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408867",
+          "productDetails": {
+            "productId": "100408867",
+            "title": "CRIVIT Damen Funktionsweste"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Damen Funktionsshorts, 2- in-1",
+          "url": "https://www.lidl.de/p/crivit-damen-funktionsshorts-2-in-1/p100409110?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409110",
+          "productDetails": {
+            "productId": "100409110",
+            "title": "CRIVIT Damen Funktionsshorts, 2- in-1"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Herren Funktionsshorts, mit Handytasche",
+          "url": "https://www.lidl.de/p/crivit-herren-funktionsshorts-mit-handytasche/p100408829?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408829",
+          "productDetails": {
+            "productId": "100408829",
+            "title": "CRIVIT Herren Funktionsshorts, mit Handytasche"
+          }
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Christopeit Walking Pad Geschwindigkeit 10 01 Schritten Motor Dauerleistung 07 1275 565 112 Stück -36% Lieferkosten Zuschlag Crivit Damen- Funktionscapri Polyeste Elasthan Größen Funktionstights Polyester Sport-Bustier Obermaterial Mesh Polyamid Cup-Futter Poly- Funktionsweste Damenxs Herrens 2--1- Funktionsrock Integrierte Enganliegende -28% Shoppe Vorbehaltlich Laufzeiten 3691218 € Bestellwert Monatlicher Mindestrate Gilt Effektiver Jahreszins Entspricht Festen Sollzinssatz 1048% Repräsentatives Beispiel §17 Pangv Nettodarlehensbetrag Gesamtbetrag Monatliche Raten Teilzahlungsverkäufer Lidl Digital Deutschland & Kg Bonfelder Straße Bad Infos Dhz – 35136",
+      "altText": "Online-Angebote für Fitness- und Sportartikel, darunter ein Christopeit Walking Pad sowie Sportbekleidung wie Tights, Bustiers und Funktionsröcke von Crivit.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "CRIVIT Damen Sportbustier",
+          "url": "https://www.lidl.de/p/crivit-damen-sportbustier/p100408852?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408852",
+          "productDetails": {
+            "productId": "100408852",
+            "title": "CRIVIT Damen Sportbustier"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Damen Funktionscapri, mit Handytasche",
+          "url": "https://www.lidl.de/p/crivit-damen-funktionscapri-mit-handytasche/p100408828?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408828",
+          "productDetails": {
+            "productId": "100408828",
+            "title": "CRIVIT Damen Funktionscapri, mit Handytasche"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Damen 2-in-1-Funktionsrock",
+          "url": "https://www.lidl.de/p/crivit-damen-2-in-1-funktionsrock/p100408826?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408826",
+          "productDetails": {
+            "productId": "100408826",
+            "title": "CRIVIT Damen 2-in-1-Funktionsrock"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Damen Funktionstights, mit Handytasche",
+          "url": "https://www.lidl.de/p/crivit-damen-funktionstights-mit-handytasche/p100408818?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408818",
+          "productDetails": {
+            "productId": "100408818",
+            "title": "CRIVIT Damen Funktionstights, mit Handytasche"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CHRISTOPEIT SPORT Walking Pad",
+          "url": "https://www.lidl.de/p/christopeit-sport-walking-pad/p100392466?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100392466",
+          "productDetails": {
+            "productId": "100392466",
+            "title": "CHRISTOPEIT SPORT Walking Pad"
+          }
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Sparen Preisführer Lohnt Lidl Plus -33% Uvp -44% -37% -29% Lenor Waschmittel Gel Pulver Waschladungen Granini Pfand Arla Kaergarden Xxl Alesto Walnuss Kerne Normalpreis - Steller Pepsi 175 Tiefpreis Garantie Gara Ntie Aktionszeitraum Pepsi-Artikel Kaufen & Gewinnen 100X Uefa Champions League Tickets Teilnehmen Tief Preis Antie Lhz – Teilnahme 18 Wohnsitz Deutschland Gewinne Spiel Kommenden Saison Einkauf Pepsi-Aktionsartikels Identifizieren Gewinnspiel-Los Klick „Teilnahme Abschicken“ Aktionsartikel Getränke Marke Mehrfachteilnahmen Lose Mehreren Gesonderten Einkäufen Losentscheid Aktionsende Gewinn Gewinnbenachrichtigung Rückmeldung Gewinner Tagen Erforderlich Gewinnverfall Auslosung Abreise Übernachtung Eigene Barauszahlung Rechtsweg Veranstalter Dienstleistung Kg Bonfelder Bad Pepsico Offiziellem Partner Infos Angebot Ausschließlich Nutzer Gelten 21301",
+      "altText": "Lidl Plus Prospektseite mit Rabatten auf Lenor Waschmittel, Granini Säfte, Arla Kærgården und Alesto Walnusskerne sowie einem Pepsi-Gewinnspiel für UEFA Champions League Tickets.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=orangensaft&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Orangensaft",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=waln%C3%BCsse&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Walnuesskerne",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Lidl Plus -53% Uvp -46% -55% -35% -44% -41% Jägermeister Vol 07 Müller Müllermilch Matcha Pfand -20% -16% -24% -28% -47% -33% -34% -31% Pringles Normalpreis Heinz Tomato Original 117 Milka Tafelschokolade Jack Daniel's Mixgetränk 033 Nordsee Matjesfilets Xxl Grünländer Käsescheiben Standardpackung Oetker Ristorante Flamm Kuchen Elsässer Art Pizza Conditorei Coppenrath & Wiese Cafeteria Fein Sahnig Jameson Irish Whiskey Langnese Magnum Classic Tief­ Standard­ Packung 2Er-Pack Stück Aufsteller Longdrinkglas Shotgläser Gratis Servicevalue Kooperation Wirtschaftswoche Studie „Deutschlands Preisfavoriten 2026“ Verbraucher November Dezember ­Access­panel Befragt Genannten Unternehmen Verschiedenen Branchen Grund Preisgünstigkeit Leistungen Produkte Insgesamt Verbraucherurteile Besten Ergebnisses Branche „Lebensmittel­discounter“ Auszeichnung „Höchste Empfehlung“ Gesamtsieger Ergebnisse Informationen Artikel Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Angebot Ausschließlich Nutzer Gelten Infos Preisvorteil Gegenüber Grundpreis Lhz – 0855",
+      "altText": "Lidl Plus Rabattseite mit Angeboten für Jägermeister, Müllermilch, Pringles, Milka Schokolade, Tiefkühlpizza und Eiscreme.",
+      "links": []
+    },
+    {
+      "number": 14,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Uvp -25% San­ Pellegrino Italian Sparkling Drink 033 Pfand Gratis Duplo -24% -30% -20% Iglo Filegro Xxl Ice Cream Ml 12Er-Pack Haribo Plüschkissen Kissen Stück ­Varianten­erhältlich Duftkerze Brenndauer Inhalt Varianten­ Erhältlich Mövenpick -33% Aufsteller Aktion Biff Bad Fit Spülmittel Finish Ultimate Vorsichtig Gebrauch Etikett Produkt- Informationen Schweppes Erfrischungs­ Getränk 125 Naschen Kuscheln Lhz – Ecd Artikel­­ 1318",
+      "altText": "Lidl-Angebote für Lebensmittel und Haushaltsartikel, darunter San Pellegrino, Duplo, Iglo Filegro, Mövenpick Eis sowie Haribo-Plüschkissen und Duftkerzen.",
+      "links": []
+    },
+    {
+      "number": 15,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Xxl Fürs Geld! -30% -25% Uvp -33% -13% -23% -22% -16% -28% Kinder Bueno Standardpackung Milka Haselnuss Creme Schoko-Bons Schwartau Samt Standard Packung Schwarzkopf Taft Haarspray Axe Bodyspray Snack Day Flips Sondey Jaffa Cake Orange Maggi Minuten Terrine Doppelkekse Gebinde Standard- Mcennedy Erdnussbutter +177 Gratis +10 12Er-Pack 3Er-Pack *    Artikel   Begrenzter Vorratsmenge   Laufe   Angebotstages Ausverkauft   Preisvorteil Gegenüber  Grundpreis  Standardpackung 110035",
+      "altText": "Lidl XXL-Angebote mit Rabatten auf Kinder Bueno, Milka Haselnusscreme, Schoko-Bons, Taft Haarspray, Axe Bodyspray und Erdnussbutter.",
+      "links": []
+    },
+    {
+      "number": 16,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "-50% Sparen Uvp -27% Milram Kefir Drink 5Er-Pack -20% -37% 4Er-Pack -16% Milbona 4-Käse-Mix Xxl Standardpackung Alpenhain Back-Käse Kinder Maxi King Exquisa Quark-Genuss Milchschnitte Eridanous Mini Käseschnecken Müller Milchreis Giovanni Ferrari Grana Padano Aktion Boujee Ice Cream Balls -42% Dhz – Ecd Artikel Versandkostenpauschale Bestellbar Abweichend Angegeben Preisvorteil Gegenüber Grundpreis 1618",
+      "altText": "Lidl-Angebote für Milchprodukte und Snacks, darunter Milram Kefir, Milbona Käsemix, Kinder Maxi King, Exquisa Quark und Grana Padano.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=parmesan&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Parmesan-Grana-Padano",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=k%C3%A4se-gerieben&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Kaese-gerieben",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Campari Vol 07 -31% Uvp Aoste Longhetti -22% -30% -16% -24% -35% -32% -33% Schauma Shampoo Ouzo Heineken Bier 12X Pfand Meica Curry King Mövenpick Himmlische Bebe Reinigungs­ Tücher Stück Bürger Gnocchi Xxl Frisia Ufonauten 12Er-Pack -23% Bertolli Natives Olivenöl Extra 075 Vernel Weichspüler 11 Doppelpack Liter Aktion -28% Aufsteller *    Artikel   Begrenzter Vorratsmenge   Laufe   Angebotstages Ausverkauft  Dhz – Ecd 1341",
+      "altText": "Lidl-Angebote für Spirituosen, Lebensmittel und Drogerieartikel, darunter Campari, Aoste Longhetti, Schauma Shampoo, Heineken Bier und Bertolli Olivenöl.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=gnocchi&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Gnocchi",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Bester Backshop Lohnt -Pr Eis Aktion Parkside Berliner Mehrfruchtfüllung Stück Lidl Plus 6Er-Pack Walnuss- Honig-Brot Buttercroissant Entspricht Kauf Normalpreis Quark- Bällchen Marillen- Spitz Apfeltasche Lhz – Angebot Ausschließlich Nutzer Gelten Infos Deutsche Gesellschaft Verbraucherstudien Studie „Deutschlands Beste Marken 2026“ Untersucht Zufrieden Kundinnen Kunden Eigenmarken Lebensmitteleinzelhandels Insgesamt Interviews Bewerteten Unterschiedlichen Produktgruppen Kategorien Auswertung Berücksichtigt Bewertungen Abgegeben De_26_Kw34_Food_Hz-De-Wal 8-9 8-9_• 1330",
+      "altText": "Lidl Backshop-Angebote mit Rabatten auf Berliner, Walnuss-Honig-Brot, Buttercroissants und Quarkbällchen sowie einer Auszeichnung für Kundenzufriedenheit.",
+      "links": []
+    },
+    {
+      "number": 19,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Aktion Chef Select Go! Kochbox Enthält Grundzutaten -Pr Eis 12 -23% Fischerstolz Norwegische Lachsseite Schockgefrostet Metzgerfrisch Frisches Hack- Fleisch Gemischt Schwein Kg Metzger- Frisch Rindergulasch Frische Hähnchen-Minutenschnitzel Standardpackung 400G Puten- Oberkeule Hkl 11 Lidl Plus -20% Grillmeister Schweine Spare Ribs Mariniert – Kg-Preis Normalpreis Hähnchenflügel -25% Diy Hähnchen- Teriyaki Sesam Tiefpreis Garantie Gilt Fleisch- Geflügel-Artikel Hackfleisch Stall Platz Deutsc Dwir Tsc - Klusive Rezept- Karte Kategorie „Backshops“ „ Brot“ Hierfür Eigenmarke Onlinebefragung Teilkategorien „Qualität“ „Preis-Leistung“ „Kundenvertrauen“ Jeweils Besten Marken Infos Studie Studien Vorjahre Artikel Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Angebot Ausschließlich Nutzer Gelten Preisvorteil Gegenüber Grundpreis Lhz Ecd 1327",
+      "altText": "Lidl-Angebote für frisches Fleisch und Geflügel, darunter Lachsseite, Hackfleisch, Rindergulasch und Hähnchen-Minutenschnitzel sowie eine Chef Select Kochbox.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=lachsfilet&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Lachsseite",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=H%C3%A4hnchenbrust&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Haehnchenminutenschnitzel",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=rindergulasch&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Rindergulasch",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=hackfleisch&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Hackfleisch-gemischt",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Qualität Schmeckt Lohnt -18% Lidl Plus -20% Milbona Edamer Fett Deidesheimer Weinmanufaktur Mariengarten Riesling Qba Weißwein Trocken 075 Normalpreis -11% Französischer Weichkäse -17% Emmentaler Sandwich Scheiben Bioland Käse Gouda Gerieben -15% -16% Frischkäse Sahnige Sparen Lhz – Ecd Artikel Versandkostenpauschale Bestellbar Abweichend Angegeben Angebot Ausschließlich Nutzer Gelten Infos 1353",
+      "altText": "Lidl-Angebote für Milchprodukte und Wein, darunter Milbona Edamer, französischer Weichkäse, Frischkäse und Riesling Weißwein.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=gouda-gerieben&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Gouda-gerieben",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=frischk%C3%A4se&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Frischkaese",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Punkte Einlösen & Gratis Streamen Sammeln Lidl Punkten Plus App Einkauf Filiale Scannen Onlineshop Konto Anmelden Euro Einkaufswert Punkt Rettertüte Tabakwaren Zeitschriften Zeitungen Säuglingsanfangsnahrung Bücher Pfand Co₂ Zylinder Telefon- Gutschein- Geschenkkarten Versandkosten Gültig Jeweils Einkäufe Punktegutschrift Erhalt Jahre Einlösbar Ausgewählte Partnerangebote Disney+ Coupons Eingelöst Gelten Jeweiligen Couponbedingungen Infos Entertainmentaktivierung Automatische Punkteeinlösung Aktiviert Verfügbare Tag Abrechnung Fälligen Be- Trag Monatliche Pay Hinterlegtes Abrechnungszyklus Internet Aktive Abos Kostenfrei Etwaige Gratismonate Hierfür Genutzt Gratiszeiträume Neukunden Einmaliger Mindesteinkauf Verwendung Gratiszeitraum Tagen Registrierung Vertragspartner Kostenpflichtige Zugangsberechtigung Inhalten Nutzerkontos Agb Bestpreis 2€ Sparen Downloaden *    Artikel   Begrenzter Vorratsmenge   Laufe   Angebotstages Ausverkauft  25255",
+      "altText": "Lidl Plus Treueprogramm-Informationen zum Sammeln von Punkten für kostenloses Streaming bei Disney+.",
+      "links": []
+    },
+    {
+      "number": 22,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Metzger- Frisch Bio Traditions- -Kochschinken Brühwurst- Aufschnitt Rostbratwurst Fleischwurst Wiener Würstchen Metzgerfrisch Salami Schmeckt Leben Dauerhaft Sortiment Dhz – Ecd Artikel Versandkostenpauschale Bestellbar Abweichend Angegeben 1702",
+      "altText": "Lidl-Sortiment für Wurst- und Schinkenspezialitäten von Metzgerfrisch, darunter Bio-Kochschinken, Brühwurst und Salami.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=wiener+w%C3%BCrstchen&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Wiener-Wuerstchen",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Metzgerfrisch Traditions-Kasselerbraten Gegart Metzger- Frisch Traditions- Geflügel Mortadella Fleischwurst Traditions-Bacon Bioland Nürnberger Rostbrat Wurst Stück Kochhinter- Schinken Kg-Preis Metzger Wacholder- Dauerhaft Sortiment *    Artikel   Begrenzter Vorratsmenge   Laufe   Angebotstages Ausverkauft  Dhz – Ecd 1125",
+      "altText": "Lidl-Sortiment für Fleisch- und Wurstwaren von Metzgerfrisch, darunter Kasselerbraten, Geflügel-Mortadella, Bacon und Nürnberger Rostbratwürste.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=rostbratw%C3%BCrstchen&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Rostbratwurst",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=bacon&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Bacon",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Kania High Protein Meal -27% -16% -20% Milbona Pudding Xxl Standardpackung Joghurt 35 Drink Pfand Stan­ Dardpackung Sondey Linsenwaffeln Protein- Power Lohnt Chef Select Pizza Dhz – Artikel Versandkostenpauschale Bestellbar Abweichend Angegeben Preisvorteil Gegenüber Grundpreis 1028",
+      "altText": "Lidl-Angebote für proteinreiche Produkte wie Kania High Protein Meals, Milbona Protein-Pudding, Joghurt-Drinks und Linsenwaffeln.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=joghurt&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Joghurt",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Farbenfrohe Vielfalt Blumen & Pflanzen Gemischter Blumenstrauß Länge Strauß Bunter Draußen Drinnen Blühpflanze Schale Chrysantheme Kalanchoe Höhe 28–32 Topf Grünpflanze Ficus Dracaena Calathea 65–90 Eustoma 105 Spathi Phyllum Chef Select High Protein Pizza Dhz – 102208",
+      "altText": "Lidl-Angebote für bunte Blumensträuße und Zimmerpflanzen wie Chrysanthemen, Kalanchoe und Ficus.",
+      "links": []
+    },
+    {
+      "number": 26,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Shoppe  Weinkenner Pfaffl Edmund & Toni Gemischter Satz Weißwein Leopold Grüner Veltliner Weinviertel Dac Trocken Österreich 075 -18% Bio Weingut Balthasar Ress Rheinkind Riesling Gutswein Feinherb Vegan Deutschland -38% Andean Vineyards Chardonnay Malbec Rotwein Argentinien -50% Bewertungen Stand Cà Dei Frati Rosa Roséwein -1€ Uvp Costières Nîmes Aop Languedoc- Frankreich -30% Primitivo Puglia Igt -20% Feine Tropfen Leben Feiern Lohnt Dhz – Lidl Plus Versandkostenfrei-Coupon € Gilt Nutzer Bestellung Coupon Aktivieren App Vorgegebenen Mindestbestellwert Warenkorb Befindlichen Artikel Geringerer Angegeben Beträgt Mindest- Bestellwert Jeweils Geltende Nachträglich Folge Teilretoure Unterschritten Ursprünglich Erlassenen Versandkosten Höhe Rechnung Aktivierung Automatisch Bestellprozess Konto Onlineshop Angemeldet Fotos Reisen Connect Bücher Lieferzuschlag Getätigte Einkäufe Angebot Richten Ausschließlich Endkunden Lieferanschrift Kaufvertrag Digital Kg Bonfelder Straße Bad Wimpfen 43204",
+      "altText": "Lidl Wein-Angebote mit einer Auswahl an Weiß-, Rot- und Roséweinen aus Österreich, Deutschland, Argentinien und Frankreich.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://www.lidl.de/c/wein-spirituosen/s10067766#/",
+          "productDetails": null
+        },
+        {
+          "displayType": "product",
+          "title": "Weinkenner by Pfaffl Leopold Grüner Veltliner Weinviertel DAC trocken, Weißwein 2024",
+          "url": "https://www.lidl.de/p/weinkenner-by-pfaffl-leopold-gruner-veltliner-weinviertel-dac-trocken-weisswein-2024/p100301328?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100301328",
+          "productDetails": {
+            "productId": "100301328",
+            "title": "Weinkenner by Pfaffl Leopold Grüner Veltliner Weinviertel DAC trocken, Weißwein 2024"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "Weinkenner by Pfaffl Edmund & Toni Gemischter Satz trocken, Weißwein 2024",
+          "url": "https://www.lidl.de/p/weinkenner-by-pfaffl-edmund-toni-gemischter-satz-trocken-weisswein-2024/p100301226?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100301226",
+          "productDetails": {
+            "productId": "100301226",
+            "title": "Weinkenner by Pfaffl Edmund & Toni Gemischter Satz trocken, Weißwein 2024"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "WEINGUT BALTHASAR RESS BIO Rheinkind Rheingau Riesling VDP.Gutswein feinherb vegan, Weißwein 2025",
+          "url": "https://www.lidl.de/p/weingut-balthasar-ress-bio-rheinkind-rheingau-riesling-vdp-gutswein-feinherb-vegan-weisswein-2025/p100341493?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100341493",
+          "productDetails": {
+            "productId": "100341493",
+            "title": "WEINGUT BALTHASAR RESS BIO Rheinkind Rheingau Riesling VDP.Gutswein feinherb vegan, Weißwein 2025"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "ANDEAN Vineyards Chardonnay trocken, Weißwein 2025",
+          "url": "https://www.lidl.de/p/andean-vineyards-chardonnay-trocken-weisswein-2025/p100360521?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100360521",
+          "productDetails": {
+            "productId": "100360521",
+            "title": "ANDEAN Vineyards Chardonnay trocken, Weißwein 2025"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "ANDEAN Vineyards Malbec Argentinien halbtrocken, Rotwein 2025",
+          "url": "https://www.lidl.de/p/andean-vineyards-malbec-argentinien-halbtrocken-rotwein-2025/p100360477?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100360477",
+          "productDetails": {
+            "productId": "100360477",
+            "title": "ANDEAN Vineyards Malbec Argentinien halbtrocken, Rotwein 2025"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CÀ DEI FRATI Rosa dei Frati trocken, Roséwein 2025",
+          "url": "https://www.lidl.de/p/ca-dei-frati-rosa-dei-frati-trocken-rosewein-2025/p100329305?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100329305",
+          "productDetails": {
+            "productId": "100329305",
+            "title": "CÀ DEI FRATI Rosa dei Frati trocken, Roséwein 2025"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "Costières de Nîmes AOP trocken, Rotwein 2023",
+          "url": "https://www.lidl.de/p/costieres-de-nimes-aop-trocken-rotwein-2023/p100061628?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100061628",
+          "productDetails": {
+            "productId": "100061628",
+            "title": "Costières de Nîmes AOP trocken, Rotwein 2023"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "Primitivo Puglia IGT trocken, Rotwein",
+          "url": "https://www.lidl.de/p/primitivo-puglia-igt-trocken-rotwein/p100350749?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100350749",
+          "productDetails": {
+            "productId": "100350749",
+            "title": "Primitivo Puglia IGT trocken, Rotwein"
+          }
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Lidl Plus Shoppen Versand- Kosten Sparen Sunrise Cocktailmix Flavour Mojito 07 -18% Ramazzotti Sambuca Aktion Uvp Slyrs Malt Whisky -16% Loch Lomond Single Scotch Oloroso Sherry Peated Rioja Cask -20% -22% Bollinger Special Cuvée Champagner Brut Frankreich 075 -19% Liter Jahre Bitburger Premium Pils Bierfass Zapfhahn -21% Blanc Foussy Crémant Loire Aop Prestige Schaumwein Rosé Chaumwein -10% Geschenk- Box Glas Bewertungen Stand Genereller Hinweis Artikel Vorrat Preise Deko Versandkostenpauschale Abweichend Angebote Richten Ausschließlich Endkunden Lieferanschrift Onlineshop-Angebote Digital Deutschland & Kg Bonfelder Straße Bad Wimpfen Telefon – Samstag 800 2000 Kunden Produkte Onlineshop Erworben Wochen Versand Personalisierten E-Mail-Link Informationen Jeweiligen Artikelseite Versandkosten Falstaff-Bewertungsskala 95–100 Punkte „Klassiker“ 93–94 „Ausgezeichnet“ 91–92 „Exzellent“ 88–90 „ Gut“ 85–87 „Empfehlenswert“ Infos Dhz 43227",
+      "altText": "Lidl Plus Online-Angebote für Spirituosen und Champagner, darunter Ramazzotti, Slyrs Whisky, Bollinger Champagner und Bitburger Bierfässer.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "BOLLINGER Special Cuvée brut, Champagner",
+          "url": "https://www.lidl.de/p/bollinger-special-cuvee-brut-champagner/p100301225?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100301225",
+          "productDetails": {
+            "productId": "100301225",
+            "title": "BOLLINGER Special Cuvée brut, Champagner"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "BLANC FOUSSY Crémant de Loire Cuvée Prestige AOP brut, Schaumwein 2024",
+          "url": "https://www.lidl.de/p/blanc-foussy-cremant-de-loire-cuvee-prestige-aop-brut-schaumwein-2023/p100261921?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100261921",
+          "productDetails": {
+            "productId": "100261921",
+            "title": "BLANC FOUSSY Crémant de Loire Cuvée Prestige AOP brut, Schaumwein 2024"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LOCH LOMOND Single Malt Scotch Whisky Peated Rioja Cask 40% Vol",
+          "url": "https://www.lidl.de/p/loch-lomond-single-malt-scotch-whisky-peated-rioja-cask-40-vol/p100400767?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400767",
+          "productDetails": {
+            "productId": "100400767",
+            "title": "LOCH LOMOND Single Malt Scotch Whisky Peated Rioja Cask 40% Vol"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "BLANC FOUSSY Crémant de Loire AOP Cuvée Prestige brut, Schaumwein 2024",
+          "url": "https://www.lidl.de/p/blanc-foussy-cremant-de-loire-aop-cuvee-prestige-brut-schaumwein-2024/p100261920?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100261920",
+          "productDetails": {
+            "productId": "100261920",
+            "title": "BLANC FOUSSY Crémant de Loire AOP Cuvée Prestige brut, Schaumwein 2024"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "Sunrise Cocktailmix Flavour Mojito 15% Vol",
+          "url": "https://www.lidl.de/p/sunrise-cocktailmix-flavour-mojito-15-vol/p100400572?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400572",
+          "productDetails": {
+            "productId": "100400572",
+            "title": "Sunrise Cocktailmix Flavour Mojito 15% Vol"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LOCH LOMOND Single Malt Scotch Whisky Oloroso Sherry Casks 40% Vol",
+          "url": "https://www.lidl.de/p/loch-lomond-single-malt-scotch-whisky-oloroso-sherry-casks-40-vol/p100400771?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400771",
+          "productDetails": {
+            "productId": "100400771",
+            "title": "LOCH LOMOND Single Malt Scotch Whisky Oloroso Sherry Casks 40% Vol"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LOCH LOMOND Single Malt Scotch Whisky Original 40% Vol",
+          "url": "https://www.lidl.de/p/loch-lomond-single-malt-scotch-whisky-original-40-vol/p100269177?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100269177",
+          "productDetails": {
+            "productId": "100269177",
+            "title": "LOCH LOMOND Single Malt Scotch Whisky Original 40% Vol"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "RAMAZZOTTI Sambuca 38% Vol",
+          "url": "https://www.lidl.de/p/ramazzotti-sambuca-38-vol/p100408330?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408330",
+          "productDetails": {
+            "productId": "100408330",
+            "title": "RAMAZZOTTI Sambuca 38% Vol"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SLYRS Malt Whisky 40% Vol",
+          "url": "https://www.lidl.de/p/slyrs-malt-whisky-40-vol/p100394423?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100394423",
+          "productDetails": {
+            "productId": "100394423",
+            "title": "SLYRS Malt Whisky 40% Vol"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "BITBURGER Premium Pils 5 Liter Bierfass mit Zapfhahn, Pfandfrei",
+          "url": "https://www.lidl.de/p/bitburger-premium-pils-5-liter-bierfass-mit-zapfhahn-pfandfrei/p100376752?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100376752",
+          "productDetails": {
+            "productId": "100376752",
+            "title": "BITBURGER Premium Pils 5 Liter Bierfass mit Zapfhahn, Pfandfrei"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LOCH LOMOND Single Malt Scotch Whisky 18 Jahre 46% Vol",
+          "url": "https://www.lidl.de/p/loch-lomond-single-malt-scotch-whisky-18-jahre-46-vol/p100269219?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100269219",
+          "productDetails": {
+            "productId": "100269219",
+            "title": "LOCH LOMOND Single Malt Scotch Whisky 18 Jahre 46% Vol"
+          }
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Lidl Plus Shoppen Versand- Kosten Sparen Kostenlose Retoure Tage Fan 7-Zonen Kaltschaum-Topper Modell „Big Komfort Kernart Stück Bewertungen Stand Höhe 7-Zonen-Boxspring-Matratze Integrierte Bezug Abnehm- Waschbar 60° Extra-Pad Bessere Box- -73% Uvp Balette 3-Kammer-Kopfkissen „Premium Kern - Kammern Reine Ratenzahlung € Monat Laufzeit Monate Gesamtpreis Varianten Erhältlich -55% Lieferkosten- Zuschlag Daunen-Kassetten- Bettdecke Wärmeklasse Shoppe Dhz – Genereller Hinweis Artikel Vorrat Preise Deko Versandkostenpauschale Abweichend Angebote Richten Ausschließlich Endkunden Lieferanschrift Onlineshop-Angebote Digital Deutschland & Kg Bonfelder Straße Bad Wimpfen Telefon Samstag 800 2000 Angebot Nutzer Gelten Coupon Bedingungen Infos Preis Gültig Aktionszeitraum Versandkosten Kundenbewertungen 33207",
+      "altText": "Lidl Online-Angebote für Schlafzimmermöbel und Bettwaren, darunter Kaltschaum-Topper, Boxspring-Matratzen, Kopfkissen und Daunendecken.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "BALETTE Daunen-Kassettenbettdecke Premium Selection 100 % Daunen",
+          "url": "https://www.lidl.de/p/balette-daunen-kassettenbettdecke-premium-selection-100-daunen/p100397913?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100397913",
+          "productDetails": {
+            "productId": "100397913",
+            "title": "BALETTE Daunen-Kassettenbettdecke Premium Selection 100 % Daunen"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "BALETTE 3-Kammer-Kopfkissen Premium Selection 100 % Daunen",
+          "url": "https://www.lidl.de/p/balette-3-kammer-kopfkissen-premium-selection-100-daunen/p100397938?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100397938",
+          "productDetails": {
+            "productId": "100397938",
+            "title": "BALETTE 3-Kammer-Kopfkissen Premium Selection 100 % Daunen"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "f.a.n. Topper »BIG KOMFORT PLUS«, 7-Zonen Kaltschaum, mit Lüftungsband",
+          "url": "https://www.lidl.de/p/f-a-n-topper-big-komfort-plus-7-zonen-kaltschaum-mit-luftungsband/p100188540?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100188540",
+          "productDetails": {
+            "productId": "100188540",
+            "title": "f.a.n. Topper »BIG KOMFORT PLUS«, 7-Zonen Kaltschaum, mit Lüftungsband"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "f.a.n. 7-Zonen-Boxspring-Matratze, integrierte Thermogel-Auflage",
+          "url": "https://www.lidl.de/p/f-a-n-7-zonen-boxspring-matratze-integrierte-thermogel-auflage/p100242165?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100242165",
+          "productDetails": {
+            "productId": "100242165",
+            "title": "f.a.n. 7-Zonen-Boxspring-Matratze, integrierte Thermogel-Auflage"
+          }
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Samsung Oled 65\" Typ Hdr Helle Lebendige Bilder Natürlichen Kontrasten Genießenmultidimensionales Sounderlebnis Dolby Atmos™ Sound Quantum Gen2 Prozessor Upscaling Stück -70% Uvp Lieferkosten- Zuschlag Lidl Ratenzahlung € Monat Laufzeit Monate Gesamtpreis Lisa Lindenmeyer Artikelinfos Fehlen Relevante Auslobung Fehlt Hn8 Schlafsysteme 7-Zonen-Taschenfederkernmatratze Modell „Xxl Gelstar Optimale Körperunterstützung Bewertungen Stand Höhe Badenia 7-Zonen Kaltschaum-Matratze „Bt Bezug Abnehm- Waschbar Hochwertige Beidseitige Kaltschaumauf- Irisette Wendematratze Smart Verschiedene Varianten Erhältlich Nächte Probeschlafen Bestellten Matratzen Gilt Größen Härtegrade Vorbehaltlich Laufzeiten 3691218 Bestellwert Monatlicher Mindestrate Effektiver Jahreszins Entspricht Festen Sollzinssatz 1048% Repräsentatives Beispiel §17 Pangv Nettodarlehensbetrag Gesamtbetrag Monatliche Raten Teilzahlungsverkäufer Digital Deutschland & Kg Bonfelder Straße Bad Infos Dhz – 33216",
+      "altText": "Lidl Online-Angebote für Unterhaltungselektronik und Matratzen, darunter ein Samsung OLED 65-Zoll-Fernseher und verschiedene 7-Zonen-Matratzen.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "Samsung Fernseher 65 Zoll GQ65S85FAEXZG",
+          "url": "https://www.lidl.de/p/samsung-fernseher-65-zoll-gq65s85faexzg/p100411257?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100411257",
+          "productDetails": {
+            "productId": "100411257",
+            "title": "Samsung Fernseher 65 Zoll GQ65S85FAEXZG"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "IRISETTE® Wendematratze Smart HS 2 in 1 Duo Härtegrad H3 und H4",
+          "url": "https://www.lidl.de/p/irisette-wendematratze-smart-hs-2-in-1-duo-hartegrad-h3-und-h4/p100384067?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100384067",
+          "productDetails": {
+            "productId": "100384067",
+            "title": "IRISETTE® Wendematratze Smart HS 2 in 1 Duo Härtegrad H3 und H4"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "BADENIA TRENDLINE 7-Zonen-Kaltschaummatratze »BT 260«, mit Noppenauflage",
+          "url": "https://www.lidl.de/p/badenia-trendline-7-zonen-kaltschaummatratze-bt-260-mit-noppenauflage/p100216370?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100216370",
+          "productDetails": {
+            "productId": "100216370",
+            "title": "BADENIA TRENDLINE 7-Zonen-Kaltschaummatratze »BT 260«, mit Noppenauflage"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "Hn8 Schlafsysteme 7-Zonen Taschenfederkernmatratze »XXL Gelstar T-1000«, körperunterstützend",
+          "url": "https://www.lidl.de/p/hn8-schlafsysteme-7-zonen-taschenfederkernmatratze-xxl-gelstar-t-1000-korperunterstutzend/p100225852?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100225852",
+          "productDetails": {
+            "productId": "100225852",
+            "title": "Hn8 Schlafsysteme 7-Zonen Taschenfederkernmatratze »XXL Gelstar T-1000«, körperunterstützend"
+          }
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Livarno Musselin-Spannbettlaken Reine Steghöhe Stück 90–100 140–160 180–200 Musselin-Kissenbezug Verdeckter Wohnen & Einrichtung Musselin-Bettwäsche Size  2 Kissen Standardgröße Komfortgröße King-Size Tiefpreis Garantie Varianten Erhältlich Angenehm Weich Temperatur- Ausgleichend Pflegeleicht Weit Ere Farben Musselin Lhz – Artikel Versandkostenpauschale Bestellbar Abweichend * Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Nonfood-Aktionsartikel Kleinstfilialen Modelle Teilweise Größen 111526",
+      "altText": "Lidl-Angebote für Wohn- und Einrichtungsartikel aus Musselin, darunter Spannbettlaken, Kissenbezüge und Bettwäsche in verschiedenen Farben.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Musselin-Bettwäsche, 200 x 220 cm",
+          "url": "https://www.lidl.de/p/livarno-premium-musselin-bettwasche-200-x-220-cm/p100409121?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409121",
+          "productDetails": {
+            "productId": "100409121",
+            "title": "LIVARNO® Musselin-Bettwäsche, 200 x 220 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Musselin-Bettwäsche, 155 x 220 cm",
+          "url": "https://www.lidl.de/p/livarno-premium-musselin-bettwasche-155-x-220-cm/p100409050?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409050",
+          "productDetails": {
+            "productId": "100409050",
+            "title": "LIVARNO® Musselin-Bettwäsche, 155 x 220 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Musselin-Bettwäsche, 135 x 200 cm",
+          "url": "https://www.lidl.de/p/livarno-premium-musselin-bettwasche-135-x-200-cm/p100408989?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408989",
+          "productDetails": {
+            "productId": "100408989",
+            "title": "LIVARNO® Musselin-Bettwäsche, 135 x 200 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Musselin-Kissenbezüge, 2 Stück, 40 x 80 cm",
+          "url": "https://www.lidl.de/p/livarno-musselin-kissenbezuge-2-stuck-40-x-80-cm/p100408827?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408827",
+          "productDetails": {
+            "productId": "100408827",
+            "title": "LIVARNO® Musselin-Kissenbezüge, 2 Stück, 40 x 80 cm"
+          }
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://www.lidl.de/q/search?q=livarno%2520premium%2520musselin%2520seitenschlaferkissenbezug%252040%2520x%2520145%2520cm&log=not_found&flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408853",
+          "productDetails": null
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Musselin-Spannbettlaken, 90-100 x 200 cm",
+          "url": "https://www.lidl.de/p/livarno-musselin-spannbettlaken-90-100-x-200-cm/p100409318?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409318",
+          "productDetails": {
+            "productId": "100409318",
+            "title": "LIVARNO® Musselin-Spannbettlaken, 90-100 x 200 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Musselin-Spannbettlaken, 180-200 x 200 cm",
+          "url": "https://www.lidl.de/p/livarno-musselin-spannbettlaken-180-200-x-200-cm/p100409328?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409328",
+          "productDetails": {
+            "productId": "100409328",
+            "title": "LIVARNO® Musselin-Spannbettlaken, 180-200 x 200 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Musselin-Spannbettlaken, 140-160 x 200 cm",
+          "url": "https://www.lidl.de/p/livarno-musselin-spannbettlaken-140-160-x-200-cm/p100409305?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409305",
+          "productDetails": {
+            "productId": "100409305",
+            "title": "LIVARNO® Musselin-Spannbettlaken, 140-160 x 200 cm"
+          }
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Farbe Beige Livarno Seitenschläferkissen Liegehilfe Schwangerschaft Still- Doppel- Kopfkissen Reißverschluss – Individuell Befüllbar Für Optimale Maschinen- Waschbar °C Bezug Füllung Polyester Maße Stück Hightech-Schaumstoff Körperwärme Gewicht Schaum Passt Zweite Haut Körperform Viskoelastischer Memory-Schaum Aufhängemöglichkeiten Gardinenstange -Schiene Anpass- Bare Höhe Härte Füllelemente Vorhangschal-Set Blickdicht Weich Schützt Licht Zug Hitze Schlaufen Set Auswahl Tagesdecke Maschinenwaschbar Trockner- Obermaterial Braun Bett- Überwurf 4-Jahreszeiten-Steppbett Kombi-Steppbett Bestehend Leichten Sommer- Poly- Ester Stück Standardgröße Komfortgröße Tiefpreis Garantie Bauschig Weiche Faserbällchen- -33% Letzter Preis Drucktermin Angebot Ausschließlich Nutzer Lidl Plus Gelten Coupon Bedingungen Infos Gültig Einmalig Einlösbar Kunden Produkte Onlineshop Erworben Wochen Versand Personalisierten E-Mail-Link Zustellung Kundenkonto Jeweiligen Artikelseite Lhz Ecd 0901",
+      "altText": "Lidl-Angebote für Heimtextilien, darunter Seitenschläferkissen, Vorhangschals, Tagesdecken und Kombi-Steppbetten.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Premium Kopfkissen, 35 x 75 x 12 cm",
+          "url": "https://www.lidl.de/p/livarno-premium-kopfkissen-35-x-75-x-12-cm/p100408847?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408847",
+          "productDetails": {
+            "productId": "100408847",
+            "title": "LIVARNO® Premium Kopfkissen, 35 x 75 x 12 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Kopfkissen, 80 x 80 cm",
+          "url": "https://www.lidl.de/p/livarno-kopfkissen-80-x-80-cm/p100408876?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408876",
+          "productDetails": {
+            "productId": "100408876",
+            "title": "LIVARNO® Kopfkissen, 80 x 80 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Seitenschläferkissen, 40 x 145 cm",
+          "url": "https://www.lidl.de/p/livarno-seitenschlaferkissen-40-x-145-cm/p100409039?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409039",
+          "productDetails": {
+            "productId": "100409039",
+            "title": "LIVARNO® Seitenschläferkissen, 40 x 145 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Blackout-Vorhangschal-Set, 2-teilig",
+          "url": "https://www.lidl.de/p/livarno-blackout-vorhangschal-set-2-teilig/p100398727?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100398727",
+          "productDetails": {
+            "productId": "100398727",
+            "title": "LIVARNO® Blackout-Vorhangschal-Set, 2-teilig"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® 4-Jahreszeiten-Steppbett, 155 x 220 cm",
+          "url": "https://www.lidl.de/p/livarno-4-jahreszeiten-steppbett-155-x-220-cm/p100409115?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409115",
+          "productDetails": {
+            "productId": "100409115",
+            "title": "LIVARNO® 4-Jahreszeiten-Steppbett, 155 x 220 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® 4-Jahreszeiten-Steppbett, 135 x 200 cm",
+          "url": "https://www.lidl.de/p/livarno-4-jahreszeiten-steppbett-135-x-200-cm/p100409051?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409051",
+          "productDetails": {
+            "productId": "100409051",
+            "title": "LIVARNO® 4-Jahreszeiten-Steppbett, 135 x 200 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® 4-Jahreszeiten-Steppbett, 200 x 220 cm",
+          "url": "https://www.lidl.de/p/livarno-4-jahreszeiten-steppbett-200-x-220-cm/p100409333?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409333",
+          "productDetails": {
+            "productId": "100409333",
+            "title": "LIVARNO® 4-Jahreszeiten-Steppbett, 200 x 220 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Tagesdecke, 220 x 240 cm",
+          "url": "https://www.lidl.de/p/livarno-tagesdecke-220-x-240-cm/p100408767?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408767",
+          "productDetails": {
+            "productId": "100408767",
+            "title": "LIVARNO® Tagesdecke, 220 x 240 cm"
+          }
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Wohnen & Einrichtung Esmara Pyjama-Set Top Baumwolle Elasthan Größen Set Livarno Wohndecke Weich Polyester Stück -53% Letzter Preis Drucktermin Rutschhemmende Gummi-Unterseite Langflor-Teppich Angenehm Weichem 4-Teilig Bestehend Shorts Langer Hose Cardigan Pullover Farbe Beige -16% Klappmatratze Hochwertigem Abnehmbarer Maschinenwaschbarer Bezug Füllung Sitzblock 255 Ausgeklappt 85 Artikel Versandkostenpauschale Bestellbar Abweichend * Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Nonfood-Aktionsartikel Kleinstfilialen Modelle Teilweise Farben Infos Hhz – 1739",
+      "altText": "Lidl-Angebote für gemütliches Wohnen, darunter Esmara Pyjamas, Wohndecken, Langflor-Teppiche und eine praktische Klappmatratze.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Wohndecke, 130 x 170 cm",
+          "url": "https://www.lidl.de/p/livarno-wohndecke-130-x-170-cm/p100400893?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400893",
+          "productDetails": {
+            "productId": "100400893",
+            "title": "LIVARNO® Wohndecke, 130 x 170 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Langflor-Teppich, 80 x 150 cm",
+          "url": "https://www.lidl.de/p/livarno-langflor-teppich-80-x-150-cm/p100408871?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408871",
+          "productDetails": {
+            "productId": "100408871",
+            "title": "LIVARNO® Langflor-Teppich, 80 x 150 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "ESMARA® Damen Pyjama-Set",
+          "url": "https://www.lidl.de/p/esmara-damen-pyjama-set/p100408091?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408091",
+          "productDetails": {
+            "productId": "100408091",
+            "title": "ESMARA® Damen Pyjama-Set"
+          }
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Shoppe  Gartenmöbel-Schutzhülle Wasser- Abweisend Livarno 2--1- Garten-Tisch Hochwertige Mdf-Tisch Platte Pulver Beschichtetem Edel Standfestes Alu- Miniumgestell Boden Schonenden Stück Schutzhülle Kordelzug Sicheren Sonnensegel Robustes Höhe Stange Erweiterbar Runde Tischgruppen Tischplatte Verriegel- Klappbar -40% Letzter Preis Drucktermin -20% Varianten Erhältlich Farbe Anthrazit Lichtschutzfaktor Gemäß Standard -35% Gartenmöbel- Textilem - Futter Verdeckten Belüftungs Verstärkter Saum Alu-Ösen Witterungs- Beständig Gartenbox Rollen Seitlichen Hängeschloss-Vorrichtung Led-Solar-Leuchte Kaltweißes Austauschbarer Leucht Dauer Home Led-Solar-Außenwandleuchten Kabellose Led-Leuchten Dämmerungssensor Integriertem Warm- Weißes Licht Lhz – Ecd Lidl Plus Versandkostenfrei-Coupon € Gilt Nutzer Bestellung Coupon Aktivieren App Vorgegebenen Mindestbestellwert Warenkorb Befindlichen Artikel Geringerer Angegeben Beträgt Jeweils Geltende Nachträglich Folge Teil Retoure Unterschritten Ursprünglich Erlassenen Versandkosten Rechnung Aktivierung Automatisch Bestellprozess Konto Onlineshop Ange- Meldet Fotos Reisen Connect Bücher & Lieferzuschlag Getätigte Einkäufe Angebot Angebote Richten Ausschließlich Endkunden Lieferanschrift Deutschland Kaufvertrag Digital Kg Bonfelder Straße Bad Wimpfen 1231",
+      "altText": "Lidl Online-Angebote für Gartenmöbel und Zubehör, darunter Schutzhüllen, ein Gartentisch, Sonnensegel, eine Gartenbox und Solarleuchten.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "LIVARNO® LED-Solarleuchte",
+          "url": "https://www.lidl.de/p/livarno-led-solarleuchte/p100409588?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409588",
+          "productDetails": {
+            "productId": "100409588",
+            "title": "LIVARNO® LED-Solarleuchte"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Sonnensegel",
+          "url": "https://www.lidl.de/p/livarno-sonnensegel/p100405482?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100405482",
+          "productDetails": {
+            "productId": "100405482",
+            "title": "LIVARNO® Sonnensegel"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Gartenmöbel-Schutzhülle",
+          "url": "https://www.lidl.de/p/livarno-gartenmoebel-schutzhuelle/p100401247?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401247&tug=AI_SEGMENT_2",
+          "productDetails": {
+            "productId": "100401247",
+            "title": "LIVARNO® Gartenmöbel-Schutzhülle"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® 2 in 1: Bistro- und Stehtisch",
+          "url": "https://www.lidl.de/p/livarno-2-in-1-bistro-und-stehtisch/p100401599?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401599",
+          "productDetails": {
+            "productId": "100401599",
+            "title": "LIVARNO® 2 in 1: Bistro- und Stehtisch"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Gartenmöbel-Schutzhülle",
+          "url": "https://www.lidl.de/p/livarno-gartenmobel-schutzhulle/p100409174?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409174",
+          "productDetails": {
+            "productId": "100409174",
+            "title": "LIVARNO® Gartenmöbel-Schutzhülle"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® LED-Solar-Außenwandleuchten, 2 Stück",
+          "url": "https://www.lidl.de/p/livarno-led-solar-aussenwandleuchten-2-stuck/p100409577?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409577",
+          "productDetails": {
+            "productId": "100409577",
+            "title": "LIVARNO® LED-Solar-Außenwandleuchten, 2 Stück"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Garten- und Allzwecktruhe",
+          "url": "https://www.lidl.de/p/livarno-garten-und-allzwecktruhe/p100401090?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401090",
+          "productDetails": {
+            "productId": "100401090",
+            "title": "LIVARNO® Garten- und Allzwecktruhe"
+          }
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "-30% Uvp 99* -66% Lego Botanicals Blume Künstliches Alters- Empfehlung Set Aufbewahrungsboxen Stück Bauteile-Set Altersempfehlung 23 Lupilu Familienspiel Baby Kind & Spielzeug -33% Angelspiel 38-Teilig Gewinnt 43-Teilig Variante Erhältlich -35% Straße 9-Teilig 305 Puzzlematte Kombinierbare Artikel Versandkostenpauschale Bestellbar Abweichend * Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Nonfood-Aktionsartikel Kleinstfilialen Modelle Teilweise Größen Farben Lhz – Ecd 1414",
+      "altText": "Lidl-Angebote für Spielzeug und Freizeitartikel, darunter Lego Botanicals, Aufbewahrungsboxen, Familienspiele und Puzzlematten.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "LEGO Aufbewahrungsbox mit 4 Noppen, stapelbar, 2er Set",
+          "url": "https://www.lidl.de/p/lego-aufbewahrungsbox-mit-4-noppen-stapelbar-2er-set/p100349674?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100349674",
+          "productDetails": {
+            "productId": "100349674",
+            "title": "LEGO Aufbewahrungsbox mit 4 Noppen, stapelbar, 2er Set"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LUPILU® Puzzlematten",
+          "url": "https://www.lidl.de/p/lupilu-puzzlematten/p100398429?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100398429",
+          "productDetails": {
+            "productId": "100398429",
+            "title": "LUPILU® Puzzlematten"
+          }
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Uno Karten- Spiel Alters­ Empfehlung Stück -20% Letzter Preis Drucktermin Aerody­ Namischen Softdarts Dosen ­ Füllpfeile Variante Erhältlich Lidl Plus -61% Uvp -53% Gültig Lupilu Darts-Nachfüllpfeile Soft-Dart-Pistole Zielschießen Altersempfehlung Softbälle Aufpumpen Indoor- Basketballkorb Crivit Badminton-Set Komplettes Schläger Gehärtetem Stahl Nylonbespannung Cm Kopf Bälle 825 Set -23% Spieler Barbie Barbie-Puppe Hot Wheels Fahrzeug -40% 49* Pustefix Seifen- Blasen-Set Seifen­ Altersempfeh­ Lung 99* -46% Angebot Ausschließlich Nutzer Gelten Coupon Bedingungen Infos Einmalig Einlösbar Kunden Produkte Onlineshop Erworben Wochen Versand Personalisierten E-Mail-Link Zustellung Kundenkonto Jeweiligen Artikelseite Lhz – Ecd 1302",
+      "altText": "Lidl-Angebote für Spiele und Outdoor-Aktivitäten, darunter Uno, Softdarts, Badminton-Sets, Barbie-Puppen und Seifenblasen.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "BARBIE Puppe »You can be anything!«",
+          "url": "https://www.lidl.de/p/barbie-puppe-you-can-be-anything/p100382642?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100382642",
+          "productDetails": {
+            "productId": "100382642",
+            "title": "BARBIE Puppe »You can be anything!«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Badminton-Set",
+          "url": "https://www.lidl.de/p/crivit-badminton-set/p100400225?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400225",
+          "productDetails": {
+            "productId": "100400225",
+            "title": "CRIVIT Badminton-Set"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LUPILU® Darts-Nachfüllpfeile / Soft-Dart Pistole",
+          "url": "https://www.lidl.de/p/lupilu-darts-nachfullpfeile-soft-dart-pistole/p100408207?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408207",
+          "productDetails": {
+            "productId": "100408207",
+            "title": "LUPILU® Darts-Nachfüllpfeile / Soft-Dart Pistole"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LUPILU® Indoor-Basketballkorb",
+          "url": "https://www.lidl.de/p/lupilu-indoor-basketballkorb/p100398736?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100398736",
+          "productDetails": {
+            "productId": "100398736",
+            "title": "LUPILU® Indoor-Basketballkorb"
+          }
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "-42% Uvp 99* Needoh Nice Cube Stressball Form Eis Weich Widerstands Knetet Gedrückt Gedehnt Stück -33% Fuggler Sammelbarer Schlüssel­ Anhänger Altersempfehlung Baby Kind & Spielzeug Livarno Kuscheldecke -40% Squishmallows Plüschtier Kuschelweichem Lupilu Pyjama Reine Größen -25% Letzter Preis Drucktermin Varianten Erhältlich Kinder­klappmatratze Schaumstoffkern Kindersicherer Bezug Ausgeklappt Normalpreis Zusammengeklappt Sitzblock Verwendbar Lidl Plus -20% Gültig Brand Color Item Logo Update Fuggler-Logo-No-Tagline Date 29-1-25 Black Tiktok Blind Pack Artikel Versandkostenpauschale Bestellbar Abweichend * Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Nonfood-Aktionsartikel Kleinstfilialen Modelle Teilweise Farben Lhz – Ecd 1318",
+      "altText": "Lidl-Angebote für Kinder und Spielzeug, darunter Stressbälle, Fuggler-Schlüsselanhänger, Squishmallows, Kinderpyjamas und Klappmatratzen.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "LUPILU® Kinder Pyjama",
+          "url": "https://www.lidl.de/p/lupilu-kinder-pyjama/p100407241?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100407241",
+          "productDetails": {
+            "productId": "100407241",
+            "title": "LUPILU® Kinder Pyjama"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Kuscheldecke",
+          "url": "https://www.lidl.de/p/livarno-kuscheldecke/p100399484?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399484",
+          "productDetails": {
+            "productId": "100399484",
+            "title": "LIVARNO® Kuscheldecke"
+          }
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Umschlag 3D-Effekt -33% Uvp 99* -38% -49% Fußball Ideal Ballgröße Stück Play­doh Knetdosen Gesamtinhalt Empfehlung Lupilu Hüpftier Belastung Altersempfehlung Schimmer Metallic Handluftpumpe Variante Erhältlich Lernspielheft Stift Abwisch- Baren Alters- Varianten ­­ Stickerbuch Umfang Spielgeschichte Box Erzählbuch Altersemp Fehlung Set -25% Letzter Preis Drucktermin Konfetti Kinetic Sand -23% Angebot Ausschließlich Nutzer Lidl Plus Gelten Coupon Bedingungen Infos Gültig Einmalig Einlösbar Kunden Produkte Onlineshop Erworben Wochen Versand Personalisierten E-Mail-Link Zustellung Kundenkonto Jeweiligen Artikelseite Lhz – Ecd 1529",
+      "altText": "Lidl-Angebote für kreatives Spielzeug und Freizeit, darunter Play-Doh Knete, Hüpftiere, Lernspielhefte, Kinetic Sand und Fußbälle.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "KINETIC SAND Set »Squish N' Create«",
+          "url": "https://www.lidl.de/p/kinetic-sand-set-squish-n-create/p100406162?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100406162",
+          "productDetails": {
+            "productId": "100406162",
+            "title": "KINETIC SAND Set »Squish N' Create«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "Spielgeschichten Buch",
+          "url": "https://www.lidl.de/p/spielgeschichten-buch/p100408643?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408643",
+          "productDetails": {
+            "productId": "100408643",
+            "title": "Spielgeschichten Buch"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LUPILU® Hüpftiere",
+          "url": "https://www.lidl.de/p/lupilu-hupftiere/p100407357?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100407357",
+          "productDetails": {
+            "productId": "100407357",
+            "title": "LUPILU® Hüpftiere"
+          }
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Lidl Plus Shoppen Versand- Kosten Sparen Kostenlose Retoure Tage Klappbare & Höhenverstell- Bare Tischhälften Wassersäule Shoppe Hudora Trampolin Modell „Fantastic Feuerverzinkte Auswärts Gebogene Gepolsterte Benutzer Gewicht Set -43% Uvp -27% Lieferkosten- Zuschlag Juskys Autodachzelt Passt Auto Passen Leiter Matratze Stück -51% Personen Crivit Basketballkorb Robuster Standfuß Sand Wasser Aufgebaut 170–210 Höhenverstellbar Basket- Ball Ratenzahlung € Monat Laufzeit Monate Gesamtpreis -47% Telefunken City- E-Bike 28\" „Multitalent Rahmen Höhe 7-Gang-Naben- Front Motor Li-Ionen-Akku Reichweite Joola Tischtennisplatte Typ „Nova Outdoor 1524 Varianten Erhältlich Variante Lhz – Genereller Hinweis Artikel Vorrat Preise Deko Versandkostenpauschale Abweichend Angebote Richten Ausschließlich Endkunden Lieferanschrift Onlineshop-Angebote Digital Deutschland Kg Bonfelder Straße Bad Wimpfen Telefon Samstag 800 2000 Angebot Nutzer Gelten Coupon Bedingungen Infos Preis Gültig Aktionszeitraum Versandkosten Kundenbewertungen 1138",
+      "altText": "Lidl Online-Angebote für Sport- und Outdoor-Aktivitäten, darunter ein Hudora Trampolin, ein Autodachzelt, ein Basketballkorb, ein E-Bike und eine Tischtennisplatte.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "HUDORA Trampolin »Fantastic 300V«, 300 cm Durchmesser, 100 kg Belastbarkeit",
+          "url": "https://www.lidl.de/p/hudora-trampolin-fantastic-300v-300-cm-durchmesser-100-kg-belastbarkeit/p850000498?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-850000498",
+          "productDetails": {
+            "productId": "850000498",
+            "title": "HUDORA Trampolin »Fantastic 300V«, 300 cm Durchmesser, 100 kg Belastbarkeit"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "TELEFUNKEN E-Bike City »Multitalent RC657-ST«, Pedelec, 28 Zoll",
+          "url": "https://www.lidl.de/p/telefunken-e-bike-city-multitalent-rc657-st-pedelec-28-zoll/p100256983?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100256983",
+          "productDetails": {
+            "productId": "100256983",
+            "title": "TELEFUNKEN E-Bike City »Multitalent RC657-ST«, Pedelec, 28 Zoll"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "JOOLA Tischtennisplatte Nova Outdoor 500",
+          "url": "https://www.lidl.de/p/joola-tischtennisplatte-nova-outdoor-500/p100406435?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100406435",
+          "productDetails": {
+            "productId": "100406435",
+            "title": "JOOLA Tischtennisplatte Nova Outdoor 500"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "CRIVIT Basketballkorb inkl. Basketball Größe 3",
+          "url": "https://www.lidl.de/p/crivit-basketballkorb-inkl-basketball-grosse-3/p100400487?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400487",
+          "productDetails": {
+            "productId": "100400487",
+            "title": "CRIVIT Basketballkorb inkl. Basketball Größe 3"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "JUSKYS Autodachzelt Lago 120 x 210 cm",
+          "url": "https://www.lidl.de/p/juskys-autodachzelt-lago-120-x-210-cm/p100410033?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100410033",
+          "productDetails": {
+            "productId": "100410033",
+            "title": "JUSKYS Autodachzelt Lago 120 x 210 cm"
+          }
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Shoppe  Becken Lupilu Nestschaukel Gepolstertem Höhen- Verstellbar Stück Plansch Wassersprinkler Schubkarre 7-Teilig Harke Schaufel Gabel Gießkanne Smoby Rutsche Modell -55% Uvp Wasseranschluss Spielhaus -48% Lidl Ratenzahlung € Monat Laufzeit Monate Gesamtpreis Montierbarer Haustürklingel Baby Kind & Spielzeug Ssend Spielhaus-Zubehör Odell „Sommerküche“ Zubehör Vorbehaltlich Laufzeiten 3691218 Bestellwert Monatlicher Mindestrate Gilt Effektiver Jahreszins Entspricht Festen Sollzinssatz 1048% Repräsentatives Beispiel §17 Pangv Nettodarlehensbetrag Gesamtbetrag Monatliche Raten Teilzahlungsverkäufer Digital Deutschland Kg Bonfelder Straße Bad Infos Dhz – 31610",
+      "altText": "Lidl Online-Angebote für Kinderspielzeug im Garten, darunter eine Nestschaukel, Planschbecken, eine Kinderschubkarre, eine Rutsche und ein Spielhaus.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "LUPILU® Kleinkinderplanschbecken / Wassersprinkler",
+          "url": "https://www.lidl.de/p/lupilu-kleinkinderplanschbecken-wassersprinkler/p100406029?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100406029",
+          "productDetails": {
+            "productId": "100406029",
+            "title": "LUPILU® Kleinkinderplanschbecken / Wassersprinkler"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LUPILU® Nestschaukel",
+          "url": "https://www.lidl.de/p/lupilu-nestschaukel/p100404482?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100404482",
+          "productDetails": {
+            "productId": "100404482",
+            "title": "LUPILU® Nestschaukel"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LUPILU® Schubkarre mit Gartenwerkzeug, 7-teilig",
+          "url": "https://www.lidl.de/p/lupilu-schubkarre-mit-gartenwerkzeug-7-teilig/p100399810?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399810",
+          "productDetails": {
+            "productId": "100399810",
+            "title": "LUPILU® Schubkarre mit Gartenwerkzeug, 7-teilig"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SMOBY Life Rutsche",
+          "url": "https://www.lidl.de/p/smoby-life-rutsche/p100400934?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400934",
+          "productDetails": {
+            "productId": "100400934",
+            "title": "SMOBY Life Rutsche"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SMOBY Spielhaus Zubehör Sommerküche",
+          "url": "https://www.lidl.de/p/smoby-spielhaus-zubehor-sommerkuche/p100400740?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400740",
+          "productDetails": {
+            "productId": "100400740",
+            "title": "SMOBY Spielhaus Zubehör Sommerküche"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SMOBY Spielhaus Lovely mit Klingel",
+          "url": "https://www.lidl.de/p/smoby-spielhaus-lovely-mit-klingel/p100401121?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401121",
+          "productDetails": {
+            "productId": "100401121",
+            "title": "SMOBY Spielhaus Lovely mit Klingel"
+          }
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "Lidl Plus Shoppen Versand- Kosten Sparen Kostenlose Retoure Tage Tisc Ausziehfunkt Ion Erhä Lie Ferkostenzuschlag -64% Livarno Alu-Gartenmöbelset Modell Set Bestehend Ausziehtisch 120–180 Klapp Sesseln Klappsessel Lieferkostenzuschlag -10€ Einzelkauf Lieferkosten­ Zuschlag Ratenzahlung € Monat Laufzeit Monate Gesamtpreis Bewertungen Stand Glastisch Ge- Härteter Stück Polsterauflage -25% Relaxsesssel- 75 -23% Hochlehner- -33% Niedriglehner- Shoppe Bodenplatte Sale -12% Spare -27% Spannweite Ampel- Schirm Lhz – Genereller Hinweis Artikel Vorrat Preise Deko Versandkostenpauschale Abweichend Angebote Richten Ausschließlich Endkunden Lieferanschrift Onlineshop-Angebote Digital Deutschland & Kg Bonfelder Straße Bad Wimpfen Telefon Samstag 800 2000 Angebot Nutzer Gelten Coupon Bedingungen Infos Preis Gültig Aktionszeitraum Versandkosten Kundenbewertungen 1102 Verstellbarem Lamellendach Farben Creme Grau- Meliert Sand Farbe Dunkelgrau Juskys Gartenlounge Sofa-Elemente Hocker Tisch -37% Lieferkosten- Outdoor-Daybed 845 -44% Serie „Sevilla“ Uvp 4-Teilig -30% Personen Gart Enmöbelset Gartentisch -29€ Pergola Ver Zinktem -46% Outdoor- Loungesessel Bezug Poly- Füllung Pu- Garten- Maxibox Fassungs- Vorbehaltlich Laufzeiten 3691218 Bestellwert Monatlicher Mindestrate Gilt Effektiver Jahreszins Entspricht Festen Sollzinssatz 1048% Repräsentatives Beispiel §17 Pangv Nettodarlehensbetrag Gesamtbetrag Monatliche Raten Teilzahlungsverkäufer 1105 -41% Letzter Drucktermin Parkside Elektro-Heckenschere Typ „Pehs Leistungsstarker Elektromotor 2-Hand-Schutzschalter Elektrisches Stabilem Kabellänge Messerzahnabstand Anschlussleistung Schnittlänge Min Schnittbewegungen Astdurchmesser Teleskop- Astschere Amboss Arbeitsbreite Mm Wurzeldicke 25 Astsäge Sägeblatt Hart- Spaten Schaufel Wellenschliff Cm Varianten Erhältlich Variante Tiefpreis Garantie Befestigungsseil Garten Abfallsack Universal-Abdeckplane Reißfestem Wasserabweisenden Material Flächengewicht-Stärke Verstärkten Kanten Ösen Robusten M² Baumarkt 15 Befestigungsseile Allwetter-Klebeband Drinnen Gewebe- Klebeband Allwetter- Bestellbar * Begrenzter Vorratsmenge Laufe Angebotstages Ausverkauft Nonfood-Aktionsartikel Kleinstfilialen Modelle Teilweise Größen Ecd 1345 -68% Transportgriff Stufenlos Einstellbare Druckplatte Elektro-Walzenhäcksler „Pewh Rückschlagfreies Schneidwalzensystem Einstell Barer Großer Einfüll Trichter Automatischem Selbsteinzug Leerlauf­ Drehzahl Anschluss­ Leistung Aststärke Fangbox­ Volumen Zerkleinern Gehölz Schnitt Art Fiskars Teleskopauszug 64–93 Schnittdurch- Messer -50% 99* -48% Bypass-Gartenschere Schnittdurchmesser Heckenschere Stahlklingen Geeignet - Messerhäcksler „Pemh Turbo-Power-Motor Hohem Häckseln Grün Büschen Einmalig Einlösbar Kunden Produkte Onlineshop Erworben Wochen Versand Personalisierten E-Mail-Link Zustellung Kundenkonto Jeweiligen Artikelseite Zubehör Kettenschutz 180-Ml-Bio-Kettenöls „Made Germany” ’S Kundenkarte Scannen Aktivieren Kategorie Auswählen Meal Deal Genießen 153 Schwertlänge Ketten­ Geschwindigkeit 395 Öltank­ -28% Elektro-Kettensäge „Peks Automatisches 20% Sparmenü Sichern Spar­menü Lohnt Downloaden Poly Paar Touch- Funktion Verlängerungskabel Anschlussstück Belastung Nonfood­aktionsartikel 13830 Fleecejacke Recyceltes Polyester Elasthan Funktionsboxer Aktiver Feuchtigkeits Transport Funk Tionsfaser Baumwolle Kapsel­gehörschutz Verstellbares 31Db-Gehörschutz Verordnung Persönliche Schutz Ausrüstung Forstschutzhelm Persön Liche Schutzausrüstung Klappbares Gepolsterte Klappbare Ohrenkapseln 23-Db- Gehörschutz Gepolstertes Kopf Band Drehknopf Einstellen Umfangs 54–63 Norm Visir En3972012+A12012 En352- 32020 -20% -14% Zertifiziert Iso 11393-22019 Klasse Ketten Geschwindigkeiten Performance Schnittschutzhose 7-Lagige Schutzfläche Derseite Dient Schnittver Letzungen Beinbereich Handgeführten Aktion Mehrfach Aktionsartikel Falle Mehrerer Selben Jeweils Höhere Rabatt Gleichzeitigen Anwendung Rabatten Einzelne Gesamten Einkaufswert Artikelbasierten Rabatte 1355 Vergleich Akku-Astschere Paas 20-Li Akku-Ast- Schere „Ppaas Schnittkapazität 10X Motorlebensdauer 35% Schnittleistung 10% Schnittkraft Ladegerät -16% Baumschere Kraftverstärkendem -10% Sägeblattlänge 160–265 Bar Arbeitsdruck Anschluss- Fördermenge Benzin- Kombigerät „Pbk 2-Takt-Benzin Motor 14 Arbeitshöhe 35 Weka Gartenhaus Wandbohlen Massivholzdach Fußboden Vordach Grundfläche 885 Lieferkosten Freischneider Freischneider- Aufsatz 245 Rasentrimmer Rasentrimmer- Hochentaster Astdurch- Mini-- Druckreiniger „Phdm Komfortabler Trans- Port Geringes Eigengewicht 46 Stromsparendes Auto- Start-Stopp-System Motorbetrieb Drücken Pistolen- Dhz 20822 Schwarz Speise- Schab- Slusheis Perfekte Pizzen Bosch Kapsel Maschine „Tassimo Vollautomatische 1-Knopf- Abnehmbarer 07-L- -79% Ferrari Pizzaofen „Pronto Voreinge- Stellte Temperatur Pizzastein -39% Krups Kaffeevollautomat Kaffeezubereit Bohnenbehälter Wassertank 18 -72% Kenwood Küchenmaschine Stufenlose Geschwindig Keitsregelung Rühr Schüssel -40% Silvercrest Eismaschine „Semk Fassungs 095 Umfang­ Reichem Zeitgleiche Zubereitung Gerichten Doppelzonen-Heißluft­fritteuse „Shfdd Voreingestellte Frittierschubladen Einlegegitter Ilag®­ Temperaturbereich Pommes­menge Schub Lade Pink 50743 Kocht Wasser Sek Elektrische Kaffeemühle „Skme Rostfreiem Füllmenge 8–9 Stück Multizerkleinerer „Smzc Herausnehmbarer Messereinsatz Wasserkocher „Swkc Wasserstandanzeige Herausnehmbarem 17 Küche Haushalt Milchaufschäumer „Smsp Wählbare Programme Kaltem Warmem Milch Premium-Ilag®- Füllvolumen 14955 Arbe Rosa Mint Espressomaschine „Sem 15-Bar-Pumpendruck Crema Ideale Sieb- Siebe Kaffeelot Tamper Tropfgitter 2--1-Hochdruck- Dampfdüse Heiß- Wasserauslass Milchaufschäumdüse Doppelschlitz-Toaster „Stc 6-Stufen Bräunungsregler Herausnehmbare Automatischer Abschaltung Stopp- Standmixer „Ssmp Shakes Smoothies Zerstoßenes Eis Geschwindigkeits- Stufen Puls- Spezial Gehärtetes 4-Klingen- Mixbehälter Bustem Glas 175 Salz- Pfeffermühle Einstellbares Brotdosen-Set Platzsparend Ineinander Verstau- Spül- Temperaturbeständig –20 +100 5-Teilig Siebeinsätze Tassen Testsieger Ausgabe Stc Gut 26Lh1 Regulärer Filialpreis Sandwich Maker „Sswm Alu Miniumplatten Ilag®-Anti- Verriegelbarer Hhz 1738 Aluguss-Servierpfanne Kratz- Ofenfest Herdarten Aluminium-Pfanne Strapazierfähig Ilag®-Antihaft- Heißluftfritteusen-Silikonform Hochwertigem Geschmacks- –40 +250 Spülmaschinen- Heißluftfritteuse „Shfd Temperatureinstellung Entnehm Frittierkorb Antihaft- Fassungsver 47 1728 Vorratsdosen-Set Spülma Emsa Frischhaltedosen-Set Mikrowellen- Stabmixer „Ssm Wenko Aufbewahrungsgläser Kork 3-Teiliges 055 85 080 Delonghi „Magnifica Start Latte Hot Tech Integriertes Kaffeemahlwerk Einstellbaren Milchschaum 8-Teilig -56% Edelstahl- Isolierbecher Doppelwandige Isolation Hält Getränke Heiß Passt Wiederverwendbarem 12 Eiswürfelformen Große Eiswürfel Silikonform °C +230 Behälter Passend Beige Gelb Set-Preis Kauf Isolierb Echer 1504 Digitale Küchenwaage Grammgenaues Wiegen -42% Zenker Springform-Container Backform Ilag®- Antihaftbeschich- Haube Oberfläche Schnitt- Kratzfest Hochwertige Beidseitigem Hitzebeständig Auflaufform Grill- Ofenbackform Gugelhupfform Königskuchenform Springform 265 Back- Ofenformen Pizza-Back- Formen-Set Langlebigem Ofen- Fest Aufläufe Gratin Flamm- Kuchen -57% 121530 Google Rabattaktion Gutscheinkarte Gutscheinkarten Telefon- Gutschein- Geschenkkarten Umtausch Rücknahme Barauszahlung Geltend Agb Google-Geschenkkarten Einsehbar Commerce Play Marke Zalando Variable Maximale Ersparnis Einkauf Beträgt 2250 Wert Maximal 20000 Zalando-Geschenkgutscheine Sparpreis Zugreifen -15% 1124 Hendrick´s Gin Vol 07 Fantini Calalenta Merlot Rosato Roséwein Trocken Italien 075 Nautica Msc Rotbarschfilets Buchenholz Metzgerfrisch Frisches Putenhack Fleisch Grillmeister Hähnchen-Hacksteaks Gewürzt Fleisch- Geflügel-Artikel Stall Platz Deutsc Dwir Tsc Dus-Vini  1612 Frische Qualität Kg- Deutsche Zucchini Lose Zuckermelone „Piel Sapo“ Ursprung Spanien Möhren Bund Nektarinen Kg-Preis Schweine-Nackenkoteletts Standardpackung High Protein Chicken Crispies Flüssig Putenbrust- Schnitzel Mariniert Frischluftstall Rinder- Rumpsteak Rinder-Rumpsteak -22% Früchte 1149 Herd Wok ’N’ Roll Tanzt Vitasia Glasnudeln Sweet Chili Sauce Asc White Tiger Garnelen Reisteigplatten Organic Kimchi Sashimi Lachs Normalpreis Gemüse Abtropfgewicht Angegeben 104745 Ramen Nudelsuppe Nori Blätter Knusper-Ente Gemüsebett Gewürzte Halbe Ente Knochen Vorgegart Streifen Erdnussöl Nissin Demae Edamame Würzsauce Gewürzpaste Udon Nudeln 104831 Frühlingsrollen Dumplings Frittierte Cashewnüsse Soja Pangasiusfilets Dippers Knusperente Separater Sojasauce Ribs Hoisin Flug Hotel Doppel- Zimmer Frühstück Thailands Oase Ruhe Erleben Entdecke Insel-Auszeit Phuket Trading Reisen Reisevermittler Reise- Zahlungsbedingungen Veranstalters Entnehmen 125745 Bio Kokosnuss Chow Wok-Nudeln Krabbenchips Sushi Reis Sticky Rice Trinkfertig Bratnudeln Roku The Japanese Craft -21% Basil Seed Drink Pfand Spirituosen Informationen 125827 Mie Jasmin Instant Reisnudeln Reisessig Sojabohnen 41615 Asia Taste Gebratene Konjak Reis-Erdnuss- Cracker Yuki Love Mochi Yakiniku Sriracha 6Er-Pack Currypaste *    Artikel   Begrenzter Vorratsmenge   Laufe   Angebotstages Ausverkauft  15647 Versprechen Deutschlands Wahrer Preisführer Riesige Dauerhaft Günstiger Vielfalt Basis Studie Servicevalue Kooperation Test Thema Befragung Liegen Kundenurteile Marken Branchen Zugrunde Auszeichnung “Höchste Kundentreue” Bestbewertete Unternehmen Branche Lebensmittel-Discounter Focus Teil Abgebildeten Gruppe Erfahre Unternehmensgruppe Produzierten 1251 Anche Ebensmitt El- Discount Höchste Eigene Unabhängigkeit Deutschlandweit Verlässlichkeit Günstigere Sicherheit Wirtschaftswoche „Deutschlands Preisfavoriten 2026“ Verbraucher November Dezember -Access-Panel Befragt Genannten Verschiedenen Grund Preisgünstigkeit Leistungen Insgesamt Verbraucherurteile Besten Ergebnisses „Lebensmittel-Discounter“ „Höchste Empfehlung“ Gesamtsieger Ergebnisse 1252 -34% -31% Milbona Haltbare Fettarme 12X Saupiquet Jules Mumm Sekt Mccain Golden Longs Aufsteller Tiefp Gara Ntie Preisvorteil Gegenüber Grundpreis   Servicevalue    Kooperation   Wirtschaftswoche    Studie „Deutschlands Preisfavoriten 2026“ Verbraucher  November  Dezember 2025   -Access-Panel  Befragt  42303 Meggle Feine Butter -45% Tuc Salakis Schafkäse Ritter Sport Jamaica Rum Knusperstück Enthält Almdudler Funny- Frisch Kessel Chips Ben Jerry’s Hosta Nippon Puffreis Lipton Ice Tea Xxl Liter -35% Fanta Exotic Coca Cola 05 -51% Lätta Original -24% Likemeat Vegane Alternative 33225 Zott Zottarella Minis Starbucks Chilled Coffee Henglein Frischer Pizzateig Klassik Baguette Ehrmann Mousse Krüger Family Cappuccino Lavazza Kapseln Kiri Frischkäse Portionen Doppelpack Dulano Delikatess Rost- Bratwurst Gusto Classico 1623 Mikado Schoko­ Stäbchen Milch­ Schokolade Sensodyne Proschmelz Zahnfleisch Beck­ Aktivkohle Wc­schaum Develey Monte Cream -43% Mixed Schoko Snack Null­null Aktiv Gel 4In1 Nestlé Smarties Joghurt Sun Lolly Wassereis Coral Flüssigwasch­ Mittel Waschladungen Maltesers 4Er-Pack Beckmann Wc- Schaum Vorsichtig Brauch Etikett Produktinforma- Tionen -18% 125725 -49% Red Bull Energy Taurin- 025 Chantré Weinbrand Alesto Erdnüsse Geröstet Erdnusskerne Gesalzen Testidentisches Produkt Fassungsvermögen Dehydrate Roast Bake Prove Air Kerrygold Irischer Käse Heißluft­ Fritteuse Wochen-Ersparnis Umfasst Food- Berechnung Sorten Produktübergreifenden Aktionen Enthaltenen Produkten Gewichtsware Zusätzliche Einlösung Coupons Bioland- Bio-Joghurtartikel Rantie Vorrats Menge Abgabe Haushaltsüblichen Druck Erzeugnis Fsc®- Zertifiziertem Papier Gedruckt! Druckerzeugnis Blauen Engel Ausgezeichnet! 1359 Newsletter Abonnieren Etzt Exklusiven Vorteil Versandkoste    1027 Griechenland  Rhodos 8-Tägige Reise Blue Sea Holiday Village All Inclusive Anreise Oktober 26  Reiseveranstalter Travel Buchungscode Rho137L Italien  Gardasee Eigenanreise Nächte Green Park Residence Selbstverpflegung  Voyage&More Rfab16 Ägypten  Nilkreuzfahrt Baden 15-Tägige Nilkreuz- Fahrtschiff Vollpension Reef Resort Januar 27  Neon Hrg025L Ausflugs-  & Verpflegungs- Paket Appartment 2+2 -70 Doppelzimmer Schottland Rundreise 3-Sterne-Hotels Halbpension Februar 27 Gla80006X -100 -180 -222 Uhr Buchbar! Feiertage Erreichbar! Buchen Sterneklassifizierung Unterbringung Erhalt Schriftlichen Reisebestätigung Zugang Reisepreissicherungs- Scheins Anzahlung Höhe Reisepreises Fällig Restbetrag Abreise Reisende Eingeschränk- Ter Mobilität Termine Aufenthaltsdauern Aufpreis Preisreduzierte Offiziell Gegebenen Maximalen Mindestaufenthalts- Dauer Lidl-Reisen-Angebot Hinzuzählung Zusatz- Nebenkosten Kinder Stadttour 1415 Sommerdeals Ntdecke Kreative Fotoprodukte Fotos Angeboten Vertragspartner Picanova 67 Versandkostenfreie Lieferung Mindestbestellwert 20€ Gutschein-Code Entsprechenden Stelle Enkorb Änderungen Irrtümer Reich Verzögerungen Gewalt Auftreten Xrt2278 Gutscheincode Fotobuch Digitaldruck Hardcover 24–32 Gratis Mindest- 1352 Bio-Qualität Ehr Tour Prolog Orb Etappe Schwäbisch Hall Offenbach Herxheim Dürkheim Heilbronn August Tocr Edit Aso German Hilger 1112",
+      "altText": "Lidl Online-Angebote für Gartenmöbel und Loungesets, darunter ein ausziehbares Alu-Gartenmöbelset, Relaxsessel, eine Pergola und eine Garten-Maxibox.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Alu-Klappsessel »Toronto«, 2 Stück",
+          "url": "https://www.lidl.de/p/livarno-alu-klappsessel-toronto-2-stuck/p100400804?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400804",
+          "productDetails": {
+            "productId": "100400804",
+            "title": "LIVARNO® Alu-Klappsessel »Toronto«, 2 Stück"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Alu-Gartentisch »Houston / Toronto« grau, 140 x 92 x 74 cm",
+          "url": "https://www.lidl.de/p/livarno-alu-gartentisch-houston-toronto-grau-140-x-92-x-74-cm/p100400718?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400718",
+          "productDetails": {
+            "productId": "100400718",
+            "title": "LIVARNO® Alu-Gartentisch »Houston / Toronto« grau, 140 x 92 x 74 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Alu-Gartentisch »Houston / Toronto« grau, 120-180 x 89 x 75 cm",
+          "url": "https://www.lidl.de/p/livarno-alu-gartentisch-houston-toronto-grau-120-180-x-89-x-75-cm/p100400686?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400686",
+          "productDetails": {
+            "productId": "100400686",
+            "title": "LIVARNO® Alu-Gartentisch »Houston / Toronto« grau, 120-180 x 89 x 75 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Ampelschirm",
+          "url": "https://www.lidl.de/p/livarno-ampelschirm/p100400922?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400922",
+          "productDetails": {
+            "productId": "100400922",
+            "title": "LIVARNO® Ampelschirm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Alu-Premium-Set »Toronto«, 5-teilig - Ausziehtisch & 4 Klappsessel",
+          "url": "https://www.lidl.de/p/livarno-alu-premium-set-toronto-5-teilig-ausziehtisch-4-klappsessel/p800012120?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-800012120",
+          "productDetails": {
+            "productId": "800012120",
+            "title": "LIVARNO® Alu-Premium-Set »Toronto«, 5-teilig - Ausziehtisch & 4 Klappsessel"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Alu-Premium-Set »Toronto«, 5-teilig - Standardtisch & 4 Klappsessel",
+          "url": "https://www.lidl.de/p/livarno-alu-premium-set-toronto-5-teilig-standardtisch-4-klappsessel/p800012122?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-800012122",
+          "productDetails": {
+            "productId": "800012122",
+            "title": "LIVARNO® Alu-Premium-Set »Toronto«, 5-teilig - Standardtisch & 4 Klappsessel"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Niedriglehner-Polsterauflage »Toronto«",
+          "url": "https://www.lidl.de/p/livarno-niedriglehner-polsterauflage-toronto/p100400883?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400883",
+          "productDetails": {
+            "productId": "100400883",
+            "title": "LIVARNO® Niedriglehner-Polsterauflage »Toronto«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Hochlehner-Polsterauflage »Toronto«",
+          "url": "https://www.lidl.de/p/livarno-hochlehner-polsterauflage-toronto/p100401009?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401009",
+          "productDetails": {
+            "productId": "100401009",
+            "title": "LIVARNO® Hochlehner-Polsterauflage »Toronto«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Relaxsessel-Polsterauflage »Toronto«",
+          "url": "https://www.lidl.de/p/livarno-relaxsessel-polsterauflage-toronto/p100400888?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400888",
+          "productDetails": {
+            "productId": "100400888",
+            "title": "LIVARNO® Relaxsessel-Polsterauflage »Toronto«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Alu-Glastisch »Houston / Toronto«, 70 x 70 x 70 cm",
+          "url": "https://www.lidl.de/p/livarno-alu-glastisch-houston-toronto-70-x-70-x-70-cm/p100400344?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400344",
+          "productDetails": {
+            "productId": "100400344",
+            "title": "LIVARNO® Alu-Glastisch »Houston / Toronto«, 70 x 70 x 70 cm"
+          }
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für Gartenwerkzeuge und Zubehör, darunter eine Elektro-Heckenschere, Astscheren, Allwetter-Klebeband und Abdeckplanen.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Akazie-Set \"Sevilla\" 7-teilig - Tisch & 6 Klappsessel",
+          "url": "https://www.lidl.de/p/livarno-akazie-set-sevilla-7-teilig-tisch-6-klappsessel/p800012553?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-800012553",
+          "productDetails": {
+            "productId": "800012553",
+            "title": "LIVARNO® Akazie-Set \"Sevilla\" 7-teilig - Tisch & 6 Klappsessel"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Gartentisch »Sevilla«, 140 x 80 cm",
+          "url": "https://www.lidl.de/p/livarno-gartentisch-sevilla-140-x-80-cm/p100399727?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399727",
+          "productDetails": {
+            "productId": "100399727",
+            "title": "LIVARNO® Gartentisch »Sevilla«, 140 x 80 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Klappsessel »Sevilla«",
+          "url": "https://www.lidl.de/p/livarno-klappsessel-sevilla/p100399588?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399588",
+          "productDetails": {
+            "productId": "100399588",
+            "title": "LIVARNO® Klappsessel »Sevilla«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Outdoor-Loungesessel",
+          "url": "https://www.lidl.de/p/livarno-outdoor-loungesessel/p100405164?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100405164",
+          "productDetails": {
+            "productId": "100405164",
+            "title": "LIVARNO® Outdoor-Loungesessel"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Outdoor-Loungesessel",
+          "url": "https://www.lidl.de/p/livarno-outdoor-loungesessel/p100405424?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100405424",
+          "productDetails": {
+            "productId": "100405424",
+            "title": "LIVARNO® Outdoor-Loungesessel"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Outdoor-Daybed »Sevilla«",
+          "url": "https://www.lidl.de/p/livarno-outdoor-daybed-sevilla/p100399746?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399746",
+          "productDetails": {
+            "productId": "100399746",
+            "title": "LIVARNO® Outdoor-Daybed »Sevilla«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "JUSKYS Gartenlounge »Manacor«, 4-teilig",
+          "url": "https://www.lidl.de/p/juskys-gartenlounge-manacor-4-teilig/p100353664?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100353664",
+          "productDetails": {
+            "productId": "100353664",
+            "title": "JUSKYS Gartenlounge »Manacor«, 4-teilig"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "JUSKYS Pergola / Lamellendach Tahiti",
+          "url": "https://www.lidl.de/p/juskys-pergola-lamellendach-tahiti/p100393559?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100393559",
+          "productDetails": {
+            "productId": "100393559",
+            "title": "JUSKYS Pergola / Lamellendach Tahiti"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "LIVARNO® Garten-Maxibox",
+          "url": "https://www.lidl.de/p/livarno-garten-maxibox/p100400932?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100400932",
+          "productDetails": {
+            "productId": "100400932",
+            "title": "LIVARNO® Garten-Maxibox"
+          }
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für schwere Gartenarbeit, darunter ein Elektro-Walzenhäcksler, ein Messerhäcksler, Teleskop-Astscheren und eine Elektro-Kettensäge.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Elektro-Heckenschere »PEHS 450 A2«",
+          "url": "https://www.lidl.de/p/parkside-elektro-heckenschere-pehs-450-a2/p100399896?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399896",
+          "productDetails": {
+            "productId": "100399896",
+            "title": "PARKSIDE® Elektro-Heckenschere »PEHS 450 A2«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Spaten mit Wurzelsäge / Schaufel mit Wellenschliff",
+          "url": "https://www.lidl.de/p/parkside-spaten-mit-wurzelsage-schaufel-mit-wellenschliff/p100408204?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408204",
+          "productDetails": {
+            "productId": "100408204",
+            "title": "PARKSIDE® Spaten mit Wurzelsäge / Schaufel mit Wellenschliff"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Bypass-Teleskop-Astschere / Amboss-Teleskop-Astschere",
+          "url": "https://www.lidl.de/p/parkside-bypass-teleskop-astschere-amboss-teleskop-astschere/p100397636?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100397636",
+          "productDetails": {
+            "productId": "100397636",
+            "title": "PARKSIDE® Bypass-Teleskop-Astschere / Amboss-Teleskop-Astschere"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Universal-Abdeckplane, 4 x 5 m",
+          "url": "https://www.lidl.de/p/parkside-universal-abdeckplane-4-x-5-m/p100399344?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399344",
+          "productDetails": {
+            "productId": "100399344",
+            "title": "PARKSIDE® Universal-Abdeckplane, 4 x 5 m"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Gartenabfallsack / Gartenabfallsack-Set, 2 Stück",
+          "url": "https://www.lidl.de/p/parkside-gartenabfallsack-gartenabfallsack-set-2-stuck/p100399647?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399647",
+          "productDetails": {
+            "productId": "100399647",
+            "title": "PARKSIDE® Gartenabfallsack / Gartenabfallsack-Set, 2 Stück"
+          }
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für Forst- und Schutzkleidung, darunter eine Fleecejacke, ein Kapselgehörschutz, ein Forstschutzhelm und eine Performance-Schnittschutzhose.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Messerhäcksler »PEMH 2400 B2«, Fangbox 40 l",
+          "url": "https://www.lidl.de/p/parkside-messerhacksler-pemh-2400-b2-fangbox-40-l/p100398592?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100398592",
+          "productDetails": {
+            "productId": "100398592",
+            "title": "PARKSIDE® Messerhäcksler »PEMH 2400 B2«, Fangbox 40 l"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Elektro-Walzenhäcksler »PEWH 2800 A1«",
+          "url": "https://www.lidl.de/p/parkside-elektro-walzenhacksler-pewh-2800-a1/p100398569?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100398569",
+          "productDetails": {
+            "productId": "100398569",
+            "title": "PARKSIDE® Elektro-Walzenhäcksler »PEWH 2800 A1«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "FISKARS Heckenschere, mit Wellenschliff",
+          "url": "https://www.lidl.de/p/fiskars-heckenschere-mit-wellenschliff/p100386587?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100386587",
+          "productDetails": {
+            "productId": "100386587",
+            "title": "FISKARS Heckenschere, mit Wellenschliff"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "FISKARS Teleskop-Astschere, geeignet für Rechts- und Linkshänder",
+          "url": "https://www.lidl.de/p/fiskars-teleskop-astschere-geeignet-fur-rechts-und-linkshander/p100378022?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100378022",
+          "productDetails": {
+            "productId": "100378022",
+            "title": "FISKARS Teleskop-Astschere, geeignet für Rechts- und Linkshänder"
+          }
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für leistungsstarke Gartengeräte, darunter eine Akku-Astschere, ein Benzin-Kombigerät (Freischneider, Hochentaster), ein Mini-Druckreiniger und ein Weka Gartenhaus.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Elektro-Kettensäge »PEKS 2200 B1«, 2-Hand-Schutzschalter",
+          "url": "https://www.lidl.de/p/parkside-elektro-kettensage-peks-2200-b1-2-hand-schutzschalter/p100393714?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100393714",
+          "productDetails": {
+            "productId": "100393714",
+            "title": "PARKSIDE® Elektro-Kettensäge »PEKS 2200 B1«, 2-Hand-Schutzschalter"
+          }
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für Küchengeräte, darunter ein Pizzaofen, eine Tassimo Kapselmaschine, ein Kaffeevollautomat, eine Küchenmaschine und eine Heißluftfritteuse.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Forstschutzhelm",
+          "url": "https://www.lidl.de/p/parkside-forstschutzhelm/p100399447?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399447",
+          "productDetails": {
+            "productId": "100399447",
+            "title": "PARKSIDE® Forstschutzhelm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Herren Fleecejacke",
+          "url": "https://www.lidl.de/p/parkside-herren-fleecejacke/p100409475?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409475",
+          "productDetails": {
+            "productId": "100409475",
+            "title": "PARKSIDE® Herren Fleecejacke"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Herren Boxer, 3 Stück",
+          "url": "https://www.lidl.de/p/parkside-herren-boxer-3-stuck/p100407700?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100407700",
+          "productDetails": {
+            "productId": "100407700",
+            "title": "PARKSIDE® Herren Boxer, 3 Stück"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE PERFORMANCE® Herren Schnittschutzhose",
+          "url": "https://www.lidl.de/p/parkside-performance-herren-schnittschutzhose/p100409074?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409074",
+          "productDetails": {
+            "productId": "100409074",
+            "title": "PARKSIDE PERFORMANCE® Herren Schnittschutzhose"
+          }
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für farbenfrohe Küchengeräte im Retro-Design, darunter eine Espressomaschine, ein Toaster, ein Standmixer, ein Milchaufschäumer und ein Wasserkocher.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Benzin-Kombigerät »PBK 4 D5«",
+          "url": "https://www.lidl.de/p/parkside-benzin-kombigerat-pbk-4-d5/p100405252?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100405252",
+          "productDetails": {
+            "productId": "100405252",
+            "title": "PARKSIDE® Benzin-Kombigerät »PBK 4 D5«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Mini-Hochdruckreiniger »PHDM 110 A1 Mini«",
+          "url": "https://www.lidl.de/p/parkside-mini-hochdruckreiniger-phdm-110-a1-mini/p100405706?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100405706",
+          "productDetails": {
+            "productId": "100405706",
+            "title": "PARKSIDE® Mini-Hochdruckreiniger »PHDM 110 A1 Mini«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE® Baumschere Teleskop inkl. Säge",
+          "url": "https://www.lidl.de/p/parkside-baumschere-teleskop-inkl-sage/p100408267?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408267",
+          "productDetails": {
+            "productId": "100408267",
+            "title": "PARKSIDE® Baumschere Teleskop inkl. Säge"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "WEKA Gartenhaus »Falko«, aus Fichtenholz, 300 x 295 x 249 cm",
+          "url": "https://www.lidl.de/p/weka-gartenhaus-falko-aus-fichtenholz-300-x-295-x-249-cm/p100363880?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100363880",
+          "productDetails": {
+            "productId": "100363880",
+            "title": "WEKA Gartenhaus »Falko«, aus Fichtenholz, 300 x 295 x 249 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "PARKSIDE PERFORMANCE® 20 V Akku-Astschere, ohne Akku und Ladegerät",
+          "url": "https://www.lidl.de/p/parkside-performance-20-v-akku-astschere-ohne-akku-und-ladegerat/p100398769?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100398769",
+          "productDetails": {
+            "productId": "100398769",
+            "title": "PARKSIDE PERFORMANCE® 20 V Akku-Astschere, ohne Akku und Ladegerät"
+          }
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für praktisches Küchenzubehör, darunter Pfannen, Heißluftfritteusen-Silikonformen, Frischhaltedosen, ein Stabmixer und ein DeLonghi Kaffeevollautomat.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Doppelzonen-Heißluftfritteuse",
+          "url": "https://www.lidl.de/p/silvercrest-doppelzonen-heissluftfritteuse/p100406951?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100406951",
+          "productDetails": {
+            "productId": "100406951",
+            "title": "SILVERCREST® Doppelzonen-Heißluftfritteuse"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Eismaschine 3 in 1 SEMK 210 A1",
+          "url": "https://www.lidl.de/p/silvercrest-eismaschine-3-in-1-semk-210-a1/p100408370?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408370",
+          "productDetails": {
+            "productId": "100408370",
+            "title": "SILVERCREST® Eismaschine 3 in 1 SEMK 210 A1"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "BOSCH Tassimo »Happy«",
+          "url": "https://www.lidl.de/p/bosch-tassimo-happy/p100367332?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100367332",
+          "productDetails": {
+            "productId": "100367332",
+            "title": "BOSCH Tassimo »Happy«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "KRUPS Essential Pisa Kaffeevollautomat, Milchdüse, individuelle Dosierung, LC Display, einfache Reinigung »EA81PO«",
+          "url": "https://www.lidl.de/p/krups-essential-pisa-kaffeevollautomat-milchduse-individuelle-dosierung-lc-display-einfache-reinigung-ea81po/p100354788?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100354788",
+          "productDetails": {
+            "productId": "100354788",
+            "title": "KRUPS Essential Pisa Kaffeevollautomat, Milchdüse, individuelle Dosierung, LC Display, einfache Reinigung »EA81PO«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "G3 FERRARI Pizzaofen »PRONTO PIZZA«",
+          "url": "https://www.lidl.de/p/g3-ferrari-pizzaofen-pronto-pizza/p100408735?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408735",
+          "productDetails": {
+            "productId": "100408735",
+            "title": "G3 FERRARI Pizzaofen »PRONTO PIZZA«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "KENWOOD Küchenmaschine »KMIX KMX754«",
+          "url": "https://www.lidl.de/p/kenwood-kuchenmaschine-kmix-kmx754/p100408531?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408531",
+          "productDetails": {
+            "productId": "100408531",
+            "title": "KENWOOD Küchenmaschine »KMIX KMX754«"
+          }
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für Backformen und Küchenhelfer, darunter Springformen, Auflaufformen, eine digitale Küchenwaage und ein Isolierbecher-Set.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Elektrische Kaffeemühle »SKME 180 D1«",
+          "url": "https://www.lidl.de/p/silvercrest-elektrische-kaffeemuhle-skme-180-d1/p100408703?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408703",
+          "productDetails": {
+            "productId": "100408703",
+            "title": "SILVERCREST® Elektrische Kaffeemühle »SKME 180 D1«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Milchaufschäumer",
+          "url": "https://www.lidl.de/p/silvercrest-milchaufschaumer/p100408539?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408539",
+          "productDetails": {
+            "productId": "100408539",
+            "title": "SILVERCREST® Milchaufschäumer"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Wasserkocher »SWKC 3000 G3«",
+          "url": "https://www.lidl.de/p/silvercrest-wasserkocher-swkc-3000-g3/p100408243?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408243",
+          "productDetails": {
+            "productId": "100408243",
+            "title": "SILVERCREST® Wasserkocher »SWKC 3000 G3«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Multizerkleinerer »SMZC 500 E1«",
+          "url": "https://www.lidl.de/p/silvercrest-multizerkleinerer-smzc-500-e1/p100408838?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408838",
+          "productDetails": {
+            "productId": "100408838",
+            "title": "SILVERCREST® Multizerkleinerer »SMZC 500 E1«"
+          }
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Aktion für Google Play und Zalando Geschenkkarten mit Rabatten sowie Angebote für Hendrick's Gin, Roséwein und frisches Fleisch.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Doppelschlitz-Toaster »STC 850 E4«",
+          "url": "https://www.lidl.de/p/silvercrest-doppelschlitz-toaster-stc-850-e4/p100408683?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408683",
+          "productDetails": {
+            "productId": "100408683",
+            "title": "SILVERCREST® Doppelschlitz-Toaster »STC 850 E4«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Standmixer",
+          "url": "https://www.lidl.de/p/silvercrest-standmixer/p100409080?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409080",
+          "productDetails": {
+            "productId": "100409080",
+            "title": "SILVERCREST® Standmixer"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Salz- und Pfeffermühle Pastell elektrisch",
+          "url": "https://www.lidl.de/p/silvercrest-salz-und-pfeffermuhle-pastell-elektrisch/p100411101?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100411101",
+          "productDetails": {
+            "productId": "100411101",
+            "title": "SILVERCREST® Salz- und Pfeffermühle Pastell elektrisch"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Brotdosen-Set, 5-teilig",
+          "url": "https://www.lidl.de/p/silvercrest-brotdosen-set-5-teilig/p100408820?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408820",
+          "productDetails": {
+            "productId": "100408820",
+            "title": "SILVERCREST® Brotdosen-Set, 5-teilig"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Sandwichmaker »SSWM 750 C3«",
+          "url": "https://www.lidl.de/p/silvercrest-sandwichmaker-sswm-750-c3/p100409489?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409489",
+          "productDetails": {
+            "productId": "100409489",
+            "title": "SILVERCREST® Sandwichmaker »SSWM 750 C3«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Espressomaschine",
+          "url": "https://www.lidl.de/p/silvercrest-espressomaschine/p100408278?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408278",
+          "productDetails": {
+            "productId": "100408278",
+            "title": "SILVERCREST® Espressomaschine"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Espressomaschine »SEM 1100 E1«",
+          "url": "https://www.lidl.de/p/silvercrest-espressomaschine-sem-1100-e1/p100408262?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408262",
+          "productDetails": {
+            "productId": "100408262",
+            "title": "SILVERCREST® Espressomaschine »SEM 1100 E1«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Espressomaschine »SEM 1100 E1«",
+          "url": "https://www.lidl.de/p/silvercrest-espressomaschine-sem-1100-e1/p100408266?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408266",
+          "productDetails": {
+            "productId": "100408266",
+            "title": "SILVERCREST® Espressomaschine »SEM 1100 E1«"
+          }
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für frisches Obst, Gemüse und Fleisch, darunter Zucchini, Zuckermelonen, Möhren, Nektarinen, Schweinekoteletts und Rinder-Rumpsteaks.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Heißluftfritteuse",
+          "url": "https://www.lidl.de/p/silvercrest-heissluftfritteuse/p100408836?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408836",
+          "productDetails": {
+            "productId": "100408836",
+            "title": "SILVERCREST® Heißluftfritteuse"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Heißluftfritteuse »SHFD 2000 D2«",
+          "url": "https://www.lidl.de/p/silvercrest-heissluftfritteuse-shfd-2000-d2/p100408839?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408839",
+          "productDetails": {
+            "productId": "100408839",
+            "title": "SILVERCREST® Heißluftfritteuse »SHFD 2000 D2«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Heißluftfritteuse »SHFD 2000 D1«, 4,7 l",
+          "url": "https://www.lidl.de/p/silvercrest-heissluftfritteuse-shfd-2000-d1-4-7-l/p100399492?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399492",
+          "productDetails": {
+            "productId": "100399492",
+            "title": "SILVERCREST® Heißluftfritteuse »SHFD 2000 D1«, 4,7 l"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Aluminium-Pfanne, Ø 24 cm",
+          "url": "https://www.lidl.de/p/silvercrest-aluminium-pfanne-o-24-cm/p100408447?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408447",
+          "productDetails": {
+            "productId": "100408447",
+            "title": "SILVERCREST® Aluminium-Pfanne, Ø 24 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Aluminium-Pfanne, Ø 28 cm",
+          "url": "https://www.lidl.de/p/silvercrest-aluminium-pfanne-o-28-cm/p100408739?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408739",
+          "productDetails": {
+            "productId": "100408739",
+            "title": "SILVERCREST® Aluminium-Pfanne, Ø 28 cm"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Aluguss-Servierpfanne, Ø 28 cm",
+          "url": "https://www.lidl.de/p/silvercrest-aluguss-servierpfanne-o-28-cm/p100408715?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408715",
+          "productDetails": {
+            "productId": "100408715",
+            "title": "SILVERCREST® Aluguss-Servierpfanne, Ø 28 cm"
+          }
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl \"Wok 'N' Roll\" Themenwoche mit asiatischen Spezialitäten wie Glasnudeln, Sweet Chili Sauce, Garnelen, Kimchi, Sashimi-Lachs und Ramen-Nudelsuppen.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Edelstahl-Isolierbecher",
+          "url": "https://www.lidl.de/p/silvercrest-edelstahl-isolierbecher/p100407114?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100407114",
+          "productDetails": {
+            "productId": "100407114",
+            "title": "SILVERCREST® Edelstahl-Isolierbecher"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "DELONGHI Kaffeevollautomat Magnifica Start Milk »ECAM 223.61.GB«",
+          "url": "https://www.lidl.de/p/delonghi-kaffeevollautomat-magnifica-start-milk-ecam-223-61-gb/p100398483?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100398483",
+          "productDetails": {
+            "productId": "100398483",
+            "title": "DELONGHI Kaffeevollautomat Magnifica Start Milk »ECAM 223.61.GB«"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Vorratsdosen-Set, 8 Stück",
+          "url": "https://www.lidl.de/p/silvercrest-vorratsdosen-set-8-stuck/p100408848?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408848",
+          "productDetails": {
+            "productId": "100408848",
+            "title": "SILVERCREST® Vorratsdosen-Set, 8 Stück"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "EMSA Clip und Close Aufbewahrungsdosen",
+          "url": "https://www.lidl.de/p/emsa-clip-und-close-aufbewahrungsdosen/p100410943?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100410943",
+          "productDetails": {
+            "productId": "100410943",
+            "title": "EMSA Clip und Close Aufbewahrungsdosen"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Stabmixer SSM 350 D1",
+          "url": "https://www.lidl.de/p/silvercrest-stabmixer-ssm-350-d1/p100397676?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100397676",
+          "productDetails": {
+            "productId": "100397676",
+            "title": "SILVERCREST® Stabmixer SSM 350 D1"
+          }
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für asiatische Lebensmittel, darunter Frühlingsrollen, Dumplings, knusprige Ente, Udon-Nudeln, Edamame und asiatische Saucen.",
+      "links": [
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Springform / Königskuchenform / Gugelhupfform",
+          "url": "https://www.lidl.de/p/silvercrest-springform-konigskuchenform-gugelhupfform/p100408858?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408858",
+          "productDetails": {
+            "productId": "100408858",
+            "title": "SILVERCREST® Springform / Königskuchenform / Gugelhupfform"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Pizza-Backformen-Set, 3 Stk.",
+          "url": "https://www.lidl.de/p/silvercrest-pizza-backformen-set-3-stk/p100408603?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408603",
+          "productDetails": {
+            "productId": "100408603",
+            "title": "SILVERCREST® Pizza-Backformen-Set, 3 Stk."
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Brat- und Auflaufform groß/ Brat- und Backform Emaille",
+          "url": "https://www.lidl.de/p/silvercrest-brat-und-auflaufform-gross-brat-und-backform-emaille/p100401279?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100401279",
+          "productDetails": {
+            "productId": "100401279",
+            "title": "SILVERCREST® Brat- und Auflaufform groß/ Brat- und Backform Emaille"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "ZENKER Back-Container Transporthaube",
+          "url": "https://www.lidl.de/p/zenker-back-container-transporthaube/p100344516?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100344516",
+          "productDetails": {
+            "productId": "100344516",
+            "title": "ZENKER Back-Container Transporthaube"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Küchenwaage",
+          "url": "https://www.lidl.de/p/silvercrest-kuchenwaage/p100409138?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100409138",
+          "productDetails": {
+            "productId": "100409138",
+            "title": "SILVERCREST® Küchenwaage"
+          }
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl Reisen-Angebote für eine Auszeit in Thailand (Phuket) sowie asiatische Produkte wie Kokosnusswasser, Wok-Nudeln, Krabbenchips, Sushi-Reis und Roku Gin.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://www.lidl.de/c/geschenkkarten/s10097063",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für asiatische Snacks und Zutaten, darunter Mie-Nudeln, Jasminreis, Reisessig, Mochi, Currypasten und Sriracha-Sauce.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=hackfleisch&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Putenhackfleisch",
+          "productDetails": null
+        },
+        {
+          "displayType": "product",
+          "title": "HENDRICK'S GIN Gin 44% Vol",
+          "url": "https://www.lidl.de/p/hendrick-s-gin-gin-44-vol/p100245071?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100245071",
+          "productDetails": {
+            "productId": "100245071",
+            "title": "HENDRICK'S GIN Gin 44% Vol"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "FANTINI Calalenta Merlot Rosato trocken, Roséwein 2025",
+          "url": "https://www.lidl.de/p/fantini-calalenta-merlot-rosato-trocken-rosewein-2025/p100376505?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100376505",
+          "productDetails": {
+            "productId": "100376505",
+            "title": "FANTINI Calalenta Merlot Rosato trocken, Roséwein 2025"
+          }
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl Werbeseite zur Auszeichnung für \"Höchste Kundentreue\" und als \"Preisfavorit\" im Bereich Lebensmittel-Discounter.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=karotten&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Moehren",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=Koteletts&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Schweinenackenkoteletts",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=Putenbrustschnitzel&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Putenbrustschnitzel",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=rumpsteak&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Rinderrumpsteak",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für haltbare Milch, Saupiquet Thunfisch, Jules Mumm Sekt, McCain Pommes und Meggle Butter zu Tiefpreisen.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?page=1&sortBy=relevance&collections=e2a2a46c-4566-4f5f-a685-3e17af8eae92&regions=f8c54e6f-68c9-435c-8774-1655b8de58ca&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Thema-Vitasia",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=garnelen&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=White-Tiger-Garnelen",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=glasnudeln&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Glasnudeln",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für Markenprodukte wie Tuc-Cracker, Salakis Schafskäse, Ritter Sport, Almdudler, Funny-Frisch Kesselchips und Ben & Jerry's Eis.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=udon&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Udonnudeln",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für Getränke und Snacks, darunter Coca-Cola, Lipton Eistee, Lätta, LikeMeat vegane Alternativen und Starbucks Kaffee.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=sojasauce&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Sojasauce",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=cashewkerne&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Cashewkerne",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://qr.lidl.com/polahhz1",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für Frischeprodukte und Kaffee, darunter Zottarella Minis, Henglein Pizzateig, Ehrmann Mousse, Krüger Cappuccino und Lavazza Kaffeekapseln.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=sushi&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Sushireis",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://www.lidl.de/c/spirituosen/s10068341",
+          "productDetails": null
+        },
+        {
+          "displayType": "product",
+          "title": "ROKU GIN The Japanese Craft Gin 43% Vol",
+          "url": "https://www.lidl.de/p/roku-gin-the-japanese-craft-gin-43-vol/p100244252?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100244252",
+          "productDetails": {
+            "productId": "100244252",
+            "title": "ROKU GIN The Japanese Craft Gin 43% Vol"
+          }
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl-Angebote für Drogerie- und Haushaltsartikel, darunter Mikado Schokostäbchen, Sensodyne Zahnpasta, WC-Frisch, Dr. Beckmann WC-Schaum und Coral Flüssigwaschmittel.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=jasminreis&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Jasminreis",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=reisessig&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Reisessig",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl Wochenend-Angebote mit Rabatten auf Red Bull, Chantré Weinbrand, Alesto Erdnüsse, Kerrygold Käse und eine Heißluftfritteuse.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=currypaste&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Currypaste",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl Reisen-Angebote für Urlaubsziele wie Rhodos (Griechenland), den Gardasee (Italien), eine Nilkreuzfahrt (Ägypten) und eine Schottland-Rundreise.",
+      "links": []
+    },
+    {
+      "number": 63,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl Fotos-Aktion für kreative Fotoprodukte wie Fotobücher im Digitaldruck mit einem Gutscheincode für versandkostenfreie Lieferung.",
+      "links": []
+    },
+    {
+      "number": 64,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Lidl Sponsoring-Seite für die Deutschland Tour mit Informationen zu den Etappen von Schwäbisch Hall bis Heilbronn im August.",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=sekt&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Jules-Mumm-Sekt",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=thunfisch&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Thunfischfilet",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=milch&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=H-Milch",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Seite 65 - Aktionsprospekt - 17.08.2026 – 22.08.2026",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=feta&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Schafkaese",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Seite 66 - Aktionsprospekt - 17.08.2026 – 22.08.2026",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=mozzarella&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Mozzarella",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Seite 67 - Aktionsprospekt - 17.08.2026 – 22.08.2026",
+      "links": []
+    },
+    {
+      "number": 68,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Seite 68 - Aktionsprospekt - 17.08.2026 – 22.08.2026",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://rezepte.lidl.de/alle-rezepte?q=erdnsse&utm_source=leaflet&utm_medium=referral&utm_campaign=dHZ_Link_KW34&utm_content=Erdnuesse",
+          "productDetails": null
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Heißluftfritteuse",
+          "url": "https://www.lidl.de/p/silvercrest-heissluftfritteuse/p100408836?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408836",
+          "productDetails": {
+            "productId": "100408836",
+            "title": "SILVERCREST® Heißluftfritteuse"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Heißluftfritteuse »SHFD 2000 D1«, 4,7 l",
+          "url": "https://www.lidl.de/p/silvercrest-heissluftfritteuse-shfd-2000-d1-4-7-l/p100399492?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100399492",
+          "productDetails": {
+            "productId": "100399492",
+            "title": "SILVERCREST® Heißluftfritteuse »SHFD 2000 D1«, 4,7 l"
+          }
+        },
+        {
+          "displayType": "product",
+          "title": "SILVERCREST® Heißluftfritteuse »SHFD 2000 D2«",
+          "url": "https://www.lidl.de/p/silvercrest-heissluftfritteuse-shfd-2000-d2/p100408839?flyx_source=pageflip&flyx_medium=intern&flyx_campaign=in-lf_d-lf-dhz_others_notset_wt_omc_d-lf-dhz_sl_170826-220826&flyx_content=p-100408839",
+          "productDetails": {
+            "productId": "100408839",
+            "title": "SILVERCREST® Heißluftfritteuse »SHFD 2000 D2«"
+          }
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Seite 69 - Aktionsprospekt - 17.08.2026 – 22.08.2026",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://www.lidl.de/c/newsletter-anmeldeseite/s10005754",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Seite 70 - Aktionsprospekt - 17.08.2026 – 22.08.2026",
+      "links": []
+    },
+    {
+      "number": 71,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Seite 71 - Aktionsprospekt - 17.08.2026 – 22.08.2026",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://www.lidl-fotos.de?utm_source=partner&utm_medium=Retail&utm_campaign=DHZ_KW34_2026",
+          "productDetails": null
+        },
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://www.lidl-fotos.de/",
+          "productDetails": null
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "type": "STANDARD",
+      "pageType": "page",
+      "keyWords": "",
+      "altText": "Seite 72 - Aktionsprospekt - 17.08.2026 – 22.08.2026",
+      "links": [
+        {
+          "displayType": "standard",
+          "title": "Link",
+          "url": "https://www.lidl.de/c/lidl-deutschland-tour/s10098240",
+          "productDetails": null
+        }
+      ]
+    }
+  ]
+}
