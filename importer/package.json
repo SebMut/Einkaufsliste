@@ -11,7 +11,7 @@
     "fallback": "node fallback.js",
     "history": "node price-history.js",
     "history:backfill": "node history-backfill.js",
-    "test": "node --test product-normalizer.test.js semantic-edge-cases.test.js semantic-live-audit.test.js market-policy.test.js product-identity.test.js frontend-smoke.test.js"
+    "test": "node --test product-normalizer.test.js semantic-edge-cases.test.js semantic-live-audit.test.js safety-regression.test.js market-policy.test.js product-identity.test.js frontend-smoke.test.js"
   },
   "dependencies": {
     "playwright": "1.55.0",
