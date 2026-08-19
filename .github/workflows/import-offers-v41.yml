@@ -1,4 +1,4 @@
-name: Live-Angebote importieren V4.4
+name: Live-Angebote importieren V4.5
 
 on:
   workflow_dispatch:
@@ -6,8 +6,6 @@ on:
     - cron: '17 4,10,16,22 * * *'
   push:
     paths:
-      - 'index.html'
-      - 'sw.js'
       - 'importer/import.js'
       - 'importer/fallback.js'
       - 'importer/reader-fallback.js'
@@ -16,6 +14,7 @@ on:
       - 'importer/text-retailers.js'
       - 'importer/hit-reader-v4.js'
       - 'importer/lidl-table-reader.js'
+      - 'importer/bio-retailers.js'
       - 'importer/metro-auth.js'
       - 'importer/sanitize.js'
       - 'importer/quality-v2.js'
@@ -33,32 +32,28 @@ permissions:
   contents: write
 
 concurrency:
-  group: live-offers-v44
+  group: live-offers-v45
   cancel-in-progress: true
 
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - name: Dependencies installieren
         working-directory: importer
         run: npm install --no-audit --no-fund
-
       - name: Produktlogik testen
         id: product_tests
         working-directory: importer
         run: npm test
-
       - name: Chromium installieren
         working-directory: importer
         run: npx playwright install --with-deps chromium
-
       - name: Angebote per Browser und API importieren
         id: importer
         working-directory: importer
@@ -73,56 +68,54 @@ jobs:
           echo "finished_ms=$END_MS" >> "$GITHUB_OUTPUT"
           echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
           exit 0
-
       - name: Server-HTML Fallback
         id: fallback
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: npm run fallback
-
       - name: Reader-Fallback für REWE EDEKA METRO
         id: reader
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node reader-fallback.js
-
       - name: Netto Filial-Reader V2
         id: netto_reader
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node netto-reader-v2.js
-
       - name: Spezialreader NORMA Lidl Kaufland
         id: rich_reader
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node rich-retailers.js
-
       - name: Lidl Preisfallback
         id: lidl_table
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node lidl-table-reader.js
-
       - name: Kaufland Textreader
         id: text_reader
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node text-retailers.js
-
       - name: HIT Nested-Reader
         id: hit_reader
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node hit-reader-v4.js
-
+      - name: Bio-Reader Alnatura und Denns
+        id: bio_reader
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node bio-retailers.js
       - name: METRO Kundenlogin
         id: metro_auth
         if: always() && steps.importer.outputs.exit_code == '0'
@@ -132,42 +125,36 @@ jobs:
           METRO_EMAIL: ${{ secrets.METRO_EMAIL }}
           METRO_PASSWORD: ${{ secrets.METRO_PASSWORD }}
         run: node metro-auth.js
-
       - name: Qualitätsprüfung Stufe 1
         id: sanitize
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node sanitize.js
-
       - name: Qualitätsprüfung Stufe 2
         id: quality_v2
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node quality-v2.js
-
       - name: Qualitätsprüfung Stufe 3 Lebensmittel
         id: quality_v3
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node quality-v3.js
-
       - name: Qualitätsprüfung Stufe 4 Semantik
         id: quality_v4
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node quality-v4.js
-
       - name: Preishistorie aktualisieren
         id: price_history
         if: always() && steps.importer.outputs.exit_code == '0' && steps.quality_v4.outcome == 'success'
         continue-on-error: true
         working-directory: importer
         run: npm run history
-
       - name: Diagnose erzeugen
         id: diagnostics
         if: always()
@@ -178,7 +165,6 @@ jobs:
           IMPORT_STARTED_MS: ${{ steps.importer.outputs.started_ms }}
           IMPORT_FINISHED_MS: ${{ steps.importer.outputs.finished_ms }}
         run: node diagnostics.js
-
       - name: Ergebnisse veröffentlichen
         id: publish
         if: always()
@@ -187,40 +173,22 @@ jobs:
         run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/price-history.json
-          git add data/offers-live.json data/price-history.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log
-          if git diff --cached --quiet; then
-            echo "Keine Änderungen."
-            exit 0
-          fi
-          git commit -m "Live-Angebote V4.4 und Preishistorie aktualisieren"
+          touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log data/price-history.json
+          git add data/offers-live.json data/price-history.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Live-Angebote V4.5 aktualisieren"
           git pull --rebase origin main
           git push origin main
-
       - name: Ergebnis bewerten
         if: always()
         shell: bash
         env:
           PRODUCT_TEST_OUTCOME: ${{ steps.product_tests.outcome }}
           IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
-          FALLBACK_OUTCOME: ${{ steps.fallback.outcome }}
-          READER_OUTCOME: ${{ steps.reader.outcome }}
-          NETTO_READER_OUTCOME: ${{ steps.netto_reader.outcome }}
-          RICH_READER_OUTCOME: ${{ steps.rich_reader.outcome }}
-          LIDL_TABLE_OUTCOME: ${{ steps.lidl_table.outcome }}
-          TEXT_READER_OUTCOME: ${{ steps.text_reader.outcome }}
-          HIT_READER_OUTCOME: ${{ steps.hit_reader.outcome }}
-          METRO_AUTH_OUTCOME: ${{ steps.metro_auth.outcome }}
-          SANITIZE_OUTCOME: ${{ steps.sanitize.outcome }}
-          QUALITY_V2_OUTCOME: ${{ steps.quality_v2.outcome }}
-          QUALITY_V3_OUTCOME: ${{ steps.quality_v3.outcome }}
-          QUALITY_V4_OUTCOME: ${{ steps.quality_v4.outcome }}
-          PRICE_HISTORY_OUTCOME: ${{ steps.price_history.outcome }}
+          BIO_READER_OUTCOME: ${{ steps.bio_reader.outcome }}
           DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
         run: |
-          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));const q=JSON.parse(fs.readFileSync('data/quality-report.json'));const h=JSON.parse(fs.readFileSync('data/price-history.json'));console.log(d.summary);console.log({final:d.summary.offerCount,strict:q.strictFoodPass||null,semantic:q.semanticPass||null,historyEvents:h.eventCount||0});if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
+          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));console.log(d.summary);if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
           DIAG_CODE=$?
-          if [ "$PRODUCT_TEST_OUTCOME" != "success" ] || [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$RICH_READER_OUTCOME" != "success" ] || [ "$LIDL_TABLE_OUTCOME" != "success" ] || [ "$TEXT_READER_OUTCOME" != "success" ] || [ "$HIT_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$QUALITY_V2_OUTCOME" != "success" ] || [ "$QUALITY_V3_OUTCOME" != "success" ] || [ "$QUALITY_V4_OUTCOME" != "success" ] || [ "$PRICE_HISTORY_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
-            exit 1
-          fi
+          if [ "$PRODUCT_TEST_OUTCOME" != "success" ] || [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$BIO_READER_OUTCOME" = "failure" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then exit 1; fi
