@@ -1,22 +1,26 @@
 # AngebotsRadar 85622
 
-V1 einer mobilen Web-App zum lokalen Lebensmittel-Angebotsvergleich rund um **85622 Feldkirchen (10 km)**.
+V2 einer mobilen Web-App zum lokalen Lebensmittel-Angebotsvergleich rund um **85622 Feldkirchen (10 km)**.
 
-## V1
+## V2
 
 - responsive Web-App / PWA
 - Händler- und Kategorie-Filter
 - Produktsuche
 - Vergleich von Angebotspreis und Grundpreis
-- Kennzeichnung des besten Grundpreises je Produkt
+- **Bio wird immer gegenüber konventionell priorisiert**
+- pro Produkt wird das günstigste Bio-Angebot als Empfehlung gezeigt
+- direkt daneben: günstigster konventioneller Preis inklusive Markt
+- Anzeige des Bio-Aufpreises in Euro und Prozent
+- wenn kein Bio-Angebot vorhanden ist, wird automatisch das günstigste konventionelle Angebot verwendet
 - optionale App- und Couponpreise
 - lokale Einkaufsliste im Browser
-- Optimierung der Einkaufsliste auf die günstigsten Demo-Angebote
+- Einkaufsliste nutzt dieselbe Bio-Priorität und zeigt konventionelle Alternativen
 - vorbereitet für REWE, EDEKA, PENNY, HIT, ALDI SÜD, Lidl, Netto und NORMA
 
 ## Datenstatus
 
-Die V1 enthält **ausschließlich Demo-Angebote**. Sie stellt keine aktuellen Händlerpreise dar. Das automatische Einlesen der aktuellen Prospekte/Angebotsseiten ist für die nächste Stufe vorgesehen und benötigt ein Backend bzw. Importer.
+Die V2 enthält weiterhin **Demo-Angebote**. Sie stellt noch keine aktuellen Händlerpreise dar. Die Live-Prospekt-/Angebotsimporte werden als eigener Datenimport angebunden.
 
 ## GitHub Pages
 
