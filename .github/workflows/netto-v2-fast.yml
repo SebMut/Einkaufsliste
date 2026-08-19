@@ -1,0 +1,36 @@
+name: Netto V2 Schnelltest
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'importer/netto-reader-v2.js'
+      - '.github/workflows/netto-v2-fast.yml'
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Netto V2
+        working-directory: importer
+        run: node netto-reader-v2.js
+      - name: Qualität
+        working-directory: importer
+        run: |
+          node sanitize.js
+          node quality-v2.js
+          node quality-v3.js
+          node quality-v4.js
+      - name: Publish
+        run: |
+          git config user.name "AngebotsRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/offers-live.json data/quality-report.json data/netto-v2.log
+          git commit -m "Netto V2 Angebote aktualisieren" || exit 0
+          git pull --rebase origin main
+          git push origin main
