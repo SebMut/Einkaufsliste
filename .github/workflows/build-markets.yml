@@ -14,6 +14,7 @@ on:
       - 'importer/product-identity.test.js'
       - 'importer/catalog-import.js'
       - 'importer/mueller-catalog.js'
+      - 'importer/orterer-import.js'
       - 'importer/catalog-merge.js'
       - 'importer/history-backfill.js'
       - 'importer/price-history.js'
@@ -56,6 +57,9 @@ jobs:
       - name: Offiziellen MÜLLER-Teilkatalog importieren
         working-directory: importer
         run: node mueller-catalog.js
+      - name: Offizielle Orterer-Preisdaten importieren
+        working-directory: importer
+        run: node orterer-import.js
       - name: Katalog und Angebote zusammenführen und Marktgrenze erzwingen
         working-directory: importer
         run: npm run merge
@@ -80,8 +84,9 @@ jobs:
           const badProducts=(live.offers||[]).filter(o=>!isAllowedMarket(o));
           const badHistory=(history.events||[]).filter(e=>e.activeMarket===false);
           const invalidRiem=(markets.markets||[]).filter(m=>/riem/i.test(m.market||'')&&!m.isRiemArcaden);
-          if(badMarkets.length||badProducts.length||badHistory.length||invalidRiem.length){
-            console.error({badMarkets:badMarkets.length,badProducts:badProducts.length,badHistory:badHistory.length,invalidRiem:invalidRiem.length});
+          const invalidSources=(live.sources||[]).filter(s=>!isAllowedMarket(s));
+          if(badMarkets.length||badProducts.length||badHistory.length||invalidRiem.length||invalidSources.length){
+            console.error({badMarkets:badMarkets.length,badProducts:badProducts.length,badHistory:badHistory.length,invalidRiem:invalidRiem.length,invalidSources:invalidSources.length});
             process.exit(1);
           }
           console.log(`Validiert: ${markets.markets.length} Filialen, ${live.productCount??live.offers.length} Produkte, ${live.offerCount??0} Angebote, ${catalog.productCount??0} Katalogprodukte, ${history.eventCount??history.events.length} aktive Preisereignisse.`);

@@ -1,4 +1,5 @@
 [
   {"store":"V-Markt","market":"Region München","address":"Balanstraße 50, 81541 München","url":"https://www.v-markt.de/angebote/muenchen","scope":"regional","type":"Supermarkt","importStatus":"partial"},
-  {"store":"MÜLLER","market":"München-Riem Arcaden","address":"Willy-Brandt-Platz 5, 81829 München","url":"https://www.mueller.de/c/drogerie/alle-drogerie-produkte/","scope":"regional","type":"Drogerie","importStatus":"partial","isRiemArcaden":true}
+  {"store":"MÜLLER","market":"München-Riem Arcaden","address":"Willy-Brandt-Platz 5, 81829 München","url":"https://www.mueller.de/c/drogerie/alle-drogerie-produkte/","scope":"regional","type":"Drogerie","importStatus":"partial","isRiemArcaden":true},
+  {"store":"Orterer","market":"Feldkirchen","address":"Hohenlindner Str. 6, 85622 Feldkirchen","url":"https://www.orterer.de/","scope":"market","type":"Getränkemarkt","importStatus":"supported"}
 ]

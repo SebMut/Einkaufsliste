@@ -1,4 +1,4 @@
-name: Live-Angebote importieren V5.0
+name: Live-Angebote importieren V5.1
 
 on:
   workflow_dispatch:
@@ -15,6 +15,7 @@ on:
       - 'importer/hit-reader-v4.js'
       - 'importer/lidl-table-reader.js'
       - 'importer/bio-retailers.js'
+      - 'importer/orterer-import.js'
       - 'importer/metro-auth.js'
       - 'importer/sanitize.js'
       - 'importer/quality-v2.js'
@@ -38,7 +39,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: live-offers-v50
+  group: live-offers-v51
   cancel-in-progress: true
 
 jobs:
@@ -155,6 +156,12 @@ jobs:
         continue-on-error: true
         working-directory: importer
         run: node quality-v4.js
+      - name: Orterer offizielle Preisdaten
+        id: orterer
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node orterer-import.js
       - name: Strikte Markt-Whitelist und regulären Katalog erzwingen
         id: market_guard
         if: always() && steps.importer.outputs.exit_code == '0'
@@ -187,7 +194,7 @@ jobs:
           touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log data/price-history.json
           git add data/offers-live.json data/price-history.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Live-Produkte und Angebote V5.0 aktualisieren [skip ci]"
+          git commit -m "Live-Produkte und Angebote V5.1 aktualisieren [skip ci]"
           git pull --rebase origin main
           git push origin main
       - name: Ergebnis bewerten
