@@ -71,6 +71,13 @@ jobs:
         working-directory: importer
         run: node netto-reader.js
 
+      - name: Spezialreader HIT Kaufland NORMA Lidl
+        id: rich_reader
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node rich-retailers.js
+
       - name: METRO Kundenlogin
         id: metro_auth
         if: always() && steps.importer.outputs.exit_code == '0'
@@ -133,6 +140,7 @@ jobs:
           FALLBACK_OUTCOME: ${{ steps.fallback.outcome }}
           READER_OUTCOME: ${{ steps.reader.outcome }}
           NETTO_READER_OUTCOME: ${{ steps.netto_reader.outcome }}
+          RICH_READER_OUTCOME: ${{ steps.rich_reader.outcome }}
           METRO_AUTH_OUTCOME: ${{ steps.metro_auth.outcome }}
           SANITIZE_OUTCOME: ${{ steps.sanitize.outcome }}
           QUALITY_V2_OUTCOME: ${{ steps.quality_v2.outcome }}
@@ -141,6 +149,6 @@ jobs:
         run: |
           node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));console.log(d.summary);const q=JSON.parse(fs.readFileSync('data/quality-report.json'));console.log({quality:q.after,rejected:q.rejected,repaired:q.repaired,finalPass:q.finalPass||null});if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
           DIAG_CODE=$?
-          if [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$QUALITY_V2_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
+          if [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$RICH_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$QUALITY_V2_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
             exit 1
           fi
