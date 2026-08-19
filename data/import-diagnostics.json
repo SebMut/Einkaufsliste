@@ -1,17 +1,17 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-19T15:17:51.551Z",
+  "generatedAt": "2026-08-19T15:48:25.729Z",
   "run": {
-    "id": "32269081199",
+    "id": "32271994658",
     "attempt": "1",
     "event": "push",
-    "sha": "393488e2366252a6a3fd3514ad9cf701950e4abf",
+    "sha": "44dc02b59685e3721830bd3660ad36328f3d1836",
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 99,
     "status": "failed",
-    "startedAt": "2026-08-19T15:17:51.551Z",
-    "finishedAt": "2026-08-19T15:17:51.551Z",
+    "startedAt": "2026-08-19T15:48:25.729Z",
+    "finishedAt": "2026-08-19T15:48:25.729Z",
     "durationMs": 0
   },
   "summary": {

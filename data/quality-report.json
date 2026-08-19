@@ -1,391 +1,75 @@
 {
-  "generatedAt": "2026-08-19T15:45:29.894Z",
-  "before": 350,
-  "after": 340,
-  "rejected": 10,
-  "repaired": 264,
+  "generatedAt": "2026-08-19T15:48:25.582Z",
+  "before": 378,
+  "after": 372,
+  "rejected": 6,
+  "repaired": 330,
   "rejectedReasons": {
-    "name_length": 8,
-    "quantity_as_name": 1,
-    "invalid_unit": 1
+    "duplicate": 2,
+    "name_no_letters": 4
   },
   "storeBefore": {
+    "HIT": 80,
     "EDEKA": 11,
     "ALDI SÜD": 26,
-    "NORMA": 45,
     "PENNY": 51,
     "dm": 30,
     "ROSSMANN": 18,
     "REWE": 10,
-    "Netto": 2,
+    "Netto": 8,
     "Lidl": 1,
-    "Kaufland": 20,
-    "HIT": 136
+    "NORMA": 121,
+    "Kaufland": 22
   },
   "storeAfter": {
+    "HIT": 80,
     "EDEKA": 11,
     "ALDI SÜD": 26,
-    "NORMA": 45,
     "PENNY": 51,
     "dm": 30,
     "ROSSMANN": 18,
     "REWE": 10,
     "Netto": 2,
     "Lidl": 1,
-    "Kaufland": 20,
-    "HIT": 126
+    "NORMA": 121,
+    "Kaufland": 22
   },
   "rejectedExamples": [
     {
-      "store": "HIT",
-      "name": "Grand Cru du Jurassic, Cyrano pur Schaf, Brügge alt, Postel Alt Franz./Belg. Hart-/ Schnittkäse 50 % Fett i. Tr., würzig oder mild 2,5-12 Monate gereift",
-      "reason": "name_length"
+      "store": "Netto",
+      "name": "1.- / kg",
+      "reason": "name_no_letters"
     },
     {
-      "store": "HIT",
-      "name": "Jakobskäse, Koch Montchic Young Talent, Goldbach der Cremige Schweizer Hart-/ Schnitkäse 55-58 % Fett i. Tr., würzig oder mild 3-6 Monate gereift",
-      "reason": "name_length"
+      "store": "Netto",
+      "name": "3.96 / kg",
+      "reason": "name_no_letters"
     },
     {
-      "store": "HIT",
-      "name": "Deutsche frische Hähnchenbrustfilet oder Putenschnitzel/ Steaks aus der zarten, mageren Brust, natur von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik",
-      "reason": "name_length"
+      "store": "Netto",
+      "name": "9.- – 11.38 / kg",
+      "reason": "name_no_letters"
     },
     {
-      "store": "HIT",
-      "name": "Deutsches mariniertes Hähnchenbrustfilet, Putensteak/ Schnitzel, Spieße versch. Sorten von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "Niederlande Gourmet HIT Cocktailstrauchtomaten Sorte: Annico Klasse I leicht süßes, festes Fruchtfleisch, zum Rohverzehr oder im Salat geeignet",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "3 Glocken Genuss Pur Hartweizennudeln oder Birkel No. 1 Hartweizen Eiernudeln versch. Ausformungen",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "HIT",
-      "name": "Deutsche marinierte Fixe Schnitzel aus der Puten-, Hähnchenbrustfilet ca. 400 g SB-Packung, versch. Sorten von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "Settele Spätzle, Schupfnudeln oder Gnocchi versch. Sorten 1 kg Packung",
-      "reason": "invalid_unit"
-    },
-    {
-      "store": "HIT",
-      "name": "Schloss Sommerau alkoholfrei oder Rotwild Rebsortenweine mittelkräftig, fruchtige Aromen, samtig und rund, trocken, halbtrocken, lieblich. alkoholfrei",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "Torres Viña Sol, Sangre de Toro oder Mucho Más Tinto mittelkräftig, dezente Aromen reifer exotischer Früchte, wenig Säure, trocken. auch alkoholfrei",
-      "reason": "name_length"
+      "store": "Netto",
+      "name": "1.- / l",
+      "reason": "name_no_letters"
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T15:45:29.974Z",
-    "before": 340,
-    "after": 333,
-    "rejected": 7,
-    "repaired": 16,
+    "generatedAt": "2026-08-19T15:48:25.676Z",
+    "before": 372,
+    "after": 371,
+    "rejected": 1,
+    "repaired": 60,
     "rejectedReasons": {
-      "name": 7
+      "name": 1
     },
     "rejectedExamples": [
       {
         "store": "Kaufland",
         "name": "![Image 24: LANDLIEBE Haltbare Landmilch, fettarm, 1,5 % Fett LANDLIEBE Haltbare Landmilch, fettarm, 1,5 % Fett je 1-l-Packg.",
         "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "Marokko/Kenia Bio HIT Avocado Sorte: Hass Klasse II die Butter des Waldes, besonders nussiges Aroma, als Brotaufstrich oder zum Salat Stück",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "III Freunde Rebsortenweine verschiedene Sorten mittelkräftig, Aromen von gelben Früchten, frisch, trocken. auch alkoholfrei",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "Ziegenkäse Arina jung Hollandse Geitenkaas g.g.A. Holl. Schnittkäse aus Ziegenmilch 50 % Fett i. Tr., mild 4 Wochen gereift",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "Markus Molitor Riesling oder Kruger-Rumpf Grauburgunder Mosel/Nahe, mittelkräftig, fruchtige Aromen, dezente Säure, trocken.",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "Recas Speis & Trank Rebsortenweine oder Riunite Lambrusco mittelkräftig, fruchtige Aromen, frisch, trocken oder lieblich.",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "Deutscher gefüllter Spießbraten, marinierter Knoblauch-Saftbraten vom Schweinenacken ohne Knochen, küchenfertig zubereitet",
-        "reason": "name"
-      }
-    ]
-  },
-  "strictFoodPass": {
-    "generatedAt": "2026-08-19T15:45:30.046Z",
-    "before": 333,
-    "after": 289,
-    "rejected": 44,
-    "repaired": 19,
-    "reasons": {
-      "markdown": 24,
-      "not_food": 15,
-      "nonfood": 1,
-      "duplicate": 4
-    },
-    "rejectedExamples": [
-      {
-        "store": "HIT",
-        "name": "Pink Lady Apfelmus 350 g Glas Image 202",
-        "cleaned": "Pink Lady Apfelmus 350 g Glas Image 202",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Pink Lady Apfelmus 350 g Glas Image 202",
-        "cleaned": "Pink Lady Apfelmus 350 g Glas Image 202",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Argentinisches frisches Entrecôte",
-        "cleaned": "Argentinisches frisches Entrecôte",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Beck´s oder Jever versch. Sorten Kasten: 20 x 0,5l / 24 x 0,33l* Flaschen",
-        "cleaned": "Beck´s oder Jever versch. Sorten Kasten: 20 x 0,5l / 24 x 0,33l* Flaschen",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Blaufränkisch Trilogie versch. Sorten Mittelkräftig, Aromen von roten Früchten, frisch und rund, trocken.",
-        "cleaned": "Blaufränkisch Trilogie versch. Sorten Mittelkräftig, Aromen von roten Früchten, frisch und rund, trocken.",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Campofrio Tapas Chorizo Griller versch. Sorten",
-        "cleaned": "Campofrio Tapas Chorizo Griller versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Capri-Sun versch. Sorten",
-        "cleaned": "Capri-Sun versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Costa Lachsfilets tiefgefroren 3 x 140 g Packung Image 182",
-        "cleaned": "Costa Lachsfilets tiefgefroren 3 x 140 g Packung Image 182",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Costa Lachsfilets tiefgefroren 3 x 140 g Packung Image 182",
-        "cleaned": "Costa Lachsfilets tiefgefroren 3 x 140 g Packung Image 182",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Danone Activia versch. Sorten",
-        "cleaned": "Danone Activia versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Dolianova Vermentino di Sardegna, Cacciata Vermentino oder Cecchi Chianti Natio mittelkräftig, dezente Aromen, trocken",
-        "cleaned": "Dolianova Vermentino di Sardegna, Cacciata Vermentino oder Cecchi Chianti Natio mittelkräftig, dezente Aromen, trocken",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Eszet-Schnitten versch. Sorten 75 g Tafel",
-        "cleaned": "Eszet-Schnitten versch. Sorten 75 g Tafel",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Flensburger versch. Sorten",
-        "cleaned": "Flensburger versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Kühne Gewürzgurken versch. Sorten 670 g Glas Image 196",
-        "cleaned": "Kühne Gewürzgurken versch. Sorten 670 g Glas Image 196",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Kühne Gewürzgurken versch. Sorten 670 g Glas Image 196",
-        "cleaned": "Kühne Gewürzgurken versch. Sorten 670 g Glas Image 196",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Gazi Grill- und Pfannenkäse oder Kasar Peyniri versch. Sorten",
-        "cleaned": "Gazi Grill- und Pfannenkäse oder Kasar Peyniri versch. Sorten",
-        "reason": "nonfood"
-      },
-      {
-        "store": "HIT",
-        "name": "Leimer Croutons versch. Sorten",
-        "cleaned": "Leimer Croutons versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 14",
-        "cleaned": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 14",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 170",
-        "cleaned": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 170",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 14",
-        "cleaned": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 14",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 170",
-        "cleaned": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 170",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Müllermilch versch. Sorten 400 ml Flasche Image 190",
-        "cleaned": "Müllermilch versch. Sorten 400 ml Flasche Image 190",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Müllermilch versch. Sorten 400 ml Flasche Image 190",
-        "cleaned": "Müllermilch versch. Sorten 400 ml Flasche Image 190",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Mutti Pesto oder Pastasauce versch. Sorten 400-180 g Glas Image 198",
-        "cleaned": "Mutti Pesto oder Pastasauce versch. Sorten 400-180 g Glas Image 198",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Mutti Pesto oder Pastasauce versch. Sorten 400-180 g Glas Image 198",
-        "cleaned": "Mutti Pesto oder Pastasauce versch. Sorten 400-180 g Glas Image 198",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Oatly Haferdrink versch. Sorten 1 l Packung Image 16",
-        "cleaned": "Oatly Haferdrink versch. Sorten 1 l Packung Image 16",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Oatly Haferdrink versch. Sorten 1 l Packung Image 16",
-        "cleaned": "Oatly Haferdrink versch. Sorten 1 l Packung Image 16",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Oatly Haferdrink versch. Sorten 1 l Packung Image 172",
-        "cleaned": "Oatly Haferdrink versch. Sorten 1 l Packung Image 172",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Oatly Haferdrink versch. Sorten 1 l Packung Image 172",
-        "cleaned": "Oatly Haferdrink versch. Sorten 1 l Packung Image 172",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Rapso Reines Rapsöl 750 ml Flasche Image 200",
-        "cleaned": "Rapso Reines Rapsöl 750 ml Flasche Image 200",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Rapso Reines Rapsöl 750 ml Flasche Image 200",
-        "cleaned": "Rapso Reines Rapsöl 750 ml Flasche Image 200",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Osborne Veterano, Hierbas Túnel de Mallorca oder Badel Sljivovica 30/40% vol. 0,7/0,5 l Flasche",
-        "cleaned": "Osborne Veterano, Hierbas Túnel de Mallorca oder Badel Sljivovica 30/40% vol. 0,7/0,5 l Flasche",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Gustavo Gusto Pizza versch. Sorten, tiefgefroren 480-410 g Packung Image 184",
-        "cleaned": "Gustavo Gusto Pizza versch. Sorten, tiefgefroren 480-410 g Packung Image 184",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Gustavo Gusto Pizza versch. Sorten, tiefgefroren 480-410 g Packung Image 184",
-        "cleaned": "Gustavo Gusto Pizza versch. Sorten, tiefgefroren 480-410 g Packung Image 184",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Rauch happy day 1 l oder hohes C super shots 0,33 l versch. Sorten",
-        "cleaned": "Rauch happy day 1 l oder hohes C super shots 0,33 l versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Duplo oder Kinder Riegel 210-182 g Packung Image 206",
-        "cleaned": "Duplo oder Kinder Riegel 210-182 g Packung Image 206",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Duplo oder Kinder Riegel 210-182 g Packung Image 206",
-        "cleaned": "Duplo oder Kinder Riegel 210-182 g Packung Image 206",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Sinalco 12x1 l PET oder Bionade 12x0,33 l Glas versch. Sorten",
-        "cleaned": "Sinalco 12x1 l PET oder Bionade 12x0,33 l Glas versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Spaten Münchner Hell",
-        "cleaned": "Spaten Münchner Hell",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "true fruits versch. Sorten Glasflasche",
-        "cleaned": "true fruits versch. Sorten Glasflasche",
-        "reason": "not_food"
       }
     ]
   }
