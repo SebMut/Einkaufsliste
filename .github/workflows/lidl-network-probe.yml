@@ -1,0 +1,35 @@
+name: Lidl Network Probe
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'importer/lidl-network-probe.js'
+      - '.github/workflows/lidl-network-probe.yml'
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Dependencies
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+      - name: Chromium
+        working-directory: importer
+        run: npx playwright install --with-deps chromium
+      - name: Probe
+        working-directory: importer
+        run: node lidl-network-probe.js
+      - name: Publish
+        run: |
+          git config user.name "AngebotsRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/lidl-network.log
+          git commit -m "Lidl Leaflet-Netzwerkprobe aktualisieren" || exit 0
+          git pull --rebase origin main
+          git push origin main
