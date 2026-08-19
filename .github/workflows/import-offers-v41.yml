@@ -1,4 +1,4 @@
-name: Live-Angebote importieren V4.5
+name: Live-Angebote importieren V5.0
 
 on:
   workflow_dispatch:
@@ -22,17 +22,23 @@ on:
       - 'importer/quality-v4.js'
       - 'importer/product-normalizer.js'
       - 'importer/product-normalizer.test.js'
+      - 'importer/product-identity.js'
+      - 'importer/product-identity.test.js'
+      - 'importer/market-policy.js'
+      - 'importer/market-policy.test.js'
+      - 'importer/catalog-merge.js'
       - 'importer/price-history.js'
       - 'importer/diagnostics.js'
       - 'importer/package.json'
       - 'data/markets.json'
+      - 'data/catalog/**'
       - '.github/workflows/import-offers-v41.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: live-offers-v45
+  group: live-offers-v50
   cancel-in-progress: true
 
 jobs:
@@ -47,7 +53,7 @@ jobs:
       - name: Dependencies installieren
         working-directory: importer
         run: npm install --no-audit --no-fund
-      - name: Produktlogik testen
+      - name: Produktlogik und Markt-Whitelist testen
         id: product_tests
         working-directory: importer
         run: npm test
@@ -149,9 +155,14 @@ jobs:
         continue-on-error: true
         working-directory: importer
         run: node quality-v4.js
+      - name: Strikte Markt-Whitelist und regulären Katalog erzwingen
+        id: market_guard
+        if: always() && steps.importer.outputs.exit_code == '0'
+        working-directory: importer
+        run: npm run merge
       - name: Preishistorie aktualisieren
         id: price_history
-        if: always() && steps.importer.outputs.exit_code == '0' && steps.quality_v4.outcome == 'success'
+        if: always() && steps.importer.outputs.exit_code == '0' && steps.market_guard.outcome == 'success'
         continue-on-error: true
         working-directory: importer
         run: npm run history
@@ -167,7 +178,7 @@ jobs:
         run: node diagnostics.js
       - name: Ergebnisse veröffentlichen
         id: publish
-        if: always()
+        if: always() && steps.market_guard.outcome == 'success'
         continue-on-error: true
         shell: bash
         run: |
@@ -176,7 +187,7 @@ jobs:
           touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log data/price-history.json
           git add data/offers-live.json data/price-history.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Live-Angebote V4.5 aktualisieren"
+          git commit -m "Live-Produkte und Angebote V5.0 aktualisieren [skip ci]"
           git pull --rebase origin main
           git push origin main
       - name: Ergebnis bewerten
@@ -185,10 +196,10 @@ jobs:
         env:
           PRODUCT_TEST_OUTCOME: ${{ steps.product_tests.outcome }}
           IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
-          BIO_READER_OUTCOME: ${{ steps.bio_reader.outcome }}
+          MARKET_GUARD_OUTCOME: ${{ steps.market_guard.outcome }}
           DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
         run: |
           node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));console.log(d.summary);if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
           DIAG_CODE=$?
-          if [ "$PRODUCT_TEST_OUTCOME" != "success" ] || [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$BIO_READER_OUTCOME" = "failure" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then exit 1; fi
+          if [ "$PRODUCT_TEST_OUTCOME" != "success" ] || [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$MARKET_GUARD_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then exit 1; fi
