@@ -28,7 +28,6 @@ if (!EMAIL || !PASSWORD) {
 
 const FOOD = /milch|butter|joghurt|käse|quark|sahne|eier|fleisch|rind|schwein|hähnchen|pute|wurst|schinken|salami|fisch|lachs|garnelen|obst|gemüse|tomat|paprika|gurke|kartoff|zwiebel|apfel|äpfel|banane|beeren|trauben|kaffee|tee|brot|brötchen|nudel|pasta|reis|mehl|zucker|öl|pizza|pommes|wasser|saft|cola|bier|wein|sekt|schokolade|keks|chips|snack|eis|bio/i;
 const REJECT = /fernseher|werkzeug|geschirr|möbel|stuhl|tisch|pfanne|topf|messer|akku|bohrer|drucker|monitor|lampe|reinigungsgerät|textil/i;
-
 const num = s => Number(String(s).replace(/\./g,'').replace(',','.').replace(/[^0-9.]/g,''));
 const clean = s => String(s || '').replace(/\s+/g,' ').trim();
 
@@ -75,6 +74,8 @@ function grossPrice(text, grossMode) {
   const explicit = text.match(/(?:brutto|inkl\.?\s*mwst\.?)[^0-9]{0,20}(\d+[.,]\d{2})\s*€/i);
   if (explicit) return num(explicit[1]);
   const vals = [...text.matchAll(/(\d+[.,]\d{2})\s*€/g)].map(m=>num(m[1])).filter(v=>v>0.05&&v<500);
+  // Wenn Netto und Brutto gemeinsam vorkommen, ist der höhere Wert für unseren
+  // Endkundenvergleich der relevante Bruttopreis (7 % oder 19 % MwSt.).
   for (let i=0;i<vals.length;i++) for(let j=i+1;j<vals.length;j++) {
     const lo=Math.min(vals[i],vals[j]), hi=Math.max(vals[i],vals[j]), r=hi/lo;
     if ((r>1.055&&r<1.085)||(r>1.175&&r<1.205)) return hi;
@@ -98,69 +99,101 @@ const browser = await chromium.launch({headless:true});
 const context = await browser.newContext({locale:'de-DE', timezoneId:'Europe/Berlin'});
 let page = await context.newPage();
 
-async function clickIf(textRe) {
-  const loc = page.getByRole('button', {name:textRe}).or(page.getByRole('link',{name:textRe})).first();
-  if (await loc.count()) { try { await loc.click({timeout:2500}); return true; } catch {} }
+async function clickAcrossFrames(re, timeout=2500) {
+  for (const frame of page.frames()) {
+    const candidates = [
+      frame.getByRole('button', {name:re}).first(),
+      frame.getByRole('link', {name:re}).first(),
+      frame.getByText(re).first()
+    ];
+    for (const loc of candidates) {
+      try { if (await loc.count()) { await loc.click({timeout}); return true; } } catch {}
+    }
+  }
   return false;
 }
 
-try {
-  await page.goto('https://www.metro.de/angebote', {waitUntil:'domcontentloaded', timeout:45000});
-  await clickIf(/alle akzeptieren|akzeptieren|zustimmen/i);
-
-  const oldPages = context.pages().length;
-  await clickIf(/jetzt einloggen|einloggen|anmelden/i);
-  await page.waitForTimeout(1200);
-  if (context.pages().length > oldPages) page = context.pages().at(-1);
-
-  let email = page.locator('input[type="email"], input[name*="email" i], input[name*="user" i], input[autocomplete="username"]').first();
-  if (!await email.count()) {
-    await page.waitForTimeout(1500);
-    email = page.locator('input[type="email"], input[name*="email" i], input[name*="user" i], input[autocomplete="username"]').first();
+async function findInput(selectors, timeoutMs=15000) {
+  const end = Date.now()+timeoutMs;
+  while (Date.now()<end) {
+    for (const frame of page.frames()) {
+      for (const sel of selectors) {
+        try {
+          const loc=frame.locator(sel).first();
+          if (await loc.count() && await loc.isVisible({timeout:250})) return loc;
+        } catch {}
+      }
+    }
+    await page.waitForTimeout(350);
   }
-  if (!await email.count()) throw new Error('Loginformular: E-Mail-Feld nicht gefunden');
+  return null;
+}
+
+async function dismissCookies() {
+  await clickAcrossFrames(/alle akzeptieren|akzeptieren|zustimmen|allow all/i, 1800);
+}
+
+try {
+  // Der sichtbare myMETRO-Link auf metro.de führt über diesen offiziellen IDAM-
+  // Einstieg. Direkt dorthin zu navigieren ist robuster als den Footer-Link zu
+  // suchen, der je nach Consent/Lazy-Loading anders gerendert wird.
+  await page.goto('https://www.metro.de/metro/services/idamstream/login', {waitUntil:'domcontentloaded', timeout:45000});
+  await page.waitForTimeout(1200);
+  await dismissCookies();
+
+  const emailSelectors=[
+    'input[type="email"]','input[autocomplete="username"]','input[name="username"]',
+    'input[name="email"]','input[name*="email" i]','input[name*="user" i]',
+    'input[name="identifier"]','input[name="loginfmt"]','input[id*="email" i]',
+    'input[id*="user" i]','input[id="signInName"]','input[type="text"]'
+  ];
+  const email = await findInput(emailSelectors, 18000);
+  if (!email) throw new Error(`Loginformular: Benutzerfeld nicht gefunden (URL ${page.url().slice(0,120)})`);
   await email.fill(EMAIL);
 
-  let pass = page.locator('input[type="password"], input[autocomplete="current-password"]').first();
-  if (!await pass.count()) {
-    await clickIf(/weiter|fortfahren|next/i);
-    await page.waitForTimeout(1200);
-    pass = page.locator('input[type="password"], input[autocomplete="current-password"]').first();
+  let pass = await findInput(['input[type="password"]','input[autocomplete="current-password"]','input[name*="password" i]'], 1800);
+  if (!pass) {
+    await clickAcrossFrames(/weiter|fortfahren|next|continue|anmelden|einloggen/i, 3000);
+    await page.waitForTimeout(900);
+    pass = await findInput(['input[type="password"]','input[autocomplete="current-password"]','input[name*="password" i]'], 12000);
   }
-  if (!await pass.count()) throw new Error('Loginformular: Passwort-Feld nicht gefunden');
+  if (!pass) throw new Error(`Loginformular: Passwort-Feld nicht gefunden (URL ${page.url().slice(0,120)})`);
   await pass.fill(PASSWORD);
-  if (!await clickIf(/einloggen|anmelden|login|weiter/i)) await pass.press('Enter');
-  await page.waitForTimeout(2500);
+  if (!await clickAcrossFrames(/einloggen|anmelden|login|sign in|weiter|continue/i, 3500)) await pass.press('Enter');
+
+  // Manche IDAM-Flows zeigen nach erfolgreicher Authentifizierung noch eine
+  // Consent-/Weiter-Seite. Wir bestätigen nur neutrale Fortfahren-Aktionen.
+  await page.waitForTimeout(1800);
+  await clickAcrossFrames(/weiter|fortfahren|continue|zustimmen|akzeptieren/i, 2200);
+  await page.waitForTimeout(1800);
 
   await page.goto('https://www.metro.de/angebote', {waitUntil:'domcontentloaded', timeout:45000});
   await page.waitForTimeout(1800);
-  const bodyAfterLogin = clean(await page.locator('body').innerText());
-  if (/jetzt einloggen und exklusive vorteile erhalten/i.test(bodyAfterLogin)) throw new Error('METRO-Login wurde nicht übernommen');
+  await dismissCookies();
 
   // Markt München-Freimann setzen.
-  if (await clickIf(/anderen markt auswählen/i)) {
-    const marketSearch = page.locator('input[placeholder*="Markt" i], input[placeholder*="PLZ" i]').first();
-    if (await marketSearch.count()) {
+  if (await clickAcrossFrames(/anderen markt auswählen/i, 2500)) {
+    const marketSearch = await findInput(['input[placeholder*="Markt" i]','input[placeholder*="PLZ" i]','input[aria-label*="Markt" i]'], 2500);
+    if (marketSearch) {
       await marketSearch.fill('80939');
       await page.waitForTimeout(1200);
-      const freimann = page.getByText(/Freimann|Helene-Wessel-Bogen 39/i).first();
-      if (await freimann.count()) { try { await freimann.click({timeout:3000}); } catch {} }
-      await clickIf(/diesen markt auswählen/i);
-      await page.waitForTimeout(1500);
+      await clickAcrossFrames(/Freimann|Helene-Wessel-Bogen 39/i, 3500);
+      await clickAcrossFrames(/diesen markt auswählen/i, 2500);
+      await page.waitForTimeout(1200);
     }
   }
 
-  // Falls verfügbar, auf Bruttopreise umstellen. Das ist für den Vergleich mit
-  // REWE/EDEKA/etc. zwingend nötig.
+  // Falls verfügbar, auf Bruttopreise umstellen.
   let grossMode = false;
   const includeVat = page.getByText(/MwSt\.? in Preise einschließen/i).first();
   if (await includeVat.count()) {
     try { await includeVat.click({timeout:2500}); await page.waitForTimeout(900); } catch {}
   }
-  const body = clean(await page.locator('body').innerText());
-  grossMode = /MwSt\.? (?:nicht )?in Preise (?:einschließen|enthalten)|Preise.*(?:inkl|mit).*MwSt/i.test(body) && !/Preise werden ohne MwSt\. angezeigt/i.test(body);
+  let body = clean(await page.locator('body').innerText());
+  grossMode = /(?:inkl|mit).*MwSt|MwSt.*(?:inkl|enthalten)|Bruttopreis/i.test(body) && !/Preise werden ohne MwSt\. angezeigt/i.test(body);
 
   for (let i=0;i<8;i++) { await page.mouse.wheel(0,1800); await page.waitForTimeout(450); }
+  body = clean(await page.locator('body').innerText());
 
   const blocks = await page.evaluate(() => {
     const sels=['article','li','[class*="offer" i]','[class*="product" i]','[class*="card" i]','[class*="tile" i]'];
@@ -194,13 +227,18 @@ try {
   const unique=[]; const seen=new Set();
   for(const o of offers){const k=[o.name.toLowerCase(),o.size,o.price].join('|');if(!seen.has(k)){seen.add(k);unique.push(o)}}
 
-  // Alte METRO-Einträge ersetzen, alle anderen Händler behalten.
   data.offers=(data.offers||[]).filter(o=>o.store!=='METRO').concat(unique.slice(0,250));
   data.offers.forEach((o,i)=>o.id=i+1);
   data.offerCount=data.offers.length;
-  if (unique.length) saveStatus('ok', `${unique.length} METRO-Angebote nach Kunden-Login importiert (Bruttopreise).`, unique.length);
-  else saveStatus('no_data', grossMode ? 'METRO-Login erfolgreich, aber keine validen Lebensmittelangebote erkannt.' : 'METRO-Login erfolgreich, Bruttopreis-Modus konnte aber nicht sicher bestätigt werden. Keine Preise übernommen.', 0);
-  console.log(`METRO: Login erfolgreich; ${unique.length} valide Bruttopreis-Angebote.`);
+
+  if (unique.length) {
+    saveStatus('ok', `${unique.length} METRO-Angebote nach Kunden-Login importiert (Bruttopreise).`, unique.length);
+  } else {
+    const stillLoggedOut=/jetzt einloggen und exklusive vorteile erhalten|alle preise einsehen/i.test(body);
+    if (stillLoggedOut) saveStatus('auth_error','METRO-IDAM wurde durchlaufen, Sitzung ist auf der Angebotsseite aber nicht angemeldet.',0);
+    else saveStatus('no_data', grossMode ? 'METRO-Login erfolgreich, aber keine validen Lebensmittelangebote erkannt.' : 'METRO-Login erfolgreich, Bruttopreis-Modus konnte nicht sicher bestätigt werden. Keine Preise übernommen.', 0);
+  }
+  console.log(`METRO: Auth-Flow beendet; ${unique.length} valide Bruttopreis-Angebote.`);
 } catch (e) {
   saveStatus('auth_error', `METRO-Login/Import fehlgeschlagen: ${String(e.message||e).slice(0,180)}`, 0);
   console.log(`METRO: Import fehlgeschlagen: ${String(e.message||e).slice(0,180)}`);
