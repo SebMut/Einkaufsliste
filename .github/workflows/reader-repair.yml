@@ -50,8 +50,11 @@ jobs:
           node - <<'NODE' | tee -a data/reader-repair.log
           const fs=require('fs');
           const d=JSON.parse(fs.readFileSync('data/offers-live.json','utf8'));
+          const q=JSON.parse(fs.readFileSync('data/quality-report.json','utf8'));
           for(const s of d.sources||[]) console.log(`${s.store}: ${s.status} / ${s.count||0} / ${s.message||''}`);
           console.log(`Gesamt: ${d.offerCount||0}`);
+          console.log(`Qualität: ${q.before} -> ${q.after}; verworfen=${q.rejected}; repariert=${q.repaired}`);
+          console.log(`Verwerfungsgründe: ${JSON.stringify(q.rejectedReasons)}`);
           NODE
 
       - name: Reparierte Live-Daten veröffentlichen
@@ -59,9 +62,9 @@ jobs:
         run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/offers-live.json data/reader-repair.log
+          git add data/offers-live.json data/reader-repair.log data/quality-report.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Reader-Reparatur für geschützte Händler"
+          git commit -m "Datenqualität und Reader-Angebote aktualisieren"
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin main && exit 0
             sleep 3
