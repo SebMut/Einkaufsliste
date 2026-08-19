@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-19T12:49:13.628Z",
+  "generatedAt": "2026-08-19T12:53:25.827Z",
   "center": {
     "name": "85622 Feldkirchen",
     "lat": 48.145,
@@ -137,10 +137,11 @@
       "address": "Kapellenstr. 16b, 85622 Feldkirchen",
       "url": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "scope": "market",
-      "status": "no_data",
-      "count": 0,
-      "message": "Browser ohne Treffer; HTTP-Fallback ebenfalls 0 (HTML 0 Bytes / 0 Blöcke / HTTP 403)",
-      "durationMs": 6452
+      "status": "ok",
+      "count": 10,
+      "message": "10 valide Angebote importiert",
+      "durationMs": 6682,
+      "transport": "reader"
     },
     {
       "store": "EDEKA",
@@ -148,10 +149,11 @@
       "address": "Brauereiweg 1, 85622 Feldkirchen",
       "url": "https://www.edeka.de/maerkte/030244/",
       "scope": "market",
-      "status": "no_data",
-      "count": 0,
-      "message": "Browser ohne Treffer; HTTP-Fallback ebenfalls 0 (HTML 0 Bytes / 0 Blöcke / HTTP 403)",
-      "durationMs": 6088
+      "status": "ok",
+      "count": 18,
+      "message": "18 valide Angebote importiert",
+      "durationMs": 6409,
+      "transport": "reader"
     },
     {
       "store": "PENNY",
@@ -162,7 +164,7 @@
       "status": "ok",
       "count": 114,
       "message": "114 valide Angebote importiert",
-      "durationMs": 7995
+      "durationMs": 8107
     },
     {
       "store": "HIT",
@@ -173,7 +175,7 @@
       "status": "ok",
       "count": 3,
       "message": "3 valide Angebote importiert",
-      "durationMs": 8630
+      "durationMs": 8692
     },
     {
       "store": "ALDI SÜD",
@@ -184,7 +186,7 @@
       "status": "ok",
       "count": 58,
       "message": "58 valide Angebote importiert",
-      "durationMs": 8039
+      "durationMs": 7372
     },
     {
       "store": "Lidl",
@@ -195,7 +197,7 @@
       "status": "ok",
       "count": 1,
       "message": "1 valide Angebote importiert",
-      "durationMs": 8095
+      "durationMs": 7832
     },
     {
       "store": "Netto",
@@ -203,10 +205,11 @@
       "address": "Truderinger Str. 217, 81825 München",
       "url": "https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317",
       "scope": "market",
-      "status": "no_data",
-      "count": 0,
-      "message": "Browser ohne Treffer; HTTP-Fallback ebenfalls 0 (HTML 0 Bytes / 0 Blöcke / HTTP 403)",
-      "durationMs": 6409
+      "status": "ok",
+      "count": 3,
+      "message": "3 valide Angebote importiert",
+      "durationMs": 6266,
+      "transport": "reader"
     },
     {
       "store": "NORMA",
@@ -217,7 +220,7 @@
       "status": "ok",
       "count": 1,
       "message": "1 valide Angebote importiert",
-      "durationMs": 8155
+      "durationMs": 7656
     },
     {
       "store": "Kaufland",
@@ -228,7 +231,7 @@
       "status": "ok",
       "count": 9,
       "message": "9 valide Angebote importiert",
-      "durationMs": 7052
+      "durationMs": 6486
     },
     {
       "store": "METRO",
@@ -237,10 +240,11 @@
       "url": "https://www.metro.de/angebote",
       "scope": "market",
       "distanceKm": 11,
-      "status": "no_data",
+      "status": "login_required",
       "count": 0,
-      "message": "Browser ohne Treffer; HTTP-Fallback ebenfalls 0 (HTML 0 Bytes / 0 Blöcke / HTTP 403)",
-      "durationMs": 6603
+      "message": "METRO zeigt Marktprodukte öffentlich, Preise aber erst nach Kunden-Login.",
+      "durationMs": 6214,
+      "transport": "reader"
     },
     {
       "store": "dm",
@@ -252,7 +256,7 @@
       "status": "ok",
       "count": 53,
       "message": "53 valide Angebote importiert",
-      "durationMs": 7575
+      "durationMs": 7073
     },
     {
       "store": "ROSSMANN",
@@ -262,12 +266,12 @@
       "scope": "regional",
       "mode": "baby",
       "status": "ok",
-      "count": 44,
-      "message": "44 valide Angebote importiert",
-      "durationMs": 6898
+      "count": 43,
+      "message": "43 valide Angebote importiert",
+      "durationMs": 6917
     }
   ],
-  "offerCount": 283,
+  "offerCount": 313,
   "offers": [
     {
       "id": 1,
@@ -288,7 +292,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
       "id": 2,
@@ -309,10 +313,120 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 3,
+      "key": "[: duplo oder kinder Riegel](https://www.edeka.de/maerk",
+      "name": "[Angebot: duplo oder kinder Riegel](https://www.edeka.de/maerkte/030244/#angebot-ef0a95f2-5d2e-4bc4-a288-3dcdce2bbfac)",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "20 Stück",
+      "price": 3.99,
+      "unit": 12.18,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 3
+    },
+    {
+      "key": "[: EDEKA Herzstücke Hummus](https://www.edeka.de/maerkt",
+      "name": "[Angebot: EDEKA Herzstücke Hummus](https://www.edeka.de/maerkte/030244/#angebot-5fbb2659-58d8-4c40-b4a3-afd5062c121c)",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "200g",
+      "price": 1.29,
+      "unit": 7.37,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 4
+    },
+    {
+      "key": "[: Zwetschgen](https://www.edeka.de/maerkte/030244/#-f0",
+      "name": "[Angebot: Zwetschgen](https://www.edeka.de/maerkte/030244/#angebot-f0dde2d9-f24f-4e1a-8677-4203750cef90)",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "1,5kg",
+      "price": 2.22,
+      "unit": 1.48,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 5
+    },
+    {
+      "key": "[Jack Daniel’s Tennessee Whiskey](javascript:;)",
+      "name": "[Jack Daniel’s Tennessee Whiskey](javascript:;)",
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "cat": "Lebensmittel",
+      "size": "1 l",
+      "price": 15.49,
+      "unit": 22.13,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 6
+    },
+    {
+      "key": "[Nimm 2 Lachgummi](javascript:;)",
+      "name": "[Nimm 2 Lachgummi](javascript:;)",
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "cat": "Lebensmittel",
+      "size": "2 L",
+      "price": 0.99,
+      "unit": 3.96,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 7
+    },
+    {
+      "id": 8,
       "key": "1-kg-",
       "name": "je 1-kg-Packung",
       "store": "PENNY",
@@ -330,10 +444,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 4,
+      "id": 9,
       "key": "150-g-Packg.",
       "name": "je 150-g-Packg.",
       "store": "Kaufland",
@@ -351,10 +465,10 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 5,
+      "id": 10,
       "key": "3er-Schale",
       "name": "je 3er-Schale",
       "store": "PENNY",
@@ -372,10 +486,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 6,
+      "id": 11,
       "key": "5 St. = 103,5-g-Packg.",
       "name": "je 5 St. = 103,5-g-Packg.",
       "store": "Kaufland",
@@ -393,10 +507,10 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 7,
+      "id": 12,
       "key": "50-g-Packg.",
       "name": "je 50-g-Packg.",
       "store": "Kaufland",
@@ -414,10 +528,10 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 8,
+      "id": 13,
       "key": "70-g-Stück",
       "name": "je 70-g-Stück",
       "store": "Kaufland",
@@ -435,10 +549,10 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 9,
+      "id": 14,
       "key": "8 St. = 240-g-Packg.",
       "name": "je 8 St. = 240-g-Packg.",
       "store": "Kaufland",
@@ -456,10 +570,10 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 10,
+      "id": 15,
       "key": "Alle dm-Märkte",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -477,10 +591,32 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 11,
+      "key": "alpro Soya-, Hafer- oder This is not Milk-Drink",
+      "name": "alpro Soya-, Hafer- oder This is not Milk-Drink",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Kaffee & Frühstück",
+      "size": "1l",
+      "price": 1.49,
+      "unit": 1.49,
+      "unitLabel": "€/l",
+      "icon": "☕",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 16
+    },
+    {
+      "id": 17,
       "key": "Angebotspreis 0.29€ 0.29",
       "name": "Angebotspreis 0.29€\n0.29",
       "store": "PENNY",
@@ -498,10 +634,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 12,
+      "id": 18,
       "key": "Angebotspreis 0.29€ 0.29 MILPRIMA FruchtiGurt 3,8%* 150",
       "name": "Angebotspreis 0.29€\n0.29\nMILPRIMA FruchtiGurt 3,8%*\nje 150 g (1 kg = 1.93)",
       "store": "PENNY",
@@ -519,10 +655,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 13,
+      "id": 19,
       "key": "Angebotspreis 0.39€ 0.39",
       "name": "Angebotspreis 0.39€\n0.39",
       "store": "PENNY",
@@ -540,10 +676,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 14,
+      "id": 20,
       "key": "Angebotspreis 0.39€ 0.39 MILPRIMA Milchreis* 200 g (1 k",
       "name": "Angebotspreis 0.39€\n0.39\nMILPRIMA Milchreis*\nje 200 g (1 kg = 1.95)",
       "store": "PENNY",
@@ -561,10 +697,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 15,
+      "id": 21,
       "key": "Angebotspreis 0.39€ 0.39 MILPRIMA Pudding* 150 g (1 kg ",
       "name": "Angebotspreis 0.39€\n0.39\nMILPRIMA Pudding*\nje 150 g (1 kg = 2.60)",
       "store": "PENNY",
@@ -582,10 +718,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 16,
+      "id": 22,
       "key": "Angebotspreis 0.45€ 0.45",
       "name": "Angebotspreis 0.45€\n0.45",
       "store": "PENNY",
@@ -603,10 +739,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 17,
+      "id": 23,
       "key": "Angebotspreis 0.69€ 0.69",
       "name": "Angebotspreis 0.69€\n0.69",
       "store": "PENNY",
@@ -624,10 +760,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 18,
+      "id": 24,
       "key": "Angebotspreis 0.69€ 0.69 MILPRIMA Kondensmilch* 340 g (",
       "name": "Angebotspreis 0.69€\n0.69\nMILPRIMA Kondensmilch*\nje 340 g (1 kg = 2.03)",
       "store": "PENNY",
@@ -645,10 +781,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 19,
+      "id": 25,
       "key": "Angebotspreis 0.89€ 0.89",
       "name": "Angebotspreis 0.89€\n0.89",
       "store": "PENNY",
@@ -666,10 +802,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 20,
+      "id": 26,
       "key": "Angebotspreis 0.89€ 0.89 MILPRIMA High Protein Pudding*",
       "name": "Angebotspreis 0.89€\n0.89\nMILPRIMA High Protein Pudding*\nje 200 g (1 kg = 4.45)",
       "store": "PENNY",
@@ -687,10 +823,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 21,
+      "id": 27,
       "key": "Angebotspreis 1.11€ 1.11",
       "name": "Angebotspreis 1.11€\n1.11",
       "store": "PENNY",
@@ -708,10 +844,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 22,
+      "id": 28,
       "key": "Angebotspreis 1.25€ 1.25",
       "name": "Angebotspreis 1.25€\n1.25",
       "store": "PENNY",
@@ -729,10 +865,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 23,
+      "id": 29,
       "key": "Angebotspreis 1.25€ 1.25 Helle, kernlose Tafeltrauben* ",
       "name": "Angebotspreis 1.25€\n1.25\nAktion\nHelle, kernlose Tafeltrauben*\nje 500-g-Schale (1 kg = 2.50)",
       "store": "PENNY",
@@ -750,10 +886,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 24,
+      "id": 30,
       "key": "Angebotspreis 1.35€ 1.35",
       "name": "Angebotspreis 1.35€\n1.35",
       "store": "PENNY",
@@ -771,10 +907,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 25,
+      "id": 31,
       "key": "Angebotspreis 1.75€ 1.75",
       "name": "Angebotspreis 1.75€\n1.75",
       "store": "PENNY",
@@ -792,10 +928,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 26,
+      "id": 32,
       "key": "Angebotspreis 1.75€ 1.75 Plattpfirsiche* 1-kg-Schale",
       "name": "Angebotspreis 1.75€\n1.75\nAktion\nPlattpfirsiche*\nje 1-kg-Schale",
       "store": "PENNY",
@@ -813,10 +949,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 27,
+      "id": 33,
       "key": "Angebotspreis 1.79€ 1.79",
       "name": "Angebotspreis 1.79€\n1.79",
       "store": "PENNY",
@@ -834,10 +970,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 28,
+      "id": 34,
       "key": "Angebotspreis 1.79€ 1.79 FRECHE FREUNDE Roter Beerenmix",
       "name": "Angebotspreis 1.79€\n1.79\nAktion\nFRECHE FREUNDE Roter Beerenmix Fruchtchips*\nje 10 g (1 kg = 179.00)",
       "store": "PENNY",
@@ -855,10 +991,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 29,
+      "id": 35,
       "key": "Angebotspreis 1.79€ 1.79 MILPRIMA Mini Max* 12 x 60 g (",
       "name": "Angebotspreis 1.79€\n1.79\nMILPRIMA Mini Max*\nje 12 x 60 g (1 kg = 2.49)",
       "store": "PENNY",
@@ -876,10 +1012,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 30,
+      "id": 36,
       "key": "Angebotspreis 1.79€ 1.79 ZESPRI SunGold Kiwi Gold* 3er-",
       "name": "Angebotspreis 1.79€\n1.79\nAktion\nZESPRI SunGold Kiwi Gold*\nje 3er-Schale",
       "store": "PENNY",
@@ -897,10 +1033,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 31,
+      "id": 37,
       "key": "Angebotspreis 1.89€ 1.89",
       "name": "Angebotspreis 1.89€\n1.89",
       "store": "PENNY",
@@ -918,10 +1054,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 32,
+      "id": 38,
       "key": "Angebotspreis 1.89€ 1.89 WEIHENSTEPHAN Die Extrazarte* ",
       "name": "Angebotspreis 1.89€\n1.89\nAktion\nWEIHENSTEPHAN Die Extrazarte*\nje 400 g (1 kg = 4.73)",
       "store": "PENNY",
@@ -939,10 +1075,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 33,
+      "id": 39,
       "key": "Angebotspreis 2.49€ 2.49",
       "name": "Angebotspreis 2.49€\n2.49",
       "store": "PENNY",
@@ -960,10 +1096,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 34,
+      "id": 40,
       "key": "Angebotspreis 2.49€ 2.49 KINDER Pingui* 8 x 30 g (1 kg ",
       "name": "Angebotspreis 2.49€\n2.49\nAktion\nKINDER Pingui*\nje 8 x 30 g (1 kg = 10.38)",
       "store": "PENNY",
@@ -981,10 +1117,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 35,
+      "id": 41,
       "key": "Angebotspreis 2.49€ 2.49 PINK LADY Rote Äpfel* 1-kg-",
       "name": "Angebotspreis 2.49€\n2.49\nAktion\nPINK LADY Rote Äpfel*\nje 1-kg-Packung",
       "store": "PENNY",
@@ -1002,10 +1138,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 36,
+      "id": 42,
       "key": "Angebotspreis 2.79€ 2.79",
       "name": "Angebotspreis 2.79€\n2.79",
       "store": "PENNY",
@@ -1023,10 +1159,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 37,
+      "id": 43,
       "key": "Angebotspreis 2.79€ 2.79 Deutsche Speisefrühkartoffeln*",
       "name": "Angebotspreis 2.79€\n2.79\nAktion\nDeutsche Speisefrühkartoffeln*\nje 4-kg-Netz (1 kg = 0.70)",
       "store": "PENNY",
@@ -1044,10 +1180,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 38,
+      "id": 44,
       "key": "Angebotspreis 2.99€ 2.99",
       "name": "Angebotspreis 2.99€\n2.99",
       "store": "PENNY",
@@ -1065,10 +1201,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 39,
+      "id": 45,
       "key": "Angebotspreis 2.99€ 2.99 STEINHAUS Elsässer Flammkuchen",
       "name": "Angebotspreis 2.99€\n2.99\nAktion\nSTEINHAUS Elsässer Flammkuchen*\nje 350 g (1 kg = 8.54)",
       "store": "PENNY",
@@ -1086,10 +1222,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 40,
+      "id": 46,
       "key": "Angebotspreis 3.49€ 3.49",
       "name": "Angebotspreis 3.49€\n3.49",
       "store": "PENNY",
@@ -1107,10 +1243,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 41,
+      "id": 47,
       "key": "Angebotspreis 3.49€ 3.49 TRUE FRUITS Smoothie* 750 ml (",
       "name": "Angebotspreis 3.49€\n3.49\nAktion\nTRUE FRUITS Smoothie*\nje 750 ml (1 l = 4.65)",
       "store": "PENNY",
@@ -1128,10 +1264,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 42,
+      "id": 48,
       "key": "Angebotspreis 4.49€ 4.49",
       "name": "Angebotspreis 4.49€\n4.49",
       "store": "PENNY",
@@ -1149,10 +1285,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 43,
+      "id": 49,
       "key": "Äpfel Krumme Dinger 2 kg",
       "name": "Äpfel Krumme Dinger 2 kg",
       "store": "ALDI SÜD",
@@ -1170,10 +1306,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 44,
+      "id": 50,
       "key": "Auflistung mit 12 Elementen. Zum Ende der Liste springe",
       "name": "Auflistung mit 12 Elementen. Zum Ende der Liste springen.",
       "store": "dm",
@@ -1191,10 +1327,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 45,
+      "id": 51,
       "key": "Auflistung mit 20 Elementen. Zum Ende der Liste springe",
       "name": "Auflistung mit 20 Elementen. Zum Ende der Liste springen.",
       "store": "dm",
@@ -1212,10 +1348,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 46,
+      "id": 52,
       "key": "Babybrei",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -1233,10 +1369,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 47,
+      "id": 53,
       "key": "Babybrei",
       "name": "Kölln Getreidebrei Hafer Schmelzflocken ab dem 5. Monat, 275 g",
       "store": "dm",
@@ -1254,10 +1390,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 48,
+      "id": 54,
       "key": "Babybrei",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -1275,10 +1411,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 49,
+      "id": 55,
       "key": "babylove Flaschenbürste Premium, 1 St",
       "name": "babylove Flaschenbürste Premium, 1 St",
       "store": "dm",
@@ -1296,10 +1432,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 50,
+      "id": 56,
       "key": "babylove Milchpulverbox mit Portionierlöffel 800 g, 1 S",
       "name": "babylove Milchpulverbox mit Portionierlöffel 800 g, 1 St",
       "store": "dm",
@@ -1317,10 +1453,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 51,
+      "id": 57,
       "key": "babylove Nagelschere Baby antiallergen, 1 St",
       "name": "babylove Nagelschere Baby antiallergen, 1 St",
       "store": "dm",
@@ -1338,10 +1474,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 52,
+      "id": 58,
       "key": "babylove Reinigungs Wattepads, 60 St",
       "name": "babylove Reinigungs Wattepads, 60 St",
       "store": "dm",
@@ -1359,10 +1495,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 53,
+      "id": 59,
       "key": "babylove Sicherheits-Wattestäbchen, 72 St",
       "name": "babylove Sicherheits-Wattestäbchen, 72 St",
       "store": "dm",
@@ -1380,10 +1516,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 54,
+      "id": 60,
       "key": "babylove Sonnenspray Baby ultra sensitive LSF 50+, 150 ",
       "name": "babylove Sonnenspray Baby ultra sensitive LSF 50+, 150 ml",
       "store": "dm",
@@ -1401,10 +1537,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 55,
+      "id": 61,
       "key": "Babymilch",
       "name": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
       "store": "ROSSMANN",
@@ -1422,31 +1558,10 @@
       "advertised": true,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 56,
-      "key": "Babymilch",
-      "name": "Cerelac Milch-Getreidebrei Weizen+Honig ab dem 12. Monat",
-      "store": "ROSSMANN",
-      "market": "Region Feldkirchen",
-      "address": "Hafelhofweg 6, 81825 München",
-      "cat": "Baby & Kleinkind",
-      "size": "400 g",
-      "price": 9.98,
-      "unit": 9.98,
-      "unitLabel": "€/kg",
-      "icon": "👶",
-      "bio": false,
-      "app": false,
-      "coupon": false,
-      "advertised": false,
-      "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
-      "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
-    },
-    {
-      "id": 57,
+      "id": 62,
       "key": "Babymilch",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -1464,10 +1579,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 58,
+      "id": 63,
       "key": "Babymilch",
       "name": "BEBA - 2 Folgemilch nach dem 6. Monat",
       "store": "ROSSMANN",
@@ -1485,10 +1600,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 59,
+      "id": 64,
       "key": "Babymilch",
       "name": "BEBA - 3 Folgemilch ab dem 10. Monat",
       "store": "ROSSMANN",
@@ -1506,10 +1621,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 60,
+      "id": 65,
       "key": "Babymilch",
       "name": "2 Folgemilch nach dem 6. Monat",
       "store": "ROSSMANN",
@@ -1527,10 +1642,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 61,
+      "id": 66,
       "key": "Babymilch",
       "name": "3 Folgemilch ab dem 10. Monat",
       "store": "ROSSMANN",
@@ -1548,10 +1663,31 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 62,
+      "id": 67,
+      "key": "Babymilch",
+      "name": "3 Folgemilch ab dem 10. Monat",
+      "store": "ROSSMANN",
+      "market": "Region Feldkirchen",
+      "address": "Hafelhofweg 6, 81825 München",
+      "cat": "Baby & Kleinkind",
+      "size": "1 Stück",
+      "price": 23.69,
+      "unit": 23.69,
+      "unitLabel": "€/kg",
+      "icon": "👶",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": false,
+      "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
+      "sourceScope": "regional",
+      "importedAt": "2026-08-19T12:53:25.827Z"
+    },
+    {
+      "id": 68,
       "key": "Babymilch",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -1569,10 +1705,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 63,
+      "id": 69,
       "key": "Babymilch",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -1590,10 +1726,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 64,
+      "id": 70,
       "key": "Babymilch",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -1611,10 +1747,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 65,
+      "id": 71,
       "key": "Brot",
       "name": "mit App: je 400 g (1 kg = 2.98); ohne App: je 400 g (1 kg = 3.23)",
       "store": "PENNY",
@@ -1632,10 +1768,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 66,
+      "id": 72,
       "key": "Brot",
       "name": "RAMA Brot­aufstrich*",
       "store": "PENNY",
@@ -1653,10 +1789,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 67,
+      "id": 73,
       "key": "Butter",
       "name": "Butter 250 g",
       "store": "ALDI SÜD",
@@ -1674,10 +1810,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 68,
+      "id": 74,
       "key": "Butter",
       "name": "Butter 250 g",
       "store": "ALDI SÜD",
@@ -1695,10 +1831,98 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 69,
+      "key": "Butter",
+      "name": "Filial-Angebote",
+      "store": "Netto",
+      "market": "Trudering",
+      "address": "Truderinger Str. 217, 81825 München",
+      "cat": "Obst & Gemüse",
+      "size": "2,5 kg",
+      "price": 1.99,
+      "unit": 0.796,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 75
+    },
+    {
+      "key": "Butter",
+      "name": "_Pfanni Speisekartoffeln_ 2,5 kg Netz",
+      "store": "Netto",
+      "market": "Trudering",
+      "address": "Truderinger Str. 217, 81825 München",
+      "cat": "Milchprodukte",
+      "size": "2,5 kg",
+      "price": 2.49,
+      "unit": 3.96,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:55:06.675Z",
+      "id": 76
+    },
+    {
+      "key": "Butter",
+      "name": "[Youcook Butter Chicken](javascript:;)",
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "cat": "Milchprodukte",
+      "size": "1 kg",
+      "price": 3.79,
+      "unit": 9.02,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 77
+    },
+    {
+      "key": "Butter",
+      "name": "[Milka Schokolade](javascript:;)",
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "cat": "Milchprodukte",
+      "size": "1 kg",
+      "price": 0.95,
+      "unit": 10.56,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 78
+    },
+    {
+      "id": 79,
       "key": "Champignons braun 250 g",
       "name": "Bio Champignons braun 250 g",
       "store": "ALDI SÜD",
@@ -1716,10 +1940,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 70,
+      "id": 80,
       "key": "Champignons braun 250 g",
       "name": "Bio Champignons braun 250 g",
       "store": "ALDI SÜD",
@@ -1737,10 +1961,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 71,
+      "id": 81,
       "key": "Chips",
       "name": "NicNac´s XL Fun 170 g, Original",
       "store": "ALDI SÜD",
@@ -1758,10 +1982,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 72,
+      "id": 82,
       "key": "Chips",
       "name": "NicNac´s XL Fun 170 g, Original",
       "store": "ALDI SÜD",
@@ -1779,10 +2003,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 73,
+      "id": 83,
       "key": "Chips",
       "name": "babylove Snack-Piekser, 10 St",
       "store": "dm",
@@ -1800,10 +2024,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 74,
+      "id": 84,
       "key": "Chips",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -1821,10 +2045,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 75,
+      "id": 85,
       "key": "Chips",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -1842,10 +2066,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 76,
+      "id": 86,
       "key": "Chips",
       "name": "je 120-g-Packg.",
       "store": "Kaufland",
@@ -1863,10 +2087,10 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 77,
+      "id": 87,
       "key": "Cola",
       "name": "je 2-l-PET-Fl.",
       "store": "Kaufland",
@@ -1884,10 +2108,76 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 78,
+      "key": "Cola",
+      "name": "_Coca-Cola Kombikiste_ 12 x 1 l",
+      "store": "Netto",
+      "market": "Trudering",
+      "address": "Truderinger Str. 217, 81825 München",
+      "cat": "Getränke",
+      "size": "12 x 1 l",
+      "price": 11.99,
+      "unit": 0.999,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:55:06.675Z",
+      "id": 88
+    },
+    {
+      "key": "Cola",
+      "name": "[Angebot: Toffifee,](https://www.edeka.de/maerkte/030244/#angebot-908d65fb-43a7-468d-8871-3bcfeb53118e)",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "15 Stück",
+      "price": 1.11,
+      "unit": 8.88,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 89
+    },
+    {
+      "key": "Cola",
+      "name": "Toffifee,",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "15 Stück",
+      "price": 1.11,
+      "unit": 8.88,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 90
+    },
+    {
+      "id": 91,
       "key": "Deutsche Speisefrühkartoffeln*",
       "name": "Deutsche Speisefrühkartoffeln*",
       "store": "PENNY",
@@ -1905,10 +2195,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 79,
+      "id": 92,
       "key": "Diese Woche",
       "name": "Diese Woche",
       "store": "PENNY",
@@ -1926,10 +2216,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 80,
+      "id": 93,
       "key": "dm-Markt wählen",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -1947,10 +2237,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 81,
+      "id": 94,
       "key": "dm-Markt wählen",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -1968,10 +2258,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 82,
+      "id": 95,
       "key": "dm-Markt wählen",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -1989,10 +2279,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 83,
+      "id": 96,
       "key": "dm-Markt wählen",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -2010,10 +2300,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 84,
+      "id": 97,
       "key": "dm-Markt wählen",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -2031,10 +2321,32 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 85,
+      "key": "duplo oder kinder Riegel",
+      "name": "duplo oder kinder Riegel",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "20 Stück",
+      "price": 3.99,
+      "unit": 12.18,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 98
+    },
+    {
+      "id": 99,
       "key": "Duschgel 675 ml, Noire",
       "name": "Duschgel 675 ml, Noire",
       "store": "ALDI SÜD",
@@ -2052,10 +2364,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 86,
+      "id": 100,
       "key": "Duschgel 675 ml, Noire",
       "name": "Duschgel 675 ml, Noire",
       "store": "ALDI SÜD",
@@ -2073,10 +2385,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 87,
+      "id": 101,
       "key": "e) Preisvorteil gegenüber dem Grundpreis einer Standard",
       "name": "e) Preisvorteil gegenüber dem Grundpreis einer Standardpackung",
       "store": "Lidl",
@@ -2094,10 +2406,98 @@
       "advertised": true,
       "sourceUrl": "https://www.lidl.de/c/indexangebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 88,
+      "key": "EDEKA Herzstücke High Protein Fertiggericht",
+      "name": "EDEKA Herzstücke High Protein Fertiggericht",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "400g",
+      "price": 2.49,
+      "unit": 6.23,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 102
+    },
+    {
+      "key": "EDEKA Herzstücke High Protein fettarme Quarkcreme",
+      "name": "EDEKA Herzstücke High Protein fettarme Quarkcreme",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Obst & Gemüse",
+      "size": "200g",
+      "price": 0.99,
+      "unit": 4.95,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 103
+    },
+    {
+      "key": "EDEKA Herzstücke Hummus",
+      "name": "EDEKA Herzstücke Hummus",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "200g",
+      "price": 1.29,
+      "unit": 7.37,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 104
+    },
+    {
+      "key": "EDEKA High Protein Linsen- oder Kichererbsen-Waffeln",
+      "name": "EDEKA Bio High Protein Linsen- oder Kichererbsen-Waffeln",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "100g",
+      "price": 1.29,
+      "unit": 14.33,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": true,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 105
+    },
+    {
+      "id": 106,
       "key": "Feuchttücher",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -2115,10 +2515,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 89,
+      "id": 107,
       "key": "Feuchttücher",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -2136,10 +2536,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 90,
+      "id": 108,
       "key": "Feuchttücher",
       "name": "Naty Feuchttücher herunterspülbar, 56 St",
       "store": "dm",
@@ -2157,10 +2557,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 91,
+      "id": 109,
       "key": "Feuchttücher",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -2178,10 +2578,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 92,
+      "id": 110,
       "key": "Feuchttücher",
       "name": "babylove Desinfektionstücher, 30 St",
       "store": "dm",
@@ -2199,10 +2599,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 93,
+      "id": 111,
       "key": "Feuchttücher",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -2220,10 +2620,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 94,
+      "id": 112,
       "key": "Feuchttücher",
       "name": "Babydream - extra sensitiv Feuchttücher Spar-Pack",
       "store": "ROSSMANN",
@@ -2241,10 +2641,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 95,
+      "id": 113,
       "key": "Feuchttücher",
       "name": "extra sensitiv Feuchttücher Spar-Pack",
       "store": "ROSSMANN",
@@ -2262,10 +2662,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 96,
+      "id": 114,
       "key": "Feuchttücher",
       "name": "Babydream - extra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück",
       "store": "ROSSMANN",
@@ -2283,10 +2683,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 97,
+      "id": 115,
       "key": "Feuchttücher",
       "name": "extra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück",
       "store": "ROSSMANN",
@@ -2304,10 +2704,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 98,
+      "id": 116,
       "key": "Feuchttücher",
       "name": "HiPP Anfangsmilch Pre Combiotik von Geburt an, 600 g",
       "store": "dm",
@@ -2325,10 +2725,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 99,
+      "id": 117,
       "key": "Feuchttücher",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -2346,19 +2746,19 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 100,
+      "id": 118,
       "key": "Feuchttücher",
-      "name": "Expert HA2 Folgenahrung nach dem 6. Monat",
+      "name": "SUPREME 2 Folgenahrung nach dem 6. Monat",
       "store": "ROSSMANN",
       "market": "Region Feldkirchen",
       "address": "Hafelhofweg 6, 81825 München",
       "cat": "Baby & Kleinkind",
-      "size": "550 g",
-      "price": 30.82,
-      "unit": 30.82,
+      "size": "800 g",
+      "price": 37.44,
+      "unit": 37.44,
       "unitLabel": "€/kg",
       "icon": "👶",
       "bio": false,
@@ -2367,10 +2767,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 101,
+      "id": 119,
       "key": "Feuchttücher",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -2388,10 +2788,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 102,
+      "id": 120,
       "key": "Frischei-Waffeln 335 g",
       "name": "Frischei-Waffeln 335 g",
       "store": "ALDI SÜD",
@@ -2409,10 +2809,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 103,
+      "id": 121,
       "key": "Frischei-Waffeln 335 g",
       "name": "Frischei-Waffeln 335 g",
       "store": "ALDI SÜD",
@@ -2430,10 +2830,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 104,
+      "id": 122,
       "key": "Hackfleisch",
       "name": "Hackfleisch vom Rind 800 g",
       "store": "ALDI SÜD",
@@ -2451,10 +2851,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 105,
+      "id": 123,
       "key": "Hackfleisch",
       "name": "Bio-Hackfleisch vom Rind 400 g",
       "store": "ALDI SÜD",
@@ -2472,10 +2872,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 106,
+      "id": 124,
       "key": "Hackfleisch",
       "name": "Hackfleisch vom Rind 800 g",
       "store": "ALDI SÜD",
@@ -2493,10 +2893,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 107,
+      "id": 125,
       "key": "Hackfleisch",
       "name": "Rind Hackfleisch 5 % Fett 400 g",
       "store": "ALDI SÜD",
@@ -2514,10 +2914,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 108,
+      "id": 126,
       "key": "HARIBO Pfirsiche*",
       "name": "HARIBO Pfirsiche*",
       "store": "PENNY",
@@ -2535,10 +2935,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 109,
+      "id": 127,
       "key": "Heidelbeeren 500 g",
       "name": "Heidelbeeren 500 g",
       "store": "ALDI SÜD",
@@ -2556,10 +2956,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 110,
+      "id": 128,
       "key": "Helle, kernlose Tafeltrauben*",
       "name": "Helle, kernlose Tafeltrauben*",
       "store": "PENNY",
@@ -2577,10 +2977,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 111,
+      "id": 129,
       "key": "Himalaya Basmatireis 1,1 kg",
       "name": "Himalaya Basmatireis 1,1 kg",
       "store": "ALDI SÜD",
@@ -2598,10 +2998,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 112,
+      "id": 130,
       "key": "Himbeeren 125 g",
       "name": "Himbeeren 125 g",
       "store": "ALDI SÜD",
@@ -2619,10 +3019,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 113,
+      "id": 131,
       "key": "Himbeeren 125 g",
       "name": "Himbeeren 125 g",
       "store": "ALDI SÜD",
@@ -2640,10 +3040,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 114,
+      "id": 132,
       "key": "Joghurt",
       "name": "Angebotspreis 0.45€\n0.45\nMILPRIMA Joghurt Crisp*\nje 175 g (1 kg = 2.57)",
       "store": "PENNY",
@@ -2661,10 +3061,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 115,
+      "id": 133,
       "key": "Joghurt",
       "name": "MILPRIMA Joghurt Crisp*",
       "store": "PENNY",
@@ -2682,10 +3082,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 116,
+      "id": 134,
       "key": "Joghurt",
       "name": "Diese Woche",
       "store": "PENNY",
@@ -2703,10 +3103,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 117,
+      "id": 135,
       "key": "Kaffee",
       "name": "Angebotspreis 0.89€\n0.89\nMILPRIMA Kaffeesahne*\nje 20 x 10 g (1 kg = 4.45)",
       "store": "PENNY",
@@ -2724,10 +3124,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 118,
+      "id": 136,
       "key": "Kaffee",
       "name": "MILPRIMA Kaffeesahne*",
       "store": "PENNY",
@@ -2745,10 +3145,32 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 119,
+      "key": "Kaffee",
+      "name": "[Lavazza Caffe Crema oder Espresso](javascript:;)",
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "cat": "Kaffee & Frühstück",
+      "size": "Packung",
+      "price": 13.99,
+      "unit": 13.99,
+      "unitLabel": "€/Packung",
+      "icon": "☕",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 137
+    },
+    {
+      "id": 138,
       "key": "Karotten",
       "name": "Smoothie 250 ml, Orange, Karotte und Mango",
       "store": "ALDI SÜD",
@@ -2766,10 +3188,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 120,
+      "id": 139,
       "key": "Karotten",
       "name": "Smoothie 250 ml, Orange, Karotte und Mango",
       "store": "ALDI SÜD",
@@ -2787,10 +3209,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 121,
+      "id": 140,
       "key": "Karotten",
       "name": "je Bund",
       "store": "PENNY",
@@ -2808,10 +3230,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 122,
+      "id": 141,
       "key": "Karotten",
       "name": "Nur mit App\nApp-preis 0.99*€\n0.99*\nAngebotspreis 1.11€\n1.11\nAktion\nDeutsche Bundmöhren*\nje Bund",
       "store": "PENNY",
@@ -2829,10 +3251,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 123,
+      "id": 142,
       "key": "Karotten",
       "name": "Streichpreis 3.39€",
       "store": "PENNY",
@@ -2850,10 +3272,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 124,
+      "id": 143,
       "key": "Karotten",
       "name": "Deutsche Bundmöhren*",
       "store": "PENNY",
@@ -2871,10 +3293,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 125,
+      "id": 144,
       "key": "Käse",
       "name": "Käsescheiben 260 g, Benjamin",
       "store": "ALDI SÜD",
@@ -2892,10 +3314,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 126,
+      "id": 145,
       "key": "Käse",
       "name": "Käsescheiben 260 g, Benjamin",
       "store": "ALDI SÜD",
@@ -2913,10 +3335,32 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 127,
+      "key": "Käse",
+      "name": "[Franziskaner Weißbier](javascript:;)",
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "cat": "Milchprodukte",
+      "size": "1 l",
+      "price": 13.99,
+      "unit": 1.4,
+      "unitLabel": "€/l",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 146
+    },
+    {
+      "id": 147,
       "key": "Käse",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -2934,10 +3378,32 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 128,
+      "key": "Käse",
+      "name": "[Dr. Oetker Die Ofenfrische Vier Käse](javascript:;)",
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "cat": "Milchprodukte",
+      "size": "1 kg",
+      "price": 2.22,
+      "unit": 5.41,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 148
+    },
+    {
+      "id": 149,
       "key": "Käse",
       "name": "Unverbindlichle Preisempfehlung 2.69€",
       "store": "PENNY",
@@ -2955,10 +3421,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 129,
+      "id": 150,
       "key": "Käse",
       "name": "LEERDAMMER Käsescheiben*",
       "store": "PENNY",
@@ -2976,10 +3442,54 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 130,
+      "key": "Käse",
+      "name": "[Géramont Weichkäse](javascript:;)",
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "cat": "Milchprodukte",
+      "size": "1 kg",
+      "price": 2.49,
+      "unit": 12.45,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 151
+    },
+    {
+      "key": "Käse",
+      "name": "[Jacobs Krönung](javascript:;)",
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "cat": "Milchprodukte",
+      "size": "1 kg",
+      "price": 6.49,
+      "unit": 12.98,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 152
+    },
+    {
+      "id": 153,
       "key": "Milch",
       "name": "Angebotspreis 1.35€\n1.35\nMILPRIMA Faire H-Milch*\nje 1 I",
       "store": "PENNY",
@@ -2997,10 +3507,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 131,
+      "id": 154,
       "key": "Milch",
       "name": "MILPRIMA Faire H-Milch*",
       "store": "PENNY",
@@ -3018,10 +3528,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 132,
+      "id": 155,
       "key": "Milch",
       "name": "MILPRIMA Kondensmilch*",
       "store": "PENNY",
@@ -3039,10 +3549,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 133,
+      "id": 156,
       "key": "MILPRIMA Kondensmilch*",
       "name": "MILPRIMA Kondensmilch*",
       "store": "PENNY",
@@ -3060,10 +3570,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 134,
+      "id": 157,
       "key": "MILPRIMA Milchreis*",
       "name": "MILPRIMA Milchreis*",
       "store": "PENNY",
@@ -3081,10 +3591,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 135,
+      "id": 158,
       "key": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
       "name": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
       "store": "ALDI SÜD",
@@ -3102,10 +3612,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 136,
+      "id": 159,
       "key": "Mini Wassermelone, lose",
       "name": "Mini Wassermelone, lose",
       "store": "ALDI SÜD",
@@ -3123,10 +3633,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 137,
+      "id": 160,
       "key": "Mini Wassermelone, lose",
       "name": "Mini Wassermelone, lose",
       "store": "ALDI SÜD",
@@ -3144,10 +3654,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 138,
+      "id": 161,
       "key": "mit App: 330 ml (1 l = 2.67); ohne App: 330 ml (1 l = 3",
       "name": "mit App: je 330 ml (1 l = 2.67); ohne App: je 330 ml (1 l = 3.00)",
       "store": "PENNY",
@@ -3165,10 +3675,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 139,
+      "id": 162,
       "key": "mit App: 640 g (1 kg = 5.14); ohne App: 640 g (1 kg = 5",
       "name": "mit App: je 640 g (1 kg = 5.14); ohne App: je 640 g (1 kg = 5.45)",
       "store": "PENNY",
@@ -3186,10 +3696,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 140,
+      "id": 163,
       "key": "MÖVENPICK Feinjoghurt*",
       "name": "MÖVENPICK Feinjoghurt*",
       "store": "PENNY",
@@ -3207,10 +3717,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 141,
+      "id": 164,
       "key": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
       "name": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
       "store": "ROSSMANN",
@@ -3228,31 +3738,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 142,
-      "key": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
-      "name": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
-      "store": "ROSSMANN",
-      "market": "Region Feldkirchen",
-      "address": "Hafelhofweg 6, 81825 München",
-      "cat": "Baby & Kleinkind",
-      "size": "1 Stück",
-      "price": 119.8,
-      "unit": 119.8,
-      "unitLabel": "€/l",
-      "icon": "👶",
-      "bio": false,
-      "app": false,
-      "coupon": false,
-      "advertised": false,
-      "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
-      "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
-    },
-    {
-      "id": 143,
+      "id": 165,
       "key": "Naturland Hokkaido, lose",
       "name": "Bio Naturland Hokkaido, lose",
       "store": "ALDI SÜD",
@@ -3270,10 +3759,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 144,
+      "id": 166,
       "key": "Naturland Hokkaido, lose",
       "name": "Bio Naturland Hokkaido, lose",
       "store": "ALDI SÜD",
@@ -3291,10 +3780,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 145,
+      "id": 167,
       "key": "Nur mit App 6.78 Angebotspreis 3.49€ 3.49",
       "name": "Nur mit App\n\n6.78\n\n\nAngebotspreis 3.49€\n3.49",
       "store": "PENNY",
@@ -3312,10 +3801,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 146,
+      "id": 168,
       "key": "Nur mit App App-preis 0.99*€ 0.99* Angebotspreis 1.11€ ",
       "name": "Nur mit App\nApp-preis 0.99*€\n0.99*\nAngebotspreis 1.11€\n1.11",
       "store": "PENNY",
@@ -3333,10 +3822,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 147,
+      "id": 169,
       "key": "Nur mit App App-preis 3.29*€ 3.29* Angebotspreis 3.49€ ",
       "name": "Nur mit App\nApp-preis 3.29*€\n3.29*\nAngebotspreis 3.49€\n3.49",
       "store": "PENNY",
@@ -3354,10 +3843,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 148,
+      "id": 170,
       "key": "Nur mit App Nur mit App App-preis 3.29*€ 3.29* Nur mit ",
       "name": "Nur mit App\nNur mit App\nApp-preis 3.29*€\n3.29*\nNur mit App\n6.78\nAngebotspreis 3.49€\n3.49",
       "store": "PENNY",
@@ -3375,10 +3864,76 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 149,
+      "key": "Öl",
+      "name": "[Angebot: Bertolli Olivenöl](https://www.edeka.de/maerkte/030244/#angebot-d9f40458-3bf8-48e1-abc6-e9be2fa5febd)",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "0,5l",
+      "price": 5.99,
+      "unit": 11.98,
+      "unitLabel": "€/l",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 171
+    },
+    {
+      "key": "Öl",
+      "name": "Bertolli Olivenöl",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "0,5l",
+      "price": 5.99,
+      "unit": 11.98,
+      "unitLabel": "€/l",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 172
+    },
+    {
+      "key": "Perwoll Woll- und Feinwaschmittel",
+      "name": "Perwoll Woll- und Feinwaschmittel",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "85080 G",
+      "price": 4.99,
+      "unit": 0.18,
+      "unitLabel": "€/l",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 173
+    },
+    {
+      "id": 174,
       "key": "PINK LADY Rote Äpfel*",
       "name": "PINK LADY Rote Äpfel*",
       "store": "PENNY",
@@ -3396,10 +3951,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 150,
+      "id": 175,
       "key": "Pizza",
       "name": "Unverbindlichle Preisempfehlung 2.29€",
       "store": "PENNY",
@@ -3417,10 +3972,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 151,
+      "id": 176,
       "key": "Pizza",
       "name": "DR. OETKER Ristorante Pizza*",
       "store": "PENNY",
@@ -3438,10 +3993,32 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 152,
+      "key": "Pizza",
+      "name": "[Gustavo Gusto Pizza Margherita](javascript:;)",
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "cat": "Tiefkühl",
+      "size": "1 kg",
+      "price": 3.39,
+      "unit": 8.27,
+      "unitLabel": "€/kg",
+      "icon": "🧊",
+      "bio": false,
+      "app": false,
+      "coupon": true,
+      "advertised": true,
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 177
+    },
+    {
+      "id": 178,
       "key": "Plattpfirsiche 500 g",
       "name": "Plattpfirsiche 500 g",
       "store": "ALDI SÜD",
@@ -3459,10 +4036,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 153,
+      "id": 179,
       "key": "Plattpfirsiche 500 g",
       "name": "Plattpfirsiche 500 g",
       "store": "ALDI SÜD",
@@ -3480,10 +4057,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 154,
+      "id": 180,
       "key": "Plattpfirsiche*",
       "name": "Plattpfirsiche*",
       "store": "PENNY",
@@ -3501,10 +4078,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 155,
+      "id": 181,
       "key": "Quetschies",
       "name": "Unverbindlichle Preisempfehlung 3.59€",
       "store": "PENNY",
@@ -3522,10 +4099,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 156,
+      "id": 182,
       "key": "Quetschies",
       "name": "Angebotspreis 4.49€\n4.49\nAktion\nFRECHE FREUNDE Quetschie Sparpack*\nje 6 x 100 g (1 kg = 7.48)",
       "store": "PENNY",
@@ -3543,10 +4120,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 157,
+      "id": 183,
       "key": "Quetschies",
       "name": "FRECHE FREUNDE Quetschie Sparpack*",
       "store": "PENNY",
@@ -3564,10 +4141,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 158,
+      "id": 184,
       "key": "Quetschies",
       "name": "FRECHE FREUNDE Quetschie Sparpack*",
       "store": "PENNY",
@@ -3585,10 +4162,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 159,
+      "id": 185,
       "key": "Quetschies",
       "name": "STORCK Werther’s Original*",
       "store": "PENNY",
@@ -3606,10 +4183,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 160,
+      "id": 186,
       "key": "Quetschies",
       "name": "Unverbindlichle Preisempfehlung 1.79€",
       "store": "PENNY",
@@ -3627,10 +4204,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 161,
+      "id": 187,
       "key": "Quetschies",
       "name": "FRECHE FREUNDE Roter Beerenmix Fruchtchips*",
       "store": "PENNY",
@@ -3648,10 +4225,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 162,
+      "id": 188,
       "key": "Rindfleisch",
       "name": "Bio-Rinder-Gulasch 400 g",
       "store": "ALDI SÜD",
@@ -3669,10 +4246,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 163,
+      "id": 189,
       "key": "Rindfleisch",
       "name": "Rind Burger 260 g, Angus Burger",
       "store": "ALDI SÜD",
@@ -3690,10 +4267,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 164,
+      "id": 190,
       "key": "Rindfleisch",
       "name": "Rind Burger 260 g, Prime Burger",
       "store": "ALDI SÜD",
@@ -3711,10 +4288,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 165,
+      "id": 191,
       "key": "Rucola 125 g",
       "name": "Rucola 125 g",
       "store": "ALDI SÜD",
@@ -3732,10 +4309,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 166,
+      "id": 192,
       "key": "Rucola 125 g",
       "name": "Rucola 125 g",
       "store": "ALDI SÜD",
@@ -3753,10 +4330,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 167,
+      "id": 193,
       "key": "Rucola 125 g",
       "name": "Rucola 125 g",
       "store": "ALDI SÜD",
@@ -3774,10 +4351,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 168,
+      "id": 194,
       "key": "Saft",
       "name": "hohes C Mehrfrucht-Saft versch. Sorten, Milder Apfelsaft oder Multivitamin",
       "store": "HIT",
@@ -3795,10 +4372,54 @@
       "advertised": true,
       "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 169,
+      "key": "Saft",
+      "name": "[Angebot: Gut&Günstig Nektarinen](https://www.edeka.de/maerkte/030244/#angebot-3507ebed-a3e3-4aa5-bccc-4dd908f4a6ab)",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "1kg",
+      "price": 1.77,
+      "unit": 1.77,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 195
+    },
+    {
+      "key": "Saft",
+      "name": "Gut&Günstig Nektarinen",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "1kg",
+      "price": 1.77,
+      "unit": 1.77,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 196
+    },
+    {
+      "id": 197,
       "key": "Saft",
       "name": "hohes C Mehrfrucht-Saft versch. Sorten, Milder Apfelsaft oder Multivitamin",
       "store": "HIT",
@@ -3816,10 +4437,10 @@
       "advertised": true,
       "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 170,
+      "id": 198,
       "key": "Schokolade",
       "name": "Unverbindlichle Preisempfehlung 3.59€",
       "store": "PENNY",
@@ -3837,10 +4458,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 171,
+      "id": 199,
       "key": "Schokolade",
       "name": "je 100-g-Packg.",
       "store": "Kaufland",
@@ -3858,10 +4479,10 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 172,
+      "id": 200,
       "key": "Schokolade",
       "name": "Schokolade 100 g",
       "store": "ALDI SÜD",
@@ -3879,10 +4500,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 173,
+      "id": 201,
       "key": "Schokolade",
       "name": "Schokolade 100 g",
       "store": "ALDI SÜD",
@@ -3900,10 +4521,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 174,
+      "id": 202,
       "key": "Schweinefleisch",
       "name": "Bio-Grobe Bratwurst 240 g",
       "store": "ALDI SÜD",
@@ -3921,10 +4542,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 175,
+      "id": 203,
       "key": "Schweinefleisch",
       "name": "Gulasch vom Schwein 500 g",
       "store": "ALDI SÜD",
@@ -3942,10 +4563,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 176,
+      "id": 204,
       "key": "Schweinefleisch",
       "name": "Schweine-Cordon Bleu 500 g",
       "store": "ALDI SÜD",
@@ -3963,10 +4584,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 177,
+      "id": 205,
       "key": "Schweinefleisch",
       "name": "Schweine-Minutensteaks 400 g",
       "store": "ALDI SÜD",
@@ -3984,10 +4605,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 178,
+      "id": 206,
       "key": "Schweinefleisch",
       "name": "Schweine Minutensteaks 400 g",
       "store": "ALDI SÜD",
@@ -4005,10 +4626,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 179,
+      "id": 207,
       "key": "Schweinefleisch",
       "name": "Schweine Schnitzel 400 g",
       "store": "ALDI SÜD",
@@ -4026,10 +4647,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 180,
+      "id": 208,
       "key": "Schweinefleisch",
       "name": "Schweine-Minutensteaks 400 g",
       "store": "ALDI SÜD",
@@ -4047,10 +4668,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 181,
+      "id": 209,
       "key": "Steckdosenwürfel mit USB, Schwarz",
       "name": "Steckdosenwürfel mit USB, Schwarz",
       "store": "ALDI SÜD",
@@ -4068,10 +4689,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 182,
+      "id": 210,
       "key": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
       "name": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
       "store": "ROSSMANN",
@@ -4089,10 +4710,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 183,
+      "id": 211,
       "key": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasensp",
       "name": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung 50ml",
       "store": "ROSSMANN",
@@ -4110,10 +4731,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 184,
+      "id": 212,
       "key": "Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülu",
       "name": "Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung 50ml",
       "store": "ROSSMANN",
@@ -4131,10 +4752,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 185,
+      "id": 213,
       "key": "Streichpreis 1.49€",
       "name": "Streichpreis 1.49€",
       "store": "PENNY",
@@ -4152,10 +4773,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 186,
+      "id": 214,
       "key": "Streichpreis 1.49€",
       "name": "Streichpreis 1.49€",
       "store": "PENNY",
@@ -4173,10 +4794,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 187,
+      "id": 215,
       "key": "Streichpreis 1.89€",
       "name": "Streichpreis 1.89€",
       "store": "PENNY",
@@ -4194,10 +4815,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 188,
+      "id": 216,
       "key": "Streichpreis 1.89€",
       "name": "Streichpreis 1.89€",
       "store": "PENNY",
@@ -4215,10 +4836,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 189,
+      "id": 217,
       "key": "Streichpreis 3.39€",
       "name": "Streichpreis 3.39€",
       "store": "PENNY",
@@ -4236,10 +4857,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 190,
+      "id": 218,
       "key": "Streichpreis 3.39€",
       "name": "Streichpreis 3.39€",
       "store": "PENNY",
@@ -4257,31 +4878,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 191,
-      "key": "SUPREME 2 Folgenahrung nach dem 6. Monat",
-      "name": "SUPREME 2 Folgenahrung nach dem 6. Monat",
-      "store": "ROSSMANN",
-      "market": "Region Feldkirchen",
-      "address": "Hafelhofweg 6, 81825 München",
-      "cat": "Baby & Kleinkind",
-      "size": "800 g",
-      "price": 37.44,
-      "unit": 37.44,
-      "unitLabel": "€/kg",
-      "icon": "👶",
-      "bio": false,
-      "app": false,
-      "coupon": false,
-      "advertised": false,
-      "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
-      "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
-    },
-    {
-      "id": 192,
+      "id": 219,
       "key": "Tee",
       "name": "hohes C Mehrfrucht-Saft versch. Sorten, Milder Apfelsaft oder Multivitamin",
       "store": "HIT",
@@ -4299,10 +4899,10 @@
       "advertised": true,
       "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 193,
+      "id": 220,
       "key": "Tomaten",
       "name": "Äpfel Krumme Dinger 2 kg",
       "store": "ALDI SÜD",
@@ -4320,10 +4920,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 194,
+      "id": 221,
       "key": "Tomaten",
       "name": "Cocktailrispentomaten 500 g",
       "store": "ALDI SÜD",
@@ -4341,10 +4941,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 195,
+      "id": 222,
       "key": "Tomaten",
       "name": "Cocktailrispentomaten 500 g",
       "store": "ALDI SÜD",
@@ -4362,10 +4962,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 196,
+      "id": 223,
       "key": "Trauben hell, kernlos 500 g",
       "name": "Trauben hell, kernlos 500 g",
       "store": "ALDI SÜD",
@@ -4383,10 +4983,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 197,
+      "id": 224,
       "key": "Trauben hell, kernlos 500 g",
       "name": "Trauben hell, kernlos 500 g",
       "store": "ALDI SÜD",
@@ -4404,10 +5004,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 198,
+      "id": 225,
       "key": "Unverbindlichle Preisempfehlung 0.99€",
       "name": "Unverbindlichle Preisempfehlung 0.99€",
       "store": "PENNY",
@@ -4425,10 +5025,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 199,
+      "id": 226,
       "key": "Unverbindlichle Preisempfehlung 0.99€",
       "name": "Unverbindlichle Preisempfehlung 0.99€",
       "store": "PENNY",
@@ -4446,10 +5046,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 200,
+      "id": 227,
       "key": "Unverbindlichle Preisempfehlung 0.99€",
       "name": "Unverbindlichle Preisempfehlung 0.99€",
       "store": "PENNY",
@@ -4467,10 +5067,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 201,
+      "id": 228,
       "key": "Unverbindlichle Preisempfehlung 1.49€",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -4488,10 +5088,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 202,
+      "id": 229,
       "key": "Unverbindlichle Preisempfehlung 1.49€",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -4509,10 +5109,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 203,
+      "id": 230,
       "key": "Unverbindlichle Preisempfehlung 1.49€",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -4530,10 +5130,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 204,
+      "id": 231,
       "key": "Unverbindlichle Preisempfehlung 1.69€",
       "name": "Unverbindlichle Preisempfehlung 1.69€",
       "store": "PENNY",
@@ -4551,10 +5151,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 205,
+      "id": 232,
       "key": "Unverbindlichle Preisempfehlung 1.69€",
       "name": "Unverbindlichle Preisempfehlung 1.69€",
       "store": "PENNY",
@@ -4572,10 +5172,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 206,
+      "id": 233,
       "key": "Unverbindlichle Preisempfehlung 1.69€",
       "name": "Unverbindlichle Preisempfehlung 1.69€",
       "store": "PENNY",
@@ -4593,10 +5193,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 207,
+      "id": 234,
       "key": "Unverbindlichle Preisempfehlung 1.79€",
       "name": "Unverbindlichle Preisempfehlung 1.79€",
       "store": "PENNY",
@@ -4614,10 +5214,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 208,
+      "id": 235,
       "key": "Unverbindlichle Preisempfehlung 1.79€",
       "name": "Unverbindlichle Preisempfehlung 1.79€",
       "store": "PENNY",
@@ -4635,10 +5235,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 209,
+      "id": 236,
       "key": "Unverbindlichle Preisempfehlung 1.99€",
       "name": "Unverbindlichle Preisempfehlung 1.99€",
       "store": "PENNY",
@@ -4656,10 +5256,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 210,
+      "id": 237,
       "key": "Unverbindlichle Preisempfehlung 1.99€",
       "name": "Unverbindlichle Preisempfehlung 1.99€",
       "store": "PENNY",
@@ -4677,10 +5277,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 211,
+      "id": 238,
       "key": "Unverbindlichle Preisempfehlung 2.29€",
       "name": "Unverbindlichle Preisempfehlung 2.29€",
       "store": "PENNY",
@@ -4698,10 +5298,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 212,
+      "id": 239,
       "key": "Unverbindlichle Preisempfehlung 2.29€",
       "name": "Unverbindlichle Preisempfehlung 2.29€",
       "store": "PENNY",
@@ -4719,10 +5319,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 213,
+      "id": 240,
       "key": "Unverbindlichle Preisempfehlung 2.69€",
       "name": "Unverbindlichle Preisempfehlung 2.69€",
       "store": "PENNY",
@@ -4740,10 +5340,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 214,
+      "id": 241,
       "key": "Unverbindlichle Preisempfehlung 2.69€",
       "name": "Unverbindlichle Preisempfehlung 2.69€",
       "store": "PENNY",
@@ -4761,10 +5361,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 215,
+      "id": 242,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -4782,10 +5382,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 216,
+      "id": 243,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -4803,10 +5403,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 217,
+      "id": 244,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -4824,10 +5424,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 218,
+      "id": 245,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -4845,10 +5445,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 219,
+      "id": 246,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -4866,10 +5466,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 220,
+      "id": 247,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -4887,10 +5487,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 221,
+      "id": 248,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -4908,10 +5508,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 222,
+      "id": 249,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -4929,10 +5529,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 223,
+      "id": 250,
       "key": "Unverbindlichle Preisempfehlung 3.59€",
       "name": "Unverbindlichle Preisempfehlung 3.59€",
       "store": "PENNY",
@@ -4950,10 +5550,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 224,
+      "id": 251,
       "key": "Unverbindlichle Preisempfehlung 3.59€",
       "name": "Unverbindlichle Preisempfehlung 3.59€",
       "store": "PENNY",
@@ -4971,10 +5571,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 225,
+      "id": 252,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -4992,10 +5592,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 226,
+      "id": 253,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -5013,10 +5613,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 227,
+      "id": 254,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -5034,10 +5634,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 228,
+      "id": 255,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -5055,10 +5655,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 229,
+      "id": 256,
       "key": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
       "name": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
       "store": "ALDI SÜD",
@@ -5076,10 +5676,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 230,
+      "id": 257,
       "key": "WEIHENSTEPHAN Haltbare Milch*",
       "name": "WEIHENSTEPHAN Haltbare Milch*",
       "store": "PENNY",
@@ -5097,10 +5697,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 231,
+      "id": 258,
       "key": "Wickeln",
       "name": "Babydream - Wickelunterlage",
       "store": "ROSSMANN",
@@ -5118,10 +5718,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 232,
+      "id": 259,
       "key": "Windeln",
       "name": "Alle ablehnen Alle Cookies akzeptieren",
       "store": "ROSSMANN",
@@ -5129,8 +5729,8 @@
       "address": "Hafelhofweg 6, 81825 München",
       "cat": "Baby & Kleinkind",
       "size": "1 L",
-      "price": 9.98,
-      "unit": 9.98,
+      "price": 23.69,
+      "unit": 23.69,
       "unitLabel": "€/kg",
       "icon": "👶",
       "bio": true,
@@ -5139,10 +5739,10 @@
       "advertised": true,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 233,
+      "id": 260,
       "key": "Windeln",
       "name": "SICHER BEZAHLEN",
       "store": "ROSSMANN",
@@ -5151,7 +5751,7 @@
       "cat": "Baby & Kleinkind",
       "size": "23 G",
       "price": 4.95,
-      "unit": 9.98,
+      "unit": 23.69,
       "unitLabel": "€/kg",
       "icon": "👶",
       "bio": true,
@@ -5160,10 +5760,10 @@
       "advertised": true,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 234,
+      "id": 261,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -5181,10 +5781,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 235,
+      "id": 262,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -5202,10 +5802,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 236,
+      "id": 263,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -5223,10 +5823,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 237,
+      "id": 264,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -5244,10 +5844,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 238,
+      "id": 265,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -5265,10 +5865,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 239,
+      "id": 266,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -5286,10 +5886,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 240,
+      "id": 267,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -5307,10 +5907,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 241,
+      "id": 268,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -5328,10 +5928,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 242,
+      "id": 269,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -5349,10 +5949,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 243,
+      "id": 270,
       "key": "Windeln",
       "name": "babylove Schwimmwindeln Disney Gr. Large (10-14 kg), 12 St",
       "store": "dm",
@@ -5370,10 +5970,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 244,
+      "id": 271,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -5391,10 +5991,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 245,
+      "id": 272,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox, 174 St",
       "store": "dm",
@@ -5412,10 +6012,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 246,
+      "id": 273,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -5433,10 +6033,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 247,
+      "id": 274,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox, 152 St",
       "store": "dm",
@@ -5454,10 +6054,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 248,
+      "id": 275,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -5475,10 +6075,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 249,
+      "id": 276,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -5496,10 +6096,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 250,
+      "id": 277,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -5517,10 +6117,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 251,
+      "id": 278,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -5538,10 +6138,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 252,
+      "id": 279,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -5559,10 +6159,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 253,
+      "id": 280,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 1 New Born (2-5 kg) Monatsbox 180 Stück",
       "store": "ROSSMANN",
@@ -5580,10 +6180,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 254,
+      "id": 281,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 1 New Born (2-5 kg) Monatsbox 180 Stück",
       "store": "ROSSMANN",
@@ -5601,10 +6201,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 255,
+      "id": 282,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 2 Mini (4-8 kg) Monatsbox 240 Stück",
       "store": "ROSSMANN",
@@ -5622,10 +6222,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 256,
+      "id": 283,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 2 Mini (4-8 kg) Monatsbox 240 Stück",
       "store": "ROSSMANN",
@@ -5643,10 +6243,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 257,
+      "id": 284,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -5664,10 +6264,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 258,
+      "id": 285,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 204 Stück",
       "store": "ROSSMANN",
@@ -5685,10 +6285,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 259,
+      "id": 286,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 204 Stück",
       "store": "ROSSMANN",
@@ -5706,10 +6306,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 260,
+      "id": 287,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox 204 Stück",
       "store": "ROSSMANN",
@@ -5727,10 +6327,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 261,
+      "id": 288,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox 204 Stück",
       "store": "ROSSMANN",
@@ -5748,10 +6348,31 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 262,
+      "id": 289,
+      "key": "Windeln",
+      "name": "Expert HA2 Folgenahrung nach dem 6. Monat",
+      "store": "ROSSMANN",
+      "market": "Region Feldkirchen",
+      "address": "Hafelhofweg 6, 81825 München",
+      "cat": "Baby & Kleinkind",
+      "size": "550 g",
+      "price": 30.82,
+      "unit": 30.82,
+      "unitLabel": "€/kg",
+      "icon": "👶",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": false,
+      "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
+      "sourceScope": "regional",
+      "importedAt": "2026-08-19T12:53:25.827Z"
+    },
+    {
+      "id": 290,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Windeln Gr. 5 Junior (11-16 kg) Monatsbox 174 Stück",
       "store": "ROSSMANN",
@@ -5769,10 +6390,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 263,
+      "id": 291,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 5 Junior (11-16 kg) Monatsbox 174 Stück",
       "store": "ROSSMANN",
@@ -5790,10 +6411,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 264,
+      "id": 292,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 174 Stück",
       "store": "ROSSMANN",
@@ -5811,10 +6432,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 265,
+      "id": 293,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 174 Stück",
       "store": "ROSSMANN",
@@ -5832,10 +6453,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 266,
+      "id": 294,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox 160 Stück",
       "store": "ROSSMANN",
@@ -5853,10 +6474,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 267,
+      "id": 295,
       "key": "Windeln",
       "name": "Baby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox 160 Stück",
       "store": "ROSSMANN",
@@ -5874,10 +6495,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 268,
+      "id": 296,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Windeln Gr. 6 Extra Large (13-18 kg) Monatsbox 148 Stück",
       "store": "ROSSMANN",
@@ -5895,10 +6516,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 269,
+      "id": 297,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 6 Extra Large (13-18 kg) Monatsbox 148 Stück",
       "store": "ROSSMANN",
@@ -5916,10 +6537,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 270,
+      "id": 298,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox 152 Stück",
       "store": "ROSSMANN",
@@ -5937,10 +6558,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 271,
+      "id": 299,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox 152 Stück",
       "store": "ROSSMANN",
@@ -5958,10 +6579,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 272,
+      "id": 300,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Pants Gr. 6 Extra Large (14-19 kg) Monatsbox 138 Stück",
       "store": "ROSSMANN",
@@ -5979,10 +6600,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 273,
+      "id": 301,
       "key": "Windeln",
       "name": "Baby Dry Pants Gr. 6 Extra Large (14-19 kg) Monatsbox 138 Stück",
       "store": "ROSSMANN",
@@ -6000,10 +6621,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 274,
+      "id": 302,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Windeln Gr. 7 Extra Large (15+ kg) Monatsbox 132 Stück",
       "store": "ROSSMANN",
@@ -6021,10 +6642,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 275,
+      "id": 303,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 7 Extra Large (15+ kg) Monatsbox 132 Stück",
       "store": "ROSSMANN",
@@ -6042,10 +6663,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 276,
+      "id": 304,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox 144 Stück",
       "store": "ROSSMANN",
@@ -6063,10 +6684,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 277,
+      "id": 305,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox 144 Stück",
       "store": "ROSSMANN",
@@ -6084,10 +6705,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 278,
+      "id": 306,
       "key": "Wurst",
       "name": "18% billiger",
       "store": "NORMA",
@@ -6105,10 +6726,10 @@
       "advertised": false,
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 279,
+      "id": 307,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -6126,10 +6747,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 280,
+      "id": 308,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -6147,10 +6768,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 281,
+      "id": 309,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -6168,10 +6789,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 282,
+      "id": 310,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -6189,10 +6810,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
     },
     {
-      "id": 283,
+      "id": 311,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -6210,14 +6831,60 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T12:49:13.628Z"
+      "importedAt": "2026-08-19T12:53:25.827Z"
+    },
+    {
+      "key": "Zespri Kiwi Jumbo „Grün“ oder „Gold“",
+      "name": "Zespri Kiwi Jumbo „Grün“ oder „Gold“",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "85080 G",
+      "price": 1,
+      "unit": 0.012,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 312
+    },
+    {
+      "key": "Zwetschgen",
+      "name": "Zwetschgen",
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "cat": "Vorrat",
+      "size": "1,5kg",
+      "price": 2.22,
+      "unit": 1.48,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "sourceScope": "market",
+      "sourceTransport": "reader",
+      "importedAt": "2026-08-19T12:54:56.738Z",
+      "id": 313
     }
   ],
-  "httpFallbackAt": "2026-08-19T12:50:43.591Z",
+  "httpFallbackAt": "2026-08-19T12:54:52.443Z",
+  "readerFallbackAt": "2026-08-19T12:54:56.738Z",
+  "nettoReaderAt": "2026-08-19T12:55:06.675Z",
   "quality": {
-    "sanitizedAt": "2026-08-19T12:50:47.601Z",
-    "before": 352,
-    "after": 283,
-    "rejected": 69
+    "sanitizedAt": "2026-08-19T12:55:07.629Z",
+    "before": 392,
+    "after": 313,
+    "rejected": 79
   }
 }
