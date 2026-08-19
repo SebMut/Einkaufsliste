@@ -38,7 +38,7 @@ const NON_FOOD = /werkzeug|akku|shirt|hose|socke|kleid|möbel|lampe|spielzeug|ga
 const FOOD_HINT = /kg|\bg\b|liter|\bl\b|ml|stück|packung|becher|flasche|dose|obst|gemüse|fleisch|fisch|milch|käse|butter|joghurt|kaffee|nudel|reis|brot|wurst|getränk|bio/i;
 
 function norm(s=''){return s.replace(/\u00a0/g,' ').replace(/(\d+)\s*[.]\s*(\d{2})(?=\D|$)/g,'$1.$2').replace(/[ \t]+/g,' ').replace(/\n[ \t]+/g,'\n').trim()}
-function num(s){return Number(String(s).replace(/\./g,'').replace(',','.'))}
+function num(s){let t=String(s).trim().replace(/\s/g,'');if(t.includes(',')&&t.includes('.')){if(t.lastIndexOf(',')>t.lastIndexOf('.'))t=t.replace(/\./g,'').replace(',','.');else t=t.replace(/,/g,'')}else if(t.includes(','))t=t.replace(',','.');return Number(t)}
 function canonicalKey(text,name){for(const [k,r] of KEY_RULES) if(r.test(text)) return k; return name.replace(/\b(bio|aktion|neu|versch(?:iedene)?\.?\s*sorten|je|packung)\b/ig,'').replace(/\s+/g,' ').trim().slice(0,55)}
 function category(text){for(const [k,r] of CAT_RULES) if(r.test(text)) return k; return 'Lebensmittel'}
 function isBio(text){return /\bbio\b|bioland|naturland|demeter|ökologisch|öko-/i.test(text)}
@@ -121,4 +121,4 @@ const offers=dedupe(all).sort((a,b)=>a.key.localeCompare(b.key,'de')||Number(b.b
 const result={schema:1,generatedAt,center:markets.center,nearbyMarkets:markets.nearbyMarkets,sources:statuses,offerCount:offers.length,offers};
 await fs.writeFile(path.join(ROOT,'data/offers-live.json'),JSON.stringify(result,null,2)+'\n');
 console.log(`Fertig: ${offers.length} Live-Angebote aus ${statuses.filter(x=>x.status==='ok').length}/${statuses.length} Quellen.`);
-if(!offers.length)process.exitCode=2;
+if(!offers.length)console.warn('Keine Angebote erkannt; Statusdatei wird trotzdem veröffentlicht.');
