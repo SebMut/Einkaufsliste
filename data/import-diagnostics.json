@@ -1,17 +1,17 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-19T20:57:58.348Z",
+  "generatedAt": "2026-08-19T21:06:09.469Z",
   "run": {
-    "id": "32301270663",
+    "id": "32301926212",
     "attempt": "1",
     "event": "push",
-    "sha": "a9015184dfaecf4ded8ff0ab4f83437884c01dd5",
+    "sha": "f3e9c5f8a9dc07de61a3466b94cea12e9ea61c63",
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 99,
     "status": "failed",
-    "startedAt": "2026-08-19T20:57:58.348Z",
-    "finishedAt": "2026-08-19T20:57:58.348Z",
+    "startedAt": "2026-08-19T21:06:09.469Z",
+    "finishedAt": "2026-08-19T21:06:09.469Z",
     "durationMs": 0
   },
   "summary": {
@@ -23,8 +23,8 @@
     "noData": 0,
     "errors": 0,
     "skipped": 0,
-    "offerCount": 1243,
-    "liveGeneratedAt": "2026-08-19T20:57:57.833Z",
+    "offerCount": 1348,
+    "liveGeneratedAt": "2026-08-19T21:06:09.054Z",
     "liveDataCurrent": true
   },
   "sources": [

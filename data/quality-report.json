@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-19T20:57:56.975Z",
-  "before": 1301,
-  "after": 1232,
-  "rejected": 69,
-  "repaired": 1105,
+  "generatedAt": "2026-08-19T21:06:08.377Z",
+  "before": 1284,
+  "after": 1214,
+  "rejected": 70,
+  "repaired": 1450,
   "rejectedReasons": {
     "invalid_unit": 4,
     "name_length": 38,
-    "duplicate": 20,
+    "duplicate": 21,
     "invalid_price": 7
   },
   "storeBefore": {
     "ALDI SÜD": 54,
     "MÜLLER": 355,
     "ROSSMANN": 88,
-    "EDEKA": 41,
-    "dm": 627,
-    "REWE": 30,
+    "EDEKA": 40,
+    "dm": 612,
+    "REWE": 29,
     "PENNY": 104,
     "Lidl": 2
   },
@@ -24,9 +24,9 @@
     "ALDI SÜD": 54,
     "MÜLLER": 328,
     "ROSSMANN": 65,
-    "EDEKA": 40,
-    "dm": 609,
-    "REWE": 30,
+    "EDEKA": 38,
+    "dm": 594,
+    "REWE": 29,
     "PENNY": 104,
     "Lidl": 2
   },
@@ -58,6 +58,21 @@
     },
     {
       "store": "dm",
+      "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
       "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, sensitiv Multipack (12x85 g), 1,02 kg; Rechtliche Kategorie: Alleinfuttermittel;",
       "reason": "name_length"
     },
@@ -99,6 +114,21 @@
     {
       "store": "dm",
       "name": "Marke: Felix; Produktname: Nassfutter Katze mit Rind, Huhn & Lamm, Original Soup Time Multipack (6x48 g), 288 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
       "reason": "name_length"
     },
     {
@@ -109,41 +139,6 @@
     {
       "store": "ROSSMANN",
       "name": "L’Oréal Paris - Le Shadow Stick 150 Captivating SepiaLetzte Chance!Nur Online16113L’Oréal ParisLe Shadow Stick 150 Captivating Sepia1,4 g 7.99€",
-      "reason": "name_length"
-    },
-    {
-      "store": "dm",
-      "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
-      "reason": "name_length"
-    },
-    {
-      "store": "dm",
-      "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
-      "reason": "name_length"
-    },
-    {
-      "store": "dm",
-      "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
-      "reason": "name_length"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "Lenor - Weichspüler Konzentrat Luftfrisch Wildblumenfeld 50 WL3856LenorWeichspüler Konzentrat Luftfrisch Wildblumenfeld 50 WL50 WL (1WL = 0,09 €)",
-      "reason": "name_length"
-    },
-    {
-      "store": "dm",
-      "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
-      "reason": "name_length"
-    },
-    {
-      "store": "dm",
-      "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
-      "reason": "name_length"
-    },
-    {
-      "store": "dm",
-      "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
       "reason": "name_length"
     },
     {
@@ -168,11 +163,6 @@
     },
     {
       "store": "MÜLLER",
-      "name": "Oral-B Elektrische Zahnbürste iO Series 6 Grey Opal",
-      "reason": "invalid_unit"
-    },
-    {
-      "store": "MÜLLER",
       "name": "Pampers Premium Protection Pants Gr. 4",
       "reason": "invalid_price"
     },
@@ -180,21 +170,31 @@
       "store": "MÜLLER",
       "name": "Pampers Premium Protection Pants Gr. 5",
       "reason": "invalid_price"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "Pampers - Baby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox 160 StückNur Online72023PampersBaby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox 160 Stück160 Stück (100Stück = 34,59 €)",
+      "reason": "name_length"
+    },
+    {
+      "store": "MÜLLER",
+      "name": "Pampers Baby-Dry Pants Gr. 6",
+      "reason": "invalid_price"
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T20:57:57.201Z",
-    "before": 1232,
+    "generatedAt": "2026-08-19T21:06:08.539Z",
+    "before": 1214,
     "after": 600,
-    "rejected": 632,
-    "repaired": 563,
+    "rejected": 614,
+    "repaired": 551,
     "rejectedReasons": {
       "name": 15,
       "unit_high": 4,
       "price": 1,
-      "duplicate": 62,
+      "duplicate": 47,
       "size_duplicate": 71,
-      "semantic_duplicate": 476
+      "semantic_duplicate": 473
     },
     "rejectedExamples": [
       {
@@ -300,7 +300,7 @@
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T20:57:57.321Z",
+    "generatedAt": "2026-08-19T21:06:08.648Z",
     "before": 600,
     "after": 285,
     "rejected": 315,
@@ -673,7 +673,7 @@
     ]
   },
   "semanticPass": {
-    "at": "2026-08-19T20:57:57.431Z",
+    "at": "2026-08-19T21:06:08.734Z",
     "before": 285,
     "after": 285,
     "repaired": 0,
