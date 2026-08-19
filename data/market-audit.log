@@ -1,12 +1,66 @@
-Overpass error https://overpass-api.de/api/interpreter The operation was aborted due to timeout
-Overpass https://overpass.kumi.systems/api/interpreter 500
-file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/market-audit.js:63
-async function overpass(){for(const base of ['https://overpass-api.de/api/interpreter','https://overpass.kumi.systems/api/interpreter']){try{const r=await fetch(base,{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded','user-agent':'AngebotsRadar-MarketAudit/1.0'},body:new URLSearchParams({data:query}),signal:AbortSignal.timeout(95000)});if(r.ok)return await r.json();console.error('Overpass',base,r.status)}catch(e){console.error('Overpass error',base,e.message)}}throw new Error('Alle Overpass-Endpunkte fehlgeschlagen')}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
-
-Error: Alle Overpass-Endpunkte fehlgeschlagen
-    at overpass (file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/market-audit.js:63:496)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/market-audit.js:65:11
-
-Node.js v20.20.2
+Supermärkte: overpass-api.de HTTP 504
+Supermärkte: overpass.kumi.systems HTTP 500
+Supermärkte: overpass.private.coffee HTTP 500
+Supermärkte: alle Server fehlgeschlagen
+Drogerien: overpass-api.de HTTP 504
+Drogerien: overpass.kumi.systems HTTP 500
+Drogerien: overpass.private.coffee HTTP 500
+Drogerien: alle Server fehlgeschlagen
+Getränkemärkte: overpass-api.de HTTP 504
+Getränkemärkte: overpass.kumi.systems HTTP 500
+Getränkemärkte: overpass.private.coffee HTTP 500
+Getränkemärkte: alle Server fehlgeschlagen
+Babyfachmärkte: overpass-api.de HTTP 504
+Babyfachmärkte: overpass.kumi.systems HTTP 500
+Babyfachmärkte: overpass.private.coffee HTTP 500
+Babyfachmärkte: alle Server fehlgeschlagen
+Großhandel: overpass-api.de HTTP 504
+Großhandel: overpass.kumi.systems HTTP 500
+Großhandel: overpass.private.coffee HTTP 500
+Großhandel: alle Server fehlgeschlagen
+Marken A-M: overpass-api.de: The operation was aborted due to timeout
+Marken A-M: overpass.kumi.systems HTTP 500
+Marken A-M: overpass.private.coffee HTTP 500
+Marken A-M: alle Server fehlgeschlagen
+Marken N-Z: overpass-api.de: The operation was aborted due to timeout
+Marken N-Z: overpass.kumi.systems HTTP 500
+Marken N-Z: overpass.private.coffee HTTP 500
+Marken N-Z: alle Server fehlgeschlagen
+{
+  "generatedAt": "2026-08-19T18:46:44.693Z",
+  "region": "85622 Feldkirchen bei München + 15 km Luftlinie",
+  "before": {
+    "handlers": 12,
+    "branches": 27
+  },
+  "after": {
+    "handlers": 0,
+    "branches": 0
+  },
+  "newHandlers": [],
+  "alreadyPresent": [],
+  "removedHandlers": [
+    "ALDI SÜD",
+    "dm",
+    "EDEKA",
+    "HIT",
+    "Kaufland",
+    "Lidl",
+    "METRO",
+    "Netto",
+    "NORMA",
+    "PENNY",
+    "REWE",
+    "ROSSMANN"
+  ],
+  "duplicatesRemoved": 0,
+  "byStore": {},
+  "byType": {},
+  "importStatusCounts": {},
+  "notes": [
+    "Entfernung aus OSM-Koordinaten per Haversine.",
+    "Filialen > 15,00 km werden nicht gespeichert.",
+    "Unabhängige shop=supermarket-Märkte werden ebenfalls erfasst.",
+    "Restaurants, Bäckereien, Metzgereien, Tankstellen, Kioske, Apotheken sowie Blumen-/Möbel-/Elektronikgeschäfte werden ausgeschlossen."
+  ]
+}

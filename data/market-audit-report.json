@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-08-19T18:46:44.693Z",
+  "region": "85622 Feldkirchen bei München + 15 km Luftlinie",
+  "before": {
+    "handlers": 12,
+    "branches": 27
+  },
+  "after": {
+    "handlers": 0,
+    "branches": 0
+  },
+  "newHandlers": [],
+  "alreadyPresent": [],
+  "removedHandlers": [
+    "ALDI SÜD",
+    "dm",
+    "EDEKA",
+    "HIT",
+    "Kaufland",
+    "Lidl",
+    "METRO",
+    "Netto",
+    "NORMA",
+    "PENNY",
+    "REWE",
+    "ROSSMANN"
+  ],
+  "duplicatesRemoved": 0,
+  "byStore": {},
+  "byType": {},
+  "importStatusCounts": {},
+  "notes": [
+    "Entfernung aus OSM-Koordinaten per Haversine.",
+    "Filialen > 15,00 km werden nicht gespeichert.",
+    "Unabhängige shop=supermarket-Märkte werden ebenfalls erfasst.",
+    "Restaurants, Bäckereien, Metzgereien, Tankstellen, Kioske, Apotheken sowie Blumen-/Möbel-/Elektronikgeschäfte werden ausgeschlossen."
+  ]
+}
