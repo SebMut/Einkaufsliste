@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-19T21:48:53.215Z",
+  "testedCommit": "50c2fd0caddc848fee3cd50f7f39cec5a54cb613",
+  "runId": "32305759982",
+  "runAttempt": "1",
+  "node": "v20.20.2",
+  "status": "failed",
+  "tests": 62,
+  "passed": 61,
+  "failed": 1,
+  "exitCode": 1
+}

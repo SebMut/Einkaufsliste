@@ -1,0 +1,346 @@
+
+> angebotsradar-live-importer@5.1.0 test
+> node --test product-normalizer.test.js semantic-edge-cases.test.js semantic-live-audit.test.js safety-regression.test.js market-policy.test.js product-identity.test.js frontend-smoke.test.js
+
+TAP version 13
+# Subtest: UI nennt keine alte 15-km-Logik mehr
+ok 1 - UI nennt keine alte 15-km-Logik mehr
+  ---
+  duration_ms: 1.520693
+  ...
+# Subtest: UI unterscheidet Produkte, Angebote und reguläre Preise
+ok 2 - UI unterscheidet Produkte, Angebote und reguläre Preise
+  ---
+  duration_ms: 0.250227
+  ...
+# Subtest: Frontend verwendet die semantische Vergleichsprüfung
+ok 3 - Frontend verwendet die semantische Vergleichsprüfung
+  ---
+  duration_ms: 0.286434
+  ...
+# Subtest: Preisbewertung nutzt ausschließlich konkrete Produkthistorie
+ok 4 - Preisbewertung nutzt ausschließlich konkrete Produkthistorie
+  ---
+  duration_ms: 0.232599
+  ...
+# Subtest: mobile CSS bleibt vorhanden
+ok 5 - mobile CSS bleibt vorhanden
+  ---
+  duration_ms: 0.179371
+  ...
+# Subtest: Inline-JavaScript ist syntaktisch gültig
+ok 6 - Inline-JavaScript ist syntaktisch gültig
+  ---
+  duration_ms: 42.342994
+  ...
+# Subtest: Feldkirchen ist erlaubt
+ok 7 - Feldkirchen ist erlaubt
+  ---
+  duration_ms: 1.374517
+  ...
+# Subtest: Aschheim ist erlaubt
+ok 8 - Aschheim ist erlaubt
+  ---
+  duration_ms: 0.211789
+  ...
+# Subtest: Heimstetten ist erlaubt
+ok 9 - Heimstetten ist erlaubt
+  ---
+  duration_ms: 0.424782
+  ...
+# Subtest: Kirchheim ist erlaubt
+ok 10 - Kirchheim ist erlaubt
+  ---
+  duration_ms: 0.212002
+  ...
+# Subtest: Riem Arcaden ist erlaubt
+ok 11 - Riem Arcaden ist erlaubt
+  ---
+  duration_ms: 0.091881
+  ...
+# Subtest: Haar ist gesperrt
+ok 12 - Haar ist gesperrt
+  ---
+  duration_ms: 0.143096
+  ...
+# Subtest: Vaterstetten ist gesperrt
+ok 13 - Vaterstetten ist gesperrt
+  ---
+  duration_ms: 0.128059
+  ...
+# Subtest: Parsdorf ist gesperrt
+ok 14 - Parsdorf ist gesperrt
+  ---
+  duration_ms: 0.082523
+  ...
+# Subtest: Poing ist gesperrt
+ok 15 - Poing ist gesperrt
+  ---
+  duration_ms: 0.160611
+  ...
+# Subtest: Trudering ist gesperrt
+ok 16 - Trudering ist gesperrt
+  ---
+  duration_ms: 0.242313
+  ...
+# Subtest: München-Freimann ist gesperrt
+ok 17 - München-Freimann ist gesperrt
+  ---
+  duration_ms: 0.092359
+  ...
+# Subtest: München-Berg am Laim ist gesperrt
+ok 18 - München-Berg am Laim ist gesperrt
+  ---
+  duration_ms: 0.086176
+  ...
+# Subtest: Riem außerhalb Arcaden ist gesperrt
+ok 19 - Riem außerhalb Arcaden ist gesperrt
+  ---
+  duration_ms: 0.10055
+  ...
+# Subtest: Riem Arcaden ist nur an der belegten Arcaden-Adresse aktiv
+ok 20 - Riem Arcaden ist nur an der belegten Arcaden-Adresse aktiv
+  ---
+  duration_ms: 0.176958
+  ...
+# Subtest: explizites isRiemArcaden darf belastbar verifizierte Datensätze zulassen
+ok 21 - explizites isRiemArcaden darf belastbar verifizierte Datensätze zulassen
+  ---
+  duration_ms: 0.140573
+  ...
+# Subtest: valide EAN/GTIN wird erkannt
+ok 22 - valide EAN/GTIN wird erkannt
+  ---
+  duration_ms: 1.658639
+  ...
+# Subtest: ungültige EAN wird nicht als Identität verwendet
+ok 23 - ungültige EAN wird nicht als Identität verwendet
+  ---
+  duration_ms: 0.218271
+  ...
+# Subtest: identische EAN hat Vorrang und ergibt exact_match
+ok 24 - identische EAN hat Vorrang und ergibt exact_match
+  ---
+  duration_ms: 5.27274
+  ...
+# Subtest: Eigenmarken derselben Milchgruppe bleiben konkrete unterschiedliche Produkte
+ok 25 - Eigenmarken derselben Milchgruppe bleiben konkrete unterschiedliche Produkte
+  ---
+  duration_ms: 0.897768
+  ...
+# Subtest: gleiches Markenprodukt bei zwei Händlern erhält dieselbe konkrete Produkt-ID
+ok 26 - gleiches Markenprodukt bei zwei Händlern erhält dieselbe konkrete Produkt-ID
+  ---
+  duration_ms: 0.611405
+  ...
+# Subtest: Windbeutel, Windelbeutel und Windeln erhalten verschiedene konkrete IDs
+ok 27 - Windbeutel, Windelbeutel und Windeln erhalten verschiedene konkrete IDs
+  ---
+  duration_ms: 1.528472
+  ...
+# Subtest: Frische Vollmilch wird als Milch gebündelt
+ok 28 - Frische Vollmilch wird als Milch gebündelt
+  ---
+  duration_ms: 5.054621
+  ...
+# Subtest: Milch und Vollmilch gehören zur selben allgemeinen Produktgruppe
+ok 29 - Milch und Vollmilch gehören zur selben allgemeinen Produktgruppe
+  ---
+  duration_ms: 0.990743
+  ...
+# Subtest: Bio Vollmilch bleibt Bio und Milch
+ok 30 - Bio Vollmilch bleibt Bio und Milch
+  ---
+  duration_ms: 0.259907
+  ...
+# Subtest: Windbeutel ist eine Süßspeise und weder Windel noch Windelbeutel
+ok 31 - Windbeutel ist eine Süßspeise und weder Windel noch Windelbeutel
+  ---
+  duration_ms: 1.225236
+  ...
+# Subtest: Windeln und Windelbeutel werden selbst bei gleicher Einheit nie preislich verglichen
+ok 32 - Windeln und Windelbeutel werden selbst bei gleicher Einheit nie preislich verglichen
+  ---
+  duration_ms: 0.858359
+  ...
+# Subtest: Windbeutel und Windeln werden selbst bei künstlich gleicher Einheit nie verglichen
+ok 33 - Windbeutel und Windeln werden selbst bei künstlich gleicher Einheit nie verglichen
+  ---
+  duration_ms: 0.47801
+  ...
+# Subtest: Windel-Wortfamilie bleibt funktional getrennt
+ok 34 - Windel-Wortfamilie bleibt funktional getrennt
+  ---
+  duration_ms: 1.35535
+  ...
+# Subtest: Windelgrößen sind gleiche Obergruppe, aber nicht austauschbar
+ok 35 - Windelgrößen sind gleiche Obergruppe, aber nicht austauschbar
+  ---
+  duration_ms: 0.562619
+  ...
+# Subtest: Milchreis ist keine Milch
+ok 36 - Milchreis ist keine Milch
+  ---
+  duration_ms: 0.37767
+  ...
+# Subtest: Milchschokolade ist keine Milch
+ok 37 - Milchschokolade ist keine Milch
+  ---
+  duration_ms: 0.292503
+  ...
+# Subtest: Kokosmilch, Babymilch, Kondensmilch und Milchpulver sind keine Trinkmilch-Gruppe
+ok 38 - Kokosmilch, Babymilch, Kondensmilch und Milchpulver sind keine Trinkmilch-Gruppe
+  ---
+  duration_ms: 0.428837
+  ...
+# Subtest: Butter und Deutsche Markenbutter gehören zusammen
+ok 39 - Butter und Deutsche Markenbutter gehören zusammen
+  ---
+  duration_ms: 0.382872
+  ...
+# Subtest: Butterkeks, Erdnussbutter und Kakaobutter sind keine Butter
+ok 40 - Butterkeks, Erdnussbutter und Kakaobutter sind keine Butter
+  ---
+  duration_ms: 0.420211
+  ...
+# Subtest: Zahnpasta und Zahncreme werden zusammengefasst
+ok 41 - Zahnpasta und Zahncreme werden zusammengefasst
+  ---
+  duration_ms: 0.338293
+  ...
+# Subtest: Zahnpasta und Zahnbürste bleiben getrennt
+ok 42 - Zahnpasta und Zahnbürste bleiben getrennt
+  ---
+  duration_ms: 0.342184
+  ...
+# Subtest: Spülmittel und Spülmaschinentabs bleiben getrennt
+ok 43 - Spülmittel und Spülmaschinentabs bleiben getrennt
+  ---
+  duration_ms: 0.334876
+  ...
+# Subtest: Waschmittel und Weichspüler bleiben getrennt
+ok 44 - Waschmittel und Weichspüler bleiben getrennt
+  ---
+  duration_ms: 0.331389
+  ...
+# Subtest: Toilettenpapier und Küchenpapier bleiben getrennt
+ok 45 - Toilettenpapier und Küchenpapier bleiben getrennt
+  ---
+  duration_ms: 0.35932
+  ...
+# Subtest: Windeln sind weder Feuchttücher noch Wickelunterlagen
+ok 46 - Windeln sind weder Feuchttücher noch Wickelunterlagen
+  ---
+  duration_ms: 0.426168
+  ...
+# Subtest: Apfelsaft ist kein Apfel-Angebot
+ok 47 - Apfelsaft ist kein Apfel-Angebot
+  ---
+  duration_ms: 0.672204
+  ...
+# Subtest: Sicherheits-Wattestäbchen werden Baby & Kleinkind zugeordnet
+ok 48 - Sicherheits-Wattestäbchen werden Baby & Kleinkind zugeordnet
+  ---
+  duration_ms: 0.37301
+  ...
+# Subtest: Rinderhack und gemischtes Hack sind gleiche Gruppe, aber nicht exakt
+ok 49 - Rinderhack und gemischtes Hack sind gleiche Gruppe, aber nicht exakt
+  ---
+  duration_ms: 0.575267
+  ...
+# Subtest: Ein einzelnes Angebot vergleicht sich nicht mit sich selbst
+ok 50 - Ein einzelnes Angebot vergleicht sich nicht mit sich selbst
+  ---
+  duration_ms: 0.196328
+  ...
+# Subtest: Doppelter Import desselben Angebots erzeugt keinen Vergleich
+ok 51 - Doppelter Import desselben Angebots erzeugt keinen Vergleich
+  ---
+  duration_ms: 0.199792
+  ...
+# Subtest: dm und Rossmann ergeben bei wirklich austauschbarem Produkt einen Händlervergleich
+ok 52 - dm und Rossmann ergeben bei wirklich austauschbarem Produkt einen Händlervergleich
+  ---
+  duration_ms: 0.366669
+  ...
+# Subtest: Preisbewertung meldet deutlich günstigeren Preis
+ok 53 - Preisbewertung meldet deutlich günstigeren Preis
+  ---
+  duration_ms: 0.77658
+  ...
+# Subtest: ungültige gleiche GTIN erzeugt niemals ein exact_match
+ok 54 - ungültige gleiche GTIN erzeugt niemals ein exact_match
+  ---
+  duration_ms: 6.115929
+  ...
+# Subtest: valide gleiche GTIN bleibt stärkste konkrete Produktidentität
+ok 55 - valide gleiche GTIN bleibt stärkste konkrete Produktidentität
+  ---
+  duration_ms: 0.462374
+  ...
+# Subtest: Preisbewertung mischt andere konkrete Produkte derselben Gruppe nicht ein
+ok 56 - Preisbewertung mischt andere konkrete Produkte derselben Gruppe nicht ein
+  ---
+  duration_ms: 0.697589
+  ...
+# Subtest: mindestens 100 zusätzliche semantische Edge-Cases sind klassifiziert
+not ok 57 - mindestens 100 zusätzliche semantische Edge-Cases sind klassifiziert
+  ---
+  duration_ms: 13.181303
+  location: '/home/runner/work/Einkaufsliste/Einkaufsliste/importer/semantic-edge-cases.test.js:147:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Falscher Produkttyp für "Spülmaschinen Tabs Classic": null statt Spülmaschinentabs
+    + actual - expected
+    
+    + null
+    - 'Spülmaschinentabs'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'Spülmaschinentabs'
+  actual: ~
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/semantic-edge-cases.test.js:151:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:796:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:526:18)
+    node:internal/test_runner/harness:255:12
+    node:internal/process/task_queues:140:7
+    AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+  ...
+# Subtest: funktional verschiedene Produkte bleiben auch bei identischer künstlicher Preiseinheit unvergleichbar
+ok 58 - funktional verschiedene Produkte bleiben auch bei identischer künstlicher Preiseinheit unvergleichbar
+  ---
+  duration_ms: 5.710829
+  ...
+# Subtest: bekannte zusammengesetzte Produktnamen werden im Live-Bestand semantisch korrekt erkannt
+ok 59 - bekannte zusammengesetzte Produktnamen werden im Live-Bestand semantisch korrekt erkannt
+  ---
+  duration_ms: 4.818397
+  ...
+# Subtest: kein UI-Bundle mischt unterschiedliche bekannte Hauptprodukttypen
+ok 60 - kein UI-Bundle mischt unterschiedliche bekannte Hauptprodukttypen
+  ---
+  duration_ms: 1.194616
+  ...
+# Subtest: unterschiedliche Varianten eines Produkttyps dürfen eine Obergruppe teilen, aber nicht blind verglichen werden
+ok 61 - unterschiedliche Varianten eines Produkttyps dürfen eine Obergruppe teilen, aber nicht blind verglichen werden
+  ---
+  duration_ms: 0.288706
+  ...
+# Subtest: Windbeutel, Windelbeutel und Windeln können nie denselben Bundle-Key erhalten
+ok 62 - Windbeutel, Windelbeutel und Windeln können nie denselben Bundle-Key erhalten
+  ---
+  duration_ms: 0.330365
+  ...
+1..62
+# tests 62
+# suites 0
+# pass 61
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 314.171218
