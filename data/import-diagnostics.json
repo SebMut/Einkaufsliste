@@ -1,22 +1,148 @@
 {
   "schema": 1,
-  "generatedAt": null,
+  "generatedAt": "2026-08-19T11:31:09.559Z",
   "run": {
-    "status": "pending",
-    "exitCode": null,
-    "startedAt": null,
-    "finishedAt": null,
-    "durationMs": null
+    "id": "32247902051",
+    "attempt": "1",
+    "event": "push",
+    "sha": "f9c40591ba246afb4e1aea6ae9d37fed5fc5ecdb",
+    "ref": "main",
+    "actor": "SebMut",
+    "exitCode": 90,
+    "status": "failed",
+    "startedAt": "2026-08-19T11:31:09.513Z",
+    "finishedAt": "2026-08-19T11:31:09.516Z",
+    "durationMs": 3
   },
   "summary": {
     "configuredSources": 9,
-    "ok": 0,
-    "noData": 0,
+    "ok": 4,
+    "noData": 5,
     "errors": 0,
-    "skipped": 9,
-    "offerCount": 0,
-    "liveGeneratedAt": null
+    "skipped": 0,
+    "offerCount": 162,
+    "liveGeneratedAt": "2026-08-19T11:26:21.675Z"
   },
-  "sources": [],
-  "lastLogLines": []
+  "sources": [
+    {
+      "store": "REWE",
+      "market": "Feldkirchen",
+      "address": "Kapellenstr. 16b, 85622 Feldkirchen",
+      "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
+      "scope": "market",
+      "status": "no_data",
+      "count": 0,
+      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
+    },
+    {
+      "store": "EDEKA",
+      "market": "Berghammer Feldkirchen",
+      "address": "Brauereiweg 1, 85622 Feldkirchen",
+      "sourceUrl": "https://www.edeka.de/maerkte/030244/",
+      "scope": "market",
+      "status": "no_data",
+      "count": 0,
+      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
+    },
+    {
+      "store": "PENNY",
+      "market": "Feldkirchen",
+      "address": "Clara-Schumann-Straße 2, 85622 Feldkirchen",
+      "sourceUrl": "https://www.penny.de/angebote",
+      "scope": "regional",
+      "status": "ok",
+      "count": 57,
+      "message": "57 Angebote importiert",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
+    },
+    {
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "scope": "market",
+      "status": "ok",
+      "count": 2,
+      "message": "2 Angebote importiert",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
+    },
+    {
+      "store": "ALDI SÜD",
+      "market": "Aschheim / Vaterstetten",
+      "address": "Ludwig-Thoma-Straße 2, 85609 Aschheim",
+      "sourceUrl": "https://www.aldi-sued.de/angebote",
+      "scope": "regional",
+      "status": "ok",
+      "count": 100,
+      "message": "100 Angebote importiert",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
+    },
+    {
+      "store": "Lidl",
+      "market": "Aschheim / Haar",
+      "address": "Ohmstraße 5, 85609 Aschheim",
+      "sourceUrl": "https://www.lidl.de/c/online-prospekte/s10005610/",
+      "scope": "regional",
+      "status": "ok",
+      "count": 3,
+      "message": "3 Angebote importiert",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
+    },
+    {
+      "store": "Netto",
+      "market": "Trudering",
+      "address": "Truderinger Str. 217, 81825 München",
+      "sourceUrl": "https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317",
+      "scope": "market",
+      "status": "no_data",
+      "count": 0,
+      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
+    },
+    {
+      "store": "NORMA",
+      "market": "Vaterstetten",
+      "address": "Johann-Sebastian-Bach-Strasse 44, 85591 Vaterstetten",
+      "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
+      "scope": "regional",
+      "status": "no_data",
+      "count": 0,
+      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
+    },
+    {
+      "store": "Kaufland",
+      "market": "München-Berg am Laim",
+      "address": "Berg-am-Laim-Straße 117, 81673 München",
+      "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
+      "scope": "market",
+      "status": "no_data",
+      "count": 0,
+      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
+    }
+  ],
+  "lastLogLines": [
+    "1787139069515\\tImporter nicht gestartet: Dependencies=cancelled, Chromium=success"
+  ]
 }
