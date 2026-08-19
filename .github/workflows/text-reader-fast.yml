@@ -7,6 +7,7 @@ on:
       - 'importer/text-retailers.js'
       - 'importer/hit-reader-v4.js'
       - 'importer/quality-v3.js'
+      - 'importer/quality-v4.js'
       - '.github/workflows/text-reader-fast.yml'
 
 permissions:
@@ -35,6 +36,7 @@ jobs:
           node sanitize.js 2>&1 | tee -a ../data/text-reader.log
           node quality-v2.js 2>&1 | tee -a ../data/text-reader.log
           node quality-v3.js 2>&1 | tee -a ../data/text-reader.log
+          node quality-v4.js 2>&1 | tee -a ../data/text-reader.log
       - name: Status
         shell: bash
         run: |
