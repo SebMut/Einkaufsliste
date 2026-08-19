@@ -1,0 +1,41 @@
+name: Markt-Audit 15 km
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'importer/market-audit.js'
+      - '.github/workflows/market-audit.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-audit-15km
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Märkte im 15-km-Radius neu ermitteln
+        working-directory: importer
+        run: node market-audit.js | tee ../data/market-audit.log
+      - name: Ergebnisse veröffentlichen
+        shell: bash
+        run: |
+          git config user.name "AngebotsRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/markets.json data/market-audit-report.json data/market-audit.log
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Markt-Audit 15 km aktualisieren"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            sleep 4
+          done
+          exit 1
