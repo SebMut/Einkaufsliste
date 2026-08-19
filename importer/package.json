@@ -1,8 +1,14 @@
 {
   "name": "angebotsradar-live-importer",
-  "version": "3.0.0",
+  "version": "4.1.0",
   "private": true,
   "type": "module",
-  "scripts": {"import": "node import.js"},
-  "dependencies": {"playwright": "1.55.0"}
+  "scripts": {
+    "import": "node import.js",
+    "fallback": "node fallback.js"
+  },
+  "dependencies": {
+    "playwright": "1.55.0",
+    "cheerio": "1.0.0"
+  }
 }
