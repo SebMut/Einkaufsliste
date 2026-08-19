@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "label": "Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "initialCards": 80,
+      "filteredStatus": "10 Produktgruppen · 156 Angebote · 1191 reguläre Produkte",
+      "overflow": 0,
+      "pageErrors": []
+    },
+    {
+      "label": "iPhone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "initialCards": 40,
+      "filteredStatus": "10 Produktgruppen · 156 Angebote · 1191 reguläre Produkte",
+      "overflow": 0,
+      "pageErrors": []
+    }
+  ]
+}
