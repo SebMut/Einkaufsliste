@@ -1,15 +1,17 @@
 {
-  "generatedAt": "2026-08-19T15:48:25.582Z",
-  "before": 378,
-  "after": 372,
-  "rejected": 6,
-  "repaired": 330,
+  "generatedAt": "2026-08-19T15:51:39.236Z",
+  "before": 434,
+  "after": 418,
+  "rejected": 16,
+  "repaired": 391,
   "rejectedReasons": {
     "duplicate": 2,
-    "name_no_letters": 4
+    "name_no_letters": 4,
+    "name_length": 8,
+    "quantity_as_name": 1,
+    "invalid_unit": 1
   },
   "storeBefore": {
-    "HIT": 80,
     "EDEKA": 11,
     "ALDI SÜD": 26,
     "PENNY": 51,
@@ -19,10 +21,10 @@
     "Netto": 8,
     "Lidl": 1,
     "NORMA": 121,
-    "Kaufland": 22
+    "Kaufland": 22,
+    "HIT": 136
   },
   "storeAfter": {
-    "HIT": 80,
     "EDEKA": 11,
     "ALDI SÜD": 26,
     "PENNY": 51,
@@ -32,7 +34,8 @@
     "Netto": 2,
     "Lidl": 1,
     "NORMA": 121,
-    "Kaufland": 22
+    "Kaufland": 22,
+    "HIT": 126
   },
   "rejectedExamples": [
     {
@@ -54,22 +57,478 @@
       "store": "Netto",
       "name": "1.- / l",
       "reason": "name_no_letters"
+    },
+    {
+      "store": "HIT",
+      "name": "Grand Cru du Jurassic, Cyrano pur Schaf, Brügge alt, Postel Alt Franz./Belg. Hart-/ Schnittkäse 50 % Fett i. Tr., würzig oder mild 2,5-12 Monate gereift",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "Jakobskäse, Koch Montchic Young Talent, Goldbach der Cremige Schweizer Hart-/ Schnitkäse 55-58 % Fett i. Tr., würzig oder mild 3-6 Monate gereift",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "Deutsche frische Hähnchenbrustfilet oder Putenschnitzel/ Steaks aus der zarten, mageren Brust, natur von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "Deutsches mariniertes Hähnchenbrustfilet, Putensteak/ Schnitzel, Spieße versch. Sorten von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "Niederlande Gourmet HIT Cocktailstrauchtomaten Sorte: Annico Klasse I leicht süßes, festes Fruchtfleisch, zum Rohverzehr oder im Salat geeignet",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "3 Glocken Genuss Pur Hartweizennudeln oder Birkel No. 1 Hartweizen Eiernudeln versch. Ausformungen",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "HIT",
+      "name": "Deutsche marinierte Fixe Schnitzel aus der Puten-, Hähnchenbrustfilet ca. 400 g SB-Packung, versch. Sorten von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "Settele Spätzle, Schupfnudeln oder Gnocchi versch. Sorten 1 kg Packung",
+      "reason": "invalid_unit"
+    },
+    {
+      "store": "HIT",
+      "name": "Schloss Sommerau alkoholfrei oder Rotwild Rebsortenweine mittelkräftig, fruchtige Aromen, samtig und rund, trocken, halbtrocken, lieblich. alkoholfrei",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "Torres Viña Sol, Sangre de Toro oder Mucho Más Tinto mittelkräftig, dezente Aromen reifer exotischer Früchte, wenig Säure, trocken. auch alkoholfrei",
+      "reason": "name_length"
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T15:48:25.676Z",
-    "before": 372,
-    "after": 371,
-    "rejected": 1,
+    "generatedAt": "2026-08-19T15:51:39.305Z",
+    "before": 418,
+    "after": 411,
+    "rejected": 7,
     "repaired": 60,
     "rejectedReasons": {
-      "name": 1
+      "name": 7
     },
     "rejectedExamples": [
       {
         "store": "Kaufland",
         "name": "![Image 24: LANDLIEBE Haltbare Landmilch, fettarm, 1,5 % Fett LANDLIEBE Haltbare Landmilch, fettarm, 1,5 % Fett je 1-l-Packg.",
         "reason": "name"
+      },
+      {
+        "store": "HIT",
+        "name": "Marokko/Kenia Bio HIT Avocado Sorte: Hass Klasse II die Butter des Waldes, besonders nussiges Aroma, als Brotaufstrich oder zum Salat Stück",
+        "reason": "name"
+      },
+      {
+        "store": "HIT",
+        "name": "III Freunde Rebsortenweine verschiedene Sorten mittelkräftig, Aromen von gelben Früchten, frisch, trocken. auch alkoholfrei",
+        "reason": "name"
+      },
+      {
+        "store": "HIT",
+        "name": "Ziegenkäse Arina jung Hollandse Geitenkaas g.g.A. Holl. Schnittkäse aus Ziegenmilch 50 % Fett i. Tr., mild 4 Wochen gereift",
+        "reason": "name"
+      },
+      {
+        "store": "HIT",
+        "name": "Markus Molitor Riesling oder Kruger-Rumpf Grauburgunder Mosel/Nahe, mittelkräftig, fruchtige Aromen, dezente Säure, trocken.",
+        "reason": "name"
+      },
+      {
+        "store": "HIT",
+        "name": "Recas Speis & Trank Rebsortenweine oder Riunite Lambrusco mittelkräftig, fruchtige Aromen, frisch, trocken oder lieblich.",
+        "reason": "name"
+      },
+      {
+        "store": "HIT",
+        "name": "Deutscher gefüllter Spießbraten, marinierter Knoblauch-Saftbraten vom Schweinenacken ohne Knochen, küchenfertig zubereitet",
+        "reason": "name"
+      }
+    ]
+  },
+  "strictFoodPass": {
+    "generatedAt": "2026-08-19T15:51:39.363Z",
+    "before": 411,
+    "after": 294,
+    "rejected": 117,
+    "repaired": 142,
+    "reasons": {
+      "nonfood": 6,
+      "not_food": 72,
+      "name": 2,
+      "markdown": 24,
+      "duplicate": 13
+    },
+    "rejectedExamples": [
+      {
+        "store": "NORMA",
+        "name": "![Image 130 * * * **Powertec Electric** ### 4-fach Schuko-Steckdosenleiste",
+        "cleaned": "4-fach Schuko-Steckdosenleiste",
+        "reason": "nonfood"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 132 * * * **Powertec Electric** ### 3-fach Schuko-Steckdosenleiste",
+        "cleaned": "3-fach Schuko-Steckdosenleiste",
+        "reason": "nonfood"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 136: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 136: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 137 * 1 Liter",
+        "cleaned": "* 1 Liter",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 138 * 4+1 gratis",
+        "cleaned": "* 4+1 gratis",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 147",
+        "cleaned": "",
+        "reason": "name"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 157: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 163: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 163: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 167 * 3 + 1 gratis",
+        "cleaned": "* 3 + 1 gratis",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 169: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 169: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 170: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 170: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 175 * 1,2 kg * * * **Dreistern** ### XXL Eintopf",
+        "cleaned": "XXL Eintopf",
+        "reason": "nonfood"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 178",
+        "cleaned": "",
+        "reason": "name"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 20: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 20: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 21: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 21: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 23: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 24: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 24: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 24: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 25: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 25: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 25: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 25: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 28: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 28: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 30: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 30: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 31: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 32: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 33 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 33: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 33: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 34 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 34: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 34: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 35 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 36 * Schwamm gratis * * * **Click 'n Store** ### Frischhaltedosen",
+        "cleaned": "Frischhaltedosen",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 37 * * * **Ritzenhoff & Breker** ### XL-Sternzeichentasse",
+        "cleaned": "XL-Sternzeichentasse",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 38 * * * **Flower Power / I-Glow** ### XL-LED-Dekoration",
+        "cleaned": "XL-LED-Dekoration",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 39: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 40: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 40: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 40: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 40: Nur gültig vom 28.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 28.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 40: Nur gültig vom 28.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 28.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 41: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 41: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 60: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 61 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 62 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 63 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 64 * Schwamm gratis * * * **Click 'n Store** ### Frischhaltedosen",
+        "cleaned": "Frischhaltedosen",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 65 * * * **Ritzenhoff & Breker** ### XL-Sternzeichentasse",
+        "cleaned": "XL-Sternzeichentasse",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 66 * * * **Flower Power / I-Glow** ### XL-LED-Dekoration",
+        "cleaned": "XL-LED-Dekoration",
+        "reason": "not_food"
       }
     ]
   }
