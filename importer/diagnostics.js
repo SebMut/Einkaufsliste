@@ -74,18 +74,20 @@ const sources = (markets.sources || []).map(source => {
     status,
     count,
     message,
+    transport: liveSource?.transport || liveSource?.sourceTransport || 'browser',
     ...timing
   };
 });
 
 const ok = sources.filter(s => s.status === 'ok').length;
 const noData = sources.filter(s => s.status === 'no_data').length;
+const loginRequired = sources.filter(s => s.status === 'login_required').length;
 const errors = sources.filter(s => s.status === 'error').length;
 const skipped = sources.filter(s => s.status === 'skipped').length;
 const runFailed = exitCode !== 0 || !liveDataCurrent || errors > 0;
 
 const diagnostics = {
-  schema: 1,
+  schema: 2,
   generatedAt: now,
   run: {
     id: process.env.GITHUB_RUN_ID || null,
@@ -103,6 +105,7 @@ const diagnostics = {
   summary: {
     configuredSources: sources.length,
     ok,
+    loginRequired,
     noData,
     errors,
     skipped,
@@ -115,4 +118,4 @@ const diagnostics = {
 };
 
 await fs.writeFile(path.join(DATA, 'import-diagnostics.json'), JSON.stringify(diagnostics, null, 2) + '\n');
-console.log(`Diagnose geschrieben: ${ok} ok, ${noData} ohne Daten, ${errors} Fehler, ${skipped} übersprungen; aktuelle Live-Datei=${liveDataCurrent}.`);
+console.log(`Diagnose geschrieben: ${ok} ok, ${loginRequired} Login nötig, ${noData} ohne Daten, ${errors} Fehler, ${skipped} übersprungen; aktuelle Live-Datei=${liveDataCurrent}.`);
