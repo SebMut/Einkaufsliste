@@ -19,13 +19,13 @@ const SEEDS={
     ['Haushalt','https://www.dm.de/haushalt'],
     ['Körperpflege','https://www.dm.de/pflege-und-parfum'],
     ['Haarpflege','https://www.dm.de/haare'],
-    ['Mundpflege','https://www.dm.de/mund-und-zahnpflege'],
+    ['Mundpflege','https://www.dm.de/gesundheit/zahnpflege'],
     ['Baby & Kleinkind','https://www.dm.de/baby-und-kind'],
     ['Lebensmittel','https://www.dm.de/ernaehrung'],
     ['Tierbedarf','https://www.dm.de/tier']
   ],
   ROSSMANN:[
-    ['Haushalt','https://www.rossmann.de/de/haushalt/c/olcat1_3'],
+    ['Haushalt','https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0'],
     ['Körperpflege','https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1'],
     ['Baby & Kleinkind','https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2']
   ]
@@ -128,15 +128,16 @@ async function browserFetch(browser,meta){
     }catch{}
   });
   await page.goto(meta.url,{waitUntil:'domcontentloaded',timeout:60000});
+  await page.waitForSelector('body',{timeout:10000}).catch(()=>{});
   for(const label of [/Alle akzeptieren/i,/Akzeptieren/i,/Zustimmen/i]){try{const b=page.getByRole('button',{name:label}).first();if(await b.isVisible({timeout:1200})){await b.click({timeout:1500});break}}catch{}}
   let stable=0,lastHeight=0;
   for(let i=0;i<10;i++){
     for(const label of [/Mehr anzeigen/i,/Mehr Produkte/i,/Weitere Produkte/i,/Alle anzeigen/i]){
       try{const b=page.getByRole('button',{name:label}).last();if(await b.isVisible({timeout:500})){await b.click({timeout:1500});await page.waitForTimeout(700)}}catch{}
     }
-    const h=await page.evaluate(()=>{window.scrollTo(0,document.body.scrollHeight);return document.body.scrollHeight});
+    const h=await page.evaluate(()=>{const body=document.body;if(!body)return 0;window.scrollTo(0,body.scrollHeight);return body.scrollHeight}).catch(()=>0);
     await page.waitForTimeout(1100);
-    if(h===lastHeight)stable++;else stable=0;lastHeight=h;if(stable>=2)break;
+    if(h>0&&h===lastHeight)stable++;else stable=0;lastHeight=h;if(stable>=2)break;
   }
   const html=await page.content();const products=parseHtml(html,meta,networkProducts);
   const diagnostics={mode:'browser',htmlBytes:Buffer.byteLength(html),jsonResponses,networkProducts:networkProducts.length,bodyChars:(await page.locator('body').innerText().catch(()=>'' )).length};
@@ -155,7 +156,7 @@ function dedupe(raw,retailer){
 }
 
 let browser=null;
-const index={schema:3,generatedAt,sourceType:'official_catalog',retailers:[],files:[],productCount:0};const runtimeStatus=new Map();
+const index={schema:4,generatedAt,sourceType:'official_catalog',retailers:[],files:[],productCount:0};const runtimeStatus=new Map();
 try{
   for(const [retailer,seeds] of Object.entries(SEEDS)){
     const branches=(markets.markets||markets.nearbyMarkets||[]).filter(m=>m.store===retailer&&isAllowedMarket(m));if(!branches.length)continue;
@@ -169,7 +170,7 @@ try{
       }catch(e){sourceResults.push({category,url,status:'unavailable',count:0,message:String(e.message||e).slice(0,220)})}
     }
     const products=dedupe(raw,retailer),status=products.length?'partial_catalog':'unavailable';runtimeStatus.set(retailer,status);const filename=`${slug(retailer)}.json`;
-    await fs.writeFile(path.join(OUT,filename),JSON.stringify({schema:3,generatedAt,retailer,catalogStatus:status,branches:branches.map(b=>({market:b.market,address:b.address,isRiemArcaden:!!b.isRiemArcaden})),productCount:products.length,sources:sourceResults,products},null,2)+'\n');
+    await fs.writeFile(path.join(OUT,filename),JSON.stringify({schema:4,generatedAt,retailer,catalogStatus:status,branches:branches.map(b=>({market:b.market,address:b.address,isRiemArcaden:!!b.isRiemArcaden})),productCount:products.length,sources:sourceResults,products},null,2)+'\n');
     index.files.push(filename);index.productCount+=products.length;index.retailers.push({retailer,catalogStatus:status,productCount:products.length,branchCount:branches.length,sources:sourceResults});
   }
 }finally{if(browser)await browser.close()}
