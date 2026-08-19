@@ -1,0 +1,78 @@
+name: Frontend E2E Test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'index.html'
+      - 'importer/frontend-e2e.js'
+      - '.github/workflows/frontend-e2e.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: frontend-e2e-test
+  cancel-in-progress: true
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Abhängigkeiten installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+      - name: Chromium installieren
+        working-directory: importer
+        run: npx playwright install --with-deps chromium
+      - name: Desktop und Mobile durchklicken
+        id: e2e
+        working-directory: importer
+        shell: bash
+        run: |
+          set +e
+          node frontend-e2e.js 2>&1 | tee ../e2e-output.log
+          CODE=${PIPESTATUS[0]}
+          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: E2E-Testquittung erzeugen
+        if: always()
+        env:
+          EXIT_CODE: ${{ steps.e2e.outputs.exit_code }}
+        run: |
+          mkdir -p docs
+          node - <<'NODE'
+          const fs=require('fs');
+          const receipt={
+            schema:1,
+            generatedAt:new Date().toISOString(),
+            testedCommit:process.env.GITHUB_SHA,
+            runId:process.env.GITHUB_RUN_ID,
+            runAttempt:process.env.GITHUB_RUN_ATTEMPT,
+            status:Number(process.env.EXIT_CODE)===0?'passed':'failed',
+            exitCode:Number(process.env.EXIT_CODE||99),
+            viewports:['Desktop 1440x900','iPhone 390x844']
+          };
+          fs.writeFileSync('docs/e2e-results.json',JSON.stringify(receipt,null,2)+'\n');
+          fs.copyFileSync('e2e-output.log','docs/e2e-output.log');
+          NODE
+      - name: E2E-Testquittung veröffentlichen
+        if: always()
+        run: |
+          git config user.name "AngebotsRadar Test Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/e2e-results.json docs/e2e-output.log
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "E2E-Testquittung aktualisieren [skip ci]"
+          git pull --rebase origin main
+          git push origin main
+      - name: E2E-Status bewerten
+        if: always()
+        run: test "${{ steps.e2e.outputs.exit_code }}" = "0"
