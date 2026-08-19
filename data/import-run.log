@@ -1,23 +1,13 @@
-1787161417160	
-1787161417161	> angebotsradar-live-importer@4.4.0 import
-1787161417163	> node import.js
-1787161417164	
-1787161417639	Importiere REWE Feldkirchen ...
-1787161424026	REWE: no_data, 0 (6387 ms)
-1787161424028	Importiere EDEKA Berghammer Feldkirchen ...
-1787161430332	EDEKA: no_data, 0 (6306 ms)
-1787161430334	Importiere PENNY Region Feldkirchen ...
-1787161438722	PENNY: ok, 140 (8388 ms)
-1787161438724	Importiere HIT Parsdorf ...
-1787161447819	HIT: ok, 3 (9097 ms)
-1787161447821	Importiere ALDI SÜD Region Feldkirchen ...
-1787161455482	ALDI SÜD: ok, 67 (7664 ms)
-1787161455488	Importiere Lidl Region Feldkirchen ...
-1787161463286	Lidl: ok, 1 (7800 ms)
-1787161463288	Importiere Netto Trudering ...
-1787161469482	Netto: no_data, 0 (6199 ms)
-1787161469484	Importiere NORMA Region Feldkirchen ...
-1787161478181	NORMA: ok, 1 (8698 ms)
-1787161478182	Importiere Kaufland München-Berg am Laim ...
-1787161485960	Kaufland: ok, 9 (7780 ms)
-1787161485962	Importiere METRO München-Freimann ...
+1787167268649	
+1787167268651	> angebotsradar-live-importer@4.4.0 import
+1787167268654	> node import.js
+1787167268655	
+1787167268983	<anonymous_script>:1
+1787167268985	__FROM_FILE__
+1787167268987	^
+1787167268990	
+1787167268992	SyntaxError: Unexpected token '_', "__FROM_FILE__" is not valid JSON
+1787167268994	    at JSON.parse (<anonymous>)
+1787167268995	    at file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/import.js:6:22
+1787167268997	
+1787167268998	Node.js v20.20.2
