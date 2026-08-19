@@ -1,21 +1,21 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-19T20:15:47.794Z",
+  "generatedAt": "2026-08-19T20:18:41.021Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
       "catalogStatus": "partial_catalog",
-      "productCount": 198,
+      "productCount": 196,
       "branchCount": 3,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.dm.de/haushalt",
           "status": "ok",
-          "count": 47,
+          "count": 43,
           "mode": "browser",
-          "htmlBytes": 486670,
+          "htmlBytes": 469104,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -25,8 +25,8 @@
           "status": "ok",
           "count": 45,
           "mode": "browser",
-          "htmlBytes": 499714,
-          "jsonResponses": 10,
+          "htmlBytes": 499759,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
@@ -35,8 +35,8 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 538139,
-          "jsonResponses": 13,
+          "htmlBytes": 538159,
+          "jsonResponses": 10,
           "networkProducts": 0
         },
         {
@@ -45,7 +45,7 @@
           "status": "no_data",
           "count": 0,
           "mode": "browser",
-          "htmlBytes": 114660,
+          "htmlBytes": 114656,
           "jsonResponses": 6,
           "networkProducts": 0
         },
@@ -55,8 +55,8 @@
           "status": "ok",
           "count": 71,
           "mode": "browser",
-          "htmlBytes": 614707,
-          "jsonResponses": 11,
+          "htmlBytes": 613314,
+          "jsonResponses": 12,
           "networkProducts": 0
         },
         {
@@ -65,8 +65,8 @@
           "status": "ok",
           "count": 57,
           "mode": "browser",
-          "htmlBytes": 623275,
-          "jsonResponses": 10,
+          "htmlBytes": 631035,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
@@ -75,8 +75,8 @@
           "status": "ok",
           "count": 35,
           "mode": "browser",
-          "htmlBytes": 390505,
-          "jsonResponses": 11,
+          "htmlBytes": 391895,
+          "jsonResponses": 10,
           "networkProducts": 0
         }
       ]
@@ -84,15 +84,18 @@
     {
       "retailer": "ROSSMANN",
       "catalogStatus": "partial_catalog",
-      "productCount": 44,
+      "productCount": 68,
       "branchCount": 1,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
-          "status": "unavailable",
-          "count": 0,
-          "message": "page.evaluate: TypeError: Cannot read properties of null (reading 'scrollHeight')\n    at eval (eval at evaluate (:291:30), <anonymous>:1:38)\n    at UtilityScript.evaluate (<anonymous>:293:16)\n    at UtilityScript.<anonym"
+          "status": "ok",
+          "count": 26,
+          "mode": "browser",
+          "htmlBytes": 1286861,
+          "jsonResponses": 2,
+          "networkProducts": 0
         },
         {
           "category": "Körperpflege",
@@ -100,7 +103,7 @@
           "status": "ok",
           "count": 26,
           "mode": "browser",
-          "htmlBytes": 1295020,
+          "htmlBytes": 1294363,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -110,7 +113,7 @@
           "status": "ok",
           "count": 22,
           "mode": "browser",
-          "htmlBytes": 1361261,
+          "htmlBytes": 1360374,
           "jsonResponses": 2,
           "networkProducts": 0
         }
@@ -121,5 +124,5 @@
     "dm.json",
     "rossmann.json"
   ],
-  "productCount": 242
+  "productCount": 264
 }
