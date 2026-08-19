@@ -31,8 +31,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: strict-market-catalog-history
-  cancel-in-progress: true
+  group: production-data-writer
+  cancel-in-progress: false
 
 jobs:
   build:
