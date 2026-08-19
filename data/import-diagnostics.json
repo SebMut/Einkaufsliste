@@ -1,27 +1,28 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-19T11:31:09.559Z",
+  "generatedAt": "2026-08-19T11:47:02.813Z",
   "run": {
-    "id": "32247902051",
+    "id": "32248765033",
     "attempt": "1",
     "event": "push",
-    "sha": "f9c40591ba246afb4e1aea6ae9d37fed5fc5ecdb",
+    "sha": "b36124b3ece1ba89c7730338bcb99cf131a5b52d",
     "ref": "main",
     "actor": "SebMut",
-    "exitCode": 90,
-    "status": "failed",
-    "startedAt": "2026-08-19T11:31:09.513Z",
-    "finishedAt": "2026-08-19T11:31:09.516Z",
-    "durationMs": 3
+    "exitCode": 0,
+    "status": "partial",
+    "startedAt": "2026-08-19T11:46:17.923Z",
+    "finishedAt": "2026-08-19T11:47:02.781Z",
+    "durationMs": 44858
   },
   "summary": {
     "configuredSources": 9,
-    "ok": 4,
-    "noData": 5,
+    "ok": 2,
+    "noData": 7,
     "errors": 0,
     "skipped": 0,
-    "offerCount": 162,
-    "liveGeneratedAt": "2026-08-19T11:26:21.675Z"
+    "offerCount": 19,
+    "liveGeneratedAt": "2026-08-19T11:46:18.176Z",
+    "liveDataCurrent": true
   },
   "sources": [
     {
@@ -33,9 +34,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": null,
-      "finishedAt": null,
-      "durationMs": null
+      "startedAt": "2026-08-19T11:46:18.332Z",
+      "finishedAt": "2026-08-19T11:46:22.224Z",
+      "durationMs": 3892
     },
     {
       "store": "EDEKA",
@@ -46,9 +47,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": null,
-      "finishedAt": null,
-      "durationMs": null
+      "startedAt": "2026-08-19T11:46:22.225Z",
+      "finishedAt": "2026-08-19T11:46:26.102Z",
+      "durationMs": 3877
     },
     {
       "store": "PENNY",
@@ -56,12 +57,12 @@
       "address": "Clara-Schumann-Straße 2, 85622 Feldkirchen",
       "sourceUrl": "https://www.penny.de/angebote",
       "scope": "regional",
-      "status": "ok",
-      "count": 57,
-      "message": "57 Angebote importiert",
-      "startedAt": null,
-      "finishedAt": null,
-      "durationMs": null
+      "status": "no_data",
+      "count": 0,
+      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
+      "startedAt": "2026-08-19T11:46:26.103Z",
+      "finishedAt": "2026-08-19T11:46:31.554Z",
+      "durationMs": 5451
     },
     {
       "store": "HIT",
@@ -69,12 +70,12 @@
       "address": "Am Lerchenfeld 3, 85599 Parsdorf",
       "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
       "scope": "market",
-      "status": "ok",
-      "count": 2,
-      "message": "2 Angebote importiert",
-      "startedAt": null,
-      "finishedAt": null,
-      "durationMs": null
+      "status": "no_data",
+      "count": 0,
+      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
+      "startedAt": "2026-08-19T11:46:31.555Z",
+      "finishedAt": "2026-08-19T11:46:37.348Z",
+      "durationMs": 5793
     },
     {
       "store": "ALDI SÜD",
@@ -83,11 +84,11 @@
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "scope": "regional",
       "status": "ok",
-      "count": 100,
-      "message": "100 Angebote importiert",
-      "startedAt": null,
-      "finishedAt": null,
-      "durationMs": null
+      "count": 14,
+      "message": "14 Angebote importiert",
+      "startedAt": "2026-08-19T11:46:37.349Z",
+      "finishedAt": "2026-08-19T11:46:42.598Z",
+      "durationMs": 5249
     },
     {
       "store": "Lidl",
@@ -95,12 +96,12 @@
       "address": "Ohmstraße 5, 85609 Aschheim",
       "sourceUrl": "https://www.lidl.de/c/online-prospekte/s10005610/",
       "scope": "regional",
-      "status": "ok",
-      "count": 3,
-      "message": "3 Angebote importiert",
-      "startedAt": null,
-      "finishedAt": null,
-      "durationMs": null
+      "status": "no_data",
+      "count": 0,
+      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
+      "startedAt": "2026-08-19T11:46:42.600Z",
+      "finishedAt": "2026-08-19T11:46:47.250Z",
+      "durationMs": 4650
     },
     {
       "store": "Netto",
@@ -111,9 +112,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": null,
-      "finishedAt": null,
-      "durationMs": null
+      "startedAt": "2026-08-19T11:46:47.251Z",
+      "finishedAt": "2026-08-19T11:46:50.909Z",
+      "durationMs": 3658
     },
     {
       "store": "NORMA",
@@ -121,12 +122,12 @@
       "address": "Johann-Sebastian-Bach-Strasse 44, 85591 Vaterstetten",
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "scope": "regional",
-      "status": "no_data",
-      "count": 0,
-      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": null,
-      "finishedAt": null,
-      "durationMs": null
+      "status": "ok",
+      "count": 5,
+      "message": "5 Angebote importiert",
+      "startedAt": "2026-08-19T11:46:50.910Z",
+      "finishedAt": "2026-08-19T11:46:55.950Z",
+      "durationMs": 5040
     },
     {
       "store": "Kaufland",
@@ -137,12 +138,34 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": null,
-      "finishedAt": null,
-      "durationMs": null
+      "startedAt": "2026-08-19T11:46:55.952Z",
+      "finishedAt": "2026-08-19T11:47:02.744Z",
+      "durationMs": 6792
     }
   ],
   "lastLogLines": [
-    "1787139069515\\tImporter nicht gestartet: Dependencies=cancelled, Chromium=success"
+    "",
+    "> angebotsradar-live-importer@3.0.0 import",
+    "> node import.js",
+    "",
+    "Importiere REWE Feldkirchen ...",
+    "REWE: no_data, 0",
+    "Importiere EDEKA Berghammer Feldkirchen ...",
+    "EDEKA: no_data, 0",
+    "Importiere PENNY Feldkirchen ...",
+    "PENNY: no_data, 0",
+    "Importiere HIT Parsdorf ...",
+    "HIT: no_data, 0",
+    "Importiere ALDI SÜD Aschheim / Vaterstetten ...",
+    "ALDI SÜD: ok, 14",
+    "Importiere Lidl Aschheim / Haar ...",
+    "Lidl: no_data, 0",
+    "Importiere Netto Trudering ...",
+    "Netto: no_data, 0",
+    "Importiere NORMA Vaterstetten ...",
+    "NORMA: ok, 5",
+    "Importiere Kaufland München-Berg am Laim ...",
+    "Kaufland: no_data, 0",
+    "Fertig: 19 Live-Angebote aus 2/9 Quellen."
   ]
 }
