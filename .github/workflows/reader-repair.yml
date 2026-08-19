@@ -1,80 +1,63 @@
-name: Reader-Reparatur 403-Quellen
+name: Reader-Reparatur Diagnose
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/reader-repair.yml'
-      - 'importer/quality-v2.js'
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: reader-repair
+  group: reader-repair-diagnostic
   cancel-in-progress: true
 
 jobs:
   repair:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
+      - name: Abhängigkeiten installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+      - name: Ausgangsstand testen
+        working-directory: importer
+        run: npm test
       - name: REWE EDEKA METRO Reader
         working-directory: importer
-        shell: bash
-        run: |
-          set -o pipefail
-          node reader-fallback.js 2>&1 | tee ../data/reader-repair.log
-
-      - name: Netto Reader
+        run: node reader-fallback.js
+      - name: Netto Reader V2
         working-directory: importer
-        shell: bash
-        run: |
-          set -o pipefail
-          node netto-reader.js 2>&1 | tee -a ../data/reader-repair.log
-
+        run: node netto-reader-v2.js
       - name: Qualitätsprüfung Stufe 1
         working-directory: importer
-        shell: bash
-        run: |
-          set -o pipefail
-          node sanitize.js 2>&1 | tee -a ../data/reader-repair.log
-
+        run: node sanitize.js
       - name: Qualitätsprüfung Stufe 2
         working-directory: importer
-        shell: bash
-        run: |
-          set -o pipefail
-          node quality-v2.js 2>&1 | tee -a ../data/reader-repair.log
-
+        run: node quality-v2.js
+      - name: Qualitätsprüfung Stufe 3
+        working-directory: importer
+        run: node quality-v3.js
+      - name: Qualitätsprüfung Stufe 4 Semantik
+        working-directory: importer
+        run: node quality-v4.js
+      - name: Marktgrenze und Katalog anwenden
+        working-directory: importer
+        run: npm run merge
+      - name: Reparierten Arbeitsstand erneut testen
+        working-directory: importer
+        run: npm test
       - name: Ergebnisübersicht
-        shell: bash
         run: |
-          node - <<'NODE' | tee -a data/reader-repair.log
+          node - <<'NODE'
           const fs=require('fs');
           const d=JSON.parse(fs.readFileSync('data/offers-live.json','utf8'));
           const q=JSON.parse(fs.readFileSync('data/quality-report.json','utf8'));
           for(const s of d.sources||[]) console.log(`${s.store}: ${s.status} / ${s.count||0} / ${s.message||''}`);
-          console.log(`Gesamt: ${d.offerCount||0}`);
+          console.log(`Gesamt: ${d.productCount||d.offerCount||0}`);
           console.log(`Stufe 1: ${q.before} -> ${q.after}; verworfen=${q.rejected}; repariert=${q.repaired}`);
           if(q.finalPass) console.log(`Stufe 2: ${q.finalPass.before} -> ${q.finalPass.after}; verworfen=${q.finalPass.rejected}; repariert=${q.finalPass.repaired||0}`);
+          console.log('Diagnosemodus: Es werden bewusst keine Produktionsdaten committed.');
           NODE
-
-      - name: Reparierte Live-Daten veröffentlichen
-        shell: bash
-        run: |
-          git config user.name "AngebotsRadar Bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add data/offers-live.json data/reader-repair.log data/quality-report.json
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Streng geprüfte Angebotsdaten aktualisieren"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin main && exit 0
-            sleep 3
-          done
-          exit 1
