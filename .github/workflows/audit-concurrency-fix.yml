@@ -9,6 +9,7 @@ on:
 permissions:
   contents: write
 
+# Audit-Retrigger: die beiden echten Produktionswriter müssen dieselbe Queue verwenden.
 jobs:
   fix:
     runs-on: ubuntu-latest
