@@ -1,4 +1,5 @@
 import { classifySemanticProduct, semanticAttributes, semanticCompatible, semanticRelation } from './semantic-products.js';
+import { normalizeGtin } from './gtin.js';
 
 const norm = value => String(value ?? '').replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
 const lower = value => norm(value).toLocaleLowerCase('de-DE');
@@ -110,7 +111,8 @@ function meaningfulBundleKey(classification) {
 
 function isReliableExistingExactKey(value = '') {
   const key = norm(value);
-  return key.startsWith('gtin:') || key.includes('|label:');
+  if (key.startsWith('gtin:')) return normalizeGtin(key.slice(5)) != null;
+  return key.includes('|label:');
 }
 
 export function normalizeOffer(input = {}) {
@@ -188,9 +190,9 @@ export function sameOffer(a, b) {
 }
 
 function sameGtin(a, b) {
-  const ag = String(a?.gtin || a?.ean || '').replace(/\D/g, '');
-  const bg = String(b?.gtin || b?.ean || '').replace(/\D/g, '');
-  return ag.length >= 8 && ag === bg;
+  const ag = normalizeGtin(a?.gtin || a?.ean);
+  const bg = normalizeGtin(b?.gtin || b?.ean);
+  return ag != null && ag === bg;
 }
 
 export function relation(a, b) {
@@ -281,12 +283,16 @@ export function assessPrice(currentOffer, events = [], {minObservations = 4, now
   const baseUnit = unitLabel(currentOffer);
   const cutoff = new Date(now);
   cutoff.setMonth(cutoff.getMonth() - 6);
+  const concreteId = norm(currentOffer.canonicalProductId);
 
-  const matching = events.filter(e =>
-    e.canonicalId === currentOffer.canonicalId &&
-    !!e.organic === !!currentOffer.bio &&
-    norm(e.baseUnit || '€/Packung') === baseUnit
-  );
+  const matching = events.filter(e => {
+    const sameIdentity = concreteId
+      ? norm(e.canonicalProductId) === concreteId
+      : e.canonicalId === currentOffer.canonicalId;
+    return sameIdentity &&
+      !!e.organic === !!currentOffer.bio &&
+      norm(e.baseUnit || '€/Packung') === baseUnit;
+  });
   const dated = matching.filter(e => {
     const d = new Date(e.lastSeen || e.validTo || e.validFrom || e.firstSeen || 0);
     return Number.isFinite(d.getTime()) && d >= cutoff;
