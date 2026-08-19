@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b6b4f">
+  <meta name="description" content="Lokaler Lebensmittel-Angebotsvergleich rund um 85622 Feldkirchen.">
+  <title>AngebotsRadar 85622</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon.svg">
+  <style>
+    :root{--bg:#f4f7f5;--surface:#fff;--ink:#13231d;--muted:#687b73;--line:#dce7e2;--brand:#0b6b4f;--brand2:#0f8b68;--soft:#e8f5ef;--accent:#ffb000;--danger:#c83f3f;--shadow:0 14px 40px rgba(19,35,29,.08);--radius:22px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:linear-gradient(180deg,#edf7f2 0,#f6f8f7 340px);color:var(--ink)}button,input,select{font:inherit}button{cursor:pointer}.shell{width:min(1180px,calc(100% - 28px));margin:auto;padding-bottom:110px}
+    header{padding:18px 0 8px;display:flex;align-items:center;justify-content:space-between;gap:14px}.brand{display:flex;align-items:center;gap:11px}.brandmark{width:46px;height:46px;border-radius:15px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;color:#fff;font-size:23px;box-shadow:0 9px 24px rgba(11,107,79,.25)}.brand h1{font-size:19px;line-height:1;margin:0}.brand small{display:block;margin-top:5px;color:var(--muted)}.version{font-size:12px;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 10px;white-space:nowrap}
+    .hero{margin-top:10px;background:radial-gradient(circle at 85% 10%,rgba(255,255,255,.21),transparent 28%),linear-gradient(135deg,#07553f,#0d7b5c);border-radius:30px;color:#fff;padding:28px;box-shadow:0 18px 50px rgba(5,71,52,.2);display:grid;grid-template-columns:1.55fr .8fr;gap:20px}.hero h2{font-size:clamp(29px,5vw,48px);line-height:1.02;margin:7px 0 12px;letter-spacing:-1.7px}.hero p{margin:0;color:#d9eee6;max-width:650px;font-size:16px;line-height:1.55}.eyebrow{display:inline-flex;gap:7px;align-items:center;background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.16);padding:7px 10px;border-radius:999px;font-size:12px;font-weight:750}.heroStats{display:grid;gap:10px;align-content:center}.stat{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:15px}.stat strong{font-size:24px;display:block}.stat span{font-size:12px;color:#d8ece5}
+    .notice{margin:16px 0;background:#fff7df;border:1px solid #f4d887;color:#5a4814;padding:13px 15px;border-radius:16px;display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.45}.notice b{display:block;margin-bottom:2px}
+    .toolbar{position:sticky;top:8px;z-index:20;background:rgba(244,247,245,.88);backdrop-filter:blur(15px);padding:8px 0 13px}.searchRow{display:grid;grid-template-columns:1fr auto auto;gap:8px}.search{background:#fff;border:1px solid var(--line);border-radius:16px;padding:0 14px;display:flex;align-items:center;gap:9px;box-shadow:0 5px 18px rgba(17,45,35,.04)}.search input{border:0;outline:0;width:100%;padding:14px 0;background:transparent}.select,.iconBtn{border:1px solid var(--line);background:#fff;border-radius:16px;padding:0 14px;color:var(--ink)}.iconBtn{min-width:50px;font-size:18px;position:relative}.count{position:absolute;right:-5px;top:-6px;min-width:19px;height:19px;padding:0 5px;display:grid;place-items:center;background:var(--accent);color:#241a00;border:2px solid #fff;border-radius:999px;font-size:10px;font-weight:800}
+    .filterScroll{display:flex;gap:7px;overflow:auto;padding:10px 1px 0;scrollbar-width:none}.filterScroll::-webkit-scrollbar{display:none}.chip{white-space:nowrap;border:1px solid var(--line);background:#fff;color:var(--muted);border-radius:999px;padding:8px 12px;font-size:12px;font-weight:700}.chip.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+    .sectionHead{display:flex;justify-content:space-between;align-items:end;margin:25px 2px 11px;gap:12px}.sectionHead h3{font-size:22px;margin:0;letter-spacing:-.5px}.sectionHead p{margin:4px 0 0;color:var(--muted);font-size:13px}.mini{font-size:12px;color:var(--muted)}
+    .topGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}.topCard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px;box-shadow:var(--shadow);position:relative;overflow:hidden}.topCard .rank{position:absolute;right:12px;top:12px;width:28px;height:28px;border-radius:10px;background:#fff3cc;display:grid;place-items:center;font-weight:900;color:#745600}.topCard .emoji{font-size:27px}.topCard h4{margin:11px 0 3px;font-size:16px}.storeline{font-size:12px;color:var(--muted)}.topPrice{font-size:26px;font-weight:900;margin-top:12px;letter-spacing:-.8px}.old{font-size:12px;text-decoration:line-through;color:#8a9993;margin-left:5px}.saving{font-size:11px;font-weight:800;color:var(--brand);background:var(--soft);border-radius:999px;padding:5px 7px;display:inline-block;margin-top:7px}
+    .layout{display:grid;grid-template-columns:1fr 280px;gap:16px}.offers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.offer{background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px;display:grid;grid-template-columns:52px 1fr auto;gap:13px;align-items:start;transition:.18s ease}.offer:hover{transform:translateY(-2px);box-shadow:var(--shadow)}.productIcon{width:52px;height:52px;border-radius:16px;background:var(--soft);display:grid;place-items:center;font-size:26px}.offer h4{margin:1px 0 4px;font-size:15px}.meta{color:var(--muted);font-size:11px;line-height:1.55}.tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}.tag{font-size:10px;padding:4px 6px;border-radius:7px;background:#f0f4f2;color:#496159;font-weight:750}.tag.best{background:#ddf5e9;color:#096144}.tag.app{background:#e9e7ff;color:#4a3ca7}.tag.coupon{background:#fff0dc;color:#8b5300}.price{text-align:right}.price strong{display:block;font-size:21px;letter-spacing:-.6px}.price small{display:block;color:var(--muted);font-size:10px;margin-top:3px}.add{margin-top:10px;border:0;background:var(--ink);color:#fff;border-radius:10px;padding:7px 9px;font-size:11px;font-weight:800}.add.added{background:var(--soft);color:var(--brand)}
+    .side{position:sticky;top:115px;align-self:start}.panel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:17px;box-shadow:var(--shadow);margin-bottom:10px}.panel h4{margin:0 0 12px}.toggleRow{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:9px 0;border-bottom:1px solid #edf1ef;font-size:12px}.toggleRow:last-child{border:0}.switch{position:relative;width:38px;height:23px;background:#c8d3ce;border-radius:999px;flex:0 0 auto}.switch input{display:none}.switch i{position:absolute;width:17px;height:17px;background:#fff;border-radius:50%;left:3px;top:3px;transition:.2s}.switch:has(input:checked){background:var(--brand)}.switch input:checked+i{transform:translateX(15px)}.storeDot{width:8px;height:8px;border-radius:50%;background:var(--brand);display:inline-block;margin-right:7px}.storeList{font-size:12px;line-height:2.1;color:#52665e}.empty{grid-column:1/-1;text-align:center;padding:45px 20px;background:#fff;border:1px dashed #cfdcd6;border-radius:20px;color:var(--muted)}
+    .drawerBackdrop{position:fixed;inset:0;background:rgba(9,25,19,.42);z-index:60;opacity:0;pointer-events:none;transition:.2s}.drawerBackdrop.open{opacity:1;pointer-events:auto}.drawer{position:absolute;right:0;top:0;height:100%;width:min(430px,94vw);background:#f7f9f8;padding:18px;transform:translateX(100%);transition:.25s ease;overflow:auto}.drawerBackdrop.open .drawer{transform:translateX(0)}.drawerHead{display:flex;justify-content:space-between;align-items:center}.drawerHead h3{margin:0}.close{border:1px solid var(--line);background:#fff;width:39px;height:39px;border-radius:13px}.listItem{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);border-radius:15px;padding:11px;margin-top:8px}.listItem span{flex:1}.remove{border:0;background:#f9ecec;color:#9b2f2f;width:32px;height:32px;border-radius:10px}.optimize{border:0;background:var(--brand);color:white;width:100%;padding:13px;border-radius:14px;font-weight:850;margin:13px 0}.result{background:#e9f6ef;border:1px solid #cce9db;border-radius:17px;padding:14px;font-size:12px;line-height:1.65}.result strong.total{font-size:23px;display:block}.shopGroup{margin-top:7px;padding-top:7px;border-top:1px solid #cfe7dc}.shopGroup b{display:block}.clearList{border:0;background:transparent;color:var(--danger);font-size:12px;padding:10px;width:100%}
+    footer{text-align:center;color:var(--muted);font-size:11px;padding:35px 0 0;line-height:1.7}
+    @media(max-width:900px){.hero{grid-template-columns:1fr}.heroStats{grid-template-columns:repeat(3,1fr)}.layout{grid-template-columns:1fr}.side{position:static;display:grid;grid-template-columns:1fr 1fr;gap:10px}.topGrid{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:650px){.shell{width:min(100% - 20px,1180px)}header{padding-top:13px}.version{display:none}.hero{padding:21px;border-radius:24px}.heroStats{grid-template-columns:repeat(3,1fr)}.stat{padding:11px}.stat strong{font-size:18px}.stat span{font-size:9px}.searchRow{grid-template-columns:1fr auto}.select{grid-column:1/-1;height:42px;order:3}.topGrid{display:flex;overflow:auto;scroll-snap-type:x mandatory;padding-bottom:5px}.topCard{min-width:74vw;scroll-snap-align:start}.offers{grid-template-columns:1fr}.offer{grid-template-columns:48px 1fr auto;padding:14px}.productIcon{width:48px;height:48px}.side{grid-template-columns:1fr}.toolbar{top:0}.brand h1{font-size:17px}.hero h2{letter-spacing:-1.1px}.sectionHead h3{font-size:20px}}
+  </style>
+</head>
+<body>
+<div class="shell">
+  <header>
+    <div class="brand"><div class="brandmark">🛒</div><div><h1>AngebotsRadar</h1><small>85622 Feldkirchen · 10 km</small></div></div>
+    <div class="version">V1 · GitHub Demo</div>
+  </header>
+
+  <section class="hero">
+    <div>
+      <span class="eyebrow">📍 Feldkirchen bei München · Radius 10 km</span>
+      <h2>Die günstigsten Lebensmittel. Auf einen Blick.</h2>
+      <p>Vergleiche Angebote aus Supermärkten und Discountern in deiner Nähe, finde den besten Grundpreis und optimiere deine Einkaufsliste.</p>
+    </div>
+    <div class="heroStats">
+      <div class="stat"><strong id="offerCount">0</strong><span>Angebote</span></div>
+      <div class="stat"><strong id="storeCount">0</strong><span>Händler</span></div>
+      <div class="stat"><strong>10 km</strong><span>Suchradius</span></div>
+    </div>
+  </section>
+
+  <div class="notice"><span>🧪</span><div><b>V1 mit Demo-Angeboten</b>Die Oberfläche und Preisvergleichslogik funktionieren bereits. Automatisches Einlesen der aktuellen Prospekte wird in der nächsten Ausbaustufe über ein Backend angebunden. Preise in dieser Version sind Beispieldaten und keine aktuellen Händlerpreise.</div></div>
+
+  <div class="toolbar">
+    <div class="searchRow">
+      <label class="search">🔎 <input id="search" type="search" placeholder="Produkt suchen, z. B. Butter, Kaffee …"></label>
+      <select id="sort" class="select" aria-label="Sortierung"><option value="saving">Höchste Ersparnis</option><option value="price">Niedrigster Preis</option><option value="unit">Bester Grundpreis</option><option value="name">Produkt A–Z</option></select>
+      <button class="iconBtn" id="openList" aria-label="Einkaufsliste">🧾<span class="count" id="listCount">0</span></button>
+    </div>
+    <div class="filterScroll" id="categoryFilters"></div>
+    <div class="filterScroll" id="storeFilters"></div>
+  </div>
+
+  <div class="sectionHead"><div><h3>🔥 Top-Angebote</h3><p>Größte Ersparnis gegenüber dem Beispiel-Normalpreis</p></div><span class="mini">Bestpreise hervorgehoben</span></div>
+  <div class="topGrid" id="topOffers"></div>
+
+  <div class="sectionHead"><div><h3>Alle Angebote</h3><p id="resultText">Alle Händler und Kategorien</p></div></div>
+  <div class="layout">
+    <main class="offers" id="offers"></main>
+    <aside class="side">
+      <div class="panel"><h4>Preise berücksichtigen</h4>
+        <div class="toggleRow"><span>📱 App-Preise</span><label class="switch"><input id="appToggle" type="checkbox" checked><i></i></label></div>
+        <div class="toggleRow"><span>🎟️ Coupon-Preise</span><label class="switch"><input id="couponToggle" type="checkbox" checked><i></i></label></div>
+      </div>
+      <div class="panel"><h4>Händler im V1-Modell</h4><div class="storeList" id="storeList"></div></div>
+    </aside>
+  </div>
+  <footer>V1 · statische GitHub-Pages-Demo · Keine Gewähr für Preise oder Verfügbarkeit.<br>Das Datenmodell ist für REWE, EDEKA, PENNY, HIT, ALDI SÜD, Lidl, Netto und NORMA vorbereitet.</footer>
+</div>
+
+<div class="drawerBackdrop" id="backdrop">
+  <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="listTitle">
+    <div class="drawerHead"><div><h3 id="listTitle">🧾 Einkaufsliste</h3><div class="mini">Wird auf diesem Gerät gespeichert</div></div><button class="close" id="closeList">✕</button></div>
+    <div id="shoppingItems"></div>
+    <button class="optimize" id="optimize">Günstigsten Einkauf berechnen</button>
+    <div id="optimization"></div>
+    <button class="clearList" id="clearList">Liste leeren</button>
+  </aside>
+</div>
+
+<script>
+const offers=[
+{id:1,key:'Butter',name:'Deutsche Markenbutter',brand:'Beispielmarke',cat:'Milchprodukte',store:'EDEKA',size:'250 g',price:1.49,old:2.49,unit:5.96,unitLabel:'€/kg',icon:'🧈'},
+{id:2,key:'Butter',name:'Deutsche Markenbutter',brand:'Beispielmarke',cat:'Milchprodukte',store:'REWE',size:'250 g',price:1.69,old:2.49,unit:6.76,unitLabel:'€/kg',icon:'🧈'},
+{id:3,key:'Butter',name:'Butter',brand:'Eigenmarke',cat:'Milchprodukte',store:'ALDI SÜD',size:'250 g',price:1.59,old:2.19,unit:6.36,unitLabel:'€/kg',icon:'🧈'},
+{id:4,key:'Milch',name:'Frische Vollmilch 3,5 %',brand:'Eigenmarke',cat:'Milchprodukte',store:'PENNY',size:'1 l',price:.89,old:1.19,unit:.89,unitLabel:'€/l',icon:'🥛'},
+{id:5,key:'Milch',name:'Frische Vollmilch 3,5 %',brand:'Eigenmarke',cat:'Milchprodukte',store:'Lidl',size:'1 l',price:.95,old:1.19,unit:.95,unitLabel:'€/l',icon:'🥛'},
+{id:6,key:'Hackfleisch',name:'Rinderhackfleisch',brand:'Frischetheke',cat:'Fleisch',store:'HIT',size:'500 g',price:3.49,old:5.49,unit:6.98,unitLabel:'€/kg',icon:'🥩'},
+{id:7,key:'Hackfleisch',name:'Hackfleisch gemischt',brand:'Frischepack',cat:'Fleisch',store:'REWE',size:'500 g',price:3.79,old:5.29,unit:7.58,unitLabel:'€/kg',icon:'🥩'},
+{id:8,key:'Hackfleisch',name:'Hackfleisch gemischt',brand:'Frischepack',cat:'Fleisch',store:'Netto',size:'500 g',price:3.59,old:4.99,unit:7.18,unitLabel:'€/kg',icon:'🥩',app:true},
+{id:9,key:'Bananen',name:'Bananen',brand:'Klasse I',cat:'Obst & Gemüse',store:'ALDI SÜD',size:'1 kg',price:1.19,old:1.59,unit:1.19,unitLabel:'€/kg',icon:'🍌'},
+{id:10,key:'Bananen',name:'Bananen',brand:'Klasse I',cat:'Obst & Gemüse',store:'EDEKA',size:'1 kg',price:1.29,old:1.69,unit:1.29,unitLabel:'€/kg',icon:'🍌'},
+{id:11,key:'Paprika',name:'Paprika Mix',brand:'Klasse I',cat:'Obst & Gemüse',store:'REWE',size:'500 g',price:1.49,old:2.49,unit:2.98,unitLabel:'€/kg',icon:'🫑'},
+{id:12,key:'Paprika',name:'Paprika rot',brand:'Klasse I',cat:'Obst & Gemüse',store:'NORMA',size:'500 g',price:1.39,old:2.19,unit:2.78,unitLabel:'€/kg',icon:'🫑'},
+{id:13,key:'Kaffee',name:'Caffè Crema Bohnen',brand:'Beispiel Rösterei',cat:'Kaffee & Frühstück',store:'HIT',size:'1 kg',price:9.99,old:14.99,unit:9.99,unitLabel:'€/kg',icon:'☕',coupon:true},
+{id:14,key:'Kaffee',name:'Kaffee Classic',brand:'Beispiel Rösterei',cat:'Kaffee & Frühstück',store:'EDEKA',size:'500 g',price:5.49,old:7.49,unit:10.98,unitLabel:'€/kg',icon:'☕'},
+{id:15,key:'Kaffee',name:'Kaffee Classic',brand:'Beispiel Rösterei',cat:'Kaffee & Frühstück',store:'PENNY',size:'500 g',price:5.29,old:7.49,unit:10.58,unitLabel:'€/kg',icon:'☕',app:true},
+{id:16,key:'Joghurt',name:'Naturjoghurt',brand:'Eigenmarke',cat:'Milchprodukte',store:'Lidl',size:'500 g',price:.79,old:1.09,unit:1.58,unitLabel:'€/kg',icon:'🥣'},
+{id:17,key:'Joghurt',name:'Naturjoghurt',brand:'Eigenmarke',cat:'Milchprodukte',store:'ALDI SÜD',size:'500 g',price:.75,old:1.05,unit:1.50,unitLabel:'€/kg',icon:'🥣'},
+{id:18,key:'Nudeln',name:'Spaghetti / Penne',brand:'Beispielmarke',cat:'Vorrat',store:'PENNY',size:'500 g',price:.79,old:1.49,unit:1.58,unitLabel:'€/kg',icon:'🍝'},
+{id:19,key:'Nudeln',name:'Pasta',brand:'Beispielmarke',cat:'Vorrat',store:'REWE',size:'500 g',price:.89,old:1.49,unit:1.78,unitLabel:'€/kg',icon:'🍝'},
+{id:20,key:'Reis',name:'Langkornreis',brand:'Eigenmarke',cat:'Vorrat',store:'Netto',size:'1 kg',price:1.69,old:2.19,unit:1.69,unitLabel:'€/kg',icon:'🍚'},
+{id:21,key:'Eier',name:'Freilandeier M/L',brand:'Regional',cat:'Kaffee & Frühstück',store:'EDEKA',size:'10 Stück',price:2.49,old:3.19,unit:.249,unitLabel:'€/Stk.',icon:'🥚'},
+{id:22,key:'Eier',name:'Freilandeier M/L',brand:'Regional',cat:'Kaffee & Frühstück',store:'ALDI SÜD',size:'10 Stück',price:2.39,old:2.99,unit:.239,unitLabel:'€/Stk.',icon:'🥚'},
+{id:23,key:'Gouda',name:'Gouda jung, Scheiben',brand:'Eigenmarke',cat:'Milchprodukte',store:'HIT',size:'400 g',price:2.49,old:3.49,unit:6.23,unitLabel:'€/kg',icon:'🧀'},
+{id:24,key:'Gouda',name:'Gouda jung, Scheiben',brand:'Eigenmarke',cat:'Milchprodukte',store:'Lidl',size:'400 g',price:2.39,old:3.29,unit:5.98,unitLabel:'€/kg',icon:'🧀',app:true},
+{id:25,key:'Pizza',name:'Steinofenpizza',brand:'Beispielmarke',cat:'Tiefkühl',store:'REWE',size:'320–370 g',price:1.99,old:3.49,unit:5.69,unitLabel:'ab €/kg',icon:'🍕'},
+{id:26,key:'Pizza',name:'Steinofenpizza',brand:'Beispielmarke',cat:'Tiefkühl',store:'PENNY',size:'320–370 g',price:1.89,old:3.49,unit:5.40,unitLabel:'ab €/kg',icon:'🍕'},
+{id:27,key:'Äpfel',name:'Äpfel Gala',brand:'Klasse I',cat:'Obst & Gemüse',store:'NORMA',size:'1 kg',price:1.49,old:2.19,unit:1.49,unitLabel:'€/kg',icon:'🍎'},
+{id:28,key:'Äpfel',name:'Äpfel Gala',brand:'Klasse I',cat:'Obst & Gemüse',store:'HIT',size:'1 kg',price:1.59,old:2.29,unit:1.59,unitLabel:'€/kg',icon:'🍎'},
+{id:29,key:'Mineralwasser',name:'Mineralwasser Medium',brand:'Beispielquelle',cat:'Getränke',store:'Netto',size:'6 × 1,5 l',price:2.79,old:3.99,unit:.31,unitLabel:'€/l',icon:'💧',coupon:true},
+{id:30,key:'Cola',name:'Cola / Cola Zero',brand:'Beispielmarke',cat:'Getränke',store:'Lidl',size:'1,25 l',price:.99,old:1.49,unit:.79,unitLabel:'€/l',icon:'🥤',app:true}
+];
+const stores=['Alle Händler','REWE','EDEKA','PENNY','HIT','ALDI SÜD','Lidl','Netto','NORMA'];
+const categories=['Alle Kategorien',...new Set(offers.map(o=>o.cat))];
+let selectedStore='Alle Händler',selectedCat='Alle Kategorien';
+let shopping=JSON.parse(localStorage.getItem('angebotsradar-list')||'[]');
+const $=s=>document.querySelector(s); const money=n=>n.toLocaleString('de-DE',{style:'currency',currency:'EUR'});
+const saving=o=>Math.max(0,Math.round((1-o.price/o.old)*100));
+function eligible(o){return ($('#appToggle').checked||!o.app)&&($('#couponToggle').checked||!o.coupon)}
+function cheapestIds(){const map={};offers.filter(eligible).forEach(o=>{if(!map[o.key]||o.unit<map[o.key].unit)map[o.key]=o});return new Set(Object.values(map).map(o=>o.id))}
+function makeChips(){
+ $('#categoryFilters').innerHTML=categories.map(x=>`<button class="chip ${x===selectedCat?'active':''}" data-cat="${x}">${x}</button>`).join('');
+ $('#storeFilters').innerHTML=stores.map(x=>`<button class="chip ${x===selectedStore?'active':''}" data-store="${x}">${x}</button>`).join('');
+ document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{selectedCat=b.dataset.cat;makeChips();render()});
+ document.querySelectorAll('[data-store]').forEach(b=>b.onclick=()=>{selectedStore=b.dataset.store;makeChips();render()});
+}
+function filtered(){
+ const q=$('#search').value.trim().toLowerCase();let arr=offers.filter(eligible).filter(o=>selectedStore==='Alle Händler'||o.store===selectedStore).filter(o=>selectedCat==='Alle Kategorien'||o.cat===selectedCat).filter(o=>!q||`${o.name} ${o.brand} ${o.key} ${o.store}`.toLowerCase().includes(q));
+ const sort=$('#sort').value;arr.sort((a,b)=>sort==='price'?a.price-b.price:sort==='unit'?a.unit-b.unit:sort==='name'?a.name.localeCompare(b.name,'de'):saving(b)-saving(a));return arr
+}
+function offerCard(o,best){const added=shopping.includes(o.key);return `<article class="offer"><div class="productIcon">${o.icon}</div><div><h4>${o.name}</h4><div class="meta">${o.brand} · ${o.store}<br>${o.size}</div><div class="tags">${best.has(o.id)?'<span class="tag best">🏆 Bestpreis</span>':''}${o.app?'<span class="tag app">App</span>':''}${o.coupon?'<span class="tag coupon">Coupon</span>':''}<span class="tag">-${saving(o)} %</span></div></div><div class="price"><strong>${money(o.price)}</strong><small>${o.unit.toLocaleString('de-DE',{maximumFractionDigits:2})} ${o.unitLabel}</small><button class="add ${added?'added':''}" data-add="${o.key}">${added?'✓ Liste':'+ Liste'}</button></div></article>`}
+function renderTop(arr){const top=[...arr].sort((a,b)=>saving(b)-saving(a)).slice(0,3);$('#topOffers').innerHTML=top.map((o,i)=>`<article class="topCard"><div class="rank">${i+1}</div><div class="emoji">${o.icon}</div><h4>${o.name}</h4><div class="storeline">${o.store} · ${o.size}</div><div class="topPrice">${money(o.price)} <span class="old">${money(o.old)}</span></div><span class="saving">Du sparst ${saving(o)} %</span></article>`).join('')||'<div class="empty">Keine Top-Angebote für diesen Filter.</div>'}
+function render(){const arr=filtered(),best=cheapestIds();$('#offers').innerHTML=arr.map(o=>offerCard(o,best)).join('')||'<div class="empty">🔎 Keine passenden Angebote gefunden.<br><small>Ändere Suchbegriff oder Filter.</small></div>';renderTop(arr);$('#resultText').textContent=`${arr.length} Angebote · ${selectedStore} · ${selectedCat}`;$('#offerCount').textContent=offers.length;$('#storeCount').textContent=stores.length-1;document.querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>toggleList(b.dataset.add));}
+function toggleList(key){shopping=shopping.includes(key)?shopping.filter(x=>x!==key):[...shopping,key];saveList();render();renderList()}
+function saveList(){localStorage.setItem('angebotsradar-list',JSON.stringify(shopping));$('#listCount').textContent=shopping.length}
+function renderList(){if(!shopping.length){$('#shoppingItems').innerHTML='<div class="empty" style="margin-top:15px">Noch nichts auf der Liste.<br><small>Füge Angebote über „+ Liste“ hinzu.</small></div>';$('#optimization').innerHTML='';return} $('#shoppingItems').innerHTML=shopping.map(key=>{const o=offers.find(x=>x.key===key);return `<div class="listItem"><span>${o?.icon||'🛒'} <b>${key}</b></span><button class="remove" data-remove="${key}">✕</button></div>`}).join('');document.querySelectorAll('[data-remove]').forEach(b=>b.onclick=()=>toggleList(b.dataset.remove))}
+function optimize(){if(!shopping.length)return;const chosen=[];shopping.forEach(key=>{const opts=offers.filter(o=>o.key===key&&eligible(o));if(opts.length)chosen.push([...opts].sort((a,b)=>a.price-b.price)[0])});const groups={};chosen.forEach(o=>(groups[o.store]??=[]).push(o));const total=chosen.reduce((s,o)=>s+o.price,0);$('#optimization').innerHTML=`<div class="result"><strong class="total">${money(total)}</strong><span>Günstigste Kombination für ${chosen.length} Positionen · ${Object.keys(groups).length} ${Object.keys(groups).length===1?'Markt':'Märkte'}</span>${Object.entries(groups).map(([store,items])=>`<div class="shopGroup"><b>${store} · ${money(items.reduce((s,o)=>s+o.price,0))}</b>${items.map(o=>`${o.icon} ${o.key} – ${money(o.price)}`).join('<br>')}</div>`).join('')}<div class="shopGroup"><small>Berechnung nutzt nur die Demo-Angebote und berücksichtigt deine App-/Coupon-Schalter.</small></div></div>`}
+function renderStoreList(){$('#storeList').innerHTML=stores.slice(1).map(s=>`<div><span class="storeDot"></span>${s}</div>`).join('')}
+$('#search').addEventListener('input',render);$('#sort').addEventListener('change',render);$('#appToggle').addEventListener('change',render);$('#couponToggle').addEventListener('change',render);$('#openList').onclick=()=>{$('#backdrop').classList.add('open');renderList()};$('#closeList').onclick=()=>$('#backdrop').classList.remove('open');$('#backdrop').onclick=e=>{if(e.target===$('#backdrop'))$('#backdrop').classList.remove('open')};$('#optimize').onclick=optimize;$('#clearList').onclick=()=>{shopping=[];saveList();render();renderList()};
+makeChips();renderStoreList();saveList();render();renderList();
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+</script>
+</body>
+</html>
