@@ -1,38 +1,36 @@
 {
-  "generatedAt": "2026-08-19T15:01:35.677Z",
-  "before": 321,
-  "after": 315,
+  "generatedAt": "2026-08-19T15:04:00.928Z",
+  "before": 232,
+  "after": 226,
   "rejected": 6,
-  "repaired": 14,
+  "repaired": 42,
   "rejectedReasons": {
     "duplicate": 2,
     "name_no_letters": 4
   },
   "storeBefore": {
-    "PENNY": 109,
-    "NORMA": 1,
-    "Kaufland": 1,
-    "ROSSMANN": 42,
     "EDEKA": 13,
-    "ALDI SÜD": 61,
-    "dm": 72,
+    "HIT": 3,
+    "ALDI SÜD": 37,
+    "PENNY": 84,
+    "dm": 52,
+    "ROSSMANN": 23,
     "REWE": 10,
+    "NORMA": 1,
     "Netto": 8,
-    "Lidl": 1,
-    "HIT": 3
+    "Lidl": 1
   },
   "storeAfter": {
-    "PENNY": 109,
-    "NORMA": 1,
-    "Kaufland": 1,
-    "ROSSMANN": 42,
     "EDEKA": 13,
-    "ALDI SÜD": 61,
-    "dm": 72,
+    "HIT": 3,
+    "ALDI SÜD": 37,
+    "PENNY": 84,
+    "dm": 52,
+    "ROSSMANN": 23,
     "REWE": 10,
+    "NORMA": 1,
     "Netto": 2,
-    "Lidl": 1,
-    "HIT": 3
+    "Lidl": 1
   },
   "rejectedExamples": [
     {
@@ -57,135 +55,125 @@
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T15:01:35.761Z",
-    "before": 315,
-    "after": 226,
-    "rejected": 89,
+    "generatedAt": "2026-08-19T15:04:01.006Z",
+    "before": 226,
+    "after": 166,
+    "rejected": 60,
+    "repaired": 18,
     "rejectedReasons": {
-      "name": 6,
-      "quantity_or_discount": 1,
-      "ui": 3,
-      "produce_unit": 3,
-      "price": 1,
-      "concatenated_offer": 9,
-      "duplicate": 38,
-      "semantic_duplicate": 25
+      "ui": 22,
+      "size_duplicate": 38
     },
     "rejectedExamples": [
       {
         "store": "PENNY",
-        "name": "je 12 x 60 g (1 kg = 2.49) Angebotspreis 0.89€ 0.89 MILPRIMA High Protein Pudding* je 200 g (1 kg = 4.45) Angebotspreis 0.39€ 0.39 MILPRIMA",
-        "reason": "name"
+        "name": "Diese Woche",
+        "reason": "ui"
       },
       {
-        "store": "Kaufland",
-        "name": "je 2-l-PET-Fl.",
-        "reason": "quantity_or_discount"
-      },
-      {
-        "store": "ROSSMANN",
-        "name": "Alle ablehnen Alle Cookies akzeptieren",
+        "store": "PENNY",
+        "name": "Diese Woche",
         "reason": "ui"
       },
       {
         "store": "dm",
-        "name": "Auflistung mit 12 Elementen. Zum Ende der Liste springen.",
+        "name": "dm-Markt wählen",
         "reason": "ui"
       },
       {
         "store": "dm",
-        "name": "Auflistung mit 20 Elementen. Zum Ende der Liste springen.",
+        "name": "dm-Markt wählen",
         "reason": "ui"
       },
       {
-        "store": "ALDI SÜD",
-        "name": "Himbeeren",
-        "reason": "produce_unit"
-      },
-      {
-        "store": "PENNY",
-        "name": "FRECHE FREUNDE Roter Beerenmix Fruchtchips",
-        "reason": "produce_unit"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
         "store": "dm",
-        "name": "Du verwendest einen veralteten Browser. Dadurch kommt es zu Darstellungs- und Funktionsfehlern auf dm.de. Bitte nutze Google Chrome, Mozilla",
-        "reason": "name"
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "ALDI SÜD",
-        "name": "Duschgel 675 ml, Noire",
-        "reason": "price"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "ROSSMANN",
-        "name": "FotoweltGutscheineKarriereUnternehmenGeschäftskundenbabyweltFiliale findenAnmelden0NeuIDEENWELTMake-UpPflege & DuftBaby & SpielzeugHaushaltT",
-        "reason": "name"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "PENNY",
-        "name": "Mo-Sa Angebotspreis 0.45€ 0.45 MILPRIMA Joghurt Crisp* je 175 g (1 kg = 2.57) Angebotspreis 0.29€ 0.29 MILPRIMA FruchtiGurt 3,8%* je 150 g (",
-        "reason": "name"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "PENNY",
-        "name": "MILPRIMA Joghurt Crisp* je 175 g (1 kg = 2.57) Angebotspreis 0.29€ 0.29 MILPRIMA FruchtiGurt 3,8%* je 150 g (1 kg =",
-        "reason": "concatenated_offer"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "PENNY",
-        "name": "UVP 0.99 Angebotspreis 0.69€ 0.69 -40% mit App -30% MÖVENPICK Feinjoghurt* mit App: je 150 g (1 kg = 3.93); ohne App:",
-        "reason": "concatenated_offer"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "PENNY",
-        "name": "Nur mit App 6.78 Angebotspreis 3.49€ 3.49",
-        "reason": "concatenated_offer"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "PENNY",
-        "name": "Nur mit App App-preis 0.99*€ 0.99* Angebotspreis 1.11€ 1.11 Aktion Deutsche Bundmöhren* je Bund",
-        "reason": "concatenated_offer"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "PENNY",
-        "name": "Nur mit App App-preis 0.99*€ 0.99* Angebotspreis 1.11€ 1.11",
-        "reason": "concatenated_offer"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "PENNY",
-        "name": "Nur mit App App-preis 3.29*€ 3.29* Angebotspreis 3.49€ 3.49",
-        "reason": "concatenated_offer"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "PENNY",
-        "name": "Nur mit App App-preis 3.29*€ 3.29* Angebotspreis 3.49€ 3.49 Aktion DR. OETKER Bistro Flammkuchen* mit App: je 530 g (1 kg = 6.21); ohne App:",
-        "reason": "concatenated_offer"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "PENNY",
-        "name": "UVP 3.59 Angebotspreis 1.99€ 1.99 -50% mit App -44% MARS Schokoriegel* mit App: je 5 x 45 g (1 kg = 7.96); ohne App: je 5 x 45 g (1 kg = 8.8",
-        "reason": "concatenated_offer"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "ROSSMANN",
-        "name": "Services in Ihrer FilialeGeschenkgutscheineRossmann FotoservicePrepaidkartenRücknahmegarantieTeppichreiniger-VerleihGratis WLANRücknahme Ele",
-        "reason": "name"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "ALDI SÜD",
-        "name": "Smoothie 250 ml, Orange, Karotte und Mango",
-        "reason": "produce_unit"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "PENNY",
-        "name": "ZESPRI SunGold Kiwi Gold* je 3er-Schale Angebotspreis 2.49€ 2.49 Aktion PINK LADY Rote Äpfel* je 1-kg-Packun",
-        "reason": "concatenated_offer"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       },
       {
-        "store": "ALDI SÜD",
-        "name": "Zum Inhalt springen Aktuelle Filiale45475, Mülheim an der RuhrFilialauswahlWähle deine Filiale aus, um die verfügbaren Produkte zu entdecken",
-        "reason": "name"
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
       }
     ]
   }

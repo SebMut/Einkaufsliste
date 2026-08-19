@@ -1,20 +1,20 @@
 Reader-Fallback METRO: https://www.metro.de/angebote
-Reader-Fallback fertig: 315 Gesamtangebote.
+Reader-Fallback fertig: 226 Gesamtangebote.
 Netto Reader: 6 Angebote
-Qualitätsfilter: 321 -> 315 Angebote (6 verworfen, 14 Reparaturen).
-Qualität V2: 315 -> 226; 89 weitere Einträge entfernt.
+Qualitätsfilter: 232 -> 226 Angebote (6 verworfen, 42 Reparaturen).
+Qualität V2: 226 -> 166; 60 weitere Einträge entfernt, 18 repariert.
 REWE: ok / 10 / 10 qualitätsgeprüfte Angebote
-EDEKA: ok / 13 / 13 qualitätsgeprüfte Angebote
-PENNY: ok / 84 / 84 qualitätsgeprüfte Angebote
-HIT: ok / 3 / 3 qualitätsgeprüfte Angebote
-ALDI SÜD: ok / 37 / 37 qualitätsgeprüfte Angebote
+EDEKA: ok / 12 / 12 qualitätsgeprüfte Angebote
+PENNY: ok / 51 / 51 qualitätsgeprüfte Angebote
+HIT: ok / 1 / 1 qualitätsgeprüfte Angebote
+ALDI SÜD: ok / 33 / 33 qualitätsgeprüfte Angebote
 Lidl: ok / 1 / 1 qualitätsgeprüfte Angebote
 Netto: ok / 2 / 2 qualitätsgeprüfte Angebote
 NORMA: ok / 1 / 1 qualitätsgeprüfte Angebote
 Kaufland: no_data / 0 / Keine Angebote nach strenger Qualitätsprüfung.
 METRO: login_required / 0 / METRO zeigt Produkte öffentlich, Preise aber erst nach Kunden-Login.
-dm: ok / 52 / 52 qualitätsgeprüfte Angebote
+dm: ok / 32 / 32 qualitätsgeprüfte Angebote
 ROSSMANN: ok / 23 / 23 qualitätsgeprüfte Angebote
-Gesamt: 226
-Stufe 1: 321 -> 315; verworfen=6; repariert=14
-Stufe 2: 315 -> 226; verworfen=89
+Gesamt: 166
+Stufe 1: 232 -> 226; verworfen=6; repariert=42
+Stufe 2: 226 -> 166; verworfen=60; repariert=18
