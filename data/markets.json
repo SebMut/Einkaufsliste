@@ -1,6 +1,6 @@
 {
   "schema": 7,
-  "generatedAt": "2026-08-19T19:16:36.320Z",
+  "generatedAt": "2026-08-19T19:17:00.318Z",
   "center": {
     "name": "85622 Feldkirchen bei München",
     "lat": 48.145,
@@ -21,7 +21,7 @@
       "offerUrl": "https://www.edeka.de/maerkte/030244/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -37,7 +37,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -53,7 +53,7 @@
       "offerUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -85,7 +85,7 @@
       "offerUrl": "https://www.aldi-sued.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -101,7 +101,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -117,7 +117,7 @@
       "offerUrl": "https://www.rewe.de/angebote/aschheim-dornach/440674/rewe-markt-humboldtstr-2b/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -133,7 +133,7 @@
       "offerUrl": "https://www.rewe.de/angebote/aschheim/562345/rewe-markt-jedovnicestr-10/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -213,7 +213,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -325,7 +325,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -357,7 +357,7 @@
       "offerUrl": "https://www.edeka.de/maerkte/139243/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -373,7 +373,7 @@
       "offerUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -389,7 +389,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -421,7 +421,7 @@
       "offerUrl": "https://www.netto-online.de/filialen/muenchen/am-mitterfeld-18/8314",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search",
       "brandFull": "Netto Marken-Discount"
     },
@@ -454,7 +454,7 @@
       "offerUrl": "https://www.edeka.de/maerkte/033913/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -486,7 +486,7 @@
       "offerUrl": "https://www.alnatura.de/de-de/angebote/",
       "scope": "market",
       "active": true,
-      "importStatus": "not_yet_implemented",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -502,7 +502,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -582,7 +582,7 @@
       "offerUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -598,7 +598,7 @@
       "offerUrl": "https://www.rewe.de/angebote/vaterstetten/440393/rewe-markt-bahnhofstr-36/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -630,7 +630,7 @@
       "offerUrl": "https://www.hit.de/maerkte/muenchen-trudering/angebote",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -646,7 +646,7 @@
       "offerUrl": "https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location",
       "brandFull": "Netto Marken-Discount"
     },
@@ -663,7 +663,7 @@
       "offerUrl": "https://www.netto-online.de/filialen/muenchen/wasserburger-landstr-8/8381",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search",
       "brandFull": "Netto Marken-Discount"
     },
@@ -888,7 +888,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -936,7 +936,7 @@
       "offerUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -984,7 +984,7 @@
       "offerUrl": "https://www.aldi-sued.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1000,7 +1000,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1016,7 +1016,7 @@
       "offerUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1032,7 +1032,7 @@
       "offerUrl": "https://www.netto-online.de/filialfinder",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search",
       "brandFull": "Netto Marken-Discount"
     },
@@ -1113,7 +1113,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1129,7 +1129,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1161,7 +1161,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1177,7 +1177,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1225,7 +1225,7 @@
       "offerUrl": "https://www.aldi-sued.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1241,7 +1241,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1273,7 +1273,7 @@
       "offerUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1307,7 +1307,7 @@
       "offerUrl": "https://www.edeka.de/maerkte/030244/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -1323,7 +1323,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -1339,7 +1339,7 @@
       "offerUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1371,7 +1371,7 @@
       "offerUrl": "https://www.aldi-sued.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1387,7 +1387,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1403,7 +1403,7 @@
       "offerUrl": "https://www.rewe.de/angebote/aschheim-dornach/440674/rewe-markt-humboldtstr-2b/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -1419,7 +1419,7 @@
       "offerUrl": "https://www.rewe.de/angebote/aschheim/562345/rewe-markt-jedovnicestr-10/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -1499,7 +1499,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1611,7 +1611,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1643,7 +1643,7 @@
       "offerUrl": "https://www.edeka.de/maerkte/139243/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -1659,7 +1659,7 @@
       "offerUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1675,7 +1675,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1707,7 +1707,7 @@
       "offerUrl": "https://www.netto-online.de/filialen/muenchen/am-mitterfeld-18/8314",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search",
       "brandFull": "Netto Marken-Discount"
     },
@@ -1740,7 +1740,7 @@
       "offerUrl": "https://www.edeka.de/maerkte/033913/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -1772,7 +1772,7 @@
       "offerUrl": "https://www.alnatura.de/de-de/angebote/",
       "scope": "market",
       "active": true,
-      "importStatus": "not_yet_implemented",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1788,7 +1788,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location"
     },
     {
@@ -1868,7 +1868,7 @@
       "offerUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1884,7 +1884,7 @@
       "offerUrl": "https://www.rewe.de/angebote/vaterstetten/440393/rewe-markt-bahnhofstr-36/",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1916,7 +1916,7 @@
       "offerUrl": "https://www.hit.de/maerkte/muenchen-trudering/angebote",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -1932,7 +1932,7 @@
       "offerUrl": "https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "estimated_from_location",
       "brandFull": "Netto Marken-Discount"
     },
@@ -1949,7 +1949,7 @@
       "offerUrl": "https://www.netto-online.de/filialen/muenchen/wasserburger-landstr-8/8381",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search",
       "brandFull": "Netto Marken-Discount"
     },
@@ -2174,7 +2174,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2222,7 +2222,7 @@
       "offerUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2270,7 +2270,7 @@
       "offerUrl": "https://www.aldi-sued.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2286,7 +2286,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2302,7 +2302,7 @@
       "offerUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2318,7 +2318,7 @@
       "offerUrl": "https://www.netto-online.de/filialfinder",
       "scope": "market",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search",
       "brandFull": "Netto Marken-Discount"
     },
@@ -2399,7 +2399,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2415,7 +2415,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2447,7 +2447,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2463,7 +2463,7 @@
       "offerUrl": "https://www.penny.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2511,7 +2511,7 @@
       "offerUrl": "https://www.aldi-sued.de/angebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2527,7 +2527,7 @@
       "offerUrl": "https://www.lidl.de/c/indexangebote",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2559,7 +2559,7 @@
       "offerUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "scope": "regional",
       "active": true,
-      "importStatus": "supported",
+      "importStatus": "partial",
       "distanceMethod": "business_search"
     },
     {
@@ -2843,9 +2843,9 @@
     "importStatusCounts": {
       "login_required": 1,
       "no_offer_source": 5,
-      "not_yet_implemented": 24,
-      "partial": 1,
-      "supported": 49
+      "not_yet_implemented": 23,
+      "partial": 35,
+      "supported": 16
     },
     "coordinateNote": "lat/lon bleiben null, wenn keine belastbaren Koordinaten vorlagen. distanceVerified=false kennzeichnet eine Distanzschätzung; alle aufgenommenen Filialen liegen deutlich unter 15 km."
   }
