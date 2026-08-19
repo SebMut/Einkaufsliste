@@ -218,8 +218,8 @@
       "url": "https://www.norma-online.de/de/angebote/?desktop=1",
       "scope": "regional",
       "status": "ok",
-      "count": 46,
-      "message": "46 qualitätsgeprüfte Angebote",
+      "count": 48,
+      "message": "48 qualitätsgeprüfte Angebote",
       "durationMs": 8663,
       "transport": "rich-reader"
     },
@@ -230,10 +230,10 @@
       "url": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "scope": "market",
       "status": "ok",
-      "count": 15,
-      "message": "15 qualitätsgeprüfte Angebote",
+      "count": 17,
+      "message": "17 qualitätsgeprüfte Angebote",
       "durationMs": 7322,
-      "transport": "text-reader"
+      "transport": "rich-reader"
     },
     {
       "store": "METRO",
@@ -273,7 +273,7 @@
       "durationMs": 7067
     }
   ],
-  "offerCount": 291,
+  "offerCount": 295,
   "offers": [
     {
       "id": 1,
@@ -316,7 +316,7 @@
       },
       "marketSection": "Fleisch & Fisch",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "7 DAYS Croissants",
@@ -336,8 +336,8 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
       "id": 2,
       "originalName": "7 DAYS Croissants",
       "department": "Lebensmittel",
@@ -360,7 +360,7 @@
       },
       "marketSection": "Backwaren",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.599Z"
+      "normalizedAt": "2026-08-19T17:38:22.538Z"
     },
     {
       "key": "Abreißkalender 2027",
@@ -381,7 +381,7 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
+      "importedAt": "2026-08-19T17:37:26.407Z",
       "id": 3,
       "originalName": "Abreißkalender 2027",
       "department": "Lebensmittel",
@@ -404,7 +404,7 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.602Z"
+      "normalizedAt": "2026-08-19T17:38:22.541Z"
     },
     {
       "key": "Adelholzener Active 02 0,75 l oder Rauch Eistee 1,25 l ",
@@ -425,7 +425,7 @@
       "sourceUrl": "https://www.hit.de/angebot/27481307?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
+      "importedAt": "2026-08-19T17:38:01.166Z",
       "id": 4,
       "originalName": "Adelholzener Active 02 0,75 l oder Rauch Eistee 1,25 l versch. Sorten PET EW Flasche",
       "department": "Lebensmittel",
@@ -448,7 +448,7 @@
       },
       "marketSection": "Kaffee & Frühstück",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.600Z"
+      "normalizedAt": "2026-08-19T17:38:22.539Z"
     },
     {
       "key": "Äpfel",
@@ -469,7 +469,7 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
+      "importedAt": "2026-08-19T17:37:26.407Z",
       "id": 5,
       "originalName": "Apfel",
       "department": "Lebensmittel",
@@ -492,7 +492,51 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.600Z"
+      "normalizedAt": "2026-08-19T17:38:22.539Z"
+    },
+    {
+      "key": "Äpfel",
+      "name": "Apfel",
+      "store": "NORMA",
+      "market": "Region Feldkirchen",
+      "address": "Johann-Sebastian-Bach-Strasse 44, 85591 Vaterstetten",
+      "cat": "Obst & Gemüse",
+      "size": "1 kg",
+      "price": 2.69,
+      "unit": 2.69,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
+      "sourceScope": "regional",
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 6,
+      "originalName": "Apfel",
+      "department": "Lebensmittel",
+      "category": "Obst & Gemüse",
+      "subcategory": "Obst",
+      "canonicalGroup": "Äpfel",
+      "canonicalProduct": "Äpfel",
+      "canonicalId": "apfel-apfel",
+      "bundleKey": "Äpfel",
+      "similarityKey": "Äpfel|Äpfel",
+      "exactMatchKey": "Äpfel|Äpfel",
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "fatContent": null,
+        "diaperSize": null,
+        "packageCount": null,
+        "processing": null,
+        "form": null
+      },
+      "marketSection": "Obst & Gemüse",
+      "confidence": 0.98,
+      "normalizedAt": "2026-08-19T17:38:22.540Z"
     },
     {
       "key": "Äpfel",
@@ -513,8 +557,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27560491?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 6,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 7,
       "originalName": "Italien Clubäpfel Pink Lady oder Pinkids Sorte: Cripps Pink Klasse I 1000g -",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -536,10 +580,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.602Z"
+      "normalizedAt": "2026-08-19T17:38:22.540Z"
     },
     {
-      "id": 7,
+      "id": 8,
       "key": "Äpfel Krumme Dinger",
       "name": "Äpfel Krumme Dinger",
       "store": "ALDI SÜD",
@@ -579,7 +623,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.600Z"
+      "normalizedAt": "2026-08-19T17:38:22.539Z"
     },
     {
       "key": "Apfelsaft",
@@ -600,8 +644,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481327?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 8,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 9,
       "originalName": "hohes C Mehrfrucht-Saft versch. Sorten, Milder Apfelsaft oder Multivitamin 100 % Orange für 2,39 € 1 l PET Flasche",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -623,7 +667,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.601Z"
+      "normalizedAt": "2026-08-19T17:38:22.540Z"
     },
     {
       "key": "Apfelsaft",
@@ -644,8 +688,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481416?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 9,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 10,
       "originalName": "Wolfra Apfelsaft versch. Sorten",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -667,10 +711,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.601Z"
+      "normalizedAt": "2026-08-19T17:38:22.540Z"
     },
     {
-      "id": 10,
+      "id": 11,
       "key": "Babybrei",
       "name": "Kölln Getreidebrei Hafer Schmelzflocken ab dem 5. Monat",
       "store": "dm",
@@ -710,10 +754,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.97,
-      "normalizedAt": "2026-08-19T16:29:14.602Z"
+      "normalizedAt": "2026-08-19T17:38:22.541Z"
     },
     {
-      "id": 11,
+      "id": 12,
       "key": "Babybrei",
       "name": "Cerelac Milch-Getreidebrei Weizen+Honig ab dem 12. Monat",
       "store": "ROSSMANN",
@@ -753,10 +797,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.97,
-      "normalizedAt": "2026-08-19T16:29:14.602Z"
+      "normalizedAt": "2026-08-19T17:38:22.541Z"
     },
     {
-      "id": 12,
+      "id": 13,
       "key": "Babydream - Wickelunterlage",
       "name": "Babydream - Wickelunterlage",
       "store": "ROSSMANN",
@@ -796,10 +840,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.602Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 13,
+      "id": 14,
       "key": "babylove Babylöffel pastell",
       "name": "babylove Babylöffel pastell",
       "store": "dm",
@@ -839,10 +883,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.602Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 14,
+      "id": 15,
       "key": "babylove Desinfektionstücher",
       "name": "babylove Desinfektionstücher",
       "store": "dm",
@@ -882,10 +926,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.602Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 15,
+      "id": 16,
       "key": "babylove Feuchte Waschlappen",
       "name": "babylove Feuchte Waschlappen",
       "store": "dm",
@@ -925,10 +969,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.603Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 16,
+      "id": 17,
       "key": "babylove Flaschen- und Saugerbürste",
       "name": "babylove Flaschen- und Saugerbürste",
       "store": "dm",
@@ -968,10 +1012,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.603Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 17,
+      "id": 18,
       "key": "babylove Flaschenbürste Premium",
       "name": "babylove Flaschenbürste Premium",
       "store": "dm",
@@ -1011,10 +1055,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.603Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 18,
+      "id": 19,
       "key": "babylove Nagelschere Baby antiallergen",
       "name": "babylove Nagelschere Baby antiallergen",
       "store": "dm",
@@ -1054,10 +1098,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.603Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 19,
+      "id": 20,
       "key": "babylove Reinigungs Wattepads",
       "name": "babylove Reinigungs Wattepads",
       "store": "dm",
@@ -1097,10 +1141,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.603Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 20,
+      "id": 21,
       "key": "babylove Schnuller Naturlatex, symmetrisch, beige/lila,",
       "name": "babylove Schnuller Naturlatex, symmetrisch, beige/lila, Gr. 2, 5-18 Monate",
       "store": "dm",
@@ -1140,10 +1184,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 21,
+      "id": 22,
       "key": "babylove Snack-Piekser",
       "name": "babylove Snack-Piekser",
       "store": "dm",
@@ -1183,10 +1227,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 22,
+      "id": 23,
       "key": "babylove Sonnenspray Baby ultra sensitive LSF 50+",
       "name": "babylove Sonnenspray Baby ultra sensitive LSF 50+",
       "store": "dm",
@@ -1226,10 +1270,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 23,
+      "id": 24,
       "key": "babylove Trinkflasche Kinder Edelstahl beige Flamingo",
       "name": "babylove Trinkflasche Kinder Edelstahl beige Flamingo",
       "store": "dm",
@@ -1269,7 +1313,7 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
       "key": "Bacardi Carta Blanca, Spiced oder Flavoured Rum",
@@ -1290,8 +1334,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481171?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 24,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 25,
       "originalName": "Bacardi Carta Blanca, Spiced oder Flavoured Rum",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -1313,7 +1357,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
       "key": "Bananen",
@@ -1334,8 +1378,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 25,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 26,
       "originalName": "Banane-Kirsch-Getränk",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -1357,7 +1401,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.543Z"
     },
     {
       "key": "Bayerische Mini Gurken",
@@ -1378,8 +1422,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 26,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 27,
       "originalName": "Bayerische Mini Gurken",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -1401,7 +1445,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.605Z"
+      "normalizedAt": "2026-08-19T17:38:22.543Z"
     },
     {
       "key": "BEN & JERRY'S Eis je 427 - 465-ml-Packg.",
@@ -1421,9 +1465,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 27,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 28,
       "originalName": "BEN & JERRY'S Eis je 427 - 465-ml-Packg.",
       "department": "Lebensmittel",
       "category": "Tiefkühl",
@@ -1445,7 +1489,7 @@
       },
       "marketSection": "Tiefkühl",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Bertolli Olivenöl",
@@ -1467,7 +1511,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 28,
+      "id": 29,
       "originalName": "Bertolli Olivenöl",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -1489,7 +1533,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Bier",
@@ -1510,8 +1554,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27780102?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 29,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 30,
       "originalName": "Oettinger Pils oder Export",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -1533,7 +1577,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Bier",
@@ -1554,8 +1598,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 30,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 31,
       "originalName": "Spanisches Bier",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -1577,7 +1621,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Bier",
@@ -1599,7 +1643,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 31,
+      "id": 32,
       "originalName": "Franziskaner Weißbier",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -1621,7 +1665,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "BioRebe oder Käfer Rebsortenweine versch. Sorten mittel",
@@ -1642,8 +1686,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27303466?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 32,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 33,
       "originalName": "BioRebe oder Käfer Rebsortenweine versch. Sorten mittelkräftig, fruchtige Aromen, harmonisch und frisch, trocken.",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -1665,7 +1709,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Biscoff Stieleis",
@@ -1686,8 +1730,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 33,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 34,
       "originalName": "Biscoff Stieleis",
       "department": "Lebensmittel",
       "category": "Lebensmittel",
@@ -1709,7 +1753,7 @@
       },
       "marketSection": "Lebensmittel",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Biscoff Stieleis Mini",
@@ -1730,8 +1774,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 34,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 35,
       "originalName": "Biscoff Stieleis Mini",
       "department": "Lebensmittel",
       "category": "Lebensmittel",
@@ -1753,7 +1797,7 @@
       },
       "marketSection": "Lebensmittel",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Bonne Maman Konfitüre oder Weniger Zucker, mehr Frucht ",
@@ -1774,8 +1818,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480646?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 35,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 36,
       "originalName": "Bonne Maman Konfitüre oder Weniger Zucker, mehr Frucht versch. Sorten",
       "department": "Lebensmittel",
       "category": "Kaffee & Frühstück",
@@ -1797,10 +1841,10 @@
       },
       "marketSection": "Kaffee & Frühstück",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
-      "id": 36,
+      "id": 37,
       "key": "Bratwurst",
       "name": "Bio-Grobe Bratwurst",
       "store": "ALDI SÜD",
@@ -1840,7 +1884,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.92,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
       "key": "Bratwurst",
@@ -1861,8 +1905,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480640?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 37,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 38,
       "originalName": "Deutsche frische grobe Bratwurst vom Schwein",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -1884,7 +1928,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.92,
-      "normalizedAt": "2026-08-19T16:29:14.619Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Bree Rosé Secco, Limoncello, Spritz Aperitivo oder Mayb",
@@ -1905,8 +1949,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481295?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 38,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 39,
       "originalName": "Bree Rosé Secco, Limoncello, Spritz Aperitivo oder Maybach Weinschorle 0,275 l Flasche/0,2 l Dose",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -1928,10 +1972,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
-      "id": 39,
+      "id": 40,
       "key": "Brot",
       "name": "RAMA Brot­aufstrich",
       "store": "PENNY",
@@ -1971,7 +2015,7 @@
       },
       "marketSection": "Backwaren",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Brotchips",
@@ -1992,8 +2036,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 40,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 41,
       "originalName": "Brotchips",
       "department": "Lebensmittel",
       "category": "Süßes & Snacks",
@@ -2015,7 +2059,7 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "BRUNCH Brotaufstrich je 185-g-Becher",
@@ -2035,9 +2079,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 41,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 42,
       "originalName": "BRUNCH Brotaufstrich je 185-g-Becher",
       "department": "Lebensmittel",
       "category": "Backwaren",
@@ -2059,10 +2103,10 @@
       },
       "marketSection": "Backwaren",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
-      "id": 42,
+      "id": 43,
       "key": "Bund",
       "name": "Bund",
       "store": "PENNY",
@@ -2102,7 +2146,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Butter",
@@ -2122,9 +2166,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 43,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 44,
       "originalName": "PRÉSIDENT Meersalz-Butter je 250-g-Becher",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -2146,7 +2190,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Butter",
@@ -2168,7 +2212,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 44,
+      "id": 45,
       "originalName": "Youcook Butter Chicken",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -2190,7 +2234,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Butter",
@@ -2211,8 +2255,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27780082?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 45,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 46,
       "originalName": "Meggle Feine Butter, Joghurtbutter oder Streichzart",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -2234,10 +2278,10 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
-      "id": 46,
+      "id": 47,
       "key": "Butter",
       "name": "Butter",
       "store": "ALDI SÜD",
@@ -2277,7 +2321,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.607Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Castello / Cathedral City Höhlenkäse, Esrom, Cheddar",
@@ -2298,8 +2342,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480949?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 47,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 48,
       "originalName": "Castello / Cathedral City Höhlenkäse, Esrom, Cheddar",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -2321,7 +2365,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Cevapcici +++ +++ Frischfleischtruhe",
@@ -2342,8 +2386,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 48,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 49,
       "originalName": "Cevapcici +++ Aktion +++ Frischfleischtruhe",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -2365,7 +2409,7 @@
       },
       "marketSection": "Fleisch & Fisch",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.607Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Cola & Limonade",
@@ -2385,9 +2429,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 49,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 50,
       "originalName": "K-CLASSIC Cola oder Limonade je 0,5-l-PET-Fl.",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -2409,7 +2453,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.607Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Delikatess Sauce",
@@ -2430,8 +2474,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 50,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 51,
       "originalName": "Delikatess Sauce",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -2453,10 +2497,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.607Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
-      "id": 51,
+      "id": 52,
       "key": "Deutsche Bundmöhren",
       "name": "Deutsche Bundmöhren",
       "store": "PENNY",
@@ -2496,7 +2540,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.607Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Deutsche frische Nackensteaks, Braten vom Schwein ohne ",
@@ -2517,8 +2561,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480804?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 52,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 53,
       "originalName": "Deutsche frische Nackensteaks, Braten vom Schwein ohne Knochen, natur",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -2540,7 +2584,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Deutsche Krustensteaks Winzer Art vom Schweinerücken oh",
@@ -2561,8 +2605,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480808?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 53,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 54,
       "originalName": "Deutsche Krustensteaks Winzer Art vom Schweinerücken ohne Knochen mit Schwarte, mariniert",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -2584,7 +2628,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Deutsche marinierte Bauchscheiben vom Schwein, mit Knoc",
@@ -2605,8 +2649,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480796?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 54,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 55,
       "originalName": "Deutsche marinierte Bauchscheiben vom Schwein, mit Knochen, versch. Würzungen",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -2628,7 +2672,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.619Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Deutsche marinierte Grill-Fackeln, Bauch-Spieße Schwein",
@@ -2649,8 +2693,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480807?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 55,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 56,
       "originalName": "Deutsche marinierte Grill-Fackeln, Bauch-Spieße Schweine-Bauchscheiben, versch. Würzungen",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -2672,7 +2716,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Deutsche marinierte Holzfällersteaks, Schulterbraten vo",
@@ -2693,8 +2737,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480811?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 56,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 57,
       "originalName": "Deutsche marinierte Holzfällersteaks, Schulterbraten vom Schwein, mit Knochen und Schwarte",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -2716,7 +2760,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Deutsche marinierte Nackensteaks, Spieße vom Schwein oh",
@@ -2737,8 +2781,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27780079?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 57,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 58,
       "originalName": "Deutsche marinierte Nackensteaks, Spieße vom Schwein ohne Knochen, versch. Würzungen",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -2760,7 +2804,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Deutscher frischer Jungbullen-Schmorbraten, Gulasch vom",
@@ -2781,8 +2825,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480803?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 58,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 59,
       "originalName": "Deutscher frischer Jungbullen-Schmorbraten, Gulasch vom Zungenstück",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -2804,7 +2848,7 @@
       },
       "marketSection": "Fleisch & Fisch",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.607Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Deutscher frischer Schweinebauch mit Knochen am Stück, ",
@@ -2825,8 +2869,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480805?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 59,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 60,
       "originalName": "Deutscher frischer Schweinebauch mit Knochen am Stück, Scheiben, natur oder gepökelt",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -2848,7 +2892,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.619Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Deutschland HIT Broccoli Klasse II kaum Kalorien, gut v",
@@ -2869,8 +2913,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27802021?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 60,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 61,
       "originalName": "Deutschland Bio HIT Broccoli Klasse II kaum Kalorien, gut verdaulich, als Schonkost geeignet",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -2892,7 +2936,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.607Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Deutschland Naturland Champignons braun Klasse II zum N",
@@ -2913,8 +2957,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27802019?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 61,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 62,
       "originalName": "Deutschland Bio Naturland Champignons braun Klasse II zum Nudelgericht oder einfach im Salat ein Genuss",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -2936,7 +2980,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Deutschland Pflaumen Sorte: Sweet Violet Klasse I süß, ",
@@ -2957,8 +3001,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27802017?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 62,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 63,
       "originalName": "Deutschland Pflaumen Sorte: Sweet Violet Klasse I süß, aromatisch und saftig 1 kg Lose",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -2980,7 +3024,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Dr. Oetker Gala Pudding versch. Sorten",
@@ -3001,8 +3045,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481276?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 63,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 64,
       "originalName": "Dr. Oetker Gala Pudding versch. Sorten",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -3024,7 +3068,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Dr. Oetker Grütze oder Sahne Pudding versch. Sorten",
@@ -3045,8 +3089,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481037?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 64,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 65,
       "originalName": "Dr. Oetker Grütze oder Sahne Pudding versch. Sorten",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -3068,7 +3112,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Dr. Oetker Süße Mahlzeit versch. Sorten",
@@ -3089,8 +3133,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481290?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 65,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 66,
       "originalName": "Dr. Oetker Süße Mahlzeit versch. Sorten",
       "department": "Lebensmittel",
       "category": "Lebensmittel",
@@ -3112,10 +3156,10 @@
       },
       "marketSection": "Lebensmittel",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
-      "id": 66,
+      "id": 67,
       "key": "e) Preisvorteil gegenüber dem Grundpreis einer Standard",
       "name": "e) Preisvorteil gegenüber dem Grundpreis einer Standardpackung",
       "store": "Lidl",
@@ -3155,7 +3199,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "EDEKA Herzstücke High Protein Fertiggericht",
@@ -3177,7 +3221,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 67,
+      "id": 68,
       "originalName": "EDEKA Herzstücke High Protein Fertiggericht",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -3199,7 +3243,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "EDEKA Herzstücke High Protein fettarme Quarkcreme",
@@ -3221,7 +3265,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 68,
+      "id": 69,
       "originalName": "EDEKA Herzstücke High Protein fettarme Quarkcreme",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -3243,7 +3287,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.546Z"
     },
     {
       "key": "EDEKA Herzstücke Hummus",
@@ -3265,7 +3309,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 69,
+      "id": 70,
       "originalName": "EDEKA Herzstücke Hummus",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -3287,7 +3331,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.546Z"
     },
     {
       "key": "EDEKA High Protein Linsen- oder Kichererbsen-Waffeln",
@@ -3309,7 +3353,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 70,
+      "id": 71,
       "originalName": "EDEKA Bio High Protein Linsen- oder Kichererbsen-Waffeln",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -3331,7 +3375,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Edle Tropfen in Nuss",
@@ -3352,8 +3396,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 71,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 72,
       "originalName": "Edle Tropfen in Nuss",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -3375,7 +3419,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.546Z"
     },
     {
       "key": "Espresso",
@@ -3397,7 +3441,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 72,
+      "id": 73,
       "originalName": "Lavazza Caffe Crema oder Espresso",
       "department": "Lebensmittel",
       "category": "Kaffee & Frühstück",
@@ -3419,7 +3463,7 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Exquisa Quark Creme oder Quark Genuss 0,2 % Fett versch",
@@ -3440,8 +3484,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481044?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 73,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 74,
       "originalName": "Exquisa Quark Creme oder Quark Genuss 0,2 % Fett versch. Sorten 500-375 g Becher",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -3463,7 +3507,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.546Z"
     },
     {
       "key": "Ferrero Milchschnitte 10er oder Kinder Pingui 8er versc",
@@ -3484,8 +3528,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481045?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 74,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 75,
       "originalName": "Ferrero Milchschnitte 10er oder Kinder Pingui 8er versch. Sorten Kinder Pingui Classic + 1 GRATIS",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -3507,10 +3551,10 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.546Z"
     },
     {
-      "id": 75,
+      "id": 76,
       "key": "Feuchttücher",
       "name": "extra sensitiv Feuchttücher Spar-Pack",
       "store": "ROSSMANN",
@@ -3550,10 +3594,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.546Z"
     },
     {
-      "id": 76,
+      "id": 77,
       "key": "Feuchttücher",
       "name": "extra sensitiv Feuchttücher XXL Spar-Pack",
       "store": "ROSSMANN",
@@ -3593,10 +3637,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.546Z"
     },
     {
-      "id": 77,
+      "id": 78,
       "key": "Feuchttücher",
       "name": "Naty Feuchttücher herunterspülbar",
       "store": "dm",
@@ -3636,10 +3680,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
-      "id": 78,
+      "id": 79,
       "key": "Feuchttücher",
       "name": "Pampers Feuchttücher 99 % water (18x60 St",
       "store": "dm",
@@ -3679,10 +3723,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
-      "id": 79,
+      "id": 80,
       "key": "Feuchttücher",
       "name": "Pampers Feuchttücher aqua soft touch (18x48 St",
       "store": "dm",
@@ -3722,7 +3766,7 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
       "key": "Fischstäbchen",
@@ -3743,8 +3787,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 80,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 81,
       "originalName": "Fischstäbchen",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -3766,10 +3810,10 @@
       },
       "marketSection": "Fleisch & Fisch",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.546Z"
     },
     {
-      "id": 81,
+      "id": 82,
       "key": "Folgemilch",
       "name": "BEBA - 2 Folgemilch nach dem 6. Monat",
       "store": "ROSSMANN",
@@ -3809,10 +3853,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 82,
+      "id": 83,
       "key": "Folgemilch",
       "name": "BEBA - 3 Folgemilch ab dem 10. Monat",
       "store": "ROSSMANN",
@@ -3852,10 +3896,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 83,
+      "id": 84,
       "key": "Folgemilch",
       "name": "2 Folgemilch nach dem 6. Monat",
       "store": "ROSSMANN",
@@ -3895,10 +3939,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 84,
+      "id": 85,
       "key": "FRECHE FREUNDE Quetschie Sparpack",
       "name": "FRECHE FREUNDE Quetschie Sparpack",
       "store": "PENNY",
@@ -3938,10 +3982,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.546Z"
     },
     {
-      "id": 85,
+      "id": 86,
       "key": "FRECHE FREUNDE Roter Beerenmix Fruchtchips",
       "name": "FRECHE FREUNDE Roter Beerenmix Fruchtchips",
       "store": "PENNY",
@@ -3981,7 +4025,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.605Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Frischkäse",
@@ -4002,8 +4046,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 86,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 87,
       "originalName": "Frischkäsezubereitung",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -4025,7 +4069,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.612Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Frischkäse",
@@ -4046,8 +4090,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27910983?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 87,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 88,
       "originalName": "Philadelphia versch. Sorten 195 -",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -4069,7 +4113,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.612Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Frischkäse",
@@ -4090,8 +4134,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481310?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 88,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 89,
       "originalName": "Philadelphia versch. Sorten 195-6 x",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -4113,7 +4157,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Frischkäse",
@@ -4134,8 +4178,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480937?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 89,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 90,
       "originalName": "Saint Albray, Saint Agur, Chavroux, Rambol Franz. Weich-, Frischkäse versch. Sorten",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -4157,10 +4201,10 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
-      "id": 90,
+      "id": 91,
       "key": "FRUCHTBAR Pausenfreund Kindersnack Kakao Waffeln ab 3 J",
       "name": "FRUCHTBAR Pausenfreund Kindersnack Kakao Waffeln ab 3 Jahren",
       "store": "dm",
@@ -4200,7 +4244,7 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.609Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Fruchtsaftgetränk",
@@ -4221,8 +4265,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 91,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 92,
       "originalName": "Fruchtsaftgetränk",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -4244,7 +4288,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.609Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Frühstücksfleisch",
@@ -4265,8 +4309,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 92,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 93,
       "originalName": "Frühstücksfleisch",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -4288,7 +4332,7 @@
       },
       "marketSection": "Fleisch & Fisch",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.609Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Goooal Eissandwich",
@@ -4309,8 +4353,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 93,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 94,
       "originalName": "Goooal Eissandwich",
       "department": "Lebensmittel",
       "category": "Lebensmittel",
@@ -4332,7 +4376,51 @@
       },
       "marketSection": "Lebensmittel",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.609Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
+    },
+    {
+      "key": "Goooal Eissandwich Mix",
+      "name": "Goooal Eissandwich Mix",
+      "store": "NORMA",
+      "market": "Region Feldkirchen",
+      "address": "Johann-Sebastian-Bach-Strasse 44, 85591 Vaterstetten",
+      "cat": "Lebensmittel",
+      "size": "6 x 100 ml",
+      "price": 3.79,
+      "unit": 6.317,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
+      "sourceScope": "regional",
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 95,
+      "originalName": "Goooal Eissandwich Mix",
+      "department": "Lebensmittel",
+      "category": "Lebensmittel",
+      "subcategory": "Lebensmittel",
+      "canonicalGroup": "Goooal Eissandwich Mix",
+      "canonicalProduct": "Goooal Eissandwich Mix",
+      "canonicalId": "goooal-eissandwich-mix-goooal-eissandwich-mix",
+      "bundleKey": "Goooal Eissandwich Mix",
+      "similarityKey": "Goooal Eissandwich Mix|Goooal Eissandwich Mix",
+      "exactMatchKey": "Goooal Eissandwich Mix|Goooal Eissandwich Mix",
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "fatContent": null,
+        "diaperSize": null,
+        "packageCount": null,
+        "processing": null,
+        "form": null
+      },
+      "marketSection": "Lebensmittel",
+      "confidence": 0.58,
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Gouda",
@@ -4353,8 +4441,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480812?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 94,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 96,
       "originalName": "Deutscher Schweinerücken gefüllt Kochschinken-Gouda/ Frischkäse-Brokkoli/Spinat",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -4376,10 +4464,10 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 95,
+      "id": 97,
       "key": "Gulasch vom Schwein",
       "name": "Gulasch vom Schwein",
       "store": "ALDI SÜD",
@@ -4419,10 +4507,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.619Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 96,
+      "id": 98,
       "key": "Hackfleisch",
       "name": "Bio-Hackfleisch vom Rind",
       "store": "ALDI SÜD",
@@ -4462,7 +4550,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.609Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Hackfleisch",
@@ -4483,8 +4571,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480806?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 97,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 99,
       "originalName": "Deutsches frisches Hackfleisch, Mett, Hacksteaks vom Schwein, auch nach Jägerart gewürzt",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -4506,10 +4594,10 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.609Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
-      "id": 98,
+      "id": 100,
       "key": "Hackfleisch",
       "name": "Hackfleisch vom Rind",
       "store": "ALDI SÜD",
@@ -4549,10 +4637,10 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.609Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
-      "id": 99,
+      "id": 101,
       "key": "Hackfleisch",
       "name": "Rind Hackfleisch 5 % Fett",
       "store": "ALDI SÜD",
@@ -4592,7 +4680,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.610Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Haferdrink",
@@ -4614,7 +4702,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 100,
+      "id": 102,
       "originalName": "alpro Soya-, Hafer- oder This is not Milk-Drink",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -4636,7 +4724,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.600Z"
+      "normalizedAt": "2026-08-19T17:38:22.539Z"
     },
     {
       "key": "Hähnchen",
@@ -4657,8 +4745,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 101,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 103,
       "originalName": "Hähnchen Oberkeulen +++ Aktion +++ Frischfleischtruhe",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -4680,7 +4768,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.610Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Hähnchen",
@@ -4701,8 +4789,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 102,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 104,
       "originalName": "Hähnchen Ministeaks +++ Aktion +++ Frischfleischtruhe",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -4724,7 +4812,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.610Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Hähnchen",
@@ -4745,8 +4833,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481001?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 103,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 105,
       "originalName": "Gutfried Puten-/ Hähnchenbrust gebraten",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -4768,7 +4856,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.610Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "HARIBO Fruchtgummis oder Lakritze je 150 - 175-g-Packg.",
@@ -4788,9 +4876,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 104,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 106,
       "originalName": "HARIBO Fruchtgummis oder Lakritze je 150 - 175-g-Packg.",
       "department": "Lebensmittel",
       "category": "Süßes & Snacks",
@@ -4812,10 +4900,10 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 105,
+      "id": 107,
       "key": "HARIBO Pfirsiche",
       "name": "HARIBO Pfirsiche",
       "store": "PENNY",
@@ -4855,10 +4943,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 106,
+      "id": 108,
       "key": "Heidelbeeren",
       "name": "Heidelbeeren",
       "store": "ALDI SÜD",
@@ -4898,7 +4986,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.605Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Heinz Tomato passiert",
@@ -4919,8 +5007,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27586017?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 107,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 109,
       "originalName": "Heinz Tomato passiert",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -4942,10 +5030,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 108,
+      "id": 110,
       "key": "Helle, kernlose Tafeltrauben",
       "name": "Helle, kernlose Tafeltrauben",
       "store": "PENNY",
@@ -4985,7 +5073,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.610Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Herta Finesse versch. Sorten 100 g SB-Packung",
@@ -5006,8 +5094,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480998?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 109,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 111,
       "originalName": "Herta Finesse versch. Sorten 100 g SB-Packung",
       "department": "Lebensmittel",
       "category": "Lebensmittel",
@@ -5029,10 +5117,10 @@
       },
       "marketSection": "Lebensmittel",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.610Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
-      "id": 110,
+      "id": 112,
       "key": "Himalaya Basmatireis",
       "name": "Himalaya Basmatireis",
       "store": "ALDI SÜD",
@@ -5072,10 +5160,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.610Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
-      "id": 111,
+      "id": 113,
       "key": "Himbeeren",
       "name": "Himbeeren",
       "store": "ALDI SÜD",
@@ -5115,7 +5203,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.605Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "HOCHLAND Schmelzkäse je 150 - 200-g-Packg.",
@@ -5135,9 +5223,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 112,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 114,
       "originalName": "HOCHLAND Schmelzkäse je 150 - 200-g-Packg.",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -5159,7 +5247,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.612Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Jack Daniel’s Tennessee Whiskey",
@@ -5181,7 +5269,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 113,
+      "id": 115,
       "originalName": "Jack Daniel’s Tennessee Whiskey",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -5203,7 +5291,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.610Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Jacobs Krönung",
@@ -5225,7 +5313,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 114,
+      "id": 116,
       "originalName": "Jacobs Krönung",
       "department": "Lebensmittel",
       "category": "Kaffee & Frühstück",
@@ -5247,7 +5335,7 @@
       },
       "marketSection": "Kaffee & Frühstück",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.610Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Jägermeister Kräuterlikör oder Jägermeister Orange 33/3",
@@ -5268,8 +5356,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481160?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 115,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 117,
       "originalName": "Jägermeister Kräuterlikör oder Jägermeister Orange 33/35% vol.",
       "department": "Lebensmittel",
       "category": "Lebensmittel",
@@ -5291,7 +5379,7 @@
       },
       "marketSection": "Lebensmittel",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Joghurt",
@@ -5311,9 +5399,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 116,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 118,
       "originalName": "MÜLLER Joghurt mit der Ecke je 113 - 150-g-Becher",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -5335,10 +5423,10 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
-      "id": 117,
+      "id": 119,
       "key": "Joghurt",
       "name": "MILPRIMA FruchtiGurt 3,8%",
       "store": "PENNY",
@@ -5378,10 +5466,10 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
-      "id": 118,
+      "id": 120,
       "key": "Joghurt",
       "name": "MILPRIMA Joghurt Crisp",
       "store": "PENNY",
@@ -5421,7 +5509,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Joghurt",
@@ -5442,8 +5530,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481046?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 119,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 121,
       "originalName": "Zillertaler Heumilchjoghurt Frucht oder Natur versch. Sorten, 3,5 % Fett 200-180 g Becher",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -5465,7 +5553,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Joghurt",
@@ -5486,8 +5574,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481042?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 120,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 122,
       "originalName": "Weihenstephan Rahmjoghurt oder Mascarpone Joghurt versch. Sorten",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -5509,10 +5597,10 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
-      "id": 121,
+      "id": 123,
       "key": "Joghurt",
       "name": "MÖVENPICK Feinjoghurt",
       "store": "PENNY",
@@ -5552,7 +5640,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Kaffee",
@@ -5573,8 +5661,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481047?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 122,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 124,
       "originalName": "Bärenmarke Eiskaffee versch. Sorten",
       "department": "Lebensmittel",
       "category": "Kaffee & Frühstück",
@@ -5596,7 +5684,7 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Kaffee",
@@ -5617,8 +5705,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 123,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 125,
       "originalName": "Haltbarer Eiskaffee / Kakao",
       "department": "Lebensmittel",
       "category": "Kaffee & Frühstück",
@@ -5640,7 +5728,7 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Kaffee",
@@ -5661,8 +5749,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481303?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 124,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 126,
       "originalName": "Bärenmarke Kaffeemilch 7,5/4 % Fett",
       "department": "Lebensmittel",
       "category": "Kaffee & Frühstück",
@@ -5684,10 +5772,10 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
-      "id": 125,
+      "id": 127,
       "key": "Kaffee",
       "name": "MILPRIMA Kaffeesahne* je 20 x",
       "store": "PENNY",
@@ -5727,7 +5815,7 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Kaffee",
@@ -5748,8 +5836,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480643?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 126,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 128,
       "originalName": "Eilles Gourmet, Idee Kaffee oder Mövenpick Classic Filterkaffee gemahlen versch. Sorten",
       "department": "Lebensmittel",
       "category": "Kaffee & Frühstück",
@@ -5771,10 +5859,10 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
-      "id": 127,
+      "id": 129,
       "key": "Kartoffeln",
       "name": "Deutsche Speisefrühkartoffeln* je 4-kg-Netz",
       "store": "PENNY",
@@ -5814,7 +5902,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Kartoffeln",
@@ -5835,8 +5923,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481025?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 128,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 130,
       "originalName": "Henglein Kartoffelpufferteig",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -5858,7 +5946,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Kartoffeln",
@@ -5879,8 +5967,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481315?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 129,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 131,
       "originalName": "Knorr Pasta-/Kartoffelsnack oder Asia Noodles versch. Sorten 89-48 g Beutel/Packung",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -5902,7 +5990,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.611Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Käse",
@@ -5924,7 +6012,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 130,
+      "id": 132,
       "originalName": "Dr. Oetker Die Ofenfrische Vier Käse",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -5946,7 +6034,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.88,
-      "normalizedAt": "2026-08-19T16:29:14.612Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Käse",
@@ -5968,7 +6056,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 131,
+      "id": 133,
       "originalName": "Géramont Weichkäse",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -5990,7 +6078,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.88,
-      "normalizedAt": "2026-08-19T16:29:14.612Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Käse",
@@ -6011,8 +6099,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480946?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 132,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 134,
       "originalName": "Finello Geriebener Käse versch. Sorten",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -6034,7 +6122,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.88,
-      "normalizedAt": "2026-08-19T16:29:14.612Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Käse",
@@ -6055,8 +6143,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480889?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 133,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 135,
       "originalName": "Allgäuer Rahmtorte, Cambozola, Rougette Landkäse, St. Andre, Rustique Deutscher/ Franz. Weichkäse versch. Sorten",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -6078,7 +6166,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.88,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Käse",
@@ -6099,8 +6187,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27513925?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 134,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 136,
       "originalName": "Burgeis Vinschgauer Bergbauernkäse oder Pustertaler Bergkäse Italienischer Schnittkäse 45/50 % Fett i. Tr., kräftig",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -6122,7 +6210,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.88,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Käse",
@@ -6143,8 +6231,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480932?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 135,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 137,
       "originalName": "Kaltbach der Cremig-würzige oder Gold Schweizer Hart-/Schnittkäse 47/56 % Fett i. Tr., würzig 4/5 Monate höhlengereift",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -6166,10 +6254,10 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.88,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
-      "id": 136,
+      "id": 138,
       "key": "Käsescheiben 260 g, Benjamin",
       "name": "Käsescheiben 260 g, Benjamin",
       "store": "ALDI SÜD",
@@ -6209,7 +6297,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.612Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Käsewaffeln",
@@ -6230,8 +6318,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 137,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 139,
       "originalName": "Käsewaffeln",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -6253,10 +6341,10 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
-      "id": 138,
+      "id": 140,
       "key": "KINDER Pingui* je 8 x",
       "name": "KINDER Pingui* je 8 x",
       "store": "PENNY",
@@ -6296,7 +6384,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "König Ludwig Weissbier oder Oberbräu Hell versch. Sorte",
@@ -6317,8 +6405,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27780100?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 139,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 141,
       "originalName": "König Ludwig Weissbier oder Oberbräu Hell versch. Sorten",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -6340,7 +6428,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Kürbiskernöl",
@@ -6361,8 +6449,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 140,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 142,
       "originalName": "Kürbiskernöl",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -6384,7 +6472,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Lachs",
@@ -6405,8 +6493,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481000?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 141,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 143,
       "originalName": "Meine Lieblinge Lachs, Graved, Wild-Lachs 130-80 g SB-Packung",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -6428,7 +6516,7 @@
       },
       "marketSection": "Fleisch & Fisch",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Landlust -Rebsortenweine verschiedene Sorten mittelkräf",
@@ -6449,8 +6537,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27586033?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 142,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 144,
       "originalName": "Landlust Bio-Rebsortenweine verschiedene Sorten mittelkräftig, fruchtige Aromen, rund und harmonisch, trocken.",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -6472,7 +6560,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Lauchzwiebeln",
@@ -6493,8 +6581,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 143,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 145,
       "originalName": "Lauchzwiebeln",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -6516,10 +6604,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
-      "id": 144,
+      "id": 146,
       "key": "LEERDAMMER Käsescheiben",
       "name": "LEERDAMMER Käsescheiben",
       "store": "PENNY",
@@ -6559,10 +6647,10 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
-      "id": 145,
+      "id": 147,
       "key": "LEERDAMMER Trio-Scheiben",
       "name": "LEERDAMMER Trio-Scheiben",
       "store": "PENNY",
@@ -6602,7 +6690,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "LORENZ Saltletts Snacks je 100 - 200-g-Packg.",
@@ -6622,9 +6710,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 146,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 148,
       "originalName": "LORENZ Saltletts Snacks je 100 - 200-g-Packg.",
       "department": "Lebensmittel",
       "category": "Süßes & Snacks",
@@ -6646,7 +6734,7 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Magdeburger Börde Karotten",
@@ -6667,8 +6755,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 147,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 149,
       "originalName": "Magdeburger Börde Karotten",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -6690,7 +6778,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Meeresfrüchte-, Oktopus-, Tintenfischsalat",
@@ -6711,8 +6799,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480992?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 148,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 150,
       "originalName": "Meeresfrüchte-, Oktopus-, Tintenfischsalat",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -6734,7 +6822,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Milch",
@@ -6755,8 +6843,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 149,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 151,
       "originalName": "Frische Bio Vollmilch Im Kühlregal",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -6778,7 +6866,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.609Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Milch",
@@ -6799,8 +6887,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480903?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 150,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 152,
       "originalName": "Beemster Bio mild Holländischer Bio-Schnittkäse 48 % Fett i. Tr. 5 Wochen gereift, aus 100 % Weidemilch",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -6822,7 +6910,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.612Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
     },
     {
       "key": "Milch",
@@ -6842,9 +6930,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 151,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 153,
       "originalName": "LANDLIEBE Haltbare Landmilch, 3,5 % Fett je 1-l-Packg.",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -6866,10 +6954,10 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
-      "id": 152,
+      "id": 154,
       "key": "Milch",
       "name": "WEIHENSTEPHAN Haltbare Milch",
       "store": "PENNY",
@@ -6909,10 +6997,10 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
-      "id": 153,
+      "id": 155,
       "key": "Milch",
       "name": "MILPRIMA Faire H-Milch* je 1 I",
       "store": "PENNY",
@@ -6952,7 +7040,7 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Milch",
@@ -6973,8 +7061,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480884?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 154,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 156,
       "originalName": "Beemster mit Kräutern Holländischer Schnittkäse versch. Sorten 5 Wochen gereift, aus 100 % Weidemilch",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -6996,10 +7084,10 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
-      "id": 155,
+      "id": 157,
       "key": "Milchpulver",
       "name": "babylove Milchpulverbox mit Portionierlöffel",
       "store": "dm",
@@ -7039,10 +7127,10 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.97,
-      "normalizedAt": "2026-08-19T16:29:14.603Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 156,
+      "id": 158,
       "key": "Milchreis",
       "name": "MILPRIMA Milchreis",
       "store": "PENNY",
@@ -7082,10 +7170,10 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
-      "id": 157,
+      "id": 159,
       "key": "MILPRIMA High Protein Pudding",
       "name": "MILPRIMA High Protein Pudding",
       "store": "PENNY",
@@ -7125,10 +7213,10 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
-      "id": 158,
+      "id": 160,
       "key": "MILPRIMA Kondensmilch",
       "name": "MILPRIMA Kondensmilch",
       "store": "PENNY",
@@ -7168,10 +7256,10 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
-      "id": 159,
+      "id": 161,
       "key": "MILPRIMA Mini Max* je 12 x",
       "name": "MILPRIMA Mini Max* je 12 x",
       "store": "PENNY",
@@ -7211,10 +7299,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
-      "id": 160,
+      "id": 162,
       "key": "MILPRIMA Pudding",
       "name": "MILPRIMA Pudding",
       "store": "PENNY",
@@ -7254,7 +7342,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Milram Gewürzquark versch. Sorten",
@@ -7275,8 +7363,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481291?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 161,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 163,
       "originalName": "Milram Gewürzquark versch. Sorten",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -7298,7 +7386,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.615Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Mineralwasser",
@@ -7319,8 +7407,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481414?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 162,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 164,
       "originalName": "Frankenbrunnen Mineralwasser versch. Sorten Kasten: 12 x 1 l PET Flaschen",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -7342,7 +7430,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.615Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Mineralwasser",
@@ -7363,8 +7451,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480680?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 163,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 165,
       "originalName": "Adelholzener Mineralwasser versch. Sorten Kasten: 12 x 1 l PET Flaschen",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -7386,7 +7474,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.615Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Mineralwasser",
@@ -7407,8 +7495,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481335?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 164,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 166,
       "originalName": "San Pellegrino Naturali, Mineralwasser oder Acqua Panna versch. Sorten 0,33 l Dose / 1 l PET Flasche",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -7430,10 +7518,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.615Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
-      "id": 165,
+      "id": 167,
       "key": "Mini Wassermelone, lose",
       "name": "Mini Wassermelone, lose",
       "store": "ALDI SÜD",
@@ -7473,10 +7561,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.615Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
-      "id": 166,
+      "id": 168,
       "key": "mit App: je 330 ml (1 l = 2.67);",
       "name": "mit App: je 330 ml (1 l = 2.67);",
       "store": "PENNY",
@@ -7516,10 +7604,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.615Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
-      "id": 167,
+      "id": 169,
       "key": "mit App: je 400 g (1 kg = 2.98);",
       "name": "mit App: je 400 g (1 kg = 2.98);",
       "store": "PENNY",
@@ -7559,10 +7647,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
-      "id": 168,
+      "id": 170,
       "key": "mit App: je 640 g (1 kg = 5.14);",
       "name": "mit App: je 640 g (1 kg = 5.14);",
       "store": "PENNY",
@@ -7602,7 +7690,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Mozzarella",
@@ -7623,8 +7711,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480941?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 169,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 171,
       "originalName": "Galbani Mozzarella 125 g Kugel",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -7646,7 +7734,95 @@
       },
       "marketSection": "Kühlregal",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.612Z"
+      "normalizedAt": "2026-08-19T17:38:22.548Z"
+    },
+    {
+      "key": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "name": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "store": "Kaufland",
+      "market": "München-Berg am Laim",
+      "address": "Berg-am-Laim-Straße 117, 81673 München",
+      "cat": "Kaffee & Frühstück",
+      "size": "1 kg",
+      "price": 1.99,
+      "unit": 1.99,
+      "unitLabel": "€/kg",
+      "icon": "☕",
+      "bio": false,
+      "app": true,
+      "coupon": true,
+      "advertised": true,
+      "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
+      "sourceScope": "market",
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 172,
+      "originalName": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "department": "Lebensmittel",
+      "category": "Kaffee & Frühstück",
+      "subcategory": "Kaffee & Frühstück",
+      "canonicalGroup": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "canonicalProduct": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "canonicalId": "nestle-cerealien-je-330-400-g-packg-nestle-cerealien-je-330-400-g-packg",
+      "bundleKey": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "similarityKey": "NESTLÉ Cerealien je 330 - 400-g-Packg. /|NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "exactMatchKey": "NESTLÉ Cerealien je 330 - 400-g-Packg. /|NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "fatContent": null,
+        "diaperSize": null,
+        "packageCount": null,
+        "processing": null,
+        "form": null
+      },
+      "marketSection": "Kaffee & Frühstück",
+      "confidence": 0.58,
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
+    },
+    {
+      "key": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "name": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "store": "Kaufland",
+      "market": "München-Berg am Laim",
+      "address": "Berg-am-Laim-Straße 117, 81673 München",
+      "cat": "Kaffee & Frühstück",
+      "size": "1 kg",
+      "price": 2.49,
+      "unit": 2.49,
+      "unitLabel": "€/kg",
+      "icon": "☕",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
+      "sourceScope": "market",
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 173,
+      "originalName": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "department": "Lebensmittel",
+      "category": "Kaffee & Frühstück",
+      "subcategory": "Kaffee & Frühstück",
+      "canonicalGroup": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "canonicalProduct": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "canonicalId": "nestle-cerealien-je-330-400-g-packg-nestle-cerealien-je-330-400-g-packg",
+      "bundleKey": "NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "similarityKey": "NESTLÉ Cerealien je 330 - 400-g-Packg. /|NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "exactMatchKey": "NESTLÉ Cerealien je 330 - 400-g-Packg. /|NESTLÉ Cerealien je 330 - 400-g-Packg. /",
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "fatContent": null,
+        "diaperSize": null,
+        "packageCount": null,
+        "processing": null,
+        "form": null
+      },
+      "marketSection": "Kaffee & Frühstück",
+      "confidence": 0.58,
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Neuseeland Zespri Kiwi gold XL Sorte: Sungold Klasse I ",
@@ -7667,8 +7843,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27824027?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 170,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 174,
       "originalName": "Neuseeland Zespri Kiwi gold XL Sorte: Sungold Klasse I große, ausgereifte Früchte, verzehrreif Stück",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -7690,7 +7866,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Neuseeländische frische Lammlachse",
@@ -7711,8 +7887,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480813?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 171,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 175,
       "originalName": "Neuseeländische frische Lammlachse",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -7734,10 +7910,10 @@
       },
       "marketSection": "Fleisch & Fisch",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
-      "id": 172,
+      "id": 176,
       "key": "NicNac´s XL Fun 170 g, Original",
       "name": "NicNac´s XL Fun 170 g, Original",
       "store": "ALDI SÜD",
@@ -7777,7 +7953,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Niederlande Paprika rot Klasse I als Snack, gefüllt, ge",
@@ -7798,8 +7974,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27891154?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 173,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 177,
       "originalName": "Niederlande Paprika rot Klasse I als Snack, gefüllt, gegrillt oder gebraten - Paprika sind vielseitig verwendbar",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -7821,7 +7997,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Nimm 2 Lachgummi",
@@ -7843,7 +8019,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 174,
+      "id": 178,
       "originalName": "Nimm 2 Lachgummi",
       "department": "Lebensmittel",
       "category": "Süßes & Snacks",
@@ -7865,7 +8041,7 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Nudeln",
@@ -7886,8 +8062,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481065?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 175,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 179,
       "originalName": "Felicetti Bronzepasta aus 100% ital. Hartweizen-Grieß versch. Sorten",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -7909,7 +8085,7 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Nudeln",
@@ -7930,8 +8106,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 176,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 180,
       "originalName": "Magic Asia Gebratene Nudeln * z.B. Ente",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -7953,7 +8129,7 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.550Z"
     },
     {
       "key": "Nudeln",
@@ -7974,8 +8150,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 177,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 181,
       "originalName": "Instant Nudeln Big Cup",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -7997,7 +8173,7 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
       "key": "Nur gültig vom 24.08. bis 30.08.2026 und",
@@ -8018,8 +8194,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 178,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 182,
       "originalName": "Nur gültig vom 24.08. bis 30.08.2026 und",
       "department": "Lebensmittel",
       "category": "Kaffee & Frühstück",
@@ -8041,10 +8217,10 @@
       },
       "marketSection": "Kaffee & Frühstück",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
-      "id": 179,
+      "id": 183,
       "key": "Nur mit App",
       "name": "Nur mit App",
       "store": "PENNY",
@@ -8084,7 +8260,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
       "key": "Original englische Marmelade * z.B. Lemon Curd 320 g * ",
@@ -8105,8 +8281,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 180,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 184,
       "originalName": "Original englische Marmelade * z.B. Lemon Curd 320 g * 1 kg = 8,09",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -8128,7 +8304,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
       "key": "Paddy oder Kilbeggan Irish Whiskey 40% vol.",
@@ -8149,8 +8325,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481158?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 181,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 185,
       "originalName": "Paddy oder Kilbeggan Irish Whiskey 40% vol.",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -8172,10 +8348,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.616Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
-      "id": 182,
+      "id": 186,
       "key": "Pants Gr. 5",
       "name": "Baby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -8215,10 +8391,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 183,
+      "id": 187,
       "key": "Pants Gr. 6",
       "name": "Baby Dry Pants Gr. 6 Extra Large (14-19 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -8258,7 +8434,7 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
       "key": "Paulaner Original Münchner Hell versch. Sorten",
@@ -8279,8 +8455,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480678?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 184,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 188,
       "originalName": "Paulaner Original Münchner Hell versch. Sorten",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -8302,7 +8478,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
       "key": "Paulaner Weissbier versch. Sorten",
@@ -8323,8 +8499,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481415?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 185,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 189,
       "originalName": "Paulaner Weissbier versch. Sorten",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -8346,10 +8522,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.606Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
-      "id": 186,
+      "id": 190,
       "key": "PINK LADY Rote Äpfel",
       "name": "PINK LADY Rote Äpfel",
       "store": "PENNY",
@@ -8389,7 +8565,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.601Z"
+      "normalizedAt": "2026-08-19T17:38:22.540Z"
     },
     {
       "key": "Pizza",
@@ -8409,9 +8585,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 187,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 191,
       "originalName": "DR. OETKER Ristorante Pizza je 320 - 410-g-Packg.",
       "department": "Lebensmittel",
       "category": "Tiefkühl",
@@ -8433,7 +8609,7 @@
       },
       "marketSection": "Tiefkühl",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
       "key": "Pizza",
@@ -8455,7 +8631,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 188,
+      "id": 192,
       "originalName": "Gustavo Gusto Pizza Margherita",
       "department": "Lebensmittel",
       "category": "Tiefkühl",
@@ -8477,7 +8653,7 @@
       },
       "marketSection": "Tiefkühl",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
       "key": "Pizza",
@@ -8498,8 +8674,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 189,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 193,
       "originalName": "Back- und Pizzablech",
       "department": "Lebensmittel",
       "category": "Tiefkühl",
@@ -8521,10 +8697,10 @@
       },
       "marketSection": "Tiefkühl",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
-      "id": 190,
+      "id": 194,
       "key": "Pizza",
       "name": "DR. OETKER Ristorante Pizza",
       "store": "PENNY",
@@ -8564,10 +8740,10 @@
       },
       "marketSection": "Tiefkühl",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
-      "id": 191,
+      "id": 195,
       "key": "Pizza",
       "name": "DR. OETKER Bistro Flammkuchen",
       "store": "PENNY",
@@ -8607,10 +8783,10 @@
       },
       "marketSection": "Tiefkühl",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
-      "id": 192,
+      "id": 196,
       "key": "Pizza",
       "name": "STEINHAUS Elsässer Flammkuchen",
       "store": "PENNY",
@@ -8650,10 +8826,10 @@
       },
       "marketSection": "Tiefkühl",
       "confidence": 0.96,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
-      "id": 193,
+      "id": 197,
       "key": "Plattpfirsiche",
       "name": "Plattpfirsiche",
       "store": "PENNY",
@@ -8693,10 +8869,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
-      "id": 194,
+      "id": 198,
       "key": "Plattpfirsiche",
       "name": "Plattpfirsiche",
       "store": "ALDI SÜD",
@@ -8736,7 +8912,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
       "key": "Poln./dtsch. Kulturheidelbeeren je 300-g-Schale",
@@ -8756,9 +8932,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 195,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 199,
       "originalName": "Poln./dtsch. Kulturheidelbeeren je 300-g-Schale",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -8780,10 +8956,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.605Z"
+      "normalizedAt": "2026-08-19T17:38:22.543Z"
     },
     {
-      "id": 196,
+      "id": 200,
       "key": "Pre-/Anfangsmilch",
       "name": "Bebivita Anfangsmilch Pre von Geburt an",
       "store": "dm",
@@ -8823,10 +8999,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 197,
+      "id": 201,
       "key": "Pre-/Anfangsmilch",
       "name": "HiPP Anfangsmilch Pre Combiotik von Geburt an",
       "store": "dm",
@@ -8866,10 +9042,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 198,
+      "id": 202,
       "key": "Pre-/Anfangsmilch",
       "name": "HiPP Anfangsmilch Pre HA Combiotik von Geburt an",
       "store": "dm",
@@ -8909,7 +9085,7 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
       "key": "Puddingdessert",
@@ -8930,8 +9106,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 199,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 203,
       "originalName": "Puddingdessert",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -8953,10 +9129,10 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
-      "id": 200,
+      "id": 204,
       "key": "RED BULL Energy-Drink",
       "name": "RED BULL Energy-Drink",
       "store": "PENNY",
@@ -8996,7 +9172,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
       "key": "Red Bull Energy* Drink versch. Sorten 250 ml Dose *Koff",
@@ -9017,8 +9193,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481299?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 201,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 205,
       "originalName": "Red Bull Energy* Drink versch. Sorten 250 ml Dose *Koffeinhaltig",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -9040,7 +9216,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.551Z"
     },
     {
       "key": "Reis",
@@ -9061,8 +9237,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480723?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 202,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 206,
       "originalName": "Reis-Fit Risbellis versch. Sorten 40 g Beutel",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -9084,7 +9260,7 @@
       },
       "marketSection": "Trockenwaren",
       "confidence": 0.93,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Rheinländer Mini-Gurken",
@@ -9105,8 +9281,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 203,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 207,
       "originalName": "Rheinländer Mini-Gurken",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -9128,10 +9304,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 204,
+      "id": 208,
       "key": "Rind Burger 260 g, Angus Burger",
       "name": "Rind Burger 260 g, Angus Burger",
       "store": "ALDI SÜD",
@@ -9171,10 +9347,10 @@
       },
       "marketSection": "Fleisch & Fisch",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 205,
+      "id": 209,
       "key": "Rind Burger 260 g, Prime Burger",
       "name": "Rind Burger 260 g, Prime Burger",
       "store": "ALDI SÜD",
@@ -9214,7 +9390,7 @@
       },
       "marketSection": "Fleisch & Fisch",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Rotkäppchen Sekt, Fruchtsecco, MMchen Extra oder Light ",
@@ -9235,8 +9411,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481281?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 206,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 210,
       "originalName": "Rotkäppchen Sekt, Fruchtsecco, MMchen Extra oder Light Live alkoholfrei versch. Sorten",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -9258,10 +9434,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 207,
+      "id": 211,
       "key": "Rucola",
       "name": "Rucola",
       "store": "ALDI SÜD",
@@ -9301,7 +9477,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.607Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
       "key": "Saft",
@@ -9323,7 +9499,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 208,
+      "id": 212,
       "originalName": "Gut&Günstig Nektarinen",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -9345,7 +9521,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.9,
-      "normalizedAt": "2026-08-19T16:29:14.609Z"
+      "normalizedAt": "2026-08-19T17:38:22.547Z"
     },
     {
       "key": "Salakis aus Schafmilch, versch. Sorten",
@@ -9366,8 +9542,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27927373?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 209,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 213,
       "originalName": "Salakis aus Schafmilch, versch. Sorten",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -9389,7 +9565,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Salami",
@@ -9410,8 +9586,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 210,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 214,
       "originalName": "Ungarische Salami",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -9433,7 +9609,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.92,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.555Z"
     },
     {
       "key": "Salate Mix * z.B. Vinegret Salat",
@@ -9454,8 +9630,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 211,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 215,
       "originalName": "Salate Mix * z.B. Vinegret Salat",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -9477,7 +9653,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Schinken",
@@ -9497,9 +9673,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 212,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 216,
       "originalName": "K-PURLAND Schinkenschnitzel je 600-g-Packg.",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -9521,7 +9697,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.92,
-      "normalizedAt": "2026-08-19T16:29:14.619Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Schinken",
@@ -9542,8 +9718,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480802?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 213,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 217,
       "originalName": "Deutsche frische Schinken-Schnitzel, Braten, Gulasch vom Schwein aus dem Schweineschinken",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -9565,7 +9741,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.92,
-      "normalizedAt": "2026-08-19T16:29:14.619Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Schinken",
@@ -9586,8 +9762,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480810?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 214,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 218,
       "originalName": "Deutscher gefüllter Schinken-Rollbraten mit Gemüse und Bacon, gewürzt, vom Schwein",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -9609,7 +9785,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.92,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Schmelzkäse",
@@ -9630,8 +9806,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 215,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 219,
       "originalName": "Schmelzkäse",
       "department": "Lebensmittel",
       "category": "Milchprodukte",
@@ -9653,7 +9829,7 @@
       },
       "marketSection": "Milchprodukte",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.613Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Schokolade",
@@ -9675,7 +9851,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 216,
+      "id": 220,
       "originalName": "Milka Schokolade",
       "department": "Lebensmittel",
       "category": "Süßes & Snacks",
@@ -9697,10 +9873,10 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 217,
+      "id": 221,
       "key": "Schokolade",
       "name": "SNICKERS Schokoriegel",
       "store": "PENNY",
@@ -9740,10 +9916,10 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 218,
+      "id": 222,
       "key": "Schokolade",
       "name": "MARS Schokoriegel",
       "store": "PENNY",
@@ -9783,7 +9959,7 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.614Z"
+      "normalizedAt": "2026-08-19T17:38:22.549Z"
     },
     {
       "key": "Schokolade",
@@ -9805,7 +9981,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 219,
+      "id": 223,
       "originalName": "duplo oder kinder Riegel",
       "department": "Lebensmittel",
       "category": "Süßes & Snacks",
@@ -9827,10 +10003,10 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.608Z"
+      "normalizedAt": "2026-08-19T17:38:22.545Z"
     },
     {
-      "id": 220,
+      "id": 224,
       "key": "Schokolade",
       "name": "Schokolade",
       "store": "ALDI SÜD",
@@ -9870,7 +10046,7 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.94,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Schweine Hüftsteaks ++++++ Frischfleischtruhe",
@@ -9891,8 +10067,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 221,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 225,
       "originalName": "Schweine Hüftsteaks +++Aktion+++ Frischfleischtruhe",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -9914,7 +10090,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Schweine Rückensteaks +++ +++ Frischfleischtruhe",
@@ -9935,8 +10111,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 222,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 226,
       "originalName": "Schweine Rückensteaks +++ Aktion +++ Frischfleischtruhe",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -9958,10 +10134,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.617Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 223,
+      "id": 227,
       "key": "Schweine Schnitzel",
       "name": "Schweine Schnitzel",
       "store": "ALDI SÜD",
@@ -10001,10 +10177,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 224,
+      "id": 228,
       "key": "Schweine-Cordon Bleu",
       "name": "Schweine-Cordon Bleu",
       "store": "ALDI SÜD",
@@ -10044,10 +10220,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 225,
+      "id": 229,
       "key": "Schweine-Minutensteaks",
       "name": "Schweine-Minutensteaks",
       "store": "ALDI SÜD",
@@ -10087,7 +10263,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.618Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Schweinefleisch in der Dose",
@@ -10108,8 +10284,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 226,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 230,
       "originalName": "Schweinefleisch in der Dose",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -10131,7 +10307,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.619Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Sesam-/ Erdnuss-Riegel",
@@ -10152,8 +10328,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 227,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 231,
       "originalName": "Sesam-/ Erdnuss-Riegel",
       "department": "Lebensmittel",
       "category": "Süßes & Snacks",
@@ -10175,10 +10351,10 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
-      "id": 228,
+      "id": 232,
       "key": "Sicherheits-Wattestäbchen",
       "name": "babylove Sicherheits-Wattestäbchen",
       "store": "dm",
@@ -10218,10 +10394,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.604Z"
+      "normalizedAt": "2026-08-19T17:38:22.542Z"
     },
     {
-      "id": 229,
+      "id": 233,
       "key": "Smoothie 250 ml, Orange, Karotte und Mango",
       "name": "Smoothie 250 ml, Orange, Karotte und Mango",
       "store": "ALDI SÜD",
@@ -10261,7 +10437,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Snack",
@@ -10282,8 +10458,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 230,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 234,
       "originalName": "Snack",
       "department": "Lebensmittel",
       "category": "Süßes & Snacks",
@@ -10305,7 +10481,7 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Snack à la française",
@@ -10326,8 +10502,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 231,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 235,
       "originalName": "Snack à la française",
       "department": "Lebensmittel",
       "category": "Süßes & Snacks",
@@ -10349,7 +10525,7 @@
       },
       "marketSection": "Süßes & Snacks",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Snack Sauce",
@@ -10370,8 +10546,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 232,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 236,
       "originalName": "Snack Sauce",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -10393,7 +10569,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Spanisches frisches Duroc Schweinekarree Frenched Racks",
@@ -10414,8 +10590,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480815?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 233,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 237,
       "originalName": "Spanisches frisches Duroc Schweinekarree Frenched Racks",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -10437,7 +10613,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.552Z"
     },
     {
       "key": "Sriracha Chili-Sauce",
@@ -10458,8 +10634,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 234,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 238,
       "originalName": "Sriracha Chili-Sauce",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -10481,10 +10657,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 235,
+      "id": 239,
       "key": "STORCK Werther’s Original",
       "name": "STORCK Werther’s Original",
       "store": "PENNY",
@@ -10524,10 +10700,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 236,
+      "id": 240,
       "key": "Streichpreis 1.49€",
       "name": "Streichpreis 1.49€",
       "store": "PENNY",
@@ -10567,10 +10743,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 237,
+      "id": 241,
       "key": "Streichpreis 1.89€",
       "name": "Streichpreis 1.89€",
       "store": "PENNY",
@@ -10610,10 +10786,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 238,
+      "id": 242,
       "key": "Streichpreis 3.39€",
       "name": "Streichpreis 3.39€",
       "store": "PENNY",
@@ -10653,7 +10829,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Streuselkuchen",
@@ -10674,8 +10850,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 239,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 243,
       "originalName": "Streuselkuchen",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -10697,7 +10873,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Südafrika Zitronen Sorte: Eureka Klasse I pure Frische,",
@@ -10718,8 +10894,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27802020?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 240,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 244,
       "originalName": "Südafrika Zitronen Sorte: Eureka Klasse I pure Frische, volle Vitamine",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -10741,7 +10917,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Südafrika/Kolumbien Passionsfrucht saftig und frisch St",
@@ -10762,8 +10938,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27802018?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 241,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 245,
       "originalName": "Südafrika/Kolumbien Passionsfrucht saftig und frisch Stück",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -10785,7 +10961,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.620Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Süße Chilisauce",
@@ -10806,8 +10982,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 242,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 246,
       "originalName": "Süße Chilisauce",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -10829,7 +11005,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Thomy Delikatess Senf versch. Sorten",
@@ -10850,8 +11026,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481085?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 243,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 247,
       "originalName": "Thomy Delikatess Senf versch. Sorten",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -10873,7 +11049,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "THOMY Les Sauces je 250-ml-Packg.",
@@ -10893,9 +11069,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 244,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 248,
       "originalName": "THOMY Les Sauces je 250-ml-Packg.",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -10917,7 +11093,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Toffifee",
@@ -10939,7 +11115,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 245,
+      "id": 249,
       "originalName": "Toffifee",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -10961,7 +11137,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Tomaten",
@@ -10981,9 +11157,9 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T16:28:24.913Z",
-      "id": 246,
+      "sourceTransport": "rich-reader",
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 250,
       "originalName": "Niederl./belg. Cocktailrispentomaten je 500-g-Packg.",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -11005,10 +11181,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 247,
+      "id": 251,
       "key": "Tomaten",
       "name": "Cocktailrispentomaten",
       "store": "ALDI SÜD",
@@ -11048,10 +11224,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.98,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 248,
+      "id": 252,
       "key": "Trauben hell, kernlos",
       "name": "Trauben hell, kernlos",
       "store": "ALDI SÜD",
@@ -11091,10 +11267,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 249,
+      "id": 253,
       "key": "TRUE FRUITS Smoothie",
       "name": "TRUE FRUITS Smoothie",
       "store": "PENNY",
@@ -11134,7 +11310,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
       "key": "Türkei Zuckeraprikosen Sorte: Hacıhaliloğlu Klasse I di",
@@ -11155,8 +11331,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27802022?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 250,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 254,
       "originalName": "Türkei Zuckeraprikosen Sorte: Hacıhaliloğlu Klasse I die große, süße Ursorte mit dem echten Mandelkern",
       "department": "Lebensmittel",
       "category": "Vorrat",
@@ -11178,10 +11354,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 251,
+      "id": 255,
       "key": "Unverbindlichle Preisempfehlung 0.99€",
       "name": "Unverbindlichle Preisempfehlung 0.99€",
       "store": "PENNY",
@@ -11221,10 +11397,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 252,
+      "id": 256,
       "key": "Unverbindlichle Preisempfehlung 1.49€",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -11264,10 +11440,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 253,
+      "id": 257,
       "key": "Unverbindlichle Preisempfehlung 1.69€",
       "name": "Unverbindlichle Preisempfehlung 1.69€",
       "store": "PENNY",
@@ -11307,10 +11483,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 254,
+      "id": 258,
       "key": "Unverbindlichle Preisempfehlung 1.79€",
       "name": "Unverbindlichle Preisempfehlung 1.79€",
       "store": "PENNY",
@@ -11350,10 +11526,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 255,
+      "id": 259,
       "key": "Unverbindlichle Preisempfehlung 1.99€",
       "name": "Unverbindlichle Preisempfehlung 1.99€",
       "store": "PENNY",
@@ -11393,10 +11569,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.553Z"
     },
     {
-      "id": 256,
+      "id": 260,
       "key": "Unverbindlichle Preisempfehlung 2.29€",
       "name": "Unverbindlichle Preisempfehlung 2.29€",
       "store": "PENNY",
@@ -11436,10 +11612,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 257,
+      "id": 261,
       "key": "Unverbindlichle Preisempfehlung 2.69€",
       "name": "Unverbindlichle Preisempfehlung 2.69€",
       "store": "PENNY",
@@ -11479,10 +11655,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 258,
+      "id": 262,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -11522,10 +11698,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.621Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 259,
+      "id": 263,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -11565,10 +11741,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 260,
+      "id": 264,
       "key": "Unverbindlichle Preisempfehlung 3.59€",
       "name": "Unverbindlichle Preisempfehlung 3.59€",
       "store": "PENNY",
@@ -11608,10 +11784,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 261,
+      "id": 265,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -11651,7 +11827,7 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
       "key": "Valdo Prosecco oder Valdo Puro 0,0",
@@ -11672,8 +11848,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480679?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 262,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 266,
       "originalName": "Valdo Prosecco oder Valdo Puro 0,0",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -11695,7 +11871,7 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
       "key": "Verpoorten oder Birkenhof Eierlikör 20/17% vol. mit Him",
@@ -11716,8 +11892,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27481118?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 263,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 267,
       "originalName": "Verpoorten oder Birkenhof Eierlikör 20/17% vol. mit Himbeergeist verfeinert 0,7/0,5 l Flasche",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -11739,7 +11915,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.605Z"
+      "normalizedAt": "2026-08-19T17:38:22.544Z"
     },
     {
       "key": "Wasser-/ Zaubermalspaß",
@@ -11760,8 +11936,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 264,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 268,
       "originalName": "Wasser-/ Zaubermalspaß",
       "department": "Lebensmittel",
       "category": "Getränke",
@@ -11783,10 +11959,10 @@
       },
       "marketSection": "Getränke",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 265,
+      "id": 269,
       "key": "WEIHENSTEPHAN Die Extrazarte",
       "name": "WEIHENSTEPHAN Die Extrazarte",
       "store": "PENNY",
@@ -11826,10 +12002,10 @@
       },
       "marketSection": "Vorrat",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 266,
+      "id": 270,
       "key": "Windeln",
       "name": "babylove Windelbeutel mit Frischeduft",
       "store": "dm",
@@ -11869,10 +12045,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 267,
+      "id": 271,
       "key": "Windeln",
       "name": "babylove Schwimmwindeln Disney Gr. Extralarge (13+ kg",
       "store": "dm",
@@ -11912,10 +12088,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 268,
+      "id": 272,
       "key": "Windeln",
       "name": "babylove Schwimmwindeln Disney Gr. Large (10-14 kg",
       "store": "dm",
@@ -11955,10 +12131,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 269,
+      "id": 273,
       "key": "Windeln Gr. 1",
       "name": "Premium Protection Windeln Gr. 1 New Born (2-5 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -11998,10 +12174,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 270,
+      "id": 274,
       "key": "Windeln Gr. 2",
       "name": "Premium Protection Windeln Gr. 2 Mini (4-8 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -12041,10 +12217,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 271,
+      "id": 275,
       "key": "Windeln Gr. 3",
       "name": "Premium Protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -12084,10 +12260,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 272,
+      "id": 276,
       "key": "Windeln Gr. 3",
       "name": "Pampers premium protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox",
       "store": "dm",
@@ -12127,10 +12303,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 273,
+      "id": 277,
       "key": "Windeln Gr. 4",
       "name": "Baby Dry Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -12170,10 +12346,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 274,
+      "id": 278,
       "key": "Windeln Gr. 4",
       "name": "Pampers premium protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "dm",
@@ -12213,10 +12389,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 275,
+      "id": 279,
       "key": "Windeln Gr. 4",
       "name": "Premium Protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -12256,10 +12432,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 276,
+      "id": 280,
       "key": "Windeln Gr. 5",
       "name": "Pampers premium protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "dm",
@@ -12299,10 +12475,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 277,
+      "id": 281,
       "key": "Windeln Gr. 5",
       "name": "Pampers baby-dry Windeln baby-dry Gr. 5 (11-16 kg) Big Economy Pack",
       "store": "dm",
@@ -12342,10 +12518,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 278,
+      "id": 282,
       "key": "Windeln Gr. 5",
       "name": "Baby Dry Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -12385,10 +12561,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 279,
+      "id": 283,
       "key": "Windeln Gr. 5",
       "name": "Premium Protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -12428,10 +12604,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 280,
+      "id": 284,
       "key": "Windeln Gr. 5",
       "name": "Pampers premium protection Windeln Gr. 5+ (12-17 kg) Monatsbox",
       "store": "dm",
@@ -12471,10 +12647,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 281,
+      "id": 285,
       "key": "Windeln Gr. 6",
       "name": "Premium Protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox",
       "store": "ROSSMANN",
@@ -12514,10 +12690,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 282,
+      "id": 286,
       "key": "Windeln Gr. 6",
       "name": "Pampers premium protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox",
       "store": "dm",
@@ -12557,10 +12733,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 283,
+      "id": 287,
       "key": "Windeln Gr. 6",
       "name": "Baby Dry Windeln Gr. 6 Extra Large (13-18 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -12600,10 +12776,10 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
-      "id": 284,
+      "id": 288,
       "key": "Windeln Gr. 7",
       "name": "Baby Dry Windeln Gr. 7 Extra Large (15+ kg) Monatsbox",
       "store": "ROSSMANN",
@@ -12643,7 +12819,7 @@
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.99,
-      "normalizedAt": "2026-08-19T16:29:14.622Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
       "key": "Wurst",
@@ -12664,8 +12840,8 @@
       "sourceUrl": "https://www.hit.de/angebot/27480990?store=1766",
       "sourceScope": "market",
       "sourceTransport": "hit-nested-reader",
-      "importedAt": "2026-08-19T16:28:51.928Z",
-      "id": 285,
+      "importedAt": "2026-08-19T17:38:01.166Z",
+      "id": 289,
       "originalName": "Herta Fleischwurst mit oder ohne Knoblauch 500 g SB-Packung",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -12687,7 +12863,7 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.92,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.554Z"
     },
     {
       "key": "Wurst",
@@ -12708,8 +12884,8 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
-      "importedAt": "2026-08-19T16:10:08.116Z",
-      "id": 286,
+      "importedAt": "2026-08-19T17:37:26.407Z",
+      "id": 290,
       "originalName": "Wurstspezialität",
       "department": "Lebensmittel",
       "category": "Fleisch & Fisch",
@@ -12731,10 +12907,10 @@
       },
       "marketSection": "Fleisch & Wurst",
       "confidence": 0.92,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.555Z"
     },
     {
-      "id": 287,
+      "id": 291,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -12774,10 +12950,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.555Z"
     },
     {
-      "id": 288,
+      "id": 292,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -12817,7 +12993,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.555Z"
     },
     {
       "key": "Zespri Kiwi Jumbo „Grün“ oder „Gold“",
@@ -12839,7 +13015,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 289,
+      "id": 293,
       "originalName": "Zespri Kiwi Jumbo „Grün“ oder „Gold“",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -12861,10 +13037,10 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.623Z"
+      "normalizedAt": "2026-08-19T17:38:22.555Z"
     },
     {
-      "id": 290,
+      "id": 294,
       "key": "ZESPRI SunGold Kiwi Gold* je 3er-Schale",
       "name": "ZESPRI SunGold Kiwi Gold* je 3er-Schale",
       "store": "PENNY",
@@ -12904,7 +13080,7 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.624Z"
+      "normalizedAt": "2026-08-19T17:38:22.555Z"
     },
     {
       "key": "Zwetschgen",
@@ -12926,7 +13102,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T16:10:05.364Z",
-      "id": 291,
+      "id": 295,
       "originalName": "Zwetschgen",
       "department": "Lebensmittel",
       "category": "Obst & Gemüse",
@@ -12948,51 +13124,50 @@
       },
       "marketSection": "Obst & Gemüse",
       "confidence": 0.58,
-      "normalizedAt": "2026-08-19T16:29:14.624Z"
+      "normalizedAt": "2026-08-19T17:38:22.555Z"
     }
   ],
-  "httpFallbackAt": "2026-08-19T16:10:00.216Z",
-  "readerFallbackAt": "2026-08-19T16:10:05.364Z",
-  "nettoV2At": "2026-08-19T16:10:07.119Z",
-  "richRetailersAt": "2026-08-19T16:10:08.116Z",
-  "lidlTableReaderAt": "2026-08-19T16:10:15.815Z",
-  "textRetailersAt": "2026-08-19T16:28:24.913Z",
-  "hitNestedReaderAt": "2026-08-19T16:28:51.928Z",
+  "httpFallbackAt": "2026-08-19T17:37:14.188Z",
+  "readerFallbackAt": "2026-08-19T17:37:15.516Z",
+  "nettoV2At": "2026-08-19T17:37:20.949Z",
+  "richRetailersAt": "2026-08-19T17:37:26.407Z",
+  "lidlTableReaderAt": "2026-08-19T17:37:43.502Z",
+  "textRetailersAt": "2026-08-19T17:37:59.501Z",
+  "hitNestedReaderAt": "2026-08-19T17:38:01.166Z",
   "quality": {
-    "sanitizedAt": "2026-08-19T16:29:14.389Z",
-    "before": 354,
-    "after": 344,
+    "sanitizedAt": "2026-08-19T17:38:22.289Z",
+    "before": 429,
+    "after": 419,
     "rejected": 10,
-    "repaired": 269
+    "repaired": 432
   },
   "qualityV2": {
-    "sanitizedAt": "2026-08-19T16:29:14.475Z",
-    "before": 344,
-    "after": 335,
-    "rejected": 9,
-    "repaired": 16,
+    "sanitizedAt": "2026-08-19T17:38:22.391Z",
+    "before": 419,
+    "after": 412,
+    "rejected": 7,
+    "repaired": 60,
     "rejectedReasons": {
-      "name": 7,
-      "duplicate": 1,
-      "semantic_duplicate": 1
+      "name": 7
     }
   },
   "qualityV3": {
-    "sanitizedAt": "2026-08-19T16:29:14.547Z",
-    "before": 335,
-    "after": 291,
-    "rejected": 44,
-    "repaired": 19,
+    "sanitizedAt": "2026-08-19T17:38:22.477Z",
+    "before": 412,
+    "after": 295,
+    "rejected": 117,
+    "repaired": 142,
     "reasons": {
+      "nonfood": 6,
+      "not_food": 72,
+      "name": 2,
       "markdown": 24,
-      "not_food": 15,
-      "nonfood": 1,
-      "duplicate": 4
+      "duplicate": 13
     }
   },
   "normalization": {
     "version": 1,
-    "at": "2026-08-19T16:29:14.632Z",
+    "at": "2026-08-19T17:38:22.563Z",
     "taxonomy": "semantic-hybrid",
     "fields": [
       "department",
@@ -13009,9 +13184,9 @@
     ]
   },
   "qualityV4": {
-    "at": "2026-08-19T16:29:14.632Z",
-    "before": 291,
-    "after": 291,
-    "repaired": 16
+    "at": "2026-08-19T17:38:22.563Z",
+    "before": 295,
+    "after": 295,
+    "repaired": 18
   }
 }

@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-08-19T16:29:14.389Z",
-  "before": 354,
-  "after": 344,
+  "generatedAt": "2026-08-19T17:38:22.289Z",
+  "before": 429,
+  "after": 419,
   "rejected": 10,
-  "repaired": 269,
+  "repaired": 432,
   "rejectedReasons": {
     "name_length": 8,
     "quantity_as_name": 1,
     "invalid_unit": 1
   },
   "storeBefore": {
-    "EDEKA": 11,
     "ALDI SÜD": 27,
-    "NORMA": 48,
-    "PENNY": 52,
     "dm": 30,
     "ROSSMANN": 19,
+    "EDEKA": 11,
     "REWE": 10,
+    "PENNY": 52,
     "Lidl": 1,
-    "Kaufland": 20,
+    "NORMA": 121,
+    "Kaufland": 22,
     "HIT": 136
   },
   "storeAfter": {
-    "EDEKA": 11,
     "ALDI SÜD": 27,
-    "NORMA": 48,
-    "PENNY": 52,
     "dm": 30,
     "ROSSMANN": 19,
+    "EDEKA": 11,
     "REWE": 10,
+    "PENNY": 52,
     "Lidl": 1,
-    "Kaufland": 20,
+    "NORMA": 121,
+    "Kaufland": 22,
     "HIT": 126
   },
   "rejectedExamples": [
@@ -86,15 +86,13 @@
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T16:29:14.475Z",
-    "before": 344,
-    "after": 335,
-    "rejected": 9,
-    "repaired": 16,
+    "generatedAt": "2026-08-19T17:38:22.391Z",
+    "before": 419,
+    "after": 412,
+    "rejected": 7,
+    "repaired": 60,
     "rejectedReasons": {
-      "name": 7,
-      "duplicate": 1,
-      "semantic_duplicate": 1
+      "name": 7
     },
     "rejectedExamples": [
       {
@@ -135,265 +133,386 @@
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T16:29:14.547Z",
-    "before": 335,
-    "after": 291,
-    "rejected": 44,
-    "repaired": 19,
+    "generatedAt": "2026-08-19T17:38:22.477Z",
+    "before": 412,
+    "after": 295,
+    "rejected": 117,
+    "repaired": 142,
     "reasons": {
+      "nonfood": 6,
+      "not_food": 72,
+      "name": 2,
       "markdown": 24,
-      "not_food": 15,
-      "nonfood": 1,
-      "duplicate": 4
+      "duplicate": 13
     },
     "rejectedExamples": [
       {
-        "store": "HIT",
-        "name": "Pink Lady Apfelmus 350 g Glas Image 202",
-        "cleaned": "Pink Lady Apfelmus 350 g Glas Image 202",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Pink Lady Apfelmus 350 g Glas Image 202",
-        "cleaned": "Pink Lady Apfelmus 350 g Glas Image 202",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Argentinisches frisches Entrecôte",
-        "cleaned": "Argentinisches frisches Entrecôte",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Beck´s oder Jever versch. Sorten Kasten: 20 x 0,5l / 24 x 0,33l* Flaschen",
-        "cleaned": "Beck´s oder Jever versch. Sorten Kasten: 20 x 0,5l / 24 x 0,33l* Flaschen",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Blaufränkisch Trilogie versch. Sorten Mittelkräftig, Aromen von roten Früchten, frisch und rund, trocken.",
-        "cleaned": "Blaufränkisch Trilogie versch. Sorten Mittelkräftig, Aromen von roten Früchten, frisch und rund, trocken.",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Campofrio Tapas Chorizo Griller versch. Sorten",
-        "cleaned": "Campofrio Tapas Chorizo Griller versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Capri-Sun versch. Sorten",
-        "cleaned": "Capri-Sun versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Costa Lachsfilets tiefgefroren 3 x 140 g Packung Image 182",
-        "cleaned": "Costa Lachsfilets tiefgefroren 3 x 140 g Packung Image 182",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Costa Lachsfilets tiefgefroren 3 x 140 g Packung Image 182",
-        "cleaned": "Costa Lachsfilets tiefgefroren 3 x 140 g Packung Image 182",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Danone Activia versch. Sorten",
-        "cleaned": "Danone Activia versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Dolianova Vermentino di Sardegna, Cacciata Vermentino oder Cecchi Chianti Natio mittelkräftig, dezente Aromen, trocken",
-        "cleaned": "Dolianova Vermentino di Sardegna, Cacciata Vermentino oder Cecchi Chianti Natio mittelkräftig, dezente Aromen, trocken",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Eszet-Schnitten versch. Sorten 75 g Tafel",
-        "cleaned": "Eszet-Schnitten versch. Sorten 75 g Tafel",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Flensburger versch. Sorten",
-        "cleaned": "Flensburger versch. Sorten",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "Kühne Gewürzgurken versch. Sorten 670 g Glas Image 196",
-        "cleaned": "Kühne Gewürzgurken versch. Sorten 670 g Glas Image 196",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Kühne Gewürzgurken versch. Sorten 670 g Glas Image 196",
-        "cleaned": "Kühne Gewürzgurken versch. Sorten 670 g Glas Image 196",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Gazi Grill- und Pfannenkäse oder Kasar Peyniri versch. Sorten",
-        "cleaned": "Gazi Grill- und Pfannenkäse oder Kasar Peyniri versch. Sorten",
+        "store": "NORMA",
+        "name": "![Image 130 * * * **Powertec Electric** ### 4-fach Schuko-Steckdosenleiste",
+        "cleaned": "4-fach Schuko-Steckdosenleiste",
         "reason": "nonfood"
       },
       {
-        "store": "HIT",
-        "name": "Leimer Croutons versch. Sorten",
-        "cleaned": "Leimer Croutons versch. Sorten",
+        "store": "NORMA",
+        "name": "![Image 132 * * * **Powertec Electric** ### 3-fach Schuko-Steckdosenleiste",
+        "cleaned": "3-fach Schuko-Steckdosenleiste",
+        "reason": "nonfood"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 136: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
         "reason": "not_food"
       },
       {
-        "store": "HIT",
-        "name": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 14",
-        "cleaned": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 14",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 170",
-        "cleaned": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 170",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 14",
-        "cleaned": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 14",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 170",
-        "cleaned": "Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung Image 170",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Müllermilch versch. Sorten 400 ml Flasche Image 190",
-        "cleaned": "Müllermilch versch. Sorten 400 ml Flasche Image 190",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Müllermilch versch. Sorten 400 ml Flasche Image 190",
-        "cleaned": "Müllermilch versch. Sorten 400 ml Flasche Image 190",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Mutti Pesto oder Pastasauce versch. Sorten 400-180 g Glas Image 198",
-        "cleaned": "Mutti Pesto oder Pastasauce versch. Sorten 400-180 g Glas Image 198",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Mutti Pesto oder Pastasauce versch. Sorten 400-180 g Glas Image 198",
-        "cleaned": "Mutti Pesto oder Pastasauce versch. Sorten 400-180 g Glas Image 198",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Oatly Haferdrink versch. Sorten 1 l Packung Image 16",
-        "cleaned": "Oatly Haferdrink versch. Sorten 1 l Packung Image 16",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Oatly Haferdrink versch. Sorten 1 l Packung Image 16",
-        "cleaned": "Oatly Haferdrink versch. Sorten 1 l Packung Image 16",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Oatly Haferdrink versch. Sorten 1 l Packung Image 172",
-        "cleaned": "Oatly Haferdrink versch. Sorten 1 l Packung Image 172",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Oatly Haferdrink versch. Sorten 1 l Packung Image 172",
-        "cleaned": "Oatly Haferdrink versch. Sorten 1 l Packung Image 172",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Rapso Reines Rapsöl 750 ml Flasche Image 200",
-        "cleaned": "Rapso Reines Rapsöl 750 ml Flasche Image 200",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Rapso Reines Rapsöl 750 ml Flasche Image 200",
-        "cleaned": "Rapso Reines Rapsöl 750 ml Flasche Image 200",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Osborne Veterano, Hierbas Túnel de Mallorca oder Badel Sljivovica 30/40% vol. 0,7/0,5 l Flasche",
-        "cleaned": "Osborne Veterano, Hierbas Túnel de Mallorca oder Badel Sljivovica 30/40% vol. 0,7/0,5 l Flasche",
+        "store": "NORMA",
+        "name": "![Image 136: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
         "reason": "not_food"
       },
       {
-        "store": "HIT",
-        "name": "Gustavo Gusto Pizza versch. Sorten, tiefgefroren 480-410 g Packung Image 184",
-        "cleaned": "Gustavo Gusto Pizza versch. Sorten, tiefgefroren 480-410 g Packung Image 184",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Gustavo Gusto Pizza versch. Sorten, tiefgefroren 480-410 g Packung Image 184",
-        "cleaned": "Gustavo Gusto Pizza versch. Sorten, tiefgefroren 480-410 g Packung Image 184",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Rauch happy day 1 l oder hohes C super shots 0,33 l versch. Sorten",
-        "cleaned": "Rauch happy day 1 l oder hohes C super shots 0,33 l versch. Sorten",
+        "store": "NORMA",
+        "name": "![Image 137 * 1 Liter",
+        "cleaned": "* 1 Liter",
         "reason": "not_food"
       },
       {
-        "store": "HIT",
-        "name": "Duplo oder Kinder Riegel 210-182 g Packung Image 206",
-        "cleaned": "Duplo oder Kinder Riegel 210-182 g Packung Image 206",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Duplo oder Kinder Riegel 210-182 g Packung Image 206",
-        "cleaned": "Duplo oder Kinder Riegel 210-182 g Packung Image 206",
-        "reason": "markdown"
-      },
-      {
-        "store": "HIT",
-        "name": "Sinalco 12x1 l PET oder Bionade 12x0,33 l Glas versch. Sorten",
-        "cleaned": "Sinalco 12x1 l PET oder Bionade 12x0,33 l Glas versch. Sorten",
+        "store": "NORMA",
+        "name": "![Image 138 * 4+1 gratis",
+        "cleaned": "* 4+1 gratis",
         "reason": "not_food"
       },
       {
-        "store": "HIT",
-        "name": "Spaten Münchner Hell",
-        "cleaned": "Spaten Münchner Hell",
+        "store": "NORMA",
+        "name": "![Image 147",
+        "cleaned": "",
+        "reason": "name"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 157: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
         "reason": "not_food"
       },
       {
-        "store": "HIT",
-        "name": "true fruits versch. Sorten Glasflasche",
-        "cleaned": "true fruits versch. Sorten Glasflasche",
+        "store": "NORMA",
+        "name": "![Image 163: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 163: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 167 * 3 + 1 gratis",
+        "cleaned": "* 3 + 1 gratis",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 169: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 169: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 170: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 170: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 175 * 1,2 kg * * * **Dreistern** ### XXL Eintopf",
+        "cleaned": "XXL Eintopf",
+        "reason": "nonfood"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 178",
+        "cleaned": "",
+        "reason": "name"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 20: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 20: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 21: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 21: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 23: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 24: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 24: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 24: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 25: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 25: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 25: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 25: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 28: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 28: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 30: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 30: Nur gültig vom 24.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 31: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 32: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 33 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 33: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 33: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 34 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 34: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 34: Nur gültig vom 21.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 35 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 36 * Schwamm gratis * * * **Click 'n Store** ### Frischhaltedosen",
+        "cleaned": "Frischhaltedosen",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 37 * * * **Ritzenhoff & Breker** ### XL-Sternzeichentasse",
+        "cleaned": "XL-Sternzeichentasse",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 38 * * * **Flower Power / I-Glow** ### XL-LED-Dekoration",
+        "cleaned": "XL-LED-Dekoration",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 39: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 40: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 40: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 40: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 40: Nur gültig vom 28.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 28.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 40: Nur gültig vom 28.08. bis 30.08.2026 und",
+        "cleaned": "Nur gültig vom 28.08. bis 30.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 41: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 41: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 60: Nur gültig vom 17.08. bis 23.08.2026 und",
+        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 61 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 62 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 63 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
+        "cleaned": "Edelstahl Frischhaltedose ca.",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 64 * Schwamm gratis * * * **Click 'n Store** ### Frischhaltedosen",
+        "cleaned": "Frischhaltedosen",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 65 * * * **Ritzenhoff & Breker** ### XL-Sternzeichentasse",
+        "cleaned": "XL-Sternzeichentasse",
+        "reason": "not_food"
+      },
+      {
+        "store": "NORMA",
+        "name": "![Image 66 * * * **Flower Power / I-Glow** ### XL-LED-Dekoration",
+        "cleaned": "XL-LED-Dekoration",
         "reason": "not_food"
       }
     ]
   },
   "semanticPass": {
-    "at": "2026-08-19T16:29:14.632Z",
-    "before": 291,
-    "after": 291,
-    "repaired": 16,
+    "at": "2026-08-19T17:38:22.563Z",
+    "before": 295,
+    "after": 295,
+    "repaired": 18,
     "normalizer": "product-normalizer-v1"
   }
 }
