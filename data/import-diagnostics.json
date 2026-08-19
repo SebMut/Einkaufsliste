@@ -1,18 +1,18 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-19T13:47:19.945Z",
+  "generatedAt": "2026-08-19T13:52:03.008Z",
   "run": {
-    "id": "32259883664",
+    "id": "32260299931",
     "attempt": "1",
     "event": "push",
-    "sha": "3c04197329d4723b84541ac820cd72f84b078cdc",
+    "sha": "c2358eacc8adc4f7a917e0508d367bc72ae91472",
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 0,
     "status": "failed",
-    "startedAt": "2026-08-19T13:45:40.466Z",
-    "finishedAt": "2026-08-19T13:47:09.352Z",
-    "durationMs": 88886
+    "startedAt": "2026-08-19T13:49:56.368Z",
+    "finishedAt": "2026-08-19T13:51:28.219Z",
+    "durationMs": 91851
   },
   "summary": {
     "configuredSources": 12,
@@ -23,8 +23,8 @@
     "noData": 0,
     "errors": 1,
     "skipped": 0,
-    "offerCount": 353,
-    "liveGeneratedAt": "2026-08-19T13:45:40.855Z",
+    "offerCount": 352,
+    "liveGeneratedAt": "2026-08-19T13:49:56.785Z",
     "liveDataCurrent": true
   },
   "sources": [
@@ -38,9 +38,9 @@
       "count": 10,
       "message": "10 valide Angebote importiert",
       "transport": "reader",
-      "startedAt": "2026-08-19T13:45:41.062Z",
-      "finishedAt": "2026-08-19T13:45:47.393Z",
-      "durationMs": 6331
+      "startedAt": "2026-08-19T13:49:58.365Z",
+      "finishedAt": "2026-08-19T13:50:04.732Z",
+      "durationMs": 6367
     },
     {
       "store": "EDEKA",
@@ -49,12 +49,12 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "scope": "market",
       "status": "ok",
-      "count": 14,
-      "message": "14 valide Angebote importiert",
+      "count": 13,
+      "message": "13 valide Angebote importiert",
       "transport": "reader",
-      "startedAt": "2026-08-19T13:45:47.395Z",
-      "finishedAt": "2026-08-19T13:45:53.475Z",
-      "durationMs": 6080
+      "startedAt": "2026-08-19T13:50:04.735Z",
+      "finishedAt": "2026-08-19T13:50:10.892Z",
+      "durationMs": 6157
     },
     {
       "store": "PENNY",
@@ -66,9 +66,9 @@
       "count": 129,
       "message": "129 valide Angebote importiert",
       "transport": "browser",
-      "startedAt": "2026-08-19T13:45:53.477Z",
-      "finishedAt": "2026-08-19T13:46:01.778Z",
-      "durationMs": 8301
+      "startedAt": "2026-08-19T13:50:10.894Z",
+      "finishedAt": "2026-08-19T13:50:19.261Z",
+      "durationMs": 8367
     },
     {
       "store": "HIT",
@@ -80,9 +80,9 @@
       "count": 3,
       "message": "3 valide Angebote importiert",
       "transport": "browser",
-      "startedAt": "2026-08-19T13:46:01.780Z",
-      "finishedAt": "2026-08-19T13:46:10.987Z",
-      "durationMs": 9207
+      "startedAt": "2026-08-19T13:50:19.263Z",
+      "finishedAt": "2026-08-19T13:50:28.559Z",
+      "durationMs": 9296
     },
     {
       "store": "ALDI SÜD",
@@ -94,9 +94,9 @@
       "count": 61,
       "message": "61 valide Angebote importiert",
       "transport": "browser",
-      "startedAt": "2026-08-19T13:46:10.990Z",
-      "finishedAt": "2026-08-19T13:46:18.457Z",
-      "durationMs": 7467
+      "startedAt": "2026-08-19T13:50:28.561Z",
+      "finishedAt": "2026-08-19T13:50:36.964Z",
+      "durationMs": 8403
     },
     {
       "store": "Lidl",
@@ -108,9 +108,9 @@
       "count": 1,
       "message": "1 valide Angebote importiert",
       "transport": "browser",
-      "startedAt": "2026-08-19T13:46:18.463Z",
-      "finishedAt": "2026-08-19T13:46:26.757Z",
-      "durationMs": 8294
+      "startedAt": "2026-08-19T13:50:36.965Z",
+      "finishedAt": "2026-08-19T13:50:44.948Z",
+      "durationMs": 7983
     },
     {
       "store": "Netto",
@@ -122,9 +122,9 @@
       "count": 2,
       "message": "2 valide Angebote importiert",
       "transport": "reader",
-      "startedAt": "2026-08-19T13:46:26.759Z",
-      "finishedAt": "2026-08-19T13:46:32.852Z",
-      "durationMs": 6093
+      "startedAt": "2026-08-19T13:50:44.950Z",
+      "finishedAt": "2026-08-19T13:50:51.084Z",
+      "durationMs": 6134
     },
     {
       "store": "NORMA",
@@ -136,9 +136,9 @@
       "count": 1,
       "message": "1 valide Angebote importiert",
       "transport": "browser",
-      "startedAt": "2026-08-19T13:46:32.854Z",
-      "finishedAt": "2026-08-19T13:46:41.304Z",
-      "durationMs": 8450
+      "startedAt": "2026-08-19T13:50:51.086Z",
+      "finishedAt": "2026-08-19T13:50:59.619Z",
+      "durationMs": 8533
     },
     {
       "store": "Kaufland",
@@ -150,9 +150,9 @@
       "count": 1,
       "message": "1 valide Angebote importiert",
       "transport": "browser",
-      "startedAt": "2026-08-19T13:46:41.306Z",
-      "finishedAt": "2026-08-19T13:46:48.589Z",
-      "durationMs": 7283
+      "startedAt": "2026-08-19T13:50:59.621Z",
+      "finishedAt": "2026-08-19T13:51:07.277Z",
+      "durationMs": 7656
     },
     {
       "store": "METRO",
@@ -162,11 +162,11 @@
       "scope": "market",
       "status": "auth_error",
       "count": 0,
-      "message": "METRO-Login/Import fehlgeschlagen: Loginformular: E-Mail-Feld nicht gefunden",
+      "message": "METRO-Login/Import fehlgeschlagen: Loginformular: Benutzerfeld nicht gefunden (URL https://www.metro.de/metro/services/idamstream/login)",
       "transport": "authenticated-browser",
-      "startedAt": "2026-08-19T13:46:48.591Z",
-      "finishedAt": "2026-08-19T13:46:54.784Z",
-      "durationMs": 6193
+      "startedAt": "2026-08-19T13:51:07.279Z",
+      "finishedAt": "2026-08-19T13:51:13.673Z",
+      "durationMs": 6394
     },
     {
       "store": "dm",
@@ -175,12 +175,12 @@
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "scope": "regional",
       "status": "ok",
-      "count": 85,
-      "message": "85 valide Angebote importiert",
+      "count": 86,
+      "message": "86 valide Angebote importiert",
       "transport": "browser",
-      "startedAt": "2026-08-19T13:46:54.786Z",
-      "finishedAt": "2026-08-19T13:47:02.256Z",
-      "durationMs": 7470
+      "startedAt": "2026-08-19T13:51:13.675Z",
+      "finishedAt": "2026-08-19T13:51:21.042Z",
+      "durationMs": 7367
     },
     {
       "store": "ROSSMANN",
@@ -189,12 +189,12 @@
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "scope": "regional",
       "status": "ok",
-      "count": 46,
-      "message": "46 valide Angebote importiert",
+      "count": 45,
+      "message": "45 valide Angebote importiert",
       "transport": "browser",
-      "startedAt": "2026-08-19T13:47:02.258Z",
-      "finishedAt": "2026-08-19T13:47:09.282Z",
-      "durationMs": 7024
+      "startedAt": "2026-08-19T13:51:21.044Z",
+      "finishedAt": "2026-08-19T13:51:28.157Z",
+      "durationMs": 7113
     }
   ],
   "lastLogLines": [
@@ -203,29 +203,29 @@
     "> node import.js",
     "",
     "Importiere REWE Feldkirchen ...",
-    "REWE: no_data, 0 (6332 ms)",
+    "REWE: no_data, 0 (6366 ms)",
     "Importiere EDEKA Berghammer Feldkirchen ...",
-    "EDEKA: no_data, 0 (6082 ms)",
+    "EDEKA: no_data, 0 (6162 ms)",
     "Importiere PENNY Region Feldkirchen ...",
-    "PENNY: ok, 140 (8302 ms)",
+    "PENNY: ok, 140 (8367 ms)",
     "Importiere HIT Parsdorf ...",
-    "HIT: ok, 3 (9208 ms)",
+    "HIT: ok, 3 (9299 ms)",
     "Importiere ALDI SÜD Region Feldkirchen ...",
-    "ALDI SÜD: ok, 67 (7471 ms)",
+    "ALDI SÜD: ok, 67 (8402 ms)",
     "Importiere Lidl Region Feldkirchen ...",
-    "Lidl: ok, 1 (8299 ms)",
+    "Lidl: ok, 1 (7984 ms)",
     "Importiere Netto Trudering ...",
-    "Netto: no_data, 0 (6095 ms)",
+    "Netto: no_data, 0 (6135 ms)",
     "Importiere NORMA Region Feldkirchen ...",
-    "NORMA: ok, 1 (8452 ms)",
+    "NORMA: ok, 1 (8535 ms)",
     "Importiere Kaufland München-Berg am Laim ...",
-    "Kaufland: ok, 9 (7284 ms)",
+    "Kaufland: ok, 9 (7655 ms)",
     "Importiere METRO München-Freimann ...",
-    "METRO: no_data, 0 (6196 ms)",
+    "METRO: no_data, 0 (6397 ms)",
     "Importiere dm Region Feldkirchen ...",
-    "dm: ok, 85 (7469 ms)",
+    "dm: ok, 86 (7367 ms)",
     "Importiere ROSSMANN Region Feldkirchen ...",
-    "ROSSMANN: ok, 47 (7027 ms)",
+    "ROSSMANN: ok, 46 (7114 ms)",
     "Fertig: 353 Live-Angebote aus 8/12 Quellen."
   ]
 }
