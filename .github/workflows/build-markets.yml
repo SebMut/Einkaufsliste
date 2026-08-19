@@ -29,7 +29,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -46,6 +46,9 @@ jobs:
       - name: Erlaubte Märkte erzeugen
         working-directory: importer
         run: npm run markets
+      - name: Chromium für dynamische Händlerkataloge installieren
+        working-directory: importer
+        run: npx playwright install --with-deps chromium
       - name: Offizielle reguläre Katalogdaten importieren
         working-directory: importer
         run: npm run catalog
@@ -68,6 +71,7 @@ jobs:
           const markets=JSON.parse(fs.readFileSync(root+'markets.json','utf8'));
           const live=JSON.parse(fs.readFileSync(root+'offers-live.json','utf8'));
           const history=JSON.parse(fs.readFileSync(root+'price-history.json','utf8'));
+          const catalog=JSON.parse(fs.readFileSync(root+'catalog/index.json','utf8'));
           const badMarkets=(markets.markets||[]).filter(m=>!isAllowedMarket(m));
           const badProducts=(live.offers||[]).filter(o=>!isAllowedMarket(o));
           const badHistory=(history.events||[]).filter(e=>e.activeMarket===false);
@@ -75,7 +79,7 @@ jobs:
             console.error({badMarkets:badMarkets.length,badProducts:badProducts.length,badHistory:badHistory.length});
             process.exit(1);
           }
-          console.log(`Validiert: ${markets.markets.length} Filialen, ${live.productCount??live.offers.length} Produkte, ${history.eventCount??history.events.length} aktive Preisereignisse.`);
+          console.log(`Validiert: ${markets.markets.length} Filialen, ${live.productCount??live.offers.length} Produkte, ${live.offerCount??0} Angebote, ${catalog.productCount??0} Katalogprodukte, ${history.eventCount??history.events.length} aktive Preisereignisse.`);
           NODE
       - name: Generierte Daten veröffentlichen
         shell: bash
