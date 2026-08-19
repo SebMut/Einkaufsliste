@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-19T20:27:10.177Z",
-  "before": 437,
-  "after": 372,
+  "generatedAt": "2026-08-19T20:40:43.738Z",
+  "before": 451,
+  "after": 386,
   "rejected": 65,
-  "repaired": 614,
+  "repaired": 623,
   "rejectedReasons": {
     "quantity_as_name": 23,
     "navigation_or_ui": 11,
@@ -17,8 +17,9 @@
     "ALDI SÜD": 67,
     "PENNY": 140,
     "ROSSMANN": 60,
-    "dm": 99,
+    "dm": 96,
     "EDEKA": 40,
+    "MÜLLER": 17,
     "REWE": 30,
     "Lidl": 1
   },
@@ -26,7 +27,8 @@
     "ALDI SÜD": 61,
     "EDEKA": 40,
     "PENNY": 109,
-    "dm": 88,
+    "MÜLLER": 17,
+    "dm": 85,
     "ROSSMANN": 43,
     "REWE": 30,
     "Lidl": 1
@@ -184,20 +186,21 @@
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T20:27:10.242Z",
-    "before": 372,
-    "after": 177,
-    "rejected": 195,
+    "generatedAt": "2026-08-19T20:40:43.827Z",
+    "before": 386,
+    "after": 194,
+    "rejected": 192,
     "repaired": 115,
     "rejectedReasons": {
       "name": 6,
-      "ui": 36,
+      "ui": 32,
       "produce_unit": 1,
       "price": 1,
       "concatenated_offer": 9,
+      "unit_high": 1,
       "duplicate": 39,
-      "size_duplicate": 40,
-      "semantic_duplicate": 60
+      "size_duplicate": 39,
+      "semantic_duplicate": 61
     },
     "rejectedExamples": [
       {
@@ -233,26 +236,6 @@
       {
         "store": "PENNY",
         "name": "Diese Woche",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
         "reason": "ui"
       },
       {
@@ -449,24 +432,50 @@
         "store": "PENNY",
         "name": "UVP 3.59 Angebotspreis 1.99€ 1.99 -50% mit App -44% MARS Schokoriegel* mit App: je 5 x 45 g (1 kg = 7.96); ohne App: je 5 x 45 g (1 kg = 8.8",
         "reason": "concatenated_offer"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "Services in Ihrer FilialeGeschenkgutscheineRossmann FotoservicePrepaidkartenRücknahmegarantieTeppichreiniger-VerleihGratis WLANRücknahme Ele",
+        "reason": "name"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Sicher einkaufen",
+        "reason": "unit_high"
+      },
+      {
+        "store": "PENNY",
+        "name": "ZESPRI SunGold Kiwi Gold* je 3er-Schale Angebotspreis 2.49€ 2.49 Aktion PINK LADY Rote Äpfel* je 1-kg-Packun",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Zum Inhalt springen Aktuelle Filiale45475, Mülheim an der RuhrFilialauswahlWähle deine Filiale aus, um die verfügbaren Produkte zu entdecken",
+        "reason": "name"
       }
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T20:27:10.291Z",
-    "before": 177,
-    "after": 157,
-    "rejected": 20,
+    "generatedAt": "2026-08-19T20:40:43.911Z",
+    "before": 194,
+    "after": 166,
+    "rejected": 28,
     "repaired": 6,
     "reasons": {
-      "not_food": 13,
-      "nonfood": 7
+      "not_food": 18,
+      "nonfood": 10
     },
     "rejectedExamples": [
       {
         "store": "dm",
         "name": "AMORELIE Beckenbodentrainer Perifit Care App-gesteuert, Pink",
         "cleaned": "AMORELIE Beckenbodentrainer Perifit Care App-gesteuert, Pink",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Bewertung",
+        "cleaned": "Bewertung",
         "reason": "not_food"
       },
       {
@@ -518,6 +527,12 @@
         "reason": "nonfood"
       },
       {
+        "store": "MÜLLER",
+        "name": "meridol Mundspülung gegen Zahnfleischentzündung, Mundgeruch & Parodontitis",
+        "cleaned": "meridol Mundspülung gegen Zahnfleischentzündung, Mundgeruch & Parodontitis",
+        "reason": "nonfood"
+      },
+      {
         "store": "ALDI SÜD",
         "name": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
         "cleaned": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
@@ -554,6 +569,24 @@
         "reason": "not_food"
       },
       {
+        "store": "MÜLLER",
+        "name": "SoftStar Feuchtes Toilettenpapier Das Ultra Weiche Sensitive",
+        "cleaned": "SoftStar Feuchtes Toilettenpapier Das Ultra Weiche Sensitive",
+        "reason": "nonfood"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "SoftStar Taschentücher Die Verwöhnsicheren 4-lagig",
+        "cleaned": "SoftStar Taschentücher Die Verwöhnsicheren 4-lagig",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "SoftStar Toilettenpapier Das Zuverlässige 3-lagig 20x200 Blatt",
+        "cleaned": "SoftStar Toilettenpapier Das Zuverlässige 3-lagig 20x200 Blatt",
+        "reason": "nonfood"
+      },
+      {
         "store": "ALDI SÜD",
         "name": "Steckdosenwürfel mit USB, Schwarz",
         "cleaned": "Steckdosenwürfel mit USB, Schwarz",
@@ -582,13 +615,31 @@
         "name": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
         "cleaned": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
         "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Wrigley's Extra® Kaugummis Dose Spearmint",
+        "cleaned": "Wrigley's Extra® Kaugummis Dose Spearmint",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Wrigley's Extra® Kaugummis Dose Strong Mint",
+        "cleaned": "Wrigley's Extra® Kaugummis Dose Strong Mint",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Wrigley's Extra® Professional White Dose",
+        "cleaned": "Wrigley's Extra® Professional White Dose",
+        "reason": "not_food"
       }
     ]
   },
   "semanticPass": {
-    "at": "2026-08-19T20:27:10.387Z",
-    "before": 157,
-    "after": 157,
+    "at": "2026-08-19T20:40:43.996Z",
+    "before": 166,
+    "after": 166,
     "repaired": 0,
     "normalizer": "product-normalizer-v1"
   }

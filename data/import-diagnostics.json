@@ -1,27 +1,27 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-19T20:27:10.811Z",
+  "generatedAt": "2026-08-19T20:40:44.762Z",
   "run": {
-    "id": "32298273179",
+    "id": "32299433283",
     "attempt": "1",
     "event": "push",
-    "sha": "f95682fe1554f9b500483b1932102d9745db01f8",
+    "sha": "222c91a762d8db0dd1a779ddf814e99e148a1347",
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 0,
     "status": "failed",
-    "startedAt": "2026-08-19T20:25:41.187Z",
-    "finishedAt": "2026-08-19T20:26:56.378Z",
-    "durationMs": 75191
+    "startedAt": "2026-08-19T20:39:11.892Z",
+    "finishedAt": "2026-08-19T20:40:35.975Z",
+    "durationMs": 84083
   },
   "summary": {
-    "configuredSources": 11,
+    "configuredSources": 12,
     "ok": 0,
     "loginRequired": 0,
     "credentialsMissing": 0,
     "authErrors": 0,
     "noData": 0,
-    "errors": 11,
+    "errors": 12,
     "skipped": 0,
     "offerCount": 0,
     "liveGeneratedAt": null,
@@ -38,9 +38,9 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:25:42.132Z",
-      "finishedAt": "2026-08-19T20:25:48.544Z",
-      "durationMs": 6412
+      "startedAt": "2026-08-19T20:39:12.530Z",
+      "finishedAt": "2026-08-19T20:39:18.949Z",
+      "durationMs": 6419
     },
     {
       "store": "REWE",
@@ -52,9 +52,9 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:25:48.545Z",
-      "finishedAt": "2026-08-19T20:25:54.700Z",
-      "durationMs": 6155
+      "startedAt": "2026-08-19T20:39:18.951Z",
+      "finishedAt": "2026-08-19T20:39:25.139Z",
+      "durationMs": 6188
     },
     {
       "store": "REWE",
@@ -66,9 +66,9 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:25:48.545Z",
-      "finishedAt": "2026-08-19T20:25:54.700Z",
-      "durationMs": 6155
+      "startedAt": "2026-08-19T20:39:18.951Z",
+      "finishedAt": "2026-08-19T20:39:25.139Z",
+      "durationMs": 6188
     },
     {
       "store": "EDEKA",
@@ -80,9 +80,9 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:26:00.897Z",
-      "finishedAt": "2026-08-19T20:26:07.213Z",
-      "durationMs": 6316
+      "startedAt": "2026-08-19T20:39:31.346Z",
+      "finishedAt": "2026-08-19T20:39:37.894Z",
+      "durationMs": 6548
     },
     {
       "store": "EDEKA",
@@ -94,9 +94,9 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:26:07.214Z",
-      "finishedAt": "2026-08-19T20:26:13.408Z",
-      "durationMs": 6194
+      "startedAt": "2026-08-19T20:39:37.896Z",
+      "finishedAt": "2026-08-19T20:39:43.984Z",
+      "durationMs": 6088
     },
     {
       "store": "EDEKA",
@@ -108,9 +108,9 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:26:13.410Z",
-      "finishedAt": "2026-08-19T20:26:19.531Z",
-      "durationMs": 6121
+      "startedAt": "2026-08-19T20:39:43.985Z",
+      "finishedAt": "2026-08-19T20:39:50.060Z",
+      "durationMs": 6075
     },
     {
       "store": "PENNY",
@@ -122,9 +122,9 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:26:19.532Z",
-      "finishedAt": "2026-08-19T20:26:27.474Z",
-      "durationMs": 7942
+      "startedAt": "2026-08-19T20:39:50.062Z",
+      "finishedAt": "2026-08-19T20:39:58.033Z",
+      "durationMs": 7971
     },
     {
       "store": "ALDI SÜD",
@@ -136,9 +136,9 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:26:27.475Z",
-      "finishedAt": "2026-08-19T20:26:35.230Z",
-      "durationMs": 7755
+      "startedAt": "2026-08-19T20:39:58.036Z",
+      "finishedAt": "2026-08-19T20:40:05.999Z",
+      "durationMs": 7963
     },
     {
       "store": "Lidl",
@@ -150,9 +150,9 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:26:35.231Z",
-      "finishedAt": "2026-08-19T20:26:42.648Z",
-      "durationMs": 7417
+      "startedAt": "2026-08-19T20:40:06.002Z",
+      "finishedAt": "2026-08-19T20:40:14.010Z",
+      "durationMs": 8008
     },
     {
       "store": "dm",
@@ -164,9 +164,9 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:26:42.649Z",
-      "finishedAt": "2026-08-19T20:26:49.518Z",
-      "durationMs": 6869
+      "startedAt": "2026-08-19T20:40:14.013Z",
+      "finishedAt": "2026-08-19T20:40:21.306Z",
+      "durationMs": 7293
     },
     {
       "store": "ROSSMANN",
@@ -178,9 +178,23 @@
       "count": 0,
       "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
       "transport": "browser",
-      "startedAt": "2026-08-19T20:26:49.522Z",
-      "finishedAt": "2026-08-19T20:26:56.329Z",
-      "durationMs": 6807
+      "startedAt": "2026-08-19T20:40:21.311Z",
+      "finishedAt": "2026-08-19T20:40:28.322Z",
+      "durationMs": 7011
+    },
+    {
+      "store": "MÜLLER",
+      "market": "München-Riem Arcaden",
+      "address": "Willy-Brandt-Platz 5, 81829 München",
+      "sourceUrl": "https://www.mueller.de/c/drogerie/alle-drogerie-produkte/",
+      "scope": "regional",
+      "status": "error",
+      "count": 0,
+      "message": "Quelle wurde gestartet, aber es wurde kein aktuelles Ergebnis in offers-live.json geschrieben.",
+      "transport": "browser",
+      "startedAt": "2026-08-19T20:40:28.324Z",
+      "finishedAt": "2026-08-19T20:40:35.918Z",
+      "durationMs": 7594
     }
   ],
   "lastLogLines": [
@@ -189,27 +203,29 @@
     "> node import.js",
     "",
     "Importiere REWE Feldkirchen ...",
-    "REWE: no_data, 0 (6412 ms)",
+    "REWE: no_data, 0 (6419 ms)",
     "Importiere REWE Aschheim-Dornach ...",
-    "REWE: no_data, 0 (6157 ms)",
+    "REWE: no_data, 0 (6190 ms)",
     "Importiere REWE Aschheim ...",
-    "REWE: no_data, 0 (6196 ms)",
+    "REWE: no_data, 0 (6205 ms)",
     "Importiere EDEKA Berghammer Feldkirchen ...",
-    "EDEKA: no_data, 0 (6316 ms)",
+    "EDEKA: no_data, 0 (6549 ms)",
     "Importiere EDEKA Pfeilstetter Kirchheim ...",
-    "EDEKA: no_data, 0 (6195 ms)",
+    "EDEKA: no_data, 0 (6089 ms)",
     "Importiere EDEKA Pfeilstetter Heimstetten ...",
-    "EDEKA: no_data, 0 (6123 ms)",
+    "EDEKA: no_data, 0 (6076 ms)",
     "Importiere PENNY Feldkirchen ...",
-    "PENNY: ok, 140 (7943 ms)",
+    "PENNY: ok, 140 (7973 ms)",
     "Importiere ALDI SÜD Aschheim ...",
-    "ALDI SÜD: ok, 67 (7754 ms)",
+    "ALDI SÜD: ok, 67 (7963 ms)",
     "Importiere Lidl Aschheim ...",
-    "Lidl: ok, 1 (7419 ms)",
+    "Lidl: ok, 1 (8012 ms)",
     "Importiere dm München-Riem Arcaden ...",
-    "dm: ok, 99 (6870 ms)",
+    "dm: ok, 96 (7292 ms)",
     "Importiere ROSSMANN Kirchheim-Heimstetten ...",
-    "ROSSMANN: ok, 60 (6810 ms)",
-    "Fertig: 367 Live-Angebote aus 5/11 Quellen."
+    "ROSSMANN: ok, 60 (7018 ms)",
+    "Importiere MÜLLER München-Riem Arcaden ...",
+    "MÜLLER: ok, 17 (7594 ms)",
+    "Fertig: 381 Live-Angebote aus 6/12 Quellen."
   ]
 }
