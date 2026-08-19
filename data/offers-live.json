@@ -1,6 +1,6 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-19T13:49:56.785Z",
+  "generatedAt": "2026-08-19T13:58:02.748Z",
   "center": {
     "name": "85622 Feldkirchen",
     "lat": 48.145,
@@ -140,7 +140,7 @@
       "status": "ok",
       "count": 10,
       "message": "10 valide Angebote importiert",
-      "durationMs": 6366,
+      "durationMs": 6346,
       "transport": "reader"
     },
     {
@@ -152,7 +152,7 @@
       "status": "ok",
       "count": 13,
       "message": "13 valide Angebote importiert",
-      "durationMs": 6162,
+      "durationMs": 6229,
       "transport": "reader"
     },
     {
@@ -164,7 +164,7 @@
       "status": "ok",
       "count": 129,
       "message": "129 valide Angebote importiert",
-      "durationMs": 8367
+      "durationMs": 7972
     },
     {
       "store": "HIT",
@@ -175,7 +175,7 @@
       "status": "ok",
       "count": 3,
       "message": "3 valide Angebote importiert",
-      "durationMs": 9299
+      "durationMs": 8618
     },
     {
       "store": "ALDI SÜD",
@@ -186,7 +186,7 @@
       "status": "ok",
       "count": 61,
       "message": "61 valide Angebote importiert",
-      "durationMs": 8402
+      "durationMs": 7733
     },
     {
       "store": "Lidl",
@@ -197,7 +197,7 @@
       "status": "ok",
       "count": 1,
       "message": "1 valide Angebote importiert",
-      "durationMs": 7984
+      "durationMs": 7418
     },
     {
       "store": "Netto",
@@ -208,7 +208,7 @@
       "status": "ok",
       "count": 2,
       "message": "2 valide Angebote importiert",
-      "durationMs": 6135,
+      "durationMs": 6227,
       "transport": "reader"
     },
     {
@@ -220,7 +220,7 @@
       "status": "ok",
       "count": 1,
       "message": "1 valide Angebote importiert",
-      "durationMs": 8535
+      "durationMs": 7684
     },
     {
       "store": "Kaufland",
@@ -231,7 +231,7 @@
       "status": "ok",
       "count": 1,
       "message": "1 valide Angebote importiert",
-      "durationMs": 7655
+      "durationMs": 6605
     },
     {
       "store": "METRO",
@@ -243,7 +243,7 @@
       "status": "auth_error",
       "count": 0,
       "message": "METRO-Login/Import fehlgeschlagen: Loginformular: Benutzerfeld nicht gefunden (URL https://www.metro.de/metro/services/idamstream/login)",
-      "durationMs": 6397,
+      "durationMs": 6087,
       "transport": "authenticated-browser"
     },
     {
@@ -256,7 +256,7 @@
       "status": "ok",
       "count": 86,
       "message": "86 valide Angebote importiert",
-      "durationMs": 7367
+      "durationMs": 7073
     },
     {
       "store": "ROSSMANN",
@@ -266,12 +266,12 @@
       "scope": "regional",
       "mode": "baby",
       "status": "ok",
-      "count": 45,
-      "message": "45 valide Angebote importiert",
-      "durationMs": 7114
+      "count": 44,
+      "message": "44 valide Angebote importiert",
+      "durationMs": 6794
     }
   ],
-  "offerCount": 352,
+  "offerCount": 351,
   "offers": [
     {
       "id": 1,
@@ -292,7 +292,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 2,
@@ -313,7 +313,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "alpro Soya-, Hafer- oder This is not Milk-Drink",
@@ -334,7 +334,7 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 3
     },
     {
@@ -356,7 +356,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 5,
@@ -377,7 +377,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 6,
@@ -398,7 +398,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 7,
@@ -419,7 +419,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 8,
@@ -440,7 +440,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 9,
@@ -461,7 +461,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 10,
@@ -482,7 +482,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 11,
@@ -503,7 +503,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 12,
@@ -524,7 +524,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 13,
@@ -545,7 +545,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 14,
@@ -566,7 +566,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 15,
@@ -587,7 +587,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 16,
@@ -608,7 +608,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 17,
@@ -629,7 +629,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 18,
@@ -650,7 +650,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 19,
@@ -671,7 +671,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 20,
@@ -692,7 +692,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 21,
@@ -713,7 +713,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 22,
@@ -734,7 +734,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 23,
@@ -755,7 +755,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 24,
@@ -776,7 +776,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 25,
@@ -797,7 +797,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 26,
@@ -818,7 +818,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 27,
@@ -839,7 +839,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 28,
@@ -860,7 +860,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 29,
@@ -881,7 +881,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 30,
@@ -902,7 +902,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 31,
@@ -923,7 +923,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 32,
@@ -944,7 +944,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 33,
@@ -965,7 +965,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 34,
@@ -986,7 +986,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 35,
@@ -1007,7 +1007,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 36,
@@ -1028,7 +1028,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 37,
@@ -1049,7 +1049,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 38,
@@ -1070,7 +1070,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 39,
@@ -1091,7 +1091,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 40,
@@ -1112,7 +1112,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 41,
@@ -1133,7 +1133,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 42,
@@ -1154,7 +1154,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 43,
@@ -1175,7 +1175,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 44,
@@ -1196,7 +1196,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 45,
@@ -1217,7 +1217,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 46,
@@ -1238,7 +1238,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 47,
@@ -1259,7 +1259,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 48,
@@ -1280,7 +1280,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 49,
@@ -1301,7 +1301,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 50,
@@ -1322,7 +1322,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 51,
@@ -1343,7 +1343,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 52,
@@ -1364,7 +1364,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 53,
@@ -1385,7 +1385,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 54,
@@ -1406,7 +1406,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 55,
@@ -1427,7 +1427,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 56,
@@ -1448,7 +1448,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 57,
@@ -1469,7 +1469,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 58,
@@ -1490,7 +1490,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 59,
@@ -1511,7 +1511,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 60,
@@ -1532,7 +1532,7 @@
       "advertised": true,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 61,
@@ -1553,7 +1553,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 62,
@@ -1574,7 +1574,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 63,
@@ -1595,7 +1595,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 64,
@@ -1616,7 +1616,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 65,
@@ -1637,7 +1637,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 66,
@@ -1658,7 +1658,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 67,
@@ -1679,7 +1679,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 68,
@@ -1700,7 +1700,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 69,
@@ -1721,7 +1721,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 70,
@@ -1742,7 +1742,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 71,
@@ -1763,7 +1763,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 72,
@@ -1784,7 +1784,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 73,
@@ -1805,7 +1805,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Bier",
@@ -1826,7 +1826,7 @@
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 74
     },
     {
@@ -1848,7 +1848,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 76,
@@ -1869,7 +1869,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Butter",
@@ -1890,7 +1890,7 @@
       "sourceUrl": "https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:38.129Z",
+      "importedAt": "2026-08-19T13:59:34.872Z",
       "id": 77
     },
     {
@@ -1912,7 +1912,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Butter",
@@ -1933,7 +1933,7 @@
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 79
     },
     {
@@ -1955,7 +1955,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 81,
@@ -1976,7 +1976,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 82,
@@ -1997,7 +1997,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 83,
@@ -2018,7 +2018,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 84,
@@ -2039,7 +2039,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 85,
@@ -2060,7 +2060,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 86,
@@ -2081,7 +2081,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 87,
@@ -2102,7 +2102,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 88,
@@ -2123,7 +2123,7 @@
       "advertised": true,
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Cola",
@@ -2144,7 +2144,7 @@
       "sourceUrl": "https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:38.129Z",
+      "importedAt": "2026-08-19T13:59:34.872Z",
       "id": 89
     },
     {
@@ -2166,7 +2166,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 91,
@@ -2187,7 +2187,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 92,
@@ -2208,7 +2208,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 93,
@@ -2229,7 +2229,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 94,
@@ -2250,7 +2250,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 95,
@@ -2271,7 +2271,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 96,
@@ -2292,7 +2292,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 97,
@@ -2313,7 +2313,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 98,
@@ -2334,7 +2334,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 99,
@@ -2355,7 +2355,7 @@
       "advertised": true,
       "sourceUrl": "https://www.lidl.de/c/indexangebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "EDEKA Herzstücke High Protein Fertiggericht",
@@ -2376,7 +2376,7 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 100
     },
     {
@@ -2398,7 +2398,7 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 101
     },
     {
@@ -2420,7 +2420,7 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 102
     },
     {
@@ -2442,7 +2442,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 104,
@@ -2463,7 +2463,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 105,
@@ -2484,7 +2484,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 106,
@@ -2505,7 +2505,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 107,
@@ -2526,7 +2526,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 108,
@@ -2547,7 +2547,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 109,
@@ -2568,7 +2568,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 110,
@@ -2589,7 +2589,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 111,
@@ -2610,7 +2610,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 112,
@@ -2631,7 +2631,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 113,
@@ -2652,7 +2652,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 114,
@@ -2673,7 +2673,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 115,
@@ -2694,7 +2694,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 116,
@@ -2715,7 +2715,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 117,
@@ -2736,7 +2736,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 118,
@@ -2757,19 +2757,19 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 119,
       "key": "Feuchttücher",
-      "name": "Expert HA2 Folgenahrung nach dem 6. Monat",
+      "name": "SUPREME 2 Folgenahrung nach dem 6. Monat",
       "store": "ROSSMANN",
       "market": "Region Feldkirchen",
       "address": "Hafelhofweg 6, 81825 München",
       "cat": "Baby & Kleinkind",
-      "size": "550 g",
-      "price": 30.82,
-      "unit": 30.82,
+      "size": "800 g",
+      "price": 37.44,
+      "unit": 37.44,
       "unitLabel": "€/kg",
       "icon": "👶",
       "bio": false,
@@ -2778,7 +2778,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 120,
@@ -2799,7 +2799,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 121,
@@ -2820,7 +2820,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 122,
@@ -2841,7 +2841,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 123,
@@ -2862,7 +2862,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 124,
@@ -2883,7 +2883,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 125,
@@ -2904,7 +2904,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 126,
@@ -2925,7 +2925,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 127,
@@ -2946,7 +2946,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 128,
@@ -2967,7 +2967,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 129,
@@ -2988,7 +2988,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 130,
@@ -3009,7 +3009,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 131,
@@ -3030,7 +3030,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 132,
@@ -3051,7 +3051,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 133,
@@ -3072,7 +3072,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 134,
@@ -3093,7 +3093,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 135,
@@ -3114,7 +3114,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Hummus",
@@ -3135,7 +3135,7 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 136
     },
     {
@@ -3157,7 +3157,7 @@
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 137
     },
     {
@@ -3179,7 +3179,7 @@
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 138
     },
     {
@@ -3201,7 +3201,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 140,
@@ -3222,7 +3222,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 141,
@@ -3243,7 +3243,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 142,
@@ -3264,7 +3264,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 143,
@@ -3285,7 +3285,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 144,
@@ -3306,7 +3306,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 145,
@@ -3327,7 +3327,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Kaffee",
@@ -3348,7 +3348,7 @@
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 146
     },
     {
@@ -3370,7 +3370,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 148,
@@ -3391,7 +3391,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 149,
@@ -3412,7 +3412,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 150,
@@ -3433,7 +3433,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 151,
@@ -3454,7 +3454,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 152,
@@ -3475,7 +3475,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 153,
@@ -3496,7 +3496,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 154,
@@ -3517,7 +3517,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Käse",
@@ -3538,7 +3538,7 @@
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 155
     },
     {
@@ -3560,7 +3560,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 157,
@@ -3581,7 +3581,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 158,
@@ -3602,7 +3602,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 159,
@@ -3623,7 +3623,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Käse",
@@ -3644,7 +3644,7 @@
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 160
     },
     {
@@ -3666,7 +3666,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 162,
@@ -3687,7 +3687,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 163,
@@ -3708,7 +3708,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 164,
@@ -3729,7 +3729,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 165,
@@ -3750,7 +3750,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 166,
@@ -3771,7 +3771,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 167,
@@ -3792,7 +3792,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 168,
@@ -3813,7 +3813,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 169,
@@ -3834,7 +3834,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 170,
@@ -3855,7 +3855,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 171,
@@ -3876,7 +3876,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 172,
@@ -3897,7 +3897,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 173,
@@ -3918,7 +3918,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 174,
@@ -3939,7 +3939,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 175,
@@ -3960,7 +3960,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 176,
@@ -3981,7 +3981,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 177,
@@ -4002,7 +4002,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 178,
@@ -4023,7 +4023,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 179,
@@ -4044,7 +4044,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 180,
@@ -4065,7 +4065,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 181,
@@ -4086,7 +4086,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 182,
@@ -4107,7 +4107,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 183,
@@ -4128,7 +4128,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 184,
@@ -4149,7 +4149,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 185,
@@ -4170,7 +4170,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 186,
@@ -4191,7 +4191,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 187,
@@ -4212,7 +4212,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 188,
@@ -4233,7 +4233,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 189,
@@ -4254,7 +4254,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 190,
@@ -4275,7 +4275,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 191,
@@ -4296,7 +4296,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 192,
@@ -4317,7 +4317,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Öl",
@@ -4338,7 +4338,7 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 193
     },
     {
@@ -4360,7 +4360,7 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 194
     },
     {
@@ -4382,7 +4382,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 196,
@@ -4403,7 +4403,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 197,
@@ -4424,7 +4424,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 198,
@@ -4445,7 +4445,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Pizza",
@@ -4466,7 +4466,7 @@
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 199
     },
     {
@@ -4488,7 +4488,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 201,
@@ -4509,7 +4509,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 202,
@@ -4530,7 +4530,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 203,
@@ -4551,7 +4551,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 204,
@@ -4572,7 +4572,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 205,
@@ -4593,7 +4593,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 206,
@@ -4614,7 +4614,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 207,
@@ -4635,7 +4635,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 208,
@@ -4656,7 +4656,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 209,
@@ -4677,7 +4677,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 210,
@@ -4698,7 +4698,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 211,
@@ -4719,7 +4719,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 212,
@@ -4740,7 +4740,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 213,
@@ -4761,7 +4761,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 214,
@@ -4782,7 +4782,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 215,
@@ -4803,7 +4803,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 216,
@@ -4824,7 +4824,7 @@
       "advertised": true,
       "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Saft",
@@ -4845,7 +4845,7 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 217
     },
     {
@@ -4867,7 +4867,7 @@
       "advertised": true,
       "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Saft",
@@ -4888,7 +4888,7 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 219
     },
     {
@@ -4910,7 +4910,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 221,
@@ -4931,7 +4931,7 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 222,
@@ -4952,7 +4952,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Schokolade",
@@ -4973,7 +4973,7 @@
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 223
     },
     {
@@ -4995,7 +4995,7 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 224
     },
     {
@@ -5017,7 +5017,7 @@
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
+      "importedAt": "2026-08-19T13:59:32.822Z",
       "id": 225
     },
     {
@@ -5039,7 +5039,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 227,
@@ -5060,7 +5060,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 228,
@@ -5081,7 +5081,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 229,
@@ -5102,7 +5102,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 230,
@@ -5123,7 +5123,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 231,
@@ -5144,7 +5144,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 232,
@@ -5165,7 +5165,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 233,
@@ -5186,7 +5186,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 234,
@@ -5207,7 +5207,7 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 235,
@@ -5228,7 +5228,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 236,
@@ -5249,7 +5249,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 237,
@@ -5270,7 +5270,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 238,
@@ -5291,7 +5291,7 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 239,
@@ -5312,7 +5312,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 240,
@@ -5333,7 +5333,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 241,
@@ -5354,7 +5354,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 242,
@@ -5375,7 +5375,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 243,
@@ -5396,7 +5396,7 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 244,
@@ -5417,31 +5417,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "id": 245,
-      "key": "SUPREME 2 Folgenahrung nach dem 6. Monat",
-      "name": "SUPREME 2 Folgenahrung nach dem 6. Monat",
-      "store": "ROSSMANN",
-      "market": "Region Feldkirchen",
-      "address": "Hafelhofweg 6, 81825 München",
-      "cat": "Baby & Kleinkind",
-      "size": "800 g",
-      "price": 37.44,
-      "unit": 37.44,
-      "unitLabel": "€/kg",
-      "icon": "👶",
-      "bio": false,
-      "app": false,
-      "coupon": false,
-      "advertised": false,
-      "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
-      "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
-    },
-    {
-      "id": 246,
       "key": "Tee",
       "name": "hohes C Mehrfrucht-Saft versch. Sorten, Milder Apfelsaft oder Multivitamin",
       "store": "HIT",
@@ -5459,7 +5438,7 @@
       "advertised": true,
       "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
       "sourceScope": "market",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Toffifee,",
@@ -5480,11 +5459,11 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
-      "id": 247
+      "importedAt": "2026-08-19T13:59:32.822Z",
+      "id": 246
     },
     {
-      "id": 248,
+      "id": 247,
       "key": "Tomaten",
       "name": "Äpfel Krumme Dinger 2 kg",
       "store": "ALDI SÜD",
@@ -5502,10 +5481,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 249,
+      "id": 248,
       "key": "Tomaten",
       "name": "Cocktailrispentomaten 500 g",
       "store": "ALDI SÜD",
@@ -5523,10 +5502,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 250,
+      "id": 249,
       "key": "Tomaten",
       "name": "Cocktailrispentomaten 500 g",
       "store": "ALDI SÜD",
@@ -5544,10 +5523,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 251,
+      "id": 250,
       "key": "Trauben hell, kernlos 500 g",
       "name": "Trauben hell, kernlos 500 g",
       "store": "ALDI SÜD",
@@ -5565,10 +5544,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 252,
+      "id": 251,
       "key": "Trauben hell, kernlos 500 g",
       "name": "Trauben hell, kernlos 500 g",
       "store": "ALDI SÜD",
@@ -5586,10 +5565,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 253,
+      "id": 252,
       "key": "Unverbindlichle Preisempfehlung 0.99€",
       "name": "Unverbindlichle Preisempfehlung 0.99€",
       "store": "PENNY",
@@ -5607,10 +5586,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 254,
+      "id": 253,
       "key": "Unverbindlichle Preisempfehlung 0.99€",
       "name": "Unverbindlichle Preisempfehlung 0.99€",
       "store": "PENNY",
@@ -5628,10 +5607,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 255,
+      "id": 254,
       "key": "Unverbindlichle Preisempfehlung 0.99€",
       "name": "Unverbindlichle Preisempfehlung 0.99€",
       "store": "PENNY",
@@ -5649,10 +5628,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 256,
+      "id": 255,
       "key": "Unverbindlichle Preisempfehlung 1.49€",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -5670,10 +5649,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 257,
+      "id": 256,
       "key": "Unverbindlichle Preisempfehlung 1.49€",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -5691,10 +5670,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 258,
+      "id": 257,
       "key": "Unverbindlichle Preisempfehlung 1.49€",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -5712,10 +5691,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 259,
+      "id": 258,
       "key": "Unverbindlichle Preisempfehlung 1.69€",
       "name": "Unverbindlichle Preisempfehlung 1.69€",
       "store": "PENNY",
@@ -5733,10 +5712,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 260,
+      "id": 259,
       "key": "Unverbindlichle Preisempfehlung 1.69€",
       "name": "Unverbindlichle Preisempfehlung 1.69€",
       "store": "PENNY",
@@ -5754,10 +5733,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 261,
+      "id": 260,
       "key": "Unverbindlichle Preisempfehlung 1.69€",
       "name": "Unverbindlichle Preisempfehlung 1.69€",
       "store": "PENNY",
@@ -5775,10 +5754,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 262,
+      "id": 261,
       "key": "Unverbindlichle Preisempfehlung 1.79€",
       "name": "Unverbindlichle Preisempfehlung 1.79€",
       "store": "PENNY",
@@ -5796,10 +5775,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 263,
+      "id": 262,
       "key": "Unverbindlichle Preisempfehlung 1.79€",
       "name": "Unverbindlichle Preisempfehlung 1.79€",
       "store": "PENNY",
@@ -5817,10 +5796,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 264,
+      "id": 263,
       "key": "Unverbindlichle Preisempfehlung 1.99€",
       "name": "Unverbindlichle Preisempfehlung 1.99€",
       "store": "PENNY",
@@ -5838,10 +5817,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 265,
+      "id": 264,
       "key": "Unverbindlichle Preisempfehlung 1.99€",
       "name": "Unverbindlichle Preisempfehlung 1.99€",
       "store": "PENNY",
@@ -5859,10 +5838,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 266,
+      "id": 265,
       "key": "Unverbindlichle Preisempfehlung 2.29€",
       "name": "Unverbindlichle Preisempfehlung 2.29€",
       "store": "PENNY",
@@ -5880,10 +5859,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 267,
+      "id": 266,
       "key": "Unverbindlichle Preisempfehlung 2.29€",
       "name": "Unverbindlichle Preisempfehlung 2.29€",
       "store": "PENNY",
@@ -5901,10 +5880,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 268,
+      "id": 267,
       "key": "Unverbindlichle Preisempfehlung 2.69€",
       "name": "Unverbindlichle Preisempfehlung 2.69€",
       "store": "PENNY",
@@ -5922,10 +5901,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 269,
+      "id": 268,
       "key": "Unverbindlichle Preisempfehlung 2.69€",
       "name": "Unverbindlichle Preisempfehlung 2.69€",
       "store": "PENNY",
@@ -5943,10 +5922,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 270,
+      "id": 269,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -5964,10 +5943,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 271,
+      "id": 270,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -5985,10 +5964,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 272,
+      "id": 271,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -6006,10 +5985,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 273,
+      "id": 272,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -6027,10 +6006,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 274,
+      "id": 273,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -6048,10 +6027,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 275,
+      "id": 274,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -6069,10 +6048,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 276,
+      "id": 275,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -6090,10 +6069,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 277,
+      "id": 276,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -6111,10 +6090,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 278,
+      "id": 277,
       "key": "Unverbindlichle Preisempfehlung 3.59€",
       "name": "Unverbindlichle Preisempfehlung 3.59€",
       "store": "PENNY",
@@ -6132,10 +6111,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 279,
+      "id": 278,
       "key": "Unverbindlichle Preisempfehlung 3.59€",
       "name": "Unverbindlichle Preisempfehlung 3.59€",
       "store": "PENNY",
@@ -6153,10 +6132,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 280,
+      "id": 279,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -6174,10 +6153,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 281,
+      "id": 280,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -6195,10 +6174,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 282,
+      "id": 281,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -6216,10 +6195,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 283,
+      "id": 282,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -6237,10 +6216,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 284,
+      "id": 283,
       "key": "UVP 0.99 Angebotspreis 0.69€ 0.69 -40% mit App -30% MÖV",
       "name": "UVP 0.99 Angebotspreis 0.69€ 0.69 -40% mit App -30% MÖVENPICK Feinjoghurt* mit App: je 150 g (1 kg = 3.93); ohne App: je 150 g (1 kg = 4.60)",
       "store": "PENNY",
@@ -6258,10 +6237,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 285,
+      "id": 284,
       "key": "UVP 3.59 Angebotspreis 1.99€ 1.99 -50% mit App -44% MAR",
       "name": "UVP 3.59 Angebotspreis 1.99€ 1.99 -50% mit App -44% MARS Schokoriegel* mit App: je 5 x 45 g (1 kg = 7.96); ohne App: je 5 x 45 g (1 kg = 8.8",
       "store": "PENNY",
@@ -6279,10 +6258,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 286,
+      "id": 285,
       "key": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
       "name": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
       "store": "ALDI SÜD",
@@ -6300,10 +6279,10 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 287,
+      "id": 286,
       "key": "WEIHENSTEPHAN Haltbare Milch*",
       "name": "WEIHENSTEPHAN Haltbare Milch*",
       "store": "PENNY",
@@ -6321,10 +6300,10 @@
       "advertised": true,
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 288,
+      "id": 287,
       "key": "Wickeln",
       "name": "Babydream - Wickelunterlage",
       "store": "ROSSMANN",
@@ -6342,10 +6321,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 289,
+      "id": 288,
       "key": "Windeln",
       "name": "FotoweltGutscheineKarriereUnternehmenGeschäftskundenbabyweltFiliale findenAnmelden0NeuIDEENWELTMake-UpPflege & DuftBaby & SpielzeugHaushaltT",
       "store": "ROSSMANN",
@@ -6363,10 +6342,10 @@
       "advertised": true,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 290,
+      "id": 289,
       "key": "Windeln",
       "name": "Services in Ihrer FilialeGeschenkgutscheineRossmann FotoservicePrepaidkartenRücknahmegarantieTeppichreiniger-VerleihGratis WLANRücknahme Ele",
       "store": "ROSSMANN",
@@ -6384,10 +6363,10 @@
       "advertised": true,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 291,
+      "id": 290,
       "key": "Windeln",
       "name": "Alle ablehnen Alle Cookies akzeptieren",
       "store": "ROSSMANN",
@@ -6405,10 +6384,10 @@
       "advertised": true,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 292,
+      "id": 291,
       "key": "Windeln",
       "name": "SICHER BEZAHLEN",
       "store": "ROSSMANN",
@@ -6426,10 +6405,10 @@
       "advertised": true,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 293,
+      "id": 292,
       "key": "Windeln",
       "name": "Marke: babylove; Produktname: Windelbeutel mit Frischeduft, 100 St; Preis: 1,45 €; Grundpreis: 100 St (0,01 € je 1 St); Marke von dm Grafik;",
       "store": "dm",
@@ -6447,10 +6426,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 294,
+      "id": 293,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -6468,10 +6447,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 295,
+      "id": 294,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -6489,10 +6468,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 296,
+      "id": 295,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -6510,10 +6489,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 297,
+      "id": 296,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -6531,10 +6510,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 298,
+      "id": 297,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -6552,10 +6531,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 299,
+      "id": 298,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -6573,10 +6552,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 300,
+      "id": 299,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -6594,10 +6573,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 301,
+      "id": 300,
       "key": "Windeln",
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 3 Midi (6-10 kg) Monatsbox, 204 St; Preis: 55,95 €; Grundpreis: 204 St (0,27 € j",
       "store": "dm",
@@ -6615,10 +6594,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 302,
+      "id": 301,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -6636,10 +6615,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 303,
+      "id": 302,
       "key": "Windeln",
       "name": "Marke: Pampers baby-dry; Produktname: Windeln baby-dry Gr. 5 (11-16 kg) Big Economy Pack, 68 St; Preis: 19,95 €; Grundpreis: 68 St (0,29 € j",
       "store": "dm",
@@ -6657,10 +6636,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 304,
+      "id": 303,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -6678,10 +6657,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 305,
+      "id": 304,
       "key": "Windeln",
       "name": "babylove Schwimmwindeln Disney Gr. Large (10-14 kg), 12 St",
       "store": "dm",
@@ -6699,10 +6678,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 306,
+      "id": 305,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -6720,10 +6699,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 307,
+      "id": 306,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox, 174 St",
       "store": "dm",
@@ -6741,10 +6720,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 308,
+      "id": 307,
       "key": "Windeln",
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 4 Maxi (9-14 kg) Monatsbox, 174 St; Preis: 55,95 €; Grundpreis: 174 St (0,32 € j",
       "store": "dm",
@@ -6762,10 +6741,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 309,
+      "id": 308,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -6783,10 +6762,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 310,
+      "id": 309,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox, 152 St",
       "store": "dm",
@@ -6804,10 +6783,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 311,
+      "id": 310,
       "key": "Windeln",
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 5 Junior (11-16 kg) Monatsbox, 152 St; Preis: 58,95 €; Grundpreis: 152 St (0,39",
       "store": "dm",
@@ -6825,10 +6804,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 312,
+      "id": 311,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -6846,10 +6825,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 313,
+      "id": 312,
       "key": "Windeln",
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 5+ (12-17 kg) Monatsbox, 148 St; Preis: 59,95 €; Grundpreis: 148 St (0,41 € je 1",
       "store": "dm",
@@ -6867,10 +6846,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 314,
+      "id": 313,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -6888,10 +6867,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 315,
+      "id": 314,
       "key": "Windeln",
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 6 Extra Large (13+ kg) Monatsbox, 144 St; Preis: 59,95 €; Grundpreis: 144 St (0,",
       "store": "dm",
@@ -6909,10 +6888,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 316,
+      "id": 315,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -6930,10 +6909,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 317,
+      "id": 316,
       "key": "Windeln",
       "name": "Alle dm-Märkte",
       "store": "dm",
@@ -6951,10 +6930,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 318,
+      "id": 317,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -6972,10 +6951,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 319,
+      "id": 318,
       "key": "Windeln",
       "name": "dm-Markt wählen",
       "store": "dm",
@@ -6993,10 +6972,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 320,
+      "id": 319,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 1 New Born (2-5 kg) Monatsbox 180 Stück",
       "store": "ROSSMANN",
@@ -7014,10 +6993,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 321,
+      "id": 320,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 1 New Born (2-5 kg) Monatsbox 180 Stück",
       "store": "ROSSMANN",
@@ -7035,10 +7014,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 322,
+      "id": 321,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 2 Mini (4-8 kg) Monatsbox 240 Stück",
       "store": "ROSSMANN",
@@ -7056,10 +7035,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 323,
+      "id": 322,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 2 Mini (4-8 kg) Monatsbox 240 Stück",
       "store": "ROSSMANN",
@@ -7077,10 +7056,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 324,
+      "id": 323,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 204 Stück",
       "store": "ROSSMANN",
@@ -7098,10 +7077,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 325,
+      "id": 324,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 204 Stück",
       "store": "ROSSMANN",
@@ -7119,10 +7098,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 326,
+      "id": 325,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox 204 Stück",
       "store": "ROSSMANN",
@@ -7140,10 +7119,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 327,
+      "id": 326,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox 204 Stück",
       "store": "ROSSMANN",
@@ -7161,10 +7140,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 328,
+      "id": 327,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Windeln Gr. 5 Junior (11-16 kg) Monatsbox 174 Stück",
       "store": "ROSSMANN",
@@ -7182,10 +7161,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 329,
+      "id": 328,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 5 Junior (11-16 kg) Monatsbox 174 Stück",
       "store": "ROSSMANN",
@@ -7203,10 +7182,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 330,
+      "id": 329,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 174 Stück",
       "store": "ROSSMANN",
@@ -7224,10 +7203,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 331,
+      "id": 330,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox 174 Stück",
       "store": "ROSSMANN",
@@ -7245,10 +7224,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 332,
+      "id": 331,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox 160 Stück",
       "store": "ROSSMANN",
@@ -7266,10 +7245,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 333,
+      "id": 332,
       "key": "Windeln",
       "name": "Baby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox 160 Stück",
       "store": "ROSSMANN",
@@ -7287,10 +7266,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 334,
+      "id": 333,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Windeln Gr. 6 Extra Large (13-18 kg) Monatsbox 148 Stück",
       "store": "ROSSMANN",
@@ -7308,10 +7287,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 335,
+      "id": 334,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 6 Extra Large (13-18 kg) Monatsbox 148 Stück",
       "store": "ROSSMANN",
@@ -7329,10 +7308,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 336,
+      "id": 335,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox 152 Stück",
       "store": "ROSSMANN",
@@ -7350,10 +7329,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 337,
+      "id": 336,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox 152 Stück",
       "store": "ROSSMANN",
@@ -7371,10 +7350,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 338,
+      "id": 337,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Pants Gr. 6 Extra Large (14-19 kg) Monatsbox 138 Stück",
       "store": "ROSSMANN",
@@ -7392,10 +7371,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 339,
+      "id": 338,
       "key": "Windeln",
       "name": "Baby Dry Pants Gr. 6 Extra Large (14-19 kg) Monatsbox 138 Stück",
       "store": "ROSSMANN",
@@ -7413,10 +7392,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 340,
+      "id": 339,
       "key": "Windeln",
       "name": "Pampers - Baby Dry Windeln Gr. 7 Extra Large (15+ kg) Monatsbox 132 Stück",
       "store": "ROSSMANN",
@@ -7434,10 +7413,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 341,
+      "id": 340,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 7 Extra Large (15+ kg) Monatsbox 132 Stück",
       "store": "ROSSMANN",
@@ -7455,10 +7434,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 342,
+      "id": 341,
       "key": "Windeln",
       "name": "Pampers - Premium Protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox 144 Stück",
       "store": "ROSSMANN",
@@ -7476,10 +7455,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 343,
+      "id": 342,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox 144 Stück",
       "store": "ROSSMANN",
@@ -7497,10 +7476,10 @@
       "advertised": false,
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 344,
+      "id": 343,
       "key": "Windeln",
       "name": "Du verwendest einen veralteten Browser. Dadurch kommt es zu Darstellungs- und Funktionsfehlern auf dm.de. Bitte nutze Google Chrome, Mozilla",
       "store": "dm",
@@ -7518,10 +7497,10 @@
       "advertised": false,
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 345,
+      "id": 344,
       "key": "Wurst",
       "name": "18% billiger",
       "store": "NORMA",
@@ -7539,10 +7518,10 @@
       "advertised": false,
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 346,
+      "id": 345,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -7560,10 +7539,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 347,
+      "id": 346,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -7581,10 +7560,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 348,
+      "id": 347,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -7602,10 +7581,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 349,
+      "id": 348,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -7623,10 +7602,10 @@
       "advertised": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
-      "id": 350,
+      "id": 349,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -7644,7 +7623,7 @@
       "advertised": true,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T13:49:56.785Z"
+      "importedAt": "2026-08-19T13:58:02.748Z"
     },
     {
       "key": "Zespri Kiwi Jumbo „Grün“ oder „Gold“",
@@ -7665,8 +7644,8 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
-      "id": 351
+      "importedAt": "2026-08-19T13:59:32.822Z",
+      "id": 350
     },
     {
       "key": "Zwetschgen",
@@ -7687,17 +7666,17 @@
       "sourceUrl": "https://www.edeka.de/maerkte/030244/",
       "sourceScope": "market",
       "sourceTransport": "reader",
-      "importedAt": "2026-08-19T13:51:34.603Z",
-      "id": 352
+      "importedAt": "2026-08-19T13:59:32.822Z",
+      "id": 351
     }
   ],
-  "httpFallbackAt": "2026-08-19T13:51:28.511Z",
-  "readerFallbackAt": "2026-08-19T13:51:34.603Z",
-  "nettoReaderAt": "2026-08-19T13:51:38.129Z",
+  "httpFallbackAt": "2026-08-19T13:59:28.085Z",
+  "readerFallbackAt": "2026-08-19T13:59:32.822Z",
+  "nettoReaderAt": "2026-08-19T13:59:34.872Z",
   "quality": {
-    "sanitizedAt": "2026-08-19T13:52:02.957Z",
-    "before": 382,
-    "after": 352,
+    "sanitizedAt": "2026-08-19T13:59:55.389Z",
+    "before": 381,
+    "after": 351,
     "rejected": 30,
     "repaired": 94
   }
