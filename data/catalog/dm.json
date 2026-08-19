@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-19T20:05:49.944Z",
+  "retailer": "dm",
+  "catalogStatus": "unavailable",
+  "branches": [
+    {
+      "market": "München-Riem Arcaden",
+      "address": "Willy-Brandt-Platz 5, 81829 München",
+      "isRiemArcaden": true
+    },
+    {
+      "market": "Aschheim Ohmstraße",
+      "address": "Ohmstraße 3, 85609 Aschheim",
+      "isRiemArcaden": false
+    },
+    {
+      "market": "Aschheim Theodor-Fontane-Straße",
+      "address": "Theodor-Fontane-Straße 14, 85609 Aschheim",
+      "isRiemArcaden": false
+    }
+  ],
+  "productCount": 0,
+  "sources": [
+    {
+      "category": "Haushalt",
+      "url": "https://www.dm.de/haushalt",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "category": "Körperpflege",
+      "url": "https://www.dm.de/pflege-und-parfum",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "category": "Haarpflege",
+      "url": "https://www.dm.de/haare",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "category": "Mundpflege",
+      "url": "https://www.dm.de/mund-und-zahnpflege",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "category": "Baby & Kleinkind",
+      "url": "https://www.dm.de/baby-und-kind",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "category": "Lebensmittel",
+      "url": "https://www.dm.de/ernaehrung",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "category": "Tierbedarf",
+      "url": "https://www.dm.de/tier",
+      "status": "ok",
+      "count": 0
+    }
+  ],
+  "products": []
+}

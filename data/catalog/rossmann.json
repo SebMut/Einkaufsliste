@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-19T20:05:49.944Z",
+  "retailer": "ROSSMANN",
+  "catalogStatus": "unavailable",
+  "branches": [
+    {
+      "market": "Kirchheim-Heimstetten",
+      "address": "Am Gangsteig 5, 85551 Kirchheim",
+      "isRiemArcaden": false
+    }
+  ],
+  "productCount": 0,
+  "sources": [
+    {
+      "category": "Haushalt",
+      "url": "https://www.rossmann.de/de/haushalt/c/olcat1_3",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "category": "Körperpflege",
+      "url": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "category": "Baby & Kleinkind",
+      "url": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
+      "status": "ok",
+      "count": 0
+    }
+  ],
+  "products": []
+}
