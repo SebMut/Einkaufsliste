@@ -1,0 +1,29 @@
+name: Lidl Leaflets API Probe
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'importer/lidl-api-probe.js'
+      - '.github/workflows/lidl-api-probe.yml'
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Probe
+        working-directory: importer
+        run: node lidl-api-probe.js
+      - name: Publish
+        run: |
+          git config user.name "AngebotsRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/lidl-api-probe.log
+          git commit -m "Lidl Leaflets API Probe aktualisieren" || exit 0
+          git pull --rebase origin main
+          git push origin main
