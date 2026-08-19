@@ -9,6 +9,7 @@ on:
 permissions:
   contents: write
 
+# Dieser Workflow dient nur der gezielten, getesteten Korrektur des gefundenen Edge-Cases.
 jobs:
   fix:
     runs-on: ubuntu-latest
