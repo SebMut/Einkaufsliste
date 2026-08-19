@@ -1,0 +1,7 @@
+{
+  "name": "angebotsradar-live-importer",
+  "private": true,
+  "type": "module",
+  "scripts": {"import": "node import.js"},
+  "dependencies": {"playwright": "1.55.0"}
+}
