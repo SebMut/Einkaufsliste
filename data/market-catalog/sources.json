@@ -19,5 +19,7 @@
   {"store":"Netto","market":"München-Trudering","address":"Truderinger Straße 217, 81825 München","url":"https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317","scope":"market","type":"Discounter","importStatus":"partial"},
   {"store":"Netto","market":"München-Berg am Laim","address":"Neumarkter Straße 64, 81673 München","url":"https://www.netto-online.de/filialfinder","scope":"market","type":"Discounter","importStatus":"partial"},
   {"store":"Kaufland","market":"München-Berg am Laim","address":"Berg-am-Laim-Straße 117, 81673 München","url":"https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html","scope":"market","type":"Supermarkt","importStatus":"partial"},
+  {"store":"Alnatura","market":"München-Trudering","address":"Hafelhofweg 2, 81825 München","url":"https://www.alnatura.de/de-de/angebote/","scope":"regional","type":"Bio-Supermarkt","importStatus":"partial"},
+  {"store":"Denns BioMarkt","market":"München-Kreillerstraße","address":"Kreillerstraße 211, 81825 München","url":"https://www.biomarkt.de/muenchen-kreillerstr-211/angebote/","scope":"market","type":"Bio-Supermarkt","importStatus":"partial"},
   {"store":"METRO","market":"München-Freimann","address":"Helene-Wessel-Bogen 39, 80939 München","url":"https://www.metro.de/angebote","scope":"market","type":"Großhandel","distanceKm":11.0,"importStatus":"login_required"}
 ]
