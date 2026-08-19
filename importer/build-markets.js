@@ -5,7 +5,10 @@ const ROOT=path.resolve(process.cwd(),'..');
 const catalogDir=path.join(ROOT,'data','market-catalog');
 const partNames=['part-01.json','part-02.json','part-03.json','part-04.json','part-05.json'];
 const parts=await Promise.all(partNames.map(async n=>JSON.parse(await fs.readFile(path.join(catalogDir,n),'utf8'))));
-const sources=JSON.parse(await fs.readFile(path.join(catalogDir,'sources.json'),'utf8'));
+const baseSources=JSON.parse(await fs.readFile(path.join(catalogDir,'sources.json'),'utf8'));
+let extraSources=[];
+try{extraSources=JSON.parse(await fs.readFile(path.join(catalogDir,'sources-extra.json'),'utf8'))}catch{}
+const sources=[...baseSources,...extraSources];
 const raw=parts.flat();
 
 const normalize=s=>String(s??'').toLocaleLowerCase('de-DE').replace(/straße/g,'str').replace(/strasse/g,'str').replace(/\s+/g,' ').trim();
