@@ -7,7 +7,8 @@ const markets = JSON.parse(await fs.readFile(path.join(ROOT, 'data/markets.json'
 const generatedAt = new Date().toISOString();
 
 const KEY_RULES = [
-  ['Windeln', /\bwindel(?:n|hose|beutel)?\b|pants\b|pull[- ]?ups?\b/i],
+  ['Windelbeutel', /\bwindelbeutel\b/i],
+  ['Windeln', /\bwindeln?\b|windelhose|\bpants\b|pull[- ]?ups?\b/i],
   ['Feuchttücher', /feucht(?:e)?tücher|feuchte waschlappen|wipes\b/i],
   ['Babymilch', /\b(?:pre|anfangs|folge|kinder)milch\b|säuglings(?:anfangs|folge)nahrung|milchnahrung/i],
   ['Babybrei', /\bbabybrei\b|\bbrei\b.*(?:monat|baby|kind)|getreidebrei|milchbrei/i],
