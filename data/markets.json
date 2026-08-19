@@ -1,6 +1,6 @@
 {
   "schema": 7,
-  "generatedAt": "2026-08-19T19:15:06.496Z",
+  "generatedAt": "2026-08-19T19:16:36.320Z",
   "center": {
     "name": "85622 Feldkirchen bei München",
     "lat": 48.145,
@@ -2760,6 +2760,24 @@
       "url": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "scope": "market",
       "type": "Supermarkt",
+      "importStatus": "partial"
+    },
+    {
+      "store": "Alnatura",
+      "market": "München-Trudering",
+      "address": "Hafelhofweg 2, 81825 München",
+      "url": "https://www.alnatura.de/de-de/angebote/",
+      "scope": "regional",
+      "type": "Bio-Supermarkt",
+      "importStatus": "partial"
+    },
+    {
+      "store": "Denns BioMarkt",
+      "market": "München-Kreillerstraße",
+      "address": "Kreillerstraße 211, 81825 München",
+      "url": "https://www.biomarkt.de/muenchen-kreillerstr-211/angebote/",
+      "scope": "market",
+      "type": "Bio-Supermarkt",
       "importStatus": "partial"
     },
     {
