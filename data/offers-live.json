@@ -173,10 +173,10 @@
       "url": "https://www.hit.de/maerkte/parsdorf/angebote",
       "scope": "market",
       "status": "ok",
-      "count": 1,
-      "message": "1 streng geprüfte Angebote",
+      "count": 80,
+      "message": "80 streng geprüfte Angebote",
       "durationMs": 8494,
-      "transport": "hit-segment-reader"
+      "transport": "hit-nested-reader"
     },
     {
       "store": "ALDI SÜD",
@@ -274,7 +274,7 @@
       "durationMs": 6901
     }
   ],
-  "offerCount": 210,
+  "offerCount": 289,
   "offers": [
     {
       "key": "7 DAYS Croissants 7 DAYS Croissants je 4 St. = 240-g-Pa",
@@ -295,8 +295,30 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
+      "importedAt": "2026-08-19T15:45:26.962Z",
       "id": 1
+    },
+    {
+      "key": "Adelholzener Active 02 0,75 l oder Rauch Eistee 1,25 l ",
+      "name": "Adelholzener Active 02 0,75 l oder Rauch Eistee 1,25 l versch. Sorten PET EW Flasche",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Kaffee & Frühstück",
+      "size": "1,25 l",
+      "price": 1,
+      "unit": 0.8,
+      "unitLabel": "€/l",
+      "icon": "☕",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481307?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 2
     },
     {
       "key": "alpro Soya-, Hafer- oder This is not Milk-Drink",
@@ -318,10 +340,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 2
+      "id": 3
     },
     {
-      "id": 3,
+      "id": 4,
       "key": "Äpfel",
       "name": "Äpfel Krumme Dinger",
       "store": "ALDI SÜD",
@@ -361,10 +383,54 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 4
+      "id": 5
     },
     {
-      "id": 5,
+      "key": "Äpfel",
+      "name": "hohes C Mehrfrucht-Saft versch. Sorten, Milder Apfelsaft oder Multivitamin 100 % Orange für 2,39 € 1 l PET Flasche",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 l",
+      "price": 1.79,
+      "unit": 1.79,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481327?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 6
+    },
+    {
+      "key": "Äpfel",
+      "name": "Wolfra Apfelsaft versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 l",
+      "price": 1.89,
+      "unit": 1.89,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481416?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 7
+    },
+    {
+      "id": 8,
       "key": "Äpfel",
       "name": "PINK LADY Rote Äpfel",
       "store": "PENNY",
@@ -383,6 +449,28 @@
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
       "importedAt": "2026-08-19T14:11:40.697Z"
+    },
+    {
+      "key": "Äpfel",
+      "name": "Italien Clubäpfel Pink Lady oder Pinkids Sorte: Cripps Pink Klasse I 1000g -",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "800g",
+      "price": 2.49,
+      "unit": 3.113,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27560491?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 9
     },
     {
       "key": "Babybrei",
@@ -404,10 +492,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 6
+      "id": 10
     },
     {
-      "id": 7,
+      "id": 11,
       "key": "Babybrei",
       "name": "Kölln Getreidebrei Hafer Schmelzflocken ab dem 5. Monat",
       "store": "dm",
@@ -428,7 +516,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 8,
+      "id": 12,
       "key": "Babybrei",
       "name": "Cerelac Junior Multifrucht & Crisps Getreidebrei",
       "store": "ROSSMANN",
@@ -449,7 +537,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 9,
+      "id": 13,
       "key": "Babydream - Wickelunterlage",
       "name": "Babydream - Wickelunterlage",
       "store": "ROSSMANN",
@@ -470,7 +558,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 10,
+      "id": 14,
       "key": "babylove Desinfektionstücher",
       "name": "babylove Desinfektionstücher",
       "store": "dm",
@@ -491,7 +579,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 11,
+      "id": 15,
       "key": "babylove Feuchte Waschlappen",
       "name": "babylove Feuchte Waschlappen",
       "store": "dm",
@@ -512,7 +600,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 12,
+      "id": 16,
       "key": "babylove Flaschen- und Saugerbürste",
       "name": "babylove Flaschen- und Saugerbürste",
       "store": "dm",
@@ -533,7 +621,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 13,
+      "id": 17,
       "key": "babylove Flaschenbürste Premium",
       "name": "babylove Flaschenbürste Premium",
       "store": "dm",
@@ -554,7 +642,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 14,
+      "id": 18,
       "key": "babylove Milchpulverbox mit Portionierlöffel",
       "name": "babylove Milchpulverbox mit Portionierlöffel",
       "store": "dm",
@@ -575,7 +663,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 15,
+      "id": 19,
       "key": "babylove Nagelschere Baby antiallergen",
       "name": "babylove Nagelschere Baby antiallergen",
       "store": "dm",
@@ -596,7 +684,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 16,
+      "id": 20,
       "key": "babylove Reinigungs Wattepads",
       "name": "babylove Reinigungs Wattepads",
       "store": "dm",
@@ -617,7 +705,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 17,
+      "id": 21,
       "key": "babylove Schnuller Naturlatex, symmetrisch, beige/lila,",
       "name": "babylove Schnuller Naturlatex, symmetrisch, beige/lila, Gr. 2, 5-18 Monate",
       "store": "dm",
@@ -638,7 +726,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 18,
+      "id": 22,
       "key": "babylove Sicherheits-Wattestäbchen",
       "name": "babylove Sicherheits-Wattestäbchen",
       "store": "dm",
@@ -659,7 +747,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 19,
+      "id": 23,
       "key": "babylove Snack-Piekser",
       "name": "babylove Snack-Piekser",
       "store": "dm",
@@ -680,7 +768,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 20,
+      "id": 24,
       "key": "babylove Sonnenspray Baby ultra sensitive LSF 50+",
       "name": "babylove Sonnenspray Baby ultra sensitive LSF 50+",
       "store": "dm",
@@ -701,7 +789,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 21,
+      "id": 25,
       "key": "babylove Trinkflasche Kinder Edelstahl beige Flamingo",
       "name": "babylove Trinkflasche Kinder Edelstahl beige Flamingo",
       "store": "dm",
@@ -722,7 +810,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 22,
+      "id": 26,
       "key": "babylove Trinkflasche Kinder Edelstahl beige Löwe",
       "name": "babylove Trinkflasche Kinder Edelstahl beige Löwe",
       "store": "dm",
@@ -743,7 +831,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 23,
+      "id": 27,
       "key": "Babymilch",
       "name": "Bebivita Anfangsmilch Pre von Geburt an",
       "store": "dm",
@@ -764,7 +852,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 24,
+      "id": 28,
       "key": "Babymilch",
       "name": "BEBA - 2 Folgemilch nach dem 6. Monat",
       "store": "ROSSMANN",
@@ -785,7 +873,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 25,
+      "id": 29,
       "key": "Babymilch",
       "name": "BEBA - 3 Folgemilch ab dem 10. Monat",
       "store": "ROSSMANN",
@@ -806,7 +894,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 26,
+      "id": 30,
       "key": "Babymilch",
       "name": "HiPP Anfangsmilch Pre Combiotik von Geburt an",
       "store": "dm",
@@ -827,7 +915,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 27,
+      "id": 31,
       "key": "Babymilch",
       "name": "HiPP Anfangsmilch Pre HA Combiotik von Geburt an",
       "store": "dm",
@@ -846,6 +934,28 @@
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceScope": "regional",
       "importedAt": "2026-08-19T14:11:40.697Z"
+    },
+    {
+      "key": "Bacardi Carta Blanca, Spiced oder Flavoured Rum",
+      "name": "Bacardi Carta Blanca, Spiced oder Flavoured Rum",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "0,7 l",
+      "price": 10.99,
+      "unit": 15.7,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481171?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 32
     },
     {
       "key": "Banane-Kirsch-Getränk",
@@ -867,7 +977,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 28
+      "id": 33
     },
     {
       "key": "Bayerische Mini Gurken",
@@ -889,7 +999,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 29
+      "id": 34
     },
     {
       "key": "Beeren",
@@ -910,11 +1020,11 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 30
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 35
     },
     {
-      "id": 31,
+      "id": 36,
       "key": "Beeren",
       "name": "Heidelbeeren",
       "store": "ALDI SÜD",
@@ -935,7 +1045,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 32,
+      "id": 37,
       "key": "Beeren",
       "name": "Himbeeren",
       "store": "ALDI SÜD",
@@ -956,6 +1066,28 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
+      "key": "Beeren",
+      "name": "Verpoorten oder Birkenhof Eierlikör 20/17% vol. mit Himbeergeist verfeinert 0,7/0,5 l Flasche",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "0,5 l",
+      "price": 10.99,
+      "unit": 21.98,
+      "unitLabel": "€/l",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481118?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 38
+    },
+    {
       "key": "BEN & JERRY'S Eis BEN & JERRY'S Eis je 427 - 465-ml-Pac",
       "name": "BEN & JERRY'S Eis BEN & JERRY'S Eis je 427 - 465-ml-Packg.",
       "store": "Kaufland",
@@ -974,8 +1106,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 33
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 39
     },
     {
       "key": "Bertolli Olivenöl",
@@ -997,7 +1129,73 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 34
+      "id": 40
+    },
+    {
+      "key": "Bier",
+      "name": "Oettinger Pils oder Export",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "20 x 0,5 l",
+      "price": 6.99,
+      "unit": 0.699,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27780102?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 41
+    },
+    {
+      "key": "Bier",
+      "name": "König Ludwig Weissbier oder Oberbräu Hell versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "20 x 0,5 l",
+      "price": 14.99,
+      "unit": 1.499,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27780100?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 42
+    },
+    {
+      "key": "Bier",
+      "name": "Paulaner Weissbier versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "20 x 0,5l",
+      "price": 14.99,
+      "unit": 1.499,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481415?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 43
     },
     {
       "key": "Bier",
@@ -1019,7 +1217,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 35
+      "id": 44
     },
     {
       "key": "Bier",
@@ -1041,7 +1239,29 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 36
+      "id": 45
+    },
+    {
+      "key": "BioRebe oder Käfer Rebsortenweine versch. Sorten mittel",
+      "name": "BioRebe oder Käfer Rebsortenweine versch. Sorten mittelkräftig, fruchtige Aromen, harmonisch und frisch, trocken.",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "0,75 l",
+      "price": 4.49,
+      "unit": 5.987,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27303466?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 46
     },
     {
       "key": "Biscoff Stieleis",
@@ -1063,7 +1283,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 37
+      "id": 47
     },
     {
       "key": "Biscoff Stieleis Mini",
@@ -1085,7 +1305,51 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 38
+      "id": 48
+    },
+    {
+      "key": "Bonne Maman Konfitüre oder Weniger Zucker, mehr Frucht ",
+      "name": "Bonne Maman Konfitüre oder Weniger Zucker, mehr Frucht versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Kaffee & Frühstück",
+      "size": "380-335 g",
+      "price": 2.49,
+      "unit": 6.55,
+      "unitLabel": "€/kg ab",
+      "icon": "☕",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480646?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 49
+    },
+    {
+      "key": "Bree Rosé Secco, Limoncello, Spritz Aperitivo oder Mayb",
+      "name": "Bree Rosé Secco, Limoncello, Spritz Aperitivo oder Maybach Weinschorle 0,275 l Flasche/0,2 l Dose",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "0,2 l",
+      "price": 1,
+      "unit": 5,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481295?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 50
     },
     {
       "key": "Brot",
@@ -1106,11 +1370,11 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 39
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 51
     },
     {
-      "id": 40,
+      "id": 52,
       "key": "Brot",
       "name": "RAMA Brot­aufstrich",
       "store": "PENNY",
@@ -1150,10 +1414,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 41
+      "id": 53
     },
     {
-      "id": 42,
+      "id": 54,
       "key": "Bund",
       "name": "Bund",
       "store": "PENNY",
@@ -1192,8 +1456,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 43
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 55
     },
     {
       "key": "Butter",
@@ -1215,10 +1479,32 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 44
+      "id": 56
     },
     {
-      "id": 45,
+      "key": "Butter",
+      "name": "Meggle Feine Butter, Joghurtbutter oder Streichzart",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "250 g",
+      "price": 1.11,
+      "unit": 4.44,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27780082?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 57
+    },
+    {
+      "id": 58,
       "key": "Butter",
       "name": "Butter",
       "store": "ALDI SÜD",
@@ -1258,7 +1544,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 46
+      "id": 59
     },
     {
       "key": "Cola",
@@ -1279,11 +1565,11 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 47
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 60
     },
     {
-      "id": 48,
+      "id": 61,
       "key": "Cola",
       "name": "Rucola",
       "store": "ALDI SÜD",
@@ -1323,7 +1609,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:57:08.599Z",
-      "id": 49
+      "id": 62
     },
     {
       "key": "Delikatess Sauce",
@@ -1345,10 +1631,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 50
+      "id": 63
     },
     {
-      "id": 51,
+      "id": 64,
       "key": "Deutsche Bundmöhren",
       "name": "Deutsche Bundmöhren",
       "store": "PENNY",
@@ -1367,6 +1653,138 @@
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
       "importedAt": "2026-08-19T14:11:40.697Z"
+    },
+    {
+      "key": "Deutscher frischer Jungbullen-Schmorbraten, Gulasch vom",
+      "name": "Deutscher frischer Jungbullen-Schmorbraten, Gulasch vom Zungenstück",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Fleisch & Fisch",
+      "size": "100 g",
+      "price": 1.79,
+      "unit": 17.9,
+      "unitLabel": "€/kg",
+      "icon": "🥩",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480803?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 65
+    },
+    {
+      "key": "Deutschland  HIT Broccoli Klasse II kaum Kalorien, gut ",
+      "name": "Deutschland Bio HIT Broccoli Klasse II kaum Kalorien, gut verdaulich, als Schonkost geeignet",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "300 g",
+      "price": 1.79,
+      "unit": 5.967,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": true,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27802021?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 66
+    },
+    {
+      "key": "Deutschland Pflaumen Sorte: Sweet Violet Klasse I süß, ",
+      "name": "Deutschland Pflaumen Sorte: Sweet Violet Klasse I süß, aromatisch und saftig 1 kg Lose",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 3.99,
+      "unit": 3.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27802017?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 67
+    },
+    {
+      "key": "Dr. Oetker Gala Pudding versch. Sorten",
+      "name": "Dr. Oetker Gala Pudding versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "123-111 g",
+      "price": 1,
+      "unit": 8.13,
+      "unitLabel": "€/kg ab",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481276?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 68
+    },
+    {
+      "key": "Dr. Oetker Grütze oder Sahne Pudding versch. Sorten",
+      "name": "Dr. Oetker Grütze oder Sahne Pudding versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "500 g",
+      "price": 1.99,
+      "unit": 3.98,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481037?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 69
+    },
+    {
+      "key": "Dr. Oetker Süße Mahlzeit versch. Sorten",
+      "name": "Dr. Oetker Süße Mahlzeit versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "190-76 g",
+      "price": 1,
+      "unit": 5.26,
+      "unitLabel": "€/kg ab",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481290?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 70
     },
     {
       "key": "duplo oder kinder Riegel",
@@ -1388,10 +1806,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 52
+      "id": 71
     },
     {
-      "id": 53,
+      "id": 72,
       "key": "e) Preisvorteil gegenüber dem Grundpreis einer Standard",
       "name": "e) Preisvorteil gegenüber dem Grundpreis einer Standardpackung",
       "store": "Lidl",
@@ -1431,7 +1849,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 54
+      "id": 73
     },
     {
       "key": "EDEKA Herzstücke High Protein Fertiggericht",
@@ -1453,7 +1871,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 55
+      "id": 74
     },
     {
       "key": "EDEKA Herzstücke High Protein fettarme Quarkcreme",
@@ -1475,7 +1893,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 56
+      "id": 75
     },
     {
       "key": "EDEKA Herzstücke Hummus",
@@ -1497,7 +1915,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 57
+      "id": 76
     },
     {
       "key": "Edle Tropfen in Nuss",
@@ -1519,10 +1937,32 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 58
+      "id": 77
     },
     {
-      "id": 59,
+      "key": "Exquisa Quark Creme oder Quark Genuss 0,2 % Fett versch",
+      "name": "Exquisa Quark Creme oder Quark Genuss 0,2 % Fett versch. Sorten 500-375 g Becher",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "500-375 g",
+      "price": 1.49,
+      "unit": 2.98,
+      "unitLabel": "€/kg ab",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481044?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 78
+    },
+    {
+      "id": 79,
       "key": "extra sensitiv Feuchttücher Spar-Pack",
       "name": "extra sensitiv Feuchttücher Spar-Pack",
       "store": "ROSSMANN",
@@ -1543,7 +1983,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 60,
+      "id": 80,
       "key": "extra sensitiv Feuchttücher XXL Spar-Pack",
       "name": "extra sensitiv Feuchttücher XXL Spar-Pack",
       "store": "ROSSMANN",
@@ -1562,6 +2002,28 @@
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "sourceScope": "regional",
       "importedAt": "2026-08-19T14:11:40.697Z"
+    },
+    {
+      "key": "Ferrero Milchschnitte 10er oder Kinder Pingui 8er versc",
+      "name": "Ferrero Milchschnitte 10er oder Kinder Pingui 8er versch. Sorten Kinder Pingui Classic + 1 GRATIS",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "308-240 g",
+      "price": 2.39,
+      "unit": 7.76,
+      "unitLabel": "€/kg ab",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481045?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 81
     },
     {
       "key": "Fischstäbchen",
@@ -1583,10 +2045,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 61
+      "id": 82
     },
     {
-      "id": 62,
+      "id": 83,
       "key": "FRECHE FREUNDE Quetschie Sparpack",
       "name": "FRECHE FREUNDE Quetschie Sparpack",
       "store": "PENNY",
@@ -1626,10 +2088,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 63
+      "id": 84
     },
     {
-      "id": 64,
+      "id": 85,
       "key": "FRUCHTBAR Pausenfreund Kindersnack Kakao Waffeln ab 3 J",
       "name": "FRUCHTBAR Pausenfreund Kindersnack Kakao Waffeln ab 3 Jahren",
       "store": "dm",
@@ -1669,7 +2131,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 65
+      "id": 86
     },
     {
       "key": "Frühstücksfleisch",
@@ -1691,7 +2153,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 66
+      "id": 87
     },
     {
       "key": "Goooal Eissandwich",
@@ -1713,7 +2175,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 67
+      "id": 88
     },
     {
       "key": "Gut&Günstig Nektarinen",
@@ -1735,10 +2197,32 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 68
+      "id": 89
     },
     {
-      "id": 69,
+      "key": "Hackfleisch",
+      "name": "Deutsches frisches Hackfleisch, Mett, Hacksteaks vom Schwein, auch nach Jägerart gewürzt",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 5.55,
+      "unit": 5.55,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480806?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 90
+    },
+    {
+      "id": 91,
       "key": "Hackfleisch",
       "name": "Hackfleisch vom Rind",
       "store": "ALDI SÜD",
@@ -1759,7 +2243,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 70,
+      "id": 92,
       "key": "Hackfleisch",
       "name": "Rind Hackfleisch 5 % Fett",
       "store": "ALDI SÜD",
@@ -1799,7 +2283,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 71
+      "id": 93
     },
     {
       "key": "Hähnchen",
@@ -1821,10 +2305,32 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 72
+      "id": 94
     },
     {
-      "id": 73,
+      "key": "Hähnchen",
+      "name": "Gutfried Puten-/ Hähnchenbrust gebraten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Fleisch & Fisch",
+      "size": "80 g",
+      "price": 1.79,
+      "unit": 22.375,
+      "unitLabel": "€/kg",
+      "icon": "🥩",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481001?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 95
+    },
+    {
+      "id": 96,
       "key": "Helle, kernlose Tafeltrauben",
       "name": "Helle, kernlose Tafeltrauben",
       "store": "PENNY",
@@ -1845,7 +2351,29 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 74,
+      "key": "Herta Finesse versch. Sorten 100 g SB-Packung",
+      "name": "Herta Finesse versch. Sorten 100 g SB-Packung",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 1.69,
+      "unit": 16.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480998?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 97
+    },
+    {
+      "id": 98,
       "key": "Himalaya Basmatireis",
       "name": "Himalaya Basmatireis",
       "store": "ALDI SÜD",
@@ -1885,7 +2413,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 75
+      "id": 99
     },
     {
       "key": "Jacobs Krönung",
@@ -1907,7 +2435,29 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 76
+      "id": 100
+    },
+    {
+      "key": "Jägermeister Kräuterlikör oder Jägermeister Orange 33/3",
+      "name": "Jägermeister Kräuterlikör oder Jägermeister Orange 33/35% vol.",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,7 l",
+      "price": 11.99,
+      "unit": 17.129,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481160?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 101
     },
     {
       "key": "Joghurt",
@@ -1928,11 +2478,11 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 77
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 102
     },
     {
-      "id": 78,
+      "id": 103,
       "key": "Joghurt",
       "name": "MILPRIMA Joghurt Crisp",
       "store": "PENNY",
@@ -1953,7 +2503,51 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 79,
+      "key": "Joghurt",
+      "name": "Zillertaler Heumilchjoghurt Frucht oder Natur versch. Sorten, 3,5 % Fett 200-180 g Becher",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "200-180 g",
+      "price": 0.59,
+      "unit": 2.95,
+      "unitLabel": "€/kg ab",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481046?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 104
+    },
+    {
+      "key": "Joghurt",
+      "name": "Weihenstephan Rahmjoghurt oder Mascarpone Joghurt versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "150 g",
+      "price": 0.49,
+      "unit": 3.267,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481042?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 105
+    },
+    {
+      "id": 106,
       "key": "Joghurt",
       "name": "MÖVENPICK Feinjoghurt",
       "store": "PENNY",
@@ -1975,6 +2569,28 @@
     },
     {
       "key": "Kaffee",
+      "name": "Bärenmarke Eiskaffee versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Kaffee & Frühstück",
+      "size": "1 l",
+      "price": 1.49,
+      "unit": 1.49,
+      "unitLabel": "€/l",
+      "icon": "☕",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481047?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 107
+    },
+    {
+      "key": "Kaffee",
       "name": "Haltbarer Eiskaffee / Kakao",
       "store": "NORMA",
       "market": "Region Feldkirchen",
@@ -1993,10 +2609,32 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 80
+      "id": 108
     },
     {
-      "id": 81,
+      "key": "Kaffee",
+      "name": "Bärenmarke Kaffeemilch 7,5/4 % Fett",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "340 g",
+      "price": 1.49,
+      "unit": 4.382,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481303?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 109
+    },
+    {
+      "id": 110,
       "key": "Kaffee",
       "name": "MILPRIMA Kaffeesahne* je 20 x",
       "store": "PENNY",
@@ -2018,7 +2656,7 @@
     },
     {
       "key": "Kaffee",
-      "name": "kaffee gemahlen versch. Sorten",
+      "name": "Eilles Gourmet, Idee Kaffee oder Mövenpick Classic Filterkaffee gemahlen versch. Sorten",
       "store": "HIT",
       "market": "Parsdorf",
       "address": "Am Lerchenfeld 3, 85599 Parsdorf",
@@ -2032,11 +2670,11 @@
       "app": false,
       "coupon": false,
       "advertised": true,
-      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceUrl": "https://www.hit.de/angebot/27480643?store=1766",
       "sourceScope": "market",
-      "sourceTransport": "hit-segment-reader",
-      "importedAt": "2026-08-19T15:37:21.251Z",
-      "id": 82
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 111
     },
     {
       "key": "Kaffee",
@@ -2058,7 +2696,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 83
+      "id": 112
     },
     {
       "key": "Kartoffeln",
@@ -2080,10 +2718,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:57:08.599Z",
-      "id": 84
+      "id": 113
     },
     {
-      "id": 85,
+      "id": 114,
       "key": "Kartoffeln",
       "name": "Deutsche Speisefrühkartoffeln* je 4-kg-Netz",
       "store": "PENNY",
@@ -2104,6 +2742,72 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
+      "key": "Kartoffeln",
+      "name": "Henglein Kartoffelpufferteig",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "750 g",
+      "price": 2.49,
+      "unit": 3.32,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481025?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 115
+    },
+    {
+      "key": "Kartoffeln",
+      "name": "Knorr Pasta-/Kartoffelsnack oder Asia Noodles versch. Sorten 89-48 g Beutel/Packung",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "89-48 g",
+      "price": 1,
+      "unit": 11.24,
+      "unitLabel": "€/kg ab",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481315?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 116
+    },
+    {
+      "key": "Käse",
+      "name": "Beemster Bio mild Holländischer Bio-Schnittkäse 48 % Fett i. Tr. 5 Wochen gereift, aus 100 % Weidemilch",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "100 g",
+      "price": 1.79,
+      "unit": 17.9,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": true,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480903?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 117
+    },
+    {
       "key": "Käse",
       "name": "HOCHLAND Schmelzkäse HOCHLAND Schmelzkäse je 150 - 200-g-Packg.",
       "store": "Kaufland",
@@ -2122,8 +2826,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 86
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 118
     },
     {
       "key": "Käse",
@@ -2145,7 +2849,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 87
+      "id": 119
     },
     {
       "key": "Käse",
@@ -2167,7 +2871,29 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 88
+      "id": 120
+    },
+    {
+      "key": "Käse",
+      "name": "Galbani Mozzarella 125 g Kugel",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "125 g",
+      "price": 1.11,
+      "unit": 8.88,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480941?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 121
     },
     {
       "key": "Käse",
@@ -2189,10 +2915,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 89
+      "id": 122
     },
     {
-      "id": 90,
+      "id": 123,
       "key": "Käse",
       "name": "Käsescheiben 260 g, Benjamin",
       "store": "ALDI SÜD",
@@ -2214,6 +2940,72 @@
     },
     {
       "key": "Käse",
+      "name": "Finello Geriebener Käse versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "150 g",
+      "price": 1.49,
+      "unit": 9.933,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480946?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 124
+    },
+    {
+      "key": "Käse",
+      "name": "Philadelphia versch. Sorten 195 -",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "6x16,7 g",
+      "price": 1,
+      "unit": 9.98,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27910983?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 125
+    },
+    {
+      "key": "Käse",
+      "name": "Philadelphia versch. Sorten 195-6 x",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "6 x 16,7 g",
+      "price": 1,
+      "unit": 9.98,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481310?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 126
+    },
+    {
+      "key": "Käse",
       "name": "Schmelzkäse",
       "store": "NORMA",
       "market": "Region Feldkirchen",
@@ -2232,10 +3024,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 91
+      "id": 127
     },
     {
-      "id": 92,
+      "id": 128,
       "key": "Käse",
       "name": "LEERDAMMER Käsescheiben",
       "store": "PENNY",
@@ -2257,6 +3049,50 @@
     },
     {
       "key": "Käse",
+      "name": "Castello / Cathedral City Höhlenkäse, Esrom, Cheddar",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "150-120 g",
+      "price": 1.79,
+      "unit": 11.93,
+      "unitLabel": "€/kg ab",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480949?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 129
+    },
+    {
+      "key": "Käse",
+      "name": "Saint Albray, Saint Agur, Chavroux, Rambol Franz. Weich-, Frischkäse versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "180-125 g",
+      "price": 2.29,
+      "unit": 12.72,
+      "unitLabel": "€/kg ab",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480937?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 130
+    },
+    {
+      "key": "Käse",
       "name": "Käsewaffeln",
       "store": "NORMA",
       "market": "Region Feldkirchen",
@@ -2275,10 +3111,98 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 93
+      "id": 131
     },
     {
-      "id": 94,
+      "key": "Käse",
+      "name": "Beemster mit Kräutern Holländischer Schnittkäse versch. Sorten 5 Wochen gereift, aus 100 % Weidemilch",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "100 g",
+      "price": 1.79,
+      "unit": 17.9,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480884?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 132
+    },
+    {
+      "key": "Käse",
+      "name": "Allgäuer Rahmtorte, Cambozola, Rougette Landkäse, St. Andre, Rustique Deutscher/ Franz. Weichkäse versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "100 g",
+      "price": 1.79,
+      "unit": 17.9,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480889?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 133
+    },
+    {
+      "key": "Käse",
+      "name": "Burgeis Vinschgauer Bergbauernkäse oder Pustertaler Bergkäse Italienischer Schnittkäse 45/50 % Fett i. Tr., kräftig",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "100 g",
+      "price": 2.22,
+      "unit": 22.2,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27513925?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 134
+    },
+    {
+      "key": "Käse",
+      "name": "Kaltbach der Cremig-würzige oder Gold Schweizer Hart-/Schnittkäse 47/56 % Fett i. Tr., würzig 4/5 Monate höhlengereift",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "100 g",
+      "price": 2.99,
+      "unit": 29.9,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480932?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 135
+    },
+    {
+      "id": 136,
       "key": "KINDER Pingui* je 8 x",
       "name": "KINDER Pingui* je 8 x",
       "store": "PENNY",
@@ -2318,7 +3242,51 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 95
+      "id": 137
+    },
+    {
+      "key": "Lachs",
+      "name": "Meine Lieblinge Lachs, Graved, Wild-Lachs 130-80 g SB-Packung",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Fleisch & Fisch",
+      "size": "130-80 g",
+      "price": 3.49,
+      "unit": 26.8,
+      "unitLabel": "€/kg ab",
+      "icon": "🥩",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481000?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 138
+    },
+    {
+      "key": "Lachs",
+      "name": "Neuseeländische frische Lammlachse",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Fleisch & Fisch",
+      "size": "100 g",
+      "price": 3.99,
+      "unit": 39.9,
+      "unitLabel": "€/kg",
+      "icon": "🥩",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480813?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 139
     },
     {
       "key": "LANDLIEBE Haltbare Landmilch, 3,5 % Fett LANDLIEBE Halt",
@@ -2339,8 +3307,30 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 96
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 140
+    },
+    {
+      "key": "Landlust -Rebsortenweine verschiedene Sorten mittelkräf",
+      "name": "Landlust Bio-Rebsortenweine verschiedene Sorten mittelkräftig, fruchtige Aromen, rund und harmonisch, trocken.",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "0,75 l",
+      "price": 3.99,
+      "unit": 5.32,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": true,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27586033?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 141
     },
     {
       "key": "Lauchzwiebeln",
@@ -2362,10 +3352,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 97
+      "id": 142
     },
     {
-      "id": 98,
+      "id": 143,
       "key": "LEERDAMMER Trio-Scheiben",
       "name": "LEERDAMMER Trio-Scheiben",
       "store": "PENNY",
@@ -2404,8 +3394,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 99
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 144
     },
     {
       "key": "Magdeburger Börde Karotten",
@@ -2427,10 +3417,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 100
+      "id": 145
     },
     {
-      "id": 101,
+      "id": 146,
       "key": "MARS Schokoriegel",
       "name": "MARS Schokoriegel",
       "store": "PENNY",
@@ -2451,7 +3441,29 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 102,
+      "key": "Meeresfrüchte-, Oktopus-, Tintenfischsalat",
+      "name": "Meeresfrüchte-, Oktopus-, Tintenfischsalat",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "110 g",
+      "price": 2.99,
+      "unit": 27.182,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480992?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 147
+    },
+    {
+      "id": 148,
       "key": "Milch",
       "name": "WEIHENSTEPHAN Haltbare Milch",
       "store": "PENNY",
@@ -2472,7 +3484,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 103,
+      "id": 149,
       "key": "Milch",
       "name": "MILPRIMA Faire H-Milch* je 1 I",
       "store": "PENNY",
@@ -2493,7 +3505,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 104,
+      "id": 150,
       "key": "MILPRIMA FruchtiGurt 3,8%",
       "name": "MILPRIMA FruchtiGurt 3,8%",
       "store": "PENNY",
@@ -2514,7 +3526,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 105,
+      "id": 151,
       "key": "MILPRIMA High Protein Pudding",
       "name": "MILPRIMA High Protein Pudding",
       "store": "PENNY",
@@ -2535,7 +3547,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 106,
+      "id": 152,
       "key": "MILPRIMA Kondensmilch",
       "name": "MILPRIMA Kondensmilch",
       "store": "PENNY",
@@ -2556,7 +3568,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 107,
+      "id": 153,
       "key": "MILPRIMA Milchreis",
       "name": "MILPRIMA Milchreis",
       "store": "PENNY",
@@ -2577,7 +3589,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 108,
+      "id": 154,
       "key": "MILPRIMA Mini Max* je 12 x",
       "name": "MILPRIMA Mini Max* je 12 x",
       "store": "PENNY",
@@ -2598,7 +3610,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 109,
+      "id": 155,
       "key": "MILPRIMA Pudding",
       "name": "MILPRIMA Pudding",
       "store": "PENNY",
@@ -2619,7 +3631,95 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 110,
+      "key": "Milram Gewürzquark versch. Sorten",
+      "name": "Milram Gewürzquark versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "185 g",
+      "price": 1,
+      "unit": 5.405,
+      "unitLabel": "€/kg",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481291?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 156
+    },
+    {
+      "key": "Mineralwasser",
+      "name": "Frankenbrunnen Mineralwasser versch. Sorten Kasten: 12 x 1 l PET Flaschen",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "12 x 1 l",
+      "price": 5.49,
+      "unit": 0.458,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481414?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 157
+    },
+    {
+      "key": "Mineralwasser",
+      "name": "Adelholzener Mineralwasser versch. Sorten Kasten: 12 x 1 l PET Flaschen",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "12 x 1 l",
+      "price": 6.29,
+      "unit": 0.524,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480680?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 158
+    },
+    {
+      "key": "Mineralwasser",
+      "name": "San Pellegrino Naturali, Mineralwasser oder Acqua Panna versch. Sorten 0,33 l Dose / 1 l PET Flasche",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 l",
+      "price": 0.89,
+      "unit": 0.89,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481335?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 159
+    },
+    {
+      "id": 160,
       "key": "Mini Wassermelone, lose",
       "name": "Mini Wassermelone, lose",
       "store": "ALDI SÜD",
@@ -2640,7 +3740,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 111,
+      "id": 161,
       "key": "mit App: je 330 ml (1 l = 2.67);",
       "name": "mit App: je 330 ml (1 l = 2.67);",
       "store": "PENNY",
@@ -2661,7 +3761,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 112,
+      "id": 162,
       "key": "mit App: je 400 g (1 kg = 2.98);",
       "name": "mit App: je 400 g (1 kg = 2.98);",
       "store": "PENNY",
@@ -2682,7 +3782,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 113,
+      "id": 163,
       "key": "mit App: je 640 g (1 kg = 5.14);",
       "name": "mit App: je 640 g (1 kg = 5.14);",
       "store": "PENNY",
@@ -2703,7 +3803,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 114,
+      "id": 164,
       "key": "Naty Feuchttücher herunterspülbar",
       "name": "Naty Feuchttücher herunterspülbar",
       "store": "dm",
@@ -2724,7 +3824,29 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 115,
+      "key": "Neuseeland Zespri Kiwi gold XL Sorte: Sungold Klasse I ",
+      "name": "Neuseeland Zespri Kiwi gold XL Sorte: Sungold Klasse I große, ausgereifte Früchte, verzehrreif Stück",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "Packung",
+      "price": 1.59,
+      "unit": 1.59,
+      "unitLabel": "€/Packung",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27824027?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 165
+    },
+    {
+      "id": 166,
       "key": "NicNac´s XL Fun 170 g, Original",
       "name": "NicNac´s XL Fun 170 g, Original",
       "store": "ALDI SÜD",
@@ -2743,6 +3865,28 @@
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
       "importedAt": "2026-08-19T14:11:40.697Z"
+    },
+    {
+      "key": "Niederlande Paprika rot Klasse I als Snack, gefüllt, ge",
+      "name": "Niederlande Paprika rot Klasse I als Snack, gefüllt, gegrillt oder gebraten - Paprika sind vielseitig verwendbar",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "500 g",
+      "price": 1.29,
+      "unit": 2.58,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27891154?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 167
     },
     {
       "key": "Nimm 2 Lachgummi",
@@ -2764,7 +3908,51 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 116
+      "id": 168
+    },
+    {
+      "key": "Nudeln",
+      "name": "Deutschland Bio Naturland Champignons braun Klasse II zum Nudelgericht oder einfach im Salat ein Genuss",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "250g",
+      "price": 1.99,
+      "unit": 7.96,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": true,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27802019?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 169
+    },
+    {
+      "key": "Nudeln",
+      "name": "Felicetti Bronzepasta aus 100% ital. Hartweizen-Grieß versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Vorrat",
+      "size": "500 g",
+      "price": 1.69,
+      "unit": 3.38,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481065?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 170
     },
     {
       "key": "Nudeln",
@@ -2786,7 +3974,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 117
+      "id": 171
     },
     {
       "key": "Nudeln",
@@ -2808,7 +3996,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 118
+      "id": 172
     },
     {
       "key": "Nur gültig vom 24.08. bis 30.08.2026 und",
@@ -2830,10 +4018,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 119
+      "id": 173
     },
     {
-      "id": 120,
+      "id": 174,
       "key": "Nur mit App",
       "name": "Nur mit App",
       "store": "PENNY",
@@ -2873,10 +4061,32 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 121
+      "id": 175
     },
     {
-      "id": 122,
+      "key": "Paddy oder Kilbeggan Irish Whiskey 40% vol.",
+      "name": "Paddy oder Kilbeggan Irish Whiskey 40% vol.",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "0,7 l",
+      "price": 10.99,
+      "unit": 15.7,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481158?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 176
+    },
+    {
+      "id": 177,
       "key": "Pampers Feuchttücher 99 % water (18x60 St",
       "name": "Pampers Feuchttücher 99 % water (18x60 St",
       "store": "dm",
@@ -2897,7 +4107,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 123,
+      "id": 178,
       "key": "Pampers Feuchttücher aqua soft touch (18x48 St",
       "name": "Pampers Feuchttücher aqua soft touch (18x48 St",
       "store": "dm",
@@ -2918,6 +4128,28 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
+      "key": "Paulaner Original Münchner Hell versch. Sorten",
+      "name": "Paulaner Original Münchner Hell versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "20 x 0,5 l",
+      "price": 14.99,
+      "unit": 1.499,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480678?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 179
+    },
+    {
       "key": "Pizza",
       "name": "DR. OETKER Ristorante Pizza DR. OETKER Ristorante Pizza je 320 - 410-g-Packg.",
       "store": "Kaufland",
@@ -2936,8 +4168,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 124
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 180
     },
     {
       "key": "Pizza",
@@ -2959,7 +4191,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 125
+      "id": 181
     },
     {
       "key": "Pizza",
@@ -2981,10 +4213,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 126
+      "id": 182
     },
     {
-      "id": 127,
+      "id": 183,
       "key": "Pizza",
       "name": "DR. OETKER Ristorante Pizza",
       "store": "PENNY",
@@ -3005,7 +4237,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 128,
+      "id": 184,
       "key": "Pizza",
       "name": "DR. OETKER Bistro Flammkuchen",
       "store": "PENNY",
@@ -3026,7 +4258,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 129,
+      "id": 185,
       "key": "Pizza",
       "name": "STEINHAUS Elsässer Flammkuchen",
       "store": "PENNY",
@@ -3047,7 +4279,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 130,
+      "id": 186,
       "key": "Plattpfirsiche",
       "name": "Plattpfirsiche",
       "store": "PENNY",
@@ -3068,7 +4300,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 131,
+      "id": 187,
       "key": "Plattpfirsiche",
       "name": "Plattpfirsiche",
       "store": "ALDI SÜD",
@@ -3089,7 +4321,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 132,
+      "id": 188,
       "key": "RED BULL Energy-Drink",
       "name": "RED BULL Energy-Drink",
       "store": "PENNY",
@@ -3108,6 +4340,50 @@
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
       "importedAt": "2026-08-19T14:11:40.697Z"
+    },
+    {
+      "key": "Red Bull Energy* Drink versch. Sorten 250 ml Dose *Koff",
+      "name": "Red Bull Energy* Drink versch. Sorten 250 ml Dose *Koffeinhaltig",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "250 ml",
+      "price": 1,
+      "unit": 4,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481299?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 189
+    },
+    {
+      "key": "Reis-Fit Risbellis versch. Sorten 40 g Beutel",
+      "name": "Reis-Fit Risbellis versch. Sorten 40 g Beutel",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Vorrat",
+      "size": "40 g",
+      "price": 1.39,
+      "unit": 34.75,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480723?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 190
     },
     {
       "key": "Rheinländer Mini-Gurken",
@@ -3129,10 +4405,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 133
+      "id": 191
     },
     {
-      "id": 134,
+      "id": 192,
       "key": "Rindfleisch",
       "name": "Bio-Rinder-Gulasch",
       "store": "ALDI SÜD",
@@ -3172,10 +4448,76 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 135
+      "id": 193
     },
     {
-      "id": 136,
+      "key": "Rindfleisch",
+      "name": "Deutsche marinierte Holzfällersteaks, Schulterbraten vom Schwein, mit Knochen und Schwarte",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 6.99,
+      "unit": 6.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480811?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 194
+    },
+    {
+      "key": "Rindfleisch",
+      "name": "Deutsche Krustensteaks Winzer Art vom Schweinerücken ohne Knochen mit Schwarte, mariniert",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 6.99,
+      "unit": 6.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480808?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 195
+    },
+    {
+      "key": "Rindfleisch",
+      "name": "Deutsche frische Nackensteaks, Braten vom Schwein ohne Knochen, natur",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 6.99,
+      "unit": 6.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480804?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 196
+    },
+    {
+      "id": 197,
       "key": "Rindfleisch",
       "name": "Schweine-Minutensteaks",
       "store": "ALDI SÜD",
@@ -3197,6 +4539,28 @@
     },
     {
       "key": "Rindfleisch",
+      "name": "Deutsche marinierte Nackensteaks, Spieße vom Schwein ohne Knochen, versch. Würzungen",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 7.77,
+      "unit": 7.77,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27780079?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 198
+    },
+    {
+      "key": "Rindfleisch",
       "name": "Schweine Hüftsteaks +++Aktion+++ Frischfleischtruhe",
       "store": "NORMA",
       "market": "Region Feldkirchen",
@@ -3215,10 +4579,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 137
+      "id": 199
     },
     {
-      "id": 138,
+      "id": 200,
       "key": "Rindfleisch",
       "name": "Rind Burger 260 g, Angus Burger",
       "store": "ALDI SÜD",
@@ -3239,7 +4603,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 139,
+      "id": 201,
       "key": "Rindfleisch",
       "name": "Rind Burger 260 g, Prime Burger",
       "store": "ALDI SÜD",
@@ -3258,6 +4622,50 @@
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
       "importedAt": "2026-08-19T14:11:40.697Z"
+    },
+    {
+      "key": "Rotkäppchen Sekt, Fruchtsecco, MMchen Extra oder Light ",
+      "name": "Rotkäppchen Sekt, Fruchtsecco, MMchen Extra oder Light Live alkoholfrei versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "0,2 l",
+      "price": 1.49,
+      "unit": 7.45,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481281?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 202
+    },
+    {
+      "key": "Salakis aus Schafmilch, versch. Sorten",
+      "name": "Salakis aus Schafmilch, versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Milchprodukte",
+      "size": "200-140 g",
+      "price": 1.99,
+      "unit": 9.95,
+      "unitLabel": "€/kg ab",
+      "icon": "🥛",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27927373?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 203
     },
     {
       "key": "Salate Mix * z.B. Vinegret Salat",
@@ -3279,7 +4687,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 140
+      "id": 204
     },
     {
       "key": "Schokolade",
@@ -3300,8 +4708,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 141
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 205
     },
     {
       "key": "Schokolade",
@@ -3323,10 +4731,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 142
+      "id": 206
     },
     {
-      "id": 143,
+      "id": 207,
       "key": "Schokolade",
       "name": "HARIBO Pfirsiche",
       "store": "PENNY",
@@ -3347,7 +4755,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 144,
+      "id": 208,
       "key": "Schokolade",
       "name": "Schokolade",
       "store": "ALDI SÜD",
@@ -3386,8 +4794,30 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 145
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 209
+    },
+    {
+      "key": "Schweinefleisch",
+      "name": "Deutscher frischer Schweinebauch mit Knochen am Stück, Scheiben, natur oder gepökelt",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 5.99,
+      "unit": 5.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480805?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 210
     },
     {
       "key": "Schweinefleisch",
@@ -3409,10 +4839,54 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 146
+      "id": 211
     },
     {
-      "id": 147,
+      "key": "Schweinefleisch",
+      "name": "Deutsche frische grobe Bratwurst vom Schwein",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 6.99,
+      "unit": 6.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480640?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 212
+    },
+    {
+      "key": "Schweinefleisch",
+      "name": "Deutsche marinierte Bauchscheiben vom Schwein, mit Knochen, versch. Würzungen",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 6.99,
+      "unit": 6.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480796?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 213
+    },
+    {
+      "id": 214,
       "key": "Schweinefleisch",
       "name": "Gulasch vom Schwein",
       "store": "ALDI SÜD",
@@ -3433,7 +4907,95 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 148,
+      "key": "Schweinefleisch",
+      "name": "Deutsche frische Schinken-Schnitzel, Braten, Gulasch vom Schwein aus dem Schweineschinken",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 7.99,
+      "unit": 7.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480802?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 215
+    },
+    {
+      "key": "Schweinefleisch",
+      "name": "Deutsche marinierte Grill-Fackeln, Bauch-Spieße Schweine-Bauchscheiben, versch. Würzungen",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 8.99,
+      "unit": 8.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480807?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 216
+    },
+    {
+      "key": "Schweinefleisch",
+      "name": "Deutscher Schweinerücken gefüllt Kochschinken-Gouda/ Frischkäse-Brokkoli/Spinat",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 8.99,
+      "unit": 8.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480812?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 217
+    },
+    {
+      "key": "Schweinefleisch",
+      "name": "Deutscher gefüllter Schinken-Rollbraten mit Gemüse und Bacon, gewürzt, vom Schwein",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "1 kg",
+      "price": 8.99,
+      "unit": 8.99,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480810?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 218
+    },
+    {
+      "id": 219,
       "key": "Schweinefleisch",
       "name": "Schweine-Cordon Bleu",
       "store": "ALDI SÜD",
@@ -3454,7 +5016,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 149,
+      "id": 220,
       "key": "Schweinefleisch",
       "name": "Schweine Schnitzel",
       "store": "ALDI SÜD",
@@ -3473,6 +5035,28 @@
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
       "importedAt": "2026-08-19T14:11:40.697Z"
+    },
+    {
+      "key": "Schweinefleisch",
+      "name": "Spanisches frisches Duroc Schweinekarree Frenched Racks",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "100 g",
+      "price": 2.49,
+      "unit": 24.9,
+      "unitLabel": "€/kg",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480815?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 221
     },
     {
       "key": "Sesam-/ Erdnuss-Riegel",
@@ -3494,10 +5078,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 150
+      "id": 222
     },
     {
-      "id": 151,
+      "id": 223,
       "key": "Smoothie 250 ml, Orange, Karotte und Mango",
       "name": "Smoothie 250 ml, Orange, Karotte und Mango",
       "store": "ALDI SÜD",
@@ -3537,7 +5121,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 152
+      "id": 224
     },
     {
       "key": "Snack à la française",
@@ -3559,7 +5143,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 153
+      "id": 225
     },
     {
       "key": "Snack Sauce",
@@ -3581,10 +5165,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 154
+      "id": 226
     },
     {
-      "id": 155,
+      "id": 227,
       "key": "SNICKERS Schokoriegel",
       "name": "SNICKERS Schokoriegel",
       "store": "PENNY",
@@ -3624,10 +5208,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 156
+      "id": 228
     },
     {
-      "id": 157,
+      "id": 229,
       "key": "STORCK Werther’s Original",
       "name": "STORCK Werther’s Original",
       "store": "PENNY",
@@ -3648,7 +5232,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 158,
+      "id": 230,
       "key": "Streichpreis 1.49€",
       "name": "Streichpreis 1.49€",
       "store": "PENNY",
@@ -3669,7 +5253,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 159,
+      "id": 231,
       "key": "Streichpreis 1.89€",
       "name": "Streichpreis 1.89€",
       "store": "PENNY",
@@ -3690,7 +5274,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 160,
+      "id": 232,
       "key": "Streichpreis 3.39€",
       "name": "Streichpreis 3.39€",
       "store": "PENNY",
@@ -3730,7 +5314,51 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 161
+      "id": 233
+    },
+    {
+      "key": "Südafrika Zitronen Sorte: Eureka Klasse I pure Frische,",
+      "name": "Südafrika Zitronen Sorte: Eureka Klasse I pure Frische, volle Vitamine",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "500 g",
+      "price": 1.15,
+      "unit": 2.3,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27802020?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 234
+    },
+    {
+      "key": "Südafrika/Kolumbien Passionsfrucht saftig und frisch St",
+      "name": "Südafrika/Kolumbien Passionsfrucht saftig und frisch Stück",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "Packung",
+      "price": 0.49,
+      "unit": 0.49,
+      "unitLabel": "€/Packung",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27802018?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 235
     },
     {
       "key": "Süße Chilisauce",
@@ -3752,7 +5380,29 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 162
+      "id": 236
+    },
+    {
+      "key": "Thomy Delikatess Senf versch. Sorten",
+      "name": "Thomy Delikatess Senf versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Vorrat",
+      "size": "250 ml",
+      "price": 1,
+      "unit": 4,
+      "unitLabel": "€/l",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27481085?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 237
     },
     {
       "key": "THOMY Les Sauces THOMY Les Sauces je 250-ml-Packg.",
@@ -3773,8 +5423,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 163
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 238
     },
     {
       "key": "Toffifee",
@@ -3796,7 +5446,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 164
+      "id": 239
     },
     {
       "key": "Tomaten",
@@ -3817,11 +5467,11 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:42:29.782Z",
-      "id": 165
+      "importedAt": "2026-08-19T15:45:26.962Z",
+      "id": 240
     },
     {
-      "id": 166,
+      "id": 241,
       "key": "Tomaten",
       "name": "Cocktailrispentomaten",
       "store": "ALDI SÜD",
@@ -3842,7 +5492,29 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 167,
+      "key": "Tomaten",
+      "name": "Heinz Tomato passiert",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Obst & Gemüse",
+      "size": "350 g",
+      "price": 1,
+      "unit": 2.857,
+      "unitLabel": "€/kg",
+      "icon": "🥦",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27586017?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 242
+    },
+    {
+      "id": 243,
       "key": "Trauben hell, kernlos",
       "name": "Trauben hell, kernlos",
       "store": "ALDI SÜD",
@@ -3863,7 +5535,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 168,
+      "id": 244,
       "key": "TRUE FRUITS Smoothie",
       "name": "TRUE FRUITS Smoothie",
       "store": "PENNY",
@@ -3884,7 +5556,29 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 169,
+      "key": "Türkei Zuckeraprikosen Sorte: Hacıhaliloğlu Klasse I di",
+      "name": "Türkei Zuckeraprikosen Sorte: Hacıhaliloğlu Klasse I die große, süße Ursorte mit dem echten Mandelkern",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Vorrat",
+      "size": "350 g",
+      "price": 1.99,
+      "unit": 5.686,
+      "unitLabel": "€/kg",
+      "icon": "🍝",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27802022?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 245
+    },
+    {
+      "id": 246,
       "key": "Unverbindlichle Preisempfehlung 0.99€",
       "name": "Unverbindlichle Preisempfehlung 0.99€",
       "store": "PENNY",
@@ -3905,7 +5599,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 170,
+      "id": 247,
       "key": "Unverbindlichle Preisempfehlung 1.49€",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -3926,7 +5620,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 171,
+      "id": 248,
       "key": "Unverbindlichle Preisempfehlung 1.69€",
       "name": "Unverbindlichle Preisempfehlung 1.69€",
       "store": "PENNY",
@@ -3947,7 +5641,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 172,
+      "id": 249,
       "key": "Unverbindlichle Preisempfehlung 1.79€",
       "name": "Unverbindlichle Preisempfehlung 1.79€",
       "store": "PENNY",
@@ -3968,7 +5662,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 173,
+      "id": 250,
       "key": "Unverbindlichle Preisempfehlung 1.99€",
       "name": "Unverbindlichle Preisempfehlung 1.99€",
       "store": "PENNY",
@@ -3989,7 +5683,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 174,
+      "id": 251,
       "key": "Unverbindlichle Preisempfehlung 2.29€",
       "name": "Unverbindlichle Preisempfehlung 2.29€",
       "store": "PENNY",
@@ -4010,7 +5704,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 175,
+      "id": 252,
       "key": "Unverbindlichle Preisempfehlung 2.69€",
       "name": "Unverbindlichle Preisempfehlung 2.69€",
       "store": "PENNY",
@@ -4031,7 +5725,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 176,
+      "id": 253,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -4052,7 +5746,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 177,
+      "id": 254,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -4073,7 +5767,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 178,
+      "id": 255,
       "key": "Unverbindlichle Preisempfehlung 3.59€",
       "name": "Unverbindlichle Preisempfehlung 3.59€",
       "store": "PENNY",
@@ -4094,7 +5788,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 179,
+      "id": 256,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -4113,6 +5807,28 @@
       "sourceUrl": "https://www.penny.de/angebote",
       "sourceScope": "regional",
       "importedAt": "2026-08-19T14:11:40.697Z"
+    },
+    {
+      "key": "Valdo Prosecco oder Valdo Puro 0,0",
+      "name": "Valdo Prosecco oder Valdo Puro 0,0",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Getränke",
+      "size": "0,75 l",
+      "price": 7.99,
+      "unit": 10.653,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480679?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 257
     },
     {
       "key": "Wasser-/ Zaubermalspaß",
@@ -4134,10 +5850,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 180
+      "id": 258
     },
     {
-      "id": 181,
+      "id": 259,
       "key": "WEIHENSTEPHAN Die Extrazarte",
       "name": "WEIHENSTEPHAN Die Extrazarte",
       "store": "PENNY",
@@ -4158,7 +5874,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 182,
+      "id": 260,
       "key": "Windeln",
       "name": "babylove Windelbeutel mit Frischeduft",
       "store": "dm",
@@ -4179,7 +5895,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 183,
+      "id": 261,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4200,7 +5916,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 184,
+      "id": 262,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 7 Extra Large (15+ kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4221,7 +5937,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 185,
+      "id": 263,
       "key": "Windeln",
       "name": "babylove Schwimmwindeln Disney Gr. Extralarge (13+ kg",
       "store": "dm",
@@ -4242,7 +5958,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 186,
+      "id": 264,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox",
       "store": "dm",
@@ -4263,7 +5979,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 187,
+      "id": 265,
       "key": "Windeln",
       "name": "babylove Schwimmwindeln Disney Gr. Large (10-14 kg",
       "store": "dm",
@@ -4284,7 +6000,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 188,
+      "id": 266,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "dm",
@@ -4305,7 +6021,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 189,
+      "id": 267,
       "key": "Windeln",
       "name": "Pampers baby-dry Windeln baby-dry Gr. 5 (11-16 kg) Big Economy Pack",
       "store": "dm",
@@ -4326,7 +6042,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 190,
+      "id": 268,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 1 New Born (2-5 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4347,7 +6063,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 191,
+      "id": 269,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 2 Mini (4-8 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4368,7 +6084,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 192,
+      "id": 270,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4389,7 +6105,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 193,
+      "id": 271,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4410,7 +6126,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 194,
+      "id": 272,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "dm",
@@ -4431,7 +6147,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 195,
+      "id": 273,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4452,7 +6168,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 196,
+      "id": 274,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4473,7 +6189,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 197,
+      "id": 275,
       "key": "Windeln",
       "name": "Baby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4494,7 +6210,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 198,
+      "id": 276,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 6 Extra Large (13-18 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4515,7 +6231,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 199,
+      "id": 277,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4536,7 +6252,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 200,
+      "id": 278,
       "key": "Windeln",
       "name": "Baby Dry Pants Gr. 6 Extra Large (14-19 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -4557,7 +6273,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 201,
+      "id": 279,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox",
       "store": "dm",
@@ -4578,7 +6294,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 202,
+      "id": 280,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 5+ (12-17 kg) Monatsbox",
       "store": "dm",
@@ -4599,7 +6315,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 203,
+      "id": 281,
       "key": "Wurst",
       "name": "Bio-Grobe Bratwurst",
       "store": "ALDI SÜD",
@@ -4621,6 +6337,28 @@
     },
     {
       "key": "Wurst",
+      "name": "Herta Fleischwurst mit oder ohne Knoblauch 500 g SB-Packung",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Fleisch & Fisch",
+      "size": "500 g",
+      "price": 3.49,
+      "unit": 6.98,
+      "unitLabel": "€/kg",
+      "icon": "🥩",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/angebot/27480990?store=1766",
+      "sourceScope": "market",
+      "sourceTransport": "hit-nested-reader",
+      "importedAt": "2026-08-19T15:45:28.420Z",
+      "id": 282
+    },
+    {
+      "key": "Wurst",
       "name": "Wurstspezialität",
       "store": "NORMA",
       "market": "Region Feldkirchen",
@@ -4639,7 +6377,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 204
+      "id": 283
     },
     {
       "key": "Wurst",
@@ -4661,10 +6399,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 205
+      "id": 284
     },
     {
-      "id": 206,
+      "id": 285,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -4685,7 +6423,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 207,
+      "id": 286,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -4725,10 +6463,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 208
+      "id": 287
     },
     {
-      "id": 209,
+      "id": 288,
       "key": "ZESPRI SunGold Kiwi Gold* je 3er-Schale",
       "name": "ZESPRI SunGold Kiwi Gold* je 3er-Schale",
       "store": "PENNY",
@@ -4768,41 +6506,45 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 210
+      "id": 289
     }
   ],
   "httpFallbackAt": "2026-08-19T15:17:45.240Z",
   "readerFallbackAt": "2026-08-19T15:17:49.503Z",
   "nettoReaderAt": "2026-08-19T15:17:50.335Z",
   "quality": {
-    "sanitizedAt": "2026-08-19T15:42:33.381Z",
-    "before": 215,
-    "after": 215,
-    "rejected": 0,
-    "repaired": 133
+    "sanitizedAt": "2026-08-19T15:45:29.894Z",
+    "before": 350,
+    "after": 340,
+    "rejected": 10,
+    "repaired": 264
   },
   "qualityV2": {
-    "sanitizedAt": "2026-08-19T15:42:33.446Z",
-    "before": 215,
-    "after": 214,
-    "rejected": 1,
+    "sanitizedAt": "2026-08-19T15:45:29.974Z",
+    "before": 340,
+    "after": 333,
+    "rejected": 7,
     "repaired": 16,
     "rejectedReasons": {
-      "name": 1
+      "name": 7
     }
   },
   "richRetailersAt": "2026-08-19T15:20:58.072Z",
-  "textRetailersAt": "2026-08-19T15:42:29.782Z",
+  "textRetailersAt": "2026-08-19T15:45:26.962Z",
   "hitReaderV2At": "2026-08-19T15:37:21.251Z",
   "qualityV3": {
-    "sanitizedAt": "2026-08-19T15:42:33.506Z",
-    "before": 214,
-    "after": 210,
-    "rejected": 4,
+    "sanitizedAt": "2026-08-19T15:45:30.046Z",
+    "before": 333,
+    "after": 289,
+    "rejected": 44,
     "repaired": 19,
     "reasons": {
+      "markdown": 24,
+      "not_food": 15,
+      "nonfood": 1,
       "duplicate": 4
     }
   },
-  "hitReaderV3At": "2026-08-19T15:42:32.048Z"
+  "hitReaderV3At": "2026-08-19T15:42:32.048Z",
+  "hitNestedReaderAt": "2026-08-19T15:45:28.420Z"
 }

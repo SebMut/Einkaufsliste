@@ -1,5 +1,3 @@
-HIT: reader=56439 Zeichen, Zeilen=240, Treffer=0, vorher=1
-Kaufland: reader=102243 Zeichen, Zeilen=603, Treffer=20, vorher=15
 HIT chars=56439 Angebotsblöcke=177 valide=136 vorher=1
 REG 6.99 | 1 kg | Deutsche frische grobe Bratwurst vom Schwein
 REG 1.00 | 6x16,7 g | Philadelphia versch. Sorten 195 -
@@ -41,19 +39,3 @@ REG 3.69 | 100 g | Argentinisches frisches Entrecôte
 REG 3.99 | 100 g | Neuseeländische frische Lammlachse
 REG 1.39 | 100 g | Deutsche frische Hähnchenbrustfilet oder Putenschnitzel/ Steaks aus der zarten, mageren Brust, natur von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik
 REG 1.49 | 100 g | Deutsches mariniertes Hähnchenbrustfilet, Putensteak/ Schnitzel, Spieße versch. Sorten von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik
-Qualitätsfilter: 350 -> 340 Angebote (10 verworfen, 264 Reparaturen).
-Qualität V2: 340 -> 333; 7 weitere Einträge entfernt, 16 repariert.
-Qualität V3: 333 -> 289; 44 verworfen; 19 Namen bereinigt.
-REWE: 10 / 10 streng geprüfte Angebote
-EDEKA: 11 / 11 streng geprüfte Angebote
-PENNY: 51 / 51 streng geprüfte Angebote
-HIT: 80 / 80 streng geprüfte Angebote
-ALDI SÜD: 26 / 26 streng geprüfte Angebote
-Lidl: 1 / 1 streng geprüfte Angebote
-Netto: 2 / 2 streng geprüfte Angebote
-NORMA: 45 / 45 streng geprüfte Angebote
-Kaufland: 15 / 15 streng geprüfte Angebote
-METRO: 0 / METRO zeigt Produkte öffentlich, Preise aber erst nach Kunden-Login.
-dm: 30 / 30 streng geprüfte Angebote
-ROSSMANN: 18 / 18 streng geprüfte Angebote
-Gesamt: 289
