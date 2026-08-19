@@ -3,7 +3,6 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { normalizeOffer } from './product-normalizer.js';
-import { semanticCompatible } from './semantic-products.js';
 
 const dataPath = path.resolve(process.cwd(), '..', 'data', 'offers-live.json');
 let raw = {offers: []};
@@ -42,7 +41,7 @@ test('bekannte zusammengesetzte Produktnamen werden im Live-Bestand semantisch k
   }
 });
 
-test('kein UI-Bundle enthält zwei bekannte funktional inkompatible Produkttypen', () => {
+test('kein UI-Bundle mischt unterschiedliche bekannte Hauptprodukttypen', () => {
   const groups = new Map();
   for (const offer of offers) {
     const key = offer.bundleKey || offer.key || offer.canonicalProduct || offer.name;
@@ -52,20 +51,19 @@ test('kein UI-Bundle enthält zwei bekannte funktional inkompatible Produkttypen
 
   const conflicts = [];
   for (const [key, items] of groups) {
-    for (let i = 0; i < items.length; i++) {
-      for (let j = i + 1; j < items.length; j++) {
-        const a = items[i], b = items[j];
-        if (!a.semanticType || !b.semanticType) continue;
-        if (!semanticCompatible(a, b)) {
-          conflicts.push(`${key}: "${a.name}" (${a.semanticType}) <> "${b.name}" (${b.semanticType})`);
-          if (conflicts.length >= 20) break;
-        }
-      }
-      if (conflicts.length >= 20) break;
-    }
+    const types = [...new Set(items.map(o => o.semanticType).filter(Boolean))];
+    if (types.length <= 1) continue;
+    conflicts.push(`${key}: ${types.join(' <> ')}`);
     if (conflicts.length >= 20) break;
   }
-  assert.deepEqual(conflicts, [], `Semantische Bundle-Konflikte:\n${conflicts.join('\n')}`);
+  assert.deepEqual(conflicts, [], `Semantische Produkttyp-Konflikte:\n${conflicts.join('\n')}`);
+});
+
+test('unterschiedliche Varianten eines Produkttyps dürfen eine Obergruppe teilen, aber nicht blind verglichen werden', () => {
+  const small = normalizeOffer({name:'Windeln Größe 1, 2-5 kg',size:'24 St.',unitLabel:'€/Stk.'});
+  const large = normalizeOffer({name:'Windeln Größe 6, 15-30 kg',size:'24 St.',unitLabel:'€/Stk.'});
+  assert.equal(small.canonicalGroup, large.canonicalGroup);
+  assert.notEqual(small.comparisonKey, large.comparisonKey);
 });
 
 test('Windbeutel, Windelbeutel und Windeln können nie denselben Bundle-Key erhalten', () => {
