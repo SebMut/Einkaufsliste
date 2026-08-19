@@ -1,5 +1,6 @@
 name: Live-Angebote importieren V5.1
 
+# Audit-Lauf: kompletter Produktionspfad mit Release-Gate und Post-Tests.
 on:
   workflow_dispatch:
   schedule:
