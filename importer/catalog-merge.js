@@ -36,7 +36,6 @@ function concreteBranches(raw){
 
 const normalized=[];
 for(const raw of live.offers||[]){
-  // Bereits erzeugte Katalogprodukte nie aus einem alten Lauf mitschleppen.
   if(raw.sourceType==='official_catalog'||raw.sourceScope==='catalog')continue;
   if(!isAllowedMarket(raw))continue;
   const current=Number(raw.currentPrice??raw.price);if(!Number.isFinite(current)||current<=0)continue;
@@ -70,7 +69,6 @@ for(const filename of index.files||[]){
   }
 }
 
-// Ein aktuelles Angebot gewinnt gegen denselben regulären Katalogartikel derselben konkreten Filiale.
 const map=new Map();
 for(const o of normalized){
   if(!o.activeMarket||!Number.isFinite(Number(o.price)))continue;
@@ -79,9 +77,28 @@ for(const o of normalized){
   const previous=map.get(k);
   if(!previous||(!previous.isOffer&&o.isOffer)||(previous.sourceType==='official_catalog'&&o.sourceType==='official_offer'))map.set(k,o);
 }
-
 const products=[...map.values()].sort((a,b)=>(a.key||a.name).localeCompare(b.key||b.name,'de')||Number(b.bio)-Number(a.bio)||Number(a.price)-Number(b.price));
 const offers=products.map((o,i)=>({id:i+1,...o}));
-const out={...live,schema:5,generatedAt:new Date().toISOString(),center:markets.center,marketPolicy:markets.marketPolicy,nearbyMarkets:markets.nearbyMarkets,sources:live.sources||[],productCount:offers.length,offerCount:offers.filter(o=>o.isOffer).length,regularProductCount:offers.filter(o=>!o.isOffer).length,catalogIndex:'data/catalog/index.json',offers};
+
+// Diagnose-/Quellenmetadaten ebenfalls strikt auf konkrete erlaubte Filialen begrenzen.
+const sourceMap=new Map();
+for(const source of live.sources||[]){
+  if(!branchMap.has(source.store))continue;
+  for(const b of concreteBranches(source)){
+    if(!isAllowedMarket(b))continue;
+    const s=withMarketPolicy({...source,market:b.market,address:b.address,lat:b.lat??null,lon:b.lon??null,isRiemArcaden:!!b.isRiemArcaden});
+    delete s.mode;
+    const k=[s.store,s.market,s.url||s.sourceUrl||''].join('|');
+    if(!sourceMap.has(k))sourceMap.set(k,s);
+  }
+}
+const activeSources=[...sourceMap.values()];
+
+// Harte Ausgabe-Validierung: jedes Produkt muss exakt einer aktiven Filiale zuordenbar sein.
+const branchKeys=new Set((markets.markets||[]).map(m=>[normalizeMarketText(m.store),normalizeMarketText(m.market),normalizeMarketText(m.address)].join('|')));
+const invalid=offers.filter(o=>!branchKeys.has([normalizeMarketText(o.store),normalizeMarketText(o.market),normalizeMarketText(o.address)].join('|')));
+if(invalid.length)throw new Error(`Markt-Guard: ${invalid.length} Produkte ohne konkrete erlaubte Filiale.`);
+
+const out={...live,schema:6,generatedAt:new Date().toISOString(),center:markets.center,marketPolicy:markets.marketPolicy,nearbyMarkets:markets.nearbyMarkets,sources:activeSources,productCount:offers.length,offerCount:offers.filter(o=>o.isOffer).length,regularProductCount:offers.filter(o=>!o.isOffer).length,catalogIndex:'data/catalog/index.json',offers};
 await fs.writeFile(livePath,JSON.stringify(out,null,2)+'\n');
-console.log(`Aktive Daten: ${out.productCount} Produkte (${out.offerCount} Angebote, ${out.regularProductCount} regulär) in ${markets.markets?.length||0} konkreten Filialen.`);
+console.log(`Aktive Daten: ${out.productCount} Produkte (${out.offerCount} Angebote, ${out.regularProductCount} regulär) in ${markets.markets?.length||0} konkreten Filialen; ${activeSources.length} aktive Importquellen.`);
