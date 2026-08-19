@@ -1,36 +1,38 @@
 {
-  "generatedAt": "2026-08-19T15:04:00.928Z",
-  "before": 232,
-  "after": 226,
+  "generatedAt": "2026-08-19T15:17:51.423Z",
+  "before": 179,
+  "after": 173,
   "rejected": 6,
-  "repaired": 42,
+  "repaired": 86,
   "rejectedReasons": {
     "duplicate": 2,
     "name_no_letters": 4
   },
   "storeBefore": {
-    "EDEKA": 13,
-    "HIT": 3,
-    "ALDI SÜD": 37,
-    "PENNY": 84,
-    "dm": 52,
+    "EDEKA": 12,
+    "ALDI SÜD": 33,
+    "PENNY": 51,
+    "dm": 32,
     "ROSSMANN": 23,
     "REWE": 10,
     "NORMA": 1,
+    "Kaufland": 7,
     "Netto": 8,
-    "Lidl": 1
+    "Lidl": 1,
+    "HIT": 1
   },
   "storeAfter": {
-    "EDEKA": 13,
-    "HIT": 3,
-    "ALDI SÜD": 37,
-    "PENNY": 84,
-    "dm": 52,
+    "EDEKA": 12,
+    "ALDI SÜD": 33,
+    "PENNY": 51,
+    "dm": 32,
     "ROSSMANN": 23,
     "REWE": 10,
     "NORMA": 1,
+    "Kaufland": 7,
     "Netto": 2,
-    "Lidl": 1
+    "Lidl": 1,
+    "HIT": 1
   },
   "rejectedExamples": [
     {
@@ -55,125 +57,19 @@
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T15:04:01.006Z",
-    "before": 226,
-    "after": 166,
-    "rejected": 60,
-    "repaired": 18,
+    "generatedAt": "2026-08-19T15:17:51.499Z",
+    "before": 173,
+    "after": 172,
+    "rejected": 1,
+    "repaired": 16,
     "rejectedReasons": {
-      "ui": 22,
-      "size_duplicate": 38
+      "name": 1
     },
     "rejectedExamples": [
       {
-        "store": "PENNY",
-        "name": "Diese Woche",
-        "reason": "ui"
-      },
-      {
-        "store": "PENNY",
-        "name": "Diese Woche",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
+        "store": "Kaufland",
+        "name": "KNÜLLERKINDERHappy Hippo je 5 St. = 103,5-g-Packg.(1 kg = 19.23) / (1 kg = 17.30)**nur1.99 Mit Kaufland Card XTRA **nur1.79",
+        "reason": "name"
       }
     ]
   }

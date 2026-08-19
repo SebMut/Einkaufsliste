@@ -228,9 +228,9 @@
       "address": "Berg-am-Laim-Straße 117, 81673 München",
       "url": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "scope": "market",
-      "status": "no_data",
-      "count": 0,
-      "message": "Keine Angebote nach strenger Qualitätsprüfung.",
+      "status": "ok",
+      "count": 6,
+      "message": "6 qualitätsgeprüfte Angebote",
       "durationMs": 6763
     },
     {
@@ -271,7 +271,7 @@
       "durationMs": 6901
     }
   ],
-  "offerCount": 166,
+  "offerCount": 172,
   "offers": [
     {
       "key": "alpro Soya-, Hafer- oder This is not Milk-Drink",
@@ -1076,7 +1076,28 @@
       "id": 38
     },
     {
-      "id": 39,
+      "key": "Cola",
+      "name": "KNÜLLERCOCA-COLA oder FANTAErfrischungsgetränk je 2-l-PET-Fl.(1 l = 0.75)nur1.49",
+      "store": "Kaufland",
+      "market": "München-Berg am Laim",
+      "address": "Berg-am-Laim-Straße 117, 81673 München",
+      "cat": "Getränke",
+      "size": "1 l",
+      "price": 1.49,
+      "unit": 1.49,
+      "unitLabel": "€/l",
+      "icon": "🥤",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": false,
+      "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
+      "sourceScope": "market",
+      "importedAt": "2026-08-19T15:17:45.240Z",
+      "id": 39
+    },
+    {
+      "id": 40,
       "key": "Deutsche Bundmöhren",
       "name": "Deutsche Bundmöhren",
       "store": "PENNY",
@@ -1097,7 +1118,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 40,
+      "id": 41,
       "key": "Duschgel 675 ml, Noire",
       "name": "Duschgel 675 ml, Noire",
       "store": "ALDI SÜD",
@@ -1118,7 +1139,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 41,
+      "id": 42,
       "key": "e) Preisvorteil gegenüber dem Grundpreis einer Standard",
       "name": "e) Preisvorteil gegenüber dem Grundpreis einer Standardpackung",
       "store": "Lidl",
@@ -1158,7 +1179,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 42
+      "id": 43
     },
     {
       "key": "EDEKA Herzstücke High Protein Fertiggericht",
@@ -1180,7 +1201,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 43
+      "id": 44
     },
     {
       "key": "EDEKA Herzstücke High Protein fettarme Quarkcreme",
@@ -1202,7 +1223,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 44
+      "id": 45
     },
     {
       "key": "EDEKA Herzstücke Hummus",
@@ -1224,10 +1245,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 45
+      "id": 46
     },
     {
-      "id": 46,
+      "id": 47,
       "key": "Expert HA2 Folgenahrung nach dem 6. Monat",
       "name": "Expert HA2 Folgenahrung nach dem 6. Monat",
       "store": "ROSSMANN",
@@ -1248,7 +1269,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 47,
+      "id": 48,
       "key": "Feuchttücher",
       "name": "extra sensitiv Feuchttücher Spar-Pack",
       "store": "ROSSMANN",
@@ -1269,7 +1290,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 48,
+      "id": 49,
       "key": "Feuchttücher",
       "name": "extra sensitiv Feuchttücher XXL Spar-Pack",
       "store": "ROSSMANN",
@@ -1290,7 +1311,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 49,
+      "id": 50,
       "key": "Feuchttücher",
       "name": "Naty Feuchttücher herunterspülbar",
       "store": "dm",
@@ -1311,7 +1332,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 50,
+      "id": 51,
       "key": "Feuchttücher",
       "name": "Pampers Feuchttücher 99 % water (18x60 St)",
       "store": "dm",
@@ -1332,7 +1353,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 51,
+      "id": 52,
       "key": "Feuchttücher",
       "name": "Pampers Feuchttücher aqua soft touch (18x48 St)",
       "store": "dm",
@@ -1353,7 +1374,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 52,
+      "id": 53,
       "key": "FRECHE FREUNDE Quetschie Sparpack",
       "name": "FRECHE FREUNDE Quetschie Sparpack",
       "store": "PENNY",
@@ -1374,7 +1395,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 53,
+      "id": 54,
       "key": "Frischei-Waffeln",
       "name": "Frischei-Waffeln",
       "store": "ALDI SÜD",
@@ -1395,7 +1416,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 54,
+      "id": 55,
       "key": "Hackfleisch",
       "name": "Hackfleisch vom Rind",
       "store": "ALDI SÜD",
@@ -1416,7 +1437,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 55,
+      "id": 56,
       "key": "Hackfleisch",
       "name": "Rind Hackfleisch 5 % Fett",
       "store": "ALDI SÜD",
@@ -1437,7 +1458,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 56,
+      "id": 57,
       "key": "Helle, kernlose Tafeltrauben",
       "name": "Helle, kernlose Tafeltrauben",
       "store": "PENNY",
@@ -1458,7 +1479,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 57,
+      "id": 58,
       "key": "Himalaya Basmatireis",
       "name": "Himalaya Basmatireis",
       "store": "ALDI SÜD",
@@ -1498,7 +1519,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 58
+      "id": 59
     },
     {
       "key": "Jacobs Krönung",
@@ -1520,10 +1541,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 59
+      "id": 60
     },
     {
-      "id": 60,
+      "id": 61,
       "key": "Joghurt",
       "name": "MILPRIMA FruchtiGurt 3,8%",
       "store": "PENNY",
@@ -1544,7 +1565,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 61,
+      "id": 62,
       "key": "Joghurt",
       "name": "MILPRIMA Joghurt Crisp",
       "store": "PENNY",
@@ -1565,7 +1586,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 62,
+      "id": 63,
       "key": "Joghurt",
       "name": "MÖVENPICK Feinjoghurt",
       "store": "PENNY",
@@ -1586,7 +1607,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 63,
+      "id": 64,
       "key": "Kaffee",
       "name": "MILPRIMA Kaffeesahne* je 20 x",
       "store": "PENNY",
@@ -1626,7 +1647,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 64
+      "id": 65
     },
     {
       "key": "Kartoffeln",
@@ -1648,10 +1669,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:57:08.599Z",
-      "id": 65
+      "id": 66
     },
     {
-      "id": 66,
+      "id": 67,
       "key": "Kartoffeln",
       "name": "Deutsche Speisefrühkartoffeln* je 4-kg-Netz",
       "store": "PENNY",
@@ -1691,7 +1712,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 67
+      "id": 68
     },
     {
       "key": "Käse",
@@ -1713,10 +1734,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 68
+      "id": 69
     },
     {
-      "id": 69,
+      "id": 70,
       "key": "Käse",
       "name": "Käsescheiben 260 g, Benjamin",
       "store": "ALDI SÜD",
@@ -1737,7 +1758,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 70,
+      "id": 71,
       "key": "Käse",
       "name": "LEERDAMMER Käsescheiben",
       "store": "PENNY",
@@ -1758,7 +1779,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 71,
+      "id": 72,
       "key": "KINDER Pingui* je 8 x",
       "name": "KINDER Pingui* je 8 x",
       "store": "PENNY",
@@ -1779,7 +1800,91 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 72,
+      "key": "KNÜLLERBOMBAYSapphire London Dry Gin oder je 0,7-l-Fl.(",
+      "name": "KNÜLLERBOMBAYSapphire London Dry Gin oder je 0,7-l-Fl.(1 l = 24.28)nur16.99",
+      "store": "Kaufland",
+      "market": "München-Berg am Laim",
+      "address": "Berg-am-Laim-Straße 117, 81673 München",
+      "cat": "Lebensmittel",
+      "size": "1 l",
+      "price": 16.99,
+      "unit": 16.99,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": false,
+      "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
+      "sourceScope": "market",
+      "importedAt": "2026-08-19T15:17:45.240Z",
+      "id": 73
+    },
+    {
+      "key": "KNÜLLERKINDERPingui je 8 St. = 240-g-Packg.(1 kg = 10.3",
+      "name": "KNÜLLERKINDERPingui je 8 St. = 240-g-Packg.(1 kg = 10.38) / (1 kg = 8.30)**nur2.49 Mit Kaufland Card XTRA **nur1.99",
+      "store": "Kaufland",
+      "market": "München-Berg am Laim",
+      "address": "Berg-am-Laim-Straße 117, 81673 München",
+      "cat": "Lebensmittel",
+      "size": "8 St.",
+      "price": 2.49,
+      "unit": 0.311,
+      "unitLabel": "€/Stk.",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": true,
+      "advertised": false,
+      "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
+      "sourceScope": "market",
+      "importedAt": "2026-08-19T15:17:45.240Z",
+      "id": 74
+    },
+    {
+      "key": "KNÜLLERLORENZCrunchips je 150-g-Packg.(1 kg = 6.60)nur0",
+      "name": "KNÜLLERLORENZCrunchips je 150-g-Packg.(1 kg = 6.60)nur0.99",
+      "store": "Kaufland",
+      "market": "München-Berg am Laim",
+      "address": "Berg-am-Laim-Straße 117, 81673 München",
+      "cat": "Süßes & Snacks",
+      "size": "1 kg",
+      "price": 0.99,
+      "unit": 0.99,
+      "unitLabel": "€/kg",
+      "icon": "🍫",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": false,
+      "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
+      "sourceScope": "market",
+      "importedAt": "2026-08-19T15:17:45.240Z",
+      "id": 75
+    },
+    {
+      "key": "KNÜLLERSNACK ITKabanossi je 120-g-Packg.(1 kg = 12.42) ",
+      "name": "KNÜLLERSNACK ITKabanossi je 120-g-Packg.(1 kg = 12.42) / (1 kg = 10.75)**nur1.49 Mit Kaufland Card XTRA **nur1.29",
+      "store": "Kaufland",
+      "market": "München-Berg am Laim",
+      "address": "Berg-am-Laim-Straße 117, 81673 München",
+      "cat": "Süßes & Snacks",
+      "size": "1 kg",
+      "price": 1.49,
+      "unit": 1.49,
+      "unitLabel": "€/kg",
+      "icon": "🍫",
+      "bio": false,
+      "app": false,
+      "coupon": true,
+      "advertised": false,
+      "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
+      "sourceScope": "market",
+      "importedAt": "2026-08-19T15:17:45.240Z",
+      "id": 76
+    },
+    {
+      "id": 77,
       "key": "Lansinoh Regenerationsspray",
       "name": "Lansinoh Regenerationsspray",
       "store": "dm",
@@ -1800,7 +1905,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 73,
+      "id": 78,
       "key": "LEERDAMMER Trio-Scheiben",
       "name": "LEERDAMMER Trio-Scheiben",
       "store": "PENNY",
@@ -1821,7 +1926,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 74,
+      "id": 79,
       "key": "MARS Schokoriegel",
       "name": "MARS Schokoriegel",
       "store": "PENNY",
@@ -1842,7 +1947,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 75,
+      "id": 80,
       "key": "Milch",
       "name": "MILPRIMA Faire H-Milch* je 1 I",
       "store": "PENNY",
@@ -1863,7 +1968,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 76,
+      "id": 81,
       "key": "MILPRIMA High Protein Pudding",
       "name": "MILPRIMA High Protein Pudding",
       "store": "PENNY",
@@ -1884,7 +1989,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 77,
+      "id": 82,
       "key": "MILPRIMA Kondensmilch",
       "name": "MILPRIMA Kondensmilch",
       "store": "PENNY",
@@ -1905,7 +2010,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 78,
+      "id": 83,
       "key": "MILPRIMA Milchreis",
       "name": "MILPRIMA Milchreis",
       "store": "PENNY",
@@ -1926,7 +2031,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 79,
+      "id": 84,
       "key": "MILPRIMA Mini Max* je 12 x",
       "name": "MILPRIMA Mini Max* je 12 x",
       "store": "PENNY",
@@ -1947,7 +2052,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 80,
+      "id": 85,
       "key": "MILPRIMA Pudding",
       "name": "MILPRIMA Pudding",
       "store": "PENNY",
@@ -1968,7 +2073,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 81,
+      "id": 86,
       "key": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
       "name": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
       "store": "ALDI SÜD",
@@ -1989,7 +2094,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 82,
+      "id": 87,
       "key": "Mini Wassermelone, lose",
       "name": "Mini Wassermelone, lose",
       "store": "ALDI SÜD",
@@ -2010,7 +2115,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 83,
+      "id": 88,
       "key": "mit App: je 330 ml (1 l = 2.67);",
       "name": "mit App: je 330 ml (1 l = 2.67);",
       "store": "PENNY",
@@ -2031,7 +2136,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 84,
+      "id": 89,
       "key": "mit App: je 400 g (1 kg = 2.98);",
       "name": "mit App: je 400 g (1 kg = 2.98);",
       "store": "PENNY",
@@ -2052,7 +2157,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 85,
+      "id": 90,
       "key": "mit App: je 640 g (1 kg = 5.14);",
       "name": "mit App: je 640 g (1 kg = 5.14);",
       "store": "PENNY",
@@ -2073,7 +2178,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 86,
+      "id": 91,
       "key": "Naturland Hokkaido, lose",
       "name": "Bio Naturland Hokkaido, lose",
       "store": "ALDI SÜD",
@@ -2094,7 +2199,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 87,
+      "id": 92,
       "key": "NicNac´s XL Fun 170 g, Original",
       "name": "NicNac´s XL Fun 170 g, Original",
       "store": "ALDI SÜD",
@@ -2115,7 +2220,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 88,
+      "id": 93,
       "key": "Nur mit App",
       "name": "Nur mit App",
       "store": "PENNY",
@@ -2155,7 +2260,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 89
+      "id": 94
     },
     {
       "key": "Perwoll Woll- und Feinwaschmittel",
@@ -2177,7 +2282,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 90
+      "id": 95
     },
     {
       "key": "Pizza",
@@ -2199,10 +2304,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 91
+      "id": 96
     },
     {
-      "id": 92,
+      "id": 97,
       "key": "Pizza",
       "name": "DR. OETKER Ristorante Pizza",
       "store": "PENNY",
@@ -2223,7 +2328,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 93,
+      "id": 98,
       "key": "Pizza",
       "name": "DR. OETKER Bistro Flammkuchen",
       "store": "PENNY",
@@ -2244,7 +2349,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 94,
+      "id": 99,
       "key": "Pizza",
       "name": "STEINHAUS Elsässer Flammkuchen",
       "store": "PENNY",
@@ -2265,7 +2370,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 95,
+      "id": 100,
       "key": "Plattpfirsiche",
       "name": "Plattpfirsiche",
       "store": "PENNY",
@@ -2286,7 +2391,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 96,
+      "id": 101,
       "key": "Plattpfirsiche",
       "name": "Plattpfirsiche",
       "store": "ALDI SÜD",
@@ -2307,7 +2412,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 97,
+      "id": 102,
       "key": "RED BULL Energy-Drink",
       "name": "RED BULL Energy-Drink",
       "store": "PENNY",
@@ -2328,7 +2433,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 98,
+      "id": 103,
       "key": "Rindfleisch",
       "name": "Bio-Rinder-Gulasch",
       "store": "ALDI SÜD",
@@ -2349,7 +2454,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 99,
+      "id": 104,
       "key": "Rindfleisch",
       "name": "Schweine-Minutensteaks",
       "store": "ALDI SÜD",
@@ -2370,7 +2475,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 100,
+      "id": 105,
       "key": "Rindfleisch",
       "name": "Rind Burger 260 g, Angus Burger",
       "store": "ALDI SÜD",
@@ -2391,7 +2496,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 101,
+      "id": 106,
       "key": "Rindfleisch",
       "name": "Rind Burger 260 g, Prime Burger",
       "store": "ALDI SÜD",
@@ -2431,10 +2536,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 102
+      "id": 107
     },
     {
-      "id": 103,
+      "id": 108,
       "key": "Saft",
       "name": "hohes C Mehrfrucht-Saft versch. Sorten, Milder Apfelsaft oder Multivitamin",
       "store": "HIT",
@@ -2455,7 +2560,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 104,
+      "id": 109,
       "key": "Saft",
       "name": "TRUE FRUITS Smoothie",
       "store": "PENNY",
@@ -2476,7 +2581,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 105,
+      "id": 110,
       "key": "Saft",
       "name": "Smoothie 250 ml, Orange, Karotte und Mango",
       "store": "ALDI SÜD",
@@ -2516,7 +2621,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 106
+      "id": 111
     },
     {
       "key": "Schokolade",
@@ -2538,10 +2643,31 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 107
+      "id": 112
     },
     {
-      "id": 108,
+      "key": "Schokolade",
+      "name": "KNÜLLERKINDER Schokoladeoder YOGURETTE Schokoriegel je 100-g-Packg.(1 kg = 11.90)nur1.19",
+      "store": "Kaufland",
+      "market": "München-Berg am Laim",
+      "address": "Berg-am-Laim-Straße 117, 81673 München",
+      "cat": "Süßes & Snacks",
+      "size": "1 kg",
+      "price": 1.19,
+      "unit": 1.19,
+      "unitLabel": "€/kg",
+      "icon": "🍫",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": false,
+      "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
+      "sourceScope": "market",
+      "importedAt": "2026-08-19T15:17:45.240Z",
+      "id": 113
+    },
+    {
+      "id": 114,
       "key": "Schokolade",
       "name": "HARIBO Pfirsiche",
       "store": "PENNY",
@@ -2581,10 +2707,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 109
+      "id": 115
     },
     {
-      "id": 110,
+      "id": 116,
       "key": "Schokolade",
       "name": "Schokolade",
       "store": "ALDI SÜD",
@@ -2605,7 +2731,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 111,
+      "id": 117,
       "key": "Schweinefleisch",
       "name": "Gulasch vom Schwein",
       "store": "ALDI SÜD",
@@ -2626,7 +2752,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 112,
+      "id": 118,
       "key": "Schweinefleisch",
       "name": "Schweine-Cordon Bleu",
       "store": "ALDI SÜD",
@@ -2647,7 +2773,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 113,
+      "id": 119,
       "key": "Schweinefleisch",
       "name": "Schweine Schnitzel",
       "store": "ALDI SÜD",
@@ -2668,7 +2794,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 114,
+      "id": 120,
       "key": "SICHER BEZAHLEN",
       "name": "SICHER BEZAHLEN",
       "store": "ROSSMANN",
@@ -2689,7 +2815,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 115,
+      "id": 121,
       "key": "SNICKERS Schokoriegel",
       "name": "SNICKERS Schokoriegel",
       "store": "PENNY",
@@ -2710,7 +2836,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 116,
+      "id": 122,
       "key": "Steckdosenwürfel mit USB, Schwarz",
       "name": "Steckdosenwürfel mit USB, Schwarz",
       "store": "ALDI SÜD",
@@ -2731,7 +2857,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 117,
+      "id": 123,
       "key": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
       "name": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
       "store": "ROSSMANN",
@@ -2752,7 +2878,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 118,
+      "id": 124,
       "key": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasensp",
       "name": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung",
       "store": "ROSSMANN",
@@ -2773,7 +2899,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 119,
+      "id": 125,
       "key": "STORCK Werther’s Original",
       "name": "STORCK Werther’s Original",
       "store": "PENNY",
@@ -2794,7 +2920,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 120,
+      "id": 126,
       "key": "Streichpreis 1.49€",
       "name": "Streichpreis 1.49€",
       "store": "PENNY",
@@ -2815,7 +2941,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 121,
+      "id": 127,
       "key": "Streichpreis 1.89€",
       "name": "Streichpreis 1.89€",
       "store": "PENNY",
@@ -2836,7 +2962,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 122,
+      "id": 128,
       "key": "Streichpreis 3.39€",
       "name": "Streichpreis 3.39€",
       "store": "PENNY",
@@ -2876,10 +3002,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 123
+      "id": 129
     },
     {
-      "id": 124,
+      "id": 130,
       "key": "Tomaten",
       "name": "Cocktailrispentomaten",
       "store": "ALDI SÜD",
@@ -2900,7 +3026,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 125,
+      "id": 131,
       "key": "Trauben hell, kernlos",
       "name": "Trauben hell, kernlos",
       "store": "ALDI SÜD",
@@ -2921,7 +3047,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 126,
+      "id": 132,
       "key": "Unverbindlichle Preisempfehlung 0.99€",
       "name": "Unverbindlichle Preisempfehlung 0.99€",
       "store": "PENNY",
@@ -2942,7 +3068,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 127,
+      "id": 133,
       "key": "Unverbindlichle Preisempfehlung 1.49€",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -2963,7 +3089,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 128,
+      "id": 134,
       "key": "Unverbindlichle Preisempfehlung 1.69€",
       "name": "Unverbindlichle Preisempfehlung 1.69€",
       "store": "PENNY",
@@ -2984,7 +3110,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 129,
+      "id": 135,
       "key": "Unverbindlichle Preisempfehlung 1.79€",
       "name": "Unverbindlichle Preisempfehlung 1.79€",
       "store": "PENNY",
@@ -3005,7 +3131,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 130,
+      "id": 136,
       "key": "Unverbindlichle Preisempfehlung 1.99€",
       "name": "Unverbindlichle Preisempfehlung 1.99€",
       "store": "PENNY",
@@ -3026,7 +3152,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 131,
+      "id": 137,
       "key": "Unverbindlichle Preisempfehlung 2.29€",
       "name": "Unverbindlichle Preisempfehlung 2.29€",
       "store": "PENNY",
@@ -3047,7 +3173,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 132,
+      "id": 138,
       "key": "Unverbindlichle Preisempfehlung 2.69€",
       "name": "Unverbindlichle Preisempfehlung 2.69€",
       "store": "PENNY",
@@ -3068,7 +3194,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 133,
+      "id": 139,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -3089,7 +3215,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 134,
+      "id": 140,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -3110,7 +3236,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 135,
+      "id": 141,
       "key": "Unverbindlichle Preisempfehlung 3.59€",
       "name": "Unverbindlichle Preisempfehlung 3.59€",
       "store": "PENNY",
@@ -3131,7 +3257,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 136,
+      "id": 142,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -3152,7 +3278,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 137,
+      "id": 143,
       "key": "Verkäufer der über den Onlineshop der Dirk Rossmann Gmb",
       "name": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
       "store": "ROSSMANN",
@@ -3173,7 +3299,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 138,
+      "id": 144,
       "key": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
       "name": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
       "store": "ALDI SÜD",
@@ -3194,7 +3320,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 139,
+      "id": 145,
       "key": "WEIHENSTEPHAN Die Extrazarte",
       "name": "WEIHENSTEPHAN Die Extrazarte",
       "store": "PENNY",
@@ -3215,7 +3341,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 140,
+      "id": 146,
       "key": "WEIHENSTEPHAN Haltbare Milch",
       "name": "WEIHENSTEPHAN Haltbare Milch",
       "store": "PENNY",
@@ -3236,7 +3362,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 141,
+      "id": 147,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3257,7 +3383,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 142,
+      "id": 148,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 7 Extra Large (15+ kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3278,7 +3404,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 143,
+      "id": 149,
       "key": "Windeln",
       "name": "babylove Schwimmwindeln Disney Gr. Extralarge (13+ kg)",
       "store": "dm",
@@ -3299,7 +3425,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 144,
+      "id": 150,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox",
       "store": "dm",
@@ -3320,7 +3446,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 145,
+      "id": 151,
       "key": "Windeln",
       "name": "babylove Schwimmwindeln Disney Gr. Large (10-14 kg)",
       "store": "dm",
@@ -3341,7 +3467,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 146,
+      "id": 152,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "dm",
@@ -3362,7 +3488,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 147,
+      "id": 153,
       "key": "Windeln",
       "name": "Pampers baby-dry Windeln baby-dry Gr. 5 (11-16 kg) Big Economy Pack",
       "store": "dm",
@@ -3383,7 +3509,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 148,
+      "id": 154,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 1 New Born (2-5 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3404,7 +3530,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 149,
+      "id": 155,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 2 Mini (4-8 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3425,7 +3551,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 150,
+      "id": 156,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3446,7 +3572,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 151,
+      "id": 157,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3467,7 +3593,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 152,
+      "id": 158,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "dm",
@@ -3488,7 +3614,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 153,
+      "id": 159,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3509,7 +3635,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 154,
+      "id": 160,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3530,7 +3656,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 155,
+      "id": 161,
       "key": "Windeln",
       "name": "Baby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3551,7 +3677,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 156,
+      "id": 162,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 6 Extra Large (13-18 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3572,7 +3698,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 157,
+      "id": 163,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3593,7 +3719,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 158,
+      "id": 164,
       "key": "Windeln",
       "name": "Baby Dry Pants Gr. 6 Extra Large (14-19 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -3614,7 +3740,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 159,
+      "id": 165,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox",
       "store": "dm",
@@ -3635,7 +3761,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 160,
+      "id": 166,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 5+ (12-17 kg) Monatsbox",
       "store": "dm",
@@ -3656,7 +3782,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 161,
+      "id": 167,
       "key": "Wurst",
       "name": "Bio-Grobe Bratwurst",
       "store": "ALDI SÜD",
@@ -3677,7 +3803,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 162,
+      "id": 168,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -3698,7 +3824,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 163,
+      "id": 169,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -3738,10 +3864,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 164
+      "id": 170
     },
     {
-      "id": 165,
+      "id": 171,
       "key": "ZESPRI SunGold Kiwi Gold* je 3er-Schale",
       "name": "ZESPRI SunGold Kiwi Gold* je 3er-Schale",
       "store": "PENNY",
@@ -3781,28 +3907,27 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 166
+      "id": 172
     }
   ],
-  "httpFallbackAt": "2026-08-19T14:13:06.479Z",
-  "readerFallbackAt": "2026-08-19T15:03:59.306Z",
-  "nettoReaderAt": "2026-08-19T15:04:00.160Z",
+  "httpFallbackAt": "2026-08-19T15:17:45.240Z",
+  "readerFallbackAt": "2026-08-19T15:17:49.503Z",
+  "nettoReaderAt": "2026-08-19T15:17:50.335Z",
   "quality": {
-    "sanitizedAt": "2026-08-19T15:04:00.928Z",
-    "before": 232,
-    "after": 226,
+    "sanitizedAt": "2026-08-19T15:17:51.423Z",
+    "before": 179,
+    "after": 173,
     "rejected": 6,
-    "repaired": 42
+    "repaired": 86
   },
   "qualityV2": {
-    "sanitizedAt": "2026-08-19T15:04:01.006Z",
-    "before": 226,
-    "after": 166,
-    "rejected": 60,
-    "repaired": 18,
+    "sanitizedAt": "2026-08-19T15:17:51.499Z",
+    "before": 173,
+    "after": 172,
+    "rejected": 1,
+    "repaired": 16,
     "rejectedReasons": {
-      "ui": 22,
-      "size_duplicate": 38
+      "name": 1
     }
   }
 }
