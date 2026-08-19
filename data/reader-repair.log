@@ -1,0 +1,19 @@
+Reader-Fallback REWE: https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/
+Reader-Fallback EDEKA: https://www.edeka.de/maerkte/030244/
+Reader-Fallback METRO: https://www.metro.de/angebote
+Reader-Fallback fertig: 305 Gesamtangebote.
+Netto Reader: 6 Angebote
+Qualitätsfilter: 311 -> 297 Angebote (14 verworfen, 66 repariert).
+REWE: ok / 10 / 10 valide Angebote importiert
+EDEKA: ok / 14 / 14 valide Angebote importiert
+PENNY: ok / 112 / 112 valide Angebote importiert
+HIT: ok / 3 / 3 valide Angebote importiert
+ALDI SÜD: ok / 58 / 58 valide Angebote importiert
+Lidl: ok / 1 / 1 valide Angebote importiert
+Netto: ok / 2 / 2 valide Angebote importiert
+NORMA: ok / 1 / 1 valide Angebote importiert
+Kaufland: ok / 1 / 1 valide Angebote importiert
+METRO: login_required / 0 / METRO zeigt Produkte öffentlich, Preise aber erst nach Kunden-Login.
+dm: ok / 52 / 52 valide Angebote importiert
+ROSSMANN: ok / 43 / 43 valide Angebote importiert
+Gesamt: 297
