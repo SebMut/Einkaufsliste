@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-19T22:05:53.981Z",
+  "testedCommit": "dbbc705f2426a17ea075ed03afb224064ba97e65",
+  "runId": "32306936156",
+  "runAttempt": "1",
+  "outcomes": {
+    "preTests": "success",
+    "importExitCode": 0,
+    "sanitize": "success",
+    "qualityV2": "success",
+    "qualityV3": "success",
+    "qualityV4": "success",
+    "marketGuard": "success",
+    "priceHistory": "success",
+    "postTests": "success",
+    "frontendE2E": "success",
+    "diagnostics": "success",
+    "releaseGate": "success"
+  },
+  "diagnostics": {
+    "configuredSources": 12,
+    "ok": 12,
+    "loginRequired": 0,
+    "credentialsMissing": 0,
+    "authErrors": 0,
+    "noData": 0,
+    "errors": 0,
+    "skipped": 0,
+    "offerCount": 1365,
+    "liveGeneratedAt": "2026-08-19T22:05:49.269Z",
+    "liveDataCurrent": true
+  },
+  "status": "passed"
+}
