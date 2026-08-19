@@ -82,12 +82,14 @@ const sources = (markets.sources || []).map(source => {
 const ok = sources.filter(s => s.status === 'ok').length;
 const noData = sources.filter(s => s.status === 'no_data').length;
 const loginRequired = sources.filter(s => s.status === 'login_required').length;
-const errors = sources.filter(s => s.status === 'error').length;
+const credentialsMissing = sources.filter(s => s.status === 'credentials_missing').length;
+const authErrors = sources.filter(s => s.status === 'auth_error').length;
+const errors = sources.filter(s => s.status === 'error').length + authErrors;
 const skipped = sources.filter(s => s.status === 'skipped').length;
 const runFailed = exitCode !== 0 || !liveDataCurrent || errors > 0;
 
 const diagnostics = {
-  schema: 2,
+  schema: 3,
   generatedAt: now,
   run: {
     id: process.env.GITHUB_RUN_ID || null,
@@ -97,7 +99,7 @@ const diagnostics = {
     ref: process.env.GITHUB_REF_NAME || null,
     actor: process.env.GITHUB_ACTOR || null,
     exitCode,
-    status: runFailed ? 'failed' : (noData || skipped ? 'partial' : 'completed'),
+    status: runFailed ? 'failed' : (noData || skipped || loginRequired || credentialsMissing ? 'partial' : 'completed'),
     startedAt: new Date(startedMs).toISOString(),
     finishedAt: new Date(finishedMs).toISOString(),
     durationMs: Math.max(0, finishedMs - startedMs)
@@ -106,6 +108,8 @@ const diagnostics = {
     configuredSources: sources.length,
     ok,
     loginRequired,
+    credentialsMissing,
+    authErrors,
     noData,
     errors,
     skipped,
@@ -118,4 +122,4 @@ const diagnostics = {
 };
 
 await fs.writeFile(path.join(DATA, 'import-diagnostics.json'), JSON.stringify(diagnostics, null, 2) + '\n');
-console.log(`Diagnose geschrieben: ${ok} ok, ${loginRequired} Login nötig, ${noData} ohne Daten, ${errors} Fehler, ${skipped} übersprungen; aktuelle Live-Datei=${liveDataCurrent}.`);
+console.log(`Diagnose geschrieben: ${ok} ok, ${credentialsMissing} Secrets fehlen, ${authErrors} Auth-Fehler, ${loginRequired} Login nötig, ${noData} ohne Daten, ${errors} Fehler; aktuelle Live-Datei=${liveDataCurrent}.`);
