@@ -1,6 +1,6 @@
 {
   "schema": 8,
-  "generatedAt": "2026-08-19T19:26:41.380Z",
+  "generatedAt": "2026-08-19T19:27:12.277Z",
   "center": {
     "name": "85622 Feldkirchen bei München",
     "lat": 48.145,
@@ -3717,6 +3717,15 @@
       "type": "Großhandel",
       "distanceKm": 11,
       "importStatus": "login_required"
+    },
+    {
+      "store": "V-Markt",
+      "market": "Region München",
+      "address": "Balanstraße 50, 81541 München",
+      "url": "https://www.v-markt.de/angebote/muenchen",
+      "scope": "regional",
+      "type": "Supermarkt",
+      "importStatus": "partial"
     }
   ],
   "audit": {
