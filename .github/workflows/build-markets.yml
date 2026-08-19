@@ -11,6 +11,9 @@ on:
       - 'importer/market-policy.js'
       - 'importer/market-policy.test.js'
       - 'importer/semantic-products.js'
+      - 'importer/semantic-live-audit.test.js'
+      - 'importer/semantic-edge-cases.test.js'
+      - 'importer/gtin.js'
       - 'importer/product-normalizer.js'
       - 'importer/product-normalizer.test.js'
       - 'importer/product-identity.js'
@@ -44,7 +47,7 @@ jobs:
       - name: Abhängigkeiten installieren
         working-directory: importer
         run: npm install --no-audit --no-fund
-      - name: Semantik, EAN und Markt-Whitelist testen
+      - name: Semantik, GTIN und Markt-Whitelist vor Build testen
         working-directory: importer
         run: npm test
       - name: Erlaubte Märkte erzeugen
@@ -68,6 +71,9 @@ jobs:
       - name: Aktuelle Preisbeobachtung ergänzen
         working-directory: importer
         run: npm run history
+      - name: Generierte Daten semantisch erneut testen
+        working-directory: importer
+        run: npm test
       - name: Ergebnis strikt validieren
         working-directory: importer
         run: |
