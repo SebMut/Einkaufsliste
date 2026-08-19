@@ -1,21 +1,17 @@
-name: Spezialreader HIT Kaufland NORMA Lidl
+name: Spezialreader Diagnose
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/rich-reader-repair.yml'
-      - 'importer/rich-retailers.js'
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: rich-reader-repair
+  group: rich-reader-diagnostic
   cancel-in-progress: true
 
 jobs:
-  repair:
+  diagnostic:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -23,69 +19,28 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Dependencies
-        id: deps
-        continue-on-error: true
+      - name: Abhängigkeiten installieren
         working-directory: importer
         run: npm install --no-audit --no-fund
-      - name: Chromium
-        id: chromium
-        continue-on-error: true
+      - name: Tests vor Spezialreader
+        working-directory: importer
+        run: npm test
+      - name: Chromium installieren
         working-directory: importer
         run: npx playwright install --with-deps chromium
-      - name: Spezialreader
-        id: rich
-        if: always()
-        continue-on-error: true
+      - name: Spezialreader im Arbeitsverzeichnis ausführen
         working-directory: importer
-        shell: bash
-        run: |
-          set -o pipefail
-          node rich-retailers.js 2>&1 | tee ../data/rich-reader.log
-      - name: Qualität 1
-        id: q1
-        if: always()
-        continue-on-error: true
+        run: node rich-retailers.js
+      - name: Qualitätskette
         working-directory: importer
-        shell: bash
-        run: node sanitize.js 2>&1 | tee -a ../data/rich-reader.log
-      - name: Qualität 2
-        id: q2
-        if: always()
-        continue-on-error: true
+        run: |
+          node sanitize.js
+          node quality-v2.js
+          node quality-v3.js
+          node quality-v4.js
+          npm run merge
+      - name: Ergebnis erneut testen
         working-directory: importer
-        shell: bash
-        run: node quality-v2.js 2>&1 | tee -a ../data/rich-reader.log
-      - name: Ergebnis
-        if: always()
-        continue-on-error: true
-        shell: bash
-        env:
-          DEPS: ${{ steps.deps.outcome }}
-          CHROMIUM: ${{ steps.chromium.outcome }}
-          RICH: ${{ steps.rich.outcome }}
-          Q1: ${{ steps.q1.outcome }}
-          Q2: ${{ steps.q2.outcome }}
-        run: |
-          echo "Steps: deps=$DEPS chromium=$CHROMIUM rich=$RICH q1=$Q1 q2=$Q2" | tee -a data/rich-reader.log
-          node - <<'NODE' | tee -a data/rich-reader.log
-          const fs=require('fs');
-          const d=JSON.parse(fs.readFileSync('data/offers-live.json','utf8'));
-          for(const store of ['HIT','Kaufland','NORMA','Lidl']){
-            const s=(d.sources||[]).find(x=>x.store===store);
-            console.log(`${store}: ${s?.status||'-'} / ${s?.count||0} / ${s?.message||''}`);
-          }
-          console.log(`Gesamt: ${d.offerCount}`);
-          NODE
-      - name: Veröffentlichen
-        if: always()
-        shell: bash
-        run: |
-          git config user.name "AngebotsRadar Bot"
-          git config user.email "actions@users.noreply.github.com"
-          touch data/rich-reader.log
-          git add data/offers-live.json data/quality-report.json data/rich-reader.log
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Spezialreader-Angebote und Diagnose aktualisieren"
-          git pull --rebase origin main
-          git push origin main
+        run: npm test
+      - name: Hinweis
+        run: echo 'Diagnosemodus abgeschlossen. Produktionsdaten werden von diesem Workflow nicht committed.'
