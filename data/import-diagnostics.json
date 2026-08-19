@@ -1,27 +1,27 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-19T11:47:02.813Z",
+  "generatedAt": "2026-08-19T11:59:27.189Z",
   "run": {
-    "id": "32248765033",
+    "id": "32250211594",
     "attempt": "1",
     "event": "push",
-    "sha": "b36124b3ece1ba89c7730338bcb99cf131a5b52d",
+    "sha": "fc1958970db685c8abe05322da488aec25439815",
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 0,
     "status": "partial",
-    "startedAt": "2026-08-19T11:46:17.923Z",
-    "finishedAt": "2026-08-19T11:47:02.781Z",
-    "durationMs": 44858
+    "startedAt": "2026-08-19T11:58:40.143Z",
+    "finishedAt": "2026-08-19T11:59:27.089Z",
+    "durationMs": 46946
   },
   "summary": {
-    "configuredSources": 9,
+    "configuredSources": 10,
     "ok": 2,
-    "noData": 7,
+    "noData": 8,
     "errors": 0,
     "skipped": 0,
-    "offerCount": 19,
-    "liveGeneratedAt": "2026-08-19T11:46:18.176Z",
+    "offerCount": 17,
+    "liveGeneratedAt": "2026-08-19T11:58:40.533Z",
     "liveDataCurrent": true
   },
   "sources": [
@@ -34,9 +34,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": "2026-08-19T11:46:18.332Z",
-      "finishedAt": "2026-08-19T11:46:22.224Z",
-      "durationMs": 3892
+      "startedAt": "2026-08-19T11:58:42.099Z",
+      "finishedAt": "2026-08-19T11:58:45.959Z",
+      "durationMs": 3860
     },
     {
       "store": "EDEKA",
@@ -47,9 +47,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": "2026-08-19T11:46:22.225Z",
-      "finishedAt": "2026-08-19T11:46:26.102Z",
-      "durationMs": 3877
+      "startedAt": "2026-08-19T11:58:45.962Z",
+      "finishedAt": "2026-08-19T11:58:49.625Z",
+      "durationMs": 3663
     },
     {
       "store": "PENNY",
@@ -60,9 +60,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": "2026-08-19T11:46:26.103Z",
-      "finishedAt": "2026-08-19T11:46:31.554Z",
-      "durationMs": 5451
+      "startedAt": "2026-08-19T11:58:49.627Z",
+      "finishedAt": "2026-08-19T11:58:54.781Z",
+      "durationMs": 5154
     },
     {
       "store": "HIT",
@@ -73,9 +73,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": "2026-08-19T11:46:31.555Z",
-      "finishedAt": "2026-08-19T11:46:37.348Z",
-      "durationMs": 5793
+      "startedAt": "2026-08-19T11:58:54.783Z",
+      "finishedAt": "2026-08-19T11:59:00.301Z",
+      "durationMs": 5518
     },
     {
       "store": "ALDI SÜD",
@@ -85,10 +85,10 @@
       "scope": "regional",
       "status": "ok",
       "count": 14,
-      "message": "14 Angebote importiert",
-      "startedAt": "2026-08-19T11:46:37.349Z",
-      "finishedAt": "2026-08-19T11:46:42.598Z",
-      "durationMs": 5249
+      "message": "14 valide Angebote importiert",
+      "startedAt": "2026-08-19T11:59:00.303Z",
+      "finishedAt": "2026-08-19T11:59:05.619Z",
+      "durationMs": 5316
     },
     {
       "store": "Lidl",
@@ -99,9 +99,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": "2026-08-19T11:46:42.600Z",
-      "finishedAt": "2026-08-19T11:46:47.250Z",
-      "durationMs": 4650
+      "startedAt": "2026-08-19T11:59:05.622Z",
+      "finishedAt": "2026-08-19T11:59:09.965Z",
+      "durationMs": 4343
     },
     {
       "store": "Netto",
@@ -112,9 +112,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": "2026-08-19T11:46:47.251Z",
-      "finishedAt": "2026-08-19T11:46:50.909Z",
-      "durationMs": 3658
+      "startedAt": "2026-08-19T11:59:09.967Z",
+      "finishedAt": "2026-08-19T11:59:13.678Z",
+      "durationMs": 3711
     },
     {
       "store": "NORMA",
@@ -123,11 +123,11 @@
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "scope": "regional",
       "status": "ok",
-      "count": 5,
-      "message": "5 Angebote importiert",
-      "startedAt": "2026-08-19T11:46:50.910Z",
-      "finishedAt": "2026-08-19T11:46:55.950Z",
-      "durationMs": 5040
+      "count": 3,
+      "message": "3 valide Angebote importiert",
+      "startedAt": "2026-08-19T11:59:13.680Z",
+      "finishedAt": "2026-08-19T11:59:18.741Z",
+      "durationMs": 5061
     },
     {
       "store": "Kaufland",
@@ -138,9 +138,22 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
-      "startedAt": "2026-08-19T11:46:55.952Z",
-      "finishedAt": "2026-08-19T11:47:02.744Z",
-      "durationMs": 6792
+      "startedAt": "2026-08-19T11:59:18.743Z",
+      "finishedAt": "2026-08-19T11:59:23.365Z",
+      "durationMs": 4622
+    },
+    {
+      "store": "METRO",
+      "market": "München-Freimann",
+      "address": "Helene-Wessel-Bogen 39, 80939 München",
+      "sourceUrl": "https://www.metro.de/standorte/muenchen-freimann",
+      "scope": "market",
+      "status": "no_data",
+      "count": 0,
+      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt",
+      "startedAt": "2026-08-19T11:59:23.367Z",
+      "finishedAt": "2026-08-19T11:59:27.038Z",
+      "durationMs": 3671
     }
   ],
   "lastLogLines": [
@@ -166,6 +179,8 @@
     "NORMA: ok, 5",
     "Importiere Kaufland München-Berg am Laim ...",
     "Kaufland: no_data, 0",
-    "Fertig: 19 Live-Angebote aus 2/9 Quellen."
+    "Importiere METRO München-Freimann ...",
+    "METRO: no_data, 0",
+    "Fertig: 19 Live-Angebote aus 2/10 Quellen."
   ]
 }

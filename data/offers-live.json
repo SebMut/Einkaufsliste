@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generatedAt": "2026-08-19T11:46:18.176Z",
+  "generatedAt": "2026-08-19T11:58:40.533Z",
   "center": {
     "name": "85622 Feldkirchen",
     "lat": 48.145,
@@ -72,6 +72,13 @@
       "store": "Kaufland",
       "market": "München-Berg am Laim",
       "address": "Berg-am-Laim-Straße 117, 81673 München"
+    },
+    {
+      "store": "METRO",
+      "market": "München-Freimann",
+      "address": "Helene-Wessel-Bogen 39, 80939 München",
+      "distanceKm": 11,
+      "radiusException": true
     }
   ],
   "sources": [
@@ -123,7 +130,7 @@
       "scope": "regional",
       "status": "ok",
       "count": 14,
-      "message": "14 Angebote importiert"
+      "message": "14 valide Angebote importiert"
     },
     {
       "store": "Lidl",
@@ -152,8 +159,8 @@
       "url": "https://www.norma-online.de/de/angebote/?desktop=1",
       "scope": "regional",
       "status": "ok",
-      "count": 5,
-      "message": "5 Angebote importiert"
+      "count": 3,
+      "message": "3 valide Angebote importiert"
     },
     {
       "store": "Kaufland",
@@ -164,52 +171,24 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt"
+    },
+    {
+      "store": "METRO",
+      "market": "München-Freimann",
+      "address": "Helene-Wessel-Bogen 39, 80939 München",
+      "url": "https://www.metro.de/standorte/muenchen-freimann",
+      "scope": "market",
+      "distanceKm": 11,
+      "radiusException": true,
+      "status": "no_data",
+      "count": 0,
+      "message": "Seite erreichbar, aber keine strukturierten Lebensmittelangebote erkannt"
     }
   ],
-  "offerCount": 19,
+  "offerCount": 17,
   "offers": [
     {
       "id": 1,
-      "key": "1 kg =",
-      "name": "1 kg =",
-      "store": "NORMA",
-      "market": "Vaterstetten",
-      "address": "Johann-Sebastian-Bach-Strasse 44, 85591 Vaterstetten",
-      "cat": "Lebensmittel",
-      "size": "1 kg",
-      "price": 11.38,
-      "unit": 11.38,
-      "unitLabel": "€/kg",
-      "icon": "🛒",
-      "bio": false,
-      "app": false,
-      "coupon": false,
-      "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
-      "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
-    },
-    {
-      "id": 2,
-      "key": "1 l =",
-      "name": "1 l =",
-      "store": "NORMA",
-      "market": "Vaterstetten",
-      "address": "Johann-Sebastian-Bach-Strasse 44, 85591 Vaterstetten",
-      "cat": "Lebensmittel",
-      "size": "1 l",
-      "price": 6.57,
-      "unit": 6.57,
-      "unitLabel": "€/l",
-      "icon": "🛒",
-      "bio": false,
-      "app": false,
-      "coupon": false,
-      "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
-      "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
-    },
-    {
-      "id": 3,
       "key": "18% billiger",
       "name": "18% billiger",
       "store": "NORMA",
@@ -226,10 +205,10 @@
       "coupon": false,
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 4,
+      "id": 2,
       "key": "33% billiger",
       "name": "33% billiger",
       "store": "NORMA",
@@ -246,10 +225,10 @@
       "coupon": false,
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 5,
+      "id": 3,
       "key": "BESTES AUS DER REGION",
       "name": "BESTES AUS DER REGION",
       "store": "ALDI SÜD",
@@ -266,10 +245,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 6,
+      "id": 4,
       "key": "Hackfleisch",
       "name": "DAUERHAFT GÜNSTIGE PRODUKTE.",
       "store": "ALDI SÜD",
@@ -286,10 +265,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 7,
+      "id": 5,
       "key": "Hackfleisch",
       "name": "Kühlung",
       "store": "ALDI SÜD",
@@ -306,10 +285,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 8,
+      "id": 6,
       "key": "Hackfleisch",
       "name": "Kühlung",
       "store": "ALDI SÜD",
@@ -326,10 +305,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 9,
+      "id": 7,
       "key": "NATUR LIEBLINGE",
       "name": "NATUR LIEBLINGE",
       "store": "ALDI SÜD",
@@ -346,10 +325,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 10,
+      "id": 8,
       "key": "NATUR LIEBLINGE",
       "name": "NATUR LIEBLINGE",
       "store": "ALDI SÜD",
@@ -366,10 +345,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 11,
+      "id": 9,
       "key": "NATUR LIEBLINGE",
       "name": "NATUR LIEBLINGE",
       "store": "ALDI SÜD",
@@ -386,10 +365,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 12,
+      "id": 10,
       "key": "NATUR LIEBLINGE",
       "name": "NATUR LIEBLINGE",
       "store": "ALDI SÜD",
@@ -406,10 +385,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 13,
+      "id": 11,
       "key": "Schweinefleisch",
       "name": "Kühlung",
       "store": "ALDI SÜD",
@@ -426,10 +405,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 14,
+      "id": 12,
       "key": "Schweinefleisch",
       "name": "Kühlung",
       "store": "ALDI SÜD",
@@ -446,10 +425,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 15,
+      "id": 13,
       "key": "Tomaten",
       "name": "WOCHENANGEBOTE MO., 17.8. – SA., 22.8.",
       "store": "ALDI SÜD",
@@ -466,10 +445,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 16,
+      "id": 14,
       "key": "Tomaten",
       "name": "NATUR LIEBLINGE",
       "store": "ALDI SÜD",
@@ -486,10 +465,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 17,
+      "id": 15,
       "key": "Tomaten",
       "name": "NATUR LIEBLINGE",
       "store": "ALDI SÜD",
@@ -506,10 +485,10 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 18,
+      "id": 16,
       "key": "XL-Rollsammler",
       "name": "XL-Rollsammler",
       "store": "NORMA",
@@ -526,10 +505,10 @@
       "coupon": false,
       "sourceUrl": "https://www.norma-online.de/de/angebote/?desktop=1",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     },
     {
-      "id": 19,
+      "id": 17,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -546,7 +525,13 @@
       "coupon": false,
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
-      "importedAt": "2026-08-19T11:46:18.176Z"
+      "importedAt": "2026-08-19T11:58:40.533Z"
     }
-  ]
+  ],
+  "quality": {
+    "sanitizedAt": "2026-08-19T11:59:27.141Z",
+    "before": 19,
+    "after": 17,
+    "rejected": 2
+  }
 }
