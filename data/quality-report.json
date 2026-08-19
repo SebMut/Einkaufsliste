@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-19T16:04:28.861Z",
-  "before": 434,
-  "after": 418,
-  "rejected": 16,
-  "repaired": 407,
+  "generatedAt": "2026-08-19T16:10:40.053Z",
+  "before": 643,
+  "after": 580,
+  "rejected": 63,
+  "repaired": 870,
   "rejectedReasons": {
-    "duplicate": 2,
-    "name_no_letters": 4,
-    "name_length": 8,
-    "quantity_as_name": 1,
-    "invalid_unit": 1
+    "quantity_as_name": 10,
+    "navigation_or_ui": 13,
+    "name_length": 24,
+    "invalid_price": 6,
+    "duplicate": 4,
+    "number_as_name": 3,
+    "invalid_unit": 3
   },
   "storeBefore": {
-    "EDEKA": 11,
-    "ALDI SÜD": 26,
-    "PENNY": 51,
-    "dm": 30,
-    "ROSSMANN": 18,
+    "ALDI SÜD": 67,
+    "PENNY": 140,
+    "dm": 87,
+    "EDEKA": 13,
+    "ROSSMANN": 46,
     "REWE": 10,
-    "Netto": 8,
     "Lidl": 1,
     "NORMA": 121,
     "Kaufland": 22,
     "HIT": 136
   },
   "storeAfter": {
-    "EDEKA": 11,
-    "ALDI SÜD": 26,
-    "PENNY": 51,
-    "dm": 30,
-    "ROSSMANN": 18,
+    "ALDI SÜD": 61,
+    "EDEKA": 13,
+    "PENNY": 109,
+    "dm": 74,
+    "ROSSMANN": 43,
     "REWE": 10,
-    "Netto": 2,
     "Lidl": 1,
     "NORMA": 121,
     "Kaufland": 22,
@@ -39,84 +39,171 @@
   },
   "rejectedExamples": [
     {
-      "store": "Netto",
-      "name": "1.- / kg",
-      "reason": "name_no_letters"
-    },
-    {
-      "store": "Netto",
-      "name": "3.96 / kg",
-      "reason": "name_no_letters"
-    },
-    {
-      "store": "Netto",
-      "name": "9.- – 11.38 / kg",
-      "reason": "name_no_letters"
-    },
-    {
-      "store": "Netto",
-      "name": "1.- / l",
-      "reason": "name_no_letters"
-    },
-    {
-      "store": "HIT",
-      "name": "Grand Cru du Jurassic, Cyrano pur Schaf, Brügge alt, Postel Alt Franz./Belg. Hart-/ Schnittkäse 50 % Fett i. Tr., würzig oder mild 2,5-12 Monate gereift",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "Jakobskäse, Koch Montchic Young Talent, Goldbach der Cremige Schweizer Hart-/ Schnitkäse 55-58 % Fett i. Tr., würzig oder mild 3-6 Monate gereift",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "Deutsche frische Hähnchenbrustfilet oder Putenschnitzel/ Steaks aus der zarten, mageren Brust, natur von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "Deutsches mariniertes Hähnchenbrustfilet, Putensteak/ Schnitzel, Spieße versch. Sorten von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "Niederlande Gourmet HIT Cocktailstrauchtomaten Sorte: Annico Klasse I leicht süßes, festes Fruchtfleisch, zum Rohverzehr oder im Salat geeignet",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "3 Glocken Genuss Pur Hartweizennudeln oder Birkel No. 1 Hartweizen Eiernudeln versch. Ausformungen",
+      "store": "PENNY",
+      "name": "je 1-kg-Packung",
       "reason": "quantity_as_name"
     },
     {
-      "store": "HIT",
-      "name": "Deutsche marinierte Fixe Schnitzel aus der Puten-, Hähnchenbrustfilet ca. 400 g SB-Packung, versch. Sorten von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik",
+      "store": "PENNY",
+      "name": "je 150 g (1 kg = 1.93)\nAngebotspreis 0.39€\n0.39\nMILPRIMA Pudding*\nje 150 g (1 kg = 2.60)\nAngebotspreis 1.79€\n1.79\nMILPRIMA Mini Max*\nje 12 x",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "PENNY",
+      "name": "je 150 g (1 kg = 2.60)\nAngebotspreis 1.79€\n1.79\nMILPRIMA Mini Max*\nje 12 x 60 g (1 kg = 2.49)\nAngebotspreis 0.89€\n0.89\nMILPRIMA High Protein",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "PENNY",
+      "name": "je 175 g (1 kg = 2.57)\nAngebotspreis 0.29€\n0.29\nMILPRIMA FruchtiGurt 3,8%*\nje 150 g (1 kg = 1.93)\nAngebotspreis 0.39€\n0.39\nMILPRIMA Pudding*",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "PENNY",
+      "name": "je 3er-Schale",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.29€\n0.29",
       "reason": "name_length"
     },
     {
-      "store": "HIT",
-      "name": "Settele Spätzle, Schupfnudeln oder Gnocchi versch. Sorten 1 kg Packung",
-      "reason": "invalid_unit"
-    },
-    {
-      "store": "HIT",
-      "name": "Schloss Sommerau alkoholfrei oder Rotwild Rebsortenweine mittelkräftig, fruchtige Aromen, samtig und rund, trocken, halbtrocken, lieblich. alkoholfrei",
+      "store": "PENNY",
+      "name": "Angebotspreis 0.39€\n0.39",
       "reason": "name_length"
     },
     {
-      "store": "HIT",
-      "name": "Torres Viña Sol, Sangre de Toro oder Mucho Más Tinto mittelkräftig, dezente Aromen reifer exotischer Früchte, wenig Säure, trocken. auch alkoholfrei",
+      "store": "PENNY",
+      "name": "Angebotspreis 0.45€\n0.45",
       "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.69€\n0.69",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.89€\n0.89",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.11€\n1.11",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.25€\n1.25",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.35€\n1.35",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.75€\n1.75",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.79€\n1.79",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.89€\n1.89",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 2.49€\n2.49",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 2.79€\n2.79",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 2.99€\n2.99",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 3.49€\n3.49",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 4.49€\n4.49",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "ALDI SÜD",
+      "name": "Heidelbeeren 500 g",
+      "reason": "invalid_price"
+    },
+    {
+      "store": "PENNY",
+      "name": "je 200 g (1 kg = 4.45)\nAngebotspreis 0.39€\n0.39\nMILPRIMA Milchreis*\nje 200 g (1 kg = 1.95)\nAngebotspreis 0.89€\n0.89\nMILPRIMA Kaffeesahne*\nje",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "PENNY",
+      "name": "3.39\nAngebotspreis 2.49€\n2.49\n-26%\nSIMPLY SUNNY Premium Nuss-Mix*\nje 200 g (1 kg = 12.45)\nNur mit App\nApp-preis 0.99*€\n0.99*\nAngebotspreis 1",
+      "reason": "number_as_name"
+    },
+    {
+      "store": "PENNY",
+      "name": "je 200 g (1 kg = 12.45)\nNur mit App\nApp-preis 0.99*€\n0.99*\nAngebotspreis 1.11€\n1.11\nAktion\nDeutsche Bundmöhren*\nje Bund\nAngebotspreis 2.79€",
+      "reason": "quantity_as_name"
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T16:04:28.957Z",
-    "before": 418,
-    "after": 411,
-    "rejected": 7,
-    "repaired": 60,
+    "generatedAt": "2026-08-19T16:10:40.150Z",
+    "before": 580,
+    "after": 427,
+    "rejected": 153,
+    "repaired": 149,
     "rejectedReasons": {
-      "name": 7
+      "name": 13,
+      "ui": 30,
+      "produce_unit": 1,
+      "price": 1,
+      "concatenated_offer": 9,
+      "duplicate": 37,
+      "size_duplicate": 37,
+      "semantic_duplicate": 23
     },
     "rejectedExamples": [
       {
@@ -125,14 +212,204 @@
         "reason": "name"
       },
       {
+        "store": "PENNY",
+        "name": "je 12 x 60 g (1 kg = 2.49) Angebotspreis 0.89€ 0.89 MILPRIMA High Protein Pudding* je 200 g (1 kg = 4.45) Angebotspreis 0.39€ 0.39 MILPRIMA",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "Alle ablehnen Alle Cookies akzeptieren",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "Auflistung mit 12 Elementen. Zum Ende der Liste springen.",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "Auflistung mit 20 Elementen. Zum Ende der Liste springen.",
+        "reason": "ui"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Himbeeren",
+        "reason": "produce_unit"
+      },
+      {
         "store": "HIT",
         "name": "Marokko/Kenia Bio HIT Avocado Sorte: Hass Klasse II die Butter des Waldes, besonders nussiges Aroma, als Brotaufstrich oder zum Salat Stück",
+        "reason": "name"
+      },
+      {
+        "store": "PENNY",
+        "name": "Diese Woche",
+        "reason": "ui"
+      },
+      {
+        "store": "PENNY",
+        "name": "Diese Woche",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "Du verwendest einen veralteten Browser. Dadurch kommt es zu Darstellungs- und Funktionsfehlern auf dm.de. Bitte nutze Google Chrome, Mozilla",
+        "reason": "name"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Duschgel 675 ml, Noire",
+        "reason": "price"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "FotoweltGutscheineKarriereUnternehmenGeschäftskundenbabyweltFiliale findenAnmelden0NeuIDEENWELTMake-UpPflege & DuftBaby & SpielzeugHaushaltT",
         "reason": "name"
       },
       {
         "store": "HIT",
         "name": "III Freunde Rebsortenweine verschiedene Sorten mittelkräftig, Aromen von gelben Früchten, frisch, trocken. auch alkoholfrei",
         "reason": "name"
+      },
+      {
+        "store": "PENNY",
+        "name": "Mo-Sa Angebotspreis 0.45€ 0.45 MILPRIMA Joghurt Crisp* je 175 g (1 kg = 2.57) Angebotspreis 0.29€ 0.29 MILPRIMA FruchtiGurt 3,8%* je 150 g (",
+        "reason": "name"
+      },
+      {
+        "store": "PENNY",
+        "name": "MILPRIMA Joghurt Crisp* je 175 g (1 kg = 2.57) Angebotspreis 0.29€ 0.29 MILPRIMA FruchtiGurt 3,8%* je 150 g (1 kg =",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "UVP 0.99 Angebotspreis 0.69€ 0.69 -40% mit App -30% MÖVENPICK Feinjoghurt* mit App: je 150 g (1 kg = 3.93); ohne App:",
+        "reason": "concatenated_offer"
       },
       {
         "store": "HIT",
@@ -145,26 +422,51 @@
         "reason": "name"
       },
       {
+        "store": "PENNY",
+        "name": "Nur mit App 6.78 Angebotspreis 3.49€ 3.49",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "Nur mit App App-preis 0.99*€ 0.99* Angebotspreis 1.11€ 1.11 Aktion Deutsche Bundmöhren* je Bund",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "Nur mit App App-preis 0.99*€ 0.99* Angebotspreis 1.11€ 1.11",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "Nur mit App App-preis 3.29*€ 3.29* Angebotspreis 3.49€ 3.49",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "Nur mit App App-preis 3.29*€ 3.29* Angebotspreis 3.49€ 3.49 Aktion DR. OETKER Bistro Flammkuchen* mit App: je 530 g (1 kg = 6.21); ohne App:",
+        "reason": "concatenated_offer"
+      },
+      {
         "store": "HIT",
         "name": "Recas Speis & Trank Rebsortenweine oder Riunite Lambrusco mittelkräftig, fruchtige Aromen, frisch, trocken oder lieblich.",
         "reason": "name"
       },
       {
-        "store": "HIT",
-        "name": "Deutscher gefüllter Spießbraten, marinierter Knoblauch-Saftbraten vom Schweinenacken ohne Knochen, küchenfertig zubereitet",
-        "reason": "name"
+        "store": "PENNY",
+        "name": "UVP 3.59 Angebotspreis 1.99€ 1.99 -50% mit App -44% MARS Schokoriegel* mit App: je 5 x 45 g (1 kg = 7.96); ohne App: je 5 x 45 g (1 kg = 8.8",
+        "reason": "concatenated_offer"
       }
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T16:04:29.039Z",
-    "before": 411,
-    "after": 294,
-    "rejected": 117,
-    "repaired": 142,
+    "generatedAt": "2026-08-19T16:10:40.222Z",
+    "before": 427,
+    "after": 295,
+    "rejected": 132,
+    "repaired": 146,
     "reasons": {
-      "nonfood": 6,
-      "not_food": 72,
+      "nonfood": 11,
+      "not_food": 82,
       "name": 2,
       "markdown": 24,
       "duplicate": 13
