@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-08-19T15:22:00.368Z",
-  "before": 275,
-  "after": 275,
+  "generatedAt": "2026-08-19T15:29:37.431Z",
+  "before": 289,
+  "after": 289,
   "rejected": 0,
-  "repaired": 203,
+  "repaired": 113,
   "rejectedReasons": {},
   "storeBefore": {
+    "NORMA": 104,
     "EDEKA": 12,
     "ALDI SÜD": 33,
     "PENNY": 51,
@@ -13,12 +14,12 @@
     "ROSSMANN": 23,
     "REWE": 10,
     "Netto": 2,
-    "Kaufland": 6,
     "Lidl": 1,
     "HIT": 1,
-    "NORMA": 104
+    "Kaufland": 20
   },
   "storeAfter": {
+    "NORMA": 104,
     "EDEKA": 12,
     "ALDI SÜD": 33,
     "PENNY": 51,
@@ -26,19 +27,26 @@
     "ROSSMANN": 23,
     "REWE": 10,
     "Netto": 2,
-    "Kaufland": 6,
     "Lidl": 1,
     "HIT": 1,
-    "NORMA": 104
+    "Kaufland": 20
   },
   "rejectedExamples": [],
   "finalPass": {
-    "generatedAt": "2026-08-19T15:22:00.452Z",
-    "before": 275,
-    "after": 275,
-    "rejected": 0,
-    "repaired": 58,
-    "rejectedReasons": {},
-    "rejectedExamples": []
+    "generatedAt": "2026-08-19T15:29:37.505Z",
+    "before": 289,
+    "after": 288,
+    "rejected": 1,
+    "repaired": 16,
+    "rejectedReasons": {
+      "name": 1
+    },
+    "rejectedExamples": [
+      {
+        "store": "Kaufland",
+        "name": "![Image 24: LANDLIEBE Haltbare Landmilch, fettarm, 1,5 % Fett LANDLIEBE Haltbare Landmilch, fettarm, 1,5 % Fett je 1-l-Packg.",
+        "reason": "name"
+      }
+    ]
   }
 }
