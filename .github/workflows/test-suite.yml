@@ -1,0 +1,89 @@
+name: Vollständige Test-Suite
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'index.html'
+      - 'importer/**'
+      - '.github/workflows/test-suite.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: complete-test-suite
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Abhängigkeiten installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+      - name: Automatisierte Tests ausführen
+        id: tests
+        working-directory: importer
+        shell: bash
+        run: |
+          set +e
+          npm test 2>&1 | tee ../test-output.tap
+          CODE=${PIPESTATUS[0]}
+          TESTS=$(awk '/^# tests /{v=$3} END{print v+0}' ../test-output.tap)
+          PASS=$(awk '/^# pass /{v=$3} END{print v+0}' ../test-output.tap)
+          FAIL=$(awk '/^# fail /{v=$3} END{print v+0}' ../test-output.tap)
+          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+          echo "tests=$TESTS" >> "$GITHUB_OUTPUT"
+          echo "pass=$PASS" >> "$GITHUB_OUTPUT"
+          echo "fail=$FAIL" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Testquittung erzeugen
+        if: always()
+        shell: bash
+        env:
+          EXIT_CODE: ${{ steps.tests.outputs.exit_code }}
+          TESTS: ${{ steps.tests.outputs.tests }}
+          PASS: ${{ steps.tests.outputs.pass }}
+          FAIL: ${{ steps.tests.outputs.fail }}
+        run: |
+          mkdir -p docs
+          node - <<'NODE'
+          const fs=require('fs');
+          const receipt={
+            schema:1,
+            generatedAt:new Date().toISOString(),
+            testedCommit:process.env.GITHUB_SHA,
+            runId:process.env.GITHUB_RUN_ID,
+            runAttempt:process.env.GITHUB_RUN_ATTEMPT,
+            node:process.version,
+            status:Number(process.env.EXIT_CODE)===0?'passed':'failed',
+            tests:Number(process.env.TESTS||0),
+            passed:Number(process.env.PASS||0),
+            failed:Number(process.env.FAIL||0),
+            exitCode:Number(process.env.EXIT_CODE||99)
+          };
+          fs.writeFileSync('docs/test-results.json',JSON.stringify(receipt,null,2)+'\n');
+          NODE
+          cp test-output.tap docs/test-output.tap
+      - name: Testquittung veröffentlichen
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "AngebotsRadar Test Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/test-results.json docs/test-output.tap
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Testquittung aktualisieren [skip ci]"
+          git pull --rebase origin main
+          git push origin main
+      - name: Teststatus bewerten
+        if: always()
+        run: test "${{ steps.tests.outputs.exit_code }}" = "0"
