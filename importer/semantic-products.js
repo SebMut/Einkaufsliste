@@ -159,7 +159,7 @@ export function classifySemanticProduct(name = '', size = '', currentCat = '') {
   });
 
   // Geschirrspülen.
-  else if (/spülmaschinen(?:tabs?|tabletten)|geschirrspül(?:tabs?|tabletten)|spülmaschinentabs?/.test(n)) p = profile('Spülmaschinentabs', {
+  else if (/spülmaschinen\s*(?:tabs?|tabletten)|geschirrspül\s*(?:tabs?|tabletten)|spülmaschinentabs?/.test(n)) p = profile('Spülmaschinentabs', {
     department: 'Drogerie', category: 'Haushalt & Drogerie', subcategory: 'Geschirrspülen',
     marketSection: 'Drogerie / Haushalt', useCase: 'Maschinelles Geschirrspülen'
   });
