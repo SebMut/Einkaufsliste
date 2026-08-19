@@ -81,12 +81,19 @@ jobs:
           METRO_PASSWORD: ${{ secrets.METRO_PASSWORD }}
         run: node metro-auth.js
 
-      - name: Qualitätsprüfung
+      - name: Qualitätsprüfung Stufe 1
         id: sanitize
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node sanitize.js
+
+      - name: Qualitätsprüfung Stufe 2
+        id: quality_v2
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node quality-v2.js
 
       - name: Diagnose erzeugen
         id: diagnostics
@@ -128,11 +135,12 @@ jobs:
           NETTO_READER_OUTCOME: ${{ steps.netto_reader.outcome }}
           METRO_AUTH_OUTCOME: ${{ steps.metro_auth.outcome }}
           SANITIZE_OUTCOME: ${{ steps.sanitize.outcome }}
+          QUALITY_V2_OUTCOME: ${{ steps.quality_v2.outcome }}
           DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
         run: |
-          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));console.log(d.summary);const q=JSON.parse(fs.readFileSync('data/quality-report.json'));console.log({quality:q.after,rejected:q.rejected,repaired:q.repaired});if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
+          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));console.log(d.summary);const q=JSON.parse(fs.readFileSync('data/quality-report.json'));console.log({quality:q.after,rejected:q.rejected,repaired:q.repaired,finalPass:q.finalPass||null});if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
           DIAG_CODE=$?
-          if [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
+          if [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$QUALITY_V2_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
             exit 1
           fi
