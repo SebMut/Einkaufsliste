@@ -1,6 +1,6 @@
-HIT: reader=56439 Zeichen, Zeilen=240, Treffer=0, vorher=1
+HIT: reader=56439 Zeichen, Zeilen=240, Treffer=0, vorher=99
 Kaufland: reader=102243 Zeichen, Zeilen=603, Treffer=20, vorher=19
-HIT chars=56439 Segmente=143 valide=110 vorher=1
+HIT chars=56439 Segmente=143 valide=110 vorher=99
 7.77 | 6x16,7 g | ](https://www.hit.de/angebot/27480640?store=1766)![Image 2: 32028412 ### Philadelphia versch. Sorten 195 - 6x16,7 g Packung AKTION! 1. 1.00* Preis Vorwoche 2.29](https://www.hit.de/angebot/27910983?store=1766)!
 1.11 | 250 g | ](https://www.hit.de/angebot/27780079?store=1766)!
 5.99 | 500 g | kaffee gemahlen versch. Sorten
@@ -28,6 +28,17 @@ HIT chars=56439 Segmente=143 valide=110 vorher=1
 6.99 | 1 kg | ](https://www.hit.de/angebot/27480805?store=1766)!
 Qualitätsfilter: 398 -> 387 Angebote (11 verworfen, 245 Reparaturen).
 Qualität V2: 387 -> 386; 1 weitere Einträge entfernt, 16 repariert.
-HIT: 99 / 99 qualitätsgeprüfte Angebote
-Kaufland: 19 / 19 qualitätsgeprüfte Angebote
-Gesamt: 386
+Qualität V3: 386 -> 212; 174 verworfen; 225 Namen bereinigt.
+REWE: 10 / 10 streng geprüfte Angebote
+EDEKA: 11 / 11 streng geprüfte Angebote
+PENNY: 51 / 51 streng geprüfte Angebote
+HIT: 1 / 1 streng geprüfte Angebote
+ALDI SÜD: 26 / 26 streng geprüfte Angebote
+Lidl: 1 / 1 streng geprüfte Angebote
+Netto: 2 / 2 streng geprüfte Angebote
+NORMA: 47 / 47 streng geprüfte Angebote
+Kaufland: 15 / 15 streng geprüfte Angebote
+METRO: 0 / METRO zeigt Produkte öffentlich, Preise aber erst nach Kunden-Login.
+dm: 30 / 30 streng geprüfte Angebote
+ROSSMANN: 18 / 18 streng geprüfte Angebote
+Gesamt: 212
