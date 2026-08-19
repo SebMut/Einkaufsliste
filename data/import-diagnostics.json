@@ -1,18 +1,18 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-19T17:38:22.855Z",
+  "generatedAt": "2026-08-19T17:44:46.000Z",
   "run": {
-    "id": "32282539679",
+    "id": "32283202144",
     "attempt": "1",
-    "event": "push",
-    "sha": "ee2205fbd5910ca2e7f8375513094ccd50ceb1fb",
+    "event": "schedule",
+    "sha": "953f1b0df15b1d1ec855650b7b3cde9c9838cbf1",
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 99,
     "status": "failed",
-    "startedAt": "2026-08-19T17:36:42.238Z",
-    "finishedAt": "2026-08-19T17:38:22.855Z",
-    "durationMs": 100617
+    "startedAt": "2026-08-19T17:43:37.054Z",
+    "finishedAt": "2026-08-19T17:44:46.000Z",
+    "durationMs": 68946
   },
   "summary": {
     "configuredSources": 12,
@@ -21,8 +21,8 @@
     "credentialsMissing": 0,
     "authErrors": 0,
     "noData": 0,
-    "errors": 12,
-    "skipped": 0,
+    "errors": 10,
+    "skipped": 2,
     "offerCount": 0,
     "liveGeneratedAt": null,
     "liveDataCurrent": false
@@ -38,9 +38,9 @@
       "count": 0,
       "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:36:42.832Z",
-      "finishedAt": "2026-08-19T17:36:49.248Z",
-      "durationMs": 6416
+      "startedAt": "2026-08-19T17:43:37.639Z",
+      "finishedAt": "2026-08-19T17:43:44.026Z",
+      "durationMs": 6387
     },
     {
       "store": "EDEKA",
@@ -52,9 +52,9 @@
       "count": 0,
       "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:36:49.250Z",
-      "finishedAt": "2026-08-19T17:36:55.451Z",
-      "durationMs": 6201
+      "startedAt": "2026-08-19T17:43:44.028Z",
+      "finishedAt": "2026-08-19T17:43:50.332Z",
+      "durationMs": 6304
     },
     {
       "store": "PENNY",
@@ -66,9 +66,9 @@
       "count": 0,
       "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:36:55.454Z",
-      "finishedAt": "2026-08-19T17:37:03.271Z",
-      "durationMs": 7817
+      "startedAt": "2026-08-19T17:43:50.334Z",
+      "finishedAt": "2026-08-19T17:43:58.722Z",
+      "durationMs": 8388
     },
     {
       "store": "HIT",
@@ -80,9 +80,9 @@
       "count": 0,
       "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:37:03.273Z",
-      "finishedAt": "2026-08-19T17:37:11.936Z",
-      "durationMs": 8663
+      "startedAt": "2026-08-19T17:43:58.724Z",
+      "finishedAt": "2026-08-19T17:44:07.819Z",
+      "durationMs": 9095
     },
     {
       "store": "ALDI SÜD",
@@ -94,9 +94,9 @@
       "count": 0,
       "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:37:11.938Z",
-      "finishedAt": "2026-08-19T17:37:19.533Z",
-      "durationMs": 7595
+      "startedAt": "2026-08-19T17:44:07.821Z",
+      "finishedAt": "2026-08-19T17:44:15.482Z",
+      "durationMs": 7661
     },
     {
       "store": "Lidl",
@@ -108,9 +108,9 @@
       "count": 0,
       "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:37:19.535Z",
-      "finishedAt": "2026-08-19T17:37:27.056Z",
-      "durationMs": 7521
+      "startedAt": "2026-08-19T17:44:15.488Z",
+      "finishedAt": "2026-08-19T17:44:23.286Z",
+      "durationMs": 7798
     },
     {
       "store": "Netto",
@@ -122,9 +122,9 @@
       "count": 0,
       "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:37:27.059Z",
-      "finishedAt": "2026-08-19T17:37:33.145Z",
-      "durationMs": 6086
+      "startedAt": "2026-08-19T17:44:23.288Z",
+      "finishedAt": "2026-08-19T17:44:29.482Z",
+      "durationMs": 6194
     },
     {
       "store": "NORMA",
@@ -136,9 +136,9 @@
       "count": 0,
       "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:37:33.148Z",
-      "finishedAt": "2026-08-19T17:37:41.315Z",
-      "durationMs": 8167
+      "startedAt": "2026-08-19T17:44:29.484Z",
+      "finishedAt": "2026-08-19T17:44:38.181Z",
+      "durationMs": 8697
     },
     {
       "store": "Kaufland",
@@ -150,9 +150,9 @@
       "count": 0,
       "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:37:41.317Z",
-      "finishedAt": "2026-08-19T17:37:47.982Z",
-      "durationMs": 6665
+      "startedAt": "2026-08-19T17:44:38.182Z",
+      "finishedAt": "2026-08-19T17:44:45.960Z",
+      "durationMs": 7778
     },
     {
       "store": "METRO",
@@ -164,9 +164,9 @@
       "count": 0,
       "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:37:47.984Z",
-      "finishedAt": "2026-08-19T17:37:54.168Z",
-      "durationMs": 6184
+      "startedAt": "2026-08-19T17:44:45.962Z",
+      "finishedAt": "2026-08-19T17:44:46.000Z",
+      "durationMs": 38
     },
     {
       "store": "dm",
@@ -174,13 +174,13 @@
       "address": "Ohmstraße 3, 85609 Aschheim",
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "scope": "regional",
-      "status": "error",
+      "status": "skipped",
       "count": 0,
-      "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
+      "message": "Quelle wurde in diesem Lauf nicht erreicht.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:37:54.170Z",
-      "finishedAt": "2026-08-19T17:38:01.231Z",
-      "durationMs": 7061
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
     },
     {
       "store": "ROSSMANN",
@@ -188,13 +188,13 @@
       "address": "Hafelhofweg 6, 81825 München",
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "scope": "regional",
-      "status": "error",
+      "status": "skipped",
       "count": 0,
-      "message": "Importer wurde während oder nach dieser Quelle beendet. Details siehe lastLogLines.",
+      "message": "Quelle wurde in diesem Lauf nicht erreicht.",
       "transport": "browser",
-      "startedAt": "2026-08-19T17:38:01.241Z",
-      "finishedAt": "2026-08-19T17:38:08.166Z",
-      "durationMs": 6925
+      "startedAt": null,
+      "finishedAt": null,
+      "durationMs": null
     }
   ],
   "lastLogLines": [
@@ -203,29 +203,23 @@
     "> node import.js",
     "",
     "Importiere REWE Feldkirchen ...",
-    "REWE: no_data, 0 (6417 ms)",
+    "REWE: no_data, 0 (6387 ms)",
     "Importiere EDEKA Berghammer Feldkirchen ...",
-    "EDEKA: no_data, 0 (6204 ms)",
+    "EDEKA: no_data, 0 (6306 ms)",
     "Importiere PENNY Region Feldkirchen ...",
-    "PENNY: ok, 140 (7820 ms)",
+    "PENNY: ok, 140 (8388 ms)",
     "Importiere HIT Parsdorf ...",
-    "HIT: ok, 3 (8663 ms)",
+    "HIT: ok, 3 (9097 ms)",
     "Importiere ALDI SÜD Region Feldkirchen ...",
-    "ALDI SÜD: ok, 67 (7594 ms)",
+    "ALDI SÜD: ok, 67 (7664 ms)",
     "Importiere Lidl Region Feldkirchen ...",
-    "Lidl: ok, 1 (7527 ms)",
+    "Lidl: ok, 1 (7800 ms)",
     "Importiere Netto Trudering ...",
-    "Netto: no_data, 0 (6089 ms)",
+    "Netto: no_data, 0 (6199 ms)",
     "Importiere NORMA Region Feldkirchen ...",
-    "NORMA: ok, 1 (8170 ms)",
+    "NORMA: ok, 1 (8698 ms)",
     "Importiere Kaufland München-Berg am Laim ...",
-    "Kaufland: ok, 9 (6667 ms)",
-    "Importiere METRO München-Freimann ...",
-    "METRO: no_data, 0 (6186 ms)",
-    "Importiere dm Region Feldkirchen ...",
-    "dm: ok, 86 (7059 ms)",
-    "Importiere ROSSMANN Region Feldkirchen ...",
-    "ROSSMANN: ok, 46 (6936 ms)",
-    "Fertig: 353 Live-Angebote aus 8/12 Quellen."
+    "Kaufland: ok, 9 (7780 ms)",
+    "Importiere METRO München-Freimann ..."
   ]
 }
