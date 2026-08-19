@@ -1,13 +1,13 @@
-HIT: reader=56439 Zeichen, Zeilen=240, Treffer=0, vorher=1
-Kaufland: reader=102243 Zeichen, Zeilen=603, Treffer=20, vorher=15
-HIT chars=56439 Angebotsblöcke=177 valide=136 vorher=1
+HIT: reader=56392 Zeichen, Zeilen=239, Treffer=0, vorher=80
+Kaufland: reader=102243 Zeichen, Zeilen=603, Treffer=20, vorher=17
+HIT chars=56296 Angebotsblöcke=177 valide=136 vorher=80
 REG 6.99 | 1 kg | Deutsche frische grobe Bratwurst vom Schwein
 REG 1.00 | 6x16,7 g | Philadelphia versch. Sorten 195 -
 REG 7.77 | 1 kg | Deutsche marinierte Nackensteaks, Spieße vom Schwein ohne Knochen, versch. Würzungen
 REG 1.11 | 250 g | Meggle Feine Butter, Joghurtbutter oder Streichzart
 REG 5.99 | 500 g | Eilles Gourmet, Idee Kaffee oder Mövenpick Classic Filterkaffee gemahlen versch. Sorten
-REG 1.59 | Packung | Neuseeland Zespri Kiwi gold XL Sorte: Sungold Klasse I große, ausgereifte Früchte, verzehrreif Stück
 REG 1.99 | 200-140 g | Salakis aus Schafmilch, versch. Sorten
+REG 1.59 | Packung | Neuseeland Zespri Kiwi gold XL Sorte: Sungold Klasse I große, ausgereifte Früchte, verzehrreif Stück
 REG 1.99 | 850-800 ml | Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung ![Image 14](https://www.hit.de/assets/img/hit-app-coupon.png?v2)
 APP 1.69 | 850-800 ml | Mövenpick Eisgenuss versch. Sorten, tiefgefroren 850-800 ml Packung ![Image 14](https://www.hit.de/assets/img/hit-app-coupon.png?v2)
 REG 1.79 | 1 l | Oatly Haferdrink versch. Sorten 1 l Packung ![Image 16](https://www.hit.de/assets/img/hit-app-coupon.png?v2)
@@ -41,19 +41,20 @@ REG 3.69 | 100 g | Argentinisches frisches Entrecôte
 REG 3.99 | 100 g | Neuseeländische frische Lammlachse
 REG 1.39 | 100 g | Deutsche frische Hähnchenbrustfilet oder Putenschnitzel/ Steaks aus der zarten, mageren Brust, natur von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik
 REG 1.49 | 100 g | Deutsches mariniertes Hähnchenbrustfilet, Putensteak/ Schnitzel, Spieße versch. Sorten von deutschen Bauernhöfen, Handelsklasse A, ohne Gentechnik
-Qualitätsfilter: 350 -> 340 Angebote (10 verworfen, 264 Reparaturen).
-Qualität V2: 340 -> 333; 7 weitere Einträge entfernt, 16 repariert.
-Qualität V3: 333 -> 289; 44 verworfen; 19 Namen bereinigt.
-REWE: 10 / 10 streng geprüfte Angebote
-EDEKA: 11 / 11 streng geprüfte Angebote
-PENNY: 51 / 51 streng geprüfte Angebote
-HIT: 80 / 80 streng geprüfte Angebote
-ALDI SÜD: 26 / 26 streng geprüfte Angebote
-Lidl: 1 / 1 streng geprüfte Angebote
-Netto: 2 / 2 streng geprüfte Angebote
-NORMA: 45 / 45 streng geprüfte Angebote
-Kaufland: 15 / 15 streng geprüfte Angebote
-METRO: 0 / METRO zeigt Produkte öffentlich, Preise aber erst nach Kunden-Login.
-dm: 30 / 30 streng geprüfte Angebote
-ROSSMANN: 18 / 18 streng geprüfte Angebote
-Gesamt: 289
+Qualitätsfilter: 354 -> 344 Angebote (10 verworfen, 269 Reparaturen).
+Qualität V2: 344 -> 335; 9 weitere Einträge entfernt, 16 repariert.
+Qualität V3: 335 -> 291; 44 verworfen; 19 Namen bereinigt.
+Qualität V4: 291 -> 291; 16 semantische Reparaturen; Produktnormalisierung V1 aktiv.
+REWE: 10 / 10 qualitätsgeprüfte Angebote
+EDEKA: 11 / 11 qualitätsgeprüfte Angebote
+PENNY: 52 / 52 qualitätsgeprüfte Angebote
+HIT: 80 / 80 qualitätsgeprüfte Angebote
+ALDI SÜD: 27 / 27 qualitätsgeprüfte Angebote
+Lidl: 1 / 1 qualitätsgeprüfte Angebote
+Netto: 0 / Browser ohne Treffer; HTTP-Fallback ebenfalls 0 (HTML 0 Bytes / 0 Blöcke / HTTP 403)
+NORMA: 46 / 46 qualitätsgeprüfte Angebote
+Kaufland: 15 / 15 qualitätsgeprüfte Angebote
+METRO: 0 / METRO-Login/Import fehlgeschlagen: Loginformular: Benutzerfeld nicht gefunden (URL https://www.metro.de/metro/services/idamstream/login)
+dm: 30 / 30 qualitätsgeprüfte Angebote
+ROSSMANN: 19 / 19 qualitätsgeprüfte Angebote
+Gesamt: 291
