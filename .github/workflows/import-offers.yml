@@ -76,6 +76,13 @@ jobs:
           echo "Importer Exit-Code: $CODE"
           exit 0
 
+      - name: Live-Daten qualitätsprüfen
+        id: sanitize
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node sanitize.js
+
       - name: Diagnose erzeugen
         id: diagnostics
         if: always()
@@ -115,12 +122,14 @@ jobs:
           IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
           DEPS_OUTCOME: ${{ steps.deps.outcome }}
           CHROMIUM_OUTCOME: ${{ steps.chromium.outcome }}
+          SANITIZE_OUTCOME: ${{ steps.sanitize.outcome }}
           DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
         run: |
           echo "Dependencies: $DEPS_OUTCOME"
           echo "Chromium: $CHROMIUM_OUTCOME"
           echo "Importer Exit-Code: ${IMPORT_EXIT_CODE:-nicht gesetzt}"
+          echo "Qualitätsprüfung: $SANITIZE_OUTCOME"
           echo "Diagnose: $DIAGNOSTICS_OUTCOME"
           echo "Veröffentlichung: $PUBLISH_OUTCOME"
 
@@ -134,6 +143,7 @@ jobs:
           if [ "$DEPS_OUTCOME" != "success" ] || \
              [ "$CHROMIUM_OUTCOME" != "success" ] || \
              [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || \
+             [ "$SANITIZE_OUTCOME" != "success" ] || \
              [ "$DIAGNOSTICS_OUTCOME" != "success" ] || \
              [ "$PUBLISH_OUTCOME" != "success" ] || \
              [ "$DIAG_CODE" != "0" ]; then
