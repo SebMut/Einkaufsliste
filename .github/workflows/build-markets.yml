@@ -1,5 +1,6 @@
 name: Strikte Markt-, Katalog- und Preisdaten
 
+# Audit-Lauf: Markt-Whitelist, offizielle Kataloge, Historie und Post-Tests vollständig ausführen.
 on:
   workflow_dispatch:
   schedule:
