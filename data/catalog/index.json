@@ -1,6 +1,6 @@
 {
   "schema": 4,
-  "generatedAt": "2026-08-19T20:32:45.906Z",
+  "generatedAt": "2026-08-19T22:18:07.889Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
@@ -15,7 +15,7 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 486637,
+          "htmlBytes": 486630,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -25,8 +25,8 @@
           "status": "ok",
           "count": 45,
           "mode": "browser",
-          "htmlBytes": 499606,
-          "jsonResponses": 10,
+          "htmlBytes": 499081,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
@@ -35,8 +35,8 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 537474,
-          "jsonResponses": 10,
+          "htmlBytes": 537481,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
@@ -45,8 +45,8 @@
           "status": "ok",
           "count": 70,
           "mode": "browser",
-          "htmlBytes": 460385,
-          "jsonResponses": 10,
+          "htmlBytes": 460392,
+          "jsonResponses": 8,
           "networkProducts": 0
         },
         {
@@ -55,8 +55,8 @@
           "status": "ok",
           "count": 71,
           "mode": "browser",
-          "htmlBytes": 614700,
-          "jsonResponses": 13,
+          "htmlBytes": 614597,
+          "jsonResponses": 12,
           "networkProducts": 0
         },
         {
@@ -65,7 +65,7 @@
           "status": "ok",
           "count": 57,
           "mode": "browser",
-          "htmlBytes": 645248,
+          "htmlBytes": 644094,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -75,8 +75,8 @@
           "status": "ok",
           "count": 35,
           "mode": "browser",
-          "htmlBytes": 391896,
-          "jsonResponses": 10,
+          "htmlBytes": 391887,
+          "jsonResponses": 11,
           "networkProducts": 0
         }
       ]
@@ -84,16 +84,16 @@
     {
       "retailer": "ROSSMANN",
       "catalogStatus": "partial_catalog",
-      "productCount": 68,
+      "productCount": 67,
       "branchCount": 1,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
           "status": "ok",
-          "count": 26,
+          "count": 23,
           "mode": "browser",
-          "htmlBytes": 1288033,
+          "htmlBytes": 1308326,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -103,7 +103,7 @@
           "status": "ok",
           "count": 26,
           "mode": "browser",
-          "htmlBytes": 1294131,
+          "htmlBytes": 1294234,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -113,7 +113,7 @@
           "status": "ok",
           "count": 22,
           "mode": "browser",
-          "htmlBytes": 1360056,
+          "htmlBytes": 1361086,
           "jsonResponses": 2,
           "networkProducts": 0
         }
@@ -122,7 +122,7 @@
     {
       "retailer": "MÜLLER",
       "catalogStatus": "partial_catalog",
-      "productCount": 348,
+      "productCount": 352,
       "branchCount": 1,
       "sources": [
         {
@@ -131,7 +131,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1617595,
+          "htmlBytes": 1615739,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -141,7 +141,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1198129,
+          "htmlBytes": 1198560,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -151,7 +151,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1060500,
+          "htmlBytes": 1085374,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -161,7 +161,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1108998,
+          "htmlBytes": 1108559,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -180,5 +180,5 @@
     "rossmann.json",
     "mueller.json"
   ],
-  "productCount": 649
+  "productCount": 652
 }
