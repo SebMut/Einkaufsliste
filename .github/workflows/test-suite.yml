@@ -11,6 +11,7 @@ on:
 permissions:
   contents: write
 
+# Nach jedem fachlichen Fix wird diese Suite erneut als unabhängige Testquittung ausgeführt.
 concurrency:
   group: complete-test-suite
   cancel-in-progress: true
