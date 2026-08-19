@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-08-19T14:57:14.187Z",
+  "before": 355,
+  "after": 315,
+  "rejected": 40,
+  "repaired": 499,
+  "rejectedReasons": {
+    "navigation_or_ui": 14,
+    "name_length": 16,
+    "duplicate": 4,
+    "invalid_unit": 2,
+    "name_no_letters": 4
+  },
+  "storeBefore": {
+    "ALDI SÜD": 61,
+    "dm": 86,
+    "EDEKA": 13,
+    "PENNY": 129,
+    "ROSSMANN": 44,
+    "REWE": 10,
+    "Netto": 6,
+    "Kaufland": 1,
+    "Lidl": 1,
+    "HIT": 3,
+    "NORMA": 1
+  },
+  "storeAfter": {
+    "ALDI SÜD": 61,
+    "EDEKA": 13,
+    "PENNY": 109,
+    "dm": 72,
+    "ROSSMANN": 42,
+    "REWE": 10,
+    "Netto": 2,
+    "Kaufland": 1,
+    "Lidl": 1,
+    "HIT": 3,
+    "NORMA": 1
+  },
+  "rejectedExamples": [
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.29€ 0.29",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.39€ 0.39",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.45€ 0.45",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.69€ 0.69",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.89€ 0.89",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.11€ 1.11",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.25€ 1.25",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.35€ 1.35",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.75€ 1.75",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.79€ 1.79",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.89€ 1.89",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 2.49€ 2.49",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 2.79€ 2.79",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 2.99€ 2.99",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 3.49€ 3.49",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 4.49€ 4.49",
+      "reason": "name_length"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
+      "reason": "invalid_unit"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung 50ml",
+      "reason": "invalid_unit"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    }
+  ]
+}
