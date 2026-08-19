@@ -1,6 +1,6 @@
 {
   "name": "angebotsradar-live-importer",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
     "fallback": "node fallback.js",
     "history": "node price-history.js",
     "history:backfill": "node history-backfill.js",
-    "test": "node --test product-normalizer.test.js market-policy.test.js product-identity.test.js"
+    "test": "node --test product-normalizer.test.js market-policy.test.js product-identity.test.js frontend-smoke.test.js"
   },
   "dependencies": {
     "playwright": "1.55.0",
