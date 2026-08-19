@@ -1,17 +1,17 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-19T21:06:09.469Z",
+  "generatedAt": "2026-08-19T21:08:11.361Z",
   "run": {
-    "id": "32301926212",
+    "id": "32302265970",
     "attempt": "1",
     "event": "push",
-    "sha": "f3e9c5f8a9dc07de61a3466b94cea12e9ea61c63",
+    "sha": "f58f0d4955c067ceea281a32fccccf22c4e7e3d1",
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 99,
     "status": "failed",
-    "startedAt": "2026-08-19T21:06:09.469Z",
-    "finishedAt": "2026-08-19T21:06:09.469Z",
+    "startedAt": "2026-08-19T21:08:11.361Z",
+    "finishedAt": "2026-08-19T21:08:11.361Z",
     "durationMs": 0
   },
   "summary": {
@@ -24,7 +24,7 @@
     "errors": 0,
     "skipped": 0,
     "offerCount": 1348,
-    "liveGeneratedAt": "2026-08-19T21:06:09.054Z",
+    "liveGeneratedAt": "2026-08-19T21:08:10.920Z",
     "liveDataCurrent": true
   },
   "sources": [
@@ -161,8 +161,8 @@
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "scope": "regional",
       "status": "ok",
-      "count": 35,
-      "message": "35 qualitätsgeprüfte Angebote",
+      "count": 36,
+      "message": "36 qualitätsgeprüfte Angebote",
       "transport": "browser",
       "startedAt": "2026-08-19T20:40:14.013Z",
       "finishedAt": "2026-08-19T20:40:21.306Z",

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-19T21:06:08.377Z",
-  "before": 1284,
-  "after": 1214,
+  "generatedAt": "2026-08-19T21:08:10.250Z",
+  "before": 1389,
+  "after": 1319,
   "rejected": 70,
-  "repaired": 1450,
+  "repaired": 1480,
   "rejectedReasons": {
     "invalid_unit": 4,
     "name_length": 38,
@@ -15,7 +15,7 @@
     "MÜLLER": 355,
     "ROSSMANN": 88,
     "EDEKA": 40,
-    "dm": 612,
+    "dm": 717,
     "REWE": 29,
     "PENNY": 104,
     "Lidl": 2
@@ -25,7 +25,7 @@
     "MÜLLER": 328,
     "ROSSMANN": 65,
     "EDEKA": 38,
-    "dm": 594,
+    "dm": 699,
     "REWE": 29,
     "PENNY": 104,
     "Lidl": 2
@@ -183,18 +183,18 @@
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T21:06:08.539Z",
-    "before": 1214,
-    "after": 600,
-    "rejected": 614,
-    "repaired": 551,
+    "generatedAt": "2026-08-19T21:08:10.437Z",
+    "before": 1319,
+    "after": 632,
+    "rejected": 687,
+    "repaired": 653,
     "rejectedReasons": {
       "name": 15,
       "unit_high": 4,
       "price": 1,
-      "duplicate": 47,
+      "duplicate": 56,
       "size_duplicate": 71,
-      "semantic_duplicate": 473
+      "semantic_duplicate": 537
     },
     "rejectedExamples": [
       {
@@ -300,14 +300,14 @@
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T21:06:08.648Z",
-    "before": 600,
-    "after": 285,
-    "rejected": 315,
-    "repaired": 31,
+    "generatedAt": "2026-08-19T21:08:10.559Z",
+    "before": 632,
+    "after": 286,
+    "rejected": 346,
+    "repaired": 33,
     "reasons": {
-      "not_food": 241,
-      "nonfood": 74
+      "not_food": 269,
+      "nonfood": 77
     },
     "rejectedExamples": [
       {
@@ -456,6 +456,12 @@
       },
       {
         "store": "dm",
+        "name": "ARTDECO Beauty Box Trio",
+        "cleaned": "ARTDECO Beauty Box Trio",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
         "name": "ARTDECO Geschenkset All in One Mascara + Micellar Water 2tlg",
         "cleaned": "ARTDECO Geschenkset All in One Mascara + Micellar Water 2tlg",
         "reason": "nonfood"
@@ -464,6 +470,12 @@
         "store": "dm",
         "name": "Balea Cleanser Gentle Mochi, korean skincare balea",
         "cleaned": "Balea Cleanser Gentle Mochi, korean skincare balea",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Balea Flüssigseife Eukalyptus & Lotus, Nachfüllpack",
+        "cleaned": "Balea Flüssigseife Eukalyptus & Lotus, Nachfüllpack",
         "reason": "not_food"
       },
       {
@@ -494,6 +506,12 @@
         "store": "dm",
         "name": "Balea Locken Revitalizing Spray",
         "cleaned": "Balea Locken Revitalizing Spray",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Balea med Conditioner Ultra Sensitive",
+        "cleaned": "Balea med Conditioner Ultra Sensitive",
         "reason": "not_food"
       },
       {
@@ -606,6 +624,12 @@
       },
       {
         "store": "dm",
+        "name": "CD Deo Roll-on, Mein erstes Deo",
+        "cleaned": "CD Deo Roll-on, Mein erstes Deo",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
         "name": "CD Kinder Duschgel, Shampoo & Spülung 3in1 Dinorino",
         "cleaned": "CD Kinder Duschgel, Shampoo & Spülung 3in1 Dinorino",
         "reason": "nonfood"
@@ -645,37 +669,13 @@
         "name": "Compeed Blasenpflaster Medium",
         "cleaned": "Compeed Blasenpflaster Medium",
         "reason": "not_food"
-      },
-      {
-        "store": "dm",
-        "name": "Danke Küchenrolle Halbblatt 3-lagig (4x100 Blatt)",
-        "cleaned": "Danke Küchenrolle Halbblatt 3-lagig (4x100 Blatt",
-        "reason": "not_food"
-      },
-      {
-        "store": "dm",
-        "name": "Dein Bestes Katzenstreu Aktiv-Klumpstreu mit Aloe Vera Duft, Exquisit",
-        "cleaned": "Dein Bestes Katzenstreu Aktiv-Klumpstreu mit Aloe Vera Duft, Exquisit",
-        "reason": "nonfood"
-      },
-      {
-        "store": "dm",
-        "name": "Dein Bestes Katzenstreu, Holzstreu",
-        "cleaned": "Dein Bestes Katzenstreu, Holzstreu",
-        "reason": "nonfood"
-      },
-      {
-        "store": "dm",
-        "name": "Dein Bestes Kausnack Hund Twister reich an Huhn",
-        "cleaned": "Dein Bestes Kausnack Hund Twister reich an Huhn",
-        "reason": "not_food"
       }
     ]
   },
   "semanticPass": {
-    "at": "2026-08-19T21:06:08.734Z",
-    "before": 285,
-    "after": 285,
+    "at": "2026-08-19T21:08:10.639Z",
+    "before": 286,
+    "after": 286,
     "repaired": 0,
     "normalizer": "product-normalizer-v1"
   }
