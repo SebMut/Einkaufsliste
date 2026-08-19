@@ -133,7 +133,7 @@ jobs:
         id: quality_v3
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
-        working_directory: importer
+        working-directory: importer
         run: node quality-v3.js
 
       - name: Qualitätsprüfung Stufe 4 Semantik
