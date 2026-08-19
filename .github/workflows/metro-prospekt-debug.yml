@@ -30,15 +30,27 @@ jobs:
         working-directory: importer
         env:
           METRO_PREVIEW: '1'
+        shell: bash
         run: |
-          node metro-prospekt-debug.js
-          node metro-pdf-debug.js
-          node metro-prospekt.js
+          set +e
+          : > ../data/metro-preview-run.log
+          node metro-prospekt-debug.js >> ../data/metro-preview-run.log 2>&1
+          echo "HTML_DEBUG_EXIT=$?" >> ../data/metro-preview-run.log
+          node metro-pdf-debug.js >> ../data/metro-preview-run.log 2>&1
+          echo "PDF_DEBUG_EXIT=$?" >> ../data/metro-preview-run.log
+          node metro-prospekt.js >> ../data/metro-preview-run.log 2>&1
+          echo "PARSER_EXIT=$?" >> ../data/metro-preview-run.log
+          exit 0
       - name: Diagnose veröffentlichen
+        if: always()
+        shell: bash
         run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/metro-prospekt-debug.json data/metro-pdf-debug.txt data/metro-prospekt-preview.json
-          git commit -m "METRO Prospekt-Diagnose aktualisieren" || exit 0
+          touch data/metro-preview-run.log
+          git add data/metro-prospekt-debug.json data/metro-pdf-debug.txt data/metro-preview-run.log
+          if [ -f data/metro-prospekt-preview.json ]; then git add data/metro-prospekt-preview.json; fi
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "METRO Prospekt-Diagnose aktualisieren"
           git pull --rebase origin main
           git push origin main
