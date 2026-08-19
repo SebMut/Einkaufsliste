@@ -1,62 +1,594 @@
 {
-  "generatedAt": "2026-08-19T17:45:33.445Z",
-  "before": 312,
-  "after": 312,
-  "rejected": 0,
-  "repaired": 247,
-  "rejectedReasons": {},
+  "generatedAt": "2026-08-19T20:27:10.177Z",
+  "before": 437,
+  "after": 372,
+  "rejected": 65,
+  "repaired": 614,
+  "rejectedReasons": {
+    "quantity_as_name": 23,
+    "navigation_or_ui": 11,
+    "name_length": 16,
+    "invalid_price": 6,
+    "duplicate": 4,
+    "number_as_name": 3,
+    "invalid_unit": 2
+  },
   "storeBefore": {
-    "ALDI SÜD": 27,
-    "Kaufland": 17,
-    "NORMA": 48,
-    "HIT": 80,
-    "dm": 30,
-    "ROSSMANN": 19,
-    "EDEKA": 11,
-    "REWE": 10,
-    "PENNY": 52,
-    "Lidl": 1,
-    "Netto": 17
+    "ALDI SÜD": 67,
+    "PENNY": 140,
+    "ROSSMANN": 60,
+    "dm": 99,
+    "EDEKA": 40,
+    "REWE": 30,
+    "Lidl": 1
   },
   "storeAfter": {
-    "ALDI SÜD": 27,
-    "Kaufland": 17,
-    "NORMA": 48,
-    "HIT": 80,
-    "dm": 30,
-    "ROSSMANN": 19,
-    "EDEKA": 11,
-    "REWE": 10,
-    "PENNY": 52,
-    "Lidl": 1,
-    "Netto": 17
+    "ALDI SÜD": 61,
+    "EDEKA": 40,
+    "PENNY": 109,
+    "dm": 88,
+    "ROSSMANN": 43,
+    "REWE": 30,
+    "Lidl": 1
   },
-  "rejectedExamples": [],
-  "finalPass": {
-    "generatedAt": "2026-08-19T17:45:33.525Z",
-    "before": 312,
-    "after": 306,
-    "rejected": 6,
-    "repaired": 16,
-    "rejectedReasons": {
-      "duplicate": 1,
-      "semantic_duplicate": 5
+  "rejectedExamples": [
+    {
+      "store": "PENNY",
+      "name": "je 1-kg-Packung",
+      "reason": "quantity_as_name"
     },
-    "rejectedExamples": []
+    {
+      "store": "ROSSMANN",
+      "name": "12 Stück (10Stück = 7,24 €) / 12 x 80 Tücher",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "132 Stück (100Stück = 40,49 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "138 Stück (100Stück = 38,88 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "144 Stück (100Stück = 41,63 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "148 Stück (100Stück = 36,15 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "PENNY",
+      "name": "je 150 g (1 kg = 1.93)\nAngebotspreis 0.39€\n0.39\nMILPRIMA Pudding*\nje 150 g (1 kg = 2.60)\nAngebotspreis 1.79€\n1.79\nMILPRIMA Mini Max*\nje 12 x",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "PENNY",
+      "name": "je 150 g (1 kg = 2.60)\nAngebotspreis 1.79€\n1.79\nMILPRIMA Mini Max*\nje 12 x 60 g (1 kg = 2.49)\nAngebotspreis 0.89€\n0.89\nMILPRIMA High Protein",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "152 Stück (100Stück = 38,78 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "160 Stück (100Stück = 34,59 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "174 Stück (100Stück = 31,32 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "174 Stück (100Stück = 32,16 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "PENNY",
+      "name": "je 175 g (1 kg = 2.57)\nAngebotspreis 0.29€\n0.29\nMILPRIMA FruchtiGurt 3,8%*\nje 150 g (1 kg = 1.93)\nAngebotspreis 0.39€\n0.39\nMILPRIMA Pudding*",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "180 Stück (100Stück = 21,97 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "204 Stück (100Stück = 26,69 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "204 Stück (100Stück = 27,18 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "240 Stück (100Stück = 22,06 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "320 Stück (100Stück = 0,93 €) / 4x80 Tücher",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "PENNY",
+      "name": "je 3er-Schale",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.29€\n0.29",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.39€\n0.39",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.45€\n0.45",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.69€\n0.69",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 0.89€\n0.89",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.11€\n1.11",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.25€\n1.25",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.35€\n1.35",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.75€\n1.75",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.79€\n1.79",
+      "reason": "name_length"
+    }
+  ],
+  "finalPass": {
+    "generatedAt": "2026-08-19T20:27:10.242Z",
+    "before": 372,
+    "after": 177,
+    "rejected": 195,
+    "repaired": 115,
+    "rejectedReasons": {
+      "name": 6,
+      "ui": 36,
+      "produce_unit": 1,
+      "price": 1,
+      "concatenated_offer": 9,
+      "duplicate": 39,
+      "size_duplicate": 40,
+      "semantic_duplicate": 60
+    },
+    "rejectedExamples": [
+      {
+        "store": "PENNY",
+        "name": "je 12 x 60 g (1 kg = 2.49) Angebotspreis 0.89€ 0.89 MILPRIMA High Protein Pudding* je 200 g (1 kg = 4.45) Angebotspreis 0.39€ 0.39 MILPRIMA",
+        "reason": "name"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "Alle ablehnen Alle Cookies akzeptieren",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "Auflistung mit 12 Elementen. Zum Ende der Liste springen.",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "Auflistung mit 20 Elementen. Zum Ende der Liste springen.",
+        "reason": "ui"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Himbeeren",
+        "reason": "produce_unit"
+      },
+      {
+        "store": "PENNY",
+        "name": "Diese Woche",
+        "reason": "ui"
+      },
+      {
+        "store": "PENNY",
+        "name": "Diese Woche",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "Du verwendest einen veralteten Browser. Dadurch kommt es zu Darstellungs- und Funktionsfehlern auf dm.de. Bitte nutze Google Chrome, Mozilla",
+        "reason": "name"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Duschgel 675 ml, Noire",
+        "reason": "price"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "FotoweltGutscheineKarriereUnternehmenGeschäftskundenbabyweltFiliale findenAnmelden0NeuIDEENWELTMake-UpPflege & DuftBaby & SpielzeugHaushaltT",
+        "reason": "name"
+      },
+      {
+        "store": "PENNY",
+        "name": "Mo-Sa Angebotspreis 0.45€ 0.45 MILPRIMA Joghurt Crisp* je 175 g (1 kg = 2.57) Angebotspreis 0.29€ 0.29 MILPRIMA FruchtiGurt 3,8%* je 150 g (",
+        "reason": "name"
+      },
+      {
+        "store": "PENNY",
+        "name": "MILPRIMA Joghurt Crisp* je 175 g (1 kg = 2.57) Angebotspreis 0.29€ 0.29 MILPRIMA FruchtiGurt 3,8%* je 150 g (1 kg =",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "UVP 0.99 Angebotspreis 0.69€ 0.69 -40% mit App -30% MÖVENPICK Feinjoghurt* mit App: je 150 g (1 kg = 3.93); ohne App:",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "Nur mit App 6.78 Angebotspreis 3.49€ 3.49",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "Nur mit App App-preis 0.99*€ 0.99* Angebotspreis 1.11€ 1.11 Aktion Deutsche Bundmöhren* je Bund",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "Nur mit App App-preis 0.99*€ 0.99* Angebotspreis 1.11€ 1.11",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "Nur mit App App-preis 3.29*€ 3.29* Angebotspreis 3.49€ 3.49",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "Nur mit App App-preis 3.29*€ 3.29* Angebotspreis 3.49€ 3.49 Aktion DR. OETKER Bistro Flammkuchen* mit App: je 530 g (1 kg = 6.21); ohne App:",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "PENNY",
+        "name": "UVP 3.59 Angebotspreis 1.99€ 1.99 -50% mit App -44% MARS Schokoriegel* mit App: je 5 x 45 g (1 kg = 7.96); ohne App: je 5 x 45 g (1 kg = 8.8",
+        "reason": "concatenated_offer"
+      }
+    ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T17:45:33.591Z",
-    "before": 306,
-    "after": 306,
-    "rejected": 0,
-    "repaired": 0,
-    "reasons": {},
-    "rejectedExamples": []
+    "generatedAt": "2026-08-19T20:27:10.291Z",
+    "before": 177,
+    "after": 157,
+    "rejected": 20,
+    "repaired": 6,
+    "reasons": {
+      "not_food": 13,
+      "nonfood": 7
+    },
+    "rejectedExamples": [
+      {
+        "store": "dm",
+        "name": "AMORELIE Beckenbodentrainer Perifit Care App-gesteuert, Pink",
+        "cleaned": "AMORELIE Beckenbodentrainer Perifit Care App-gesteuert, Pink",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Carlsen Adventskalender Wieso? Weshalb? Warum? 2026",
+        "cleaned": "Carlsen Adventskalender Wieso? Weshalb? Warum? 2026",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "CD Deo Roll-on, Mein erstes Deo",
+        "cleaned": "CD Deo Roll-on, Mein erstes Deo",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "CD Kinder Duschgel, Shampoo & Spülung 3in1 Dinorino",
+        "cleaned": "CD Kinder Duschgel, Shampoo & Spülung 3in1 Dinorino",
+        "reason": "nonfood"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Bio Champignons braun",
+        "cleaned": "Bio Champignons braun",
+        "reason": "not_food"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Duschgel 675 ml, Noire",
+        "cleaned": "Duschgel 675 ml, Noire",
+        "reason": "nonfood"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Frischei-Waffeln",
+        "cleaned": "Frischei-Waffeln",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Lansinoh Regenerationsspray",
+        "cleaned": "Lansinoh Regenerationsspray",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "LILLYDOO Shampoo & Waschlotion 2in1",
+        "cleaned": "LILLYDOO Shampoo & Waschlotion 2in1",
+        "reason": "nonfood"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
+        "cleaned": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Mivolis Arzneitee, Erkältungs Tee für Kinder (12 Beutel)",
+        "cleaned": "Mivolis Arzneitee, Erkältungs Tee für Kinder (12 Beutel",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "Mivolis Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel)",
+        "cleaned": "Mivolis Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel",
+        "reason": "not_food"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Bio Naturland Hokkaido, lose",
+        "cleaned": "Bio Naturland Hokkaido, lose",
+        "reason": "not_food"
+      },
+      {
+        "store": "EDEKA",
+        "name": "Perwoll Woll- und Feinwaschmittel",
+        "cleaned": "Perwoll Woll- und Feinwaschmittel",
+        "reason": "nonfood"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "SICHER BEZAHLEN",
+        "cleaned": "SICHER BEZAHLEN",
+        "reason": "not_food"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Steckdosenwürfel mit USB, Schwarz",
+        "cleaned": "Steckdosenwürfel mit USB, Schwarz",
+        "reason": "nonfood"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
+        "cleaned": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
+        "reason": "nonfood"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung",
+        "cleaned": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung",
+        "reason": "nonfood"
+      },
+      {
+        "store": "ROSSMANN",
+        "name": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
+        "cleaned": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
+        "reason": "not_food"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
+        "cleaned": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
+        "reason": "not_food"
+      }
+    ]
   },
   "semanticPass": {
-    "at": "2026-08-19T17:45:33.665Z",
-    "before": 306,
-    "after": 306,
+    "at": "2026-08-19T20:27:10.387Z",
+    "before": 157,
+    "after": 157,
     "repaired": 0,
     "normalizer": "product-normalizer-v1"
   }
