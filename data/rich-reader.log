@@ -1,0 +1,13 @@
+HIT Spezialreader: 0 (bisher 1)
+Lidl Spezialreader: 0 (bisher 1)
+NORMA Spezialreader: 104 (bisher 1)
+Kaufland Spezialreader: 0 (bisher 6)
+Spezialreader fertig: 275 Rohangebote gesamt.
+Qualitätsfilter: 275 -> 275 Angebote (0 verworfen, 203 Reparaturen).
+Qualität V2: 275 -> 275; 0 weitere Einträge entfernt, 58 repariert.
+Steps: deps=success chromium=success rich=success q1=success q2=success
+HIT: ok / 1 / 1 qualitätsgeprüfte Angebote
+Kaufland: ok / 6 / 6 qualitätsgeprüfte Angebote
+NORMA: ok / 104 / 104 qualitätsgeprüfte Angebote
+Lidl: ok / 1 / 1 qualitätsgeprüfte Angebote
+Gesamt: 275
