@@ -1,4 +1,4 @@
-name: Live-Angebote importieren V4.2
+name: Live-Angebote importieren V4.3
 
 on:
   workflow_dispatch:
@@ -13,6 +13,7 @@ on:
       - 'importer/rich-retailers.js'
       - 'importer/text-retailers.js'
       - 'importer/hit-reader-v4.js'
+      - 'importer/lidl-table-reader.js'
       - 'importer/metro-auth.js'
       - 'importer/sanitize.js'
       - 'importer/quality-v2.js'
@@ -27,7 +28,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: live-offers-v42
+  group: live-offers-v43
   cancel-in-progress: true
 
 jobs:
@@ -90,6 +91,13 @@ jobs:
         continue-on-error: true
         working-directory: importer
         run: node rich-retailers.js
+
+      - name: Lidl Preisfallback
+        id: lidl_table
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node lidl-table-reader.js
 
       - name: Kaufland Textreader
         id: text_reader
@@ -162,13 +170,13 @@ jobs:
         run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log
-          git add data/offers-live.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log
+          touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log
+          git add data/offers-live.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
             exit 0
           fi
-          git commit -m "Live-Angebote V4.2 aktualisieren"
+          git commit -m "Live-Angebote V4.3 aktualisieren"
           git pull --rebase origin main
           git push origin main
 
@@ -181,6 +189,7 @@ jobs:
           READER_OUTCOME: ${{ steps.reader.outcome }}
           NETTO_READER_OUTCOME: ${{ steps.netto_reader.outcome }}
           RICH_READER_OUTCOME: ${{ steps.rich_reader.outcome }}
+          LIDL_TABLE_OUTCOME: ${{ steps.lidl_table.outcome }}
           TEXT_READER_OUTCOME: ${{ steps.text_reader.outcome }}
           HIT_READER_OUTCOME: ${{ steps.hit_reader.outcome }}
           METRO_AUTH_OUTCOME: ${{ steps.metro_auth.outcome }}
@@ -193,6 +202,6 @@ jobs:
         run: |
           node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));const q=JSON.parse(fs.readFileSync('data/quality-report.json'));console.log(d.summary);console.log({final:d.summary.offerCount,strict:q.strictFoodPass||null,semantic:q.semanticPass||null});if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
           DIAG_CODE=$?
-          if [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$RICH_READER_OUTCOME" != "success" ] || [ "$TEXT_READER_OUTCOME" != "success" ] || [ "$HIT_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$QUALITY_V2_OUTCOME" != "success" ] || [ "$QUALITY_V3_OUTCOME" != "success" ] || [ "$QUALITY_V4_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
+          if [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$RICH_READER_OUTCOME" != "success" ] || [ "$LIDL_TABLE_OUTCOME" != "success" ] || [ "$TEXT_READER_OUTCOME" != "success" ] || [ "$HIT_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$QUALITY_V2_OUTCOME" != "success" ] || [ "$QUALITY_V3_OUTCOME" != "success" ] || [ "$QUALITY_V4_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
             exit 1
           fi
