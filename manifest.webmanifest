@@ -1,0 +1,19 @@
+{
+  "name": "AngebotsRadar 85622",
+  "short_name": "AngebotsRadar",
+  "description": "Lokaler Lebensmittel-Angebotsvergleich rund um 85622 Feldkirchen.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f5",
+  "theme_color": "#0b6b4f",
+  "lang": "de-DE",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
