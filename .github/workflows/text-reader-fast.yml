@@ -1,57 +1,42 @@
-name: HIT Kaufland Textreader Schnelltest
+name: Textreader Diagnose
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'importer/text-retailers.js'
-      - 'importer/hit-reader-v4.js'
-      - 'importer/quality-v3.js'
-      - 'importer/quality-v4.js'
-      - '.github/workflows/text-reader-fast.yml'
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 6
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: HIT und Kaufland Textreader
+      - name: Abhängigkeiten installieren
         working-directory: importer
-        shell: bash
-        run: |
-          set -o pipefail
-          node text-retailers.js 2>&1 | tee ../data/text-reader.log
-          node hit-reader-v4.js 2>&1 | tee -a ../data/text-reader.log
-      - name: Qualität
+        run: npm install --no-audit --no-fund
+      - name: Tests vor Reader
         working-directory: importer
-        shell: bash
+        run: npm test
+      - name: HIT und Kaufland Textreader diagnostisch ausführen
+        continue-on-error: true
+        working-directory: importer
         run: |
-          node sanitize.js 2>&1 | tee -a ../data/text-reader.log
-          node quality-v2.js 2>&1 | tee -a ../data/text-reader.log
-          node quality-v3.js 2>&1 | tee -a ../data/text-reader.log
-          node quality-v4.js 2>&1 | tee -a ../data/text-reader.log
-      - name: Status
-        shell: bash
+          node text-retailers.js
+          node hit-reader-v4.js
+      - name: Qualitätskette und Markt-Guard
+        working-directory: importer
         run: |
-          node - <<'NODE' | tee -a data/text-reader.log
-          const fs=require('fs'); const d=JSON.parse(fs.readFileSync('data/offers-live.json'));
-          for(const store of ['REWE','EDEKA','PENNY','HIT','ALDI SÜD','Lidl','Netto','NORMA','Kaufland','METRO','dm','ROSSMANN']){const s=d.sources.find(x=>x.store===store);console.log(`${store}: ${s?.count||0} / ${s?.message||''}`)}
-          console.log(`Gesamt: ${d.offerCount}`)
-          NODE
-      - name: Veröffentlichen
-        shell: bash
-        run: |
-          git config user.name "AngebotsRadar Bot"
-          git config user.email "actions@users.noreply.github.com"
-          touch data/hit-v4.log
-          git add data/offers-live.json data/quality-report.json data/text-reader.log data/hit-v4.log
-          git commit -m "Streng geprüfte Live-Angebote aktualisieren" || exit 0
-          git pull --rebase origin main
-          git push origin main
+          node sanitize.js
+          node quality-v2.js
+          node quality-v3.js
+          node quality-v4.js
+          npm run merge
+      - name: Ergebnis erneut testen
+        working-directory: importer
+        run: npm test
+      - name: Hinweis
+        run: echo 'Diagnosemodus; dieser Workflow schreibt keine Produktionsdaten ins Repository.'
