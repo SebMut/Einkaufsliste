@@ -1,0 +1,42 @@
+name: Einmaliger Produktions-Concurrency-Fix
+
+on:
+  push:
+    paths:
+      - '.github/workflows/audit-concurrency-fix.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Live-Import und Katalog-Build serialisieren
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          targets={
+            Path('.github/workflows/import-offers-v41.yml'):'live-offers-v51',
+            Path('.github/workflows/build-markets.yml'):'strict-market-catalog-history',
+          }
+          for p,old_group in targets.items():
+            s=p.read_text()
+            old=f"  group: {old_group}\n  cancel-in-progress: true"
+            new="  group: production-data-writer\n  cancel-in-progress: false"
+            if old in s:
+              p.write_text(s.replace(old,new,1))
+            elif new not in s:
+              raise SystemExit(f'Concurrency-Block in {p} nicht eindeutig gefunden.')
+          PY
+      - name: Änderungen committen
+        run: |
+          git config user.name "AngebotsRadar CI Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add .github/workflows/import-offers-v41.yml .github/workflows/build-markets.yml
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Produktionsdaten-Workflows strikt serialisieren"
+          git pull --rebase origin main
+          git push origin main
