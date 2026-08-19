@@ -6,6 +6,7 @@ on:
     paths:
       - 'importer/text-retailers.js'
       - 'importer/hit-reader-v2.js'
+      - 'importer/quality-v3.js'
       - '.github/workflows/text-reader-fast.yml'
 
 permissions:
@@ -33,12 +34,13 @@ jobs:
         run: |
           node sanitize.js 2>&1 | tee -a ../data/text-reader.log
           node quality-v2.js 2>&1 | tee -a ../data/text-reader.log
+          node quality-v3.js 2>&1 | tee -a ../data/text-reader.log
       - name: Status
         shell: bash
         run: |
           node - <<'NODE' | tee -a data/text-reader.log
           const fs=require('fs'); const d=JSON.parse(fs.readFileSync('data/offers-live.json'));
-          for(const store of ['HIT','Kaufland']){const s=d.sources.find(x=>x.store===store);console.log(`${store}: ${s?.count||0} / ${s?.message||''}`)}
+          for(const store of ['REWE','EDEKA','PENNY','HIT','ALDI SÜD','Lidl','Netto','NORMA','Kaufland','METRO','dm','ROSSMANN']){const s=d.sources.find(x=>x.store===store);console.log(`${store}: ${s?.count||0} / ${s?.message||''}`)}
           console.log(`Gesamt: ${d.offerCount}`)
           NODE
       - name: Veröffentlichen
@@ -48,6 +50,6 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           touch data/hit-v2.log
           git add data/offers-live.json data/quality-report.json data/text-reader.log data/hit-v2.log
-          git commit -m "HIT Kaufland Textreader Ergebnis" || exit 0
+          git commit -m "Streng geprüfte Live-Angebote aktualisieren" || exit 0
           git pull --rebase origin main
           git push origin main
