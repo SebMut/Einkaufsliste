@@ -1,0 +1,27 @@
+{
+  "center": {"name":"85622 Feldkirchen","lat":48.145,"lon":11.73,"radiusKm":10},
+  "sources": [
+    {"store":"REWE","market":"Feldkirchen","address":"Kapellenstr. 16b, 85622 Feldkirchen","url":"https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/","scope":"market"},
+    {"store":"EDEKA","market":"Berghammer Feldkirchen","address":"Brauereiweg 1, 85622 Feldkirchen","url":"https://www.edeka.de/maerkte/030244/","scope":"market"},
+    {"store":"PENNY","market":"Feldkirchen","address":"Clara-Schumann-Straße 2, 85622 Feldkirchen","url":"https://www.penny.de/angebote","scope":"regional"},
+    {"store":"HIT","market":"Parsdorf","address":"Am Lerchenfeld 3, 85599 Parsdorf","url":"https://www.hit.de/maerkte/parsdorf/angebote","scope":"market"},
+    {"store":"ALDI SÜD","market":"Aschheim / Vaterstetten","address":"Ludwig-Thoma-Straße 2, 85609 Aschheim","url":"https://www.aldi-sued.de/angebote","scope":"regional"},
+    {"store":"Lidl","market":"Aschheim / Haar","address":"Ohmstraße 5, 85609 Aschheim","url":"https://www.lidl.de/c/online-prospekte/s10005610/","scope":"regional"},
+    {"store":"Netto","market":"Trudering","address":"Truderinger Str. 217, 81825 München","url":"https://www.netto-online.de/filialen/muenchen/truderinger-str-217/8317","scope":"market"},
+    {"store":"NORMA","market":"Vaterstetten","address":"Johann-Sebastian-Bach-Strasse 44, 85591 Vaterstetten","url":"https://www.norma-online.de/de/angebote/?desktop=1","scope":"regional"}
+  ],
+  "nearbyMarkets": [
+    {"store":"REWE","market":"Feldkirchen","address":"Kapellenstr. 16b, 85622 Feldkirchen"},
+    {"store":"EDEKA","market":"Berghammer Feldkirchen","address":"Brauereiweg 1, 85622 Feldkirchen"},
+    {"store":"PENNY","market":"Feldkirchen","address":"Clara-Schumann-Straße 2, 85622 Feldkirchen"},
+    {"store":"HIT","market":"Parsdorf","address":"Am Lerchenfeld 3, 85599 Parsdorf"},
+    {"store":"ALDI SÜD","market":"Aschheim","address":"Ludwig-Thoma-Straße 2, 85609 Aschheim"},
+    {"store":"ALDI SÜD","market":"Vaterstetten","address":"Baldhamer Str. 97, 85591 Vaterstetten"},
+    {"store":"Lidl","market":"Aschheim","address":"Ohmstraße 5, 85609 Aschheim"},
+    {"store":"Lidl","market":"Haar","address":"Am See 13, 85540 Haar"},
+    {"store":"Netto","market":"Trudering","address":"Truderinger Str. 217, 81825 München"},
+    {"store":"Netto","market":"Mitterfeld","address":"Am Mitterfeld 18, 81829 München"},
+    {"store":"Netto","market":"Wasserburger Landstraße","address":"Wasserburger Landstr. 8, 81825 München"},
+    {"store":"NORMA","market":"Vaterstetten","address":"Johann-Sebastian-Bach-Strasse 44, 85591 Vaterstetten"}
+  ]
+}
