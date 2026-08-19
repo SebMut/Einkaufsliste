@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-19T12:20:37.394Z",
+  "generatedAt": "2026-08-19T12:24:45.475Z",
   "run": {
-    "id": "32251834211",
+    "id": "32252332967",
     "attempt": "1",
     "event": "push",
-    "sha": "565e924900e6410b4043dfa9471c9b92cd69d5d9",
+    "sha": "692fd205cda58cd414e83f26740269e37e5bae62",
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 0,
     "status": "partial",
-    "startedAt": "2026-08-19T12:19:10.305Z",
-    "finishedAt": "2026-08-19T12:20:37.287Z",
-    "durationMs": 86982
+    "startedAt": "2026-08-19T12:23:17.032Z",
+    "finishedAt": "2026-08-19T12:24:45.361Z",
+    "durationMs": 88329
   },
   "summary": {
     "configuredSources": 12,
@@ -21,7 +21,7 @@
     "errors": 0,
     "skipped": 0,
     "offerCount": 282,
-    "liveGeneratedAt": "2026-08-19T12:19:10.718Z",
+    "liveGeneratedAt": "2026-08-19T12:23:17.423Z",
     "liveDataCurrent": true
   },
   "sources": [
@@ -34,9 +34,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine relevanten Angebote erkannt (DOM 0 Karten / 0 JSON-Antworten)",
-      "startedAt": "2026-08-19T12:19:10.917Z",
-      "finishedAt": "2026-08-19T12:19:17.253Z",
-      "durationMs": 6336
+      "startedAt": "2026-08-19T12:23:18.660Z",
+      "finishedAt": "2026-08-19T12:23:25.157Z",
+      "durationMs": 6497
     },
     {
       "store": "EDEKA",
@@ -47,9 +47,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine relevanten Angebote erkannt (DOM 0 Karten / 0 JSON-Antworten)",
-      "startedAt": "2026-08-19T12:19:17.255Z",
-      "finishedAt": "2026-08-19T12:19:23.431Z",
-      "durationMs": 6176
+      "startedAt": "2026-08-19T12:23:25.159Z",
+      "finishedAt": "2026-08-19T12:23:31.302Z",
+      "durationMs": 6143
     },
     {
       "store": "PENNY",
@@ -60,9 +60,9 @@
       "status": "ok",
       "count": 114,
       "message": "114 valide Angebote importiert",
-      "startedAt": "2026-08-19T12:19:23.433Z",
-      "finishedAt": "2026-08-19T12:19:31.205Z",
-      "durationMs": 7772
+      "startedAt": "2026-08-19T12:23:31.304Z",
+      "finishedAt": "2026-08-19T12:23:39.415Z",
+      "durationMs": 8111
     },
     {
       "store": "HIT",
@@ -73,9 +73,9 @@
       "status": "ok",
       "count": 3,
       "message": "3 valide Angebote importiert",
-      "startedAt": "2026-08-19T12:19:31.207Z",
-      "finishedAt": "2026-08-19T12:19:39.686Z",
-      "durationMs": 8479
+      "startedAt": "2026-08-19T12:23:39.417Z",
+      "finishedAt": "2026-08-19T12:23:48.391Z",
+      "durationMs": 8974
     },
     {
       "store": "ALDI SÜD",
@@ -86,9 +86,9 @@
       "status": "ok",
       "count": 58,
       "message": "58 valide Angebote importiert",
-      "startedAt": "2026-08-19T12:19:39.689Z",
-      "finishedAt": "2026-08-19T12:19:47.448Z",
-      "durationMs": 7759
+      "startedAt": "2026-08-19T12:23:48.393Z",
+      "finishedAt": "2026-08-19T12:23:55.903Z",
+      "durationMs": 7510
     },
     {
       "store": "Lidl",
@@ -99,9 +99,9 @@
       "status": "ok",
       "count": 1,
       "message": "1 valide Angebote importiert",
-      "startedAt": "2026-08-19T12:19:47.452Z",
-      "finishedAt": "2026-08-19T12:19:54.950Z",
-      "durationMs": 7498
+      "startedAt": "2026-08-19T12:23:55.907Z",
+      "finishedAt": "2026-08-19T12:24:03.600Z",
+      "durationMs": 7693
     },
     {
       "store": "Netto",
@@ -112,9 +112,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine relevanten Angebote erkannt (DOM 0 Karten / 0 JSON-Antworten)",
-      "startedAt": "2026-08-19T12:19:54.952Z",
-      "finishedAt": "2026-08-19T12:20:01.136Z",
-      "durationMs": 6184
+      "startedAt": "2026-08-19T12:24:03.603Z",
+      "finishedAt": "2026-08-19T12:24:09.947Z",
+      "durationMs": 6344
     },
     {
       "store": "NORMA",
@@ -125,9 +125,9 @@
       "status": "ok",
       "count": 1,
       "message": "1 valide Angebote importiert",
-      "startedAt": "2026-08-19T12:20:01.138Z",
-      "finishedAt": "2026-08-19T12:20:09.818Z",
-      "durationMs": 8680
+      "startedAt": "2026-08-19T12:24:09.950Z",
+      "finishedAt": "2026-08-19T12:24:17.815Z",
+      "durationMs": 7865
     },
     {
       "store": "Kaufland",
@@ -138,9 +138,9 @@
       "status": "ok",
       "count": 9,
       "message": "9 valide Angebote importiert",
-      "startedAt": "2026-08-19T12:20:09.820Z",
-      "finishedAt": "2026-08-19T12:20:16.927Z",
-      "durationMs": 7107
+      "startedAt": "2026-08-19T12:24:17.817Z",
+      "finishedAt": "2026-08-19T12:24:25.092Z",
+      "durationMs": 7275
     },
     {
       "store": "METRO",
@@ -151,9 +151,9 @@
       "status": "no_data",
       "count": 0,
       "message": "Seite erreichbar, aber keine relevanten Angebote erkannt (DOM 0 Karten / 0 JSON-Antworten)",
-      "startedAt": "2026-08-19T12:20:16.929Z",
-      "finishedAt": "2026-08-19T12:20:23.154Z",
-      "durationMs": 6225
+      "startedAt": "2026-08-19T12:24:25.093Z",
+      "finishedAt": "2026-08-19T12:24:31.310Z",
+      "durationMs": 6217
     },
     {
       "store": "dm",
@@ -162,11 +162,11 @@
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "scope": "regional",
       "status": "ok",
-      "count": 53,
-      "message": "53 valide Angebote importiert",
-      "startedAt": "2026-08-19T12:20:23.156Z",
-      "finishedAt": "2026-08-19T12:20:30.272Z",
-      "durationMs": 7116
+      "count": 52,
+      "message": "52 valide Angebote importiert",
+      "startedAt": "2026-08-19T12:24:31.311Z",
+      "finishedAt": "2026-08-19T12:24:38.320Z",
+      "durationMs": 7009
     },
     {
       "store": "ROSSMANN",
@@ -175,42 +175,42 @@
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "scope": "regional",
       "status": "ok",
-      "count": 43,
-      "message": "43 valide Angebote importiert",
-      "startedAt": "2026-08-19T12:20:30.281Z",
-      "finishedAt": "2026-08-19T12:20:37.227Z",
-      "durationMs": 6946
+      "count": 44,
+      "message": "44 valide Angebote importiert",
+      "startedAt": "2026-08-19T12:24:38.323Z",
+      "finishedAt": "2026-08-19T12:24:45.299Z",
+      "durationMs": 6976
     }
   ],
   "lastLogLines": [
     "",
-    "> angebotsradar-live-importer@3.0.0 import",
+    "> angebotsradar-live-importer@4.1.0 import",
     "> node import.js",
     "",
     "Importiere REWE Feldkirchen ...",
-    "REWE: no_data, 0 (6336 ms)",
+    "REWE: no_data, 0 (6497 ms)",
     "Importiere EDEKA Berghammer Feldkirchen ...",
-    "EDEKA: no_data, 0 (6178 ms)",
+    "EDEKA: no_data, 0 (6146 ms)",
     "Importiere PENNY Region Feldkirchen ...",
-    "PENNY: ok, 140 (7772 ms)",
+    "PENNY: ok, 140 (8112 ms)",
     "Importiere HIT Parsdorf ...",
-    "HIT: ok, 3 (8480 ms)",
+    "HIT: ok, 3 (8975 ms)",
     "Importiere ALDI SÜD Region Feldkirchen ...",
-    "ALDI SÜD: ok, 67 (7762 ms)",
+    "ALDI SÜD: ok, 67 (7511 ms)",
     "Importiere Lidl Region Feldkirchen ...",
-    "Lidl: ok, 1 (7500 ms)",
+    "Lidl: ok, 1 (7695 ms)",
     "Importiere Netto Trudering ...",
-    "Netto: no_data, 0 (6187 ms)",
+    "Netto: no_data, 0 (6347 ms)",
     "Importiere NORMA Region Feldkirchen ...",
-    "NORMA: ok, 1 (8680 ms)",
+    "NORMA: ok, 1 (7868 ms)",
     "Importiere Kaufland München-Berg am Laim ...",
-    "Kaufland: ok, 9 (7110 ms)",
+    "Kaufland: ok, 9 (7277 ms)",
     "Importiere METRO München-Freimann ...",
-    "METRO: no_data, 0 (6226 ms)",
+    "METRO: no_data, 0 (6218 ms)",
     "Importiere dm Region Feldkirchen ...",
-    "dm: ok, 84 (7119 ms)",
+    "dm: ok, 83 (7010 ms)",
     "Importiere ROSSMANN Region Feldkirchen ...",
-    "ROSSMANN: ok, 46 (6955 ms)",
+    "ROSSMANN: ok, 47 (6979 ms)",
     "Fertig: 351 Live-Angebote aus 8/12 Quellen."
   ]
 }
