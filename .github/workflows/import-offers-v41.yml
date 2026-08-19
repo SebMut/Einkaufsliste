@@ -1,0 +1,110 @@
+name: Live-Angebote importieren V4.1
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4,10,16,22 * * *'
+  push:
+    paths:
+      - 'importer/**'
+      - 'data/markets.json'
+      - '.github/workflows/import-offers-v41.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-offers-v41
+  cancel-in-progress: true
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Dependencies installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+
+      - name: Chromium installieren
+        working-directory: importer
+        run: npx playwright install --with-deps chromium
+
+      - name: Angebote per Browser und API importieren
+        id: importer
+        working-directory: importer
+        shell: bash
+        run: |
+          START_MS=$(date +%s%3N)
+          echo "started_ms=$START_MS" >> "$GITHUB_OUTPUT"
+          set +e
+          npm run import 2>&1 | while IFS= read -r line; do printf '%s\t%s\n' "$(date +%s%3N)" "$line"; done | tee ../data/import-run.log
+          CODE=${PIPESTATUS[0]}
+          END_MS=$(date +%s%3N)
+          echo "finished_ms=$END_MS" >> "$GITHUB_OUTPUT"
+          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Server-HTML Fallback
+        id: fallback
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: npm run fallback
+
+      - name: Qualitätsprüfung
+        id: sanitize
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node sanitize.js
+
+      - name: Diagnose erzeugen
+        id: diagnostics
+        if: always()
+        continue-on-error: true
+        working-directory: importer
+        env:
+          IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
+          IMPORT_STARTED_MS: ${{ steps.importer.outputs.started_ms }}
+          IMPORT_FINISHED_MS: ${{ steps.importer.outputs.finished_ms }}
+        run: node diagnostics.js
+
+      - name: Ergebnisse veröffentlichen
+        id: publish
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: |
+          git config user.name "AngebotsRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          touch data/import-run.log
+          git add data/offers-live.json data/import-diagnostics.json data/import-run.log
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+            exit 0
+          fi
+          git commit -m "Live-Angebote und Importdiagnose aktualisieren"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Ergebnis bewerten
+        if: always()
+        shell: bash
+        env:
+          IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
+          FALLBACK_OUTCOME: ${{ steps.fallback.outcome }}
+          SANITIZE_OUTCOME: ${{ steps.sanitize.outcome }}
+          DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
+          PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
+        run: |
+          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));console.log(d.summary);if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
+          DIAG_CODE=$?
+          if [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
+            exit 1
+          fi
