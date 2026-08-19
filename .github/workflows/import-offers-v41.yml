@@ -6,7 +6,20 @@ on:
     - cron: '17 4,10,16,22 * * *'
   push:
     paths:
-      - 'importer/**'
+      - 'importer/import.js'
+      - 'importer/fallback.js'
+      - 'importer/reader-fallback.js'
+      - 'importer/netto-reader-v2.js'
+      - 'importer/rich-retailers.js'
+      - 'importer/text-retailers.js'
+      - 'importer/hit-reader-v4.js'
+      - 'importer/metro-auth.js'
+      - 'importer/sanitize.js'
+      - 'importer/quality-v2.js'
+      - 'importer/quality-v3.js'
+      - 'importer/quality-v4.js'
+      - 'importer/diagnostics.js'
+      - 'importer/package.json'
       - 'data/markets.json'
       - '.github/workflows/import-offers-v41.yml'
 
@@ -64,12 +77,12 @@ jobs:
         working-directory: importer
         run: node reader-fallback.js
 
-      - name: Netto Filial-Reader
+      - name: Netto Filial-Reader V2
         id: netto_reader
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
-        run: node netto-reader.js
+        run: node netto-reader-v2.js
 
       - name: Spezialreader NORMA Lidl Kaufland
         id: rich_reader
@@ -120,7 +133,7 @@ jobs:
         id: quality_v3
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
-        working-directory: importer
+        working_directory: importer
         run: node quality-v3.js
 
       - name: Qualitätsprüfung Stufe 4 Semantik
@@ -149,8 +162,8 @@ jobs:
         run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          touch data/import-run.log data/quality-report.json data/hit-v4.log
-          git add data/offers-live.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log
+          touch data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log
+          git add data/offers-live.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
             exit 0
