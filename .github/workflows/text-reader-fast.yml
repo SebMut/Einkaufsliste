@@ -1,0 +1,50 @@
+name: HIT Kaufland Textreader Schnelltest
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'importer/text-retailers.js'
+      - '.github/workflows/text-reader-fast.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Textreader
+        working-directory: importer
+        shell: bash
+        run: |
+          set -o pipefail
+          node text-retailers.js 2>&1 | tee ../data/text-reader.log
+      - name: Qualität
+        working-directory: importer
+        shell: bash
+        run: |
+          node sanitize.js 2>&1 | tee -a ../data/text-reader.log
+          node quality-v2.js 2>&1 | tee -a ../data/text-reader.log
+      - name: Status
+        shell: bash
+        run: |
+          node - <<'NODE' | tee -a data/text-reader.log
+          const fs=require('fs'); const d=JSON.parse(fs.readFileSync('data/offers-live.json'));
+          for(const store of ['HIT','Kaufland']){const s=d.sources.find(x=>x.store===store);console.log(`${store}: ${s?.count||0} / ${s?.message||''}`)}
+          console.log(`Gesamt: ${d.offerCount}`)
+          NODE
+      - name: Veröffentlichen
+        shell: bash
+        run: |
+          git config user.name "AngebotsRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/offers-live.json data/quality-report.json data/text-reader.log
+          git commit -m "HIT Kaufland Textreader Ergebnis" || exit 0
+          git pull --rebase origin main
+          git push origin main
