@@ -6,6 +6,7 @@ on:
     - cron: '17 4,10,16,22 * * *'
   push:
     paths:
+      - 'index.html'
       - 'importer/import.js'
       - 'importer/fallback.js'
       - 'importer/reader-fallback.js'
@@ -21,10 +22,12 @@ on:
       - 'importer/quality-v3.js'
       - 'importer/quality-v4.js'
       - 'importer/semantic-products.js'
+      - 'importer/semantic-live-audit.test.js'
       - 'importer/product-normalizer.js'
       - 'importer/product-normalizer.test.js'
       - 'importer/product-identity.js'
       - 'importer/product-identity.test.js'
+      - 'importer/frontend-smoke.test.js'
       - 'importer/market-policy.js'
       - 'importer/market-policy.test.js'
       - 'importer/catalog-merge.js'
