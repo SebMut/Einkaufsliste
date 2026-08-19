@@ -1,103 +1,47 @@
 {
-  "generatedAt": "2026-08-19T15:37:22.580Z",
-  "before": 398,
-  "after": 387,
-  "rejected": 11,
-  "repaired": 245,
-  "rejectedReasons": {
-    "name_length": 11
-  },
+  "generatedAt": "2026-08-19T15:40:46.321Z",
+  "before": 217,
+  "after": 217,
+  "rejected": 0,
+  "repaired": 133,
+  "rejectedReasons": {},
   "storeBefore": {
-    "NORMA": 104,
-    "EDEKA": 12,
-    "ALDI SÜD": 33,
+    "EDEKA": 11,
+    "ALDI SÜD": 26,
+    "NORMA": 47,
     "PENNY": 51,
-    "dm": 32,
-    "ROSSMANN": 23,
+    "dm": 30,
+    "ROSSMANN": 18,
     "REWE": 10,
     "Netto": 2,
     "Lidl": 1,
-    "Kaufland": 20,
-    "HIT": 110
+    "HIT": 1,
+    "Kaufland": 20
   },
   "storeAfter": {
-    "NORMA": 104,
-    "EDEKA": 12,
-    "ALDI SÜD": 33,
+    "EDEKA": 11,
+    "ALDI SÜD": 26,
+    "NORMA": 47,
     "PENNY": 51,
-    "dm": 32,
-    "ROSSMANN": 23,
+    "dm": 30,
+    "ROSSMANN": 18,
     "REWE": 10,
     "Netto": 2,
     "Lidl": 1,
-    "Kaufland": 20,
-    "HIT": 99
+    "HIT": 1,
+    "Kaufland": 20
   },
-  "rejectedExamples": [
-    {
-      "store": "HIT",
-      "name": "](https://www.hit.de/angebot/27480640?store=1766)![Image 2: 32028412 ### Philadelphia versch. Sorten 195 - 6x16,7 g Packung AKTION! 1. 1.00* Preis Vorwoche 2.29](https://www.hit.de/angebot/27910983?store=1766)!",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "Fett 1 l Packung AKTION! 1.](https://www.hit.de/angebot/27480659?store=1766)![Image 18: 24611246 ### Ehrmann Almighurt 3,8 % Fett versch. Sorten 500 g Pfandglas AKTION! 1. + 0.15 Pfand](https://www.hit.de/angebot/27480644?store=1766)!",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "](https://www.hit.de/angebot/27480646?store=1766)![Image 20: 32133918 ### Coca-Cola* 1,25 l oder Powerade 0,5 l versch. Sorten PET EW Flasche *Koffeinhaltig AKTION! 1. + 0.25 Pfand](https://www.hit.de/angebot/27780084?store=1766)!",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "![Image 25: 28467665 ### Frico Gouda Holland jung g.g.A. Holländischer Schnittkäse 48 % Fett i. Tr., sahnig-mild 4 Wochen naturgereift 100 g AKTION! 1.](https://www.hit.de/angebot/27480642?store=1766)!",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "38: Header_Dauer_Discount_Preis_kleine Kachel_2 ### So günstig können Auswahl und Qualität sein. Kunden können bei HIT jeden Tag erleben, wie günstig Auswahl und Qualität sind.](https://www.hit.de/sortiment/echte-vielfalt/discount-preise)!",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "sparen Sparen per Coupon ist jetzt noch bequemer und einfacher geworden. Einfach Coupons in der App aktivieren und von vielen App Preisen zusätzlich profitieren!](https://www.hit.de/coupons)!",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "](https://www.hit.de/angebot/27780082?store=1766)![Image 72: 32028412 ### Philadelphia versch. Sorten 195 - 6x16,7 g Packung AKTION! 1. 1.00* Preis Vorwoche 2.29](https://www.hit.de/angebot/27910983?store=1766)!",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "Header_sieben_service_versprechen_2 ### Wir geben für Sie täglich unser Bestes. Versprochen! Unser Anspruch ist es, dass Ihr Einkauf bei uns jedes Mal zum Vergnügen wird.](https://www.hit.de/sortiment/sieben-service-versprechen)!",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "](https://www.hit.de/angebot/27481045?store=1766)![Image 89: 23899261 ### Berchtesgadener Land Frische Bergbauern Milch 3,5%/1,5% Fett 1 l Packung AKTION! 1.](https://www.hit.de/angebot/27481038?store=1766)!",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "+ 4.80 Pfand](https://www.hit.de/angebot/27480680?store=1766)![Image 148: 32133918 ### Coca-Cola* 1,25 l oder Powerade 0,5 l versch. Sorten PET EW Flasche *Koffeinhaltig AKTION! 1. + 0.25 Pfand](https://www.hit.de/angebot/27780084?store=1766)!",
-      "reason": "name_length"
-    },
-    {
-      "store": "HIT",
-      "name": "Pfand](https://www.hit.de/angebot/27481335?store=1766)![Image 154: 27636593 ### Gerolsteiner Schorlen, Limonaden, Tee oder Fruity Water versch. Sorten 0,75 l PET EW Flasche -15% 1. 1.19** + 0.25 Pfand](https://www.hit.de/angebot/27481339?store=1766)!",
-      "reason": "name_length"
-    }
-  ],
+  "rejectedExamples": [],
   "finalPass": {
-    "generatedAt": "2026-08-19T15:37:22.663Z",
-    "before": 387,
-    "after": 386,
-    "rejected": 1,
+    "generatedAt": "2026-08-19T15:40:46.366Z",
+    "before": 217,
+    "after": 214,
+    "rejected": 3,
     "repaired": 16,
     "rejectedReasons": {
-      "name": 1
+      "name": 1,
+      "duplicate": 1,
+      "semantic_duplicate": 1
     },
     "rejectedExamples": [
       {
@@ -108,378 +52,14 @@
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T15:37:22.733Z",
-    "before": 386,
-    "after": 212,
-    "rejected": 174,
-    "repaired": 225,
+    "generatedAt": "2026-08-19T15:40:46.407Z",
+    "before": 214,
+    "after": 210,
+    "rejected": 4,
+    "repaired": 19,
     "reasons": {
-      "nonfood": 9,
-      "not_food": 74,
-      "name": 84,
-      "duplicate": 7
+      "duplicate": 4
     },
-    "rejectedExamples": [
-      {
-        "store": "NORMA",
-        "name": "![Image 130 * * * **Powertec Electric** ### 4-fach Schuko-Steckdosenleiste",
-        "cleaned": "4-fach Schuko-Steckdosenleiste",
-        "reason": "nonfood"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 132 * * * **Powertec Electric** ### 3-fach Schuko-Steckdosenleiste",
-        "cleaned": "3-fach Schuko-Steckdosenleiste",
-        "reason": "nonfood"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 136: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 136: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 137 * 1 Liter",
-        "cleaned": "* 1 Liter",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 138 * 4+1 gratis",
-        "cleaned": "* 4+1 gratis",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 147",
-        "cleaned": "",
-        "reason": "name"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 157: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 163: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 163: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 167 * 3 + 1 gratis",
-        "cleaned": "* 3 + 1 gratis",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 169: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 169: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 170: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 170: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 175 * 1,2 kg * * * **Dreistern** ### XXL Eintopf",
-        "cleaned": "XXL Eintopf",
-        "reason": "nonfood"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 178",
-        "cleaned": "",
-        "reason": "name"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 20: Nur gültig vom 21.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 20: Nur gültig vom 21.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 23: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 24: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 24: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 24: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 25: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 25: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 25: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 25: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 28: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 28: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 30: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 30: Nur gültig vom 24.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 24.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 31: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 32: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 33: Nur gültig vom 21.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 33: Nur gültig vom 21.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 34: Nur gültig vom 21.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 34: Nur gültig vom 21.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 21.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 39: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 40: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 40: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 40: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 40: Nur gültig vom 28.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 28.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 40: Nur gültig vom 28.08. bis 30.08.2026 und",
-        "cleaned": "Nur gültig vom 28.08. bis 30.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 41: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 41: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 60: Nur gültig vom 17.08. bis 23.08.2026 und",
-        "cleaned": "Nur gültig vom 17.08. bis 23.08.2026 und",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 61 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
-        "cleaned": "Edelstahl Frischhaltedose ca.",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 62 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
-        "cleaned": "Edelstahl Frischhaltedose ca.",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 63 * * * **Fisko** ### Edelstahl Frischhaltedose ca.",
-        "cleaned": "Edelstahl Frischhaltedose ca.",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 64 * Schwamm gratis * * * **Click 'n Store** ### Frischhaltedosen",
-        "cleaned": "Frischhaltedosen",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 65 * * * **Ritzenhoff & Breker** ### XL-Sternzeichentasse",
-        "cleaned": "XL-Sternzeichentasse",
-        "reason": "not_food"
-      },
-      {
-        "store": "NORMA",
-        "name": "![Image 66 * * * **Flower Power / I-Glow** ### XL-LED-Dekoration",
-        "cleaned": "XL-LED-Dekoration",
-        "reason": "not_food"
-      },
-      {
-        "store": "HIT",
-        "name": "](https://www.hit.de/angebot/27303466?store=1766)!",
-        "cleaned": "",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "](https://www.hit.de/angebot/27480640?store=1766)!",
-        "cleaned": "",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "](https://www.hit.de/angebot/27480643?store=1766)!",
-        "cleaned": "",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "](https://www.hit.de/angebot/27480679?store=1766)!",
-        "cleaned": "",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "](https://www.hit.de/angebot/27480695?store=1766)!",
-        "cleaned": "",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "](https://www.hit.de/angebot/27480796?store=1766)!",
-        "cleaned": "",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "](https://www.hit.de/angebot/27480804?store=1766)!",
-        "cleaned": "",
-        "reason": "name"
-      },
-      {
-        "store": "HIT",
-        "name": "](https://www.hit.de/angebot/27480805?store=1766)!",
-        "cleaned": "",
-        "reason": "name"
-      }
-    ]
+    "rejectedExamples": []
   }
 }
