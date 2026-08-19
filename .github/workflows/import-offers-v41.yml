@@ -1,6 +1,6 @@
 name: Live-Angebote importieren V5.1
 
-# Audit-Lauf: kompletter Produktionspfad mit Release-Gate und Post-Tests.
+# Audit-Lauf: kompletter Produktionspfad mit Release-Gate, Post-Tests und Browser-E2E.
 on:
   workflow_dispatch:
   schedule:
@@ -23,6 +23,8 @@ on:
       - 'importer/semantic-products.js'
       - 'importer/semantic-live-audit.test.js'
       - 'importer/semantic-edge-cases.test.js'
+      - 'importer/safety-regression.test.js'
+      - 'importer/frontend-e2e.js'
       - 'importer/gtin.js'
       - 'importer/product-normalizer.js'
       - 'importer/product-normalizer.test.js'
@@ -161,6 +163,11 @@ jobs:
         if: always() && steps.price_history.outcome == 'success'
         working-directory: importer
         run: npm test
+      - name: Frontend auf Desktop und iPhone durchklicken
+        id: frontend_e2e
+        if: always() && steps.post_tests.outcome == 'success'
+        working-directory: importer
+        run: node frontend-e2e.js
       - name: Diagnose erzeugen
         id: diagnostics
         if: always()
@@ -185,6 +192,7 @@ jobs:
           MARKET_GUARD_OUTCOME: ${{ steps.market_guard.outcome }}
           PRICE_HISTORY_OUTCOME: ${{ steps.price_history.outcome }}
           POST_TEST_OUTCOME: ${{ steps.post_tests.outcome }}
+          FRONTEND_E2E_OUTCOME: ${{ steps.frontend_e2e.outcome }}
           DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
         run: |
           node - <<'NODE'
@@ -202,11 +210,71 @@ jobs:
              [ "$MARKET_GUARD_OUTCOME" != "success" ] || \
              [ "$PRICE_HISTORY_OUTCOME" != "success" ] || \
              [ "$POST_TEST_OUTCOME" != "success" ] || \
+             [ "$FRONTEND_E2E_OUTCOME" != "success" ] || \
              [ "$DIAGNOSTICS_OUTCOME" != "success" ]; then
             echo "Veröffentlichung gesperrt: mindestens eine Pflichtprüfung ist fehlgeschlagen."
             exit 1
           fi
           echo "Alle Pflichtprüfungen bestanden. Veröffentlichung freigegeben."
+      - name: CI-Testquittung erzeugen
+        if: always()
+        shell: bash
+        env:
+          PRODUCT_TEST_OUTCOME: ${{ steps.product_tests.outcome }}
+          IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
+          SANITIZE_OUTCOME: ${{ steps.sanitize.outcome }}
+          QUALITY_V2_OUTCOME: ${{ steps.quality_v2.outcome }}
+          QUALITY_V3_OUTCOME: ${{ steps.quality_v3.outcome }}
+          QUALITY_V4_OUTCOME: ${{ steps.quality_v4.outcome }}
+          MARKET_GUARD_OUTCOME: ${{ steps.market_guard.outcome }}
+          PRICE_HISTORY_OUTCOME: ${{ steps.price_history.outcome }}
+          POST_TEST_OUTCOME: ${{ steps.post_tests.outcome }}
+          FRONTEND_E2E_OUTCOME: ${{ steps.frontend_e2e.outcome }}
+          DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
+          RELEASE_GATE_OUTCOME: ${{ steps.release_gate.outcome }}
+        run: |
+          mkdir -p docs
+          node - <<'NODE'
+          const fs=require('fs');
+          let diagnostics=null;
+          try{diagnostics=JSON.parse(fs.readFileSync('data/import-diagnostics.json','utf8'))}catch{}
+          const receipt={
+            schema:1,
+            generatedAt:new Date().toISOString(),
+            testedCommit:process.env.GITHUB_SHA,
+            runId:process.env.GITHUB_RUN_ID,
+            runAttempt:process.env.GITHUB_RUN_ATTEMPT,
+            outcomes:{
+              preTests:process.env.PRODUCT_TEST_OUTCOME,
+              importExitCode:Number(process.env.IMPORT_EXIT_CODE||99),
+              sanitize:process.env.SANITIZE_OUTCOME,
+              qualityV2:process.env.QUALITY_V2_OUTCOME,
+              qualityV3:process.env.QUALITY_V3_OUTCOME,
+              qualityV4:process.env.QUALITY_V4_OUTCOME,
+              marketGuard:process.env.MARKET_GUARD_OUTCOME,
+              priceHistory:process.env.PRICE_HISTORY_OUTCOME,
+              postTests:process.env.POST_TEST_OUTCOME,
+              frontendE2E:process.env.FRONTEND_E2E_OUTCOME,
+              diagnostics:process.env.DIAGNOSTICS_OUTCOME,
+              releaseGate:process.env.RELEASE_GATE_OUTCOME
+            },
+            diagnostics:diagnostics?.summary||null,
+            status:process.env.RELEASE_GATE_OUTCOME==='success'?'passed':'failed'
+          };
+          fs.writeFileSync('docs/live-ci-results.json',JSON.stringify(receipt,null,2)+'\n');
+          NODE
+      - name: CI-Testquittung veröffentlichen
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: |
+          git config user.name "AngebotsRadar CI Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/live-ci-results.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Live-CI-Testquittung aktualisieren [skip ci]"
+          git pull --rebase --autostash origin main
+          git push origin main
       - name: Ergebnisse veröffentlichen
         id: publish
         if: always() && steps.release_gate.outcome == 'success'
@@ -219,7 +287,7 @@ jobs:
           git add data/offers-live.json data/price-history.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log data/netto-v2.log data/lidl-table.log data/bio-retailers.log
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Live-Produkte und Angebote V5.1 aktualisieren [skip ci]"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push origin main
       - name: Ergebnis bewerten
         if: always()
