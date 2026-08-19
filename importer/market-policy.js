@@ -51,8 +51,7 @@ export function withMarketPolicy(input = {}) {
 export function catalogStatusFor(input = {}) {
   if (['full_catalog','partial_catalog','offers_only','unavailable','login_required'].includes(input.catalogStatus)) return input.catalogStatus;
   if (input.importStatus === 'login_required') return 'login_required';
-  if (['dm','rossmann'].includes(clean(input.store))) return 'partial_catalog';
-  if (input.offerUrl || ['supported','partial'].includes(input.importStatus)) return 'offers_only';
+  if (input.offerUrl || input.url || ['supported','partial'].includes(input.importStatus)) return 'offers_only';
   return 'unavailable';
 }
 
