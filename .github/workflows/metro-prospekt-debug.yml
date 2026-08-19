@@ -1,0 +1,35 @@
+name: METRO Prospekt Debug
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'importer/metro-prospekt-debug.js'
+      - '.github/workflows/metro-prospekt-debug.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Dependencies installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+      - name: Prospekt analysieren
+        working-directory: importer
+        run: node metro-prospekt-debug.js
+      - name: Diagnose veröffentlichen
+        run: |
+          git config user.name "AngebotsRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/metro-prospekt-debug.json
+          git commit -m "METRO Prospekt-Diagnose aktualisieren" || exit 0
+          git pull --rebase origin main
+          git push origin main
