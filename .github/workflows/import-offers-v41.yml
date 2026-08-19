@@ -1,4 +1,4 @@
-name: Live-Angebote importieren V4.1
+name: Live-Angebote importieren V4.2
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: live-offers-v41
+  group: live-offers-v42
   cancel-in-progress: true
 
 jobs:
@@ -57,7 +57,7 @@ jobs:
         working-directory: importer
         run: npm run fallback
 
-      - name: Reader-Fallback für 403-Quellen
+      - name: Reader-Fallback für REWE EDEKA METRO
         id: reader
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
@@ -71,12 +71,26 @@ jobs:
         working-directory: importer
         run: node netto-reader.js
 
-      - name: Spezialreader HIT Kaufland NORMA Lidl
+      - name: Spezialreader NORMA Lidl Kaufland
         id: rich_reader
         if: always() && steps.importer.outputs.exit_code == '0'
         continue-on-error: true
         working-directory: importer
         run: node rich-retailers.js
+
+      - name: Kaufland Textreader
+        id: text_reader
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node text-retailers.js
+
+      - name: HIT Nested-Reader
+        id: hit_reader
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node hit-reader-v4.js
 
       - name: METRO Kundenlogin
         id: metro_auth
@@ -102,6 +116,20 @@ jobs:
         working-directory: importer
         run: node quality-v2.js
 
+      - name: Qualitätsprüfung Stufe 3 Lebensmittel
+        id: quality_v3
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node quality-v3.js
+
+      - name: Qualitätsprüfung Stufe 4 Semantik
+        id: quality_v4
+        if: always() && steps.importer.outputs.exit_code == '0'
+        continue-on-error: true
+        working-directory: importer
+        run: node quality-v4.js
+
       - name: Diagnose erzeugen
         id: diagnostics
         if: always()
@@ -121,14 +149,13 @@ jobs:
         run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          touch data/import-run.log
-          touch data/quality-report.json
-          git add data/offers-live.json data/import-diagnostics.json data/import-run.log data/quality-report.json
+          touch data/import-run.log data/quality-report.json data/hit-v4.log
+          git add data/offers-live.json data/import-diagnostics.json data/import-run.log data/quality-report.json data/hit-v4.log
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
             exit 0
           fi
-          git commit -m "Live-Angebote, Diagnose und Datenqualität aktualisieren"
+          git commit -m "Live-Angebote V4.2 aktualisieren"
           git pull --rebase origin main
           git push origin main
 
@@ -141,14 +168,18 @@ jobs:
           READER_OUTCOME: ${{ steps.reader.outcome }}
           NETTO_READER_OUTCOME: ${{ steps.netto_reader.outcome }}
           RICH_READER_OUTCOME: ${{ steps.rich_reader.outcome }}
+          TEXT_READER_OUTCOME: ${{ steps.text_reader.outcome }}
+          HIT_READER_OUTCOME: ${{ steps.hit_reader.outcome }}
           METRO_AUTH_OUTCOME: ${{ steps.metro_auth.outcome }}
           SANITIZE_OUTCOME: ${{ steps.sanitize.outcome }}
           QUALITY_V2_OUTCOME: ${{ steps.quality_v2.outcome }}
+          QUALITY_V3_OUTCOME: ${{ steps.quality_v3.outcome }}
+          QUALITY_V4_OUTCOME: ${{ steps.quality_v4.outcome }}
           DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
           PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
         run: |
-          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));console.log(d.summary);const q=JSON.parse(fs.readFileSync('data/quality-report.json'));console.log({quality:q.after,rejected:q.rejected,repaired:q.repaired,finalPass:q.finalPass||null});if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
+          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json'));const q=JSON.parse(fs.readFileSync('data/quality-report.json'));console.log(d.summary);console.log({final:d.summary.offerCount,strict:q.strictFoodPass||null,semantic:q.semanticPass||null});if((d.summary.errors||0)>0||d.summary.liveDataCurrent!==true)process.exitCode=2"
           DIAG_CODE=$?
-          if [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$RICH_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$QUALITY_V2_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
+          if [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || [ "$FALLBACK_OUTCOME" != "success" ] || [ "$READER_OUTCOME" != "success" ] || [ "$NETTO_READER_OUTCOME" != "success" ] || [ "$RICH_READER_OUTCOME" != "success" ] || [ "$TEXT_READER_OUTCOME" != "success" ] || [ "$HIT_READER_OUTCOME" != "success" ] || [ "$METRO_AUTH_OUTCOME" != "success" ] || [ "$SANITIZE_OUTCOME" != "success" ] || [ "$QUALITY_V2_OUTCOME" != "success" ] || [ "$QUALITY_V3_OUTCOME" != "success" ] || [ "$QUALITY_V4_OUTCOME" != "success" ] || [ "$DIAGNOSTICS_OUTCOME" != "success" ] || [ "$PUBLISH_OUTCOME" != "success" ] || [ "$DIAG_CODE" != "0" ]; then
             exit 1
           fi
