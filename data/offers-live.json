@@ -173,9 +173,10 @@
       "url": "https://www.hit.de/maerkte/parsdorf/angebote",
       "scope": "market",
       "status": "ok",
-      "count": 1,
-      "message": "1 qualitätsgeprüfte Angebote",
-      "durationMs": 8494
+      "count": 99,
+      "message": "99 qualitätsgeprüfte Angebote",
+      "durationMs": 8494,
+      "transport": "hit-segment-reader"
     },
     {
       "store": "ALDI SÜD",
@@ -273,7 +274,7 @@
       "durationMs": 6901
     }
   ],
-  "offerCount": 288,
+  "offerCount": 386,
   "offers": [
     {
       "key": "![Image 13: BEN & JERRY'S Eis BEN & JERRY'S Eis je 427 ",
@@ -294,7 +295,7 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
+      "importedAt": "2026-08-19T15:34:18.531Z",
       "id": 1
     },
     {
@@ -1196,7 +1197,7 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
+      "importedAt": "2026-08-19T15:34:18.531Z",
       "id": 42
     },
     {
@@ -1306,7 +1307,7 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
+      "importedAt": "2026-08-19T15:34:18.531Z",
       "id": 47
     },
     {
@@ -1372,7 +1373,7 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
+      "importedAt": "2026-08-19T15:34:18.531Z",
       "id": 50
     },
     {
@@ -1526,7 +1527,7 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
+      "importedAt": "2026-08-19T15:34:18.531Z",
       "id": 57
     },
     {
@@ -1614,7 +1615,7 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
+      "importedAt": "2026-08-19T15:34:18.531Z",
       "id": 61
     },
     {
@@ -1900,7 +1901,7 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
+      "importedAt": "2026-08-19T15:34:18.531Z",
       "id": 74
     },
     {
@@ -2124,6 +2125,2140 @@
       "id": 84
     },
     {
+      "key": "](https://www.hit.de/angebot/27303466?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27303466?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,2 l",
+      "price": 1.99,
+      "unit": 9.95,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 85
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480640?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480640?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 7.77,
+      "unit": 7.77,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 86
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480643?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480643?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "200-160 g",
+      "price": 1.69,
+      "unit": 9.14,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 87
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480679?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480679?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 4.49,
+      "unit": 5.987,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 88
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480695?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480695?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,5 l",
+      "price": 0.79,
+      "unit": 1.58,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 89
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480796?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480796?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 6.99,
+      "unit": 6.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 90
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480804?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480804?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 8.99,
+      "unit": 8.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 91
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480805?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480805?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 6.99,
+      "unit": 6.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 92
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480806?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480806?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 7.99,
+      "unit": 7.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 93
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480807?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480807?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 8.99,
+      "unit": 8.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 94
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480808?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480808?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 6.99,
+      "unit": 6.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 95
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480809?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480809?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 2.49,
+      "unit": 24.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 96
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480810?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480810?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 9.99,
+      "unit": 9.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 97
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480811?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480811?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 6.99,
+      "unit": 6.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 98
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480812?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480812?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 8.99,
+      "unit": 8.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 99
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480813?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480813?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 1.39,
+      "unit": 13.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 100
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480814?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480814?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 3.99,
+      "unit": 39.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 101
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480815?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480815?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 1.79,
+      "unit": 17.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 102
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480829?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480829?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 1.49,
+      "unit": 14.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 103
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480831?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480831?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "110 g",
+      "price": 2.99,
+      "unit": 27.182,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 104
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480884?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480884?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 1.79,
+      "unit": 17.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 105
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480889?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480889?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 2.99,
+      "unit": 29.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 106
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480897?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480897?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 2.79,
+      "unit": 27.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 107
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480903?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480903?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 1.49,
+      "unit": 14.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 108
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480923?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480923?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 1.79,
+      "unit": 17.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 109
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480932?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480932?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 2.22,
+      "unit": 22.2,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 110
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480937?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480937?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "150 g",
+      "price": 1.49,
+      "unit": 9.933,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 111
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480939?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480939?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "150 g",
+      "price": 0.49,
+      "unit": 3.267,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 112
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480941?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480941?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "180-125 g",
+      "price": 2.29,
+      "unit": 12.72,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 113
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480946?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480946?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "150-120 g",
+      "price": 1.79,
+      "unit": 11.93,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 114
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480949?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480949?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "250-200 g",
+      "price": 1.99,
+      "unit": 7.96,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 115
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480992?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480992?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "130-80 g",
+      "price": 3.49,
+      "unit": 26.8,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 116
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480998?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480998?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "80 g",
+      "price": 1.79,
+      "unit": 22.375,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 117
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27480999?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27480999?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "185 g",
+      "price": 1.29,
+      "unit": 6.973,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 118
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481000?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481000?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "250 g",
+      "price": 3.99,
+      "unit": 15.96,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 119
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481001?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481001?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "500 g",
+      "price": 3.49,
+      "unit": 6.98,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 120
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481025?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481025?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 2.99,
+      "unit": 2.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 121
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481030?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481030?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "750 g",
+      "price": 2.49,
+      "unit": 3.32,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 122
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481037?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481037?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 l",
+      "price": 1.49,
+      "unit": 1.49,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 123
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481042?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481042?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "200-180 g",
+      "price": 0.59,
+      "unit": 2.95,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 124
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481043?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481043?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "500-375 g",
+      "price": 1.49,
+      "unit": 2.98,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 125
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481044?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481044?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "500 g",
+      "price": 1.99,
+      "unit": 3.98,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 126
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481134?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481134?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 5.79,
+      "unit": 7.72,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 127
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481153?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481153?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,7 l",
+      "price": 10.99,
+      "unit": 15.7,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 128
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481158?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481158?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,7 l",
+      "price": 11.99,
+      "unit": 17.129,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 129
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481161?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481161?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 3.99,
+      "unit": 5.32,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 130
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481163?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481163?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 5.49,
+      "unit": 7.32,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 131
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481175?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481175?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,7 l",
+      "price": 10.99,
+      "unit": 15.7,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 132
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27481325?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27481325?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "12x1 l",
+      "price": 7.99,
+      "unit": 0.666,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 133
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27513925?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27513925?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 2.99,
+      "unit": 29.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 134
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27560489?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27560489?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "4 kg",
+      "price": 4.44,
+      "unit": 1.11,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 135
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27560491?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27560491?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "500 g",
+      "price": 1.15,
+      "unit": 2.3,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 136
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27560492?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27560492?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "300 g",
+      "price": 1.79,
+      "unit": 5.967,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 137
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27586026?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27586026?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,5 l",
+      "price": 10.99,
+      "unit": 21.98,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 138
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27586030?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27586030?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 7.99,
+      "unit": 10.653,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 139
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27586031?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27586031?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 4.99,
+      "unit": 6.653,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 140
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27586032?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27586032?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 3.33,
+      "unit": 4.44,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 141
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27586033?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27586033?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 5.99,
+      "unit": 7.987,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 142
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27780079?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27780079?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "250 g",
+      "price": 1.11,
+      "unit": 4.44,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 143
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27780079?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27780079?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 5.55,
+      "unit": 5.55,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 144
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27780090?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27780090?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "100 g",
+      "price": 1.49,
+      "unit": 14.9,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 145
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27780093?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27780093?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 7.99,
+      "unit": 10.653,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 146
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27802017?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27802017?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "500 g",
+      "price": 1.29,
+      "unit": 2.58,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 147
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27802019?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27802019?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "400 g",
+      "price": 1.99,
+      "unit": 4.975,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 148
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27802020?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27802020?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "350 g",
+      "price": 1.99,
+      "unit": 5.686,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 149
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27802021?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27802021?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "250g",
+      "price": 1.99,
+      "unit": 7.96,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 150
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27802022?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27802022?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 3.99,
+      "unit": 3.99,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 151
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27824027?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27824027?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "Packung",
+      "price": 0.49,
+      "unit": 0.49,
+      "unitLabel": "€/Packung",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 152
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27824027?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27824027?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "200-140 g",
+      "price": 1.99,
+      "unit": 8.05,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 153
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27891154?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27891154?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "Packung",
+      "price": 1.39,
+      "unit": 1.39,
+      "unitLabel": "€/Packung",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 154
+    },
+    {
+      "key": "](https://www.hit.de/angebot/27927373?store=1766)!",
+      "name": "](https://www.hit.de/angebot/27927373?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "435-305 g",
+      "price": 2.22,
+      "unit": 5.1,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 155
+    },
+    {
+      "key": "+ 0.25 Pfand](https://www.hit.de/angebot/27481040?store",
+      "name": "+ 0.25 Pfand](https://www.hit.de/angebot/27481040?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "308-240 g",
+      "price": 2.39,
+      "unit": 7.76,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 156
+    },
+    {
+      "key": "+ 0.25 Pfand](https://www.hit.de/angebot/27481131?store",
+      "name": "+ 0.25 Pfand](https://www.hit.de/angebot/27481131?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 2.99,
+      "unit": 3.987,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 157
+    },
+    {
+      "key": "+ 0.25 Pfand](https://www.hit.de/angebot/27481326?store",
+      "name": "+ 0.25 Pfand](https://www.hit.de/angebot/27481326?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "10 x 200 ml",
+      "price": 3.49,
+      "unit": 1.745,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 158
+    },
+    {
+      "key": "+ 0.25 Pfand](https://www.hit.de/angebot/27481327?store",
+      "name": "+ 0.25 Pfand](https://www.hit.de/angebot/27481327?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 l",
+      "price": 1.99,
+      "unit": 1.99,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 159
+    },
+    {
+      "key": "+ 0.25 Pfand](https://www.hit.de/angebot/27481338?store",
+      "name": "+ 0.25 Pfand](https://www.hit.de/angebot/27481338?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,33 l",
+      "price": 0.89,
+      "unit": 2.697,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 160
+    },
+    {
+      "key": "+ 2.46/3.30 Pfand](https://www.hit.de/angebot/27481333?",
+      "name": "+ 2.46/3.30 Pfand](https://www.hit.de/angebot/27481333?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "20 x 0,5 l",
+      "price": 6.99,
+      "unit": 0.699,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 161
+    },
+    {
+      "key": "+ 3.10 Pfand](https://www.hit.de/angebot/27480678?store",
+      "name": "+ 3.10 Pfand](https://www.hit.de/angebot/27480678?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "750 ml",
+      "price": 3.49,
+      "unit": 4.653,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 162
+    },
+    {
+      "key": "+ 3.10 Pfand](https://www.hit.de/angebot/27480678?store",
+      "name": "+ 3.10 Pfand](https://www.hit.de/angebot/27480678?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "0,75 l",
+      "price": 7.99,
+      "unit": 10.653,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 163
+    },
+    {
+      "key": "+ 3.10 Pfand](https://www.hit.de/angebot/27481415?store",
+      "name": "+ 3.10 Pfand](https://www.hit.de/angebot/27481415?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "12 x 1 l",
+      "price": 5.49,
+      "unit": 0.458,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 164
+    },
+    {
+      "key": "+ 3.10 Pfand](https://www.hit.de/angebot/27780100?store",
+      "name": "+ 3.10 Pfand](https://www.hit.de/angebot/27780100?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "20 x 0,5l",
+      "price": 14.99,
+      "unit": 1.499,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 165
+    },
+    {
+      "key": "+ 3.10 Pfand](https://www.hit.de/angebot/27780102?store",
+      "name": "+ 3.10 Pfand](https://www.hit.de/angebot/27780102?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "20 x 0,5l",
+      "price": 11.99,
+      "unit": 1.199,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 166
+    },
+    {
+      "key": "+ 3.10/3.42 Pfand](https://www.hit.de/angebot/27780099?",
+      "name": "+ 3.10/3.42 Pfand](https://www.hit.de/angebot/27780099?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "20 x 0,33 l",
+      "price": 12.99,
+      "unit": 1.968,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 167
+    },
+    {
+      "key": "+ 3.30 Pfand](https://www.hit.de/angebot/27481414?store",
+      "name": "+ 3.30 Pfand](https://www.hit.de/angebot/27481414?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 l",
+      "price": 1.89,
+      "unit": 1.89,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 168
+    },
+    {
+      "key": "+ 4.50 Pfand](https://www.hit.de/angebot/27780098?store",
+      "name": "+ 4.50 Pfand](https://www.hit.de/angebot/27780098?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "20 x 0,5 l",
+      "price": 14.99,
+      "unit": 1.499,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 169
+    },
+    {
+      "key": "+ 4.80 Pfand](https://www.hit.de/angebot/27480680?store",
+      "name": "+ 4.80 Pfand](https://www.hit.de/angebot/27480680?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "20 x 0,5 l",
+      "price": 14.99,
+      "unit": 1.499,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 170
+    },
+    {
+      "key": "22 ](https://www.hit.de/angebot/27481135?store=1766)!",
+      "name": "22 ](https://www.hit.de/angebot/27481135?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "210-182 g",
+      "price": 2.22,
+      "unit": 5.55,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 171
+    },
+    {
+      "key": "49 ](https://www.hit.de/angebot/27480942?store=1766)!",
+      "name": "49 ](https://www.hit.de/angebot/27480942?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "3 x 140 g",
+      "price": 12.99,
+      "unit": 30.929,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 172
+    },
+    {
+      "key": "49 ](https://www.hit.de/angebot/27481089?store=1766)!",
+      "name": "49 ](https://www.hit.de/angebot/27481089?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 l",
+      "price": 1.49,
+      "unit": 1.49,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 173
+    },
+    {
+      "key": "49 ](https://www.hit.de/angebot/27891096?store=1766)!",
+      "name": "49 ](https://www.hit.de/angebot/27891096?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "175-96 g",
+      "price": 1.99,
+      "unit": 8.05,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 174
+    },
+    {
+      "key": "59 ](https://www.hit.de/angebot/27481060?store=1766)!",
+      "name": "59 ](https://www.hit.de/angebot/27481060?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "400-180 g",
+      "price": 2.49,
+      "unit": 6.23,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 175
+    },
+    {
+      "key": "69 ](https://www.hit.de/angebot/27480645?store=1766)!",
+      "name": "69 ](https://www.hit.de/angebot/27480645?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 l",
+      "price": 1.79,
+      "unit": 1.79,
+      "unitLabel": "€/l",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 176
+    },
+    {
+      "key": "79 ](https://www.hit.de/angebot/27481048?store=1766)!",
+      "name": "79 ](https://www.hit.de/angebot/27481048?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 0.79,
+      "unit": 0.79,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 177
+    },
+    {
+      "key": "99 ](https://www.hit.de/angebot/27480661?store=1766)!",
+      "name": "99 ](https://www.hit.de/angebot/27480661?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "850-800 ml",
+      "price": 1.99,
+      "unit": 4.57,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 178
+    },
+    {
+      "key": "99 ](https://www.hit.de/angebot/27481006?store=1766)!",
+      "name": "99 ](https://www.hit.de/angebot/27481006?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "480-410 g",
+      "price": 3.49,
+      "unit": 28.55,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 179
+    },
+    {
+      "key": "99 ](https://www.hit.de/angebot/27481062?store=1766)!",
+      "name": "99 ](https://www.hit.de/angebot/27481062?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 1.79,
+      "unit": 1.79,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 180
+    },
+    {
+      "key": "99 ](https://www.hit.de/angebot/27481064?store=1766)!",
+      "name": "99 ](https://www.hit.de/angebot/27481064?store=1766)!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "1 kg",
+      "price": 3.79,
+      "unit": 3.79,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 181
+    },
+    {
       "key": "alpro Soya-, Hafer- oder This is not Milk-Drink",
       "name": "alpro Soya-, Hafer- oder This is not Milk-Drink",
       "store": "EDEKA",
@@ -2143,10 +4278,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 85
+      "id": 182
     },
     {
-      "id": 86,
+      "id": 183,
       "key": "Äpfel",
       "name": "Äpfel Krumme Dinger",
       "store": "ALDI SÜD",
@@ -2186,10 +4321,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 87
+      "id": 184
     },
     {
-      "id": 88,
+      "id": 185,
       "key": "Äpfel",
       "name": "PINK LADY Rote Äpfel",
       "store": "PENNY",
@@ -2229,10 +4364,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 89
+      "id": 186
     },
     {
-      "id": 90,
+      "id": 187,
       "key": "Baby-Snacks",
       "name": "FRUCHTBAR Pausenfreund Kindersnack Kakao Waffeln ab 3 Jahren",
       "store": "dm",
@@ -2253,7 +4388,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 91,
+      "id": 188,
       "key": "Babybrei",
       "name": "Kölln Getreidebrei Hafer Schmelzflocken ab dem 5. Monat",
       "store": "dm",
@@ -2274,7 +4409,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 92,
+      "id": 189,
       "key": "Babybrei",
       "name": "Cerelac Junior Multifrucht & Crisps Getreidebrei",
       "store": "ROSSMANN",
@@ -2295,7 +4430,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 93,
+      "id": 190,
       "key": "Babydream - Wickelunterlage",
       "name": "Babydream - Wickelunterlage",
       "store": "ROSSMANN",
@@ -2316,7 +4451,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 94,
+      "id": 191,
       "key": "babylove Desinfektionstücher",
       "name": "babylove Desinfektionstücher",
       "store": "dm",
@@ -2337,7 +4472,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 95,
+      "id": 192,
       "key": "babylove Feuchte Waschlappen",
       "name": "babylove Feuchte Waschlappen",
       "store": "dm",
@@ -2358,7 +4493,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 96,
+      "id": 193,
       "key": "babylove Flaschen- und Saugerbürste",
       "name": "babylove Flaschen- und Saugerbürste",
       "store": "dm",
@@ -2379,7 +4514,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 97,
+      "id": 194,
       "key": "babylove Flaschenbürste Premium",
       "name": "babylove Flaschenbürste Premium",
       "store": "dm",
@@ -2400,7 +4535,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 98,
+      "id": 195,
       "key": "babylove Milchpulverbox mit Portionierlöffel",
       "name": "babylove Milchpulverbox mit Portionierlöffel",
       "store": "dm",
@@ -2421,7 +4556,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 99,
+      "id": 196,
       "key": "babylove Nagelschere Baby antiallergen",
       "name": "babylove Nagelschere Baby antiallergen",
       "store": "dm",
@@ -2442,7 +4577,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 100,
+      "id": 197,
       "key": "babylove Reinigungs Wattepads",
       "name": "babylove Reinigungs Wattepads",
       "store": "dm",
@@ -2463,7 +4598,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 101,
+      "id": 198,
       "key": "babylove Schnuller Naturlatex, symmetrisch, beige/lila,",
       "name": "babylove Schnuller Naturlatex, symmetrisch, beige/lila, Gr. 2, 5-18 Monate",
       "store": "dm",
@@ -2484,7 +4619,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 102,
+      "id": 199,
       "key": "babylove Sicherheits-Wattestäbchen",
       "name": "babylove Sicherheits-Wattestäbchen",
       "store": "dm",
@@ -2505,7 +4640,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 103,
+      "id": 200,
       "key": "babylove Snack-Piekser",
       "name": "babylove Snack-Piekser",
       "store": "dm",
@@ -2526,7 +4661,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 104,
+      "id": 201,
       "key": "babylove Sonnenspray Baby ultra sensitive LSF 50+",
       "name": "babylove Sonnenspray Baby ultra sensitive LSF 50+",
       "store": "dm",
@@ -2547,7 +4682,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 105,
+      "id": 202,
       "key": "babylove Trinkflasche Kinder Edelstahl beige Flamingo",
       "name": "babylove Trinkflasche Kinder Edelstahl beige Flamingo",
       "store": "dm",
@@ -2568,7 +4703,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 106,
+      "id": 203,
       "key": "babylove Trinkflasche Kinder Edelstahl beige Löwe",
       "name": "babylove Trinkflasche Kinder Edelstahl beige Löwe",
       "store": "dm",
@@ -2589,7 +4724,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 107,
+      "id": 204,
       "key": "babylove Windelbeutel mit Frischeduft",
       "name": "babylove Windelbeutel mit Frischeduft",
       "store": "dm",
@@ -2610,7 +4745,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 108,
+      "id": 205,
       "key": "Babymilch",
       "name": "Bebivita Anfangsmilch Pre von Geburt an",
       "store": "dm",
@@ -2631,7 +4766,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 109,
+      "id": 206,
       "key": "Babymilch",
       "name": "BEBA - 2 Folgemilch nach dem 6. Monat",
       "store": "ROSSMANN",
@@ -2652,7 +4787,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 110,
+      "id": 207,
       "key": "Babymilch",
       "name": "BEBA - 3 Folgemilch ab dem 10. Monat",
       "store": "ROSSMANN",
@@ -2673,7 +4808,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 111,
+      "id": 208,
       "key": "Babymilch",
       "name": "HiPP Anfangsmilch Pre Combiotik von Geburt an",
       "store": "dm",
@@ -2694,7 +4829,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 112,
+      "id": 209,
       "key": "Babymilch",
       "name": "HiPP Anfangsmilch Pre HA Combiotik von Geburt an",
       "store": "dm",
@@ -2734,7 +4869,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 113
+      "id": 210
     },
     {
       "key": "Beeren",
@@ -2755,8 +4890,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 114
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 211
     },
     {
       "key": "Beeren",
@@ -2777,11 +4912,11 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 115
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 212
     },
     {
-      "id": 116,
+      "id": 213,
       "key": "Beeren",
       "name": "Heidelbeeren",
       "store": "ALDI SÜD",
@@ -2802,7 +4937,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 117,
+      "id": 214,
       "key": "Beeren",
       "name": "Himbeeren",
       "store": "ALDI SÜD",
@@ -2842,7 +4977,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 118
+      "id": 215
     },
     {
       "key": "Bier",
@@ -2864,10 +4999,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 119
+      "id": 216
     },
     {
-      "id": 120,
+      "id": 217,
       "key": "Brot",
       "name": "RAMA Brot­aufstrich",
       "store": "PENNY",
@@ -2888,7 +5023,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 121,
+      "id": 218,
       "key": "Bund",
       "name": "Bund",
       "store": "PENNY",
@@ -2927,8 +5062,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 122
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 219
     },
     {
       "key": "Butter",
@@ -2950,10 +5085,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 123
+      "id": 220
     },
     {
-      "id": 124,
+      "id": 221,
       "key": "Butter",
       "name": "Butter",
       "store": "ALDI SÜD",
@@ -2974,7 +5109,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 125,
+      "id": 222,
       "key": "CD Deo Roll-on, Mein erstes Deo",
       "name": "CD Deo Roll-on, Mein erstes Deo",
       "store": "dm",
@@ -2995,7 +5130,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 126,
+      "id": 223,
       "key": "Champignons braun",
       "name": "Bio Champignons braun",
       "store": "ALDI SÜD",
@@ -3034,11 +5169,11 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 127
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 224
     },
     {
-      "id": 128,
+      "id": 225,
       "key": "Cola",
       "name": "Rucola",
       "store": "ALDI SÜD",
@@ -3078,10 +5213,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:57:08.599Z",
-      "id": 129
+      "id": 226
     },
     {
-      "id": 130,
+      "id": 227,
       "key": "Deutsche Bundmöhren",
       "name": "Deutsche Bundmöhren",
       "store": "PENNY",
@@ -3102,7 +5237,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 131,
+      "id": 228,
       "key": "Duschgel 675 ml, Noire",
       "name": "Duschgel 675 ml, Noire",
       "store": "ALDI SÜD",
@@ -3123,7 +5258,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 132,
+      "id": 229,
       "key": "e) Preisvorteil gegenüber dem Grundpreis einer Standard",
       "name": "e) Preisvorteil gegenüber dem Grundpreis einer Standardpackung",
       "store": "Lidl",
@@ -3163,7 +5298,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 133
+      "id": 230
     },
     {
       "key": "EDEKA Herzstücke High Protein Fertiggericht",
@@ -3185,7 +5320,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 134
+      "id": 231
     },
     {
       "key": "EDEKA Herzstücke High Protein fettarme Quarkcreme",
@@ -3207,7 +5342,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 135
+      "id": 232
     },
     {
       "key": "EDEKA Herzstücke Hummus",
@@ -3229,10 +5364,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 136
+      "id": 233
     },
     {
-      "id": 137,
+      "id": 234,
       "key": "Expert HA2 Folgenahrung nach dem 6. Monat",
       "name": "Expert HA2 Folgenahrung nach dem 6. Monat",
       "store": "ROSSMANN",
@@ -3253,7 +5388,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 138,
+      "id": 235,
       "key": "Feuchttücher",
       "name": "extra sensitiv Feuchttücher Spar-Pack",
       "store": "ROSSMANN",
@@ -3274,7 +5409,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 139,
+      "id": 236,
       "key": "Feuchttücher",
       "name": "extra sensitiv Feuchttücher XXL Spar-Pack",
       "store": "ROSSMANN",
@@ -3295,7 +5430,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 140,
+      "id": 237,
       "key": "Feuchttücher",
       "name": "Naty Feuchttücher herunterspülbar",
       "store": "dm",
@@ -3316,7 +5451,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 141,
+      "id": 238,
       "key": "Feuchttücher",
       "name": "Pampers Feuchttücher 99 % water (18x60 St)",
       "store": "dm",
@@ -3337,7 +5472,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 142,
+      "id": 239,
       "key": "Feuchttücher",
       "name": "Pampers Feuchttücher aqua soft touch (18x48 St)",
       "store": "dm",
@@ -3358,7 +5493,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 143,
+      "id": 240,
       "key": "FRECHE FREUNDE Quetschie Sparpack",
       "name": "FRECHE FREUNDE Quetschie Sparpack",
       "store": "PENNY",
@@ -3379,7 +5514,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 144,
+      "id": 241,
       "key": "Frischei-Waffeln",
       "name": "Frischei-Waffeln",
       "store": "ALDI SÜD",
@@ -3419,7 +5554,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 145
+      "id": 242
     },
     {
       "key": "Gurken",
@@ -3441,10 +5576,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 146
+      "id": 243
     },
     {
-      "id": 147,
+      "id": 244,
       "key": "Hackfleisch",
       "name": "Hackfleisch vom Rind",
       "store": "ALDI SÜD",
@@ -3465,7 +5600,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 148,
+      "id": 245,
       "key": "Hackfleisch",
       "name": "Rind Hackfleisch 5 % Fett",
       "store": "ALDI SÜD",
@@ -3505,7 +5640,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 149
+      "id": 246
     },
     {
       "key": "Hähnchen",
@@ -3527,10 +5662,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 150
+      "id": 247
     },
     {
-      "id": 151,
+      "id": 248,
       "key": "Helle, kernlose Tafeltrauben",
       "name": "Helle, kernlose Tafeltrauben",
       "store": "PENNY",
@@ -3551,7 +5686,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 152,
+      "id": 249,
       "key": "Himalaya Basmatireis",
       "name": "Himalaya Basmatireis",
       "store": "ALDI SÜD",
@@ -3570,6 +5705,28 @@
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "sourceScope": "regional",
       "importedAt": "2026-08-19T14:11:40.697Z"
+    },
+    {
+      "key": "Image 70: 24611246 ### Ehrmann Almighurt 3,8 % Fett ver",
+      "name": "Image 70: 24611246 ### Ehrmann Almighurt 3,8 % Fett versch. Sorten 500 g Pfandglas AKTION! 1. + 0.15 Pfand!",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Lebensmittel",
+      "size": "500 g",
+      "price": 1.11,
+      "unit": 2.22,
+      "unitLabel": "€/kg",
+      "icon": "🛒",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 250
     },
     {
       "key": "Image 71 * * * ### Buch * 3,99",
@@ -3591,7 +5748,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 153
+      "id": 251
     },
     {
       "key": "Jack Daniel’s Tennessee Whiskey",
@@ -3613,7 +5770,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 154
+      "id": 252
     },
     {
       "key": "Jacobs Krönung",
@@ -3635,7 +5792,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 155
+      "id": 253
     },
     {
       "key": "Joghurt",
@@ -3656,11 +5813,11 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 156
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 254
     },
     {
-      "id": 157,
+      "id": 255,
       "key": "Joghurt",
       "name": "MILPRIMA FruchtiGurt 3,8%",
       "store": "PENNY",
@@ -3681,7 +5838,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 158,
+      "id": 256,
       "key": "Joghurt",
       "name": "MILPRIMA Joghurt Crisp",
       "store": "PENNY",
@@ -3702,7 +5859,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 159,
+      "id": 257,
       "key": "Joghurt",
       "name": "MÖVENPICK Feinjoghurt",
       "store": "PENNY",
@@ -3742,10 +5899,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 160
+      "id": 258
     },
     {
-      "id": 161,
+      "id": 259,
       "key": "Kaffee",
       "name": "MILPRIMA Kaffeesahne* je 20 x",
       "store": "PENNY",
@@ -3767,6 +5924,28 @@
     },
     {
       "key": "Kaffee",
+      "name": "kaffee gemahlen versch. Sorten",
+      "store": "HIT",
+      "market": "Parsdorf",
+      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
+      "cat": "Kaffee & Frühstück",
+      "size": "500 g",
+      "price": 5.99,
+      "unit": 11.98,
+      "unitLabel": "€/kg",
+      "icon": "☕",
+      "bio": false,
+      "app": false,
+      "coupon": false,
+      "advertised": true,
+      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
+      "sourceScope": "market",
+      "sourceTransport": "hit-segment-reader",
+      "importedAt": "2026-08-19T15:34:20.414Z",
+      "id": 260
+    },
+    {
+      "key": "Kaffee",
       "name": "Lavazza Caffe Crema oder Espresso",
       "store": "REWE",
       "market": "Feldkirchen",
@@ -3785,7 +5964,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 162
+      "id": 261
     },
     {
       "key": "Kartoffeln",
@@ -3807,10 +5986,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:57:08.599Z",
-      "id": 163
+      "id": 262
     },
     {
-      "id": 164,
+      "id": 263,
       "key": "Kartoffeln",
       "name": "Deutsche Speisefrühkartoffeln* je 4-kg-Netz",
       "store": "PENNY",
@@ -3849,8 +6028,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 165
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 264
     },
     {
       "key": "Käse",
@@ -3872,7 +6051,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 166
+      "id": 265
     },
     {
       "key": "Käse",
@@ -3894,7 +6073,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 167
+      "id": 266
     },
     {
       "key": "Käse",
@@ -3916,10 +6095,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 168
+      "id": 267
     },
     {
-      "id": 169,
+      "id": 268,
       "key": "Käse",
       "name": "Käsescheiben 260 g, Benjamin",
       "store": "ALDI SÜD",
@@ -3959,7 +6138,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 170
+      "id": 269
     },
     {
       "key": "Käse",
@@ -3981,10 +6160,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 171
+      "id": 270
     },
     {
-      "id": 172,
+      "id": 271,
       "key": "Käse",
       "name": "LEERDAMMER Käsescheiben",
       "store": "PENNY",
@@ -4024,10 +6203,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 173
+      "id": 272
     },
     {
-      "id": 174,
+      "id": 273,
       "key": "KINDER Pingui* je 8 x",
       "name": "KINDER Pingui* je 8 x",
       "store": "PENNY",
@@ -4048,7 +6227,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 175,
+      "id": 274,
       "key": "Lansinoh Regenerationsspray",
       "name": "Lansinoh Regenerationsspray",
       "store": "dm",
@@ -4069,7 +6248,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 176,
+      "id": 275,
       "key": "LEERDAMMER Trio-Scheiben",
       "name": "LEERDAMMER Trio-Scheiben",
       "store": "PENNY",
@@ -4090,7 +6269,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 177,
+      "id": 276,
       "key": "MARS Schokoriegel",
       "name": "MARS Schokoriegel",
       "store": "PENNY",
@@ -4130,10 +6309,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 178
+      "id": 277
     },
     {
-      "id": 179,
+      "id": 278,
       "key": "Milch",
       "name": "MILPRIMA Faire H-Milch* je 1 I",
       "store": "PENNY",
@@ -4154,7 +6333,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 180,
+      "id": 279,
       "key": "MILPRIMA High Protein Pudding",
       "name": "MILPRIMA High Protein Pudding",
       "store": "PENNY",
@@ -4175,7 +6354,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 181,
+      "id": 280,
       "key": "MILPRIMA Kondensmilch",
       "name": "MILPRIMA Kondensmilch",
       "store": "PENNY",
@@ -4196,7 +6375,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 182,
+      "id": 281,
       "key": "MILPRIMA Milchreis",
       "name": "MILPRIMA Milchreis",
       "store": "PENNY",
@@ -4217,7 +6396,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 183,
+      "id": 282,
       "key": "MILPRIMA Mini Max* je 12 x",
       "name": "MILPRIMA Mini Max* je 12 x",
       "store": "PENNY",
@@ -4238,7 +6417,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 184,
+      "id": 283,
       "key": "MILPRIMA Pudding",
       "name": "MILPRIMA Pudding",
       "store": "PENNY",
@@ -4259,7 +6438,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 185,
+      "id": 284,
       "key": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
       "name": "Mini Heißluftfritteuse 1,9 l, Anthrazit",
       "store": "ALDI SÜD",
@@ -4280,7 +6459,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 186,
+      "id": 285,
       "key": "Mini Wassermelone, lose",
       "name": "Mini Wassermelone, lose",
       "store": "ALDI SÜD",
@@ -4301,7 +6480,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 187,
+      "id": 286,
       "key": "mit App: je 330 ml (1 l = 2.67);",
       "name": "mit App: je 330 ml (1 l = 2.67);",
       "store": "PENNY",
@@ -4322,7 +6501,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 188,
+      "id": 287,
       "key": "mit App: je 400 g (1 kg = 2.98);",
       "name": "mit App: je 400 g (1 kg = 2.98);",
       "store": "PENNY",
@@ -4343,7 +6522,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 189,
+      "id": 288,
       "key": "mit App: je 640 g (1 kg = 5.14);",
       "name": "mit App: je 640 g (1 kg = 5.14);",
       "store": "PENNY",
@@ -4364,7 +6543,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 190,
+      "id": 289,
       "key": "Naturland Hokkaido, lose",
       "name": "Bio Naturland Hokkaido, lose",
       "store": "ALDI SÜD",
@@ -4385,7 +6564,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 191,
+      "id": 290,
       "key": "NicNac´s XL Fun 170 g, Original",
       "name": "NicNac´s XL Fun 170 g, Original",
       "store": "ALDI SÜD",
@@ -4425,7 +6604,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 192
+      "id": 291
     },
     {
       "key": "Nudeln",
@@ -4447,10 +6626,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 193
+      "id": 292
     },
     {
-      "id": 194,
+      "id": 293,
       "key": "Nur mit App",
       "name": "Nur mit App",
       "store": "PENNY",
@@ -4490,7 +6669,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 195
+      "id": 294
     },
     {
       "key": "Öl",
@@ -4512,7 +6691,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 196
+      "id": 295
     },
     {
       "key": "Öl",
@@ -4534,7 +6713,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 197
+      "id": 296
     },
     {
       "key": "Perwoll Woll- und Feinwaschmittel",
@@ -4556,7 +6735,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 198
+      "id": 297
     },
     {
       "key": "Pizza",
@@ -4577,8 +6756,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 199
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 298
     },
     {
       "key": "Pizza",
@@ -4600,7 +6779,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 200
+      "id": 299
     },
     {
       "key": "Pizza",
@@ -4622,10 +6801,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 201
+      "id": 300
     },
     {
-      "id": 202,
+      "id": 301,
       "key": "Pizza",
       "name": "DR. OETKER Ristorante Pizza",
       "store": "PENNY",
@@ -4646,7 +6825,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 203,
+      "id": 302,
       "key": "Pizza",
       "name": "DR. OETKER Bistro Flammkuchen",
       "store": "PENNY",
@@ -4667,7 +6846,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 204,
+      "id": 303,
       "key": "Pizza",
       "name": "STEINHAUS Elsässer Flammkuchen",
       "store": "PENNY",
@@ -4688,7 +6867,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 205,
+      "id": 304,
       "key": "Plattpfirsiche",
       "name": "Plattpfirsiche",
       "store": "PENNY",
@@ -4709,7 +6888,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 206,
+      "id": 305,
       "key": "Plattpfirsiche",
       "name": "Plattpfirsiche",
       "store": "ALDI SÜD",
@@ -4730,7 +6909,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 207,
+      "id": 306,
       "key": "RED BULL Energy-Drink",
       "name": "RED BULL Energy-Drink",
       "store": "PENNY",
@@ -4751,7 +6930,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 208,
+      "id": 307,
       "key": "Rindfleisch",
       "name": "Bio-Rinder-Gulasch",
       "store": "ALDI SÜD",
@@ -4791,10 +6970,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 209
+      "id": 308
     },
     {
-      "id": 210,
+      "id": 309,
       "key": "Rindfleisch",
       "name": "Schweine-Minutensteaks",
       "store": "ALDI SÜD",
@@ -4834,10 +7013,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 211
+      "id": 310
     },
     {
-      "id": 212,
+      "id": 311,
       "key": "Rindfleisch",
       "name": "Rind Burger 260 g, Angus Burger",
       "store": "ALDI SÜD",
@@ -4858,7 +7037,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 213,
+      "id": 312,
       "key": "Rindfleisch",
       "name": "Rind Burger 260 g, Prime Burger",
       "store": "ALDI SÜD",
@@ -4898,7 +7077,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 214
+      "id": 313
     },
     {
       "key": "Saft",
@@ -4920,31 +7099,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 215
+      "id": 314
     },
     {
-      "id": 216,
-      "key": "Saft",
-      "name": "hohes C Mehrfrucht-Saft versch. Sorten, Milder Apfelsaft oder Multivitamin",
-      "store": "HIT",
-      "market": "Parsdorf",
-      "address": "Am Lerchenfeld 3, 85599 Parsdorf",
-      "cat": "Getränke",
-      "size": "1 l",
-      "price": 2.39,
-      "unit": 2.39,
-      "unitLabel": "€/l",
-      "icon": "🥤",
-      "bio": false,
-      "app": false,
-      "coupon": false,
-      "advertised": true,
-      "sourceUrl": "https://www.hit.de/maerkte/parsdorf/angebote",
-      "sourceScope": "market",
-      "importedAt": "2026-08-19T14:11:40.697Z"
-    },
-    {
-      "id": 217,
+      "id": 315,
       "key": "Saft",
       "name": "TRUE FRUITS Smoothie",
       "store": "PENNY",
@@ -4965,7 +7123,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 218,
+      "id": 316,
       "key": "Saft",
       "name": "Smoothie 250 ml, Orange, Karotte und Mango",
       "store": "ALDI SÜD",
@@ -5004,8 +7162,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 219
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 317
     },
     {
       "key": "Schokolade",
@@ -5027,7 +7185,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 220
+      "id": 318
     },
     {
       "key": "Schokolade",
@@ -5049,10 +7207,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 221
+      "id": 319
     },
     {
-      "id": 222,
+      "id": 320,
       "key": "Schokolade",
       "name": "HARIBO Pfirsiche",
       "store": "PENNY",
@@ -5092,10 +7250,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 223
+      "id": 321
     },
     {
-      "id": 224,
+      "id": 322,
       "key": "Schokolade",
       "name": "Schokolade",
       "store": "ALDI SÜD",
@@ -5134,8 +7292,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 225
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 323
     },
     {
       "key": "Schweinefleisch",
@@ -5156,8 +7314,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 226
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 324
     },
     {
       "key": "Schweinefleisch",
@@ -5179,10 +7337,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 227
+      "id": 325
     },
     {
-      "id": 228,
+      "id": 326,
       "key": "Schweinefleisch",
       "name": "Gulasch vom Schwein",
       "store": "ALDI SÜD",
@@ -5203,7 +7361,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 229,
+      "id": 327,
       "key": "Schweinefleisch",
       "name": "Schweine-Cordon Bleu",
       "store": "ALDI SÜD",
@@ -5224,7 +7382,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 230,
+      "id": 328,
       "key": "Schweinefleisch",
       "name": "Schweine Schnitzel",
       "store": "ALDI SÜD",
@@ -5245,7 +7403,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 231,
+      "id": 329,
       "key": "SICHER BEZAHLEN",
       "name": "SICHER BEZAHLEN",
       "store": "ROSSMANN",
@@ -5266,7 +7424,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 232,
+      "id": 330,
       "key": "SNICKERS Schokoriegel",
       "name": "SNICKERS Schokoriegel",
       "store": "PENNY",
@@ -5287,7 +7445,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 233,
+      "id": 331,
       "key": "Steckdosenwürfel mit USB, Schwarz",
       "name": "Steckdosenwürfel mit USB, Schwarz",
       "store": "ALDI SÜD",
@@ -5308,7 +7466,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 234,
+      "id": 332,
       "key": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
       "name": "Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
       "store": "ROSSMANN",
@@ -5329,7 +7487,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 235,
+      "id": 333,
       "key": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasensp",
       "name": "Stérimar - Stérimar Verstopfte Nase Baby 2 in 1 Nasenspray & Spülung",
       "store": "ROSSMANN",
@@ -5350,7 +7508,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 236,
+      "id": 334,
       "key": "STORCK Werther’s Original",
       "name": "STORCK Werther’s Original",
       "store": "PENNY",
@@ -5371,7 +7529,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 237,
+      "id": 335,
       "key": "Streichpreis 1.49€",
       "name": "Streichpreis 1.49€",
       "store": "PENNY",
@@ -5392,7 +7550,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 238,
+      "id": 336,
       "key": "Streichpreis 1.89€",
       "name": "Streichpreis 1.89€",
       "store": "PENNY",
@@ -5413,7 +7571,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 239,
+      "id": 337,
       "key": "Streichpreis 3.39€",
       "name": "Streichpreis 3.39€",
       "store": "PENNY",
@@ -5453,7 +7611,7 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 240
+      "id": 338
     },
     {
       "key": "Tomaten",
@@ -5474,8 +7632,8 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 241
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 339
     },
     {
       "key": "Tomaten",
@@ -5496,11 +7654,11 @@
       "sourceUrl": "https://filiale.kaufland.de/service/filiale/muenchen-berg-am-laim-8700.html",
       "sourceScope": "market",
       "sourceTransport": "text-reader",
-      "importedAt": "2026-08-19T15:29:35.954Z",
-      "id": 242
+      "importedAt": "2026-08-19T15:34:18.531Z",
+      "id": 340
     },
     {
-      "id": 243,
+      "id": 341,
       "key": "Tomaten",
       "name": "Cocktailrispentomaten",
       "store": "ALDI SÜD",
@@ -5521,7 +7679,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 244,
+      "id": 342,
       "key": "Trauben hell, kernlos",
       "name": "Trauben hell, kernlos",
       "store": "ALDI SÜD",
@@ -5542,7 +7700,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 245,
+      "id": 343,
       "key": "Unverbindlichle Preisempfehlung 0.99€",
       "name": "Unverbindlichle Preisempfehlung 0.99€",
       "store": "PENNY",
@@ -5563,7 +7721,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 246,
+      "id": 344,
       "key": "Unverbindlichle Preisempfehlung 1.49€",
       "name": "Unverbindlichle Preisempfehlung 1.49€",
       "store": "PENNY",
@@ -5584,7 +7742,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 247,
+      "id": 345,
       "key": "Unverbindlichle Preisempfehlung 1.69€",
       "name": "Unverbindlichle Preisempfehlung 1.69€",
       "store": "PENNY",
@@ -5605,7 +7763,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 248,
+      "id": 346,
       "key": "Unverbindlichle Preisempfehlung 1.79€",
       "name": "Unverbindlichle Preisempfehlung 1.79€",
       "store": "PENNY",
@@ -5626,7 +7784,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 249,
+      "id": 347,
       "key": "Unverbindlichle Preisempfehlung 1.99€",
       "name": "Unverbindlichle Preisempfehlung 1.99€",
       "store": "PENNY",
@@ -5647,7 +7805,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 250,
+      "id": 348,
       "key": "Unverbindlichle Preisempfehlung 2.29€",
       "name": "Unverbindlichle Preisempfehlung 2.29€",
       "store": "PENNY",
@@ -5668,7 +7826,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 251,
+      "id": 349,
       "key": "Unverbindlichle Preisempfehlung 2.69€",
       "name": "Unverbindlichle Preisempfehlung 2.69€",
       "store": "PENNY",
@@ -5689,7 +7847,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 252,
+      "id": 350,
       "key": "Unverbindlichle Preisempfehlung 3.19€",
       "name": "Unverbindlichle Preisempfehlung 3.19€",
       "store": "PENNY",
@@ -5710,7 +7868,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 253,
+      "id": 351,
       "key": "Unverbindlichle Preisempfehlung 3.29€",
       "name": "Unverbindlichle Preisempfehlung 3.29€",
       "store": "PENNY",
@@ -5731,7 +7889,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 254,
+      "id": 352,
       "key": "Unverbindlichle Preisempfehlung 3.59€",
       "name": "Unverbindlichle Preisempfehlung 3.59€",
       "store": "PENNY",
@@ -5752,7 +7910,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 255,
+      "id": 353,
       "key": "Unverbindlichle Preisempfehlung 4.49€",
       "name": "Unverbindlichle Preisempfehlung 4.49€",
       "store": "PENNY",
@@ -5773,7 +7931,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 256,
+      "id": 354,
       "key": "Verkäufer der über den Onlineshop der Dirk Rossmann Gmb",
       "name": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
       "store": "ROSSMANN",
@@ -5794,7 +7952,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 257,
+      "id": 355,
       "key": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
       "name": "Wäsche-Hygienespüler 3 l, Himmelsfrische",
       "store": "ALDI SÜD",
@@ -5815,7 +7973,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 258,
+      "id": 356,
       "key": "WEIHENSTEPHAN Die Extrazarte",
       "name": "WEIHENSTEPHAN Die Extrazarte",
       "store": "PENNY",
@@ -5836,7 +7994,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 259,
+      "id": 357,
       "key": "WEIHENSTEPHAN Haltbare Milch",
       "name": "WEIHENSTEPHAN Haltbare Milch",
       "store": "PENNY",
@@ -5857,7 +8015,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 260,
+      "id": 358,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox",
       "store": "ROSSMANN",
@@ -5878,7 +8036,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 261,
+      "id": 359,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 7 Extra Large (15+ kg) Monatsbox",
       "store": "ROSSMANN",
@@ -5899,7 +8057,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 262,
+      "id": 360,
       "key": "Windeln",
       "name": "babylove Schwimmwindeln Disney Gr. Extralarge (13+ kg)",
       "store": "dm",
@@ -5920,7 +8078,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 263,
+      "id": 361,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 6 Extra Large (13+ kg) Monatsbox",
       "store": "dm",
@@ -5941,7 +8099,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 264,
+      "id": 362,
       "key": "Windeln",
       "name": "babylove Schwimmwindeln Disney Gr. Large (10-14 kg)",
       "store": "dm",
@@ -5962,7 +8120,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 265,
+      "id": 363,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "dm",
@@ -5983,7 +8141,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 266,
+      "id": 364,
       "key": "Windeln",
       "name": "Pampers baby-dry Windeln baby-dry Gr. 5 (11-16 kg) Big Economy Pack",
       "store": "dm",
@@ -6004,7 +8162,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 267,
+      "id": 365,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 1 New Born (2-5 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -6025,7 +8183,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 268,
+      "id": 366,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 2 Mini (4-8 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -6046,7 +8204,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 269,
+      "id": 367,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -6067,7 +8225,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 270,
+      "id": 368,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -6088,7 +8246,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 271,
+      "id": 369,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "dm",
@@ -6109,7 +8267,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 272,
+      "id": 370,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -6130,7 +8288,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 273,
+      "id": 371,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 4 Maxi (9-14 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -6151,7 +8309,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 274,
+      "id": 372,
       "key": "Windeln",
       "name": "Baby Dry Pants Gr. 5 Junior (11-17 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -6172,7 +8330,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 275,
+      "id": 373,
       "key": "Windeln",
       "name": "Baby Dry Windeln Gr. 6 Extra Large (13-18 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -6193,7 +8351,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 276,
+      "id": 374,
       "key": "Windeln",
       "name": "Premium Protection Windeln Gr. 5 Junior (11-16 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -6214,7 +8372,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 277,
+      "id": 375,
       "key": "Windeln",
       "name": "Baby Dry Pants Gr. 6 Extra Large (14-19 kg) Monatsbox",
       "store": "ROSSMANN",
@@ -6235,7 +8393,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 278,
+      "id": 376,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 3 Midi (6-10 kg) Monatsbox",
       "store": "dm",
@@ -6256,7 +8414,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 279,
+      "id": 377,
       "key": "Windeln",
       "name": "Pampers premium protection Windeln Gr. 5+ (12-17 kg) Monatsbox",
       "store": "dm",
@@ -6277,7 +8435,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 280,
+      "id": 378,
       "key": "Wurst",
       "name": "Bio-Grobe Bratwurst",
       "store": "ALDI SÜD",
@@ -6317,7 +8475,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 281
+      "id": 379
     },
     {
       "key": "Wurst",
@@ -6339,7 +8497,7 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 282
+      "id": 380
     },
     {
       "key": "Wurst",
@@ -6361,10 +8519,10 @@
       "sourceScope": "regional",
       "sourceTransport": "rich-reader",
       "importedAt": "2026-08-19T15:20:58.072Z",
-      "id": 283
+      "id": 381
     },
     {
-      "id": 284,
+      "id": 382,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -6385,7 +8543,7 @@
       "importedAt": "2026-08-19T14:11:40.697Z"
     },
     {
-      "id": 285,
+      "id": 383,
       "key": "Zespri Kiwi grün, Stück",
       "name": "Zespri Kiwi grün, Stück",
       "store": "ALDI SÜD",
@@ -6425,10 +8583,10 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 286
+      "id": 384
     },
     {
-      "id": 287,
+      "id": 385,
       "key": "ZESPRI SunGold Kiwi Gold* je 3er-Schale",
       "name": "ZESPRI SunGold Kiwi Gold* je 3er-Schale",
       "store": "PENNY",
@@ -6468,23 +8626,23 @@
       "sourceScope": "market",
       "sourceTransport": "reader",
       "importedAt": "2026-08-19T14:13:10.644Z",
-      "id": 288
+      "id": 386
     }
   ],
   "httpFallbackAt": "2026-08-19T15:17:45.240Z",
   "readerFallbackAt": "2026-08-19T15:17:49.503Z",
   "nettoReaderAt": "2026-08-19T15:17:50.335Z",
   "quality": {
-    "sanitizedAt": "2026-08-19T15:29:37.431Z",
-    "before": 289,
-    "after": 289,
-    "rejected": 0,
-    "repaired": 113
+    "sanitizedAt": "2026-08-19T15:34:21.902Z",
+    "before": 398,
+    "after": 387,
+    "rejected": 11,
+    "repaired": 245
   },
   "qualityV2": {
-    "sanitizedAt": "2026-08-19T15:29:37.505Z",
-    "before": 289,
-    "after": 288,
+    "sanitizedAt": "2026-08-19T15:34:21.991Z",
+    "before": 387,
+    "after": 386,
     "rejected": 1,
     "repaired": 16,
     "rejectedReasons": {
@@ -6492,5 +8650,6 @@
     }
   },
   "richRetailersAt": "2026-08-19T15:20:58.072Z",
-  "textRetailersAt": "2026-08-19T15:29:35.954Z"
+  "textRetailersAt": "2026-08-19T15:34:18.531Z",
+  "hitReaderV2At": "2026-08-19T15:34:20.414Z"
 }

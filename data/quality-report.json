@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-08-19T15:29:37.431Z",
-  "before": 289,
-  "after": 289,
-  "rejected": 0,
-  "repaired": 113,
-  "rejectedReasons": {},
+  "generatedAt": "2026-08-19T15:34:21.902Z",
+  "before": 398,
+  "after": 387,
+  "rejected": 11,
+  "repaired": 245,
+  "rejectedReasons": {
+    "name_length": 11
+  },
   "storeBefore": {
     "NORMA": 104,
     "EDEKA": 12,
@@ -15,8 +17,8 @@
     "REWE": 10,
     "Netto": 2,
     "Lidl": 1,
-    "HIT": 1,
-    "Kaufland": 20
+    "Kaufland": 20,
+    "HIT": 110
   },
   "storeAfter": {
     "NORMA": 104,
@@ -28,14 +30,70 @@
     "REWE": 10,
     "Netto": 2,
     "Lidl": 1,
-    "HIT": 1,
-    "Kaufland": 20
+    "Kaufland": 20,
+    "HIT": 99
   },
-  "rejectedExamples": [],
+  "rejectedExamples": [
+    {
+      "store": "HIT",
+      "name": "](https://www.hit.de/angebot/27480640?store=1766)![Image 2: 32028412 ### Philadelphia versch. Sorten 195 - 6x16,7 g Packung AKTION! 1. 1.00* Preis Vorwoche 2.29](https://www.hit.de/angebot/27910983?store=1766)!",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "Fett 1 l Packung AKTION! 1.](https://www.hit.de/angebot/27480659?store=1766)![Image 18: 24611246 ### Ehrmann Almighurt 3,8 % Fett versch. Sorten 500 g Pfandglas AKTION! 1. + 0.15 Pfand](https://www.hit.de/angebot/27480644?store=1766)!",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "](https://www.hit.de/angebot/27480646?store=1766)![Image 20: 32133918 ### Coca-Cola* 1,25 l oder Powerade 0,5 l versch. Sorten PET EW Flasche *Koffeinhaltig AKTION! 1. + 0.25 Pfand](https://www.hit.de/angebot/27780084?store=1766)!",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "![Image 25: 28467665 ### Frico Gouda Holland jung g.g.A. Holländischer Schnittkäse 48 % Fett i. Tr., sahnig-mild 4 Wochen naturgereift 100 g AKTION! 1.](https://www.hit.de/angebot/27480642?store=1766)!",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "38: Header_Dauer_Discount_Preis_kleine Kachel_2 ### So günstig können Auswahl und Qualität sein. Kunden können bei HIT jeden Tag erleben, wie günstig Auswahl und Qualität sind.](https://www.hit.de/sortiment/echte-vielfalt/discount-preise)!",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "sparen Sparen per Coupon ist jetzt noch bequemer und einfacher geworden. Einfach Coupons in der App aktivieren und von vielen App Preisen zusätzlich profitieren!](https://www.hit.de/coupons)!",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "](https://www.hit.de/angebot/27780082?store=1766)![Image 72: 32028412 ### Philadelphia versch. Sorten 195 - 6x16,7 g Packung AKTION! 1. 1.00* Preis Vorwoche 2.29](https://www.hit.de/angebot/27910983?store=1766)!",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "Header_sieben_service_versprechen_2 ### Wir geben für Sie täglich unser Bestes. Versprochen! Unser Anspruch ist es, dass Ihr Einkauf bei uns jedes Mal zum Vergnügen wird.](https://www.hit.de/sortiment/sieben-service-versprechen)!",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "](https://www.hit.de/angebot/27481045?store=1766)![Image 89: 23899261 ### Berchtesgadener Land Frische Bergbauern Milch 3,5%/1,5% Fett 1 l Packung AKTION! 1.](https://www.hit.de/angebot/27481038?store=1766)!",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "+ 4.80 Pfand](https://www.hit.de/angebot/27480680?store=1766)![Image 148: 32133918 ### Coca-Cola* 1,25 l oder Powerade 0,5 l versch. Sorten PET EW Flasche *Koffeinhaltig AKTION! 1. + 0.25 Pfand](https://www.hit.de/angebot/27780084?store=1766)!",
+      "reason": "name_length"
+    },
+    {
+      "store": "HIT",
+      "name": "Pfand](https://www.hit.de/angebot/27481335?store=1766)![Image 154: 27636593 ### Gerolsteiner Schorlen, Limonaden, Tee oder Fruity Water versch. Sorten 0,75 l PET EW Flasche -15% 1. 1.19** + 0.25 Pfand](https://www.hit.de/angebot/27481339?store=1766)!",
+      "reason": "name_length"
+    }
+  ],
   "finalPass": {
-    "generatedAt": "2026-08-19T15:29:37.505Z",
-    "before": 289,
-    "after": 288,
+    "generatedAt": "2026-08-19T15:34:21.991Z",
+    "before": 387,
+    "after": 386,
     "rejected": 1,
     "repaired": 16,
     "rejectedReasons": {
