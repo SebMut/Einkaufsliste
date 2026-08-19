@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - 'importer/text-retailers.js'
-      - 'importer/hit-reader-v2.js'
+      - 'importer/hit-reader-v3.js'
       - 'importer/quality-v3.js'
       - '.github/workflows/text-reader-fast.yml'
 
@@ -27,7 +27,7 @@ jobs:
         run: |
           set -o pipefail
           node text-retailers.js 2>&1 | tee ../data/text-reader.log
-          node hit-reader-v2.js 2>&1 | tee -a ../data/text-reader.log
+          node hit-reader-v3.js 2>&1 | tee -a ../data/text-reader.log
       - name: Qualität
         working-directory: importer
         shell: bash
@@ -48,8 +48,8 @@ jobs:
         run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          touch data/hit-v2.log
-          git add data/offers-live.json data/quality-report.json data/text-reader.log data/hit-v2.log
+          touch data/hit-v3.log
+          git add data/offers-live.json data/quality-report.json data/text-reader.log data/hit-v3.log
           git commit -m "Streng geprüfte Live-Angebote aktualisieren" || exit 0
           git pull --rebase origin main
           git push origin main
