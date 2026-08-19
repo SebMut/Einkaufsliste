@@ -20,11 +20,18 @@ test('UI unterscheidet Produkte, Angebote und reguläre Preise',()=>{
   assert.match(html,/isOffer/);
 });
 
-test('Preisbewertung und konkrete Produkthistorie sind in der UI verdrahtet',()=>{
+test('Frontend verwendet die semantische Vergleichsprüfung',()=>{
+  assert.match(html,/\bcomparable\b/);
+  assert.match(html,/comparisonCandidates\(main,all\)[\s\S]*comparable\(main,o\)/);
+});
+
+test('Preisbewertung nutzt ausschließlich konkrete Produkthistorie',()=>{
   assert.match(html,/ratingBtn/);
   assert.match(html,/canonicalProductId/);
   assert.match(html,/minObservationsForRating/);
   assert.match(html,/1M','3M','6M','1J','Alles/);
+  assert.match(html,/function historyKey\(o\)\{const id=o\.canonicalProductId/);
+  assert.equal(/historyGroup/.test(html),false);
 });
 
 test('mobile CSS bleibt vorhanden',()=>assert.match(html,/@media\(max-width:640px\)/));
