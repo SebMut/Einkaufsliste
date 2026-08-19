@@ -23,26 +23,122 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+
       - name: Dependencies installieren
+        id: deps
+        continue-on-error: true
         working-directory: importer
         run: npm install --no-audit --no-fund
+
       - name: Chromium installieren
+        id: chromium
+        if: always()
+        continue-on-error: true
         working-directory: importer
         run: npx playwright install --with-deps chromium
+
       - name: Aktuelle Angebote importieren
+        id: importer
+        if: always()
         working-directory: importer
-        run: npm run import
-      - name: Live-Daten veröffentlichen
+        env:
+          DEPS_OUTCOME: ${{ steps.deps.outcome }}
+          CHROMIUM_OUTCOME: ${{ steps.chromium.outcome }}
+        shell: bash
         run: |
-          if git diff --quiet -- data/offers-live.json; then
-            echo "Keine Änderung an den Angebotsdaten."
-            exit 0
+          set +e
+          START_MS=$(date +%s%3N)
+          echo "started_ms=$START_MS" >> "$GITHUB_OUTPUT"
+
+          timestamp_stream() {
+            while IFS= read -r line; do
+              printf '%s\t%s\n' "$(date +%s%3N)" "$line"
+            done
+          }
+
+          if [ "$DEPS_OUTCOME" != "success" ] || [ "$CHROMIUM_OUTCOME" != "success" ]; then
+            {
+              echo "$(date +%s%3N)\tImporter nicht gestartet: Dependencies=$DEPS_OUTCOME, Chromium=$CHROMIUM_OUTCOME"
+            } | tee ../data/import-run.log
+            CODE=90
+          else
+            npm run import 2>&1 | timestamp_stream | tee ../data/import-run.log
+            CODE=${PIPESTATUS[0]}
           fi
+
+          END_MS=$(date +%s%3N)
+          echo "finished_ms=$END_MS" >> "$GITHUB_OUTPUT"
+          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+          echo "Importer Exit-Code: $CODE"
+          exit 0
+
+      - name: Diagnose erzeugen
+        id: diagnostics
+        if: always()
+        continue-on-error: true
+        working-directory: importer
+        env:
+          IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
+          IMPORT_STARTED_MS: ${{ steps.importer.outputs.started_ms }}
+          IMPORT_FINISHED_MS: ${{ steps.importer.outputs.finished_ms }}
+        run: node diagnostics.js
+
+      - name: Live-Daten und Diagnose veröffentlichen
+        id: publish
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: |
           git config user.name "AngebotsRadar Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/offers-live.json
-          git commit -m "Live-Angebote aktualisieren"
-          git push
+
+          touch data/import-run.log
+          git add data/offers-live.json data/import-diagnostics.json data/import-run.log
+
+          if git diff --cached --quiet; then
+            echo "Keine Diagnoseänderung zu veröffentlichen."
+            exit 0
+          fi
+
+          git commit -m "Live-Angebote und Importdiagnose aktualisieren"
+          git pull --rebase origin main
+          git push origin main
+
+      - name: Importstatus auswerten
+        if: always()
+        shell: bash
+        env:
+          IMPORT_EXIT_CODE: ${{ steps.importer.outputs.exit_code }}
+          DEPS_OUTCOME: ${{ steps.deps.outcome }}
+          CHROMIUM_OUTCOME: ${{ steps.chromium.outcome }}
+          DIAGNOSTICS_OUTCOME: ${{ steps.diagnostics.outcome }}
+          PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
+        run: |
+          echo "Dependencies: $DEPS_OUTCOME"
+          echo "Chromium: $CHROMIUM_OUTCOME"
+          echo "Importer Exit-Code: ${IMPORT_EXIT_CODE:-nicht gesetzt}"
+          echo "Diagnose: $DIAGNOSTICS_OUTCOME"
+          echo "Veröffentlichung: $PUBLISH_OUTCOME"
+
+          if [ -f data/import-diagnostics.json ]; then
+            node -e "const fs=require('fs'); const d=JSON.parse(fs.readFileSync('data/import-diagnostics.json','utf8')); console.log('Quellen:', d.summary); if ((d.summary.errors||0)>0) process.exitCode=2;"
+            DIAG_CODE=$?
+          else
+            DIAG_CODE=3
+          fi
+
+          if [ "$DEPS_OUTCOME" != "success" ] || \
+             [ "$CHROMIUM_OUTCOME" != "success" ] || \
+             [ "${IMPORT_EXIT_CODE:-99}" != "0" ] || \
+             [ "$DIAGNOSTICS_OUTCOME" != "success" ] || \
+             [ "$PUBLISH_OUTCOME" != "success" ] || \
+             [ "$DIAG_CODE" != "0" ]; then
+            echo "Importlauf mit Fehlern/Teilfehlern beendet. Details: data/import-diagnostics.json"
+            exit 1
+          fi
+
+          echo "Importlauf erfolgreich."
