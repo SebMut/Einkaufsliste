@@ -1,9 +1,17 @@
 {
+<<<<<<< Updated upstream
   "generatedAt": "2026-08-19T22:03:25.928Z",
   "before": 455,
   "after": 390,
   "rejected": 65,
   "repaired": 626,
+=======
+  "generatedAt": "2026-08-19T22:05:48.636Z",
+  "before": 454,
+  "after": 389,
+  "rejected": 65,
+  "repaired": 623,
+>>>>>>> Stashed changes
   "rejectedReasons": {
     "quantity_as_name": 23,
     "navigation_or_ui": 11,
@@ -16,7 +24,11 @@
   "storeBefore": {
     "ALDI SÜD": 67,
     "PENNY": 140,
+<<<<<<< Updated upstream
     "ROSSMANN": 60,
+=======
+    "ROSSMANN": 59,
+>>>>>>> Stashed changes
     "dm": 99,
     "EDEKA": 41,
     "MÜLLER": 17,
@@ -29,7 +41,11 @@
     "PENNY": 109,
     "MÜLLER": 17,
     "dm": 88,
+<<<<<<< Updated upstream
     "ROSSMANN": 43,
+=======
+    "ROSSMANN": 42,
+>>>>>>> Stashed changes
     "REWE": 30,
     "Lidl": 1
   },
@@ -186,9 +202,15 @@
     }
   ],
   "finalPass": {
+<<<<<<< Updated upstream
     "generatedAt": "2026-08-19T22:03:26.016Z",
     "before": 390,
     "after": 194,
+=======
+    "generatedAt": "2026-08-19T22:05:48.724Z",
+    "before": 389,
+    "after": 193,
+>>>>>>> Stashed changes
     "rejected": 196,
     "repaired": 116,
     "rejectedReasons": {
@@ -456,9 +478,15 @@
     ]
   },
   "strictFoodPass": {
+<<<<<<< Updated upstream
     "generatedAt": "2026-08-19T22:03:26.088Z",
     "before": 194,
     "after": 167,
+=======
+    "generatedAt": "2026-08-19T22:05:48.794Z",
+    "before": 193,
+    "after": 166,
+>>>>>>> Stashed changes
     "rejected": 27,
     "repaired": 6,
     "reasons": {
@@ -631,9 +659,15 @@
     ]
   },
   "semanticPass": {
+<<<<<<< Updated upstream
     "at": "2026-08-19T22:03:26.177Z",
     "before": 167,
     "after": 167,
+=======
+    "at": "2026-08-19T22:05:48.890Z",
+    "before": 166,
+    "after": 166,
+>>>>>>> Stashed changes
     "repaired": 0,
     "normalizer": "product-normalizer-v1"
   }

@@ -1,18 +1,33 @@
 {
   "schema": 3,
+<<<<<<< Updated upstream
   "generatedAt": "2026-08-19T22:03:27.685Z",
   "run": {
     "id": "32306504358",
     "attempt": "1",
     "event": "push",
     "sha": "966130d9386b7b0e143e9fbf3f98bc04aa8c6d09",
+=======
+  "generatedAt": "2026-08-19T22:05:53.879Z",
+  "run": {
+    "id": "32306936156",
+    "attempt": "1",
+    "event": "push",
+    "sha": "dbbc705f2426a17ea075ed03afb224064ba97e65",
+>>>>>>> Stashed changes
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 0,
     "status": "completed",
+<<<<<<< Updated upstream
     "startedAt": "2026-08-19T22:01:40.785Z",
     "finishedAt": "2026-08-19T22:03:05.819Z",
     "durationMs": 85034
+=======
+    "startedAt": "2026-08-19T22:04:17.566Z",
+    "finishedAt": "2026-08-19T22:05:41.437Z",
+    "durationMs": 83871
+>>>>>>> Stashed changes
   },
   "summary": {
     "configuredSources": 12,
@@ -23,8 +38,13 @@
     "noData": 0,
     "errors": 0,
     "skipped": 0,
+<<<<<<< Updated upstream
     "offerCount": 1366,
     "liveGeneratedAt": "2026-08-19T22:03:26.549Z",
+=======
+    "offerCount": 1365,
+    "liveGeneratedAt": "2026-08-19T22:05:49.269Z",
+>>>>>>> Stashed changes
     "liveDataCurrent": true
   },
   "sources": [
@@ -38,9 +58,15 @@
       "count": 10,
       "message": "10 qualitätsgeprüfte Angebote",
       "transport": "reader",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:01:42.106Z",
       "finishedAt": "2026-08-19T22:01:48.552Z",
       "durationMs": 6446
+=======
+      "startedAt": "2026-08-19T22:04:18.132Z",
+      "finishedAt": "2026-08-19T22:04:24.457Z",
+      "durationMs": 6325
+>>>>>>> Stashed changes
     },
     {
       "store": "REWE",
@@ -52,9 +78,15 @@
       "count": 2,
       "message": "2 qualitätsgeprüfte Angebote",
       "transport": "reader",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:01:48.554Z",
       "finishedAt": "2026-08-19T22:01:54.752Z",
       "durationMs": 6198
+=======
+      "startedAt": "2026-08-19T22:04:24.460Z",
+      "finishedAt": "2026-08-19T22:04:30.683Z",
+      "durationMs": 6223
+>>>>>>> Stashed changes
     },
     {
       "store": "REWE",
@@ -66,9 +98,15 @@
       "count": 2,
       "message": "2 qualitätsgeprüfte Angebote",
       "transport": "reader",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:01:48.554Z",
       "finishedAt": "2026-08-19T22:01:54.752Z",
       "durationMs": 6198
+=======
+      "startedAt": "2026-08-19T22:04:24.460Z",
+      "finishedAt": "2026-08-19T22:04:30.683Z",
+      "durationMs": 6223
+>>>>>>> Stashed changes
     },
     {
       "store": "EDEKA",
@@ -80,9 +118,15 @@
       "count": 11,
       "message": "11 qualitätsgeprüfte Angebote",
       "transport": "reader",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:02:00.975Z",
       "finishedAt": "2026-08-19T22:02:07.118Z",
       "durationMs": 6143
+=======
+      "startedAt": "2026-08-19T22:04:36.909Z",
+      "finishedAt": "2026-08-19T22:04:42.997Z",
+      "durationMs": 6088
+>>>>>>> Stashed changes
     },
     {
       "store": "EDEKA",
@@ -94,9 +138,15 @@
       "count": 2,
       "message": "2 qualitätsgeprüfte Angebote",
       "transport": "reader",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:02:07.121Z",
       "finishedAt": "2026-08-19T22:02:13.198Z",
       "durationMs": 6077
+=======
+      "startedAt": "2026-08-19T22:04:42.999Z",
+      "finishedAt": "2026-08-19T22:04:49.144Z",
+      "durationMs": 6145
+>>>>>>> Stashed changes
     },
     {
       "store": "EDEKA",
@@ -108,9 +158,15 @@
       "count": 1,
       "message": "1 qualitätsgeprüfte Angebote",
       "transport": "reader",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:02:13.199Z",
       "finishedAt": "2026-08-19T22:02:19.272Z",
       "durationMs": 6073
+=======
+      "startedAt": "2026-08-19T22:04:49.146Z",
+      "finishedAt": "2026-08-19T22:04:55.224Z",
+      "durationMs": 6078
+>>>>>>> Stashed changes
     },
     {
       "store": "PENNY",
@@ -122,9 +178,15 @@
       "count": 52,
       "message": "52 qualitätsgeprüfte Angebote",
       "transport": "browser",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:02:19.274Z",
       "finishedAt": "2026-08-19T22:02:27.551Z",
       "durationMs": 8277
+=======
+      "startedAt": "2026-08-19T22:04:55.225Z",
+      "finishedAt": "2026-08-19T22:05:03.426Z",
+      "durationMs": 8201
+>>>>>>> Stashed changes
     },
     {
       "store": "ALDI SÜD",
@@ -136,9 +198,15 @@
       "count": 27,
       "message": "27 qualitätsgeprüfte Angebote",
       "transport": "browser",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:02:27.552Z",
       "finishedAt": "2026-08-19T22:02:35.398Z",
       "durationMs": 7846
+=======
+      "startedAt": "2026-08-19T22:05:03.430Z",
+      "finishedAt": "2026-08-19T22:05:11.063Z",
+      "durationMs": 7633
+>>>>>>> Stashed changes
     },
     {
       "store": "Lidl",
@@ -150,9 +218,15 @@
       "count": 1,
       "message": "1 qualitätsgeprüfte Angebote",
       "transport": "browser",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:02:35.401Z",
       "finishedAt": "2026-08-19T22:02:43.654Z",
       "durationMs": 8253
+=======
+      "startedAt": "2026-08-19T22:05:11.064Z",
+      "finishedAt": "2026-08-19T22:05:18.804Z",
+      "durationMs": 7740
+>>>>>>> Stashed changes
     },
     {
       "store": "dm",
@@ -164,9 +238,15 @@
       "count": 30,
       "message": "30 qualitätsgeprüfte Angebote",
       "transport": "browser",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:02:43.657Z",
       "finishedAt": "2026-08-19T22:02:50.869Z",
       "durationMs": 7212
+=======
+      "startedAt": "2026-08-19T22:05:18.806Z",
+      "finishedAt": "2026-08-19T22:05:26.766Z",
+      "durationMs": 7960
+>>>>>>> Stashed changes
     },
     {
       "store": "ROSSMANN",
@@ -175,12 +255,21 @@
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "scope": "regional",
       "status": "ok",
+<<<<<<< Updated upstream
       "count": 20,
       "message": "20 qualitätsgeprüfte Angebote",
       "transport": "browser",
       "startedAt": "2026-08-19T22:02:50.871Z",
       "finishedAt": "2026-08-19T22:02:58.122Z",
       "durationMs": 7251
+=======
+      "count": 19,
+      "message": "19 qualitätsgeprüfte Angebote",
+      "transport": "browser",
+      "startedAt": "2026-08-19T22:05:26.768Z",
+      "finishedAt": "2026-08-19T22:05:33.718Z",
+      "durationMs": 6950
+>>>>>>> Stashed changes
     },
     {
       "store": "MÜLLER",
@@ -192,9 +281,15 @@
       "count": 9,
       "message": "9 qualitätsgeprüfte Angebote",
       "transport": "browser",
+<<<<<<< Updated upstream
       "startedAt": "2026-08-19T22:02:58.128Z",
       "finishedAt": "2026-08-19T22:03:05.753Z",
       "durationMs": 7625
+=======
+      "startedAt": "2026-08-19T22:05:33.720Z",
+      "finishedAt": "2026-08-19T22:05:41.379Z",
+      "durationMs": 7659
+>>>>>>> Stashed changes
     }
   ],
   "lastLogLines": [
@@ -203,6 +298,7 @@
     "> node import.js",
     "",
     "Importiere REWE Feldkirchen ...",
+<<<<<<< Updated upstream
     "REWE: no_data, 0 (6445 ms)",
     "Importiere REWE Aschheim-Dornach ...",
     "REWE: no_data, 0 (6201 ms)",
@@ -227,5 +323,31 @@
     "Importiere MÜLLER München-Riem Arcaden ...",
     "MÜLLER: ok, 17 (7631 ms)",
     "Fertig: 384 Live-Angebote aus 6/12 Quellen."
+=======
+    "REWE: no_data, 0 (6325 ms)",
+    "Importiere REWE Aschheim-Dornach ...",
+    "REWE: no_data, 0 (6227 ms)",
+    "Importiere REWE Aschheim ...",
+    "REWE: no_data, 0 (6222 ms)",
+    "Importiere EDEKA Berghammer Feldkirchen ...",
+    "EDEKA: no_data, 0 (6091 ms)",
+    "Importiere EDEKA Pfeilstetter Kirchheim ...",
+    "EDEKA: no_data, 0 (6147 ms)",
+    "Importiere EDEKA Pfeilstetter Heimstetten ...",
+    "EDEKA: no_data, 0 (6080 ms)",
+    "Importiere PENNY Feldkirchen ...",
+    "PENNY: ok, 140 (8201 ms)",
+    "Importiere ALDI SÜD Aschheim ...",
+    "ALDI SÜD: ok, 67 (7635 ms)",
+    "Importiere Lidl Aschheim ...",
+    "Lidl: ok, 1 (7743 ms)",
+    "Importiere dm München-Riem Arcaden ...",
+    "dm: ok, 99 (7962 ms)",
+    "Importiere ROSSMANN Kirchheim-Heimstetten ...",
+    "ROSSMANN: ok, 59 (6952 ms)",
+    "Importiere MÜLLER München-Riem Arcaden ...",
+    "MÜLLER: ok, 17 (7661 ms)",
+    "Fertig: 383 Live-Angebote aus 6/12 Quellen."
+>>>>>>> Stashed changes
   ]
 }
