@@ -1,0 +1,12 @@
+Overpass error https://overpass-api.de/api/interpreter The operation was aborted due to timeout
+Overpass https://overpass.kumi.systems/api/interpreter 500
+file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/market-audit.js:63
+async function overpass(){for(const base of ['https://overpass-api.de/api/interpreter','https://overpass.kumi.systems/api/interpreter']){try{const r=await fetch(base,{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded','user-agent':'AngebotsRadar-MarketAudit/1.0'},body:new URLSearchParams({data:query}),signal:AbortSignal.timeout(95000)});if(r.ok)return await r.json();console.error('Overpass',base,r.status)}catch(e){console.error('Overpass error',base,e.message)}}throw new Error('Alle Overpass-Endpunkte fehlgeschlagen')}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+
+Error: Alle Overpass-Endpunkte fehlgeschlagen
+    at overpass (file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/market-audit.js:63:496)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/market-audit.js:65:11
+
+Node.js v20.20.2
