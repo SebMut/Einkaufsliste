@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "title": "Unsere Grundlebensmittel",
+  "updatedAt": "2026-08-20T11:35:00+02:00",
+  "description": "Persönliche Standardprodukte. Konkrete Markenprodukte werden streng gematcht; allgemeine Gruppen werden semantisch verglichen. Die Liste wird gemeinsam weiter verfeinert.",
+  "items": [
+    {
+      "id": "andechser-bio-milch-glas",
+      "name": "Andechser Bio-Milch in der Glasflasche",
+      "mode": "exact",
+      "brand": "Andechser",
+      "semanticGroups": ["Milch"],
+      "requiredAny": ["milch", "vollmilch", "frischmilch"],
+      "preferredAny": ["bio", "glas", "glasflasche", "mehrweg"],
+      "excludedAny": ["joghurt", "butter", "käse", "kaese", "quark", "milchreis", "milchschokolade"],
+      "bioRequired": true,
+      "icon": "🥛",
+      "active": true
+    },
+    {
+      "id": "andechser-butter",
+      "name": "Andechser Butter",
+      "mode": "exact",
+      "brand": "Andechser",
+      "semanticGroups": ["Butter"],
+      "requiredAny": ["butter", "markenbutter"],
+      "excludedAny": ["butterkeks", "erdnussbutter", "kakaobutter"],
+      "icon": "🧈",
+      "active": true
+    },
+    {
+      "id": "kaese-definieren",
+      "name": "Bestimmter Käse – Sorte noch definieren",
+      "mode": "group",
+      "semanticGroups": ["Käse", "Kaese"],
+      "requiredAny": ["käse", "kaese", "gouda", "emmentaler", "bergkäse", "bergkaese"],
+      "icon": "🧀",
+      "active": false,
+      "needsDefinition": true
+    },
+    {
+      "id": "adelholzener-wasser",
+      "name": "Adelholzener Mineralwasser",
+      "mode": "exact",
+      "brand": "Adelholzener",
+      "semanticGroups": ["Wasser", "Mineralwasser"],
+      "requiredAny": ["wasser", "mineralwasser"],
+      "excludedAny": ["schorle", "limo", "limonade", "saft"],
+      "icon": "💧",
+      "active": true
+    },
+    {
+      "id": "alkoholfreies-bier",
+      "name": "Alkoholfreies Bier",
+      "mode": "group",
+      "semanticGroups": ["Bier", "Alkoholfreies Bier"],
+      "requiredAll": ["alkoholfrei"],
+      "requiredAny": ["bier", "pils", "weissbier", "weißbier", "weizen"],
+      "icon": "🍺",
+      "active": true
+    },
+    {
+      "id": "bio-obst",
+      "name": "Bio-Obst",
+      "mode": "group",
+      "categoryContains": ["obst", "gemüse", "gemuese"],
+      "requiredAny": ["apfel", "äpfel", "aepfel", "banane", "birne", "beeren", "trauben", "orange", "mandarine", "zitrone", "kiwi", "mango", "obst"],
+      "bioRequired": true,
+      "icon": "🍎",
+      "active": true
+    },
+    {
+      "id": "bio-gemuese",
+      "name": "Bio-Gemüse",
+      "mode": "group",
+      "categoryContains": ["obst", "gemüse", "gemuese"],
+      "requiredAny": ["tomate", "gurke", "paprika", "karotte", "möhre", "moehre", "zucchini", "brokkoli", "blumenkohl", "salat", "gemüse", "gemuese"],
+      "bioRequired": true,
+      "icon": "🥦",
+      "active": true
+    },
+    {
+      "id": "halloumi",
+      "name": "Halloumi",
+      "mode": "group",
+      "semanticGroups": ["Halloumi", "Käse", "Kaese"],
+      "requiredAny": ["halloumi", "grillkäse", "grillkaese"],
+      "icon": "🧀",
+      "active": true
+    },
+    {
+      "id": "eier",
+      "name": "Eier",
+      "mode": "group",
+      "semanticGroups": ["Eier"],
+      "requiredAny": ["eier", "hühnereier", "huehnereier"],
+      "bioPreferred": true,
+      "icon": "🥚",
+      "active": true
+    },
+    {
+      "id": "joghurt",
+      "name": "Joghurt",
+      "mode": "group",
+      "semanticGroups": ["Joghurt"],
+      "requiredAny": ["joghurt", "yoghurt"],
+      "icon": "🥣",
+      "active": true
+    },
+    {
+      "id": "quark",
+      "name": "Quark",
+      "mode": "group",
+      "semanticGroups": ["Quark"],
+      "requiredAny": ["quark", "speisequark"],
+      "icon": "🥣",
+      "active": true
+    },
+    {
+      "id": "brot",
+      "name": "Brot",
+      "mode": "group",
+      "semanticGroups": ["Brot"],
+      "requiredAny": ["brot", "vollkornbrot", "mischbrot"],
+      "excludedAny": ["brotaufstrich", "brotzeit"],
+      "icon": "🍞",
+      "active": true
+    },
+    {
+      "id": "nudeln",
+      "name": "Nudeln",
+      "mode": "group",
+      "semanticGroups": ["Nudeln"],
+      "requiredAny": ["nudeln", "spaghetti", "penne", "fusilli", "pasta"],
+      "icon": "🍝",
+      "active": true
+    },
+    {
+      "id": "reis",
+      "name": "Reis",
+      "mode": "group",
+      "semanticGroups": ["Reis"],
+      "requiredAny": ["reis", "basmati", "jasminreis"],
+      "excludedAny": ["milchreis", "reiswaffel", "reisdrink"],
+      "icon": "🍚",
+      "active": true
+    },
+    {
+      "id": "mehl",
+      "name": "Mehl",
+      "mode": "group",
+      "semanticGroups": ["Mehl"],
+      "requiredAny": ["mehl", "weizenmehl", "dinkelmehl"],
+      "icon": "🌾",
+      "active": true
+    },
+    {
+      "id": "kartoffeln",
+      "name": "Kartoffeln",
+      "mode": "group",
+      "semanticGroups": ["Kartoffeln"],
+      "requiredAny": ["kartoffel", "kartoffeln"],
+      "excludedAny": ["kartoffelchips", "chips", "kartoffelpüree", "kartoffelpuree"],
+      "bioPreferred": true,
+      "icon": "🥔",
+      "active": true
+    }
+  ]
+}
