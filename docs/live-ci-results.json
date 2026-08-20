@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T11:42:06.762Z",
-  "testedCommit": "d41bd2b6cd78d7db3745191325197df76bca6557",
-  "runId": "32364828900",
+  "generatedAt": "2026-08-20T11:48:14.793Z",
+  "testedCommit": "0144130bb5d59ff934cdd13188a0f196e5cf4a55",
+  "runId": "32365366402",
   "runAttempt": "1",
   "outcomes": {
     "preTests": "success",
-    "importExitCode": 0,
+    "importExitCode": 99,
     "sanitize": "success",
     "qualityV2": "success",
     "qualityV3": "success",
@@ -16,20 +16,20 @@
     "postTests": "success",
     "frontendE2E": "success",
     "diagnostics": "success",
-    "releaseGate": "success"
+    "releaseGate": "failure"
   },
   "diagnostics": {
     "configuredSources": 12,
-    "ok": 11,
+    "ok": 12,
     "loginRequired": 0,
     "credentialsMissing": 0,
     "authErrors": 0,
-    "noData": 1,
+    "noData": 0,
     "errors": 0,
     "skipped": 0,
-    "offerCount": 1360,
-    "liveGeneratedAt": "2026-08-20T11:42:00.141Z",
+    "offerCount": 1349,
+    "liveGeneratedAt": "2026-08-20T11:48:09.430Z",
     "liveDataCurrent": true
   },
-  "status": "passed"
+  "status": "failed"
 }
