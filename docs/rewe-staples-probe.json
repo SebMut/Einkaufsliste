@@ -1,0 +1,1364 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-20T12:20:03.365Z",
+  "purpose": "Probe für standortabhängige REWE-Regulärpreise der persönlichen Grundlebensmittel",
+  "localReweMarkets": 3,
+  "successfulMarkets": 1,
+  "queriesWithProducts": 0,
+  "status": "needs_followup",
+  "results": [
+    {
+      "local": {
+        "market": "Feldkirchen",
+        "address": "Kapellenstraße 16b, 85622 Feldkirchen",
+        "sourceUrl": "https://www.rewe.de/marktseite/feldkirchen/461761/rewe-markt-kapellenstr-16b/"
+      },
+      "zip": "85622",
+      "marketLookupAttempts": [
+        {
+          "url": "https://shop.rewe.de/api/marketselection/zipcodes/85622/services/pickup",
+          "status": 200,
+          "ok": true,
+          "count": 16,
+          "error": null
+        }
+      ],
+      "remoteCandidates": [
+        {
+          "wwIdent": "562345",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Davut Erdem oHG",
+          "street": "Jedovnicestr. 10",
+          "houseNumber": "",
+          "zipCode": "85609",
+          "city": "Aschheim",
+          "distance": 3286
+        },
+        {
+          "wwIdent": "320837",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Hafelhofweg 3",
+          "houseNumber": "",
+          "zipCode": "81825",
+          "city": "München",
+          "distance": 5863
+        },
+        {
+          "wwIdent": "431147",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Davut Erdem oHG",
+          "street": "Am Hanselbrunn 9",
+          "houseNumber": "",
+          "zipCode": "85586",
+          "city": "Poing",
+          "distance": 6400
+        },
+        {
+          "wwIdent": "440753",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Daglfinger Str. 5",
+          "houseNumber": "",
+          "zipCode": "81929",
+          "city": "München / Bogenhausen",
+          "distance": 7730
+        },
+        {
+          "wwIdent": "440421",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Georg-Wimmer-Ring 6",
+          "houseNumber": "",
+          "zipCode": "85604",
+          "city": "Zorneding",
+          "distance": 7855
+        },
+        {
+          "wwIdent": "320970",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Serdar Kayacan oHG",
+          "street": "Feringastr. 6",
+          "houseNumber": "",
+          "zipCode": "85774",
+          "city": "Unterföhring",
+          "distance": 9271
+        },
+        {
+          "wwIdent": "440491",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Äussere Hauptstr. 3",
+          "houseNumber": "",
+          "zipCode": "85579",
+          "city": "Neubiberg",
+          "distance": 9660
+        },
+        {
+          "wwIdent": "461799",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Sevdaim Terzija oHG",
+          "street": "Balanstr. 73",
+          "houseNumber": "",
+          "zipCode": "81541",
+          "city": "München",
+          "distance": 10932
+        },
+        {
+          "wwIdent": "440327",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Am Hachinger Bach 1",
+          "houseNumber": "",
+          "zipCode": "85579",
+          "city": "Neubiberg",
+          "distance": 11014
+        },
+        {
+          "wwIdent": "440353",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Max-von-Eyth-Str. 1",
+          "houseNumber": "",
+          "zipCode": "85737",
+          "city": "Ismaning",
+          "distance": 11412
+        },
+        {
+          "wwIdent": "440486",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Freisinger Landstrasse 47",
+          "houseNumber": "",
+          "zipCode": "85748",
+          "city": "Garching",
+          "distance": 14615
+        },
+        {
+          "wwIdent": "431024",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Einfangstraße 6",
+          "houseNumber": "",
+          "zipCode": "85452",
+          "city": "Moosinning",
+          "distance": 16092
+        },
+        {
+          "wwIdent": "431022",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Lerchenstr. 7",
+          "houseNumber": "",
+          "zipCode": "80995",
+          "city": "München",
+          "distance": 16461
+        },
+        {
+          "wwIdent": "440752",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Aidenbachstr. 30",
+          "houseNumber": "",
+          "zipCode": "81379",
+          "city": "München / Thalkirchen-Obersendl",
+          "distance": 17106
+        },
+        {
+          "wwIdent": "320974",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Rottmeierstr. 2",
+          "houseNumber": "",
+          "zipCode": "85399",
+          "city": "Hallbergmoos",
+          "distance": 18685
+        },
+        {
+          "wwIdent": "461766",
+          "displayName": "REWE Markt",
+          "companyName": "REWE-Gruber oHG",
+          "street": "Leonhardstr. 5 a",
+          "houseNumber": "",
+          "zipCode": "85567",
+          "city": "Grafing",
+          "distance": 19554
+        }
+      ],
+      "matchedMarket": null,
+      "queries": []
+    },
+    {
+      "local": {
+        "market": "Aschheim-Dornach",
+        "address": "Humboldtstraße 2b, 85609 Aschheim",
+        "sourceUrl": "https://www.rewe.de/marktseite/aschheim-dornach/440674/rewe-markt-humboldtstr-2b/"
+      },
+      "zip": "85609",
+      "marketLookupAttempts": [
+        {
+          "url": "https://shop.rewe.de/api/marketselection/zipcodes/85609/services/pickup",
+          "status": 200,
+          "ok": true,
+          "count": 20,
+          "error": null
+        }
+      ],
+      "remoteCandidates": [
+        {
+          "wwIdent": "562345",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Davut Erdem oHG",
+          "street": "Jedovnicestr. 10",
+          "houseNumber": "",
+          "zipCode": "85609",
+          "city": "Aschheim",
+          "distance": 2219
+        },
+        {
+          "wwIdent": "440353",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Max-von-Eyth-Str. 1",
+          "houseNumber": "",
+          "zipCode": "85737",
+          "city": "Ismaning",
+          "distance": 6014
+        },
+        {
+          "wwIdent": "320970",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Serdar Kayacan oHG",
+          "street": "Feringastr. 6",
+          "houseNumber": "",
+          "zipCode": "85774",
+          "city": "Unterföhring",
+          "distance": 6154
+        },
+        {
+          "wwIdent": "440753",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Daglfinger Str. 5",
+          "houseNumber": "",
+          "zipCode": "81929",
+          "city": "München / Bogenhausen",
+          "distance": 6973
+        },
+        {
+          "wwIdent": "431147",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Davut Erdem oHG",
+          "street": "Am Hanselbrunn 9",
+          "houseNumber": "",
+          "zipCode": "85586",
+          "city": "Poing",
+          "distance": 7682
+        },
+        {
+          "wwIdent": "320837",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Hafelhofweg 3",
+          "houseNumber": "",
+          "zipCode": "81825",
+          "city": "München",
+          "distance": 7725
+        },
+        {
+          "wwIdent": "440486",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Freisinger Landstrasse 47",
+          "houseNumber": "",
+          "zipCode": "85748",
+          "city": "Garching",
+          "distance": 9233
+        },
+        {
+          "wwIdent": "461799",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Sevdaim Terzija oHG",
+          "street": "Balanstr. 73",
+          "houseNumber": "",
+          "zipCode": "81541",
+          "city": "München",
+          "distance": 11321
+        },
+        {
+          "wwIdent": "440491",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Äussere Hauptstr. 3",
+          "houseNumber": "",
+          "zipCode": "85579",
+          "city": "Neubiberg",
+          "distance": 12872
+        },
+        {
+          "wwIdent": "431022",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Lerchenstr. 7",
+          "houseNumber": "",
+          "zipCode": "80995",
+          "city": "München",
+          "distance": 12924
+        },
+        {
+          "wwIdent": "431024",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Einfangstraße 6",
+          "houseNumber": "",
+          "zipCode": "85452",
+          "city": "Moosinning",
+          "distance": 12941
+        },
+        {
+          "wwIdent": "440421",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Georg-Wimmer-Ring 6",
+          "houseNumber": "",
+          "zipCode": "85604",
+          "city": "Zorneding",
+          "distance": 13001
+        },
+        {
+          "wwIdent": "440327",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Am Hachinger Bach 1",
+          "houseNumber": "",
+          "zipCode": "85579",
+          "city": "Neubiberg",
+          "distance": 13173
+        },
+        {
+          "wwIdent": "320974",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Rottmeierstr. 2",
+          "houseNumber": "",
+          "zipCode": "85399",
+          "city": "Hallbergmoos",
+          "distance": 13832
+        },
+        {
+          "wwIdent": "440303",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Schlesierstr. 4",
+          "houseNumber": "",
+          "zipCode": "85386",
+          "city": "Eching",
+          "distance": 14789
+        },
+        {
+          "wwIdent": "441095",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Husein Dugonjic oHG",
+          "street": "Emmy-Noether-Ring 38",
+          "houseNumber": "",
+          "zipCode": "85716",
+          "city": "Unterschleißheim",
+          "distance": 15126
+        },
+        {
+          "wwIdent": "440482",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Kurt-Kittel-Ring 1",
+          "houseNumber": "",
+          "zipCode": "85375",
+          "city": "Neufahrn",
+          "distance": 15485
+        },
+        {
+          "wwIdent": "440752",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Aidenbachstr. 30",
+          "houseNumber": "",
+          "zipCode": "81379",
+          "city": "München / Thalkirchen-Obersendl",
+          "distance": 17189
+        },
+        {
+          "wwIdent": "810869",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Ardeostr. 22a",
+          "houseNumber": "",
+          "zipCode": "85435",
+          "city": "Erding",
+          "distance": 18778
+        },
+        {
+          "wwIdent": "431036",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Rennweg 41",
+          "houseNumber": "",
+          "zipCode": "85435",
+          "city": "Erding",
+          "distance": 19067
+        }
+      ],
+      "matchedMarket": null,
+      "queries": []
+    },
+    {
+      "local": {
+        "market": "Aschheim",
+        "address": "Jedovnicestraße 10, 85609 Aschheim",
+        "sourceUrl": "https://www.rewe.de/marktseite/aschheim/562345/rewe-markt-jedovnicestr-10/"
+      },
+      "zip": "85609",
+      "marketLookupAttempts": [
+        {
+          "url": "https://shop.rewe.de/api/marketselection/zipcodes/85609/services/pickup",
+          "status": 200,
+          "ok": true,
+          "count": 20,
+          "error": null
+        }
+      ],
+      "remoteCandidates": [
+        {
+          "wwIdent": "562345",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Davut Erdem oHG",
+          "street": "Jedovnicestr. 10",
+          "houseNumber": "",
+          "zipCode": "85609",
+          "city": "Aschheim",
+          "distance": 2219
+        },
+        {
+          "wwIdent": "440353",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Max-von-Eyth-Str. 1",
+          "houseNumber": "",
+          "zipCode": "85737",
+          "city": "Ismaning",
+          "distance": 6014
+        },
+        {
+          "wwIdent": "320970",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Serdar Kayacan oHG",
+          "street": "Feringastr. 6",
+          "houseNumber": "",
+          "zipCode": "85774",
+          "city": "Unterföhring",
+          "distance": 6154
+        },
+        {
+          "wwIdent": "440753",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Daglfinger Str. 5",
+          "houseNumber": "",
+          "zipCode": "81929",
+          "city": "München / Bogenhausen",
+          "distance": 6973
+        },
+        {
+          "wwIdent": "431147",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Davut Erdem oHG",
+          "street": "Am Hanselbrunn 9",
+          "houseNumber": "",
+          "zipCode": "85586",
+          "city": "Poing",
+          "distance": 7682
+        },
+        {
+          "wwIdent": "320837",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Hafelhofweg 3",
+          "houseNumber": "",
+          "zipCode": "81825",
+          "city": "München",
+          "distance": 7725
+        },
+        {
+          "wwIdent": "440486",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Freisinger Landstrasse 47",
+          "houseNumber": "",
+          "zipCode": "85748",
+          "city": "Garching",
+          "distance": 9233
+        },
+        {
+          "wwIdent": "461799",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Sevdaim Terzija oHG",
+          "street": "Balanstr. 73",
+          "houseNumber": "",
+          "zipCode": "81541",
+          "city": "München",
+          "distance": 11321
+        },
+        {
+          "wwIdent": "440491",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Äussere Hauptstr. 3",
+          "houseNumber": "",
+          "zipCode": "85579",
+          "city": "Neubiberg",
+          "distance": 12872
+        },
+        {
+          "wwIdent": "431022",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Lerchenstr. 7",
+          "houseNumber": "",
+          "zipCode": "80995",
+          "city": "München",
+          "distance": 12924
+        },
+        {
+          "wwIdent": "431024",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Einfangstraße 6",
+          "houseNumber": "",
+          "zipCode": "85452",
+          "city": "Moosinning",
+          "distance": 12941
+        },
+        {
+          "wwIdent": "440421",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Georg-Wimmer-Ring 6",
+          "houseNumber": "",
+          "zipCode": "85604",
+          "city": "Zorneding",
+          "distance": 13001
+        },
+        {
+          "wwIdent": "440327",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Am Hachinger Bach 1",
+          "houseNumber": "",
+          "zipCode": "85579",
+          "city": "Neubiberg",
+          "distance": 13173
+        },
+        {
+          "wwIdent": "320974",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Rottmeierstr. 2",
+          "houseNumber": "",
+          "zipCode": "85399",
+          "city": "Hallbergmoos",
+          "distance": 13832
+        },
+        {
+          "wwIdent": "440303",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Schlesierstr. 4",
+          "houseNumber": "",
+          "zipCode": "85386",
+          "city": "Eching",
+          "distance": 14789
+        },
+        {
+          "wwIdent": "441095",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Husein Dugonjic oHG",
+          "street": "Emmy-Noether-Ring 38",
+          "houseNumber": "",
+          "zipCode": "85716",
+          "city": "Unterschleißheim",
+          "distance": 15126
+        },
+        {
+          "wwIdent": "440482",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Kurt-Kittel-Ring 1",
+          "houseNumber": "",
+          "zipCode": "85375",
+          "city": "Neufahrn",
+          "distance": 15485
+        },
+        {
+          "wwIdent": "440752",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Aidenbachstr. 30",
+          "houseNumber": "",
+          "zipCode": "81379",
+          "city": "München / Thalkirchen-Obersendl",
+          "distance": 17189
+        },
+        {
+          "wwIdent": "810869",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Ardeostr. 22a",
+          "houseNumber": "",
+          "zipCode": "85435",
+          "city": "Erding",
+          "distance": 18778
+        },
+        {
+          "wwIdent": "431036",
+          "displayName": "REWE Markt",
+          "companyName": "REWE Markt GmbH",
+          "street": "Rennweg 41",
+          "houseNumber": "",
+          "zipCode": "85435",
+          "city": "Erding",
+          "distance": 19067
+        }
+      ],
+      "matchedMarket": {
+        "wwIdent": "562345",
+        "displayName": "REWE Markt",
+        "companyName": "REWE Davut Erdem oHG",
+        "street": "Jedovnicestr. 10",
+        "houseNumber": "",
+        "zipCode": "85609",
+        "city": "Aschheim",
+        "distance": 2219
+      },
+      "queries": [
+        {
+          "query": "Andechser",
+          "endpoint": null,
+          "withCookie": false,
+          "attempts": [
+            {
+              "url": "https://shop.rewe.de/api/products?search=Andechser&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Andechser&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Andechser&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Andechser&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            }
+          ],
+          "products": []
+        },
+        {
+          "query": "Adelholzener",
+          "endpoint": null,
+          "withCookie": false,
+          "attempts": [
+            {
+              "url": "https://shop.rewe.de/api/products?search=Adelholzener&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Adelholzener&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Adelholzener&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Adelholzener&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            }
+          ],
+          "products": []
+        },
+        {
+          "query": "Halloumi",
+          "endpoint": null,
+          "withCookie": false,
+          "attempts": [
+            {
+              "url": "https://shop.rewe.de/api/products?search=Halloumi&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Halloumi&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Halloumi&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Halloumi&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            }
+          ],
+          "products": []
+        },
+        {
+          "query": "Eier",
+          "endpoint": null,
+          "withCookie": false,
+          "attempts": [
+            {
+              "url": "https://shop.rewe.de/api/products?search=Eier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Eier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Eier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Eier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            }
+          ],
+          "products": []
+        },
+        {
+          "query": "Quark",
+          "endpoint": null,
+          "withCookie": false,
+          "attempts": [
+            {
+              "url": "https://shop.rewe.de/api/products?search=Quark&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Quark&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Quark&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Quark&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            }
+          ],
+          "products": []
+        },
+        {
+          "query": "Brot",
+          "endpoint": null,
+          "withCookie": false,
+          "attempts": [
+            {
+              "url": "https://shop.rewe.de/api/products?search=Brot&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Brot&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Brot&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Brot&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            }
+          ],
+          "products": []
+        },
+        {
+          "query": "Basmati Reis",
+          "endpoint": null,
+          "withCookie": false,
+          "attempts": [
+            {
+              "url": "https://shop.rewe.de/api/products?search=Basmati+Reis&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Basmati+Reis&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Basmati+Reis&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Basmati+Reis&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            }
+          ],
+          "products": []
+        },
+        {
+          "query": "Mehl",
+          "endpoint": null,
+          "withCookie": false,
+          "attempts": [
+            {
+              "url": "https://shop.rewe.de/api/products?search=Mehl&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Mehl&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Mehl&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=Mehl&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            }
+          ],
+          "products": []
+        },
+        {
+          "query": "alkoholfreies Bier",
+          "endpoint": null,
+          "withCookie": false,
+          "attempts": [
+            {
+              "url": "https://shop.rewe.de/api/products?search=alkoholfreies+Bier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=alkoholfreies+Bier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=alkoholfreies+Bier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://www.rewe.de/shop/api/products?search=alkoholfreies+Bier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC",
+              "status": 200,
+              "ok": true,
+              "withCookie": true,
+              "productCount": 0,
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "_embedded",
+                "toggles"
+              ],
+              "error": null,
+              "preview": null
+            }
+          ],
+          "products": []
+        }
+      ]
+    }
+  ]
+}
