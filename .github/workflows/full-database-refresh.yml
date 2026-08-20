@@ -1,0 +1,262 @@
+name: Komplette Datenbank aktualisieren
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/full-database-refresh.yml'
+      - 'importer/refresh-*.js'
+      - 'importer/*catalog*import*.js'
+      - 'importer/package.json'
+  schedule:
+    # Kandidaten für CEST (UTC+2): 06/09/12/15/18/21 lokal
+    - cron: '0 4,7,10,13,16,19 * * *'
+    # Kandidaten für CET (UTC+1): 06/09/12/15/18/21 lokal
+    - cron: '0 5,8,11,14,17,20 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: complete-database-refresh
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run_refresh: ${{ steps.time.outputs.run_refresh }}
+      berlin_time: ${{ steps.time.outputs.berlin_time }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - id: time
+        name: Europe/Berlin-Zeitfenster prüfen
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          RESULT=$(node --input-type=module <<'NODE'
+          import {isTargetLocalHour,formatBerlin} from './importer/refresh-schedule.js';
+          const now=new Date();
+          const manual=process.env.EVENT_NAME!=='schedule';
+          console.log(JSON.stringify({run:manual||isTargetLocalHour(now),berlin:formatBerlin(now)}));
+          NODE
+          )
+          echo "$RESULT"
+          RUN=$(node -e "const x=JSON.parse(process.argv[1]);process.stdout.write(String(x.run))" "$RESULT")
+          BERLIN=$(node -e "const x=JSON.parse(process.argv[1]);process.stdout.write(x.berlin)" "$RESULT")
+          echo "run_refresh=$RUN" >> "$GITHUB_OUTPUT"
+          echo "berlin_time=$BERLIN" >> "$GITHUB_OUTPUT"
+
+  refresh:
+    needs: gate
+    if: needs.gate.outputs.run_refresh == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      TZ: Europe/Berlin
+      PREVIOUS_CATALOG_DIR: /tmp/catalog-prev
+      PREVIOUS_LIVE_FILE: /tmp/offers-live.prev.json
+      PREVIOUS_STATUS_FILE: /tmp/import-status.prev.json
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Abhängigkeiten installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+
+      - name: Chromium installieren
+        working-directory: importer
+        run: npx playwright install --with-deps chromium
+
+      - name: Letzten guten Bestand sichern
+        shell: bash
+        run: |
+          rm -rf /tmp/catalog-prev
+          cp -a data/catalog /tmp/catalog-prev
+          cp data/offers-live.json /tmp/offers-live.prev.json
+          if [ -f data/import-status.json ]; then cp data/import-status.json /tmp/import-status.prev.json; else echo '{"retailers":[]}' > /tmp/import-status.prev.json; fi
+
+      - name: Tests vor dem Refresh
+        working-directory: importer
+        run: npm test
+
+      - name: Markt-Whitelist neu aufbauen
+        working-directory: importer
+        run: npm run markets
+
+      - name: Reguläre Vollsortimente vollständig neu abrufen
+        working-directory: importer
+        run: npm run catalog:full
+
+      - name: Katalog-Bestandsschutz und 30-Prozent-Plausibilitätsprüfung
+        working-directory: importer
+        run: npm run guard:catalog
+
+      - name: Aktuelle Angebote und Prospekte neu abrufen
+        working-directory: importer
+        run: node import.js
+
+      - name: REWE filialbezogenes Vollsortiment neu abrufen
+        working-directory: importer
+        run: node rewe-market-catalog-import.js
+
+      - name: Server-HTML-Fallback
+        working-directory: importer
+        continue-on-error: true
+        run: node fallback.js
+
+      - name: REWE/EDEKA Reader-Fallback
+        working-directory: importer
+        continue-on-error: true
+        run: node reader-fallback.js
+
+      - name: Netto Filial-Reader
+        working-directory: importer
+        continue-on-error: true
+        run: node netto-reader-v2.js
+
+      - name: Discounter- und Prospektreader
+        working-directory: importer
+        continue-on-error: true
+        run: node rich-retailers.js
+
+      - name: Lidl Preis- und Sortimentreader
+        working-directory: importer
+        continue-on-error: true
+        run: node lidl-table-reader.js
+
+      - name: Bio-Händler aktualisieren
+        working-directory: importer
+        continue-on-error: true
+        run: node bio-retailers.js
+
+      - name: Weitere textbasierte Händlerquellen aktualisieren
+        working-directory: importer
+        continue-on-error: true
+        run: node text-retailers.js
+
+      - name: HIT Reader aktualisieren
+        working-directory: importer
+        continue-on-error: true
+        run: node hit-reader-v4.js
+
+      - name: METRO mit vorhandenem Kundenlogin aktualisieren
+        working-directory: importer
+        continue-on-error: true
+        env:
+          METRO_EMAIL: ${{ secrets.METRO_EMAIL }}
+          METRO_PASSWORD: ${{ secrets.METRO_PASSWORD }}
+        run: node metro-auth.js
+
+      - name: Rohdaten bereinigen
+        working-directory: importer
+        run: node sanitize.js
+
+      - name: Qualitätsprüfung Stufe 2
+        working-directory: importer
+        run: node quality-v2.js
+
+      - name: Qualitätsprüfung Lebensmittel Haushalt Baby Tier
+        working-directory: importer
+        run: node quality-v3.js
+
+      - name: Semantische Qualitätsprüfung
+        working-directory: importer
+        run: node quality-v4.js
+
+      - name: Reguläre Kataloge und Filialpreise zusammenführen
+        working-directory: importer
+        run: npm run merge
+
+      - name: Kombinierten Gesamtbestand erneut bereinigen
+        working-directory: importer
+        run: |
+          node sanitize.js
+          node quality-v2.js
+          node quality-v3.js
+          node quality-v4.js
+
+      - name: Händler-Bestandsschutz gegen massive Einbrüche
+        working-directory: importer
+        run: npm run guard:live
+
+      - name: Preishistorie fortschreiben
+        working-directory: importer
+        run: npm run history
+
+      - name: Sortimentsabdeckung neu auswerten
+        working-directory: importer
+        run: npm run audit:assortment
+
+      - name: Gesamten neuen Datenbestand testen
+        working-directory: importer
+        run: npm test
+
+      - name: Desktop und iPhone E2E
+        working-directory: importer
+        run: |
+          node frontend-e2e.js
+          node staples-e2e.js
+
+      - name: Importdiagnose aktualisieren
+        working-directory: importer
+        continue-on-error: true
+        env:
+          IMPORT_EXIT_CODE: '0'
+        run: node diagnostics.js
+
+      - name: Monitoringstatus erzeugen
+        working-directory: importer
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
+        run: npm run refresh:status
+
+      - name: Release-Gate für Datenintegrität
+        shell: bash
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const live=JSON.parse(fs.readFileSync('data/offers-live.json','utf8'));
+          const status=JSON.parse(fs.readFileSync('data/import-status.json','utf8'));
+          const markets=JSON.parse(fs.readFileSync('data/markets.json','utf8'));
+          if(!Array.isArray(live.offers)||live.offers.length===0) throw new Error('Kein veröffentlichbarer Produktbestand');
+          if(!Array.isArray(markets.markets)||markets.markets.length===0) throw new Error('Markt-Whitelist leer');
+          if(!status.schedule?.nextRunAt) throw new Error('Monitoringstatus ohne nächsten Lauf');
+          if((live.offers||[]).some(o=>!o.activeMarket)) throw new Error('Produkt außerhalb aktiver Markt-Whitelist');
+          console.log(`Release-Gate: ${live.offers.length} Produkte, Status ${status.runStatus}, nächster Lauf ${status.schedule.nextRunBerlin}`);
+          NODE
+
+      - name: Vollständig geprüften Stand atomar veröffentlichen
+        shell: bash
+        run: |
+          git config user.name "AngebotsRadar Full Refresh Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add \
+            data/markets.json \
+            data/catalog/ \
+            data/offers-live.json \
+            data/price-history.json \
+            data/catalog-refresh-report.json \
+            data/retailer-refresh-report.json \
+            data/import-status.json \
+            data/import-diagnostics.json \
+            docs/assortment-audit.json \
+            docs/assortment-audit.html
+          if git diff --cached --quiet; then
+            echo "Keine Datenänderung zu veröffentlichen."
+            exit 0
+          fi
+          git commit -m "Komplette Produkt- und Preisdaten aktualisieren [skip ci]"
+          git pull --rebase origin main
+          git push origin main
