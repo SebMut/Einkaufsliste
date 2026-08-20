@@ -46,3 +46,5 @@ export function formatBerlin(date){
     timeZone:TIME_ZONE,dateStyle:'short',timeStyle:'short'
   }).format(date);
 }
+
+// Manueller Sync-Trigger: 2026-08-20 21:20 Europe/Berlin
