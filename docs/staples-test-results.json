@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T11:54:06.151Z",
-  "testedCommit": "1057f95b4a3bf84e13f37b3929771e90842e5a92",
-  "runId": "32366021068",
+  "generatedAt": "2026-08-20T12:11:46.910Z",
+  "testedCommit": "ec0645534717eadd14c63c5335db7d7b72a2a78f",
+  "runId": "32367514702",
   "unitExitCode": 0,
-  "e2eExitCode": 0,
-  "staticExitCode": 0,
-  "status": "passed"
+  "e2eExitCode": 99,
+  "staticExitCode": 99,
+  "status": "failed"
 }
