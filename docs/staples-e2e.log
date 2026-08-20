@@ -8,7 +8,7 @@
         "height": 900
       },
       "defined": 13,
-      "covered": 5,
+      "covered": 3,
       "andechser": 2,
       "coveredItems": [
         {
@@ -19,24 +19,10 @@
           "price": "🔥 0,29 €"
         },
         {
-          "staple": "Brot",
-          "missing": false,
-          "product": "RAMA Brot­aufstrich",
-          "store": "PENNY · Feldkirchen · 400 g",
-          "price": "🔥 1,29 €"
-        },
-        {
           "staple": "Nudeln",
           "missing": false,
           "product": "Marke: dmBio; Produktname: Pasta Bucatini No 6, 500 g;",
           "store": "dm · München-Riem Arcaden · 500 g",
-          "price": "1,95 €"
-        },
-        {
-          "staple": "Reis",
-          "missing": false,
-          "product": "Marke: Good Boy; Produktname: Hundeleckerli Hähnchen Reis-Sticks, Adult, 90 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
-          "store": "dm · München-Riem Arcaden · 90 g",
           "price": "1,95 €"
         },
         {
@@ -92,6 +78,20 @@
         },
         {
           "staple": "Quark",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Brot",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Reis",
           "missing": true,
           "product": "",
           "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
@@ -115,7 +115,7 @@
         "height": 844
       },
       "defined": 13,
-      "covered": 5,
+      "covered": 3,
       "andechser": 2,
       "coveredItems": [
         {
@@ -126,24 +126,10 @@
           "price": "🔥 0,29 €"
         },
         {
-          "staple": "Brot",
-          "missing": false,
-          "product": "RAMA Brot­aufstrich",
-          "store": "PENNY · Feldkirchen · 400 g",
-          "price": "🔥 1,29 €"
-        },
-        {
           "staple": "Nudeln",
           "missing": false,
           "product": "Marke: dmBio; Produktname: Pasta Bucatini No 6, 500 g;",
           "store": "dm · München-Riem Arcaden · 500 g",
-          "price": "1,95 €"
-        },
-        {
-          "staple": "Reis",
-          "missing": false,
-          "product": "Marke: Good Boy; Produktname: Hundeleckerli Hähnchen Reis-Sticks, Adult, 90 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
-          "store": "dm · München-Riem Arcaden · 90 g",
           "price": "1,95 €"
         },
         {
@@ -199,6 +185,20 @@
         },
         {
           "staple": "Quark",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Brot",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Reis",
           "missing": true,
           "product": "",
           "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
