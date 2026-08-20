@@ -52,4 +52,12 @@ replaceOnce(
 );
 
 await fs.writeFile(path, html);
+
+const testPath = new URL('../importer/frontend-smoke.test.js', import.meta.url);
+let testFile = await fs.readFile(testPath, 'utf8');
+if (!testFile.includes("Suche zeigt konkrete Produkte statt nur einer Bundle-Karte")) {
+  testFile += `\n\ntest('Suche zeigt konkrete Produkte statt nur einer Bundle-Karte',()=>{\n  assert.match(html,/concreteKeyOf=o=>o\\.canonicalProductId\\|\\|o\\.exactMatchKey/);\n  assert.match(html,/const key=concreteKeyOf\\(o\\),bundleKey=keyOf\\(o\\)/);\n  assert.match(html,/comparisonPool=offers\\.filter\\(eligible\\)\\.filter\\(o=>keyOf\\(o\\)===g\\.bundleKey\\)/);\n  assert.match(html,/data-add=\\\\\"\\$\\{encodeURIComponent\\(p\\.g\\.bundleKey\\)\\}/);\n  assert.equal(/lastResult\\.length} Produktgruppen/.test(html),false);\n});\n`;
+  await fs.writeFile(testPath, testFile);
+}
+
 console.log('Produktdarstellung auf konkrete Produkte umgestellt; Bundle bleibt Vergleichs-/Einkaufsgruppe.');
