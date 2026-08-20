@@ -60,3 +60,5 @@ jobs:
           git commit -m "ALDI und REWE Feldkirchen aktualisieren [skip ci]"
           git pull --rebase origin main
           git push origin main
+
+# Trigger refresh: 2026-08-20
