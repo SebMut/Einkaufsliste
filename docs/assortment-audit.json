@@ -1,0 +1,1032 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-20T06:46:08.020Z",
+  "liveGeneratedAt": "2026-08-20T05:55:13.796Z",
+  "liveProductRows": 1356,
+  "liveConcreteProducts": 766,
+  "catalogIndexGeneratedAt": "2026-08-20T05:10:20.477Z",
+  "catalogImporterProducts": 647,
+  "importantGroups": [
+    "Milch",
+    "Butter",
+    "Eier",
+    "Joghurt",
+    "Käse",
+    "Nudeln",
+    "Reis",
+    "Mehl",
+    "Zucker",
+    "Brot",
+    "Wasser",
+    "Kaffee",
+    "Windeln",
+    "Waschmittel",
+    "Toilettenpapier"
+  ],
+  "overallGroups": {
+    "Milch": {
+      "rows": 7,
+      "concreteProducts": 5,
+      "catalogProducts": 2,
+      "offerProducts": 3
+    },
+    "Butter": {
+      "rows": 6,
+      "concreteProducts": 3,
+      "catalogProducts": 1,
+      "offerProducts": 2
+    },
+    "Eier": {
+      "rows": 0,
+      "concreteProducts": 0,
+      "catalogProducts": 0,
+      "offerProducts": 0
+    },
+    "Joghurt": {
+      "rows": 6,
+      "concreteProducts": 3,
+      "catalogProducts": 0,
+      "offerProducts": 3
+    },
+    "Käse": {
+      "rows": 2,
+      "concreteProducts": 2,
+      "catalogProducts": 0,
+      "offerProducts": 2
+    },
+    "Nudeln": {
+      "rows": 3,
+      "concreteProducts": 1,
+      "catalogProducts": 1,
+      "offerProducts": 0
+    },
+    "Reis": {
+      "rows": 6,
+      "concreteProducts": 2,
+      "catalogProducts": 2,
+      "offerProducts": 0
+    },
+    "Mehl": {
+      "rows": 0,
+      "concreteProducts": 0,
+      "catalogProducts": 0,
+      "offerProducts": 0
+    },
+    "Zucker": {
+      "rows": 4,
+      "concreteProducts": 2,
+      "catalogProducts": 2,
+      "offerProducts": 0
+    },
+    "Brot": {
+      "rows": 2,
+      "concreteProducts": 1,
+      "catalogProducts": 0,
+      "offerProducts": 1
+    },
+    "Wasser": {
+      "rows": 0,
+      "concreteProducts": 0,
+      "catalogProducts": 0,
+      "offerProducts": 0
+    },
+    "Kaffee": {
+      "rows": 4,
+      "concreteProducts": 4,
+      "catalogProducts": 3,
+      "offerProducts": 1
+    },
+    "Windeln": {
+      "rows": 149,
+      "concreteProducts": 111,
+      "catalogProducts": 92,
+      "offerProducts": 0
+    },
+    "Waschmittel": {
+      "rows": 26,
+      "concreteProducts": 24,
+      "catalogProducts": 24,
+      "offerProducts": 1
+    },
+    "Toilettenpapier": {
+      "rows": 21,
+      "concreteProducts": 15,
+      "catalogProducts": 15,
+      "offerProducts": 0
+    }
+  },
+  "retailers": [
+    {
+      "retailer": "ALDI SÜD",
+      "branches": 2,
+      "rows": 54,
+      "concreteProducts": 27,
+      "catalogRows": 0,
+      "catalogProducts": 0,
+      "offerRows": 16,
+      "offerProducts": 8,
+      "catalogStatus": "no_regular_catalog_import",
+      "catalogImporterProductCount": 0,
+      "sourceCoverage": "offers_only",
+      "coreGroupsVisible": 1,
+      "coreGroupsTotal": 15,
+      "groups": {
+        "Milch": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Butter": {
+          "rows": 2,
+          "concreteProducts": 1,
+          "catalogProducts": 0,
+          "offerProducts": 1
+        },
+        "Eier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Joghurt": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Käse": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Nudeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Reis": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Mehl": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Zucker": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Brot": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Wasser": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Kaffee": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Windeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Waschmittel": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Toilettenpapier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        }
+      }
+    },
+    {
+      "retailer": "dm",
+      "branches": 3,
+      "rows": 726,
+      "concreteProducts": 242,
+      "catalogRows": 636,
+      "catalogProducts": 212,
+      "offerRows": 0,
+      "offerProducts": 0,
+      "catalogStatus": "partial_catalog",
+      "catalogImporterProductCount": 230,
+      "sourceCoverage": "catalog_plus_offers",
+      "coreGroupsVisible": 7,
+      "coreGroupsTotal": 15,
+      "groups": {
+        "Milch": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Butter": {
+          "rows": 3,
+          "concreteProducts": 1,
+          "catalogProducts": 1,
+          "offerProducts": 0
+        },
+        "Eier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Joghurt": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Käse": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Nudeln": {
+          "rows": 3,
+          "concreteProducts": 1,
+          "catalogProducts": 1,
+          "offerProducts": 0
+        },
+        "Reis": {
+          "rows": 6,
+          "concreteProducts": 2,
+          "catalogProducts": 2,
+          "offerProducts": 0
+        },
+        "Mehl": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Zucker": {
+          "rows": 3,
+          "concreteProducts": 1,
+          "catalogProducts": 1,
+          "offerProducts": 0
+        },
+        "Brot": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Wasser": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Kaffee": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Windeln": {
+          "rows": 36,
+          "concreteProducts": 12,
+          "catalogProducts": 6,
+          "offerProducts": 0
+        },
+        "Waschmittel": {
+          "rows": 3,
+          "concreteProducts": 1,
+          "catalogProducts": 1,
+          "offerProducts": 0
+        },
+        "Toilettenpapier": {
+          "rows": 9,
+          "concreteProducts": 3,
+          "catalogProducts": 3,
+          "offerProducts": 0
+        }
+      }
+    },
+    {
+      "retailer": "EDEKA",
+      "branches": 3,
+      "rows": 14,
+      "concreteProducts": 12,
+      "catalogRows": 0,
+      "catalogProducts": 0,
+      "offerRows": 14,
+      "offerProducts": 12,
+      "catalogStatus": "no_regular_catalog_import",
+      "catalogImporterProductCount": 0,
+      "sourceCoverage": "offers_only",
+      "coreGroupsVisible": 0,
+      "coreGroupsTotal": 15,
+      "groups": {
+        "Milch": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Butter": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Eier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Joghurt": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Käse": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Nudeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Reis": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Mehl": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Zucker": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Brot": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Wasser": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Kaffee": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Windeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Waschmittel": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Toilettenpapier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        }
+      }
+    },
+    {
+      "retailer": "Lidl",
+      "branches": 2,
+      "rows": 2,
+      "concreteProducts": 1,
+      "catalogRows": 0,
+      "catalogProducts": 0,
+      "offerRows": 2,
+      "offerProducts": 1,
+      "catalogStatus": "no_regular_catalog_import",
+      "catalogImporterProductCount": 0,
+      "sourceCoverage": "offers_only",
+      "coreGroupsVisible": 0,
+      "coreGroupsTotal": 15,
+      "groups": {
+        "Milch": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Butter": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Eier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Joghurt": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Käse": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Nudeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Reis": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Mehl": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Zucker": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Brot": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Wasser": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Kaffee": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Windeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Waschmittel": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Toilettenpapier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        }
+      }
+    },
+    {
+      "retailer": "MÜLLER",
+      "branches": 1,
+      "rows": 379,
+      "concreteProducts": 355,
+      "catalogRows": 370,
+      "catalogProducts": 347,
+      "offerRows": 5,
+      "offerProducts": 5,
+      "catalogStatus": "partial_catalog",
+      "catalogImporterProductCount": 370,
+      "sourceCoverage": "catalog_plus_offers",
+      "coreGroupsVisible": 6,
+      "coreGroupsTotal": 15,
+      "groups": {
+        "Milch": {
+          "rows": 2,
+          "concreteProducts": 2,
+          "catalogProducts": 2,
+          "offerProducts": 0
+        },
+        "Butter": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Eier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Joghurt": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Käse": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Nudeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Reis": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Mehl": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Zucker": {
+          "rows": 1,
+          "concreteProducts": 1,
+          "catalogProducts": 1,
+          "offerProducts": 0
+        },
+        "Brot": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Wasser": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Kaffee": {
+          "rows": 3,
+          "concreteProducts": 3,
+          "catalogProducts": 3,
+          "offerProducts": 0
+        },
+        "Windeln": {
+          "rows": 100,
+          "concreteProducts": 86,
+          "catalogProducts": 86,
+          "offerProducts": 0
+        },
+        "Waschmittel": {
+          "rows": 23,
+          "concreteProducts": 23,
+          "catalogProducts": 23,
+          "offerProducts": 1
+        },
+        "Toilettenpapier": {
+          "rows": 10,
+          "concreteProducts": 10,
+          "catalogProducts": 10,
+          "offerProducts": 0
+        }
+      }
+    },
+    {
+      "retailer": "PENNY",
+      "branches": 2,
+      "rows": 104,
+      "concreteProducts": 52,
+      "catalogRows": 0,
+      "catalogProducts": 0,
+      "offerRows": 104,
+      "offerProducts": 52,
+      "catalogStatus": "no_regular_catalog_import",
+      "catalogImporterProductCount": 0,
+      "sourceCoverage": "offers_only",
+      "coreGroupsVisible": 3,
+      "coreGroupsTotal": 15,
+      "groups": {
+        "Milch": {
+          "rows": 4,
+          "concreteProducts": 2,
+          "catalogProducts": 0,
+          "offerProducts": 2
+        },
+        "Butter": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Eier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Joghurt": {
+          "rows": 6,
+          "concreteProducts": 3,
+          "catalogProducts": 0,
+          "offerProducts": 3
+        },
+        "Käse": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Nudeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Reis": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Mehl": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Zucker": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Brot": {
+          "rows": 2,
+          "concreteProducts": 1,
+          "catalogProducts": 0,
+          "offerProducts": 1
+        },
+        "Wasser": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Kaffee": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Windeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Waschmittel": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Toilettenpapier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        }
+      }
+    },
+    {
+      "retailer": "REWE",
+      "branches": 2,
+      "rows": 12,
+      "concreteProducts": 12,
+      "catalogRows": 0,
+      "catalogProducts": 0,
+      "offerRows": 12,
+      "offerProducts": 12,
+      "catalogStatus": "no_regular_catalog_import",
+      "catalogImporterProductCount": 0,
+      "sourceCoverage": "offers_only",
+      "coreGroupsVisible": 4,
+      "coreGroupsTotal": 15,
+      "groups": {
+        "Milch": {
+          "rows": 1,
+          "concreteProducts": 1,
+          "catalogProducts": 0,
+          "offerProducts": 1
+        },
+        "Butter": {
+          "rows": 1,
+          "concreteProducts": 1,
+          "catalogProducts": 0,
+          "offerProducts": 1
+        },
+        "Eier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Joghurt": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Käse": {
+          "rows": 2,
+          "concreteProducts": 2,
+          "catalogProducts": 0,
+          "offerProducts": 2
+        },
+        "Nudeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Reis": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Mehl": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Zucker": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Brot": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Wasser": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Kaffee": {
+          "rows": 1,
+          "concreteProducts": 1,
+          "catalogProducts": 0,
+          "offerProducts": 1
+        },
+        "Windeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Waschmittel": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Toilettenpapier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        }
+      }
+    },
+    {
+      "retailer": "ROSSMANN",
+      "branches": 1,
+      "rows": 65,
+      "concreteProducts": 65,
+      "catalogRows": 47,
+      "catalogProducts": 47,
+      "offerRows": 0,
+      "offerProducts": 0,
+      "catalogStatus": "partial_catalog",
+      "catalogImporterProductCount": 47,
+      "sourceCoverage": "catalog_plus_offers",
+      "coreGroupsVisible": 2,
+      "coreGroupsTotal": 15,
+      "groups": {
+        "Milch": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Butter": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Eier": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Joghurt": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Käse": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Nudeln": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Reis": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Mehl": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Zucker": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Brot": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Wasser": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Kaffee": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Windeln": {
+          "rows": 13,
+          "concreteProducts": 13,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Waschmittel": {
+          "rows": 0,
+          "concreteProducts": 0,
+          "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Toilettenpapier": {
+          "rows": 2,
+          "concreteProducts": 2,
+          "catalogProducts": 2,
+          "offerProducts": 0
+        }
+      }
+    }
+  ],
+  "findings": {
+    "missingRegularCatalog": [
+      "ALDI SÜD",
+      "EDEKA",
+      "Lidl",
+      "PENNY",
+      "REWE"
+    ],
+    "sparseCoreGroups": [
+      {
+        "group": "Butter",
+        "count": 3
+      },
+      {
+        "group": "Eier",
+        "count": 0
+      },
+      {
+        "group": "Joghurt",
+        "count": 3
+      },
+      {
+        "group": "Käse",
+        "count": 2
+      },
+      {
+        "group": "Nudeln",
+        "count": 1
+      },
+      {
+        "group": "Reis",
+        "count": 2
+      },
+      {
+        "group": "Mehl",
+        "count": 0
+      },
+      {
+        "group": "Zucker",
+        "count": 2
+      },
+      {
+        "group": "Brot",
+        "count": 1
+      },
+      {
+        "group": "Wasser",
+        "count": 0
+      },
+      {
+        "group": "Kaffee",
+        "count": 4
+      }
+    ],
+    "note": "Abdeckung misst ausschließlich die aktuell importierten Daten. Sie beweist nicht die reale Sortimentsgröße eines Händlers."
+  }
+}
