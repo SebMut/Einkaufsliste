@@ -8,7 +8,7 @@
         "height": 900
       },
       "defined": 13,
-      "covered": 3,
+      "covered": 5,
       "andechser": 2,
       "coveredItems": [
         {
@@ -19,11 +19,25 @@
           "price": "🔥 0,29 €"
         },
         {
+          "staple": "Quark",
+          "missing": false,
+          "product": "EDEKA Herzstücke High Protein fettarme Quarkcreme",
+          "store": "EDEKA · Berghammer Feldkirchen · 200g",
+          "price": "🔥 0,99 €"
+        },
+        {
           "staple": "Nudeln",
           "missing": false,
           "product": "Marke: dmBio; Produktname: Pasta Bucatini No 6, 500 g;",
           "store": "dm · München-Riem Arcaden · 500 g",
           "price": "1,95 €"
+        },
+        {
+          "staple": "Reis",
+          "missing": false,
+          "product": "Himalaya Basmatireis",
+          "store": "ALDI SÜD · Aschheim · 1,1 kg",
+          "price": "🔥 3,17 €"
         },
         {
           "staple": "Kartoffeln",
@@ -77,21 +91,7 @@
           "price": "–"
         },
         {
-          "staple": "Quark",
-          "missing": true,
-          "product": "",
-          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
-          "price": "–"
-        },
-        {
           "staple": "Brot",
-          "missing": true,
-          "product": "",
-          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
-          "price": "–"
-        },
-        {
-          "staple": "Reis",
           "missing": true,
           "product": "",
           "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
@@ -115,7 +115,7 @@
         "height": 844
       },
       "defined": 13,
-      "covered": 3,
+      "covered": 5,
       "andechser": 2,
       "coveredItems": [
         {
@@ -126,11 +126,25 @@
           "price": "🔥 0,29 €"
         },
         {
+          "staple": "Quark",
+          "missing": false,
+          "product": "EDEKA Herzstücke High Protein fettarme Quarkcreme",
+          "store": "EDEKA · Berghammer Feldkirchen · 200g",
+          "price": "🔥 0,99 €"
+        },
+        {
           "staple": "Nudeln",
           "missing": false,
           "product": "Marke: dmBio; Produktname: Pasta Bucatini No 6, 500 g;",
           "store": "dm · München-Riem Arcaden · 500 g",
           "price": "1,95 €"
+        },
+        {
+          "staple": "Reis",
+          "missing": false,
+          "product": "Himalaya Basmatireis",
+          "store": "ALDI SÜD · Aschheim · 1,1 kg",
+          "price": "🔥 3,17 €"
         },
         {
           "staple": "Kartoffeln",
@@ -184,21 +198,7 @@
           "price": "–"
         },
         {
-          "staple": "Quark",
-          "missing": true,
-          "product": "",
-          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
-          "price": "–"
-        },
-        {
           "staple": "Brot",
-          "missing": true,
-          "product": "",
-          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
-          "price": "–"
-        },
-        {
-          "staple": "Reis",
           "missing": true,
           "product": "",
           "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
