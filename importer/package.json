@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "markets": "node build-markets.js",
-    "import": "node import.js",
+    "import": "node import.js && node rewe-staples-import.js",
     "catalog": "node catalog-import.js",
     "merge": "node catalog-merge.js",
     "fallback": "node fallback.js",
