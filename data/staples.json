@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "title": "Unsere Grundlebensmittel",
-  "updatedAt": "2026-08-20T11:35:00+02:00",
-  "description": "Persönliche Standardprodukte. Konkrete Markenprodukte werden streng gematcht; allgemeine Gruppen werden semantisch verglichen. Die Liste wird gemeinsam weiter verfeinert.",
+  "updatedAt": "2026-08-20T13:36:00+02:00",
+  "description": "Persönliche Standardprodukte. Konkrete Markenprodukte werden streng gematcht; allgemeine Gruppen werden nur dann verglichen, wenn sie wirklich als direkte Alternativen taugen. Die Liste wird gemeinsam weiter verfeinert.",
   "items": [
     {
       "id": "andechser-bio-milch-glas",
@@ -11,8 +11,9 @@
       "brand": "Andechser",
       "semanticGroups": ["Milch"],
       "requiredAny": ["milch", "vollmilch", "frischmilch"],
-      "preferredAny": ["bio", "glas", "glasflasche", "mehrweg"],
-      "excludedAny": ["joghurt", "butter", "käse", "kaese", "quark", "milchreis", "milchschokolade"],
+      "requiredAnyGroups": [["glasflasche", "glas", "mehrweg"]],
+      "preferredAny": ["bio"],
+      "excludedAny": ["joghurt", "butter", "käse", "kaese", "quark", "milchreis", "milchschokolade", "kokosmilch", "babymilch"],
       "bioRequired": true,
       "icon": "🥛",
       "active": true
@@ -23,7 +24,7 @@
       "mode": "exact",
       "brand": "Andechser",
       "semanticGroups": ["Butter"],
-      "requiredAny": ["butter", "markenbutter"],
+      "requiredAny": ["butter", "markenbutter", "almbutter"],
       "excludedAny": ["butterkeks", "erdnussbutter", "kakaobutter"],
       "icon": "🧈",
       "active": true
@@ -45,7 +46,7 @@
       "brand": "Adelholzener",
       "semanticGroups": ["Wasser", "Mineralwasser"],
       "requiredAny": ["wasser", "mineralwasser"],
-      "excludedAny": ["schorle", "limo", "limonade", "saft"],
+      "excludedAny": ["schorle", "limo", "limonade", "saft", "energy"],
       "icon": "💧",
       "active": true
     },
@@ -54,37 +55,38 @@
       "name": "Alkoholfreies Bier",
       "mode": "group",
       "semanticGroups": ["Bier", "Alkoholfreies Bier"],
-      "requiredAll": ["alkoholfrei"],
-      "requiredAny": ["bier", "pils", "weissbier", "weißbier", "weizen"],
+      "requiredAnyGroups": [
+        ["alkoholfrei", "0 0", "0,0", "0.0"],
+        ["bier", "pils", "weissbier", "weißbier", "weizen", "helles", "hefeweizen"]
+      ],
+      "excludedAny": ["radler"],
       "icon": "🍺",
       "active": true
     },
     {
       "id": "bio-obst",
-      "name": "Bio-Obst",
+      "name": "Bio-Obst – Sorten noch definieren",
       "mode": "group",
-      "categoryContains": ["obst", "gemüse", "gemuese"],
-      "requiredAny": ["apfel", "äpfel", "aepfel", "banane", "birne", "beeren", "trauben", "orange", "mandarine", "zitrone", "kiwi", "mango", "obst"],
-      "bioRequired": true,
       "icon": "🍎",
-      "active": true
+      "active": false,
+      "needsDefinition": true,
+      "note": "Äpfel, Bananen, Beeren usw. werden nicht als direkt austauschbare Produkte gegeneinander gerechnet."
     },
     {
       "id": "bio-gemuese",
-      "name": "Bio-Gemüse",
+      "name": "Bio-Gemüse – Sorten noch definieren",
       "mode": "group",
-      "categoryContains": ["obst", "gemüse", "gemuese"],
-      "requiredAny": ["tomate", "gurke", "paprika", "karotte", "möhre", "moehre", "zucchini", "brokkoli", "blumenkohl", "salat", "gemüse", "gemuese"],
-      "bioRequired": true,
       "icon": "🥦",
-      "active": true
+      "active": false,
+      "needsDefinition": true,
+      "note": "Tomaten, Gurken, Paprika usw. werden nicht als direkt austauschbare Produkte gegeneinander gerechnet."
     },
     {
       "id": "halloumi",
       "name": "Halloumi",
       "mode": "group",
       "semanticGroups": ["Halloumi", "Käse", "Kaese"],
-      "requiredAny": ["halloumi", "grillkäse", "grillkaese"],
+      "requiredAny": ["halloumi"],
       "icon": "🧀",
       "active": true
     },
@@ -94,6 +96,7 @@
       "mode": "group",
       "semanticGroups": ["Eier"],
       "requiredAny": ["eier", "hühnereier", "huehnereier"],
+      "excludedAny": ["schoko eier", "schokoeier", "überraschungsei", "ueberraschungsei"],
       "bioPreferred": true,
       "icon": "🥚",
       "active": true
@@ -121,8 +124,8 @@
       "name": "Brot",
       "mode": "group",
       "semanticGroups": ["Brot"],
-      "requiredAny": ["brot", "vollkornbrot", "mischbrot"],
-      "excludedAny": ["brotaufstrich", "brotzeit"],
+      "requiredAny": ["brot", "vollkornbrot", "mischbrot", "roggenbrot"],
+      "excludedAny": ["brotaufstrich", "brotzeit", "knäckebrot", "knaeckebrot"],
       "icon": "🍞",
       "active": true
     },
@@ -159,8 +162,8 @@
       "name": "Kartoffeln",
       "mode": "group",
       "semanticGroups": ["Kartoffeln"],
-      "requiredAny": ["kartoffel", "kartoffeln"],
-      "excludedAny": ["kartoffelchips", "chips", "kartoffelpüree", "kartoffelpuree"],
+      "requiredAny": ["kartoffel", "kartoffeln", "speisekartoffeln"],
+      "excludedAny": ["kartoffelchips", "chips", "kartoffelpüree", "kartoffelpuree", "kartoffelsalat"],
       "bioPreferred": true,
       "icon": "🥔",
       "active": true
