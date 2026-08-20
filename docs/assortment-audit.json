@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T06:46:08.020Z",
-  "liveGeneratedAt": "2026-08-20T05:55:13.796Z",
-  "liveProductRows": 1356,
-  "liveConcreteProducts": 766,
-  "catalogIndexGeneratedAt": "2026-08-20T05:10:20.477Z",
-  "catalogImporterProducts": 647,
+  "generatedAt": "2026-08-20T08:29:37.035Z",
+  "liveGeneratedAt": "2026-08-20T08:28:18.166Z",
+  "liveProductRows": 1363,
+  "liveConcreteProducts": 775,
+  "catalogIndexGeneratedAt": "2026-08-20T08:28:12.975Z",
+  "catalogImporterProducts": 650,
   "importantGroups": [
     "Milch",
     "Butter",
@@ -61,9 +61,9 @@
       "offerProducts": 0
     },
     "Reis": {
-      "rows": 6,
-      "concreteProducts": 2,
-      "catalogProducts": 2,
+      "rows": 3,
+      "concreteProducts": 1,
+      "catalogProducts": 1,
       "offerProducts": 0
     },
     "Mehl": {
@@ -91,27 +91,27 @@
       "offerProducts": 0
     },
     "Kaffee": {
-      "rows": 4,
-      "concreteProducts": 4,
-      "catalogProducts": 3,
+      "rows": 3,
+      "concreteProducts": 3,
+      "catalogProducts": 2,
       "offerProducts": 1
     },
     "Windeln": {
-      "rows": 149,
-      "concreteProducts": 111,
-      "catalogProducts": 92,
+      "rows": 152,
+      "concreteProducts": 116,
+      "catalogProducts": 97,
       "offerProducts": 0
     },
     "Waschmittel": {
-      "rows": 26,
-      "concreteProducts": 24,
-      "catalogProducts": 24,
-      "offerProducts": 1
+      "rows": 27,
+      "concreteProducts": 25,
+      "catalogProducts": 25,
+      "offerProducts": 0
     },
     "Toilettenpapier": {
-      "rows": 21,
-      "concreteProducts": 15,
-      "catalogProducts": 15,
+      "rows": 23,
+      "concreteProducts": 17,
+      "catalogProducts": 17,
       "offerProducts": 0
     }
   },
@@ -226,14 +226,14 @@
     {
       "retailer": "dm",
       "branches": 3,
-      "rows": 726,
-      "concreteProducts": 242,
-      "catalogRows": 636,
-      "catalogProducts": 212,
+      "rows": 729,
+      "concreteProducts": 243,
+      "catalogRows": 639,
+      "catalogProducts": 213,
       "offerRows": 0,
       "offerProducts": 0,
       "catalogStatus": "partial_catalog",
-      "catalogImporterProductCount": 230,
+      "catalogImporterProductCount": 229,
       "sourceCoverage": "catalog_plus_offers",
       "coreGroupsVisible": 7,
       "coreGroupsTotal": 15,
@@ -275,9 +275,9 @@
           "offerProducts": 0
         },
         "Reis": {
-          "rows": 6,
-          "concreteProducts": 2,
-          "catalogProducts": 2,
+          "rows": 3,
+          "concreteProducts": 1,
+          "catalogProducts": 1,
           "offerProducts": 0
         },
         "Mehl": {
@@ -547,14 +547,14 @@
     {
       "retailer": "MÜLLER",
       "branches": 1,
-      "rows": 379,
-      "concreteProducts": 355,
-      "catalogRows": 370,
-      "catalogProducts": 347,
+      "rows": 363,
+      "concreteProducts": 343,
+      "catalogRows": 354,
+      "catalogProducts": 335,
       "offerRows": 5,
       "offerProducts": 5,
       "catalogStatus": "partial_catalog",
-      "catalogImporterProductCount": 370,
+      "catalogImporterProductCount": 354,
       "sourceCoverage": "catalog_plus_offers",
       "coreGroupsVisible": 6,
       "coreGroupsTotal": 15,
@@ -626,27 +626,27 @@
           "offerProducts": 0
         },
         "Kaffee": {
-          "rows": 3,
-          "concreteProducts": 3,
-          "catalogProducts": 3,
+          "rows": 2,
+          "concreteProducts": 2,
+          "catalogProducts": 2,
           "offerProducts": 0
         },
         "Windeln": {
-          "rows": 100,
-          "concreteProducts": 86,
-          "catalogProducts": 86,
+          "rows": 94,
+          "concreteProducts": 82,
+          "catalogProducts": 82,
           "offerProducts": 0
         },
         "Waschmittel": {
-          "rows": 23,
-          "concreteProducts": 23,
-          "catalogProducts": 23,
-          "offerProducts": 1
+          "rows": 20,
+          "concreteProducts": 20,
+          "catalogProducts": 20,
+          "offerProducts": 0
         },
         "Toilettenpapier": {
-          "rows": 10,
-          "concreteProducts": 10,
-          "catalogProducts": 10,
+          "rows": 12,
+          "concreteProducts": 12,
+          "catalogProducts": 12,
           "offerProducts": 0
         }
       }
@@ -868,16 +868,16 @@
     {
       "retailer": "ROSSMANN",
       "branches": 1,
-      "rows": 65,
-      "concreteProducts": 65,
-      "catalogRows": 47,
-      "catalogProducts": 47,
+      "rows": 85,
+      "concreteProducts": 85,
+      "catalogRows": 67,
+      "catalogProducts": 67,
       "offerRows": 0,
       "offerProducts": 0,
       "catalogStatus": "partial_catalog",
-      "catalogImporterProductCount": 47,
+      "catalogImporterProductCount": 67,
       "sourceCoverage": "catalog_plus_offers",
-      "coreGroupsVisible": 2,
+      "coreGroupsVisible": 3,
       "coreGroupsTotal": 15,
       "groups": {
         "Milch": {
@@ -953,15 +953,15 @@
           "offerProducts": 0
         },
         "Windeln": {
-          "rows": 13,
-          "concreteProducts": 13,
-          "catalogProducts": 0,
+          "rows": 22,
+          "concreteProducts": 22,
+          "catalogProducts": 9,
           "offerProducts": 0
         },
         "Waschmittel": {
-          "rows": 0,
-          "concreteProducts": 0,
-          "catalogProducts": 0,
+          "rows": 4,
+          "concreteProducts": 4,
+          "catalogProducts": 4,
           "offerProducts": 0
         },
         "Toilettenpapier": {
@@ -1004,7 +1004,7 @@
       },
       {
         "group": "Reis",
-        "count": 2
+        "count": 1
       },
       {
         "group": "Mehl",
@@ -1024,7 +1024,7 @@
       },
       {
         "group": "Kaffee",
-        "count": 4
+        "count": 3
       }
     ],
     "note": "Abdeckung misst ausschließlich die aktuell importierten Daten. Sie beweist nicht die reale Sortimentsgröße eines Händlers."
