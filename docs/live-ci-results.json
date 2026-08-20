@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T06:47:39.337Z",
-  "testedCommit": "60cc5c48a6e6529a035554ba1237c8cc01c14931",
-  "runId": "32340933852",
+  "generatedAt": "2026-08-20T08:32:33.700Z",
+  "testedCommit": "23745e2a4f2f0327c6af26e15d90c997e88f3933",
+  "runId": "32349054521",
   "runAttempt": "1",
   "outcomes": {
     "preTests": "success",
@@ -20,15 +20,15 @@
   },
   "diagnostics": {
     "configuredSources": 12,
-    "ok": 11,
+    "ok": 12,
     "loginRequired": 0,
     "credentialsMissing": 0,
     "authErrors": 0,
-    "noData": 1,
+    "noData": 0,
     "errors": 0,
     "skipped": 0,
-    "offerCount": 1358,
-    "liveGeneratedAt": "2026-08-20T06:47:36.830Z",
+    "offerCount": 1366,
+    "liveGeneratedAt": "2026-08-20T08:32:27.083Z",
     "liveDataCurrent": true
   },
   "status": "failed"
