@@ -1,31 +1,15 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-
-const ROOT=path.resolve(process.cwd(),'..');
-const OUT=path.join(ROOT,'docs','catalog-expansion-probe.json');
-const UA='Mozilla/5.0 (compatible; AngebotsRadar/5.4; +https://github.com/SebMut/Einkaufsliste)';
-const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-async function fetchAny(url,{json=true}={}){
-  const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),30000);
-  try{const r=await fetch(url,{headers:{'user-agent':UA,'accept-language':'de-DE,de;q=0.9','accept':json?'application/json':'text/html,application/xhtml+xml'},signal:controller.signal,redirect:'follow'});const text=await r.text();let body=null;if(json){try{body=JSON.parse(text)}catch{}}return{ok:r.ok,status:r.status,url:r.url,text:json?null:text,body,bytes:Buffer.byteLength(text)}}catch(e){return{ok:false,status:0,url,error:String(e?.message||e)}}finally{clearTimeout(timer)}
-}
-const reweProducts=body=>Array.isArray(body?._embedded?.products)?body._embedded.products:[];
-const dmProducts=body=>Array.isArray(body?.products)?body.products:[];
+const ROOT=path.resolve(process.cwd(),'..'),OUT=path.join(ROOT,'docs','catalog-expansion-probe.json');
+const UA='Mozilla/5.0 (compatible; AngebotsRadar/5.4; +https://github.com/SebMut/Einkaufsliste)',sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function fetchAny(url,{json=true}={}){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),30000);try{const r=await fetch(url,{headers:{'user-agent':UA,'accept-language':'de-DE,de;q=0.9','accept':json?'application/json':'text/html,application/xhtml+xml'},signal:controller.signal,redirect:'follow'});const text=await r.text();let body=null;if(json){try{body=JSON.parse(text)}catch{}}return{ok:r.ok,status:r.status,url:r.url,text:json?null:text,body,bytes:Buffer.byteLength(text)}}catch(e){return{ok:false,status:0,url,error:String(e?.message||e)}}finally{clearTimeout(timer)}}
+const reweProducts=b=>Array.isArray(b?._embedded?.products)?b._embedded.products:[],dmProducts=b=>Array.isArray(b?.products)?b.products:[];
 function uniqueProductLinks(html=''){const set=new Set();for(const m of html.matchAll(/href=["']([^"']+)["']/gi)){const href=m[1];if(/rossmann\.de\/de\/.+\/p\//i.test(href)||/\/de\/.+\/p\//i.test(href))set.add(href.split(/[?#]/)[0])}return[...set]}
-const result={schema:2,generatedAt:new Date().toISOString(),rewe:{},dm:{},rossmann:{}};
-
-for(const term of ['*','milch','brot','getränke']){const params=new URLSearchParams({search:term,market:'562345',page:'1',objectsPerPage:'250',sorting:'RELEVANCE_DESC',serviceTypes:'PICKUP'});const r=await fetchAny(`https://shop.rewe.de/api/products?${params}`);const products=reweProducts(r.body);result.rewe[term]={status:r.status,ok:r.ok,products:products.length,totalResultCount:r.body?.pagination?.totalResultCount??null,totalPages:r.body?.pagination?.totalPages??null,objectsPerPage:r.body?.pagination?.objectsPerPage??null,sample:products.slice(0,5).map(p=>p.productName)}}
-
-// dm bewusst langsam abfragen, um 429 zu vermeiden. '*' zeigt den breiten Katalog.
-for(const page of [0,1]){
-  const u=new URL('https://product-search.services.dmtech.com/de/search');u.searchParams.set('query','*');u.searchParams.set('pageSize','500');u.searchParams.set('page',String(page));
-  const r=await fetchAny(u.toString());const products=dmProducts(r.body);result.dm[`starPage${page}`]={status:r.status,ok:r.ok,products:products.length,count:r.body?.count??null,currentPage:r.body?.currentPage??null,pageSize:r.body?.pageSize??null,totalPages:r.body?.totalPages??null,firstProduct:products[0]??null};await sleep(2500);
-}
-for(const query of ['milch','lebensmittel','baby','haushalt']){
-  const u=new URL('https://product-search.services.dmtech.com/de/search');u.searchParams.set('query',query);u.searchParams.set('pageSize','100');
-  const r=await fetchAny(u.toString());const products=dmProducts(r.body);result.dm[query]={status:r.status,ok:r.ok,products:products.length,count:r.body?.count??null,currentPage:r.body?.currentPage??null,pageSize:r.body?.pageSize??null,totalPages:r.body?.totalPages??null,sample:products.slice(0,3)};await sleep(2500);
-}
-
-for(const [name,base] of Object.entries({haushalt:'https://www.rossmann.de/de/haushalt/c/olcat1_3/',pflege:'https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1',baby:'https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2'})){const pages=[];const all=new Set();for(let pageIndex=0;pageIndex<4;pageIndex++){const u=new URL(base);u.searchParams.set('pageIndex',String(pageIndex));const r=await fetchAny(u.toString(),{json:false});const links=uniqueProductLinks(r.text||'');links.forEach(x=>all.add(x));pages.push({pageIndex,status:r.status,bytes:r.bytes||0,productLinks:links.length,sample:links.slice(0,3)})}result.rossmann[name]={uniqueProductLinks:[...all].length,pages}}
-result.summary={reweStarTotal:result.rewe['*']?.totalResultCount??0,reweStarFirstPage:result.rewe['*']?.products??0,dmStarCount:result.dm.starPage0?.count??0,dmStarTotalPages:result.dm.starPage0?.totalPages??0,dmStarPage0:result.dm.starPage0?.products??0,dmStarPage1:result.dm.starPage1?.products??0,rossmannPagePotential:Object.values(result.rossmann).reduce((n,x)=>n+(x.uniqueProductLinks||0),0)};
+const result={schema:3,generatedAt:new Date().toISOString(),rewe:{},dm:{paginationCandidates:{}},rossmann:{}};
+for(const term of ['*','milch','brot','getränke']){const params=new URLSearchParams({search:term,market:'562345',page:'1',objectsPerPage:'250',sorting:'RELEVANCE_DESC',serviceTypes:'PICKUP'}),r=await fetchAny(`https://shop.rewe.de/api/products?${params}`),products=reweProducts(r.body);result.rewe[term]={status:r.status,ok:r.ok,products:products.length,totalResultCount:r.body?.pagination?.totalResultCount??null,totalPages:r.body?.pagination?.totalPages??null,objectsPerPage:r.body?.pagination?.objectsPerPage??null,sample:products.slice(0,5).map(p=>p.productName)}}
+async function dmCall(extra={}){const u=new URL('https://product-search.services.dmtech.com/de/search');u.searchParams.set('query','*');u.searchParams.set('pageSize','48');for(const[k,v]of Object.entries(extra))u.searchParams.set(k,String(v));const r=await fetchAny(u.toString()),products=dmProducts(r.body);return{status:r.status,ok:r.ok,products:products.length,count:r.body?.count??null,currentPage:r.body?.currentPage??null,pageSize:r.body?.pageSize??null,totalPages:r.body?.totalPages??null,firstDan:products[0]?.dan??null,lastDan:products.at(-1)?.dan??null,firstProduct:products[0]??null}}
+result.dm.base=await dmCall();await sleep(2300);
+for(const [label,params] of Object.entries({page1:{page:1},page2:{page:2},pageNumber1:{pageNumber:1},currentPage1:{currentPage:1},offset48:{offset:48},start48:{start:48}})){result.dm.paginationCandidates[label]=await dmCall(params);await sleep(2300)}
+for(const [name,base] of Object.entries({haushalt:'https://www.rossmann.de/de/haushalt/c/olcat1_3/',pflege:'https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1',baby:'https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2'})){const pages=[],all=new Set();for(let pageIndex=0;pageIndex<2;pageIndex++){const u=new URL(base);u.searchParams.set('pageIndex',String(pageIndex));const r=await fetchAny(u.toString(),{json:false}),links=uniqueProductLinks(r.text||'');links.forEach(x=>all.add(x));pages.push({pageIndex,status:r.status,bytes:r.bytes||0,productLinks:links.length,sample:links.slice(0,3)})}result.rossmann[name]={uniqueProductLinks:[...all].length,pages}}
+result.summary={reweStarTotal:result.rewe['*']?.totalResultCount??0,dmCount:result.dm.base?.count??0,dmPageSize:result.dm.base?.pageSize??0,dmTotalPages:result.dm.base?.totalPages??0,dmPagination:Object.fromEntries(Object.entries(result.dm.paginationCandidates).map(([k,v])=>[k,{currentPage:v.currentPage,firstDan:v.firstDan,lastDan:v.lastDan,status:v.status}]))};
 await fs.mkdir(path.dirname(OUT),{recursive:true});await fs.writeFile(OUT,JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result.summary,null,2));
