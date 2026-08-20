@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T06:18:11.621Z",
-  "testedCommit": "b264e2990ad7bae89208f04e1202f48b1c7b8c09",
-  "runId": "32338880059",
+  "generatedAt": "2026-08-20T06:47:39.337Z",
+  "testedCommit": "60cc5c48a6e6529a035554ba1237c8cc01c14931",
+  "runId": "32340933852",
   "runAttempt": "1",
   "outcomes": {
     "preTests": "success",
@@ -27,8 +27,8 @@
     "noData": 1,
     "errors": 0,
     "skipped": 0,
-    "offerCount": 1357,
-    "liveGeneratedAt": "2026-08-20T06:18:09.096Z",
+    "offerCount": 1358,
+    "liveGeneratedAt": "2026-08-20T06:47:36.830Z",
     "liveDataCurrent": true
   },
   "status": "failed"
