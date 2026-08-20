@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T12:29:45.457Z",
-  "liveGeneratedAt": "2026-08-20T12:28:54.292Z",
-  "liveProductRows": 1358,
-  "liveConcreteProducts": 774,
+  "generatedAt": "2026-08-20T13:37:09.726Z",
+  "liveGeneratedAt": "2026-08-20T12:31:43.129Z",
+  "liveProductRows": 1605,
+  "liveConcreteProducts": 1026,
   "catalogIndexGeneratedAt": "2026-08-20T08:28:12.975Z",
   "catalogImporterProducts": 650,
   "importantGroups": [
@@ -37,16 +37,16 @@
       "offerProducts": 2
     },
     "Eier": {
-      "rows": 0,
-      "concreteProducts": 0,
+      "rows": 29,
+      "concreteProducts": 29,
       "catalogProducts": 0,
-      "offerProducts": 0
+      "offerProducts": 4
     },
     "Joghurt": {
-      "rows": 6,
-      "concreteProducts": 3,
+      "rows": 40,
+      "concreteProducts": 37,
       "catalogProducts": 0,
-      "offerProducts": 3
+      "offerProducts": 5
     },
     "Käse": {
       "rows": 2,
@@ -55,20 +55,20 @@
       "offerProducts": 2
     },
     "Nudeln": {
-      "rows": 3,
-      "concreteProducts": 1,
+      "rows": 37,
+      "concreteProducts": 35,
       "catalogProducts": 1,
       "offerProducts": 0
     },
     "Reis": {
-      "rows": 3,
-      "concreteProducts": 1,
+      "rows": 24,
+      "concreteProducts": 22,
       "catalogProducts": 1,
       "offerProducts": 0
     },
     "Mehl": {
-      "rows": 0,
-      "concreteProducts": 0,
+      "rows": 26,
+      "concreteProducts": 26,
       "catalogProducts": 0,
       "offerProducts": 0
     },
@@ -79,14 +79,14 @@
       "offerProducts": 0
     },
     "Brot": {
-      "rows": 2,
-      "concreteProducts": 1,
+      "rows": 20,
+      "concreteProducts": 19,
       "catalogProducts": 0,
       "offerProducts": 1
     },
     "Wasser": {
-      "rows": 0,
-      "concreteProducts": 0,
+      "rows": 26,
+      "concreteProducts": 26,
       "catalogProducts": 0,
       "offerProducts": 0
     },
@@ -119,12 +119,12 @@
     {
       "retailer": "ALDI SÜD",
       "branches": 2,
-      "rows": 54,
-      "concreteProducts": 27,
+      "rows": 44,
+      "concreteProducts": 22,
       "catalogRows": 0,
       "catalogProducts": 0,
-      "offerRows": 16,
-      "offerProducts": 8,
+      "offerRows": 26,
+      "offerProducts": 13,
       "catalogStatus": "no_regular_catalog_import",
       "catalogImporterProductCount": 0,
       "sourceCoverage": "offers_only",
@@ -761,16 +761,16 @@
     {
       "retailer": "REWE",
       "branches": 3,
-      "rows": 14,
-      "concreteProducts": 14,
+      "rows": 270,
+      "concreteProducts": 270,
       "catalogRows": 0,
       "catalogProducts": 0,
-      "offerRows": 14,
-      "offerProducts": 14,
+      "offerRows": 25,
+      "offerProducts": 25,
       "catalogStatus": "no_regular_catalog_import",
       "catalogImporterProductCount": 0,
       "sourceCoverage": "offers_only",
-      "coreGroupsVisible": 4,
+      "coreGroupsVisible": 11,
       "coreGroupsTotal": 15,
       "groups": {
         "Milch": {
@@ -786,16 +786,16 @@
           "offerProducts": 1
         },
         "Eier": {
-          "rows": 0,
-          "concreteProducts": 0,
+          "rows": 29,
+          "concreteProducts": 29,
           "catalogProducts": 0,
-          "offerProducts": 0
+          "offerProducts": 4
         },
         "Joghurt": {
-          "rows": 0,
-          "concreteProducts": 0,
+          "rows": 34,
+          "concreteProducts": 34,
           "catalogProducts": 0,
-          "offerProducts": 0
+          "offerProducts": 2
         },
         "Käse": {
           "rows": 2,
@@ -804,20 +804,20 @@
           "offerProducts": 2
         },
         "Nudeln": {
-          "rows": 0,
-          "concreteProducts": 0,
+          "rows": 34,
+          "concreteProducts": 34,
           "catalogProducts": 0,
           "offerProducts": 0
         },
         "Reis": {
-          "rows": 0,
-          "concreteProducts": 0,
+          "rows": 21,
+          "concreteProducts": 21,
           "catalogProducts": 0,
           "offerProducts": 0
         },
         "Mehl": {
-          "rows": 0,
-          "concreteProducts": 0,
+          "rows": 26,
+          "concreteProducts": 26,
           "catalogProducts": 0,
           "offerProducts": 0
         },
@@ -828,14 +828,14 @@
           "offerProducts": 0
         },
         "Brot": {
-          "rows": 0,
-          "concreteProducts": 0,
+          "rows": 18,
+          "concreteProducts": 18,
           "catalogProducts": 0,
           "offerProducts": 0
         },
         "Wasser": {
-          "rows": 0,
-          "concreteProducts": 0,
+          "rows": 26,
+          "concreteProducts": 26,
           "catalogProducts": 0,
           "offerProducts": 0
         },
@@ -868,8 +868,8 @@
     {
       "retailer": "ROSSMANN",
       "branches": 1,
-      "rows": 85,
-      "concreteProducts": 85,
+      "rows": 86,
+      "concreteProducts": 86,
       "catalogRows": 67,
       "catalogProducts": 67,
       "offerRows": 0,
@@ -987,40 +987,12 @@
         "count": 3
       },
       {
-        "group": "Eier",
-        "count": 0
-      },
-      {
-        "group": "Joghurt",
-        "count": 3
-      },
-      {
         "group": "Käse",
         "count": 2
       },
       {
-        "group": "Nudeln",
-        "count": 1
-      },
-      {
-        "group": "Reis",
-        "count": 1
-      },
-      {
-        "group": "Mehl",
-        "count": 0
-      },
-      {
         "group": "Zucker",
         "count": 2
-      },
-      {
-        "group": "Brot",
-        "count": 1
-      },
-      {
-        "group": "Wasser",
-        "count": 0
       },
       {
         "group": "Kaffee",
