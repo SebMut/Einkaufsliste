@@ -1,0 +1,335 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-20T13:37:21.413Z",
+  "rewe": {
+    "*": {
+      "status": 200,
+      "ok": true,
+      "products": 255,
+      "totalResultCount": 10000,
+      "totalPages": 40,
+      "objectsPerPage": 250,
+      "sample": [
+        "Salatgurke 1 Stück",
+        "WC Frisch Kraft-Aktiv Frische Brise 50g",
+        "WC Frisch Kraft-Aktiv Hawaii 50g",
+        "Lauchzwiebeln im Bund",
+        "WC Frisch WC Reiniger Gel Kraft Aktiv Ozeanfrische 750ml"
+      ]
+    },
+    "milch": {
+      "status": 200,
+      "ok": true,
+      "products": 254,
+      "totalResultCount": 745,
+      "totalPages": 3,
+      "objectsPerPage": 250,
+      "sample": [
+        "Berchtesgadener Land Haltbare Bergbauern-Milch 1,5% 1l",
+        "yfood Trinkmahlzeit Classic Choco 500ml",
+        "yfood Trinkmahlzeit Fruity Mango 500ml",
+        "Rottaler H-Vollmilch 3.5% 0,2l",
+        "Danone Actimel Drink Erdbeere 8x100g"
+      ]
+    },
+    "brot": {
+      "status": 200,
+      "ok": true,
+      "products": 250,
+      "totalResultCount": 703,
+      "totalPages": 3,
+      "objectsPerPage": 250,
+      "sample": [
+        "Fritz Mühlenbäckerei Bio Sonnenblumenbrot 500g",
+        "Fritz Mühlenbäckerei Bio Roggenbrot 750g",
+        "Fritz Mühlenbäckerei Bio Sportler Brot 750g",
+        "UNSER LAND Bio Feines Roggenbrot 500g",
+        "UNSER LAND Bio Brot Dinkelwonne 500g"
+      ]
+    },
+    "getränke": {
+      "status": 200,
+      "ok": true,
+      "products": 255,
+      "totalResultCount": 3142,
+      "totalPages": 13,
+      "objectsPerPage": 250,
+      "sample": [
+        "HYDR8 Elektrolyt-Getränk Zitrone-Limette 6x0,5l",
+        "Red Bull Energy Drink 6x0,25l",
+        "Lipton Ice Tea Zitrone Zero Zucker 6x1,25l",
+        "Hydr8 Zitrone-Limette Elektrolyt-Getränk 0,5l",
+        "Lipton Sensations Pink Ice Tea Peach Paradise 6x1l"
+      ]
+    }
+  },
+  "dm": {
+    "*": {
+      "status": 200,
+      "ok": true,
+      "products": 500,
+      "topLevelKeys": [
+        "products",
+        "facets",
+        "count",
+        "currentPage",
+        "pageSize",
+        "totalPages"
+      ],
+      "total": null,
+      "sample": [
+        {
+          "dan": 1292653,
+          "brand": "Soft&Sicher",
+          "title": "Taschentücher Box Design, 100 St",
+          "price": null
+        },
+        {
+          "dan": 1157201,
+          "brand": "babylove",
+          "title": "Reinigungs Wattepads, 60 St",
+          "price": null
+        },
+        {
+          "dan": 3087729,
+          "brand": "Sportness",
+          "title": "Proteinriegel 30%, Popcorn-Salted-Caramel-Geschmack, 40 g",
+          "price": null
+        },
+        {
+          "dan": 1587820,
+          "brand": "Sanft&Sicher",
+          "title": "Toilettenpapier Saison 3lagig (8x180 Blatt), 8 St",
+          "price": null
+        },
+        {
+          "dan": 1045634,
+          "brand": "babylove",
+          "title": "Feuchte Waschlappen, 80 St",
+          "price": null
+        }
+      ]
+    },
+    "milch": {
+      "status": 200,
+      "ok": true,
+      "products": 41,
+      "topLevelKeys": [
+        "products",
+        "facets",
+        "count",
+        "currentPage",
+        "pageSize",
+        "totalPages",
+        "predictedCategory"
+      ],
+      "total": null,
+      "sample": [
+        {
+          "dan": 1507718,
+          "brand": "Berchtesgadener Land",
+          "title": "Milch, haltbare Alpenmilch, 1,5% Fett, laktosefrei, 1 l",
+          "price": null
+        },
+        {
+          "dan": 1507717,
+          "brand": "Berchtesgadener Land",
+          "title": "Milch, haltbare Alpenmilch, 3,5% Fett, laktosefrei, 1 l",
+          "price": null
+        },
+        {
+          "dan": 1455021,
+          "brand": "dmBio",
+          "title": "Milch, haltbare Alpenmilch 1,5% Fett, 1 l",
+          "price": null
+        },
+        {
+          "dan": 1455033,
+          "brand": "dmBio",
+          "title": "Milch, haltbare Alpenmilch 3,5% Fett, 1 l",
+          "price": null
+        },
+        {
+          "dan": 1523388,
+          "brand": "Oatly",
+          "title": "Haferdrink, Barista Edition Hafer, 1 l",
+          "price": null
+        }
+      ]
+    },
+    "lebensmittel": {
+      "status": 200,
+      "ok": true,
+      "products": 500,
+      "topLevelKeys": [
+        "products",
+        "facets",
+        "count",
+        "currentPage",
+        "pageSize",
+        "totalPages"
+      ],
+      "total": null,
+      "sample": [
+        {
+          "dan": 1212391,
+          "brand": "Kinder Em-eukal",
+          "title": "Bonbon, Wildkirsche für Kinder, zuckerfrei, 75 g",
+          "price": null
+        },
+        {
+          "dan": 1212389,
+          "brand": "Kinder Em-eukal",
+          "title": "Bonbon, Wildkirsche für Kinder, 75 g",
+          "price": null
+        },
+        {
+          "dan": 3127080,
+          "brand": "dmBio",
+          "title": "Chili con Tofu, 350 g",
+          "price": null
+        },
+        {
+          "dan": 1435253,
+          "brand": "dmBio",
+          "title": "Bratwürstchen, Tofu & Weizeneiweiß, 250 g",
+          "price": null
+        },
+        {
+          "dan": 1689613,
+          "brand": "dmBio",
+          "title": "Tofu, Rosso, 200 g",
+          "price": null
+        }
+      ]
+    },
+    "baby": {
+      "status": 429,
+      "ok": false,
+      "products": 0,
+      "topLevelKeys": [
+        "message"
+      ],
+      "total": null,
+      "sample": []
+    },
+    "haushalt": {
+      "status": 429,
+      "ok": false,
+      "products": 0,
+      "topLevelKeys": [
+        "message"
+      ],
+      "total": null,
+      "sample": []
+    }
+  },
+  "rossmann": {
+    "haushalt": {
+      "uniqueProductLinks": 0,
+      "pages": [
+        {
+          "pageIndex": 0,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        },
+        {
+          "pageIndex": 1,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        },
+        {
+          "pageIndex": 2,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        },
+        {
+          "pageIndex": 3,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        }
+      ]
+    },
+    "pflege": {
+      "uniqueProductLinks": 0,
+      "pages": [
+        {
+          "pageIndex": 0,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        },
+        {
+          "pageIndex": 1,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        },
+        {
+          "pageIndex": 2,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        },
+        {
+          "pageIndex": 3,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        }
+      ]
+    },
+    "baby": {
+      "uniqueProductLinks": 0,
+      "pages": [
+        {
+          "pageIndex": 0,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        },
+        {
+          "pageIndex": 1,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        },
+        {
+          "pageIndex": 2,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        },
+        {
+          "pageIndex": 3,
+          "status": 200,
+          "bytes": 3038,
+          "productLinks": 0,
+          "sample": []
+        }
+      ]
+    }
+  },
+  "summary": {
+    "reweStarTotal": 10000,
+    "reweStarFirstPage": 255,
+    "dmStar": 500,
+    "dmBroadUniquePotential": 1041,
+    "rossmannPagePotential": 0
+  }
+}
