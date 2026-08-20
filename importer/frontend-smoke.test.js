@@ -43,3 +43,12 @@ test('Inline-JavaScript ist syntaktisch gültig',async()=>{
   await fs.writeFile(file,m[1]);
   try{execFileSync(process.execPath,['--check',file],{stdio:'pipe'})}finally{await fs.unlink(file).catch(()=>{})}
 });
+
+
+test('Suche zeigt konkrete Produkte statt nur einer Bundle-Karte',()=>{
+  assert.match(html,/concreteKeyOf=o=>o\.canonicalProductId\|\|o\.exactMatchKey/);
+  assert.match(html,/const key=concreteKeyOf\(o\),bundleKey=keyOf\(o\)/);
+  assert.match(html,/comparisonPool=offers\.filter\(eligible\)\.filter\(o=>keyOf\(o\)===g\.bundleKey\)/);
+  assert.match(html,/data-add=\\"\$\{encodeURIComponent\(p\.g\.bundleKey\)\}/);
+  assert.equal(/lastResult\.length} Produktgruppen/.test(html),false);
+});
