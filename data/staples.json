@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "title": "Unsere Grundlebensmittel",
-  "updatedAt": "2026-08-20T13:36:00+02:00",
+  "updatedAt": "2026-08-20T13:52:00+02:00",
   "description": "Persönliche Standardprodukte. Konkrete Markenprodukte werden streng gematcht; allgemeine Gruppen werden nur dann verglichen, wenn sie wirklich als direkte Alternativen taugen. Die Liste wird gemeinsam weiter verfeinert.",
   "items": [
     {
@@ -125,7 +125,7 @@
       "mode": "group",
       "semanticGroups": ["Brot"],
       "requiredAny": ["brot", "vollkornbrot", "mischbrot", "roggenbrot"],
-      "excludedAny": ["brotaufstrich", "brotzeit", "knäckebrot", "knaeckebrot"],
+      "excludedAny": ["brotaufstrich", "brot aufstrich", "brotzeit", "knäckebrot", "knaeckebrot"],
       "icon": "🍞",
       "active": true
     },
@@ -144,7 +144,7 @@
       "mode": "group",
       "semanticGroups": ["Reis"],
       "requiredAny": ["reis", "basmati", "jasminreis"],
-      "excludedAny": ["milchreis", "reiswaffel", "reisdrink"],
+      "excludedAny": ["milchreis", "reiswaffel", "reisdrink", "hundeleckerli", "hundefutter", "katzenfutter", "tierfutter", "ergänzungsfuttermittel", "erganzungsfuttermittel"],
       "icon": "🍚",
       "active": true
     },
