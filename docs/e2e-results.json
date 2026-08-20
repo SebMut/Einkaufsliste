@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T08:30:03.887Z",
-  "testedCommit": "23745e2a4f2f0327c6af26e15d90c997e88f3933",
-  "runId": "32349054489",
+  "generatedAt": "2026-08-20T08:38:25.644Z",
+  "testedCommit": "f5d6cae0644d3b1864747e84ed09f72c983057f8",
+  "runId": "32349753854",
   "runAttempt": "1",
-  "status": "failed",
-  "exitCode": 1,
+  "status": "passed",
+  "exitCode": 0,
   "viewports": [
     "Desktop 1440x900",
     "iPhone 390x844"
