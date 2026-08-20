@@ -1,0 +1,465 @@
+{
+  "schema": 2,
+  "generatedAt": "2026-08-20T14:55:52.899Z",
+  "retailers": {
+    "REWE": {
+      "markets": {
+        "Feldkirchen": {
+          "id": "461761",
+          "pickup": {
+            "status": 200,
+            "ok": true,
+            "products": 0,
+            "totalResultCount": 0,
+            "totalPages": 0,
+            "market": null
+          },
+          "none": {
+            "status": 200,
+            "ok": true,
+            "products": 0,
+            "totalResultCount": 0,
+            "totalPages": 0,
+            "market": null
+          }
+        },
+        "Aschheim-Dornach": {
+          "id": "440674",
+          "pickup": {
+            "status": 200,
+            "ok": true,
+            "products": 0,
+            "totalResultCount": 0,
+            "totalPages": 0,
+            "market": null
+          },
+          "none": {
+            "status": 200,
+            "ok": true,
+            "products": 0,
+            "totalResultCount": 0,
+            "totalPages": 0,
+            "market": null
+          }
+        },
+        "Aschheim": {
+          "id": "562345",
+          "pickup": {
+            "status": 200,
+            "ok": true,
+            "products": 255,
+            "totalResultCount": 10000,
+            "totalPages": 40,
+            "market": null
+          },
+          "none": {
+            "status": 200,
+            "ok": true,
+            "products": 0,
+            "totalResultCount": 0,
+            "totalPages": 0,
+            "market": null
+          }
+        }
+      }
+    },
+    "ALDI SÜD": {
+      "base": {
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.aldi-sued.de/produkte",
+        "bytes": 1066357,
+        "contentType": "text/html;charset=utf-8",
+        "productLinks": 30,
+        "sampleLinks": [
+          "https://www.aldi-sued.de/produkt/no-brand-doppio-tratto-primitivo-igt-0-75-l-000000000000182791",
+          "https://www.aldi-sued.de/produkt/king-s-crown-sonnenmais-285-g-000000000000192131",
+          "https://www.aldi-sued.de/produkt/milsani-h-schmand-200-g-000000000000202669",
+          "https://www.aldi-sued.de/produkt/milsani-emmentaler-250-g-000000000000202742",
+          "https://www.aldi-sued.de/produkt/coca-cola-cola-original-1-25-l-000000000000202753"
+        ],
+        "jsonScriptSizes": [
+          818056,
+          262
+        ],
+        "title": "Unsere Produkte | ALDI SÜD"
+      },
+      "variants": {
+        "page1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "page2": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=2",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "pageIndex1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?pageIndex=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        }
+      }
+    },
+    "PENNY": {
+      "base": {
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.penny.de/sortiment",
+        "bytes": 479685,
+        "contentType": "text/html;charset=UTF-8",
+        "productLinks": 15,
+        "sampleLinks": [
+          "https://www.penny.de/sortiment/food-for-future/fuer-die-schnelle-kueche/food-for-future-reis-nuggets-vegan",
+          "https://www.penny.de/sortiment/food-for-future/fuers-vegane-fruehstueck/food-for-future-genuss-scheiben-",
+          "https://www.penny.de/sortiment/naturgut/eiskalter-genuss/naturgut-bio-blattspinat",
+          "https://www.penny.de/sortiment/naturgut/fruehstueck/konfituere-himbeer",
+          "https://www.penny.de/sortiment/naturgut/auch-naschen-ist-erlaubt/haferriegel"
+        ],
+        "jsonScriptSizes": [],
+        "title": "Alle Eigenmarken-Produkte entdecken  | PENNY.de"
+      },
+      "variants": {
+        "page1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "page2": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=2",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "pageIndex1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?pageIndex=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        }
+      }
+    },
+    "Lidl": {
+      "base": {
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.lidl.de/c/lidl-plus-sortimentsliste/s10007380",
+        "bytes": 163878,
+        "contentType": "text/html;charset=utf-8",
+        "productLinks": 48,
+        "sampleLinks": [
+          "https://www.lidl.de/c/30-auf-parkside-performance/s10080471",
+          "https://www.lidl.de/c/online-prospekte/s10005610",
+          "https://www.lidl.de/c/lidl-plus-sortimentsliste/s10007380",
+          "https://www.lidl.de/c/essen-trinken/s10068374",
+          "https://www.lidl.de/c/wein-spirituosen/s10067766"
+        ],
+        "jsonScriptSizes": [
+          153
+        ],
+        "title": "Sortimentsliste - Lidl.de\nsearch"
+      },
+      "variants": {
+        "page1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "page2": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=2",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "pageIndex1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?pageIndex=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        }
+      }
+    },
+    "ROSSMANN": {
+      "base": {
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/",
+        "bytes": 3038,
+        "contentType": "text/html; charset=utf-8",
+        "productLinks": 0,
+        "sampleLinks": [],
+        "jsonScriptSizes": [],
+        "title": "Client Challenge"
+      },
+      "variants": {
+        "page1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "page2": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=2",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "pageIndex1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?pageIndex=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        }
+      }
+    },
+    "MÜLLER": {
+      "base": {
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.mueller.de/c/drogerie/alle-drogerie-produkte/",
+        "bytes": 1627274,
+        "contentType": "text/html; charset=utf-8",
+        "productLinks": 60,
+        "sampleLinks": [
+          "https://www.mueller.de/p/softstar-toilettenpapier-das-zuverlaessige-3-lagig-20x200-blatt-IPN2998372/",
+          "https://www.mueller.de/p/gillette-mach3-rasierklingen-2410830/",
+          "https://www.mueller.de/p/hipp-bio-milchnahrung-pre-bio-combiotik-540517/",
+          "https://www.mueller.de/p/softstar-toilettenpapier-das-zaertliche-4-lagig-16x200-blatt-IPN3051074/",
+          "https://www.mueller.de/p/softstar-toilettenpapier-das-zuverlaessige-3-lagig-10x200-blatt-IPN2998370/"
+        ],
+        "jsonScriptSizes": [
+          24132,
+          834,
+          402,
+          241,
+          241
+        ],
+        "title": "Alle Drogerie Produkte online bestellen | MÜLLER"
+      },
+      "variants": {
+        "page1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "page2": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=2",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "pageIndex1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?pageIndex=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        }
+      }
+    },
+    "EDEKA": {
+      "base": {
+        "status": 404,
+        "ok": false,
+        "finalUrl": "https://www.edeka.de/unsere-marken/produkte.jsp",
+        "bytes": 27009,
+        "contentType": "text/html; charset=utf-8",
+        "productLinks": 0,
+        "sampleLinks": [],
+        "jsonScriptSizes": [],
+        "title": "EDEKA - Wir lieben Lebensmittel"
+      },
+      "variants": {
+        "page1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "page2": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=2",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "pageIndex1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?pageIndex=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        }
+      }
+    },
+    "Getränke Haußmann": {
+      "base": {
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.getraenke-haussmann.de/",
+        "bytes": 60354,
+        "contentType": "text/html; charset=UTF-8",
+        "productLinks": 0,
+        "sampleLinks": [],
+        "jsonScriptSizes": [
+          2732
+        ],
+        "title": "Getränkemarkt München mit besonderer Bierauswahl - Getränke Haußmann"
+      },
+      "variants": {
+        "page1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "page2": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?page=2",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        },
+        "pageIndex1": {
+          "status": 0,
+          "ok": false,
+          "finalUrl": "?pageIndex=1",
+          "bytes": 0,
+          "productLinks": 0,
+          "sampleLinks": [],
+          "jsonScriptSizes": [],
+          "title": ""
+        }
+      }
+    },
+    "dm": {
+      "categories": {
+        "Ernährung": {
+          "id": "040000",
+          "status": 200,
+          "count": 1708,
+          "products": 1
+        },
+        "Baby & Kind": {
+          "id": "050000",
+          "status": 200,
+          "count": 3489,
+          "products": 1
+        },
+        "Haushalt": {
+          "id": "060000",
+          "status": 429,
+          "count": null,
+          "products": 0
+        },
+        "Tierprodukte": {
+          "id": "070000",
+          "status": 429,
+          "count": null,
+          "products": 0
+        },
+        "Gesundheit": {
+          "id": "030000",
+          "status": 200,
+          "count": 1948,
+          "products": 1
+        },
+        "Pflege & Duft": {
+          "id": "020000",
+          "status": 429,
+          "count": null,
+          "products": 0
+        },
+        "Haar": {
+          "id": "110000",
+          "status": 200,
+          "count": 1786,
+          "products": 1
+        }
+      }
+    }
+  }
+}
