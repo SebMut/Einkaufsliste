@@ -17,10 +17,19 @@ async function run(label,viewport){
   await page.waitForFunction(()=>/Grundlebensmitteln mit aktuellem Preis/.test(document.querySelector('#status')?.textContent||''),null,{timeout:10000});
   const defined=Number(await page.locator('#defined').textContent()),covered=Number(await page.locator('#covered').textContent()),cards=await page.locator('#grid .card').count();
   assert(defined>=10,`${label}: zu wenige definierte Grundlebensmittel (${defined})`);assert(cards===defined,`${label}: ${cards} Karten bei ${defined} aktiven Definitionen`);assert(covered>=0&&covered<=defined,`${label}: ungültige Abdeckung`);
+  const coverage=await page.locator('#grid .card').evaluateAll(nodes=>nodes.map(card=>({
+    staple:(card.querySelector('.title')?.textContent||'').trim(),
+    missing:card.classList.contains('missing'),
+    product:(card.querySelector('.meta b')?.textContent||'').trim(),
+    store:(card.querySelector('.meta')?.textContent||'').replace((card.querySelector('.meta b')?.textContent||''),'').trim(),
+    price:(card.querySelector('.price b')?.textContent||'').trim()
+  })));
+  const coveredItems=coverage.filter(x=>!x.missing),missingItems=coverage.filter(x=>x.missing);
+  assert(coveredItems.length===covered,`${label}: Abdeckungszähler ${covered} passt nicht zu ${coveredItems.length} sichtbaren Treffern`);
   await page.locator('#q').fill('Andechser');await page.waitForTimeout(150);const andechser=await page.locator('#grid .card').count();assert(andechser>=2,`${label}: Andechser-Suche findet nicht beide Zielprodukte`);
   await page.locator('#q').fill('');await page.locator('[data-filter="missing"]').click();await page.waitForTimeout(100);assert(await page.locator('#grid').count()===1,`${label}: Fehlend-Filter nicht bedienbar`);
   await page.locator('[data-filter="all"]').click();
   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);assert(overflow<=3,`${label}: horizontaler Überlauf ${overflow}px`);assert(errors.length===0,`${label}: JavaScript-Fehler ${errors.join(' | ')}`);
-  results.push({label,viewport,defined,covered,andechser,overflow,errors});await ctx.close();
+  results.push({label,viewport,defined,covered,andechser,coveredItems,missingItems,overflow,errors});await ctx.close();
 }
 try{await run('Desktop',{width:1440,height:900});await run('iPhone',{width:390,height:844});console.log(JSON.stringify({status:'passed',results},null,2))}finally{await browser.close();await new Promise(r=>server.close(r))}
