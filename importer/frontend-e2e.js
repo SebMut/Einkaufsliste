@@ -1,3 +1,4 @@
+// Vollsync-Trigger 2026-08-20: E2E + Live-Import nach Mobile-Overflow-Fix.
 import { chromium } from 'playwright';
 import http from 'node:http';
 import fs from 'node:fs/promises';
