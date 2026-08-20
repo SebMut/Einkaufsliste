@@ -60,6 +60,21 @@ test('Reis schließt Milchreis und Reiswaffeln aus',()=>{
   assert.equal(matchStaple(s,offer({name:'Reiswaffeln',semanticType:'Reiswaffeln',canonicalGroup:'Snacks'})).matches,false);
 });
 
+test('Live-Regressionsfall: RAMA Brotaufstrich ist kein Brot',()=>{
+  const s=byId('brot');
+  const x=offer({name:'RAMA Brot­aufstrich',semanticType:'Brot',canonicalGroup:'Brot',store:'PENNY',price:1.29,unit:3.23,unitLabel:'€/kg'});
+  assert.equal(matchStaple(s,x).matches,false);
+});
+
+test('Live-Regressionsfall: Hunde-Reis-Sticks sind kein Reis-Grundlebensmittel',()=>{
+  const s=byId('reis');
+  const x=offer({
+    name:'Marke: Good Boy; Produktname: Hundeleckerli Hähnchen Reis-Sticks, Adult, 90 g; Rechtliche Kategorie: Ergänzungsfuttermittel;',
+    semanticType:'Reis',canonicalGroup:'Reis',category:'Tierbedarf',store:'dm',price:1.95,unit:21.67,unitLabel:'€/kg'
+  });
+  assert.equal(matchStaple(s,x).matches,false);
+});
+
 test('Gruppenvergleich nutzt bei mehreren Produkten den Grundpreis',()=>{
   const s=byId('nudeln');
   const result=chooseStapleResult(s,[
