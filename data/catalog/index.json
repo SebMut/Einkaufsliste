@@ -1,12 +1,12 @@
 {
   "schema": 4,
-  "generatedAt": "2026-08-20T15:01:53.813Z",
+  "generatedAt": "2026-08-20T15:07:25.374Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
-      "catalogStatus": "partial_catalog",
-      "productCount": 230,
+      "catalogStatus": "full_public_catalog",
+      "productCount": 19917,
       "branchCount": 3,
       "sources": [
         {
@@ -78,6 +78,81 @@
           "htmlBytes": 375324,
           "jsonResponses": 9,
           "networkProducts": 0
+        }
+      ],
+      "sourceType": "official_catalog_full",
+      "categoryReports": [
+        {
+          "category": "Make-up",
+          "id": "010000",
+          "reportedAcrossWindows": 5261,
+          "receivedAcrossWindows": 5261,
+          "windows": 14,
+          "overflowWindows": 0,
+          "errors": 0
+        },
+        {
+          "category": "Pflege & Duft",
+          "id": "020000",
+          "reportedAcrossWindows": 4013,
+          "receivedAcrossWindows": 4013,
+          "windows": 12,
+          "overflowWindows": 0,
+          "errors": 0
+        },
+        {
+          "category": "Gesundheit",
+          "id": "030000",
+          "reportedAcrossWindows": 1948,
+          "receivedAcrossWindows": 1948,
+          "windows": 11,
+          "overflowWindows": 0,
+          "errors": 0
+        },
+        {
+          "category": "Ernährung",
+          "id": "040000",
+          "reportedAcrossWindows": 1708,
+          "receivedAcrossWindows": 1708,
+          "windows": 11,
+          "overflowWindows": 0,
+          "errors": 0
+        },
+        {
+          "category": "Baby & Kind",
+          "id": "050000",
+          "reportedAcrossWindows": 3540,
+          "receivedAcrossWindows": 3540,
+          "windows": 11,
+          "overflowWindows": 0,
+          "errors": 0
+        },
+        {
+          "category": "Haushalt",
+          "id": "060000",
+          "reportedAcrossWindows": 1242,
+          "receivedAcrossWindows": 1242,
+          "windows": 11,
+          "overflowWindows": 0,
+          "errors": 0
+        },
+        {
+          "category": "Tierprodukte",
+          "id": "070000",
+          "reportedAcrossWindows": 517,
+          "receivedAcrossWindows": 517,
+          "windows": 11,
+          "overflowWindows": 0,
+          "errors": 0
+        },
+        {
+          "category": "Haar",
+          "id": "110000",
+          "reportedAcrossWindows": 1785,
+          "receivedAcrossWindows": 1785,
+          "windows": 11,
+          "overflowWindows": 0,
+          "errors": 0
         }
       ]
     },
@@ -189,5 +264,5 @@
     "mueller.json",
     "aldi-sued.json"
   ],
-  "productCount": 4052
+  "productCount": 23739
 }
