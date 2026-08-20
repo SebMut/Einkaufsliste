@@ -1,0 +1,27 @@
+name: ROSSMANN Vollsortiment Browser Probe
+on:
+  push:
+    paths:
+      - '.github/workflows/rossmann-browser-probe.yml'
+      - 'importer/rossmann-browser-probe.js'
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 20}
+      - working-directory: importer
+        run: npm install --no-audit --no-fund && npx playwright install --with-deps chromium
+      - working-directory: importer
+        run: node rossmann-browser-probe.js
+      - run: |
+          git config user.name "AngebotsRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/rossmann-browser-probe.json
+          git commit -m "ROSSMANN Browserprobe aktualisieren [skip ci]" || exit 0
+          git pull --rebase origin main
+          git push origin main
