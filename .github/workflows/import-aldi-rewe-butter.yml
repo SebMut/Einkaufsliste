@@ -1,0 +1,62 @@
+name: ALDI + REWE Feldkirchen Butter Import
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/import-aldi-rewe-butter.yml'
+      - 'importer/aldi-catalog-full-import.js'
+      - 'importer/rewe-feldkirchen-import.js'
+      - 'importer/rewe-market-catalog-import.js'
+      - 'importer/catalog-merge.js'
+      - 'importer/butter-import-audit.js'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    concurrency:
+      group: aldi-rewe-butter-import
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Abhängigkeiten installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+
+      - name: ALDI SÜD Vollsortiment aktualisieren
+        working-directory: importer
+        run: node aldi-catalog-full-import.js
+
+      - name: REWE Feldkirchen 461761 gezielt aktualisieren
+        working-directory: importer
+        run: node rewe-feldkirchen-import.js
+
+      - name: Kataloge in Live-Daten übernehmen
+        working-directory: importer
+        run: node catalog-merge.js
+
+      - name: Butter-Treffer und Relevanz prüfen
+        working-directory: importer
+        run: node butter-import-audit.js
+
+      - name: Importdaten veröffentlichen
+        shell: bash
+        run: |
+          git config user.name "AngebotsRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -- data/catalog/aldi-sued.json data/catalog/index.json data/offers-live.json data/butter-import-audit.json
+          git diff --cached --quiet && exit 0
+          git commit -m "ALDI und REWE Feldkirchen aktualisieren [skip ci]"
+          git pull --rebase origin main
+          git push origin main
