@@ -53,6 +53,9 @@ jobs:
       - name: Abhängigkeiten installieren
         working-directory: importer
         run: npm install --no-audit --no-fund
+      - name: Sortiments-Abdeckung auditieren
+        working-directory: importer
+        run: npm run audit:assortment
       - name: Automatisierte Tests ausführen
         id: tests
         working-directory: importer
@@ -85,15 +88,15 @@ jobs:
           fs.writeFileSync('docs/test-results.json',JSON.stringify(receipt,null,2)+'\n');
           NODE
           cp test-output.tap docs/test-output.tap
-      - name: Korrektur und Testquittung veröffentlichen
+      - name: Korrektur, Audit und Testquittung veröffentlichen
         if: always()
         shell: bash
         run: |
           git config user.name "AngebotsRadar Test Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add index.html importer/frontend-smoke.test.js importer/semantic-products.js docs/test-results.json docs/test-output.tap
+          git add index.html importer/frontend-smoke.test.js importer/semantic-products.js docs/test-results.json docs/test-output.tap docs/assortment-audit.json docs/assortment-audit.html
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Produktsichtbarkeit und Testquittung aktualisieren [skip ci]"
+          git commit -m "Sortiments-Audit und Testquittung aktualisieren [skip ci]"
           git pull --rebase origin main
           git push origin main
       - name: Teststatus bewerten
