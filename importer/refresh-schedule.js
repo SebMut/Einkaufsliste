@@ -9,6 +9,10 @@ export function berlinParts(date=new Date()){
   return Object.fromEntries(parts.filter(p=>p.type!=='literal').map(p=>[p.type,p.value]));
 }
 
+export function isTargetLocalHour(date=new Date()){
+  return TARGET_HOURS.includes(Number(berlinParts(date).hour));
+}
+
 export function shouldRunScheduled(date=new Date()){
   const p=berlinParts(date);
   return Number(p.minute)===0 && TARGET_HOURS.includes(Number(p.hour));
