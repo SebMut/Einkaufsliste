@@ -1,0 +1,57 @@
+name: Grundlebensmittel integrieren
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'grundlebensmittel.html'
+      - 'data/staples.json'
+      - 'importer/staples-matcher.js'
+      - 'importer/staples-matcher.test.js'
+      - 'scripts/add-staples-link.mjs'
+      - '.github/workflows/staples-ui.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: staples-ui
+  cancel-in-progress: true
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Navigation integrieren
+        run: node scripts/add-staples-link.mjs
+      - name: Abhängigkeiten installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+      - name: Vollständige Testsuite
+        working-directory: importer
+        run: npm test
+      - name: Grundlebensmittel-Seite prüfen
+        run: |
+          grep -q 'Unsere Grundlebensmittel' grundlebensmittel.html
+          grep -q 'data/staples.json' grundlebensmittel.html
+          grep -q 'data-staples-nav="1"' index.html
+          grep -q 'Andechser Bio-Milch in der Glasflasche' data/staples.json
+          grep -q 'Adelholzener Mineralwasser' data/staples.json
+          grep -q 'Alkoholfreies Bier' data/staples.json
+          grep -q 'Halloumi' data/staples.json
+      - name: Integration veröffentlichen
+        run: |
+          git config user.name "AngebotsRadar Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Unsere Grundlebensmittel in Startseite integrieren [skip ci]"
+          git pull --rebase origin main
+          git push origin main
