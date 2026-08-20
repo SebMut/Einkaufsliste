@@ -42,10 +42,14 @@ export function matchStaple(staple,offer){
   if(anyGroups.length)reasons.push('required-any-groups');
   const groups=(staple.semanticGroups||[]);
   const groupMatch=groups.some(g=>includesTerm(sem,g)||fold(sem)===fold(g));
+  const authoritativeSemantic=fold(offer.semanticType||'');
+  const semanticTypeMatch=!authoritativeSemantic||groups.some(g=>includesTerm(offer.semanticType,g)||authoritativeSemantic===fold(g));
   const catTerms=(staple.categoryContains||[]);
   const catMatch=catTerms.some(t=>includesTerm(cat,t)||fold(cat).includes(fold(t)));
-  if(groups.length&&!groupMatch&&staple.mode==='exact')return {matches:false,score:-Infinity,reasons:['semantic-group-mismatch']};
+  if(groups.length&&!semanticTypeMatch)return {matches:false,score:-Infinity,reasons:['semantic-type-conflict']};
+  if(groups.length&&!groupMatch&&staple.mode==='exact'&&authoritativeSemantic)return {matches:false,score:-Infinity,reasons:['semantic-group-mismatch']};
   if(groups.length&&groupMatch)reasons.push('semantic-group');
+  if(groups.length&&!authoritativeSemantic&&!groupMatch)reasons.push('text-fallback');
   if(catTerms.length&&!catMatch)return {matches:false,score:-Infinity,reasons:['category-mismatch']};
   if(catTerms.length&&catMatch)reasons.push('category');
   let score=0;
