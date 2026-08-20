@@ -10,6 +10,101 @@
       "defined": 13,
       "covered": 5,
       "andechser": 2,
+      "coveredItems": [
+        {
+          "staple": "Joghurt",
+          "missing": false,
+          "product": "MILPRIMA FruchtiGurt 3,8%",
+          "store": "PENNY · Feldkirchen · 150 g",
+          "price": "🔥 0,29 €"
+        },
+        {
+          "staple": "Brot",
+          "missing": false,
+          "product": "RAMA Brot­aufstrich",
+          "store": "PENNY · Feldkirchen · 400 g",
+          "price": "🔥 1,29 €"
+        },
+        {
+          "staple": "Nudeln",
+          "missing": false,
+          "product": "Marke: dmBio; Produktname: Pasta Bucatini No 6, 500 g;",
+          "store": "dm · München-Riem Arcaden · 500 g",
+          "price": "1,95 €"
+        },
+        {
+          "staple": "Reis",
+          "missing": false,
+          "product": "Marke: Good Boy; Produktname: Hundeleckerli Hähnchen Reis-Sticks, Adult, 90 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
+          "store": "dm · München-Riem Arcaden · 90 g",
+          "price": "1,95 €"
+        },
+        {
+          "staple": "Kartoffeln",
+          "missing": false,
+          "product": "Deutsche Speisefrühkartoffeln* je 4-kg-Netz",
+          "store": "PENNY · Feldkirchen · 1 kg",
+          "price": "🔥 2,79 €"
+        }
+      ],
+      "missingItems": [
+        {
+          "staple": "Andechser Bio-Milch in der Glasflasche",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Andechser Butter",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Adelholzener Mineralwasser",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Alkoholfreies Bier",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Halloumi",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Eier",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Quark",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Mehl",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        }
+      ],
       "overflow": 0,
       "errors": []
     },
@@ -22,6 +117,101 @@
       "defined": 13,
       "covered": 5,
       "andechser": 2,
+      "coveredItems": [
+        {
+          "staple": "Joghurt",
+          "missing": false,
+          "product": "MILPRIMA FruchtiGurt 3,8%",
+          "store": "PENNY · Feldkirchen · 150 g",
+          "price": "🔥 0,29 €"
+        },
+        {
+          "staple": "Brot",
+          "missing": false,
+          "product": "RAMA Brot­aufstrich",
+          "store": "PENNY · Feldkirchen · 400 g",
+          "price": "🔥 1,29 €"
+        },
+        {
+          "staple": "Nudeln",
+          "missing": false,
+          "product": "Marke: dmBio; Produktname: Pasta Bucatini No 6, 500 g;",
+          "store": "dm · München-Riem Arcaden · 500 g",
+          "price": "1,95 €"
+        },
+        {
+          "staple": "Reis",
+          "missing": false,
+          "product": "Marke: Good Boy; Produktname: Hundeleckerli Hähnchen Reis-Sticks, Adult, 90 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
+          "store": "dm · München-Riem Arcaden · 90 g",
+          "price": "1,95 €"
+        },
+        {
+          "staple": "Kartoffeln",
+          "missing": false,
+          "product": "Deutsche Speisefrühkartoffeln* je 4-kg-Netz",
+          "store": "PENNY · Feldkirchen · 1 kg",
+          "price": "🔥 2,79 €"
+        }
+      ],
+      "missingItems": [
+        {
+          "staple": "Andechser Bio-Milch in der Glasflasche",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Andechser Butter",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Adelholzener Mineralwasser",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Alkoholfreies Bier",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Halloumi",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Eier",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Quark",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        },
+        {
+          "staple": "Mehl",
+          "missing": true,
+          "product": "",
+          "store": "Aktuell kein belastbarer passender Preis in unseren erlaubten Märkten.",
+          "price": "–"
+        }
+      ],
       "overflow": 0,
       "errors": []
     }
