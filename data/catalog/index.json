@@ -1,6 +1,6 @@
 {
   "schema": 4,
-  "generatedAt": "2026-08-20T13:46:05.173Z",
+  "generatedAt": "2026-08-20T15:01:53.813Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
@@ -173,12 +173,21 @@
           "message": "HTTP 403"
         }
       ]
+    },
+    {
+      "retailer": "ALDI SÜD",
+      "catalogStatus": "expanded_catalog",
+      "productCount": 3411,
+      "sourceType": "official_catalog_full",
+      "reportedPages": 114,
+      "pagesLoaded": 114
     }
   ],
   "files": [
     "dm.json",
     "rossmann.json",
-    "mueller.json"
+    "mueller.json",
+    "aldi-sued.json"
   ],
-  "productCount": 641
+  "productCount": 4052
 }
