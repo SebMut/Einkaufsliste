@@ -1,0 +1,54 @@
+name: Fehlgeschlagene Importe schnell wiederholen
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Jede Stunde 35 Minuten nach der vollen Stunde. Minuten sind in CET/CEST identisch.
+    - cron: '35 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      recover: ${{ steps.check.outputs.recover }}
+      reason: ${{ steps.check.outputs.reason }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - id: check
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          RESULT=$(node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import {previousScheduledRun,formatBerlin} from './importer/refresh-schedule.js';
+          const now=new Date();
+          let status=null;
+          try{status=JSON.parse(fs.readFileSync('data/import-status.json','utf8'))}catch{}
+          const expected=previousScheduledRun(now);
+          const last=status?.lastCompletedAt?new Date(status.lastCompletedAt):new Date(0);
+          const overdue=last<expected && (now-expected)>=25*60*1000;
+          const flagged=status?.recoveryRequired===true;
+          const manual=process.env.EVENT_NAME==='workflow_dispatch';
+          const recover=manual||flagged||overdue;
+          const reason=manual?'manual':flagged?'failed_or_stale_import':overdue?'scheduled_refresh_missing':'healthy';
+          console.log(JSON.stringify({recover,reason,now:formatBerlin(now),expected:formatBerlin(expected),last:status?.lastCompletedBerlin||null}));
+          NODE
+          )
+          echo "$RESULT"
+          RECOVER=$(node -e "const x=JSON.parse(process.argv[1]);process.stdout.write(String(x.recover))" "$RESULT")
+          REASON=$(node -e "const x=JSON.parse(process.argv[1]);process.stdout.write(x.reason)" "$RESULT")
+          echo "recover=$RECOVER" >> "$GITHUB_OUTPUT"
+          echo "reason=$REASON" >> "$GITHUB_OUTPUT"
+
+  recover:
+    needs: check
+    if: needs.check.outputs.recover == 'true'
+    uses: ./.github/workflows/full-database-refresh.yml
+    secrets: inherit
