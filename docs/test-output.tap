@@ -6,323 +6,323 @@ TAP version 13
 # Subtest: UI nennt keine alte 15-km-Logik mehr
 ok 1 - UI nennt keine alte 15-km-Logik mehr
   ---
-  duration_ms: 2.174942
+  duration_ms: 1.92205
   ...
 # Subtest: UI unterscheidet Produkte, Angebote und reguläre Preise
 ok 2 - UI unterscheidet Produkte, Angebote und reguläre Preise
   ---
-  duration_ms: 0.302817
+  duration_ms: 0.256581
   ...
 # Subtest: Frontend verwendet die semantische Vergleichsprüfung
 ok 3 - Frontend verwendet die semantische Vergleichsprüfung
   ---
-  duration_ms: 0.360094
+  duration_ms: 0.361638
   ...
 # Subtest: Preisbewertung nutzt ausschließlich konkrete Produkthistorie
 ok 4 - Preisbewertung nutzt ausschließlich konkrete Produkthistorie
   ---
-  duration_ms: 0.310872
+  duration_ms: 0.282741
   ...
 # Subtest: mobile CSS bleibt vorhanden
 ok 5 - mobile CSS bleibt vorhanden
   ---
-  duration_ms: 0.28834
+  duration_ms: 0.292825
   ...
 # \# Milch-Audit: 7 Datensaetze, 5 konkrete Produkte, 5 Produktnamen
 # Subtest: Inline-JavaScript ist syntaktisch gültig
 ok 6 - Inline-JavaScript ist syntaktisch gültig
   ---
-  duration_ms: 57.06889
+  duration_ms: 50.58311
   ...
 # Subtest: Suche zeigt konkrete Produkte statt nur einer Bundle-Karte
 ok 7 - Suche zeigt konkrete Produkte statt nur einer Bundle-Karte
   ---
-  duration_ms: 0.447979
+  duration_ms: 0.409088
   ...
 # Subtest: Live-Daten enthalten mehrere konkrete Milchprodukte
 ok 8 - Live-Daten enthalten mehrere konkrete Milchprodukte
   ---
-  duration_ms: 2.346514
+  duration_ms: 1.415516
   ...
 # Subtest: Feldkirchen ist erlaubt
 ok 9 - Feldkirchen ist erlaubt
   ---
-  duration_ms: 1.645942
+  duration_ms: 2.260733
   ...
 # Subtest: Aschheim ist erlaubt
 ok 10 - Aschheim ist erlaubt
   ---
-  duration_ms: 1.015592
+  duration_ms: 1.863652
   ...
 # Subtest: Heimstetten ist erlaubt
 ok 11 - Heimstetten ist erlaubt
   ---
-  duration_ms: 0.385311
+  duration_ms: 0.559693
   ...
 # Subtest: Kirchheim ist erlaubt
 ok 12 - Kirchheim ist erlaubt
   ---
-  duration_ms: 0.340788
+  duration_ms: 0.37664
   ...
 # Subtest: Riem Arcaden ist erlaubt
 ok 13 - Riem Arcaden ist erlaubt
   ---
-  duration_ms: 0.139261
+  duration_ms: 0.201971
   ...
 # Subtest: Haar ist gesperrt
 ok 14 - Haar ist gesperrt
   ---
-  duration_ms: 0.204883
+  duration_ms: 0.306115
   ...
 # Subtest: Vaterstetten ist gesperrt
 ok 15 - Vaterstetten ist gesperrt
   ---
-  duration_ms: 0.195175
+  duration_ms: 0.288168
   ...
 # Subtest: Parsdorf ist gesperrt
 ok 16 - Parsdorf ist gesperrt
   ---
-  duration_ms: 0.126467
+  duration_ms: 0.177935
   ...
 # Subtest: Poing ist gesperrt
 ok 17 - Poing ist gesperrt
   ---
-  duration_ms: 0.217737
+  duration_ms: 0.321849
   ...
 # Subtest: Trudering ist gesperrt
 ok 18 - Trudering ist gesperrt
   ---
-  duration_ms: 0.317525
+  duration_ms: 0.463509
   ...
 # Subtest: München-Freimann ist gesperrt
 ok 19 - München-Freimann ist gesperrt
   ---
-  duration_ms: 0.147766
+  duration_ms: 0.229601
   ...
 # Subtest: München-Berg am Laim ist gesperrt
 ok 20 - München-Berg am Laim ist gesperrt
   ---
-  duration_ms: 0.184065
+  duration_ms: 0.215861
   ...
 # Subtest: Riem außerhalb Arcaden ist gesperrt
 ok 21 - Riem außerhalb Arcaden ist gesperrt
   ---
-  duration_ms: 0.239127
+  duration_ms: 0.271043
   ...
 # Subtest: Riem Arcaden ist nur an der belegten Arcaden-Adresse aktiv
 ok 22 - Riem Arcaden ist nur an der belegten Arcaden-Adresse aktiv
   ---
-  duration_ms: 0.224019
+  duration_ms: 0.345144
   ...
 # Subtest: explizites isRiemArcaden darf belastbar verifizierte Datensätze zulassen
 ok 23 - explizites isRiemArcaden darf belastbar verifizierte Datensätze zulassen
   ---
-  duration_ms: 0.218819
+  duration_ms: 0.250342
   ...
 # Subtest: valide EAN/GTIN wird erkannt
 ok 24 - valide EAN/GTIN wird erkannt
   ---
-  duration_ms: 2.158562
+  duration_ms: 1.725266
   ...
 # Subtest: ungültige EAN wird nicht als Identität verwendet
 ok 25 - ungültige EAN wird nicht als Identität verwendet
   ---
-  duration_ms: 0.240711
+  duration_ms: 0.227769
   ...
 # Subtest: identische EAN hat Vorrang und ergibt exact_match
 ok 26 - identische EAN hat Vorrang und ergibt exact_match
   ---
-  duration_ms: 5.650921
+  duration_ms: 5.803965
   ...
 # Subtest: Eigenmarken derselben Milchgruppe bleiben konkrete unterschiedliche Produkte
 ok 27 - Eigenmarken derselben Milchgruppe bleiben konkrete unterschiedliche Produkte
   ---
-  duration_ms: 1.097806
+  duration_ms: 1.170621
   ...
 # Subtest: gleiches Markenprodukt bei zwei Händlern erhält dieselbe konkrete Produkt-ID
 ok 28 - gleiches Markenprodukt bei zwei Händlern erhält dieselbe konkrete Produkt-ID
   ---
-  duration_ms: 1.584527
+  duration_ms: 1.724746
   ...
 # Subtest: Windbeutel, Windelbeutel und Windeln erhalten verschiedene konkrete IDs
 ok 29 - Windbeutel, Windelbeutel und Windeln erhalten verschiedene konkrete IDs
   ---
-  duration_ms: 0.637804
+  duration_ms: 0.689355
   ...
 # Subtest: Frische Vollmilch wird als Milch gebündelt
 ok 30 - Frische Vollmilch wird als Milch gebündelt
   ---
-  duration_ms: 6.217833
+  duration_ms: 5.063994
   ...
 # Subtest: Milch und Vollmilch gehören zur selben allgemeinen Produktgruppe
 ok 31 - Milch und Vollmilch gehören zur selben allgemeinen Produktgruppe
   ---
-  duration_ms: 1.204846
+  duration_ms: 0.926138
   ...
 # Subtest: Bio Vollmilch bleibt Bio und Milch
 ok 32 - Bio Vollmilch bleibt Bio und Milch
   ---
-  duration_ms: 0.378679
+  duration_ms: 0.253777
   ...
 # Subtest: Windbeutel ist eine Süßspeise und weder Windel noch Windelbeutel
 ok 33 - Windbeutel ist eine Süßspeise und weder Windel noch Windelbeutel
   ---
-  duration_ms: 2.217062
+  duration_ms: 1.643695
   ...
 # Subtest: Windeln und Windelbeutel werden selbst bei gleicher Einheit nie preislich verglichen
 ok 34 - Windeln und Windelbeutel werden selbst bei gleicher Einheit nie preislich verglichen
   ---
-  duration_ms: 1.163619
+  duration_ms: 0.955431
   ...
 # Subtest: Windbeutel und Windeln werden selbst bei künstlich gleicher Einheit nie verglichen
 ok 35 - Windbeutel und Windeln werden selbst bei künstlich gleicher Einheit nie verglichen
   ---
-  duration_ms: 0.583783
+  duration_ms: 0.427446
   ...
 # Subtest: Windel-Wortfamilie bleibt funktional getrennt
 ok 36 - Windel-Wortfamilie bleibt funktional getrennt
   ---
-  duration_ms: 1.869591
+  duration_ms: 1.375466
   ...
 # Subtest: Windelgrößen sind gleiche Obergruppe, aber nicht austauschbar
 ok 37 - Windelgrößen sind gleiche Obergruppe, aber nicht austauschbar
   ---
-  duration_ms: 0.770072
+  duration_ms: 0.489268
   ...
 # Subtest: Milchreis ist keine Milch
 ok 38 - Milchreis ist keine Milch
   ---
-  duration_ms: 0.60362
+  duration_ms: 0.412533
   ...
 # Subtest: Milchschokolade ist keine Milch
 ok 39 - Milchschokolade ist keine Milch
   ---
-  duration_ms: 0.500557
+  duration_ms: 0.332445
   ...
 # Subtest: Kokosmilch, Babymilch, Kondensmilch und Milchpulver sind keine Trinkmilch-Gruppe
 ok 40 - Kokosmilch, Babymilch, Kondensmilch und Milchpulver sind keine Trinkmilch-Gruppe
   ---
-  duration_ms: 0.908201
+  duration_ms: 0.621735
   ...
 # Subtest: Butter und Deutsche Markenbutter gehören zusammen
 ok 41 - Butter und Deutsche Markenbutter gehören zusammen
   ---
-  duration_ms: 0.802553
+  duration_ms: 0.612401
   ...
 # Subtest: Butterkeks, Erdnussbutter und Kakaobutter sind keine Butter
 ok 42 - Butterkeks, Erdnussbutter und Kakaobutter sind keine Butter
   ---
-  duration_ms: 1.440276
+  duration_ms: 1.570346
   ...
 # Subtest: Zahnpasta und Zahncreme werden zusammengefasst
 ok 43 - Zahnpasta und Zahncreme werden zusammengefasst
   ---
-  duration_ms: 0.453269
+  duration_ms: 0.599471
   ...
 # Subtest: Zahnpasta und Zahnbürste bleiben getrennt
 ok 44 - Zahnpasta und Zahnbürste bleiben getrennt
   ---
-  duration_ms: 0.503583
+  duration_ms: 0.620914
   ...
 # Subtest: Spülmittel und Spülmaschinentabs bleiben getrennt
 ok 45 - Spülmittel und Spülmaschinentabs bleiben getrennt
   ---
-  duration_ms: 0.456886
+  duration_ms: 0.611129
   ...
 # Subtest: Waschmittel und Weichspüler bleiben getrennt
 ok 46 - Waschmittel und Weichspüler bleiben getrennt
   ---
-  duration_ms: 0.413484
+  duration_ms: 0.535437
   ...
 # Subtest: Toilettenpapier und Küchenpapier bleiben getrennt
 ok 47 - Toilettenpapier und Küchenpapier bleiben getrennt
   ---
-  duration_ms: 0.500557
+  duration_ms: 0.652641
   ...
 # Subtest: Windeln sind weder Feuchttücher noch Wickelunterlagen
 ok 48 - Windeln sind weder Feuchttücher noch Wickelunterlagen
   ---
-  duration_ms: 0.493905
+  duration_ms: 0.649867
   ...
 # Subtest: Apfelsaft ist kein Apfel-Angebot
 ok 49 - Apfelsaft ist kein Apfel-Angebot
   ---
-  duration_ms: 0.908531
+  duration_ms: 1.293064
   ...
 # Subtest: Sicherheits-Wattestäbchen werden Baby & Kleinkind zugeordnet
 ok 50 - Sicherheits-Wattestäbchen werden Baby & Kleinkind zugeordnet
   ---
-  duration_ms: 0.447809
+  duration_ms: 0.525371
   ...
 # Subtest: Rinderhack und gemischtes Hack sind gleiche Gruppe, aber nicht exakt
 ok 51 - Rinderhack und gemischtes Hack sind gleiche Gruppe, aber nicht exakt
   ---
-  duration_ms: 0.768439
+  duration_ms: 0.785479
   ...
 # Subtest: Ein einzelnes Angebot vergleicht sich nicht mit sich selbst
 ok 52 - Ein einzelnes Angebot vergleicht sich nicht mit sich selbst
   ---
-  duration_ms: 0.274745
+  duration_ms: 0.387317
   ...
 # Subtest: Doppelter Import desselben Angebots erzeugt keinen Vergleich
 ok 53 - Doppelter Import desselben Angebots erzeugt keinen Vergleich
   ---
-  duration_ms: 0.280695
+  duration_ms: 0.451402
   ...
 # Subtest: dm und Rossmann ergeben bei wirklich austauschbarem Produkt einen Händlervergleich
 ok 54 - dm und Rossmann ergeben bei wirklich austauschbarem Produkt einen Händlervergleich
   ---
-  duration_ms: 0.652141
+  duration_ms: 0.67862
   ...
 # Subtest: Preisbewertung meldet deutlich günstigeren Preis
 ok 55 - Preisbewertung meldet deutlich günstigeren Preis
   ---
-  duration_ms: 0.889505
+  duration_ms: 1.114308
   ...
 # Subtest: ungültige gleiche GTIN erzeugt niemals ein exact_match
 ok 56 - ungültige gleiche GTIN erzeugt niemals ein exact_match
   ---
-  duration_ms: 5.524625
+  duration_ms: 8.217225
   ...
 # Subtest: valide gleiche GTIN bleibt stärkste konkrete Produktidentität
 ok 57 - valide gleiche GTIN bleibt stärkste konkrete Produktidentität
   ---
-  duration_ms: 0.376675
+  duration_ms: 0.492142
   ...
 # Subtest: Preisbewertung mischt andere konkrete Produkte derselben Gruppe nicht ein
 ok 58 - Preisbewertung mischt andere konkrete Produkte derselben Gruppe nicht ein
   ---
-  duration_ms: 0.636943
+  duration_ms: 0.77352
   ...
 # Subtest: mindestens 100 zusätzliche semantische Edge-Cases sind klassifiziert
 ok 59 - mindestens 100 zusätzliche semantische Edge-Cases sind klassifiziert
   ---
-  duration_ms: 20.155941
+  duration_ms: 20.155856
   ...
 # Subtest: funktional verschiedene Produkte bleiben auch bei identischer künstlicher Preiseinheit unvergleichbar
 ok 60 - funktional verschiedene Produkte bleiben auch bei identischer künstlicher Preiseinheit unvergleichbar
   ---
-  duration_ms: 7.95779
+  duration_ms: 7.182034
   ...
 # Subtest: bekannte zusammengesetzte Produktnamen werden im Live-Bestand semantisch korrekt erkannt
 ok 61 - bekannte zusammengesetzte Produktnamen werden im Live-Bestand semantisch korrekt erkannt
   ---
-  duration_ms: 8.799026
+  duration_ms: 5.359003
   ...
 # Subtest: kein UI-Bundle mischt unterschiedliche bekannte Hauptprodukttypen
 ok 62 - kein UI-Bundle mischt unterschiedliche bekannte Hauptprodukttypen
   ---
-  duration_ms: 1.509717
+  duration_ms: 1.401265
   ...
 # Subtest: unterschiedliche Varianten eines Produkttyps dürfen eine Obergruppe teilen, aber nicht blind verglichen werden
 ok 63 - unterschiedliche Varianten eines Produkttyps dürfen eine Obergruppe teilen, aber nicht blind verglichen werden
   ---
-  duration_ms: 0.433451
+  duration_ms: 0.393425
   ...
 # Subtest: Windbeutel, Windelbeutel und Windeln können nie denselben Bundle-Key erhalten
 ok 64 - Windbeutel, Windelbeutel und Windeln können nie denselben Bundle-Key erhalten
   ---
-  duration_ms: 0.445735
+  duration_ms: 1.462196
   ...
 1..64
 # tests 64
@@ -332,4 +332,4 @@ ok 64 - Windbeutel, Windelbeutel und Windeln können nie denselben Bundle-Key er
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 409.01388
+# duration_ms 389.94832
