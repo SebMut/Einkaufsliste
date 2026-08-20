@@ -32,7 +32,7 @@ export async function guardCatalog({previousDir=process.env.PREVIOUS_CATALOG_DIR
     const suspicious=missing||isSuspiciousDrop(previousCount,attemptedCount);
     if(suspicious&&prev){
       await fs.copyFile(prevFile,curFile);
-      report.push({retailer:prev.retailer||filename,filename,status:'retained_previous',previousCount,attemptedCount,reason:missing?'new_catalog_missing':`drop_over_30_percent`});
+      report.push({retailer:prev.retailer||filename,filename,status:'retained_previous',previousCount,attemptedCount,reason:missing?'new_catalog_missing':'drop_over_30_percent'});
     }else if(cur){
       const unchanged=prev&&String(prev.generatedAt||'')===String(cur.generatedAt||'');
       report.push({retailer:cur.retailer||filename,filename,status:unchanged?'unchanged':'updated',previousCount,attemptedCount});
@@ -41,13 +41,16 @@ export async function guardCatalog({previousDir=process.env.PREVIOUS_CATALOG_DIR
 
   const existingRows=new Map((curIndex.retailers||[]).map(r=>[r.retailer,r]));
   const retailers=[];
+  const existingFiles=[];
   for(const filename of files){
+    if(!(await exists(path.join(CATALOG,filename)))) continue;
+    existingFiles.push(filename);
     const c=await readJson(path.join(CATALOG,filename),null);if(!c)continue;
     const retailer=c.retailer||filename.replace(/\.json$/,'');
     const row=report.find(r=>r.filename===filename);
     retailers.push({...(existingRows.get(retailer)||{}),retailer,catalogStatus:c.catalogStatus||existingRows.get(retailer)?.catalogStatus||'partial_catalog',productCount:Number(c.productCount??c.products?.length??0),sources:c.sources||existingRows.get(retailer)?.sources||[],refreshStatus:row?.status||'unknown'});
   }
-  const rebuilt={...curIndex,schema:Math.max(5,Number(curIndex.schema||0)),generatedAt:new Date().toISOString(),files:files.filter(async f=>await exists(path.join(CATALOG,f))),retailers,productCount:retailers.reduce((n,r)=>n+Number(r.productCount||0),0)};
+  const rebuilt={...curIndex,schema:Math.max(5,Number(curIndex.schema||0)),generatedAt:new Date().toISOString(),files:existingFiles,retailers,productCount:retailers.reduce((n,r)=>n+Number(r.productCount||0),0)};
   await fs.writeFile(path.join(CATALOG,'index.json'),JSON.stringify(rebuilt,null,2)+'\n');
   const out={schema:1,generatedAt:new Date().toISOString(),threshold:{maxDropRatio:0.30},retailers:report};
   await fs.writeFile(path.join(DATA,'catalog-refresh-report.json'),JSON.stringify(out,null,2)+'\n');
