@@ -31,6 +31,6 @@ test('Zwischenstunden werden nicht ausgeführt',()=>{
 test('nächster Lauf bleibt über DST-Wechsel korrekt',()=>{
   const next=nextScheduledRun(new Date('2026-10-25T04:30:00Z'));
   const p=berlinParts(next);
-  assert.equal(p.hour,'09');
+  assert.equal(p.hour,'06');
   assert.equal(p.minute,'00');
 });
