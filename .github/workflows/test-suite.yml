@@ -6,12 +6,12 @@ on:
     paths:
       - 'index.html'
       - 'importer/**'
+      - 'scripts/fix-product-visibility.mjs'
       - '.github/workflows/test-suite.yml'
 
 permissions:
   contents: write
 
-# Nach jedem fachlichen Fix wird diese Suite erneut als unabhängige Testquittung ausgeführt.
 concurrency:
   group: complete-test-suite
   cancel-in-progress: true
@@ -27,6 +27,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Konkrete Produktdarstellung sicherstellen
+        run: |
+          if grep -q 'concreteKeyOf=o=>o.canonicalProductId' index.html; then
+            echo 'Bereits aktiv.'
+          else
+            node scripts/fix-product-visibility.mjs
+          fi
       - name: Gefundenen Semantik-Randfall idempotent korrigieren
         run: |
           python3 - <<'PY'
@@ -74,19 +81,7 @@ jobs:
           mkdir -p docs
           node - <<'NODE'
           const fs=require('fs');
-          const receipt={
-            schema:1,
-            generatedAt:new Date().toISOString(),
-            testedCommit:process.env.GITHUB_SHA,
-            runId:process.env.GITHUB_RUN_ID,
-            runAttempt:process.env.GITHUB_RUN_ATTEMPT,
-            node:process.version,
-            status:Number(process.env.EXIT_CODE)===0?'passed':'failed',
-            tests:Number(process.env.TESTS||0),
-            passed:Number(process.env.PASS||0),
-            failed:Number(process.env.FAIL||0),
-            exitCode:Number(process.env.EXIT_CODE||99)
-          };
+          const receipt={schema:1,generatedAt:new Date().toISOString(),testedCommit:process.env.GITHUB_SHA,runId:process.env.GITHUB_RUN_ID,runAttempt:process.env.GITHUB_RUN_ATTEMPT,node:process.version,status:Number(process.env.EXIT_CODE)===0?'passed':'failed',tests:Number(process.env.TESTS||0),passed:Number(process.env.PASS||0),failed:Number(process.env.FAIL||0),exitCode:Number(process.env.EXIT_CODE||99)};
           fs.writeFileSync('docs/test-results.json',JSON.stringify(receipt,null,2)+'\n');
           NODE
           cp test-output.tap docs/test-output.tap
@@ -96,9 +91,9 @@ jobs:
         run: |
           git config user.name "AngebotsRadar Test Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add importer/semantic-products.js docs/test-results.json docs/test-output.tap
+          git add index.html importer/frontend-smoke.test.js importer/semantic-products.js docs/test-results.json docs/test-output.tap
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "Semantikfix und Testquittung aktualisieren [skip ci]"
+          git commit -m "Produktsichtbarkeit und Testquittung aktualisieren [skip ci]"
           git pull --rebase origin main
           git push origin main
       - name: Teststatus bewerten
