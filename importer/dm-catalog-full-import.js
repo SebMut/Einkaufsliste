@@ -1,97 +1,26 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const ROOT=path.resolve(process.cwd(),'..');
-const DATA=path.join(ROOT,'data');
-const catalogDir=path.join(DATA,'catalog');
-const outPath=path.join(catalogDir,'dm.json');
-const indexPath=path.join(catalogDir,'index.json');
-const now=new Date().toISOString();
-const UA='Mozilla/5.0 (compatible; AngebotsRadar/5.4; +https://github.com/SebMut/Einkaufsliste)';
+const ROOT=path.resolve(process.cwd(),'..'),DATA=path.join(ROOT,'data'),DIR=path.join(DATA,'catalog');
+const OUT=path.join(DIR,'dm.json'),INDEX=path.join(DIR,'index.json'),now=new Date().toISOString();
+const UA='Mozilla/5.0 (compatible; AngebotsRadar/6.0; +https://github.com/SebMut/Einkaufsliste)';
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-
-// Die dm-Crawl-Schnittstelle liefert maximal etwa 1.000 Treffer je Abfrage.
-// Deshalb werden die für unsere Einkaufs-App relevanten Hauptbereiche zusätzlich
-// nach Preisfenstern geteilt. So bleibt jede Abfrage unter dem API-Limit.
-const PARTITIONS=[
-  ['Lebensmittel','040000',null,2],
-  ['Lebensmittel','040000',2,4],
-  ['Lebensmittel','040000',4,null],
-  ['Baby & Kleinkind','050000',null,2],
-  ['Baby & Kleinkind','050000',2,6],
-  ['Baby & Kleinkind','050000',6,10],
-  ['Baby & Kleinkind','050000',10,null],
-  ['Haushalt','060000',null,3],
-  ['Haushalt','060000',3,null],
-  ['Tierbedarf','070000',null,null]
+const CATEGORIES=[
+ ['Make-up','010000'],['Pflege & Duft','020000'],['Gesundheit','030000'],['Ernährung','040000'],
+ ['Baby & Kind','050000'],['Haushalt','060000'],['Tierprodukte','070000'],['Haar','110000']
 ];
-
-function numeric(v){
-  if(typeof v==='number')return Number.isFinite(v)?v:null;
-  const m=String(v??'').replace(/\u00a0/g,' ').replace(/€/g,'').replace(/\./g,'').replace(',','.').match(/\d+(?:\.\d+)?/);
-  return m?Number(m[0]):null;
-}
-function cleanUnit(u=''){const x=String(u).trim().toLowerCase();return ({g:'g',kg:'kg',ml:'ml',l:'l',stk:'Stück',st:'Stück',stück:'Stück',wl:'WL'})[x]||String(u).trim()}
-function sizeOf(p){
-  const q=Number(p?.netQuantityContent??p?.basePriceQuantity);const u=cleanUnit(p?.contentUnit??p?.basePriceUnit??'');
-  if(Number.isFinite(q)&&q>0&&u)return `${String(q).replace('.',',')} ${u}`;
-  const title=String(p?.title??'');return title.match(/(\d+(?:[.,]\d+)?\s*(?:kg|g|ml|l|Stück|St\.?|WL))\b/i)?.[1]||'Packung';
-}
+const INITIAL_WINDOWS=[[0,2],[2,4],[4,7],[7,10],[10,15],[15,25],[25,40],[40,70],[70,120],[120,250],[250,null]];
+function numeric(v){if(typeof v==='number')return Number.isFinite(v)?v:null;const m=String(v??'').replace(/\u00a0/g,' ').replace(/€/g,'').replace(/\./g,'').replace(',','.').match(/\d+(?:\.\d+)?/);return m?Number(m[0]):null}
+function unit(u=''){const x=String(u).trim().toLowerCase();return({g:'g',kg:'kg',ml:'ml',l:'l',stk:'Stück',st:'Stück',stück:'Stück',wl:'WL'})[x]||String(u).trim()}
+function sizeOf(p){const q=Number(p?.netQuantityContent??p?.basePriceQuantity),u=unit(p?.contentUnit??p?.basePriceUnit??'');if(Number.isFinite(q)&&q>0&&u)return`${String(q).replace('.',',')} ${u}`;return String(p?.title??'').match(/(\d+(?:[.,]\d+)?\s*(?:kg|g|ml|l|Stück|St\.?|WL))\b/i)?.[1]||'Packung'}
 function imageOf(p){return p?.tileData?.images?.[0]?.tileSrc||p?.imageUrl||p?.image||''}
-function urlOf(p){
-  const self=p?.tileData?.self||p?.self||'';if(self)return self.startsWith('http')?self:`https://www.dm.de${self}`;
-  const dan=p?.dan??p?.tileData?.dan;return dan?`https://www.dm.de/product-p${dan}.html`:'https://www.dm.de/';
-}
-function normalizeProduct(p,category,sourceUrl){
-  const current=numeric(p?.price?.value??p?.price??p?.tileData?.trackingData?.price??p?.tileData?.price?.price?.current?.value);
-  if(!Number.isFinite(current)||current<=0)return null;
-  const gtin=String(p?.gtin??p?.tileData?.gtin??'').replace(/\D/g,'');
-  const title=String(p?.title??p?.tileData?.title?.tileHeadline??'').trim();if(title.length<2)return null;
-  const brand=String(p?.brandName??p?.tileData?.brand?.name??'').trim();
-  return {
-    name:title,originalName:title,brand,ean:/^\d{8,14}$/.test(gtin)?gtin:null,gtin:/^\d{8,14}$/.test(gtin)?gtin:null,
-    size:sizeOf(p),currentPrice:+current.toFixed(2),regularPrice:+current.toFixed(2),offerPrice:null,isOffer:false,advertised:false,
-    productUrl:urlOf(p),image:imageOf(p),sourceUrl,sourceType:'official_catalog_full',sourceScope:'catalog',sourceCategory:category,
-    category,department:category==='Baby & Kleinkind'?'Baby & Kleinkind':category==='Haushalt'?'Haushalt & Drogerie':category,
-    filialAvailabilityKnown:false,availability:null,importedAt:now,dan:String(p?.dan??p?.tileData?.dan??'')
-  };
-}
-async function fetchPartition(category,id,from,to){
-  const u=new URL('https://product-search.services.dmtech.com/de/search/crawl');u.searchParams.set('pageSize','1000');u.searchParams.set('allCategories.id',id);
-  if(from!=null)u.searchParams.set('price.value.from',String(from));if(to!=null)u.searchParams.set('price.value.to',String(to));
-  let backoff=2500;
-  for(let attempt=0;attempt<6;attempt++){
-    const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),35000);
-    try{
-      const r=await fetch(u,{headers:{'user-agent':UA,'accept':'application/json','accept-language':'de-DE,de;q=0.9'},signal:controller.signal});
-      if(r.status===429){console.log(`dm ${category}: 429, neuer Versuch in ${backoff} ms`);await sleep(backoff);backoff=Math.min(backoff*2,20000);continue}
-      if(!r.ok)throw new Error(`HTTP ${r.status}`);const body=await r.json(),products=Array.isArray(body?.products)?body.products:[];
-      if(Number(body?.count)>products.length)console.warn(`dm ${category}: Fenster hat ${body.count} Treffer, API lieferte ${products.length}.`);
-      return{url:u.toString(),count:Number(body?.count||products.length),products};
-    }finally{clearTimeout(timer)}
-  }
-  throw new Error(`dm ${category}: Rate-Limit nach mehreren Versuchen`);
-}
+function urlOf(p){const self=p?.tileData?.self||p?.self||'';if(self)return self.startsWith('http')?self:`https://www.dm.de${self}`;const dan=p?.dan??p?.tileData?.dan;return dan?`https://www.dm.de/product-p${dan}.html`:'https://www.dm.de/'}
+function department(category){if(category==='Baby & Kind')return'Baby & Kleinkind';if(category==='Haushalt')return'Haushalt & Drogerie';if(category==='Ernährung')return'Lebensmittel';if(category==='Tierprodukte')return'Tierbedarf';return'Drogerie'}
+function product(p,category,sourceUrl){const current=numeric(p?.price?.value??p?.price??p?.tileData?.trackingData?.price??p?.tileData?.price?.price?.current?.value);if(!Number.isFinite(current)||current<=0)return null;const gtin=String(p?.gtin??p?.tileData?.gtin??'').replace(/\D/g,''),title=String(p?.title??p?.tileData?.title?.tileHeadline??'').trim();if(title.length<2)return null;const brand=String(p?.brandName??p?.tileData?.brand?.name??'').trim(),cat=department(category);return{name:title,originalName:title,brand,ean:/^\d{8,14}$/.test(gtin)?gtin:null,gtin:/^\d{8,14}$/.test(gtin)?gtin:null,size:sizeOf(p),currentPrice:+current.toFixed(2),regularPrice:+current.toFixed(2),offerPrice:null,isOffer:false,advertised:false,productUrl:urlOf(p),image:imageOf(p),sourceUrl,sourceType:'official_catalog_full',sourceScope:'catalog',sourceCategory:category,category:cat,department:cat,filialAvailabilityKnown:false,availability:null,importedAt:now,dan:String(p?.dan??p?.tileData?.dan??'')}}
+async function request(category,id,from,to,attempt=0){const u=new URL('https://product-search.services.dmtech.com/de/search/crawl');u.searchParams.set('pageSize','1000');u.searchParams.set('allCategories.id',id);if(from!=null)u.searchParams.set('price.value.from',String(from));if(to!=null)u.searchParams.set('price.value.to',String(to));const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),40000);try{const r=await fetch(u,{headers:{'user-agent':UA,'accept':'application/json','accept-language':'de-DE,de;q=0.9'},signal:controller.signal});if((r.status===429||r.status>=500)&&attempt<7){const wait=Math.min(2200*Math.pow(2,attempt),30000);console.log(`dm ${category}: HTTP ${r.status}, Retry ${wait} ms`);await sleep(wait);return request(category,id,from,to,attempt+1)}if(!r.ok)throw new Error(`HTTP ${r.status}`);const body=await r.json(),products=Array.isArray(body?.products)?body.products:[];return{url:u.toString(),count:Number(body?.count??products.length),products}}finally{clearTimeout(timer)}}
+async function fetchWindow(category,id,from,to,depth=0){const r=await request(category,id,from,to);await sleep(1050);if(r.count<=1000||depth>=8)return[{category,id,from,to,...r,overflow:r.count>r.products.length}];if(to==null){const cut=Math.max((from??0)+100,500);const a=await fetchWindow(category,id,from,cut,depth+1),b=await fetchWindow(category,id,cut,null,depth+1);return[...a,...b]}const width=to-(from??0);if(width<=0.05)return[{category,id,from,to,...r,overflow:true}];const mid=+(((from??0)+to)/2).toFixed(3);const a=await fetchWindow(category,id,from,mid,depth+1),b=await fetchWindow(category,id,mid,to,depth+1);return[...a,...b]}
 
-await fs.mkdir(catalogDir,{recursive:true});
-const map=new Map(),sources=[];
-for(const [category,id,from,to] of PARTITIONS){
-  try{
-    const r=await fetchPartition(category,id,from,to);let accepted=0;
-    for(const p of r.products){const x=normalizeProduct(p,category,r.url);if(!x)continue;const k=x.ean?`ean:${x.ean}`:`dan:${x.dan||x.productUrl}`;if(!map.has(k)){map.set(k,x);accepted++}}
-    sources.push({category,id,priceFrom:from,priceTo:to,url:r.url,status:'ok',reportedCount:r.count,received:r.products.length,newProducts:accepted});
-    console.log(`dm ${category} ${from??0}–${to??'∞'} €: ${r.products.length} geladen, ${accepted} neu.`);
-  }catch(e){sources.push({category,id,priceFrom:from,priceTo:to,status:'error',message:String(e?.message||e)});console.warn(String(e?.message||e))}
-  await sleep(1800);
-}
-const products=[...map.values()];
-const catalog={schema:2,generatedAt:now,retailer:'dm',sourceType:'official_catalog_full',catalogStatus:'expanded_catalog',productCount:products.length,categories:[...new Set(products.map(p=>p.sourceCategory))],sources,products};
-await fs.writeFile(outPath,JSON.stringify(catalog,null,2)+'\n');
-
-try{
-  const idx=JSON.parse(await fs.readFile(indexPath,'utf8'));const row=(idx.retailers||[]).find(x=>x.retailer==='dm');
-  if(row){row.catalogStatus='expanded_catalog';row.productCount=products.length;row.sources=sources}
-  idx.generatedAt=now;idx.productCount=(idx.retailers||[]).reduce((n,x)=>n+Number(x.productCount||0),0);if(!idx.files?.includes('dm.json'))idx.files=[...(idx.files||[]),'dm.json'];
-  await fs.writeFile(indexPath,JSON.stringify(idx,null,2)+'\n');
-}catch{}
-console.log(`dm Vollkatalog relevant: ${products.length} eindeutige Produkte aus Lebensmittel, Haushalt, Baby/Kleinkind und Tierbedarf.`);
+await fs.mkdir(DIR,{recursive:true});const map=new Map(),sources=[],categoryReports=[];
+for(const [category,id] of CATEGORIES){let reported=0,received=0,windows=0,overflow=0,errors=0;for(const [from,to] of INITIAL_WINDOWS){try{const parts=await fetchWindow(category,id,from,to);for(const r of parts){windows++;reported+=r.count;received+=r.products.length;if(r.overflow)overflow++;let added=0;for(const p of r.products){const x=product(p,category,r.url);if(!x)continue;const k=x.ean?`ean:${x.ean}`:`dan:${x.dan||x.productUrl}`;if(!map.has(k)){map.set(k,x);added++}}sources.push({category,id,priceFrom:r.from,priceTo:r.to,url:r.url,status:r.overflow?'overflow':'ok',reportedCount:r.count,received:r.products.length,newProducts:added});console.log(`dm ${category} ${r.from??0}–${r.to??'∞'} €: ${r.products.length}/${r.count}, ${added} neu`)}}catch(e){errors++;sources.push({category,id,priceFrom:from,priceTo:to,status:'error',message:String(e?.message||e)});console.warn(`dm ${category}: ${String(e?.message||e)}`)}}categoryReports.push({category,id,reportedAcrossWindows:reported,receivedAcrossWindows:received,windows,overflowWindows:overflow,errors});}
+const products=[...map.values()];const catalog={schema:3,generatedAt:now,retailer:'dm',sourceType:'official_catalog_full',catalogStatus:sources.some(s=>s.status==='overflow'||s.status==='error')?'expanded_catalog':'full_public_catalog',productCount:products.length,categories:CATEGORIES.map(x=>x[0]),categoryReports,sources,products};await fs.writeFile(OUT,JSON.stringify(catalog,null,2)+'\n');
+let idx={schema:4,generatedAt:now,sourceType:'official_catalog',retailers:[],files:[],productCount:0};try{idx=JSON.parse(await fs.readFile(INDEX,'utf8'))}catch{}let row=(idx.retailers||[]).find(x=>x.retailer==='dm');if(!row){row={retailer:'dm'};idx.retailers=[...(idx.retailers||[]),row]}Object.assign(row,{catalogStatus:catalog.catalogStatus,productCount:products.length,sourceType:'official_catalog_full',categoryReports});if(!idx.files?.includes('dm.json'))idx.files=[...(idx.files||[]),'dm.json'];idx.generatedAt=now;idx.productCount=(idx.retailers||[]).reduce((n,x)=>n+Number(x.productCount||0),0);await fs.writeFile(INDEX,JSON.stringify(idx,null,2)+'\n');console.log(`dm Gesamtkatalog: ${products.length} eindeutige Artikel in ${CATEGORIES.length} Hauptbereichen; Status ${catalog.catalogStatus}.`);
