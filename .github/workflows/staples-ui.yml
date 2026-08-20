@@ -8,6 +8,7 @@ on:
       - 'data/staples.json'
       - 'importer/staples-matcher.js'
       - 'importer/staples-matcher.test.js'
+      - 'importer/staples-e2e.js'
       - 'scripts/add-staples-link.mjs'
       - '.github/workflows/staples-ui.yml'
 
@@ -21,7 +22,7 @@ concurrency:
 jobs:
   integrate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,7 +38,13 @@ jobs:
       - name: Vollständige Testsuite
         working-directory: importer
         run: npm test
-      - name: Grundlebensmittel-Seite prüfen
+      - name: Chromium installieren
+        working-directory: importer
+        run: npx playwright install --with-deps chromium
+      - name: Grundlebensmittel auf Desktop und iPhone testen
+        working-directory: importer
+        run: node staples-e2e.js
+      - name: Grundlebensmittel-Seite statisch prüfen
         run: |
           grep -q 'Unsere Grundlebensmittel' grundlebensmittel.html
           grep -q 'data/staples.json' grundlebensmittel.html
