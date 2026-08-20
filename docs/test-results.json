@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T11:38:45.572Z",
-  "testedCommit": "7d1000b9c63bc69ffd2d9772da50462aa21b834c",
-  "runId": "32364800521",
+  "generatedAt": "2026-08-20T11:39:14.992Z",
+  "testedCommit": "d41bd2b6cd78d7db3745191325197df76bca6557",
+  "runId": "32364828889",
   "runAttempt": "1",
   "node": "v20.20.2",
   "status": "passed",
-  "tests": 0,
-  "passed": 0,
+  "tests": 75,
+  "passed": 75,
   "failed": 0,
-  "exitCode": 99
+  "exitCode": 0
 }
