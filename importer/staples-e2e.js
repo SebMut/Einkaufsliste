@@ -21,6 +21,6 @@ async function run(label,viewport){
   await page.locator('#q').fill('');await page.locator('[data-filter="missing"]').click();await page.waitForTimeout(100);assert(await page.locator('#grid').count()===1,`${label}: Fehlend-Filter nicht bedienbar`);
   await page.locator('[data-filter="all"]').click();
   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);assert(overflow<=3,`${label}: horizontaler Überlauf ${overflow}px`);assert(errors.length===0,`${label}: JavaScript-Fehler ${errors.join(' | ')}`);
-  results.push({label,viewport,defined,covered,andec​​hser:andechser,overflow,errors});await ctx.close();
+  results.push({label,viewport,defined,covered,andechser,overflow,errors});await ctx.close();
 }
 try{await run('Desktop',{width:1440,height:900});await run('iPhone',{width:390,height:844});console.log(JSON.stringify({status:'passed',results},null,2))}finally{await browser.close();await new Promise(r=>server.close(r))}
