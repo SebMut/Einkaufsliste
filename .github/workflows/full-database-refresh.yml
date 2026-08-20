@@ -1,11 +1,13 @@
 name: Komplette Datenbank aktualisieren
 
 on:
+  workflow_call:
   workflow_dispatch:
   push:
     paths:
       - '.github/workflows/full-database-refresh.yml'
       - 'importer/refresh-*.js'
+      - 'importer/run-with-retry.js'
       - 'importer/*catalog*import*.js'
       - 'importer/package.json'
   schedule:
@@ -16,10 +18,6 @@ on:
 
 permissions:
   contents: write
-
-concurrency:
-  group: complete-database-refresh
-  cancel-in-progress: false
 
 jobs:
   gate:
@@ -55,12 +53,17 @@ jobs:
     needs: gate
     if: needs.gate.outputs.run_refresh == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
+    concurrency:
+      group: complete-database-refresh
+      cancel-in-progress: false
     env:
       TZ: Europe/Berlin
       PREVIOUS_CATALOG_DIR: /tmp/catalog-prev
       PREVIOUS_LIVE_FILE: /tmp/offers-live.prev.json
       PREVIOUS_STATUS_FILE: /tmp/import-status.prev.json
+      RETRY_ATTEMPTS: '4'
+      RETRY_DELAYS_SECONDS: '0,120,600,1200'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -85,6 +88,7 @@ jobs:
           cp -a data/catalog /tmp/catalog-prev
           cp data/offers-live.json /tmp/offers-live.prev.json
           if [ -f data/import-status.json ]; then cp data/import-status.json /tmp/import-status.prev.json; else echo '{"retailers":[]}' > /tmp/import-status.prev.json; fi
+          rm -f data/import-retry-status.json
 
       - name: Tests vor dem Refresh
         working-directory: importer
@@ -94,69 +98,149 @@ jobs:
         working-directory: importer
         run: npm run markets
 
-      - name: Reguläre Vollsortimente vollständig neu abrufen
+      - name: Basiskatalog mit schnellem Retry
         working-directory: importer
-        run: npm run catalog:full
+        env:
+          RETRY_NAME: Basiskatalog
+          RETRY_COMMAND: node catalog-import.js
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
+
+      - name: dm Gesamtsortiment mit schnellem Retry
+        working-directory: importer
+        env:
+          RETRY_NAME: dm
+          RETRY_COMMAND: node dm-catalog-full-import.js
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
+
+      - name: ALDI SÜD Gesamtsortiment mit schnellem Retry
+        working-directory: importer
+        env:
+          RETRY_NAME: ALDI SÜD
+          RETRY_COMMAND: node aldi-catalog-full-import.js
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
+
+      - name: MÜLLER Gesamtsortiment mit schnellem Retry
+        working-directory: importer
+        env:
+          RETRY_NAME: MÜLLER
+          RETRY_COMMAND: node mueller-catalog-full-import.js
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
       - name: Katalog-Bestandsschutz und 30-Prozent-Plausibilitätsprüfung
         working-directory: importer
         run: npm run guard:catalog
 
-      - name: Aktuelle Angebote und Prospekte neu abrufen
+      - name: Aktuelle Angebote und Prospekte mit schnellem Retry
         working-directory: importer
-        run: node import.js
+        env:
+          RETRY_NAME: Angebote und Prospekte
+          RETRY_COMMAND: node import.js
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
-      - name: REWE filialbezogenes Vollsortiment neu abrufen
+      - name: REWE filialbezogenes Vollsortiment mit schnellem Retry
         working-directory: importer
-        run: node rewe-market-catalog-import.js
+        env:
+          RETRY_NAME: REWE
+          RETRY_COMMAND: node rewe-market-catalog-import.js
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
-      - name: Server-HTML-Fallback
+      - name: Server-HTML-Fallback mit Retry
         working-directory: importer
-        continue-on-error: true
-        run: node fallback.js
+        env:
+          RETRY_NAME: Server-HTML-Fallback
+          RETRY_COMMAND: node fallback.js
+          RETRY_ATTEMPTS: '2'
+          RETRY_DELAYS_SECONDS: '0,120'
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
-      - name: REWE/EDEKA Reader-Fallback
+      - name: REWE/EDEKA Reader-Fallback mit Retry
         working-directory: importer
-        continue-on-error: true
-        run: node reader-fallback.js
+        env:
+          RETRY_NAME: REWE-EDEKA-Fallback
+          RETRY_COMMAND: node reader-fallback.js
+          RETRY_ATTEMPTS: '2'
+          RETRY_DELAYS_SECONDS: '0,120'
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
-      - name: Netto Filial-Reader
+      - name: Netto Filial-Reader mit Retry
         working-directory: importer
-        continue-on-error: true
-        run: node netto-reader-v2.js
+        env:
+          RETRY_NAME: Netto
+          RETRY_COMMAND: node netto-reader-v2.js
+          RETRY_ATTEMPTS: '2'
+          RETRY_DELAYS_SECONDS: '0,120'
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
-      - name: Discounter- und Prospektreader
+      - name: Discounter- und Prospektreader mit Retry
         working-directory: importer
-        continue-on-error: true
-        run: node rich-retailers.js
+        env:
+          RETRY_NAME: Discounter-Prospekte
+          RETRY_COMMAND: node rich-retailers.js
+          RETRY_ATTEMPTS: '2'
+          RETRY_DELAYS_SECONDS: '0,120'
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
-      - name: Lidl Preis- und Sortimentreader
+      - name: Lidl Preis- und Sortimentreader mit Retry
         working-directory: importer
-        continue-on-error: true
-        run: node lidl-table-reader.js
+        env:
+          RETRY_NAME: Lidl
+          RETRY_COMMAND: node lidl-table-reader.js
+          RETRY_ATTEMPTS: '3'
+          RETRY_DELAYS_SECONDS: '0,120,600'
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
-      - name: Bio-Händler aktualisieren
+      - name: Bio-Händler mit Retry
         working-directory: importer
-        continue-on-error: true
-        run: node bio-retailers.js
+        env:
+          RETRY_NAME: Bio-Händler
+          RETRY_COMMAND: node bio-retailers.js
+          RETRY_ATTEMPTS: '2'
+          RETRY_DELAYS_SECONDS: '0,120'
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
-      - name: Weitere textbasierte Händlerquellen aktualisieren
+      - name: Weitere Händlerquellen mit Retry
         working-directory: importer
-        continue-on-error: true
-        run: node text-retailers.js
+        env:
+          RETRY_NAME: Weitere-Händler
+          RETRY_COMMAND: node text-retailers.js
+          RETRY_ATTEMPTS: '2'
+          RETRY_DELAYS_SECONDS: '0,120'
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
-      - name: HIT Reader aktualisieren
+      - name: HIT Reader mit Retry
         working-directory: importer
-        continue-on-error: true
-        run: node hit-reader-v4.js
+        env:
+          RETRY_NAME: HIT
+          RETRY_COMMAND: node hit-reader-v4.js
+          RETRY_ATTEMPTS: '3'
+          RETRY_DELAYS_SECONDS: '0,120,600'
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
-      - name: METRO mit vorhandenem Kundenlogin aktualisieren
+      - name: METRO Kundenlogin mit Retry
         working-directory: importer
-        continue-on-error: true
         env:
           METRO_EMAIL: ${{ secrets.METRO_EMAIL }}
           METRO_PASSWORD: ${{ secrets.METRO_PASSWORD }}
-        run: node metro-auth.js
+          RETRY_NAME: METRO
+          RETRY_COMMAND: node metro-auth.js
+          RETRY_ATTEMPTS: '3'
+          RETRY_DELAYS_SECONDS: '0,120,600'
+          RETRY_ALLOW_FAILURE: 'true'
+        run: node run-with-retry.js
 
       - name: Rohdaten bereinigen
         working-directory: importer
@@ -234,7 +318,7 @@ jobs:
           if(!Array.isArray(markets.markets)||markets.markets.length===0) throw new Error('Markt-Whitelist leer');
           if(!status.schedule?.nextRunAt) throw new Error('Monitoringstatus ohne nächsten Lauf');
           if((live.offers||[]).some(o=>!o.activeMarket)) throw new Error('Produkt außerhalb aktiver Markt-Whitelist');
-          console.log(`Release-Gate: ${live.offers.length} Produkte, Status ${status.runStatus}, nächster Lauf ${status.schedule.nextRunBerlin}`);
+          console.log(`Release-Gate: ${live.offers.length} Produkte, Status ${status.runStatus}, Recovery=${status.recoveryRequired}, nächster Lauf ${status.schedule.nextRunBerlin}`);
           NODE
 
       - name: Vollständig geprüften Stand atomar veröffentlichen
@@ -249,6 +333,7 @@ jobs:
             data/price-history.json \
             data/catalog-refresh-report.json \
             data/retailer-refresh-report.json \
+            data/import-retry-status.json \
             data/import-status.json \
             data/import-diagnostics.json \
             docs/assortment-audit.json \
