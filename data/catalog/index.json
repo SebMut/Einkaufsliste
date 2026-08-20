@@ -1,12 +1,12 @@
 {
   "schema": 4,
-  "generatedAt": "2026-08-19T22:18:07.889Z",
+  "generatedAt": "2026-08-20T05:10:20.477Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
       "catalogStatus": "partial_catalog",
-      "productCount": 233,
+      "productCount": 230,
       "branchCount": 3,
       "sources": [
         {
@@ -15,7 +15,7 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 486630,
+          "htmlBytes": 488250,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -25,27 +25,27 @@
           "status": "ok",
           "count": 45,
           "mode": "browser",
-          "htmlBytes": 499081,
-          "jsonResponses": 11,
+          "htmlBytes": 498129,
+          "jsonResponses": 10,
           "networkProducts": 0
         },
         {
           "category": "Haarpflege",
           "url": "https://www.dm.de/haare",
           "status": "ok",
-          "count": 47,
+          "count": 43,
           "mode": "browser",
-          "htmlBytes": 537481,
-          "jsonResponses": 11,
+          "htmlBytes": 517034,
+          "jsonResponses": 9,
           "networkProducts": 0
         },
         {
           "category": "Mundpflege",
           "url": "https://www.dm.de/gesundheit/zahnpflege",
           "status": "ok",
-          "count": 70,
+          "count": 68,
           "mode": "browser",
-          "htmlBytes": 460392,
+          "htmlBytes": 450623,
           "jsonResponses": 8,
           "networkProducts": 0
         },
@@ -53,19 +53,19 @@
           "category": "Baby & Kleinkind",
           "url": "https://www.dm.de/baby-und-kind",
           "status": "ok",
-          "count": 71,
+          "count": 67,
           "mode": "browser",
-          "htmlBytes": 614597,
-          "jsonResponses": 12,
+          "htmlBytes": 595605,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
           "category": "Lebensmittel",
           "url": "https://www.dm.de/ernaehrung",
           "status": "ok",
-          "count": 57,
+          "count": 58,
           "mode": "browser",
-          "htmlBytes": 644094,
+          "htmlBytes": 645180,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -75,8 +75,8 @@
           "status": "ok",
           "count": 35,
           "mode": "browser",
-          "htmlBytes": 391887,
-          "jsonResponses": 11,
+          "htmlBytes": 391904,
+          "jsonResponses": 10,
           "networkProducts": 0
         }
       ]
@@ -84,16 +84,16 @@
     {
       "retailer": "ROSSMANN",
       "catalogStatus": "partial_catalog",
-      "productCount": 67,
+      "productCount": 47,
       "branchCount": 1,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
           "status": "ok",
-          "count": 23,
+          "count": 25,
           "mode": "browser",
-          "htmlBytes": 1308326,
+          "htmlBytes": 1293841,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -103,18 +103,18 @@
           "status": "ok",
           "count": 26,
           "mode": "browser",
-          "htmlBytes": 1294234,
+          "htmlBytes": 1303982,
           "jsonResponses": 2,
           "networkProducts": 0
         },
         {
           "category": "Baby & Kleinkind",
           "url": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
-          "status": "ok",
-          "count": 22,
+          "status": "no_data",
+          "count": 0,
           "mode": "browser",
-          "htmlBytes": 1361086,
-          "jsonResponses": 2,
+          "htmlBytes": 547862,
+          "jsonResponses": 0,
           "networkProducts": 0
         }
       ]
@@ -122,7 +122,7 @@
     {
       "retailer": "MÜLLER",
       "catalogStatus": "partial_catalog",
-      "productCount": 352,
+      "productCount": 370,
       "branchCount": 1,
       "sources": [
         {
@@ -131,7 +131,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1615739,
+          "htmlBytes": 1629876,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -139,9 +139,9 @@
           "category": "Haushalt & Reinigung",
           "url": "https://www.mueller.de/c/drogerie/haushalt/",
           "status": "ok",
-          "count": 180,
+          "count": 177,
           "mode": "static",
-          "htmlBytes": 1198560,
+          "htmlBytes": 1153757,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -151,7 +151,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1085374,
+          "htmlBytes": 1118038,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -161,7 +161,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1108559,
+          "htmlBytes": 1115117,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -180,5 +180,5 @@
     "rossmann.json",
     "mueller.json"
   ],
-  "productCount": 652
+  "productCount": 647
 }
