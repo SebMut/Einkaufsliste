@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-20T08:39:48.399Z",
-  "before": 461,
-  "after": 392,
+  "generatedAt": "2026-08-20T11:41:59.499Z",
+  "before": 448,
+  "after": 379,
   "rejected": 69,
-  "repaired": 636,
+  "repaired": 626,
   "rejectedReasons": {
     "quantity_as_name": 22,
-    "name_length": 16,
     "navigation_or_ui": 13,
+    "name_length": 16,
     "invalid_unit": 4,
     "invalid_price": 6,
     "duplicate": 4,
@@ -18,20 +18,20 @@
     "ALDI SÜD": 67,
     "PENNY": 140,
     "ROSSMANN": 60,
-    "EDEKA": 40,
-    "MÜLLER": 23,
-    "dm": 100,
-    "REWE": 30,
+    "dm": 99,
+    "EDEKA": 39,
+    "MÜLLER": 22,
+    "REWE": 20,
     "Lidl": 1
   },
   "storeAfter": {
     "ALDI SÜD": 61,
-    "EDEKA": 40,
+    "EDEKA": 39,
     "PENNY": 109,
-    "MÜLLER": 20,
-    "dm": 89,
+    "MÜLLER": 19,
+    "dm": 88,
     "ROSSMANN": 42,
-    "REWE": 30,
+    "REWE": 20,
     "Lidl": 1
   },
   "rejectedExamples": [
@@ -131,6 +131,11 @@
       "reason": "quantity_as_name"
     },
     {
+      "store": "dm",
+      "name": "Alle dm-Märkte",
+      "reason": "navigation_or_ui"
+    },
+    {
       "store": "PENNY",
       "name": "Angebotspreis 0.29€\n0.29",
       "reason": "name_length"
@@ -179,29 +184,24 @@
       "store": "PENNY",
       "name": "Angebotspreis 1.79€\n1.79",
       "reason": "name_length"
-    },
-    {
-      "store": "PENNY",
-      "name": "Angebotspreis 1.89€\n1.89",
-      "reason": "name_length"
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-20T08:39:48.487Z",
-    "before": 392,
-    "after": 194,
-    "rejected": 198,
+    "generatedAt": "2026-08-20T11:41:59.589Z",
+    "before": 379,
+    "after": 193,
+    "rejected": 186,
     "repaired": 112,
     "rejectedReasons": {
       "name": 6,
-      "ui": 35,
+      "ui": 33,
       "produce_unit": 1,
-      "price": 1,
+      "price": 2,
       "concatenated_offer": 9,
       "unit_high": 1,
-      "duplicate": 40,
-      "size_duplicate": 41,
-      "semantic_duplicate": 61
+      "duplicate": 39,
+      "size_duplicate": 40,
+      "semantic_duplicate": 52
     },
     "rejectedExamples": [
       {
@@ -381,16 +381,6 @@
       },
       {
         "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
         "name": "Du verwendest einen veralteten Browser. Dadurch kommt es zu Darstellungs- und Funktionsfehlern auf dm.de. Bitte nutze Google Chrome, Mozilla",
         "reason": "name"
       },
@@ -418,6 +408,11 @@
         "store": "PENNY",
         "name": "UVP 0.99 Angebotspreis 0.69€ 0.69 -40% mit App -30% MÖVENPICK Feinjoghurt* mit App: je 150 g (1 kg = 3.93); ohne App:",
         "reason": "concatenated_offer"
+      },
+      {
+        "store": "dm",
+        "name": "Marke: PHILIPS AVENT; Produktname: Doppelmilchpumpe, elektrisch, 1 St; Preis: 199,95 €; Grundpreis: 1 St (199,95 € je 1 St); Neues Produkt G",
+        "reason": "price"
       },
       {
         "store": "PENNY",
@@ -453,17 +448,22 @@
         "store": "ROSSMANN",
         "name": "Services in Ihrer FilialeGeschenkgutscheineRossmann FotoservicePrepaidkartenRücknahmegarantieTeppichreiniger-VerleihGratis WLANRücknahme Ele",
         "reason": "name"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "Sicher einkaufen",
+        "reason": "unit_high"
       }
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-20T08:39:48.558Z",
-    "before": 194,
-    "after": 166,
-    "rejected": 28,
+    "generatedAt": "2026-08-20T11:41:59.664Z",
+    "before": 193,
+    "after": 163,
+    "rejected": 30,
     "repaired": 6,
     "reasons": {
-      "not_food": 18,
+      "not_food": 20,
       "nonfood": 10
     },
     "rejectedExamples": [
@@ -558,10 +558,22 @@
         "reason": "not_food"
       },
       {
+        "store": "dm",
+        "name": "Nestlé BEBACARE Mama Lacto+ Kapseln 28 St",
+        "cleaned": "Nestlé BEBACARE Mama Lacto+ Kapseln 28 St",
+        "reason": "not_food"
+      },
+      {
         "store": "EDEKA",
         "name": "Perwoll Woll- und Feinwaschmittel",
         "cleaned": "Perwoll Woll- und Feinwaschmittel",
         "reason": "nonfood"
+      },
+      {
+        "store": "dm",
+        "name": "PHILIPS AVENT Doppelmilchpumpe, elektrisch",
+        "cleaned": "PHILIPS AVENT Doppelmilchpumpe, elektrisch",
+        "reason": "not_food"
       },
       {
         "store": "ROSSMANN",
@@ -638,9 +650,9 @@
     ]
   },
   "semanticPass": {
-    "at": "2026-08-20T08:39:48.651Z",
-    "before": 166,
-    "after": 166,
+    "at": "2026-08-20T11:41:59.754Z",
+    "before": 163,
+    "after": 163,
     "repaired": 0,
     "normalizer": "product-normalizer-v1"
   }
