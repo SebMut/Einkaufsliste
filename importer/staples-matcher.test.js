@@ -60,6 +60,24 @@ test('Reis schließt Milchreis und Reiswaffeln aus',()=>{
   assert.equal(matchStaple(s,offer({name:'Reiswaffeln',semanticType:'Reiswaffeln',canonicalGroup:'Snacks'})).matches,false);
 });
 
+test('Live-Daten: unklassifizierter Himalaya Basmatireis wird als Reis erkannt',()=>{
+  const s=byId('reis');
+  const x=offer({name:'Himalaya Basmatireis',semanticType:null,canonicalGroup:'Himalaya Basmatireis',canonicalProduct:'Himalaya Basmatireis',category:'Vorrat',store:'ALDI SÜD',price:3.49,unit:3.17,unitLabel:'€/kg'});
+  assert.equal(matchStaple(s,x).matches,true);
+});
+
+test('Live-Daten: unklassifizierte Quarkcreme wird als Quark erkannt',()=>{
+  const s=byId('quark');
+  const x=offer({name:'EDEKA Herzstücke High Protein fettarme Quarkcreme',semanticType:null,canonicalGroup:'EDEKA Herzstücke High Protein fettarme Quarkcreme',category:'Milchprodukte',store:'EDEKA',price:1.49,unit:7.45,unitLabel:'€/kg'});
+  assert.equal(matchStaple(s,x).matches,true);
+});
+
+test('Explizit fremder semantischer Produkttyp schlägt reinen Worttreffer',()=>{
+  const s=byId('reis');
+  const x=offer({name:'Premium Reis 1 kg',semanticType:'Tierfutter',canonicalGroup:'Reis',category:'Tierbedarf'});
+  assert.equal(matchStaple(s,x).matches,false);
+});
+
 test('Live-Regressionsfall: RAMA Brotaufstrich ist kein Brot',()=>{
   const s=byId('brot');
   const x=offer({name:'RAMA Brot­aufstrich',semanticType:'Brot',canonicalGroup:'Brot',store:'PENNY',price:1.29,unit:3.23,unitLabel:'€/kg'});
