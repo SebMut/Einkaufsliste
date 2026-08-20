@@ -1,27 +1,10 @@
-{
-  "status": "passed",
-  "results": [
-    {
-      "label": "Desktop",
-      "viewport": {
-        "width": 1440,
-        "height": 900
-      },
-      "initialCards": 80,
-      "filteredStatus": "10 Produktgruppen · 156 Angebote · 1191 reguläre Produkte",
-      "overflow": 0,
-      "pageErrors": []
-    },
-    {
-      "label": "iPhone",
-      "viewport": {
-        "width": 390,
-        "height": 844
-      },
-      "initialCards": 40,
-      "filteredStatus": "10 Produktgruppen · 156 Angebote · 1191 reguläre Produkte",
-      "overflow": 0,
-      "pageErrors": []
-    }
-  ]
-}
+file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/frontend-e2e.js:8
+const assert=(condition,message)=>{if(!condition)throw new Error(message)};
+                                                       ^
+
+Error: iPhone: horizontaler Überlauf 48px
+    at assert (file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/frontend-e2e.js:8:56)
+    at runViewport (file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/frontend-e2e.js:85:3)
+    at async file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/frontend-e2e.js:95:3
+
+Node.js v20.20.2
