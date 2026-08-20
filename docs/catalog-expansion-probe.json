@@ -1,29 +1,25 @@
 {
-  "schema": 3,
-  "generatedAt": "2026-08-20T13:43:28.419Z",
+  "schema": 4,
+  "generatedAt": "2026-08-20T13:45:54.413Z",
   "rewe": {
     "*": {
       "status": 200,
-      "ok": true,
       "products": 255,
       "totalResultCount": 10000,
       "totalPages": 40,
-      "objectsPerPage": 250,
       "sample": [
         "Salatgurke 1 Stück",
         "WC Frisch Kraft-Aktiv Frische Brise 50g",
-        "WC Frisch Kraft-Aktiv Hawaii 50g",
+        "WC Frisch WC Reiniger Gel Kraft Aktiv Ozeanfrische 750ml",
         "Lauchzwiebeln im Bund",
-        "WC Frisch WC Reiniger Gel Kraft Aktiv Ozeanfrische 750ml"
+        "WC Frisch Kraft-Aktiv Hawaii 50g"
       ]
     },
     "milch": {
       "status": 200,
-      "ok": true,
       "products": 254,
       "totalResultCount": 745,
       "totalPages": 3,
-      "objectsPerPage": 250,
       "sample": [
         "Berchtesgadener Land Haltbare Bergbauern-Milch 1,5% 1l",
         "yfood Trinkmahlzeit Classic Choco 500ml",
@@ -34,11 +30,9 @@
     },
     "brot": {
       "status": 200,
-      "ok": true,
       "products": 250,
       "totalResultCount": 703,
       "totalPages": 3,
-      "objectsPerPage": 250,
       "sample": [
         "Fritz Mühlenbäckerei Bio Sonnenblumenbrot 500g",
         "Fritz Mühlenbäckerei Bio Roggenbrot 750g",
@@ -49,664 +43,407 @@
     },
     "getränke": {
       "status": 200,
-      "ok": true,
       "products": 255,
       "totalResultCount": 3142,
       "totalPages": 13,
-      "objectsPerPage": 250,
       "sample": [
         "HYDR8 Elektrolyt-Getränk Zitrone-Limette 6x0,5l",
         "Lipton Sensations Pink Ice Tea Peach Paradise 6x1l",
-        "Lipton Ice Tea Zitrone Zero Zucker 6x1,25l",
+        "Lipton Ice Tea Pfirsich Zero Zucker 6x1,25l",
         "Hydr8 Zitrone-Limette Elektrolyt-Getränk 0,5l",
-        "Lipton Ice Tea Pfirsich Zero Zucker 6x1,25l"
+        "Lipton Ice Tea Zitrone Zero Zucker 6x1,25l"
       ]
     }
   },
   "dm": {
-    "paginationCandidates": {
-      "page1": {
-        "status": 200,
-        "ok": true,
-        "products": 48,
-        "count": 21055,
-        "currentPage": 0,
-        "pageSize": 48,
-        "totalPages": 21,
-        "firstDan": 1292653,
-        "lastDan": 1491795,
-        "firstProduct": {
-          "gtin": 4066447912111,
-          "dan": 1292653,
-          "brandName": "Soft&Sicher",
-          "title": "Taschentücher Box Design, 100 St",
-          "tileData": {
-            "dan": 1292653,
-            "gtin": 4066447912111,
-            "self": "/p/d/1292653/soft-und-sicher-taschentuecher-box-design",
-            "brand": {
-              "name": "Soft&Sicher"
-            },
-            "price": {
-              "price": {
-                "current": {
-                  "value": "0,95 €"
-                }
-              },
-              "prefix": "Einzelpreis",
-              "tileInfos": [
-                "100 St (0,95 € je 100 St)"
-              ]
-            },
-            "title": {
-              "tileHeadline": "Taschentücher Box Design, 100 St"
-            },
-            "images": [
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713011/assets/pas/images/c66324ef-b5d1-4b50-9deb-908606825b88/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F5F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713123/assets/pas/images/fc03c53f-396e-4f0a-a56b-89b0be3285d6/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F2F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713139/assets/pas/images/fa276953-019c-4dc5-9a70-b2b9f5744298/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F2F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713158/assets/pas/images/ac233825-f733-4821-b087-f4e4204ef073/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F4F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713250/assets/pas/images/85506325-af92-4336-9543-fd11c923832e/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F4F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713268/assets/pas/images/97c5edae-35c7-49ec-8322-153c49b64324/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F3F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713338/assets/pas/images/3c5a2d97-efbd-4c40-8a14-79946c3daf05/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F6F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713364/assets/pas/images/ea3cc1e0-456f-49f9-9575-75c2d09f6a17/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F2F1"
-              }
-            ],
-            "infoHint": {
-              "text": "Hinweise"
-            },
-            "netPrice": {
-              "price": {
-                "current": {
-                  "value": "0,80 €"
-                }
-              },
-              "prefix": "Einzelpreis",
-              "tileInfos": [
-                "100 St (0,80 € je 100 St)"
-              ]
-            },
-            "a11yLabel": "Marke: Soft&Sicher; Produktname: Taschentücher Box Design, 100 St; Preis: 0,95 €; Grundpreis: 100 St (0,95 € je 100 St); Marke von dm Grafik",
-            "isPharmacy": false,
-            "eyecatchers": [
-              {
-                "alt": "Marke von dm Grafik",
-                "src": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_150/v1782977607/assets/mp/highlight-graphics/media_highlight_graphic_dm_brand_de_de/media_highlight_graphic_dm_brand_de_de"
-              }
-            ],
-            "trackingData": {
-              "brand": "Soft&Sicher",
-              "price": 0.95,
-              "currency": "EUR",
-              "categories": [
-                "Taschentücher"
-              ],
-              "isPharmacy": false
-            }
-          },
-          "context": {
-            "rating": {
-              "ratingValue": 4.1937,
-              "ratingCount": 573
-            }
-          }
-        }
-      },
-      "page2": {
-        "status": 200,
-        "ok": true,
-        "products": 48,
-        "count": 21055,
-        "currentPage": 0,
-        "pageSize": 48,
-        "totalPages": 21,
-        "firstDan": 1292653,
-        "lastDan": 1491795,
-        "firstProduct": {
-          "gtin": 4066447912111,
-          "dan": 1292653,
-          "brandName": "Soft&Sicher",
-          "title": "Taschentücher Box Design, 100 St",
-          "tileData": {
-            "dan": 1292653,
-            "gtin": 4066447912111,
-            "self": "/p/d/1292653/soft-und-sicher-taschentuecher-box-design",
-            "brand": {
-              "name": "Soft&Sicher"
-            },
-            "price": {
-              "price": {
-                "current": {
-                  "value": "0,95 €"
-                }
-              },
-              "prefix": "Einzelpreis",
-              "tileInfos": [
-                "100 St (0,95 € je 100 St)"
-              ]
-            },
-            "title": {
-              "tileHeadline": "Taschentücher Box Design, 100 St"
-            },
-            "images": [
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713011/assets/pas/images/c66324ef-b5d1-4b50-9deb-908606825b88/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F5F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713123/assets/pas/images/fc03c53f-396e-4f0a-a56b-89b0be3285d6/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F2F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713139/assets/pas/images/fa276953-019c-4dc5-9a70-b2b9f5744298/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F2F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713158/assets/pas/images/ac233825-f733-4821-b087-f4e4204ef073/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F4F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713250/assets/pas/images/85506325-af92-4336-9543-fd11c923832e/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F4F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713268/assets/pas/images/97c5edae-35c7-49ec-8322-153c49b64324/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F3F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713338/assets/pas/images/3c5a2d97-efbd-4c40-8a14-79946c3daf05/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F6F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713364/assets/pas/images/ea3cc1e0-456f-49f9-9575-75c2d09f6a17/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F2F1"
-              }
-            ],
-            "infoHint": {
-              "text": "Hinweise"
-            },
-            "netPrice": {
-              "price": {
-                "current": {
-                  "value": "0,80 €"
-                }
-              },
-              "prefix": "Einzelpreis",
-              "tileInfos": [
-                "100 St (0,80 € je 100 St)"
-              ]
-            },
-            "a11yLabel": "Marke: Soft&Sicher; Produktname: Taschentücher Box Design, 100 St; Preis: 0,95 €; Grundpreis: 100 St (0,95 € je 100 St); Marke von dm Grafik",
-            "isPharmacy": false,
-            "eyecatchers": [
-              {
-                "alt": "Marke von dm Grafik",
-                "src": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_150/v1782977607/assets/mp/highlight-graphics/media_highlight_graphic_dm_brand_de_de/media_highlight_graphic_dm_brand_de_de"
-              }
-            ],
-            "trackingData": {
-              "brand": "Soft&Sicher",
-              "price": 0.95,
-              "currency": "EUR",
-              "categories": [
-                "Taschentücher"
-              ],
-              "isPharmacy": false
-            }
-          },
-          "context": {
-            "rating": {
-              "ratingValue": 4.1937,
-              "ratingCount": 573
-            }
-          }
-        }
-      },
-      "pageNumber1": {
+    "categories": {
+      "100000": {
         "status": 429,
-        "ok": false,
-        "products": 0,
         "count": null,
-        "currentPage": null,
-        "pageSize": null,
-        "totalPages": null,
-        "firstDan": null,
-        "lastDan": null,
-        "firstProduct": null
-      },
-      "currentPage1": {
-        "status": 429,
-        "ok": false,
         "products": 0,
-        "count": null,
-        "currentPage": null,
-        "pageSize": null,
-        "totalPages": null,
-        "firstDan": null,
-        "lastDan": null,
-        "firstProduct": null
+        "sample": []
       },
-      "offset48": {
+      "010000": {
         "status": 200,
-        "ok": true,
-        "products": 48,
-        "count": 21055,
-        "currentPage": 0,
-        "pageSize": 48,
-        "totalPages": 21,
-        "firstDan": 1292653,
-        "lastDan": 1491795,
-        "firstProduct": {
-          "gtin": 4066447912111,
-          "dan": 1292653,
-          "brandName": "Soft&Sicher",
-          "title": "Taschentücher Box Design, 100 St",
-          "tileData": {
-            "dan": 1292653,
-            "gtin": 4066447912111,
-            "self": "/p/d/1292653/soft-und-sicher-taschentuecher-box-design",
-            "brand": {
-              "name": "Soft&Sicher"
-            },
-            "price": {
-              "price": {
-                "current": {
-                  "value": "0,95 €"
-                }
-              },
-              "prefix": "Einzelpreis",
-              "tileInfos": [
-                "100 St (0,95 € je 100 St)"
-              ]
-            },
-            "title": {
-              "tileHeadline": "Taschentücher Box Design, 100 St"
-            },
-            "images": [
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713011/assets/pas/images/c66324ef-b5d1-4b50-9deb-908606825b88/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F5F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713123/assets/pas/images/fc03c53f-396e-4f0a-a56b-89b0be3285d6/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F2F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713139/assets/pas/images/fa276953-019c-4dc5-9a70-b2b9f5744298/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F2F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713158/assets/pas/images/ac233825-f733-4821-b087-f4e4204ef073/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F4F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713250/assets/pas/images/85506325-af92-4336-9543-fd11c923832e/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F4F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713268/assets/pas/images/97c5edae-35c7-49ec-8322-153c49b64324/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F3F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713338/assets/pas/images/3c5a2d97-efbd-4c40-8a14-79946c3daf05/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F6F1"
-              },
-              {
-                "alt": "Taschentücher Box Design Soft&Sicher",
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713364/assets/pas/images/ea3cc1e0-456f-49f9-9575-75c2d09f6a17/soft-und-sicher-taschentuecher-box-design",
-                "isAiGenerated": false,
-                "backgroundColor": "#F9F2F1"
-              }
-            ],
-            "infoHint": {
-              "text": "Hinweise"
-            },
-            "netPrice": {
-              "price": {
-                "current": {
-                  "value": "0,80 €"
-                }
-              },
-              "prefix": "Einzelpreis",
-              "tileInfos": [
-                "100 St (0,80 € je 100 St)"
-              ]
-            },
-            "a11yLabel": "Marke: Soft&Sicher; Produktname: Taschentücher Box Design, 100 St; Preis: 0,95 €; Grundpreis: 100 St (0,95 € je 100 St); Marke von dm Grafik",
-            "isPharmacy": false,
-            "eyecatchers": [
-              {
-                "alt": "Marke von dm Grafik",
-                "src": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_150/v1782977607/assets/mp/highlight-graphics/media_highlight_graphic_dm_brand_de_de/media_highlight_graphic_dm_brand_de_de"
-              }
-            ],
-            "trackingData": {
-              "brand": "Soft&Sicher",
-              "price": 0.95,
-              "currency": "EUR",
-              "categories": [
-                "Taschentücher"
-              ],
-              "isPharmacy": false
-            }
-          },
-          "context": {
-            "rating": {
-              "ratingValue": 4.1937,
-              "ratingCount": 573
-            }
-          }
-        }
-      },
-      "start48": {
-        "status": 429,
-        "ok": false,
-        "products": 0,
-        "count": null,
-        "currentPage": null,
-        "pageSize": null,
-        "totalPages": null,
-        "firstDan": null,
-        "lastDan": null,
-        "firstProduct": null
-      }
-    },
-    "base": {
-      "status": 200,
-      "ok": true,
-      "products": 48,
-      "count": 21055,
-      "currentPage": 0,
-      "pageSize": 48,
-      "totalPages": 21,
-      "firstDan": 1292653,
-      "lastDan": 1491795,
-      "firstProduct": {
-        "gtin": 4066447912111,
-        "dan": 1292653,
-        "brandName": "Soft&Sicher",
-        "title": "Taschentücher Box Design, 100 St",
-        "tileData": {
-          "dan": 1292653,
-          "gtin": 4066447912111,
-          "self": "/p/d/1292653/soft-und-sicher-taschentuecher-box-design",
-          "brand": {
-            "name": "Soft&Sicher"
-          },
-          "price": {
-            "price": {
-              "current": {
-                "value": "0,95 €"
-              }
-            },
-            "prefix": "Einzelpreis",
-            "tileInfos": [
-              "100 St (0,95 € je 100 St)"
+        "count": 5261,
+        "products": 20,
+        "sample": [
+          {
+            "brand": "ebelin",
+            "title": "Nagellackentferner Pads Grüner Tee und Apfel, 30 St",
+            "price": 1.25,
+            "category": [
+              "Nagellackentferner"
             ]
           },
-          "title": {
-            "tileHeadline": "Taschentücher Box Design, 100 St"
-          },
-          "images": [
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713011/assets/pas/images/c66324ef-b5d1-4b50-9deb-908606825b88/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F5F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713123/assets/pas/images/fc03c53f-396e-4f0a-a56b-89b0be3285d6/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F2F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713139/assets/pas/images/fa276953-019c-4dc5-9a70-b2b9f5744298/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F2F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713158/assets/pas/images/ac233825-f733-4821-b087-f4e4204ef073/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F4F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713250/assets/pas/images/85506325-af92-4336-9543-fd11c923832e/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F4F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713268/assets/pas/images/97c5edae-35c7-49ec-8322-153c49b64324/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F3F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713338/assets/pas/images/3c5a2d97-efbd-4c40-8a14-79946c3daf05/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F6F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713364/assets/pas/images/ea3cc1e0-456f-49f9-9575-75c2d09f6a17/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F2F1"
-            }
-          ],
-          "infoHint": {
-            "text": "Hinweise"
-          },
-          "netPrice": {
-            "price": {
-              "current": {
-                "value": "0,80 €"
-              }
-            },
-            "prefix": "Einzelpreis",
-            "tileInfos": [
-              "100 St (0,80 € je 100 St)"
+          {
+            "brand": "ebelin",
+            "title": "Nagellackentferner acetonfrei, 125 ml",
+            "price": 0.85,
+            "category": [
+              "Nagellackentferner"
             ]
           },
-          "a11yLabel": "Marke: Soft&Sicher; Produktname: Taschentücher Box Design, 100 St; Preis: 0,95 €; Grundpreis: 100 St (0,95 € je 100 St); Marke von dm Grafik",
-          "isPharmacy": false,
-          "eyecatchers": [
-            {
-              "alt": "Marke von dm Grafik",
-              "src": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_150/v1782977607/assets/mp/highlight-graphics/media_highlight_graphic_dm_brand_de_de/media_highlight_graphic_dm_brand_de_de"
-            }
-          ],
-          "trackingData": {
-            "brand": "Soft&Sicher",
+          {
+            "brand": "ebelin",
+            "title": "Profifeile fein + grob, 1 St",
+            "price": 1.25,
+            "category": [
+              "Nagelfeilen"
+            ]
+          },
+          {
+            "brand": "ebelin",
+            "title": "Augenbrauenformer, 3 St",
+            "price": 2.95,
+            "category": [
+              "Beautyhelfer"
+            ]
+          },
+          {
+            "brand": "trend !t up",
+            "title": "Künstliche Wimpern Big Lash Love Swing (1 Paar), 2 St",
+            "price": 2.45,
+            "category": [
+              "Künstliche Wimpern"
+            ]
+          },
+          {
+            "brand": "ebelin",
+            "title": "Pinzette Softgriff, 1 St",
+            "price": 1.95,
+            "category": [
+              "Beautyhelfer"
+            ]
+          },
+          {
+            "brand": "ebelin",
+            "title": "Nagelfeile Anti-Splitter, 1 St",
+            "price": 1.25,
+            "category": [
+              "Nagelfeilen"
+            ]
+          },
+          {
+            "brand": "essence",
+            "title": "Mascara I Love Extreme Crazy Volume, 12 ml",
+            "price": 2.95,
+            "category": [
+              "Mascara"
+            ]
+          }
+        ]
+      },
+      "020000": {
+        "status": 200,
+        "count": 4012,
+        "products": 20,
+        "sample": [
+          {
+            "brand": "ebelin",
+            "title": "Kosmetiktücher, 200 St",
+            "price": 1.25,
+            "category": [
+              "Abschminkprodukte"
+            ]
+          },
+          {
+            "brand": "ebelin",
+            "title": "Wattepads Maxi, 50 St",
             "price": 0.95,
-            "currency": "EUR",
-            "categories": [
-              "Taschentücher"
-            ],
-            "isPharmacy": false
+            "category": [
+              "Abschminkprodukte"
+            ]
+          },
+          {
+            "brand": "Balea",
+            "title": "Augenpads Hydrogel Kaktuswasser (1 Paar), 2 St",
+            "price": 0.75,
+            "category": [
+              "Gesichtsmaske"
+            ]
+          },
+          {
+            "brand": "Balea",
+            "title": "Abschminktücher Pflegend 3in1, 25 St",
+            "price": 0.85,
+            "category": [
+              "Abschminkprodukte"
+            ]
+          },
+          {
+            "brand": "Balea",
+            "title": "Deocreme mit Natron & Zink, 50 ml",
+            "price": 1.75,
+            "category": [
+              "Deo"
+            ]
+          },
+          {
+            "brand": "ebelin",
+            "title": "Peeling-Massageschwamm, 1 St",
+            "price": 0.95,
+            "category": [
+              "Schwämme & Massagezubehör"
+            ]
+          },
+          {
+            "brand": "Balea med",
+            "title": "Waschgel Ultra Sensitive, 150 ml",
+            "price": 2.95,
+            "category": [
+              "Gesichtsreinigung"
+            ]
+          },
+          {
+            "brand": "Balea med",
+            "title": "Duschgel & Shampoo 5% Urea 2in1, 300 ml",
+            "price": 1.75,
+            "category": [
+              "Shampoo",
+              "Duschgel"
+            ]
           }
-        },
-        "context": {
-          "rating": {
-            "ratingValue": 4.1937,
-            "ratingCount": 573
+        ]
+      },
+      "030000": {
+        "status": 429,
+        "count": null,
+        "products": 0,
+        "sample": []
+      },
+      "040000": {
+        "status": 200,
+        "count": 1708,
+        "products": 20,
+        "sample": [
+          {
+            "brand": "Sportness",
+            "title": "Proteinriegel 30%, Popcorn-Salted-Caramel-Geschmack, 40 g",
+            "price": 0.85,
+            "category": [
+              "Protein Riegel"
+            ]
+          },
+          {
+            "brand": "Sportness",
+            "title": "Proteinriegel 34%, Peanut Caramel Geschmack, 40 g",
+            "price": 0.85,
+            "category": [
+              "Protein Riegel"
+            ]
+          },
+          {
+            "brand": "Sportness",
+            "title": "Proteinriegel 30%, Himbeere Crisp Geschmack, 40 g",
+            "price": 0.85,
+            "category": [
+              "Protein Riegel"
+            ]
+          },
+          {
+            "brand": "Sportness",
+            "title": "Proteinriegel 33%, Peanut Caramel Geschmack, White Edition, 40 g",
+            "price": 0.85,
+            "category": [
+              "Protein Riegel"
+            ]
+          },
+          {
+            "brand": "dmBio",
+            "title": "Brezeln, Dinkel ohne Aufstreusalz, mini, 125 g",
+            "price": 1.25,
+            "category": [
+              "Knabberzeug"
+            ]
+          },
+          {
+            "brand": "dmBio",
+            "title": "Trockenfrüchte, Erdbeerscheiben gefriergetrocknet, 25 g",
+            "price": 2.75,
+            "category": [
+              "Trockenfrüchte"
+            ]
+          },
+          {
+            "brand": "dmBio",
+            "title": "Knabbertiere, 100 g",
+            "price": 1.35,
+            "category": [
+              "Knabberzeug"
+            ]
+          },
+          {
+            "brand": "dmBio",
+            "title": "Kokoswasser, natur, 330 ml",
+            "price": 1.45,
+            "category": [
+              "Fruchtsäfte"
+            ]
           }
-        }
+        ]
+      },
+      "050000": {
+        "status": 200,
+        "count": 3490,
+        "products": 20,
+        "sample": [
+          {
+            "brand": "babylove",
+            "title": "Reinigungs Wattepads, 60 St",
+            "price": 1.65,
+            "category": [
+              "Babypflege Zubehör"
+            ]
+          },
+          {
+            "brand": "babylove",
+            "title": "Feuchte Waschlappen, 80 St",
+            "price": 1.55,
+            "category": [
+              "Feuchttücher & Co."
+            ]
+          },
+          {
+            "brand": "babylove",
+            "title": "Quetschie Erdbeere & Heidelbeere in Apfel ab 1 Jahr, 100 g",
+            "price": 0.75,
+            "category": [
+              "Quetschies"
+            ]
+          },
+          {
+            "brand": "dmBio",
+            "title": "Babysnack Reiswaffeln Himbeere ab dem 8. Monat, 35 g",
+            "price": 0.75,
+            "category": [
+              "Snacks für Kinder"
+            ]
+          },
+          {
+            "brand": "babylove",
+            "title": "Quetschie Guten Abend Apfel & Banane mit Hafer & Milch ab 1 Jahr, 100 g",
+            "price": 0.75,
+            "category": [
+              "Quetschies"
+            ]
+          },
+          {
+            "brand": "babylove",
+            "title": "Sicherheits-Wattestäbchen, 72 St",
+            "price": 0.75,
+            "category": [
+              "Babypflege Zubehör"
+            ]
+          },
+          {
+            "brand": "babylove Mama",
+            "title": "Dattelriegel Kakao & Himbeere, 40 g",
+            "price": 0.85,
+            "category": [
+              "Ernährung für Schwangerschaft & Stillzeit"
+            ]
+          },
+          {
+            "brand": "babylove",
+            "title": "Quetschie Pfirsich & Banane in Apfel ab 1 Jahr, 100 g",
+            "price": 0.75,
+            "category": [
+              "Quetschies"
+            ]
+          }
+        ]
+      },
+      "060000": {
+        "status": 429,
+        "count": null,
+        "products": 0,
+        "sample": []
+      },
+      "070000": {
+        "status": 429,
+        "count": null,
+        "products": 0,
+        "sample": []
+      },
+      "080000": {
+        "status": 200,
+        "count": 0,
+        "products": 0,
+        "sample": []
+      },
+      "090000": {
+        "status": 429,
+        "count": null,
+        "products": 0,
+        "sample": []
       }
-    }
-  },
-  "rossmann": {
-    "haushalt": {
-      "uniqueProductLinks": 0,
-      "pages": [
-        {
-          "pageIndex": 0,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
-        },
-        {
-          "pageIndex": 1,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
-        }
-      ]
-    },
-    "pflege": {
-      "uniqueProductLinks": 0,
-      "pages": [
-        {
-          "pageIndex": 0,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
-        },
-        {
-          "pageIndex": 1,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
-        }
-      ]
-    },
-    "baby": {
-      "uniqueProductLinks": 0,
-      "pages": [
-        {
-          "pageIndex": 0,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
-        },
-        {
-          "pageIndex": 1,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
-        }
-      ]
     }
   },
   "summary": {
     "reweStarTotal": 10000,
-    "dmCount": 21055,
-    "dmPageSize": 48,
-    "dmTotalPages": 21,
-    "dmPagination": {
-      "page1": {
-        "currentPage": 0,
-        "firstDan": 1292653,
-        "lastDan": 1491795,
-        "status": 200
+    "dmCategories": {
+      "100000": {
+        "status": 429,
+        "count": null,
+        "sample": []
       },
-      "page2": {
-        "currentPage": 0,
-        "firstDan": 1292653,
-        "lastDan": 1491795,
-        "status": 200
+      "010000": {
+        "status": 200,
+        "count": 5261,
+        "sample": [
+          "ebelin Nagellackentferner Pads Grüner Tee und Apfel, 30 St",
+          "ebelin Nagellackentferner acetonfrei, 125 ml"
+        ]
       },
-      "pageNumber1": {
-        "currentPage": null,
-        "firstDan": null,
-        "lastDan": null,
-        "status": 429
+      "020000": {
+        "status": 200,
+        "count": 4012,
+        "sample": [
+          "ebelin Kosmetiktücher, 200 St",
+          "ebelin Wattepads Maxi, 50 St"
+        ]
       },
-      "currentPage1": {
-        "currentPage": null,
-        "firstDan": null,
-        "lastDan": null,
-        "status": 429
+      "030000": {
+        "status": 429,
+        "count": null,
+        "sample": []
       },
-      "offset48": {
-        "currentPage": 0,
-        "firstDan": 1292653,
-        "lastDan": 1491795,
-        "status": 200
+      "040000": {
+        "status": 200,
+        "count": 1708,
+        "sample": [
+          "Sportness Proteinriegel 30%, Popcorn-Salted-Caramel-Geschmack, 40 g",
+          "Sportness Proteinriegel 34%, Peanut Caramel Geschmack, 40 g"
+        ]
       },
-      "start48": {
-        "currentPage": null,
-        "firstDan": null,
-        "lastDan": null,
-        "status": 429
+      "050000": {
+        "status": 200,
+        "count": 3490,
+        "sample": [
+          "babylove Reinigungs Wattepads, 60 St",
+          "babylove Feuchte Waschlappen, 80 St"
+        ]
+      },
+      "060000": {
+        "status": 429,
+        "count": null,
+        "sample": []
+      },
+      "070000": {
+        "status": 429,
+        "count": null,
+        "sample": []
+      },
+      "080000": {
+        "status": 200,
+        "count": 0,
+        "sample": []
+      },
+      "090000": {
+        "status": 429,
+        "count": null,
+        "sample": []
       }
     }
   }
