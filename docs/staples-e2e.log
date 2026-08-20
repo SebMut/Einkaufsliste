@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "label": "Desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "defined": 13,
+      "covered": 5,
+      "andechser": 2,
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "label": "iPhone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "defined": 13,
+      "covered": 5,
+      "andechser": 2,
+      "overflow": 0,
+      "errors": []
+    }
+  ]
+}
