@@ -12,6 +12,7 @@ const live=await read(path.join(DATA,'offers-live.json'),{offers:[],sources:[]})
 const index=await read(path.join(DATA,'catalog','index.json'),{retailers:[]});
 const catalogGuard=await read(path.join(DATA,'catalog-refresh-report.json'),{retailers:[]});
 const liveGuard=await read(path.join(DATA,'retailer-refresh-report.json'),{retailers:[]});
+const retryStatus=await read(path.join(DATA,'import-retry-status.json'),{imports:[]});
 const previous=await read(process.env.PREVIOUS_STATUS_FILE||'/tmp/import-status.prev.json',{retailers:[]});
 
 const activeStores=[...new Set((markets.markets||[]).map(m=>m.store))].sort((a,b)=>a.localeCompare(b,'de'));
@@ -42,10 +43,13 @@ const retailers=activeStores.map(retailer=>{
 
 const red=retailers.filter(r=>r.status==='no_data').length;
 const stale=retailers.filter(r=>r.status==='stale').length;
-const overall=red?'partial':stale?'partial':'completed';
+const failedImports=(retryStatus.imports||[]).filter(x=>x.status==='failed');
+const recoveredImports=(retryStatus.imports||[]).filter(x=>x.status==='recovered');
+const recoveryRequired=stale>0||failedImports.length>0;
+const overall=recoveryRequired||red?'partial':'completed';
 const next=nextScheduledRun(now);
 const status={
-  schema:2,
+  schema:3,
   generatedAt:now.toISOString(),
   timezone:TIME_ZONE,
   schedule:{localHours:TARGET_HOURS.map(h=>`${String(h).padStart(2,'0')}:00`),nextRunAt:next.toISOString(),nextRunBerlin:formatBerlin(next)},
@@ -53,6 +57,9 @@ const status={
   lastCompletedBerlin:formatBerlin(now),
   runStatus:overall,
   indicator:overall==='completed'?'🟢':'🟡',
+  recoveryRequired,
+  failedImports:failedImports.map(x=>x.name),
+  recoveredImports:recoveredImports.map(x=>x.name),
   productsTotal:Number(live.productCount??live.offers?.length??0),
   offersTotal:Number(live.offerCount??(live.offers||[]).filter(o=>o.isOffer).length),
   regularProductsTotal:Number(live.regularProductCount??(live.offers||[]).filter(o=>!o.isOffer).length),
@@ -60,9 +67,9 @@ const status={
   staleRetailers:stale,
   retailersWithoutData:red,
   retailers,
-  safeguards:{maxAcceptedDropPercent:30,catalogReport:'data/catalog-refresh-report.json',retailerReport:'data/retailer-refresh-report.json'},
+  safeguards:{maxAcceptedDropPercent:30,catalogReport:'data/catalog-refresh-report.json',retailerReport:'data/retailer-refresh-report.json',retryReport:'data/import-retry-status.json'},
   testedCommit:process.env.GITHUB_SHA||null,
   workflowRunId:process.env.GITHUB_RUN_ID||null
 };
 await fs.writeFile(path.join(DATA,'import-status.json'),JSON.stringify(status,null,2)+'\n');
-console.log(`Refresh-Status ${status.indicator}: ${status.productsTotal} Produkte, ${status.offersTotal} Angebote, nächster Lauf ${status.schedule.nextRunBerlin}.`);
+console.log(`Refresh-Status ${status.indicator}: ${status.productsTotal} Produkte, ${status.offersTotal} Angebote, Recovery=${status.recoveryRequired}, nächster Lauf ${status.schedule.nextRunBerlin}.`);
