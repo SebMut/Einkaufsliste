@@ -30,6 +30,17 @@ export function nextScheduledRun(from=new Date()){
   throw new Error('Kein Europe/Berlin-Zeitfenster innerhalb von 60 Stunden gefunden.');
 }
 
+export function previousScheduledRun(from=new Date()){
+  const start=new Date(from);
+  start.setUTCSeconds(0,0);
+  start.setUTCMinutes(0);
+  for(let i=0;i<60;i++){
+    const candidate=new Date(start.getTime()-i*60*60*1000);
+    if(candidate<=from&&shouldRunScheduled(candidate)) return candidate;
+  }
+  throw new Error('Kein vorheriges Europe/Berlin-Zeitfenster innerhalb von 60 Stunden gefunden.');
+}
+
 export function formatBerlin(date){
   return new Intl.DateTimeFormat('de-DE',{
     timeZone:TIME_ZONE,dateStyle:'short',timeStyle:'short'
