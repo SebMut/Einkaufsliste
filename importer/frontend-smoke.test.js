@@ -5,8 +5,11 @@ import os from 'node:os';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 
-const html=await fs.readFile(path.resolve(process.cwd(),'..','index.html'),'utf8');
-const live=JSON.parse(await fs.readFile(path.resolve(process.cwd(),'..','data','offers-live.json'),'utf8'));
+const root=path.resolve(process.cwd(),'..');
+const html=await fs.readFile(path.join(root,'index.html'),'utf8');
+const staplesHtml=await fs.readFile(path.join(root,'grundlebensmittel.html'),'utf8');
+const staplesConfig=JSON.parse(await fs.readFile(path.join(root,'data','staples.json'),'utf8'));
+const live=JSON.parse(await fs.readFile(path.join(root,'data','offers-live.json'),'utf8'));
 
 test('UI nennt keine alte 15-km-Logik mehr',()=>{
   assert.equal(/15[- ]?km|15-km-radius/i.test(html),false);
@@ -60,4 +63,37 @@ test('Live-Daten enthalten mehrere konkrete Milchprodukte',()=>{
   console.log(`# Milch-Audit: ${rows.length} Datensaetze, ${ids.size} konkrete Produkte, ${names.size} Produktnamen`);
   assert.ok(rows.length>1,`Nur ${rows.length} Milch-Datensatz vorhanden`);
   assert.ok(ids.size>1,`Nur ${ids.size} konkretes Milchprodukt vorhanden`);
+});
+
+test('Startseite verlinkt Unsere Grundlebensmittel',()=>{
+  assert.match(html,/href="\.\/grundlebensmittel\.html"/);
+  assert.match(html,/Unsere Grundlebensmittel/);
+});
+
+test('Grundlebensmittel-Seite nutzt Live-Angebote, Prospekte und konkrete Historie',()=>{
+  assert.match(staplesHtml,/Unsere Grundlebensmittel/);
+  assert.match(staplesHtml,/data\/staples\.json/);
+  assert.match(staplesHtml,/data\/offers-live\.json/);
+  assert.match(staplesHtml,/data\/price-history\.json/);
+  assert.match(staplesHtml,/staples-matcher\.js/);
+  assert.match(staplesHtml,/Nur ein belastbarer Händlerpreis/);
+  assert.match(staplesHtml,/ANGEBOT/);
+  assert.match(staplesHtml,/canonicalProductId/);
+});
+
+test('Breite Bio-Obst- und Gemüsegruppen werden bis zur Sortendefinition nicht pauschal bepreist',()=>{
+  for(const id of ['bio-obst','bio-gemuese']){
+    const item=staplesConfig.items.find(x=>x.id===id);
+    assert.ok(item,`${id} fehlt`);
+    assert.equal(item.needsDefinition,true);
+    assert.equal(item.active,false);
+  }
+});
+
+test('Grundlebensmittel-Inline-JavaScript ist syntaktisch gültig',async()=>{
+  const m=staplesHtml.match(/<script type="module">([\s\S]*?)<\/script>/);
+  assert.ok(m?.[1],'Grundlebensmittel-Modul-Script fehlt');
+  const file=path.join(os.tmpdir(),`grundlebensmittel-${process.pid}.mjs`);
+  await fs.writeFile(file,m[1]);
+  try{execFileSync(process.execPath,['--check',file],{stdio:'pipe'})}finally{await fs.unlink(file).catch(()=>{})}
 });
