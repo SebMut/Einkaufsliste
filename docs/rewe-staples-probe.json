@@ -1,11 +1,11 @@
 {
-  "schema": 1,
-  "generatedAt": "2026-08-20T12:20:03.365Z",
+  "schema": 2,
+  "generatedAt": "2026-08-20T12:23:14.365Z",
   "purpose": "Probe für standortabhängige REWE-Regulärpreise der persönlichen Grundlebensmittel",
   "localReweMarkets": 3,
   "successfulMarkets": 1,
-  "queriesWithProducts": 0,
-  "status": "needs_followup",
+  "queriesWithProducts": 9,
+  "status": "passed",
   "results": [
     {
       "local": {
@@ -640,7 +640,7 @@
       "queries": [
         {
           "query": "Andechser",
-          "endpoint": null,
+          "endpoint": "https://shop.rewe.de/api/products?search=Andechser&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
           "withCookie": false,
           "attempts": [
             {
@@ -649,6 +649,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Andechser",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -658,6 +665,58 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": {
+                "type": "string",
+                "marketInfo": {
+                  "bulkyGoodsText": "string"
+                },
+                "search": {
+                  "term": "string",
+                  "sorting": "string",
+                  "autoCorrect": {
+                    "originalSearchTerm": "string"
+                  },
+                  "marketCode": "string",
+                  "selectedFacets": {},
+                  "locale": "string",
+                  "debugMode": "boolean"
+                },
+                "pagination": {
+                  "page": "number",
+                  "totalPages": "number",
+                  "objectsPerPage": "number",
+                  "totalResultCount": "number"
+                },
+                "facets": {
+                  "type": "array",
+                  "length": 5,
+                  "sample": {
+                    "name": "string",
+                    "label": "string",
+                    "displayType": "string",
+                    "resetFacetFilterGroupQuery": "string",
+                    "parameterNames": {
+                      "name": "string",
+                      "type": "string"
+                    }
+                  }
+                },
+                "_embedded": {
+                  "products": {
+                    "type": "array",
+                    "length": 0,
+                    "sample": null
+                  }
+                },
+                "toggles": {
+                  "type": "array",
+                  "length": 22,
+                  "sample": {
+                    "name": "string",
+                    "active": "boolean"
+                  }
+                }
+              },
               "error": null,
               "preview": null
             },
@@ -667,6 +726,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Andechser",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -676,6 +742,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -685,6 +752,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Andechser",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -694,6 +768,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -703,6 +778,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Andechser",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -712,15 +794,178 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Andechser&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 40,
+              "totalResultCount": 58,
+              "page": 1,
+              "search": {
+                "term": "Andechser",
+                "marketCode": "562345",
+                "serviceTypes": [
+                  "PICKUP"
+                ]
+              },
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "quickFacets",
+                "_embedded",
+                "toggles"
+              ],
+              "responseShape": null,
               "error": null,
               "preview": null
             }
           ],
-          "products": []
+          "products": [
+            {
+              "productName": "Andechser Natur Bio Frischkäse natur 175g",
+              "brand": "Andechser Natur",
+              "productId": "6778607",
+              "nan": "6778607",
+              "currentPrice": 2.19,
+              "regularPrice": null,
+              "listingId": "13-4104060025556-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4104060025556",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Natur Bio Joghurt Griechischer Art 400g",
+              "brand": "Andechser Natur",
+              "productId": "2849377",
+              "nan": "2849377",
+              "currentPrice": 2.19,
+              "regularPrice": null,
+              "listingId": "13-4104060031427-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4104060031427",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Natur Bio-Jogurt mild 500g",
+              "brand": "Andechser Natur",
+              "productId": "3495442",
+              "nan": "3495442",
+              "currentPrice": 1.69,
+              "regularPrice": null,
+              "listingId": "13-4104060024757-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4104060024757",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Natur Bio-Vollmilch 3,8% länger haltbar 1l",
+              "brand": "Andechser Natur",
+              "productId": "312772",
+              "nan": "312772",
+              "currentPrice": 1.89,
+              "regularPrice": null,
+              "listingId": "13-4104060028359-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4104060028359",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Natur Bio Kefir 500g",
+              "brand": "Andechser",
+              "productId": "7602396",
+              "nan": "7602396",
+              "currentPrice": 1.49,
+              "regularPrice": null,
+              "listingId": "8-RTLNPQ1F-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "RTLNPQ1F",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Natur Bio-Almbutter 250g",
+              "brand": "Andechser Natur",
+              "productId": "273163",
+              "nan": "273163",
+              "currentPrice": 2.99,
+              "regularPrice": 3.79,
+              "listingId": "13-4104060040016-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4104060040016",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Natur Bio-Ziegen-Jogurt 125g",
+              "brand": "Andechser Natur",
+              "productId": "482271",
+              "nan": "482271",
+              "currentPrice": 1.09,
+              "regularPrice": null,
+              "listingId": "13-4104060025716-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4104060025716",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Natur Bio-Reibekäse 150g",
+              "brand": "Andechser Natur",
+              "productId": "2188092",
+              "nan": "2188092",
+              "currentPrice": 2.99,
+              "regularPrice": null,
+              "listingId": "13-4104060028656-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4104060028656",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Doppelbock dunkel 0,5l",
+              "brand": "Andechser",
+              "productId": "7638779",
+              "nan": "7638779",
+              "currentPrice": 1.49,
+              "regularPrice": null,
+              "listingId": "13-4013024000419-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4013024000419",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Natur Bio-Fruchtquark Himbeere 150g",
+              "brand": "Andechser Natur",
+              "productId": "2138244",
+              "nan": "2138244",
+              "currentPrice": 1.19,
+              "regularPrice": null,
+              "listingId": "13-4104060028694-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4104060028694",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Natur Bio-Jogurt Natur 500g",
+              "brand": "Andechser Natur",
+              "productId": "8994153",
+              "nan": "8994153",
+              "currentPrice": 1.99,
+              "regularPrice": null,
+              "listingId": "13-4104060000065-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4104060000065",
+              "grammage": null
+            },
+            {
+              "productName": "Andechser Natur Bio Bergblumen Käse 125g",
+              "brand": "Andechser Natur",
+              "productId": "292528",
+              "nan": "292528",
+              "currentPrice": 3.49,
+              "regularPrice": null,
+              "listingId": "13-4104060026294-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4104060026294",
+              "grammage": null
+            }
+          ]
         },
         {
           "query": "Adelholzener",
-          "endpoint": null,
+          "endpoint": "https://shop.rewe.de/api/products?search=Adelholzener&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
           "withCookie": false,
           "attempts": [
             {
@@ -729,6 +974,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Adelholzener",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -738,6 +990,58 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": {
+                "type": "string",
+                "marketInfo": {
+                  "bulkyGoodsText": "string"
+                },
+                "search": {
+                  "term": "string",
+                  "sorting": "string",
+                  "autoCorrect": {
+                    "originalSearchTerm": "string"
+                  },
+                  "marketCode": "string",
+                  "selectedFacets": {},
+                  "locale": "string",
+                  "debugMode": "boolean"
+                },
+                "pagination": {
+                  "page": "number",
+                  "totalPages": "number",
+                  "objectsPerPage": "number",
+                  "totalResultCount": "number"
+                },
+                "facets": {
+                  "type": "array",
+                  "length": 5,
+                  "sample": {
+                    "name": "string",
+                    "label": "string",
+                    "displayType": "string",
+                    "resetFacetFilterGroupQuery": "string",
+                    "parameterNames": {
+                      "name": "string",
+                      "type": "string"
+                    }
+                  }
+                },
+                "_embedded": {
+                  "products": {
+                    "type": "array",
+                    "length": 0,
+                    "sample": null
+                  }
+                },
+                "toggles": {
+                  "type": "array",
+                  "length": 23,
+                  "sample": {
+                    "name": "string",
+                    "active": "boolean"
+                  }
+                }
+              },
               "error": null,
               "preview": null
             },
@@ -747,6 +1051,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Adelholzener",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -756,6 +1067,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -765,6 +1077,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Adelholzener",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -774,6 +1093,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -783,6 +1103,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Adelholzener",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -792,15 +1119,178 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Adelholzener&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 40,
+              "totalResultCount": 149,
+              "page": 1,
+              "search": {
+                "term": "Adelholzener",
+                "marketCode": "562345",
+                "serviceTypes": [
+                  "PICKUP"
+                ]
+              },
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "quickFacets",
+                "_embedded",
+                "toggles"
+              ],
+              "responseShape": null,
               "error": null,
               "preview": null
             }
           ],
-          "products": []
+          "products": [
+            {
+              "productName": "Adelholzener Mineralwasser Sanft 6x1l",
+              "brand": "Adelholzener",
+              "productId": "22669",
+              "nan": "22669",
+              "currentPrice": 4.74,
+              "regularPrice": null,
+              "listingId": "13-4005906205364-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906205364",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Mineralwasser Sanft 12x1l",
+              "brand": "Adelholzener",
+              "productId": "3031454",
+              "nan": "3031454",
+              "currentPrice": 8.59,
+              "regularPrice": null,
+              "listingId": "13-4005906072065-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906072065",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Mineralwasser Naturell 6x1,5l",
+              "brand": "Adelholzener",
+              "productId": "3032213",
+              "nan": "3032213",
+              "currentPrice": 5.99,
+              "regularPrice": null,
+              "listingId": "13-4005906082002-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906082002",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Mineralwasser Naturell 12x0,75l",
+              "brand": "Adelholzener",
+              "productId": "1091800",
+              "nan": "1091800",
+              "currentPrice": 6.99,
+              "regularPrice": null,
+              "listingId": "13-4005906133728-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906133728",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Mineralwasser Sanft 12x0,75l",
+              "brand": "Adelholzener",
+              "productId": "1091798",
+              "nan": "1091798",
+              "currentPrice": 6.99,
+              "regularPrice": null,
+              "listingId": "13-4005906133711-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906133711",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Mineralwasser Classic 12x1l",
+              "brand": "Adelholzener",
+              "productId": "7706235",
+              "nan": "7706235",
+              "currentPrice": 8.59,
+              "regularPrice": null,
+              "listingId": "13-4005906072072-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906072072",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Apfelschorle 12x0,5l",
+              "brand": "Adelholzener",
+              "productId": "6441637",
+              "nan": "6441637",
+              "currentPrice": 9.99,
+              "regularPrice": null,
+              "listingId": "13-4005906092766-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906092766",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Mineralwasser Naturell 12x1l",
+              "brand": "Adelholzener",
+              "productId": "1304537",
+              "nan": "1304537",
+              "currentPrice": 8.59,
+              "regularPrice": null,
+              "listingId": "13-4005906072041-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906072041",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Mango 12x0,5l",
+              "brand": "Adelholzener",
+              "productId": "534381",
+              "nan": "534381",
+              "currentPrice": 9.99,
+              "regularPrice": null,
+              "listingId": "13-4005906092841-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906092841",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Mineralwasser Classic 12x0,5l",
+              "brand": "Adelholzener",
+              "productId": "6776280",
+              "nan": "6776280",
+              "currentPrice": 6.39,
+              "regularPrice": null,
+              "listingId": "13-4005906092124-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906092124",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Johannisbeere 12x0,5l",
+              "brand": "Adelholzener",
+              "productId": "335786",
+              "nan": "335786",
+              "currentPrice": 9.29,
+              "regularPrice": null,
+              "listingId": "13-4005906092834-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906092834",
+              "grammage": null
+            },
+            {
+              "productName": "Adelholzener Mineralwasser Sanft 12x0,5l",
+              "brand": "Adelholzener",
+              "productId": "6779123",
+              "nan": "6779123",
+              "currentPrice": 6.39,
+              "regularPrice": null,
+              "listingId": "13-4005906092117-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4005906092117",
+              "grammage": null
+            }
+          ]
         },
         {
           "query": "Halloumi",
-          "endpoint": null,
+          "endpoint": "https://shop.rewe.de/api/products?search=Halloumi&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
           "withCookie": false,
           "attempts": [
             {
@@ -809,6 +1299,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Halloumi",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -818,6 +1315,58 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": {
+                "type": "string",
+                "marketInfo": {
+                  "bulkyGoodsText": "string"
+                },
+                "search": {
+                  "term": "string",
+                  "sorting": "string",
+                  "autoCorrect": {
+                    "originalSearchTerm": "string"
+                  },
+                  "marketCode": "string",
+                  "selectedFacets": {},
+                  "locale": "string",
+                  "debugMode": "boolean"
+                },
+                "pagination": {
+                  "page": "number",
+                  "totalPages": "number",
+                  "objectsPerPage": "number",
+                  "totalResultCount": "number"
+                },
+                "facets": {
+                  "type": "array",
+                  "length": 5,
+                  "sample": {
+                    "name": "string",
+                    "label": "string",
+                    "displayType": "string",
+                    "resetFacetFilterGroupQuery": "string",
+                    "parameterNames": {
+                      "name": "string",
+                      "type": "string"
+                    }
+                  }
+                },
+                "_embedded": {
+                  "products": {
+                    "type": "array",
+                    "length": 0,
+                    "sample": null
+                  }
+                },
+                "toggles": {
+                  "type": "array",
+                  "length": 23,
+                  "sample": {
+                    "name": "string",
+                    "active": "boolean"
+                  }
+                }
+              },
               "error": null,
               "preview": null
             },
@@ -827,6 +1376,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Halloumi",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -836,6 +1392,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -845,6 +1402,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Halloumi",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -854,6 +1418,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -863,6 +1428,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Halloumi",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -872,15 +1444,101 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Halloumi&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 5,
+              "totalResultCount": 5,
+              "page": 1,
+              "search": {
+                "term": "Halloumi",
+                "marketCode": "562345",
+                "serviceTypes": [
+                  "PICKUP"
+                ]
+              },
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "quickFacets",
+                "_embedded",
+                "toggles"
+              ],
+              "responseShape": null,
               "error": null,
               "preview": null
             }
           ],
-          "products": []
+          "products": [
+            {
+              "productName": "Marka Hellas Halloumi 225g",
+              "brand": "Marka Hellas",
+              "productId": "8967097",
+              "nan": "8967097",
+              "currentPrice": 2.89,
+              "regularPrice": null,
+              "listingId": "8-PFKKA1PT-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "PFKKA1PT",
+              "grammage": null
+            },
+            {
+              "productName": "Gazi Grill- & Pfannenkäse Kräuter 200g",
+              "brand": "Gazi",
+              "productId": "575540",
+              "nan": "575540",
+              "currentPrice": 2.99,
+              "regularPrice": null,
+              "listingId": "13-4002566010703-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4002566010703",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Halloumi Grillkäse aus Zypern 200g",
+              "brand": "REWE Bio",
+              "productId": "9507625",
+              "nan": "9507625",
+              "currentPrice": 3.89,
+              "regularPrice": null,
+              "listingId": "8-H2R5EP3M-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "H2R5EP3M",
+              "grammage": null
+            },
+            {
+              "productName": "Gazi Grill- & Pfannenkäse Chili 200g",
+              "brand": "Gazi",
+              "productId": "940141",
+              "nan": "940141",
+              "currentPrice": 2.99,
+              "regularPrice": null,
+              "listingId": "13-4002566010727-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4002566010727",
+              "grammage": null
+            },
+            {
+              "productName": "ROUGETTE marinierter Back- und Grillkäse Paprika-Kräuter 180g",
+              "brand": "Rougette",
+              "productId": "2380672",
+              "nan": "2380672",
+              "currentPrice": 2.49,
+              "regularPrice": 3.69,
+              "listingId": "13-4000504174739-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4000504174739",
+              "grammage": null
+            }
+          ]
         },
         {
           "query": "Eier",
-          "endpoint": null,
+          "endpoint": "https://shop.rewe.de/api/products?search=Eier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
           "withCookie": false,
           "attempts": [
             {
@@ -889,6 +1547,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Eier",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -898,6 +1563,58 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": {
+                "type": "string",
+                "marketInfo": {
+                  "bulkyGoodsText": "string"
+                },
+                "search": {
+                  "term": "string",
+                  "sorting": "string",
+                  "autoCorrect": {
+                    "originalSearchTerm": "string"
+                  },
+                  "marketCode": "string",
+                  "selectedFacets": {},
+                  "locale": "string",
+                  "debugMode": "boolean"
+                },
+                "pagination": {
+                  "page": "number",
+                  "totalPages": "number",
+                  "objectsPerPage": "number",
+                  "totalResultCount": "number"
+                },
+                "facets": {
+                  "type": "array",
+                  "length": 5,
+                  "sample": {
+                    "name": "string",
+                    "label": "string",
+                    "displayType": "string",
+                    "resetFacetFilterGroupQuery": "string",
+                    "parameterNames": {
+                      "name": "string",
+                      "type": "string"
+                    }
+                  }
+                },
+                "_embedded": {
+                  "products": {
+                    "type": "array",
+                    "length": 0,
+                    "sample": null
+                  }
+                },
+                "toggles": {
+                  "type": "array",
+                  "length": 22,
+                  "sample": {
+                    "name": "string",
+                    "active": "boolean"
+                  }
+                }
+              },
               "error": null,
               "preview": null
             },
@@ -907,6 +1624,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Eier",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -916,6 +1640,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -925,6 +1650,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Eier",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -934,6 +1666,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -943,6 +1676,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Eier",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -952,15 +1692,178 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Eier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 40,
+              "totalResultCount": 92,
+              "page": 1,
+              "search": {
+                "term": "Eier",
+                "marketCode": "562345",
+                "serviceTypes": [
+                  "PICKUP"
+                ]
+              },
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "quickFacets",
+                "_embedded",
+                "toggles"
+              ],
+              "responseShape": null,
               "error": null,
               "preview": null
             }
           ],
-          "products": []
+          "products": [
+            {
+              "productName": "Sonnendorfer Eier Freilandhaltung 10 Stück",
+              "brand": "",
+              "productId": "8075528",
+              "nan": "8075528",
+              "currentPrice": 3.19,
+              "regularPrice": 3.99,
+              "listingId": "13-4260115850242-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4260115850242",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Eier Spitz und Bube 6 Stück",
+              "brand": "REWE Bio",
+              "productId": "7078288",
+              "nan": "7078288",
+              "currentPrice": 3.49,
+              "regularPrice": null,
+              "listingId": "13-4388860190519-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4388860190519",
+              "grammage": null
+            },
+            {
+              "productName": "Sonnendorfer Bio Eier GQB 10 Stück",
+              "brand": "Sonnendorfer",
+              "productId": "8649797",
+              "nan": "8649797",
+              "currentPrice": 4.79,
+              "regularPrice": 5.99,
+              "listingId": "8-7AK76UP4-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "7AK76UP4",
+              "grammage": null
+            },
+            {
+              "productName": "Bio Eier frisch 10 Stück",
+              "brand": "",
+              "productId": "7902683",
+              "nan": "7902683",
+              "currentPrice": 4.29,
+              "regularPrice": null,
+              "listingId": "8-BDPHNRPQ-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "BDPHNRPQ",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Beste Wahl Respeggt Eier Freilandhaltung 10 Stück",
+              "brand": "REWE Beste Wahl",
+              "productId": "8470640",
+              "nan": "8470640",
+              "currentPrice": 3.49,
+              "regularPrice": null,
+              "listingId": "13-4337256067508-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4337256067508",
+              "grammage": null
+            },
+            {
+              "productName": "Sonnendorfer Eier Bodenhaltung gekocht 10 Stück",
+              "brand": "Sonnendorfer",
+              "productId": "612937",
+              "nan": "612937",
+              "currentPrice": 2.99,
+              "regularPrice": null,
+              "listingId": "13-4260115850112-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4260115850112",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Beste Wahl Eier aus Freilandhaltung 10 Stück",
+              "brand": "REWE Beste Wahl",
+              "productId": "8010549",
+              "nan": "8010549",
+              "currentPrice": 3.49,
+              "regularPrice": null,
+              "listingId": "13-4337256017978-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4337256017978",
+              "grammage": null
+            },
+            {
+              "productName": "Federhof Frische Bio Eier mind. M 10 Stück",
+              "brand": "Federhof",
+              "productId": "8597906",
+              "nan": "8597906",
+              "currentPrice": 5.19,
+              "regularPrice": null,
+              "listingId": "8-BPJZ4T43-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "BPJZ4T43",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Beste Wahl Frische Eier aus Freilandhaltung 6 Stück",
+              "brand": "REWE Beste Wahl",
+              "productId": "9952769",
+              "nan": "9952769",
+              "currentPrice": 2.49,
+              "regularPrice": null,
+              "listingId": "8-CYRSKYLW-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "CYRSKYLW",
+              "grammage": null
+            },
+            {
+              "productName": "UNSER LAND Eier Freilandhaltung 6 Stück",
+              "brand": "Unser Land",
+              "productId": "8665115",
+              "nan": "8665115",
+              "currentPrice": 3.19,
+              "regularPrice": null,
+              "listingId": "8-JXUS9K5Y-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "JXUS9K5Y",
+              "grammage": null
+            },
+            {
+              "productName": "Ertl Eier Freilandhaltung 10 Stück",
+              "brand": "Ertl",
+              "productId": "7716029",
+              "nan": "7716029",
+              "currentPrice": 4.29,
+              "regularPrice": null,
+              "listingId": "8-V5ZUKLH7-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "V5ZUKLH7",
+              "grammage": null
+            },
+            {
+              "productName": "Sonnendorfer Eier Bodenhaltung 10 Stück",
+              "brand": "Sonnendorfer",
+              "productId": "8651501",
+              "nan": "8651501",
+              "currentPrice": 2.69,
+              "regularPrice": 3.19,
+              "listingId": "8-JAEQQFWQ-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "JAEQQFWQ",
+              "grammage": null
+            }
+          ]
         },
         {
           "query": "Quark",
-          "endpoint": null,
+          "endpoint": "https://shop.rewe.de/api/products?search=Quark&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
           "withCookie": false,
           "attempts": [
             {
@@ -969,6 +1872,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Quark",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -978,6 +1888,58 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": {
+                "type": "string",
+                "marketInfo": {
+                  "bulkyGoodsText": "string"
+                },
+                "search": {
+                  "term": "string",
+                  "sorting": "string",
+                  "autoCorrect": {
+                    "originalSearchTerm": "string"
+                  },
+                  "marketCode": "string",
+                  "selectedFacets": {},
+                  "locale": "string",
+                  "debugMode": "boolean"
+                },
+                "pagination": {
+                  "page": "number",
+                  "totalPages": "number",
+                  "objectsPerPage": "number",
+                  "totalResultCount": "number"
+                },
+                "facets": {
+                  "type": "array",
+                  "length": 5,
+                  "sample": {
+                    "name": "string",
+                    "label": "string",
+                    "displayType": "string",
+                    "resetFacetFilterGroupQuery": "string",
+                    "parameterNames": {
+                      "name": "string",
+                      "type": "string"
+                    }
+                  }
+                },
+                "_embedded": {
+                  "products": {
+                    "type": "array",
+                    "length": 0,
+                    "sample": null
+                  }
+                },
+                "toggles": {
+                  "type": "array",
+                  "length": 23,
+                  "sample": {
+                    "name": "string",
+                    "active": "boolean"
+                  }
+                }
+              },
               "error": null,
               "preview": null
             },
@@ -987,6 +1949,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Quark",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -996,6 +1965,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -1005,6 +1975,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Quark",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1014,6 +1991,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -1023,6 +2001,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Quark",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1032,15 +2017,178 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Quark&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 40,
+              "totalResultCount": 88,
+              "page": 1,
+              "search": {
+                "term": "Quark",
+                "marketCode": "562345",
+                "serviceTypes": [
+                  "PICKUP"
+                ]
+              },
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "quickFacets",
+                "_embedded",
+                "toggles"
+              ],
+              "responseShape": null,
               "error": null,
               "preview": null
             }
           ],
-          "products": []
+          "products": [
+            {
+              "productName": "REWE Bio Speisequark Magerstufe 250g",
+              "brand": "REWE Bio",
+              "productId": "3068788",
+              "nan": "3068788",
+              "currentPrice": 0.99,
+              "regularPrice": null,
+              "listingId": "13-4337256080347-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4337256080347",
+              "grammage": null
+            },
+            {
+              "productName": "Berchtesgadener Land Bayerischer Speisequark Magerstufe 500g",
+              "brand": "Berchtesgadener Land",
+              "productId": "2465365",
+              "nan": "2465365",
+              "currentPrice": 1.11,
+              "regularPrice": 1.39,
+              "listingId": "13-4101530007166-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4101530007166",
+              "grammage": null
+            },
+            {
+              "productName": "Berchtesgadener Land Cremiger Quark mit frischem Joghurt 0,2% 350g",
+              "brand": "Berchtesgadener Land",
+              "productId": "5034787",
+              "nan": "5034787",
+              "currentPrice": 1.19,
+              "regularPrice": null,
+              "listingId": "13-4101530003403-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4101530003403",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Speisequarkzubereitung Magerstufe 250g",
+              "brand": "REWE Bio",
+              "productId": "194184",
+              "nan": "194184",
+              "currentPrice": 1.19,
+              "regularPrice": null,
+              "listingId": "8-6JW9IV3N-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "6JW9IV3N",
+              "grammage": null
+            },
+            {
+              "productName": "Exquisa QuarkCreme Natur 0,2% 500g",
+              "brand": "Exquisa",
+              "productId": "7147635",
+              "nan": "7147635",
+              "currentPrice": 2.39,
+              "regularPrice": null,
+              "listingId": "8-40193502-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "40193502",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Speisequarkzubereitung Halbfettstufe 250g",
+              "brand": "REWE Bio",
+              "productId": "194183",
+              "nan": "194183",
+              "currentPrice": 1.29,
+              "regularPrice": null,
+              "listingId": "8-WHAI5BJQ-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "WHAI5BJQ",
+              "grammage": null
+            },
+            {
+              "productName": "Exquisa QuarkGenuss Kirsche 0,2% 500g",
+              "brand": "Exquisa",
+              "productId": "9250581",
+              "nan": "9250581",
+              "currentPrice": 2.39,
+              "regularPrice": null,
+              "listingId": "13-4019300004621-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4019300004621",
+              "grammage": null
+            },
+            {
+              "productName": "Exquisa QuarkGenuss Erdbeere 0,2% 500g",
+              "brand": "Exquisa",
+              "productId": "9254943",
+              "nan": "9254943",
+              "currentPrice": 2.39,
+              "regularPrice": null,
+              "listingId": "13-4019300004614-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4019300004614",
+              "grammage": null
+            },
+            {
+              "productName": "Milram Frühlings Quark 185g",
+              "brand": "Milram",
+              "productId": "8414357",
+              "nan": "8414357",
+              "currentPrice": 1.45,
+              "regularPrice": null,
+              "listingId": "8-40466064-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "40466064",
+              "grammage": null
+            },
+            {
+              "productName": "Exquisa QuarkGenuss Pfirsich & Maracuja 0,2% 500g",
+              "brand": "Exquisa",
+              "productId": "9251480",
+              "nan": "9251480",
+              "currentPrice": 2.39,
+              "regularPrice": null,
+              "listingId": "13-4019300004638-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4019300004638",
+              "grammage": null
+            },
+            {
+              "productName": "Milram Frühlings Quark leicht 185g",
+              "brand": "Milram",
+              "productId": "8415661",
+              "nan": "8415661",
+              "currentPrice": 1.45,
+              "regularPrice": null,
+              "listingId": "8-40466057-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "40466057",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Beste Wahl High Protein Erdbeere Quarkcreme 200g",
+              "brand": "REWE Beste Wahl",
+              "productId": "7342522",
+              "nan": "7342522",
+              "currentPrice": 1.29,
+              "regularPrice": null,
+              "listingId": "8-VTTFJBR6-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "VTTFJBR6",
+              "grammage": null
+            }
+          ]
         },
         {
           "query": "Brot",
-          "endpoint": null,
+          "endpoint": "https://shop.rewe.de/api/products?search=Brot&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
           "withCookie": false,
           "attempts": [
             {
@@ -1049,6 +2197,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Brot",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1058,6 +2213,58 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": {
+                "type": "string",
+                "marketInfo": {
+                  "bulkyGoodsText": "string"
+                },
+                "search": {
+                  "term": "string",
+                  "sorting": "string",
+                  "autoCorrect": {
+                    "originalSearchTerm": "string"
+                  },
+                  "marketCode": "string",
+                  "selectedFacets": {},
+                  "locale": "string",
+                  "debugMode": "boolean"
+                },
+                "pagination": {
+                  "page": "number",
+                  "totalPages": "number",
+                  "objectsPerPage": "number",
+                  "totalResultCount": "number"
+                },
+                "facets": {
+                  "type": "array",
+                  "length": 5,
+                  "sample": {
+                    "name": "string",
+                    "label": "string",
+                    "displayType": "string",
+                    "resetFacetFilterGroupQuery": "string",
+                    "parameterNames": {
+                      "name": "string",
+                      "type": "string"
+                    }
+                  }
+                },
+                "_embedded": {
+                  "products": {
+                    "type": "array",
+                    "length": 0,
+                    "sample": null
+                  }
+                },
+                "toggles": {
+                  "type": "array",
+                  "length": 23,
+                  "sample": {
+                    "name": "string",
+                    "active": "boolean"
+                  }
+                }
+              },
               "error": null,
               "preview": null
             },
@@ -1067,6 +2274,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Brot",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1076,6 +2290,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -1085,6 +2300,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Brot",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1094,6 +2316,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -1103,6 +2326,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Brot",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1112,15 +2342,178 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Brot&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 40,
+              "totalResultCount": 704,
+              "page": 1,
+              "search": {
+                "term": "Brot",
+                "marketCode": "562345",
+                "serviceTypes": [
+                  "PICKUP"
+                ]
+              },
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "quickFacets",
+                "_embedded",
+                "toggles"
+              ],
+              "responseShape": null,
               "error": null,
               "preview": null
             }
           ],
-          "products": []
+          "products": [
+            {
+              "productName": "Fritz Mühlenbäckerei Bio Sonnenblumenbrot 500g",
+              "brand": "Fritz Mühlenbäckerei",
+              "productId": "8671248",
+              "nan": "8671248",
+              "currentPrice": 4.49,
+              "regularPrice": null,
+              "listingId": "8-R4WAI2F2-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "R4WAI2F2",
+              "grammage": null
+            },
+            {
+              "productName": "Fritz Mühlenbäckerei Bio Roggenbrot 750g",
+              "brand": "Fritz Mühlenbäckerei",
+              "productId": "1960364",
+              "nan": "1960364",
+              "currentPrice": 4.99,
+              "regularPrice": null,
+              "listingId": "13-4250581611218-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4250581611218",
+              "grammage": null
+            },
+            {
+              "productName": "Fritz Mühlenbäckerei Bio Sportler Brot 750g",
+              "brand": "Fritz Mühlenbäckerei",
+              "productId": "1960358",
+              "nan": "1960358",
+              "currentPrice": 6.49,
+              "regularPrice": null,
+              "listingId": "13-4250581610310-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4250581610310",
+              "grammage": null
+            },
+            {
+              "productName": "UNSER LAND Bio Feines Roggenbrot 500g",
+              "brand": "Unser Land",
+              "productId": "8305513",
+              "nan": "8305513",
+              "currentPrice": 4.69,
+              "regularPrice": null,
+              "listingId": "8-QVOMEA53-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "QVOMEA53",
+              "grammage": null
+            },
+            {
+              "productName": "UNSER LAND Bio Brot Dinkelwonne 500g",
+              "brand": "Unser Land",
+              "productId": "8079112",
+              "nan": "8079112",
+              "currentPrice": 5.89,
+              "regularPrice": null,
+              "listingId": "13-4250581614486-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4250581614486",
+              "grammage": null
+            },
+            {
+              "productName": "REWE frei von Pures Korn Brot glutenfrei 275g",
+              "brand": "REWE frei von",
+              "productId": "8966169",
+              "nan": "8966169",
+              "currentPrice": 2.99,
+              "regularPrice": null,
+              "listingId": "8-RRYC0S1O-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "RRYC0S1O",
+              "grammage": null
+            },
+            {
+              "productName": "Fritz Mühlenbäckerei Bio Dinkel-Saaten-Brot 750g",
+              "brand": "Fritz Mühlenbäckerei",
+              "productId": "1960361",
+              "nan": "1960361",
+              "currentPrice": 6.49,
+              "regularPrice": null,
+              "listingId": "13-4250581610112-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4250581610112",
+              "grammage": null
+            },
+            {
+              "productName": "Sonnenblumenbrot 750g",
+              "brand": "Glockenbrot",
+              "productId": "7027646",
+              "nan": "7027646",
+              "currentPrice": 2.29,
+              "regularPrice": null,
+              "listingId": "8-WBQBR18K-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "WBQBR18K",
+              "grammage": null
+            },
+            {
+              "productName": "Weizenmischbrot 1kg",
+              "brand": "",
+              "productId": "717754",
+              "nan": "717754",
+              "currentPrice": 1.99,
+              "regularPrice": null,
+              "listingId": "13-4071800008721-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4071800008721",
+              "grammage": null
+            },
+            {
+              "productName": "Chia Weltmeisterbrot 750g",
+              "brand": "Glockenbrot",
+              "productId": "7988224",
+              "nan": "7988224",
+              "currentPrice": 2.39,
+              "regularPrice": null,
+              "listingId": "8-YQPVY6F2-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "YQPVY6F2",
+              "grammage": null
+            },
+            {
+              "productName": "Roggenmischbrot 500g",
+              "brand": "Glockenbrot",
+              "productId": "7939052",
+              "nan": "7939052",
+              "currentPrice": 1.79,
+              "regularPrice": null,
+              "listingId": "8-54F4O87K-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "54F4O87K",
+              "grammage": null
+            },
+            {
+              "productName": "Roggenmischbrot rustikal 350g",
+              "brand": "Glockenbrot",
+              "productId": "8349042",
+              "nan": "8349042",
+              "currentPrice": 1.69,
+              "regularPrice": null,
+              "listingId": "8-SPQKSFLU-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "SPQKSFLU",
+              "grammage": null
+            }
+          ]
         },
         {
           "query": "Basmati Reis",
-          "endpoint": null,
+          "endpoint": "https://shop.rewe.de/api/products?search=Basmati+Reis&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
           "withCookie": false,
           "attempts": [
             {
@@ -1129,6 +2522,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Basmati Reis",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1138,6 +2538,58 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": {
+                "type": "string",
+                "marketInfo": {
+                  "bulkyGoodsText": "string"
+                },
+                "search": {
+                  "term": "string",
+                  "sorting": "string",
+                  "autoCorrect": {
+                    "originalSearchTerm": "string"
+                  },
+                  "marketCode": "string",
+                  "selectedFacets": {},
+                  "locale": "string",
+                  "debugMode": "boolean"
+                },
+                "pagination": {
+                  "page": "number",
+                  "totalPages": "number",
+                  "objectsPerPage": "number",
+                  "totalResultCount": "number"
+                },
+                "facets": {
+                  "type": "array",
+                  "length": 5,
+                  "sample": {
+                    "name": "string",
+                    "label": "string",
+                    "displayType": "string",
+                    "resetFacetFilterGroupQuery": "string",
+                    "parameterNames": {
+                      "name": "string",
+                      "type": "string"
+                    }
+                  }
+                },
+                "_embedded": {
+                  "products": {
+                    "type": "array",
+                    "length": 0,
+                    "sample": null
+                  }
+                },
+                "toggles": {
+                  "type": "array",
+                  "length": 22,
+                  "sample": {
+                    "name": "string",
+                    "active": "boolean"
+                  }
+                }
+              },
               "error": null,
               "preview": null
             },
@@ -1147,6 +2599,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Basmati Reis",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1156,6 +2615,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -1165,6 +2625,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Basmati Reis",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1174,6 +2641,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -1183,6 +2651,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Basmati Reis",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1192,15 +2667,178 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Basmati+Reis&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 23,
+              "totalResultCount": 23,
+              "page": 1,
+              "search": {
+                "term": "Basmati Reis",
+                "marketCode": "562345",
+                "serviceTypes": [
+                  "PICKUP"
+                ]
+              },
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "quickFacets",
+                "_embedded",
+                "toggles"
+              ],
+              "responseShape": null,
               "error": null,
               "preview": null
             }
           ],
-          "products": []
+          "products": [
+            {
+              "productName": "REWE Beste Wahl Express Basmati Reis 250g",
+              "brand": "REWE Beste Wahl",
+              "productId": "7873673",
+              "nan": "7873673",
+              "currentPrice": 1.39,
+              "regularPrice": null,
+              "listingId": "8-MTIOXVB4-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "MTIOXVB4",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Basmati Expressreis 250g",
+              "brand": "REWE Bio",
+              "productId": "7639373",
+              "nan": "7639373",
+              "currentPrice": 1.79,
+              "regularPrice": null,
+              "listingId": "8-2BFFCSLC-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "2BFFCSLC",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Beste Wahl Basmati Reis 500g",
+              "brand": "REWE Beste Wahl",
+              "productId": "8886901",
+              "nan": "8886901",
+              "currentPrice": 2.59,
+              "regularPrice": null,
+              "listingId": "8-VW1NGD39-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "VW1NGD39",
+              "grammage": null
+            },
+            {
+              "productName": "Ben's Original Basmati-Reis 500g",
+              "brand": "Ben's Original",
+              "productId": "1111914",
+              "nan": "1111914",
+              "currentPrice": 3.79,
+              "regularPrice": null,
+              "listingId": "8-N0VS51OY-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "N0VS51OY",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Naturland Basmatireis 1kg",
+              "brand": "REWE Bio",
+              "productId": "8928743",
+              "nan": "8928743",
+              "currentPrice": 3.79,
+              "regularPrice": null,
+              "listingId": "8-D71QRPOK-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "D71QRPOK",
+              "grammage": null
+            },
+            {
+              "productName": "Ben's Original Basmati-Reis im Beutel 1kg",
+              "brand": "Ben's Original",
+              "productId": "2266728",
+              "nan": "2266728",
+              "currentPrice": 5.59,
+              "regularPrice": null,
+              "listingId": "8-I2RTBCH5-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "I2RTBCH5",
+              "grammage": null
+            },
+            {
+              "productName": "Reishunger Bio Basmati Reis 400g",
+              "brand": "Reishunger",
+              "productId": "2894253",
+              "nan": "2894253",
+              "currentPrice": 2.99,
+              "regularPrice": null,
+              "listingId": "8-9RWM909F-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "9RWM909F",
+              "grammage": null
+            },
+            {
+              "productName": "Oryza Basmati- & Wildreis 500g",
+              "brand": "Oryza",
+              "productId": "7300140",
+              "nan": "7300140",
+              "currentPrice": 2.49,
+              "regularPrice": null,
+              "listingId": "13-4006237640404-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4006237640404",
+              "grammage": null
+            },
+            {
+              "productName": "Oryza Himalaya Basmati 500g",
+              "brand": "Oryza",
+              "productId": "2600315",
+              "nan": "2600315",
+              "currentPrice": 2.49,
+              "regularPrice": null,
+              "listingId": "13-4006237640312-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4006237640312",
+              "grammage": null
+            },
+            {
+              "productName": "Reis-fit Basmati-Reis 4x125g",
+              "brand": "Reis-Fit",
+              "productId": "590649",
+              "nan": "590649",
+              "currentPrice": 3.29,
+              "regularPrice": null,
+              "listingId": "13-4006237090087-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4006237090087",
+              "grammage": null
+            },
+            {
+              "productName": "Davert Echter Bio Basmati-Reis 500g",
+              "brand": "Davert",
+              "productId": "8752591",
+              "nan": "8752591",
+              "currentPrice": 3.99,
+              "regularPrice": null,
+              "listingId": "13-4019339235133-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4019339235133",
+              "grammage": null
+            },
+            {
+              "productName": "Reis-Fit Express Basmati-Reis 250g",
+              "brand": "Reis-Fit",
+              "productId": "8379872",
+              "nan": "8379872",
+              "currentPrice": 1.89,
+              "regularPrice": null,
+              "listingId": "8-5CUWEVMQ-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "5CUWEVMQ",
+              "grammage": null
+            }
+          ]
         },
         {
           "query": "Mehl",
-          "endpoint": null,
+          "endpoint": "https://shop.rewe.de/api/products?search=Mehl&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
           "withCookie": false,
           "attempts": [
             {
@@ -1209,6 +2847,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Mehl",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1218,6 +2863,58 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": {
+                "type": "string",
+                "marketInfo": {
+                  "bulkyGoodsText": "string"
+                },
+                "search": {
+                  "term": "string",
+                  "sorting": "string",
+                  "autoCorrect": {
+                    "originalSearchTerm": "string"
+                  },
+                  "marketCode": "string",
+                  "selectedFacets": {},
+                  "locale": "string",
+                  "debugMode": "boolean"
+                },
+                "pagination": {
+                  "page": "number",
+                  "totalPages": "number",
+                  "objectsPerPage": "number",
+                  "totalResultCount": "number"
+                },
+                "facets": {
+                  "type": "array",
+                  "length": 5,
+                  "sample": {
+                    "name": "string",
+                    "label": "string",
+                    "displayType": "string",
+                    "resetFacetFilterGroupQuery": "string",
+                    "parameterNames": {
+                      "name": "string",
+                      "type": "string"
+                    }
+                  }
+                },
+                "_embedded": {
+                  "products": {
+                    "type": "array",
+                    "length": 0,
+                    "sample": null
+                  }
+                },
+                "toggles": {
+                  "type": "array",
+                  "length": 22,
+                  "sample": {
+                    "name": "string",
+                    "active": "boolean"
+                  }
+                }
+              },
               "error": null,
               "preview": null
             },
@@ -1227,6 +2924,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Mehl",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1236,6 +2940,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -1245,6 +2950,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Mehl",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1254,6 +2966,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -1263,6 +2976,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "Mehl",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1272,15 +2992,178 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=Mehl&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 40,
+              "totalResultCount": 96,
+              "page": 1,
+              "search": {
+                "term": "Mehl",
+                "marketCode": "562345",
+                "serviceTypes": [
+                  "PICKUP"
+                ]
+              },
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "quickFacets",
+                "_embedded",
+                "toggles"
+              ],
+              "responseShape": null,
               "error": null,
               "preview": null
             }
           ],
-          "products": []
+          "products": [
+            {
+              "productName": "REWE Beste Wahl Weizenmehl Type 405 1kg",
+              "brand": "REWE Beste Wahl",
+              "productId": "1211124",
+              "nan": "1211124",
+              "currentPrice": 0.99,
+              "regularPrice": null,
+              "listingId": "8-UTI0NH0L-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "UTI0NH0L",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Beste Wahl Weizenmehl Type 550 1kg",
+              "brand": "REWE Beste Wahl",
+              "productId": "9959918",
+              "nan": "9959918",
+              "currentPrice": 0.99,
+              "regularPrice": null,
+              "listingId": "8-QSX8F6FC-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "QSX8F6FC",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Weizenmehl Type 550 1kg",
+              "brand": "REWE Bio",
+              "productId": "302161",
+              "nan": "302161",
+              "currentPrice": 0.95,
+              "regularPrice": null,
+              "listingId": "13-4337256114837-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4337256114837",
+              "grammage": null
+            },
+            {
+              "productName": "Rosenmehl Weizenmehl Type 405 1kg",
+              "brand": "Rosenmehl",
+              "productId": "5216559",
+              "nan": "5216559",
+              "currentPrice": 1.79,
+              "regularPrice": null,
+              "listingId": "13-4002457000172-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4002457000172",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Weizenmehl Type 405 1kg",
+              "brand": "REWE Bio",
+              "productId": "9456170",
+              "nan": "9456170",
+              "currentPrice": 0.95,
+              "regularPrice": null,
+              "listingId": "8-ND2IOLEW-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "ND2IOLEW",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Weizenmehl Type 1050 1kg",
+              "brand": "REWE Bio",
+              "productId": "7621838",
+              "nan": "7621838",
+              "currentPrice": 0.95,
+              "regularPrice": null,
+              "listingId": "8-EEVZGEVI-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "EEVZGEVI",
+              "grammage": null
+            },
+            {
+              "productName": "Rosenmehl Weizenmehl Type 405 2,5kg",
+              "brand": "Rosenmehl",
+              "productId": "5216656",
+              "nan": "5216656",
+              "currentPrice": 3.99,
+              "regularPrice": null,
+              "listingId": "13-4002457000196-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4002457000196",
+              "grammage": null
+            },
+            {
+              "productName": "Mehlzauber Weizenmehl Type 405 1kg",
+              "brand": "Mehlzauber",
+              "productId": "979969",
+              "nan": "979969",
+              "currentPrice": 1.39,
+              "regularPrice": null,
+              "listingId": "13-4260039760108-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4260039760108",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Beste Wahl Pizzamehl 1000g",
+              "brand": "REWE Beste Wahl",
+              "productId": "9939498",
+              "nan": "9939498",
+              "currentPrice": 1.29,
+              "regularPrice": null,
+              "listingId": "8-0VZUMJLM-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "0VZUMJLM",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Dinkelmehl 1050 1kg",
+              "brand": "REWE Bio",
+              "productId": "9026254",
+              "nan": "9026254",
+              "currentPrice": 1.29,
+              "regularPrice": null,
+              "listingId": "8-XT7MIDIS-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "XT7MIDIS",
+              "grammage": null
+            },
+            {
+              "productName": "REWE Bio Dinkelmehl Type 630 1kg",
+              "brand": "REWE Bio",
+              "productId": "2304849",
+              "nan": "2304849",
+              "currentPrice": 1.29,
+              "regularPrice": null,
+              "listingId": "13-4337256113410-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4337256113410",
+              "grammage": null
+            },
+            {
+              "productName": "Mehlzauber Weizenmehl Type 405 2,5kg",
+              "brand": "Mehlzauber",
+              "productId": "980127",
+              "nan": "980127",
+              "currentPrice": 2.39,
+              "regularPrice": null,
+              "listingId": "13-4260039760757-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4260039760757",
+              "grammage": null
+            }
+          ]
         },
         {
           "query": "alkoholfreies Bier",
-          "endpoint": null,
+          "endpoint": "https://shop.rewe.de/api/products?search=alkoholfreies+Bier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
           "withCookie": false,
           "attempts": [
             {
@@ -1289,6 +3172,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "alkoholfreies Bier",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1298,6 +3188,58 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": {
+                "type": "string",
+                "marketInfo": {
+                  "bulkyGoodsText": "string"
+                },
+                "search": {
+                  "term": "string",
+                  "sorting": "string",
+                  "autoCorrect": {
+                    "originalSearchTerm": "string"
+                  },
+                  "marketCode": "string",
+                  "selectedFacets": {},
+                  "locale": "string",
+                  "debugMode": "boolean"
+                },
+                "pagination": {
+                  "page": "number",
+                  "totalPages": "number",
+                  "objectsPerPage": "number",
+                  "totalResultCount": "number"
+                },
+                "facets": {
+                  "type": "array",
+                  "length": 5,
+                  "sample": {
+                    "name": "string",
+                    "label": "string",
+                    "displayType": "string",
+                    "resetFacetFilterGroupQuery": "string",
+                    "parameterNames": {
+                      "name": "string",
+                      "type": "string"
+                    }
+                  }
+                },
+                "_embedded": {
+                  "products": {
+                    "type": "array",
+                    "length": 0,
+                    "sample": null
+                  }
+                },
+                "toggles": {
+                  "type": "array",
+                  "length": 23,
+                  "sample": {
+                    "name": "string",
+                    "active": "boolean"
+                  }
+                }
+              },
               "error": null,
               "preview": null
             },
@@ -1307,6 +3249,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "alkoholfreies Bier",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1316,6 +3265,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -1325,6 +3275,13 @@
               "ok": true,
               "withCookie": false,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "alkoholfreies Bier",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1334,6 +3291,7 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
               "error": null,
               "preview": null
             },
@@ -1343,6 +3301,13 @@
               "ok": true,
               "withCookie": true,
               "productCount": 0,
+              "totalResultCount": 0,
+              "page": 1,
+              "search": {
+                "term": "alkoholfreies Bier",
+                "marketCode": "562345",
+                "serviceTypes": null
+              },
               "topLevelKeys": [
                 "type",
                 "marketInfo",
@@ -1352,11 +3317,174 @@
                 "_embedded",
                 "toggles"
               ],
+              "responseShape": null,
+              "error": null,
+              "preview": null
+            },
+            {
+              "url": "https://shop.rewe.de/api/products?search=alkoholfreies+Bier&market=562345&page=1&objectsPerPage=40&sorting=RELEVANCE_DESC&serviceTypes=PICKUP",
+              "status": 200,
+              "ok": true,
+              "withCookie": false,
+              "productCount": 40,
+              "totalResultCount": 128,
+              "page": 1,
+              "search": {
+                "term": "alkoholfreies Bier",
+                "marketCode": "562345",
+                "serviceTypes": [
+                  "PICKUP"
+                ]
+              },
+              "topLevelKeys": [
+                "type",
+                "marketInfo",
+                "search",
+                "pagination",
+                "facets",
+                "quickFacets",
+                "_embedded",
+                "toggles"
+              ],
+              "responseShape": null,
               "error": null,
               "preview": null
             }
           ],
-          "products": []
+          "products": [
+            {
+              "productName": "Corona Cero 0,0% alkoholfrei 6x0,355l",
+              "brand": "Corona",
+              "productId": "8713801",
+              "nan": "8713801",
+              "currentPrice": 7.99,
+              "regularPrice": null,
+              "listingId": "8-MLD6VKY8-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "MLD6VKY8",
+              "grammage": null
+            },
+            {
+              "productName": "Peroni Nastro Azzurro 0,0% 6x0,33l",
+              "brand": "",
+              "productId": "9066255",
+              "nan": "9066255",
+              "currentPrice": 6.99,
+              "regularPrice": null,
+              "listingId": "8-N1RYVZEM-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "N1RYVZEM",
+              "grammage": null
+            },
+            {
+              "productName": "Bitburger Pils 0,0% alkoholfrei 6x0,33l",
+              "brand": "Bitburger",
+              "productId": "9757244",
+              "nan": "9757244",
+              "currentPrice": 4.99,
+              "regularPrice": null,
+              "listingId": "13-4102430312411-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4102430312411",
+              "grammage": null
+            },
+            {
+              "productName": "Gösser Natur Radler alkoholfrei 6x0,33l",
+              "brand": "Gösser",
+              "productId": "7266045",
+              "nan": "7266045",
+              "currentPrice": 6.29,
+              "regularPrice": null,
+              "listingId": "13-9028800638606-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "9028800638606",
+              "grammage": null
+            },
+            {
+              "productName": "Bitburger Radler 0,0% alkoholfrei 6x0,33l",
+              "brand": "Bitburger",
+              "productId": "1138817",
+              "nan": "1138817",
+              "currentPrice": 4.99,
+              "regularPrice": null,
+              "listingId": "13-4102430036928-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4102430036928",
+              "grammage": null
+            },
+            {
+              "productName": "Bitburger Pils Herb 0,0% 6x0,33l",
+              "brand": "Bitburger",
+              "productId": "8705881",
+              "nan": "8705881",
+              "currentPrice": 4.99,
+              "regularPrice": null,
+              "listingId": "8-6P6DYI1R-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "6P6DYI1R",
+              "grammage": null
+            },
+            {
+              "productName": "Paulaner Hefe-Weißbier alkoholfrei 6x0,33l",
+              "brand": "Paulaner",
+              "productId": "912995",
+              "nan": "912995",
+              "currentPrice": 5.79,
+              "regularPrice": null,
+              "listingId": "13-4066600145271-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4066600145271",
+              "grammage": null
+            },
+            {
+              "productName": "Erdinger Weißbier alkoholfrei 6x0,33l",
+              "brand": "Erdinger",
+              "productId": "914937",
+              "nan": "914937",
+              "currentPrice": 5.99,
+              "regularPrice": null,
+              "listingId": "13-4002103249917-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4002103249917",
+              "grammage": null
+            },
+            {
+              "productName": "Schöfferhofer Grapefruit alkoholfrei 6x0,33l",
+              "brand": "Schöfferhofer",
+              "productId": "2345508",
+              "nan": "2345508",
+              "currentPrice": 4.99,
+              "regularPrice": null,
+              "listingId": "13-4053400081830-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4053400081830",
+              "grammage": null
+            },
+            {
+              "productName": "Krombacher Pils alkoholfrei 6x0,33l",
+              "brand": "Krombacher",
+              "productId": "6489303",
+              "nan": "6489303",
+              "currentPrice": 5.49,
+              "regularPrice": null,
+              "listingId": "13-4008287052664-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4008287052664",
+              "grammage": null
+            },
+            {
+              "productName": "Krombacher Pils 0,0% alkoholfrei 6x0,33l",
+              "brand": "Krombacher",
+              "productId": "3223154",
+              "nan": "3223154",
+              "currentPrice": 5.49,
+              "regularPrice": null,
+              "listingId": "13-4008287914504-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4008287914504",
+              "grammage": null
+            },
+            {
+              "productName": "Jever Fun alkoholfrei 6x0,33l",
+              "brand": "Jever",
+              "productId": "6937047",
+              "nan": "6937047",
+              "currentPrice": 5.49,
+              "regularPrice": null,
+              "listingId": "13-4008948192012-91ecb859-7522-4eb9-a951-1529a0a10e28",
+              "articleId": "4008948192012",
+              "grammage": null
+            }
+          ]
         }
       ]
     }
