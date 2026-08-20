@@ -1,142 +1,2535 @@
 {
-  "generatedAt": "2026-08-20T15:04:23.427Z",
+  "generatedAt": "2026-08-20T15:09:45.981Z",
   "pages": {
-    "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0": {
-      "status": "ok",
-      "title": "",
-      "links": [],
-      "productLinks": 0,
-      "bodyChars": 21394,
-      "countHints": [],
-      "bodySample": "Fotowelt Gutscheine Karriere Unternehmen Geschäftskunden babywelt Filiale finden Anmelden Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Filiale finden babywelt Newsletter Karriere Gutscheine Impressum Datenschutz Cookie Einstellungen AGB Rossmann Onlineshop Kontakt Verbraucherschlichtung Barrierefreiheitserklärung Vorteile beim Online-Kauf Sendungsverfolgung Kauf auf Rechnung Kostenlose Rücksendung SICHER EINKAUFEN SICHER VERSENDEN SICHER BEZAHLEN Services in Ihrer Filiale Geschenkgutscheine Rossmann Fotoservice Prepaidkarten Rücknahmegarantie Teppichreiniger-Verleih Gratis WLAN Rücknahme Elektrogeräte und Batterien Filialabholung Kategorien Neu Ideenwelt Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Ernährung Marken Angebote Services & Hilfe Kontakt Widerruf Oft gestellte Fragen zu Rossmann Mein Konto Newsletter Rossmann-App Filialfinder Mobilfunktarife von Rossmann mobil Unternehmen Über uns Soziale Verant",
+    "https://www.rossmann.de/de/make-up/c/olcat1_1": {
+      "navText": "Make-Up",
+      "title": "Make-up online kaufen | rossmann.de",
+      "bodyChars": 38578,
+      "productLinks": 62,
+      "products": [
+        {
+          "href": "https://www.rossmann.de/de/make-up-nivea-expert-finish-cellular-3in1-pflege-cushion-01-hell/p/4005900897305?rm_tt=eyJhZF9pZCI6ImUyNGM1NGFmLWY2NjctNDk5Ni1hMzNiLTJiNTBiZTZjN2YzOCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA1OTAwODk3MzA1IiwiaWF0IjoxNzg3MjM4NTkzLCJsaSI6IjMwYzJiMmE3LWZjM2UtNDFiNi1hOGI0LWQ5YTg0NmYwMWMzNiIsImFzIjoiMWM4NWExNmYtZjE1MS00ZDM0LTlkZWUtMmRhMzgwZWJiMDgxIiwiYmMiOjQzLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODU5MzE2Nn0%3D.7lF_QZQTXUUEVnOlJzClJGN1JUDLQbJOsFRhG0IzI1E%3D",
+          "text": "NIVEA Expert Finish Cellular 3in1 Pflege Cushion 01 Hell"
+        },
+        {
+          "href": "https://www.rossmann.de/de/make-up-nivea-expert-finish-cellular-3in1-pflege-cushion-01-hell/p/4005900897305?rm_tt=eyJhZF9pZCI6ImUyNGM1NGFmLWY2NjctNDk5Ni1hMzNiLTJiNTBiZTZjN2YzOCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA1OTAwODk3MzA1IiwiaWF0IjoxNzg3MjM4NTkzLCJsaSI6IjMwYzJiMmE3LWZjM2UtNDFiNi1hOGI0LWQ5YTg0NmYwMWMzNiIsImFzIjoiMWM4NWExNmYtZjE1MS00ZDM0LTlkZWUtMmRhMzgwZWJiMDgxIiwiYmMiOjQzLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODU5MzE2Nn0%3D.7lF_QZQTXUUEVnOlJzClJGN1JUDLQbJOsFRhG0IzI1E%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/make-up-nivea-cc-fluid-luminous630-anti-pigmentflecken-lsf-30-hell/p/4006000088150?rm_tt=eyJhZF9pZCI6IjE0MzVlOTUwLTdmN2YtNDBhMC1iNWNlLWM1OThhYzBhYWUwYiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA2MDAwMDg4MTUwIiwiaWF0IjoxNzg3MjM4NTkzLCJsaSI6IjhhYjU4ZjgxLTdhYzAtNGU4YS05NjRkLTdiY2FkMTZhZTRkMyIsImFzIjoiMWM4NWExNmYtZjE1MS00ZDM0LTlkZWUtMmRhMzgwZWJiMDgxIiwiYmMiOjU3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODU5MzE2Nn0%3D.wLVgvrv6ioB9atie45Ly5kXpbZ3qI0HMDzXgVPIyi9o%3D",
+          "text": "NIVEA CC Fluid Luminous630° Anti-Pigmentflecken LSF 30 hell"
+        },
+        {
+          "href": "https://www.rossmann.de/de/make-up-nivea-cc-fluid-luminous630-anti-pigmentflecken-lsf-30-hell/p/4006000088150?rm_tt=eyJhZF9pZCI6IjE0MzVlOTUwLTdmN2YtNDBhMC1iNWNlLWM1OThhYzBhYWUwYiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA2MDAwMDg4MTUwIiwiaWF0IjoxNzg3MjM4NTkzLCJsaSI6IjhhYjU4ZjgxLTdhYzAtNGU4YS05NjRkLTdiY2FkMTZhZTRkMyIsImFzIjoiMWM4NWExNmYtZjE1MS00ZDM0LTlkZWUtMmRhMzgwZWJiMDgxIiwiYmMiOjU3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODU5MzE2Nn0%3D.wLVgvrv6ioB9atie45Ly5kXpbZ3qI0HMDzXgVPIyi9o%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/make-up-loreal-paris-infaillible-3-second-setting-mist-setting-spray/p/3600524288860",
+          "text": "L’Oréal Paris Infaillible 3-Second Setting Mist Setting Spray"
+        },
+        {
+          "href": "https://www.rossmann.de/de/make-up-loreal-paris-infaillible-3-second-setting-mist-setting-spray/p/3600524288860#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/make-up-wilkinson-sword-intuition-eyebrow-styler/p/4027800116201",
+          "text": "Wilkinson Sword Intuition Eyebrow Styler"
+        },
+        {
+          "href": "https://www.rossmann.de/de/make-up-loreal-paris-le-shadow-stick-150-captivating-sepia/p/3600524144647",
+          "text": "L’Oréal Paris Le Shadow Stick 150 Captivating Sepia"
+        },
+        {
+          "href": "https://www.rossmann.de/de/make-up-loreal-paris-le-shadow-stick-118-cloudy-rose/p/3600524144623",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/make-up-loreal-paris-le-shadow-stick-245-alluring-rose/p/3600524145927",
+          "text": ""
+        }
+      ],
+      "bodySample": "Filiale finden Anmelden 0 Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Startseite Make-up Augen Augenbrauen Beauty Tools & Accessoires Beauty Vorteilssets Geschenksets Karneval Make-Up Lippen Make-Up Paletten Nägel Pinsel & Accessoires Primer & Fixingspray Teint Schön für mich - Aktionen & Ratgeber Virtueller Make-Up-Tester Make-up in allen Formen und Farben Vorherige Nächste Mit Make-up unterstreichst du deine natürliche Schönheit. Foundation, Concealer, Highlighter und Contouring-Produkte von Marken wie NYX, Catrice oder Maybelline zaubern ebenmäßigen Teint und vorteilhafte Konturen. Hochwertige Pinselsets erleichtern ein gleichmäßiges Auftragen und edles Augen-Make-up zaubert im Handumdrehen eine glamourösen Blick mit Lidschatten, Mascara und Eyeliner. Mit Lippenstift und Nagellack setzt du zusätzlich Farbakzente. Entdecke unser Make-up im Online-Shop von ROSSMANN. Sortieren nach: Relevanz filter Kategorie filter Marke filter Empfohlene Filter filter Verfügbarkeit filter Bewertungen filter Farbe filter Produkteigenschaften filter Hauttyp filter Geschlecht filter Lichtschutzfaktor filter Haartyp filter NIVEA - Expert Finish Cellular 3in1 Pflege Cushion 01 Hell Gesponsert 195 NIVEA Expert Finish Cellular 3in1 Pflege Cushion 01 Hell 15 g (1kg = 999,33 €) Hinweise 14 . 99 € Artikelpreis 14,99 € Anzahl 1 NIVEA - CC Flu",
       "responses": [
         {
-          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "url": "https://www.rossmann.de/_next/static/media/4663c2f634602873-s.p.woff2",
           "status": 200,
-          "contentType": "application/javascript; charset=UTF-8"
-        }
-      ]
-    },
-    "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=1": {
-      "status": "ok",
-      "title": "",
-      "links": [],
-      "productLinks": 0,
-      "bodyChars": 21394,
-      "countHints": [],
-      "bodySample": "Fotowelt Gutscheine Karriere Unternehmen Geschäftskunden babywelt Filiale finden Anmelden Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Filiale finden babywelt Newsletter Karriere Gutscheine Impressum Datenschutz Cookie Einstellungen AGB Rossmann Onlineshop Kontakt Verbraucherschlichtung Barrierefreiheitserklärung Vorteile beim Online-Kauf Sendungsverfolgung Kauf auf Rechnung Kostenlose Rücksendung SICHER EINKAUFEN SICHER VERSENDEN SICHER BEZAHLEN Services in Ihrer Filiale Geschenkgutscheine Rossmann Fotoservice Prepaidkarten Rücknahmegarantie Teppichreiniger-Verleih Gratis WLAN Rücknahme Elektrogeräte und Batterien Filialabholung Kategorien Neu Ideenwelt Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Ernährung Marken Angebote Services & Hilfe Kontakt Widerruf Oft gestellte Fragen zu Rossmann Mein Konto Newsletter Rossmann-App Filialfinder Mobilfunktarife von Rossmann mobil Unternehmen Über uns Soziale Verant",
-      "responses": [
+          "contentType": "font/woff2"
+        },
         {
-          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "url": "https://www.rossmann.de/_next/static/media/6255af9d8027245b-s.p.woff2",
           "status": 200,
-          "contentType": "application/javascript; charset=UTF-8"
-        }
-      ]
-    },
-    "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1?pageIndex=0": {
-      "status": "ok",
-      "title": "",
-      "links": [],
-      "productLinks": 0,
-      "bodyChars": 21394,
-      "countHints": [],
-      "bodySample": "Fotowelt Gutscheine Karriere Unternehmen Geschäftskunden babywelt Filiale finden Anmelden Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Filiale finden babywelt Newsletter Karriere Gutscheine Impressum Datenschutz Cookie Einstellungen AGB Rossmann Onlineshop Kontakt Verbraucherschlichtung Barrierefreiheitserklärung Vorteile beim Online-Kauf Sendungsverfolgung Kauf auf Rechnung Kostenlose Rücksendung SICHER EINKAUFEN SICHER VERSENDEN SICHER BEZAHLEN Services in Ihrer Filiale Geschenkgutscheine Rossmann Fotoservice Prepaidkarten Rücknahmegarantie Teppichreiniger-Verleih Gratis WLAN Rücknahme Elektrogeräte und Batterien Filialabholung Kategorien Neu Ideenwelt Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Ernährung Marken Angebote Services & Hilfe Kontakt Widerruf Oft gestellte Fragen zu Rossmann Mein Konto Newsletter Rossmann-App Filialfinder Mobilfunktarife von Rossmann mobil Unternehmen Über uns Soziale Verant",
-      "responses": [
+          "contentType": "font/woff2"
+        },
         {
-          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "url": "https://www.rossmann.de/_next/static/media/99abc2b22bbc27f4-s.p.woff2",
           "status": 200,
-          "contentType": "application/javascript; charset=UTF-8"
-        }
-      ]
-    },
-    "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0": {
-      "status": "ok",
-      "title": "",
-      "links": [],
-      "productLinks": 0,
-      "bodyChars": 21394,
-      "countHints": [],
-      "bodySample": "Fotowelt Gutscheine Karriere Unternehmen Geschäftskunden babywelt Filiale finden Anmelden Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Filiale finden babywelt Newsletter Karriere Gutscheine Impressum Datenschutz Cookie Einstellungen AGB Rossmann Onlineshop Kontakt Verbraucherschlichtung Barrierefreiheitserklärung Vorteile beim Online-Kauf Sendungsverfolgung Kauf auf Rechnung Kostenlose Rücksendung SICHER EINKAUFEN SICHER VERSENDEN SICHER BEZAHLEN Services in Ihrer Filiale Geschenkgutscheine Rossmann Fotoservice Prepaidkarten Rücknahmegarantie Teppichreiniger-Verleih Gratis WLAN Rücknahme Elektrogeräte und Batterien Filialabholung Kategorien Neu Ideenwelt Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Ernährung Marken Angebote Services & Hilfe Kontakt Widerruf Oft gestellte Fragen zu Rossmann Mein Konto Newsletter Rossmann-App Filialfinder Mobilfunktarife von Rossmann mobil Unternehmen Über uns Soziale Verant",
-      "responses": [
+          "contentType": "font/woff2"
+        },
         {
-          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "url": "https://www.rossmann.de/_next/static/media/f4a92fd12043357d-s.p.woff2",
           "status": 200,
-          "contentType": "application/javascript; charset=UTF-8"
-        }
-      ]
-    },
-    "https://www.rossmann.de/de/gesundheit/c/olcat1_4?pageIndex=0": {
-      "status": "ok",
-      "title": "",
-      "links": [],
-      "productLinks": 0,
-      "bodyChars": 21394,
-      "countHints": [],
-      "bodySample": "Fotowelt Gutscheine Karriere Unternehmen Geschäftskunden babywelt Filiale finden Anmelden Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Filiale finden babywelt Newsletter Karriere Gutscheine Impressum Datenschutz Cookie Einstellungen AGB Rossmann Onlineshop Kontakt Verbraucherschlichtung Barrierefreiheitserklärung Vorteile beim Online-Kauf Sendungsverfolgung Kauf auf Rechnung Kostenlose Rücksendung SICHER EINKAUFEN SICHER VERSENDEN SICHER BEZAHLEN Services in Ihrer Filiale Geschenkgutscheine Rossmann Fotoservice Prepaidkarten Rücknahmegarantie Teppichreiniger-Verleih Gratis WLAN Rücknahme Elektrogeräte und Batterien Filialabholung Kategorien Neu Ideenwelt Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Ernährung Marken Angebote Services & Hilfe Kontakt Widerruf Oft gestellte Fragen zu Rossmann Mein Konto Newsletter Rossmann-App Filialfinder Mobilfunktarife von Rossmann mobil Unternehmen Über uns Soziale Verant",
-      "responses": [
+          "contentType": "font/woff2"
+        },
         {
-          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "url": "https://www.rossmann.de/_next/static/css/355e65eef1cd6ca8.css",
           "status": 200,
-          "contentType": "application/javascript; charset=UTF-8"
-        }
-      ]
-    },
-    "https://www.rossmann.de/de/ernaehrung/c/olcat1_5?pageIndex=0": {
-      "status": "ok",
-      "title": "",
-      "links": [],
-      "productLinks": 0,
-      "bodyChars": 21394,
-      "countHints": [],
-      "bodySample": "Fotowelt Gutscheine Karriere Unternehmen Geschäftskunden babywelt Filiale finden Anmelden Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Filiale finden babywelt Newsletter Karriere Gutscheine Impressum Datenschutz Cookie Einstellungen AGB Rossmann Onlineshop Kontakt Verbraucherschlichtung Barrierefreiheitserklärung Vorteile beim Online-Kauf Sendungsverfolgung Kauf auf Rechnung Kostenlose Rücksendung SICHER EINKAUFEN SICHER VERSENDEN SICHER BEZAHLEN Services in Ihrer Filiale Geschenkgutscheine Rossmann Fotoservice Prepaidkarten Rücknahmegarantie Teppichreiniger-Verleih Gratis WLAN Rücknahme Elektrogeräte und Batterien Filialabholung Kategorien Neu Ideenwelt Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Ernährung Marken Angebote Services & Hilfe Kontakt Widerruf Oft gestellte Fragen zu Rossmann Mein Konto Newsletter Rossmann-App Filialfinder Mobilfunktarife von Rossmann mobil Unternehmen Über uns Soziale Verant",
-      "responses": [
+          "contentType": "text/css; charset=UTF-8"
+        },
         {
-          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "url": "https://www.rossmann.de/_next/static/css/f5039924c29af953.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/6ccaf595a6924268.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/b78140843fdb7427.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.new.ab97b869.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.old.dfedc59f.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.11fedc08.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Medium.4663c2f6.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Bold.f4a92fd1.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/webpack-c42f924b1a861f24.js",
           "status": 200,
           "contentType": "application/javascript; charset=UTF-8"
-        }
-      ]
-    },
-    "https://www.rossmann.de/de/tier/c/olcat1_6?pageIndex=0": {
-      "status": "ok",
-      "title": "undefined | rossmann.de",
-      "links": [],
-      "productLinks": 0,
-      "bodyChars": 21464,
-      "countHints": [],
-      "bodySample": "Filiale finden Anmelden 0 Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Wir haben überall gesucht... Aber konnten die gewünschte Seite leider nicht finden. Vielleicht helfen dir die folgenden Links weiter: Filiale finden babywelt Newsletter Karriere Gutscheine Impressum Datenschutz Cookie Einstellungen AGB Rossmann Onlineshop Kontakt Verbraucherschlichtung Barrierefreiheitserklärung Vorteile beim Online-Kauf Sendungsverfolgung Kauf auf Rechnung Kostenlose Rücksendung SICHER EINKAUFEN SICHER VERSENDEN SICHER BEZAHLEN Services in Ihrer Filiale Geschenkgutscheine Rossmann Fotoservice Prepaidkarten Rücknahmegarantie Teppichreiniger-Verleih Gratis WLAN Rücknahme Elektrogeräte und Batterien Filialabholung Kategorien Neu Ideenwelt Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Ernährung Marken Angebote Services & Hilfe Kontakt Widerruf Oft gestellte Fragen zu Rossmann Mein Konto Newsletter Rossmann-App Filialfinder ",
-      "responses": [
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7135858d-028815645406bfe5.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/main-app-e4a03c4d5e949427.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8424-9c267d4196fc4719.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4666-50d213c9aca49bb8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9771-79e48772818577e2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/1862-377e9e8e64afd026.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2868-1a0a2d80f4411307.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/112-30bb14e805ee64a7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6897-f9f6e1114a850199.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/5023-fedefede1a0d9159.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7004-2ec106c7accbbcbf.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6034-cfb211a0ecbd8855.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9402-4b72d9b955c5c281.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9623-77afce8f9c856e17.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9744-e8a1b7f8fd9721ac.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4492-37066e149affe4be.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6274-4ccf4701ea311799.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7733-a249feed6275efaa.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/543-99510e1de6c7ac99.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2564-f35e5b5af13a694b.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/error-03c04f5bd3821000.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2937-789f4d81222bb6b2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
         {
           "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
           "status": 200,
           "contentType": "application/javascript; charset=UTF-8"
         },
         {
-          "url": "https://analytics.google.com/g/collect?v=2&tid=G-9VYK691E0Y&gtm=45je68i1v881706718z879051492za20gzb79051492zd79051492&_p=1787238315356&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=685246661.1787238316&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=de-de&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120213116~120385422&sid=1787238315&sct=1&seg=0&dl=https%3A%2F%2Fwww.rossmann.de%2Fde%2Ftier%2Fc%2Folcat1_6%3FpageIndex%3D0&dr=https%3A%2F%2Fwww.rossmann.de%2Fde%2Ftier%2Fc%2Folcat1_6%3FpageIndex%3D0&dt=undefined%20%7C%20rossmann.de&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&ep.search_version=cms_unknown&ep.debug_mode=false&ep.cms_version=cms_unknown&tfd=3121",
-          "status": 204,
-          "contentType": "text/plain"
-        },
-        {
-          "url": "https://analytics.google.com/g/collect?v=2&tid=G-9VYK691E0Y&gtm=45je68i1v881706718za20gzb79051492zd79051492&_p=1787238315356&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&_eu=AEAAACQC&ae=a&are=1&cid=685246661.1787238316&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=de-de&_s=2&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120213116~120385422&sid=1787238315&sct=1&seg=0&dl=https%3A%2F%2Fwww.rossmann.de%2Fde%2Ftier%2Fc%2Folcat1_6%3FpageIndex%3D0&dr=https%3A%2F%2Fwww.rossmann.de%2Fde%2Ftier%2Fc%2Folcat1_6%3FpageIndex%3D0&dt=undefined%20%7C%20rossmann.de&_tu=CA&en=scroll&ep.search_version=cms_unknown&ep.debug_mode=false&ep.cms_version=cms_unknown&epn.percent_scrolled=90&_et=56&tfd=3270",
-          "status": 204,
-          "contentType": "text/plain"
-        },
-        {
-          "url": "https://analytics.google.com/g/collect?v=2&tid=G-9VYK691E0Y&gtm=45je68i1v881706718za20gzb79051492zd79051492&_p=1787238315356&_gaz=1&gcs=G111&gcu=1&gcd=13r3r3r3r5l1&npa=0&dma=0&_eu=AAAAACQC&are=1&cid=685246661.1787238316&frm=0&gcut=3&ibt=1&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B140.0.7339.16%7CNot%253DA%253FBrand%3B24.0.0.0%7CHeadlessChrome%3B140.0.7339.16&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=de-de&_s=3&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120213116~120385422&sid=1787238315&sct=1&seg=0&dl=https%3A%2F%2Fwww.rossmann.de%2Fde%2Ftier%2Fc%2Folcat1_6%3FpageIndex%3D0&dr=https%3A%2F%2Fwww.rossmann.de%2Fde%2Ftier%2Fc%2Folcat1_6%3FpageIndex%3D0&dt=undefined%20%7C%20rossmann.de&_tu=CA&en=user_engagement&ep.search_version=cms_unknown&ep.debug_mode=false&ep.cms_version=cms_unknown&_et=90&tfd=3271",
-          "status": 204,
-          "contentType": "text/plain"
-        },
-        {
-          "url": "https://p-eu.brsrvr.com/pix.gif?acct_id=7572&cookie2=uid%3D3636269077137%3Av%3D16.0%3Ats%3D1787238315809%3Ahc%3D1&sid=undefined&ref=https%3A%2F%2Fwww.rossmann.de%2Fde%2Ftier%2Fc%2Folcat1_6%3FpageIndex%3D0&tzo=0&rand=0.6162549302304747&title=undefined%20%7C%20rossmann.de&ptype=category&domain_key=rossmann_de&debug=false&test_data=false&cat_id=olcat1_6&cat=home%7Ctier&type=pageview&lang=de-DE&url=https%3A%2F%2Fwww.rossmann.de%2Fde%2Ftier%2Fc%2Folcat1_6%3FpageIndex%3D0&version=16.0",
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/not-found-f478afc9ec62481c.js",
           "status": 200,
-          "contentType": "image/gif"
+          "contentType": "application/javascript; charset=UTF-8"
         },
         {
-          "url": "https://www.facebook.com/tr/?id=297872343733774&ev=PageView&dl=https%3A%2F%2Fwww.rossmann.de%2Fde%2Ftier%2Fc%2Folcat1_6%3FpageIndex%3D0&rl=https%3A%2F%2Fwww.rossmann.de%2Fde%2Ftier%2Fc%2Folcat1_6%3FpageIndex%3D0&if=false&ts=1787238316360&iw=false&cd[pagetype]=categorypage&cd[category]=null&cd[item_brand]=brand&sw=1280&sh=720&v=2.9.380&r=stable&ec=0&o=28701&aems=0%3B0&fbp=fb.1.1787238316357.933785982709344559&plt=960.9000000000233&tz=0&it=1787238316124&coo=false&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct2&expv2[6]=hf1&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&rqm=GET",
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/layout-5444e83592fe6526.js",
           "status": 200,
-          "contentType": "text/plain"
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2230-41b4b76f0525dea4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8481.228fa9618da5efc2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/api/hybris-session",
+          "status": 200,
+          "contentType": "application/json"
+        },
+        {
+          "url": "https://www.rossmann.de/api/cart",
+          "status": 200,
+          "contentType": "application/json"
+        }
+      ]
+    },
+    "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_2325036": {
+      "navText": "Pflege & Duft",
+      "title": "Pflegeprodukte online kaufen | rossmann.de",
+      "bodyChars": 27399,
+      "productLinks": 41,
+      "products": [
+        {
+          "href": "https://www.rossmann.de/de/pflege-und-duft-axe-premium-duschgel-fine-fragrance-cherryfizz/p/8720181827976?rm_tt=eyJhZF9pZCI6ImMyMmJmMjg3LTJkZmYtNGFiMi1hMGIwLTg0OWQ1NWU5MzQ5OCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI4NzIwMTgxODI3OTc2IiwiaWF0IjoxNzg3MjM4NjAwLCJsaSI6IjQ5YTc4MDQ4LTBlNzQtNGJiYy05NTk1LTVkMmM3OTgzMTI3NyIsImFzIjoiOWI0YzhkNDItNzBmNC00MWQ1LWIxNTYtNTk2ZWQ4ODRkNTUxIiwiYmMiOjE3NSwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2MDA0MzV9.AzpFtwfuD8TWVA2XjgL15f0TFaruDisdhiClmdNrCe0%3D",
+          "text": "AXE Premium Duschgel Fine Fragrance CherryFizz"
+        },
+        {
+          "href": "https://www.rossmann.de/de/pflege-und-duft-rexona-men-whole-body-deodorant-spray-ocean-rush/p/8720181669712?rm_tt=eyJhZF9pZCI6ImJiZTZjZjRlLTdhN2ItNDdkYy05YTFmLWMyOTYyMzM2ZTY3OCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI4NzIwMTgxNjY5NzEyIiwiaWF0IjoxNzg3MjM4NjAwLCJsaSI6IjVlNzY4MTQzLTViODktNDRkOC1hNThiLTM0OWY4ZGVkYThkMCIsImFzIjoiOWI0YzhkNDItNzBmNC00MWQ1LWIxNTYtNTk2ZWQ4ODRkNTUxIiwiYmMiOjE3NSwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2MDA0MzV9.g7iQZsrKcfqftoE46aGU9V0tGsPC5NOM6sBSFgtMduo%3D",
+          "text": "Rexona Men Whole Body Deodorant Spray Ocean Rush"
+        },
+        {
+          "href": "https://www.rossmann.de/de/pflege-und-duft-rexona-men-whole-body-deodorant-spray-ocean-rush/p/8720181669712?rm_tt=eyJhZF9pZCI6ImJiZTZjZjRlLTdhN2ItNDdkYy05YTFmLWMyOTYyMzM2ZTY3OCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI4NzIwMTgxNjY5NzEyIiwiaWF0IjoxNzg3MjM4NjAwLCJsaSI6IjVlNzY4MTQzLTViODktNDRkOC1hNThiLTM0OWY4ZGVkYThkMCIsImFzIjoiOWI0YzhkNDItNzBmNC00MWQ1LWIxNTYtNTk2ZWQ4ODRkNTUxIiwiYmMiOjE3NSwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2MDA0MzV9.g7iQZsrKcfqftoE46aGU9V0tGsPC5NOM6sBSFgtMduo%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/pflege-und-duft-david-beckham-insinct-geschenkset/p/3616306722354",
+          "text": "David Beckham Insinct Geschenkset"
+        },
+        {
+          "href": "https://www.rossmann.de/de/pflege-und-duft-david-beckham-insinct-geschenkset/p/3616306722354#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/pflege-und-duft-monotheme-cherry-blossom-edt-100-ml/p/0679602911337",
+          "text": "Monotheme Cherry Blossom, EdT 100 ml"
+        },
+        {
+          "href": "https://www.rossmann.de/de/pflege-und-duft-monotheme-cherry-blossom-edt-100-ml/p/0679602911337#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/pflege-und-duft-isana-korean-skincare-toner-pads/p/4068134174529",
+          "text": "ISANA Korean Skincare Toner Pads"
+        },
+        {
+          "href": "https://www.rossmann.de/de/pflege-und-duft-lattafa-eclaire-edp-100-ml/p/6290362340638",
+          "text": "Lattafa Eclaire, EdP 100 ml"
+        },
+        {
+          "href": "https://www.rossmann.de/de/pflege-und-duft-lattafa-eclaire-edp-100-ml/p/6290362340638#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        }
+      ],
+      "bodySample": "Filiale finden Anmelden 0 Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Startseite Pflege & Duft Düfte & Parfum Fußpflege Geschenksets Gesichtspflege Gesichtsreinigung Haarentfernung & Rasur Haarfarbe Haarpflege Haarstyling Handpflege & Handseife Hygiene Koreanische Kosmetik Körperpflege Männerpflege Naturkosmetik Pflegetools & Badzubehör Schmuck Sonnenpflege Unterwäsche & Strümpfe Vorteilspacks & Großpackungen Schön für mich - Aktionen & Ratgeber Anti-Aging Guide Produktberater: Menstruationsprodukte Produktberater: Inkontinenzprodukte Produktberater: Sonnenpflege Pflege & Duft Vorherige Nächste Sortieren nach: Relevanz filter Kategorie filter Marke filter Empfohlene Filter filter Verfügbarkeit filter Bewertungen filter Geschlecht filter Hauttyp filter Farbe filter Haartyp filter Lichtschutzfaktor filter Produkteigenschaften filter AXE - Premium Duschgel Fine Fragrance CherryFizz Gesponsert 127 AXE Premium Duschgel Fine Fragrance CherryFizz 225 ml (1L = 15,51 €) 3 . 49 € Artikelpreis 3,49 € Anzahl 1 Rexona Men - Whole Body Deodorant Spray Ocean Rush Gesponsert 2 Rexona Men Whole Body Deodorant Spray Ocean Rush 150 ml (1L = 23,27 €) Hinweise 3 . 49 € Artikelpreis 3,49 € Anzahl 1 David Beckham - Insinct Geschenkset Nur Online 0 David Beckham Insinct Geschenkset 1 Stück Hinweise 17 . 99 € Artikelpreis 17,99 € Anzahl 1 M",
+      "responses": [
+        {
+          "url": "https://www.rossmann.de/_next/static/media/4663c2f634602873-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/6255af9d8027245b-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/99abc2b22bbc27f4-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/b78140843fdb7427.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/f4a92fd12043357d-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/f5039924c29af953.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/355e65eef1cd6ca8.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/6ccaf595a6924268.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/1862-377e9e8e64afd026.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/main-app-e4a03c4d5e949427.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9771-79e48772818577e2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6897-f9f6e1114a850199.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/5023-fedefede1a0d9159.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7135858d-028815645406bfe5.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8424-9c267d4196fc4719.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/webpack-c42f924b1a861f24.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2868-1a0a2d80f4411307.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/112-30bb14e805ee64a7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4666-50d213c9aca49bb8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6034-cfb211a0ecbd8855.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9744-e8a1b7f8fd9721ac.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/not-found-f478afc9ec62481c.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9402-4b72d9b955c5c281.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/error-03c04f5bd3821000.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2937-789f4d81222bb6b2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7004-2ec106c7accbbcbf.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9623-77afce8f9c856e17.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2564-f35e5b5af13a694b.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2230-41b4b76f0525dea4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4492-37066e149affe4be.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/layout-5444e83592fe6526.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.new.ab97b869.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.old.dfedc59f.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Bold.f4a92fd1.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.11fedc08.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Medium.4663c2f6.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/543-99510e1de6c7ac99.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6274-4ccf4701ea311799.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7733-a249feed6275efaa.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8481.228fa9618da5efc2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/api/hybris-session",
+          "status": 200,
+          "contentType": "application/json"
+        },
+        {
+          "url": "https://www.rossmann.de/api/cart",
+          "status": 200,
+          "contentType": "application/json"
+        }
+      ]
+    },
+    "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2": {
+      "navText": "Baby & Spielzeug",
+      "title": "Babyartikel & Kinderartikel online kaufen | rossmann.de",
+      "bodyChars": 30704,
+      "productLinks": 64,
+      "products": [
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-nestle-cerelac-milch-getreidebrei-weizenhonig-ab-dem-12-monat/p/7616100756865?rm_tt=eyJhZF9pZCI6IjE4NzAwMDZlLTE1NDQtNGRkZS1hNzFmLTVhNzA2MWExNjNlNCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjE2MTAwNzU2ODY1IiwiaWF0IjoxNzg3MjM4NjA3LCJsaSI6IjNjZDQyODg2LTdjZmUtNGViZC1hNzZlLTIzODFhNWY2NzE4NyIsImFzIjoiN2M1NjNkZTItZmViYS00MjBiLWI1YWQtNWE0NzBjZTlhNWEyIiwiYmMiOjg3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYwNzc5NX0%3D.4mefSlDtI9IA6UJirpRi74igGDwuIrDJ6RTn8HR3eMI%3D",
+          "text": "Nestlé Cerelac Milch-Getreidebrei Weizen+Honig ab dem 12. Monat"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-nestle-cerelac-milch-getreidebrei-weizenhonig-ab-dem-12-monat/p/7616100756865?rm_tt=eyJhZF9pZCI6IjE4NzAwMDZlLTE1NDQtNGRkZS1hNzFmLTVhNzA2MWExNjNlNCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjE2MTAwNzU2ODY1IiwiaWF0IjoxNzg3MjM4NjA3LCJsaSI6IjNjZDQyODg2LTdjZmUtNGViZC1hNzZlLTIzODFhNWY2NzE4NyIsImFzIjoiN2M1NjNkZTItZmViYS00MjBiLWI1YWQtNWE0NzBjZTlhNWEyIiwiYmMiOjg3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYwNzc5NX0%3D.4mefSlDtI9IA6UJirpRi74igGDwuIrDJ6RTn8HR3eMI%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6IjNiYTc2NWEzLWU4YmQtNDk4MC05MWM4LWQ5YTY1YTM3NWVhOSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MjM4NjA3LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiN2M1NjNkZTItZmViYS00MjBiLWI1YWQtNWE0NzBjZTlhNWEyIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2MDc3OTV9.C2IDPnUDU8-m7g0K1kwYe0BdGHPpkV3ISrphTm6Ry2c%3D",
+          "text": "Stérimar Nasenhygiene Baby 2 in 1 Nasenspray Spülung"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6IjNiYTc2NWEzLWU4YmQtNDk4MC05MWM4LWQ5YTY1YTM3NWVhOSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MjM4NjA3LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiN2M1NjNkZTItZmViYS00MjBiLWI1YWQtNWE0NzBjZTlhNWEyIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2MDc3OTV9.C2IDPnUDU8-m7g0K1kwYe0BdGHPpkV3ISrphTm6Ry2c%3D#GRP_ANWENDUNGGEBRAUCH",
+          "text": "Medizinprodukt"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6IjNiYTc2NWEzLWU4YmQtNDk4MC05MWM4LWQ5YTY1YTM3NWVhOSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MjM4NjA3LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiN2M1NjNkZTItZmViYS00MjBiLWI1YWQtNWE0NzBjZTlhNWEyIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2MDc3OTV9.C2IDPnUDU8-m7g0K1kwYe0BdGHPpkV3ISrphTm6Ry2c%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-babydream-extra-sensitiv-feuchttuecher-xxl-spar-pack-9600-stueck/p/4068134156723",
+          "text": "Babydream extra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-babydream-extra-sensitiv-feuchttuecher-xxl-spar-pack-9600-stueck/p/4068134156723#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-pampers-premium-protection-windeln-gr-2-mini-4-8-kg-monatsbox-240-stueck/p/8006540705544",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-pampers-premium-protection-windeln-gr-4-maxi-plus-10-15kg-monatsbox/p/8006530107129",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-pampers-premium-protection-windeln-gr-7-extra-large-15kg-monatsbox/p/8700216418195",
+          "text": ""
+        }
+      ],
+      "bodySample": "Filiale finden Anmelden 0 Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Startseite Baby & Spielzeug Baby Erstausstattung Babymöbel & Kindermöbel Babynahrung Babypflege Babytextilien Babytragen Dreiräder & Laufräder Für Mamas Kindersicherungen Kindersitze Kinderwagen Schnuller, Fläschchen & Beißringe Spielzeug Stillzeit Vorteilspacks & Großpackungen Windeln & Wickeln babywelt - die Ratgeber babywelt - der Baby-Club Baby & Spielzeug Nächste Sortieren nach: Relevanz filter Kategorie filter Marke filter Empfohlene Filter filter Verfügbarkeit filter Bewertungen filter Produkteigenschaften filter Geschlecht filter Farbe filter Geschmacksrichtung filter Hauttyp filter Gewichtsbeschränkung filter Lichtschutzfaktor filter Haartyp filter Nestlé - Cerelac Milch-Getreidebrei Weizen+Honig ab dem 12. Monat Gesponsert 56 Nestlé Cerelac Milch-Getreidebrei Weizen+Honig ab dem 12. Monat 400 g (1kg = 9,98 €) Hinweise 3 . 99 € Artikelpreis 3,99 € Anzahl 1 Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung Gesponsert Stérimar Nasenhygiene Baby 2 in 1 Nasenspray Spülung 50 ml (1L = 119,80 €) Medizinprodukt Hinweise 5 . 99 € Artikelpreis 5,99 € Anzahl 1 Babydream - extra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück 119 Babydream extra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück 12 Stück (10Stück = 7,24 €) / 12 x 80 Tücher Hinweis",
+      "responses": [
+        {
+          "url": "https://www.rossmann.de/_next/static/media/4663c2f634602873-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/6255af9d8027245b-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/99abc2b22bbc27f4-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/b78140843fdb7427.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/f4a92fd12043357d-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/f5039924c29af953.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/6ccaf595a6924268.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/355e65eef1cd6ca8.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9771-79e48772818577e2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/1862-377e9e8e64afd026.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/112-30bb14e805ee64a7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/5023-fedefede1a0d9159.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/webpack-c42f924b1a861f24.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/main-app-e4a03c4d5e949427.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7135858d-028815645406bfe5.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8424-9c267d4196fc4719.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2868-1a0a2d80f4411307.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6897-f9f6e1114a850199.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6034-cfb211a0ecbd8855.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4666-50d213c9aca49bb8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/layout-5444e83592fe6526.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/not-found-f478afc9ec62481c.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7004-2ec106c7accbbcbf.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9402-4b72d9b955c5c281.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9623-77afce8f9c856e17.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4492-37066e149affe4be.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/error-03c04f5bd3821000.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2937-789f4d81222bb6b2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Bold.f4a92fd1.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.new.ab97b869.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.old.dfedc59f.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.11fedc08.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Medium.4663c2f6.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/543-99510e1de6c7ac99.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7733-a249feed6275efaa.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9744-e8a1b7f8fd9721ac.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2230-41b4b76f0525dea4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2564-f35e5b5af13a694b.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6274-4ccf4701ea311799.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8481.228fa9618da5efc2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/api/hybris-session",
+          "status": 200,
+          "contentType": "application/json"
+        },
+        {
+          "url": "https://www.rossmann.de/api/cart",
+          "status": 200,
+          "contentType": "application/json"
+        }
+      ]
+    },
+    "https://www.rossmann.de/de/haushalt/c/olcat1_3": {
+      "navText": "Haushalt",
+      "title": "Haushaltsartikel online kaufen | rossmann.de",
+      "bodyChars": 26876,
+      "productLinks": 59,
+      "products": [
+        {
+          "href": "https://www.rossmann.de/de/haushalt-hakle-traumweich-toilettenpapier/p/4260344220106",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/haushalt-bref-power-gegen-kalk-und-schmutz/p/4015000971157?rm_tt=eyJhZF9pZCI6IjBkZjE0YWNmLTU0ZjUtNGZkMS1hMWEwLTlkY2ZhNDk5NGJmYSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MDAwOTcxMTU3IiwiaWF0IjoxNzg3MjM4NjE1LCJsaSI6IjA5YjcwMTVjLTZlODktNGVjMC1hMjFhLWJkNjQyZjY4ZWUyZCIsImFzIjoiYTFlOTYyNTktNDAyYy00YjRjLWFlZDYtOTJlODYzNWIyNWUwIiwiYmMiOjYwLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYxNTExNX0%3D.U2Ceo-cTirKezgXOm-XBoz_MnVGkjOgh9UhgdKfZjg8%3D",
+          "text": "Bref Power gegen Kalk & Schmutz"
+        },
+        {
+          "href": "https://www.rossmann.de/de/haushalt-bref-power-gegen-kalk-und-schmutz/p/4015000971157?rm_tt=eyJhZF9pZCI6IjBkZjE0YWNmLTU0ZjUtNGZkMS1hMWEwLTlkY2ZhNDk5NGJmYSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MDAwOTcxMTU3IiwiaWF0IjoxNzg3MjM4NjE1LCJsaSI6IjA5YjcwMTVjLTZlODktNGVjMC1hMjFhLWJkNjQyZjY4ZWUyZCIsImFzIjoiYTFlOTYyNTktNDAyYy00YjRjLWFlZDYtOTJlODYzNWIyNWUwIiwiYmMiOjYwLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYxNTExNX0%3D.U2Ceo-cTirKezgXOm-XBoz_MnVGkjOgh9UhgdKfZjg8%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/haushalt-bref-power-backofen-und-grill-reiniger/p/4015000019040?rm_tt=eyJhZF9pZCI6IjkyYzgxN2U3LThiMjgtNDNmYy1hMWIwLTZjYjM5MTkxYzMzNCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MDAwMDE5MDQwIiwiaWF0IjoxNzg3MjM4NjE1LCJsaSI6ImJlMzY3YTA3LTAwMjAtNDc5Ni1hODdjLWU1MjJjMjEwZTdjMCIsImFzIjoiYTFlOTYyNTktNDAyYy00YjRjLWFlZDYtOTJlODYzNWIyNWUwIiwiYmMiOjUyLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYxNTExNX0%3D.C0WETDeuExTVPy17c__w8zkfJQQG8SrWead-B4448E0%3D",
+          "text": "Bref Power Backofen & Grill Reiniger"
+        },
+        {
+          "href": "https://www.rossmann.de/de/haushalt-bref-power-backofen-und-grill-reiniger/p/4015000019040?rm_tt=eyJhZF9pZCI6IjkyYzgxN2U3LThiMjgtNDNmYy1hMWIwLTZjYjM5MTkxYzMzNCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDE1MDAwMDE5MDQwIiwiaWF0IjoxNzg3MjM4NjE1LCJsaSI6ImJlMzY3YTA3LTAwMjAtNDc5Ni1hODdjLWU1MjJjMjEwZTdjMCIsImFzIjoiYTFlOTYyNTktNDAyYy00YjRjLWFlZDYtOTJlODYzNWIyNWUwIiwiYmMiOjUyLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYxNTExNX0%3D.C0WETDeuExTVPy17c__w8zkfJQQG8SrWead-B4448E0%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/haushalt-lenor-vollwaschmittel-pods-aprilfrisch-grosspackung-100wl/p/8006530197731",
+          "text": "Lenor Vollwaschmittel Pods Aprilfrisch Großpackung 100WL"
+        },
+        {
+          "href": "https://www.rossmann.de/de/haushalt-lenor-colorwaschmittel-pods-bluetentraum-grosspackung-100wl/p/8006530198011",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/haushalt-lenor-vollwaschmittel-pods-aprilfrisch-grosspackung-100wl/p/8006530197731#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/haushalt-tassimo-kapselmaschine-happy-friendly/p/4242005463770",
+          "text": "TASSIMO Kapselmaschine Happy friendly"
+        },
+        {
+          "href": "https://www.rossmann.de/de/haushalt-alouette-toilettenpapier-classic-xxl-pack/p/4068134153203",
+          "text": "alouette Toilettenpapier Classic XXL Pack"
+        }
+      ],
+      "bodySample": "Filiale finden Anmelden 0 Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Startseite Haushalt Bilderrahmen Bücher & Schreibwaren Haushaltspapier Haushaltswaren & Haushaltshelfer Küchengeräte & Küchenhelfer Lufterfrischer Putzmittel Putzutensilien SodaStream Spülmittel Vorteilspacks & Großpackungen Waschen & Bügeln Haushalts-Ratgeber Haushalt Vorherige Nächste Sortieren nach: Relevanz filter Kategorie filter Marke filter Empfohlene Filter filter Verfügbarkeit filter Bewertungen filter Produkteigenschaften filter Geschlecht filter Hauttyp filter Bref - Power gegen Kalk & Schmutz Gesponsert 122 Bref Power gegen Kalk & Schmutz 750 ml (1L = 3,05 €) Hinweise 2 . 29 € Artikelpreis 2,29 € Anzahl 1 Bref - Power Backofen & Grill Reiniger Gesponsert 16 Bref Power Backofen & Grill Reiniger 500 ml (1L = 7,18 €) Hinweise 3 . 59 € Artikelpreis 3,59 € Anzahl 1 Lenor - Vollwaschmittel Pods Aprilfrisch Großpackung 100WL Nur Online 2 0 Lenor Vollwaschmittel Pods Aprilfrisch Großpackung 100WL 100 WL (1WL = 0,29 €) Hinweise 28 . 99 € Artikelpreis 28,99 € Anzahl 1 TASSIMO - Kapselmaschine Happy friendly Nur Online 1 TASSIMO Kapselmaschine Happy friendly 1 Stück 39 . 99 € Artikelpreis 39,99 € Anzahl 1 alouette - Toilettenpapier Classic XXL Pack 831 alouette Toilettenpapier Classic XXL Pack 20 Stück (10Stück = 3,83 €) / 20 Rollen à 220 Blatt 7",
+      "responses": [
+        {
+          "url": "https://www.rossmann.de/_next/static/media/4663c2f634602873-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/6255af9d8027245b-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/99abc2b22bbc27f4-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/f4a92fd12043357d-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/b78140843fdb7427.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/f5039924c29af953.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/6ccaf595a6924268.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/355e65eef1cd6ca8.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4666-50d213c9aca49bb8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/webpack-c42f924b1a861f24.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8424-9c267d4196fc4719.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/112-30bb14e805ee64a7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6897-f9f6e1114a850199.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/main-app-e4a03c4d5e949427.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7135858d-028815645406bfe5.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2868-1a0a2d80f4411307.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9771-79e48772818577e2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/1862-377e9e8e64afd026.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/5023-fedefede1a0d9159.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7004-2ec106c7accbbcbf.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6034-cfb211a0ecbd8855.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9402-4b72d9b955c5c281.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/543-99510e1de6c7ac99.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2564-f35e5b5af13a694b.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.11fedc08.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.old.dfedc59f.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4492-37066e149affe4be.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/error-03c04f5bd3821000.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Bold.f4a92fd1.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.new.ab97b869.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2937-789f4d81222bb6b2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9623-77afce8f9c856e17.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2230-41b4b76f0525dea4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/not-found-f478afc9ec62481c.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9744-e8a1b7f8fd9721ac.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/layout-5444e83592fe6526.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6274-4ccf4701ea311799.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7733-a249feed6275efaa.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Medium.4663c2f6.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8481.228fa9618da5efc2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/api/hybris-session",
+          "status": 200,
+          "contentType": "application/json"
+        },
+        {
+          "url": "https://www.rossmann.de/api/cart",
+          "status": 200,
+          "contentType": "application/json"
+        }
+      ]
+    },
+    "https://www.rossmann.de/de/tier/c/olcat1_k_5190857": {
+      "navText": "Tier",
+      "title": "Tierbedarf & Tiernahrung online kaufen | rossmann.de",
+      "bodyChars": 26933,
+      "productLinks": 49,
+      "products": [
+        {
+          "href": "https://www.rossmann.de/de/tier-dreamies-katzenleckerli-mit-leckerem-huhn-megapack/p/4008429081767?rm_tt=eyJhZF9pZCI6ImI4NmZhNTQ4LWZmYjYtNDM0ZS1iY2U1LTY3MmY2YzJmNGE1ZCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA4NDI5MDgxNzY3IiwiaWF0IjoxNzg3MjM4NjIyLCJsaSI6ImEyZjEzZjU5LTQ5YzctNGYxOS04YTZhLTUzMTU1NTM3MjYxMCIsImFzIjoiMmViMzQ1YTEtNGZmNy00YWQ5LTgzNmYtYjM5ZTRjNzY4NzNlIiwiYmMiOjM1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYyMjQ0Nn0%3D.QZMTLbgdLkuGh_LuKMRmiJ2JpdaDtz6LrDj5eJSSzF0%3D",
+          "text": "Dreamies Katzenleckerli mit leckerem Huhn Megapack"
+        },
+        {
+          "href": "https://www.rossmann.de/de/tier-dreamies-katzenleckerli-mit-leckerem-rind-megapack/p/5998749143001?rm_tt=eyJhZF9pZCI6ImI4NmZhNTQ4LWZmYjYtNDM0ZS1iY2U1LTY3MmY2YzJmNGE1ZCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA4NDI5MDgxNzY3IiwiaWF0IjoxNzg3MjM4NjIyLCJsaSI6ImEyZjEzZjU5LTQ5YzctNGYxOS04YTZhLTUzMTU1NTM3MjYxMCIsImFzIjoiMmViMzQ1YTEtNGZmNy00YWQ5LTgzNmYtYjM5ZTRjNzY4NzNlIiwiYmMiOjM1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYyMjQ0Nn0%3D.QZMTLbgdLkuGh_LuKMRmiJ2JpdaDtz6LrDj5eJSSzF0%3D",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/tier-dreamies-katzenleckerli-mit-schmackhaftem-lachs-megapack/p/4008429081828?rm_tt=eyJhZF9pZCI6ImI4NmZhNTQ4LWZmYjYtNDM0ZS1iY2U1LTY3MmY2YzJmNGE1ZCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA4NDI5MDgxNzY3IiwiaWF0IjoxNzg3MjM4NjIyLCJsaSI6ImEyZjEzZjU5LTQ5YzctNGYxOS04YTZhLTUzMTU1NTM3MjYxMCIsImFzIjoiMmViMzQ1YTEtNGZmNy00YWQ5LTgzNmYtYjM5ZTRjNzY4NzNlIiwiYmMiOjM1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYyMjQ0Nn0%3D.QZMTLbgdLkuGh_LuKMRmiJ2JpdaDtz6LrDj5eJSSzF0%3D",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/tier-dreamies-katzenleckerli-mit-koestlichem-kaese-megapack/p/4008429081781?rm_tt=eyJhZF9pZCI6ImI4NmZhNTQ4LWZmYjYtNDM0ZS1iY2U1LTY3MmY2YzJmNGE1ZCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA4NDI5MDgxNzY3IiwiaWF0IjoxNzg3MjM4NjIyLCJsaSI6ImEyZjEzZjU5LTQ5YzctNGYxOS04YTZhLTUzMTU1NTM3MjYxMCIsImFzIjoiMmViMzQ1YTEtNGZmNy00YWQ5LTgzNmYtYjM5ZTRjNzY4NzNlIiwiYmMiOjM1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYyMjQ0Nn0%3D.QZMTLbgdLkuGh_LuKMRmiJ2JpdaDtz6LrDj5eJSSzF0%3D",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/tier-dreamies-katzenleckerli-mit-leckerem-huhn-megapack/p/4008429081767?rm_tt=eyJhZF9pZCI6ImI4NmZhNTQ4LWZmYjYtNDM0ZS1iY2U1LTY3MmY2YzJmNGE1ZCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA4NDI5MDgxNzY3IiwiaWF0IjoxNzg3MjM4NjIyLCJsaSI6ImEyZjEzZjU5LTQ5YzctNGYxOS04YTZhLTUzMTU1NTM3MjYxMCIsImFzIjoiMmViMzQ1YTEtNGZmNy00YWQ5LTgzNmYtYjM5ZTRjNzY4NzNlIiwiYmMiOjM1LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYyMjQ0Nn0%3D.QZMTLbgdLkuGh_LuKMRmiJ2JpdaDtz6LrDj5eJSSzF0%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/tier-perfect-fit-adult-hundefutter-1-xss-mit-huhn/p/4008429092336?rm_tt=eyJhZF9pZCI6IjJmMmVjNzg5LWE4M2ItNDg2Yy1hNzJiLTIzZmEwNTIzMTQ5NiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA4NDI5MDkyMzM2IiwiaWF0IjoxNzg3MjM4NjIyLCJsaSI6ImJlZThmZDk1LTNlN2ItNGEwNi05YzA0LWQ5MGU4MjFhN2IxOCIsImFzIjoiMmViMzQ1YTEtNGZmNy00YWQ5LTgzNmYtYjM5ZTRjNzY4NzNlIiwiYmMiOjQwLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYyMjQ0Nn0%3D.z6yMYbnvHp8yPndmCUkMdIClfdHwOGU_i91dhZc5SKE%3D",
+          "text": "Perfect Fit Adult Hundefutter 1+ XS/S mit Huhn"
+        },
+        {
+          "href": "https://www.rossmann.de/de/tier-perfect-fit-hund-trocken-sensitive-adult-1-mit-truthahn/p/4008429136177?rm_tt=eyJhZF9pZCI6IjJmMmVjNzg5LWE4M2ItNDg2Yy1hNzJiLTIzZmEwNTIzMTQ5NiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA4NDI5MDkyMzM2IiwiaWF0IjoxNzg3MjM4NjIyLCJsaSI6ImJlZThmZDk1LTNlN2ItNGEwNi05YzA0LWQ5MGU4MjFhN2IxOCIsImFzIjoiMmViMzQ1YTEtNGZmNy00YWQ5LTgzNmYtYjM5ZTRjNzY4NzNlIiwiYmMiOjQwLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYyMjQ0Nn0%3D.z6yMYbnvHp8yPndmCUkMdIClfdHwOGU_i91dhZc5SKE%3D",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/tier-perfect-fit-adult-hundefutter-1-xss-mit-huhn/p/4008429092336?rm_tt=eyJhZF9pZCI6IjJmMmVjNzg5LWE4M2ItNDg2Yy1hNzJiLTIzZmEwNTIzMTQ5NiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA4NDI5MDkyMzM2IiwiaWF0IjoxNzg3MjM4NjIyLCJsaSI6ImJlZThmZDk1LTNlN2ItNGEwNi05YzA0LWQ5MGU4MjFhN2IxOCIsImFzIjoiMmViMzQ1YTEtNGZmNy00YWQ5LTgzNmYtYjM5ZTRjNzY4NzNlIiwiYmMiOjQwLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYyMjQ0Nn0%3D.z6yMYbnvHp8yPndmCUkMdIClfdHwOGU_i91dhZc5SKE%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/tier-wolfsblut-trockenfutter-dark-forest-adult/p/4260603784608",
+          "text": "Wolfsblut Trockenfutter Dark Forest Adult"
+        },
+        {
+          "href": "https://www.rossmann.de/de/tier-wolfsblut-trockenfutter-wide-plain-adult/p/4260603784653",
+          "text": "Wolfsblut Trockenfutter Wide Plain Adult"
+        }
+      ],
+      "bodySample": "Filiale finden Anmelden 0 Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Startseite Tier Flohmittel & Zeckenmittel Hundefutter Hundeshampoo & Fellpflege Katzenfutter Katzenstreu & Kleintierstreu Nagerfutter Tierzubehör & Hundekotbeutel Vogelfutter & Vogelsand Vorteilspacks & Großpackungen Tier Vorherige Nächste Sortieren nach: Relevanz filter Kategorie filter Marke filter Empfohlene Filter filter Verfügbarkeit filter Bewertungen filter Produkteigenschaften filter Dreamies - Katzenleckerli mit leckerem Huhn Megapack Gesponsert 5 418 Dreamies Katzenleckerli mit leckerem Huhn Megapack 180 g (1kg = 21,06 €) Hinweise 3 . 79 € Artikelpreis 3,79 € Anzahl 1 Perfect Fit - Adult Hundefutter 1+ XS/S mit Huhn Gesponsert 2 2 Perfect Fit Adult Hundefutter 1+ XS/S mit Huhn 1.400 g (1kg = 4,28 €) Hinweise 5 . 99 € Artikelpreis 5,99 € Anzahl 1 Wolfsblut - Trockenfutter Dark Forest Adult Nur Online 0 Wolfsblut Trockenfutter Dark Forest Adult 12,5 kg (1kg = 6,00 €) 74 . 99 € Artikelpreis 74,99 € Anzahl 1 Wolfsblut - Trockenfutter Wide Plain Adult Nur Online 1 Wolfsblut Trockenfutter Wide Plain Adult 12,5 kg (1kg = 6,80 €) 84 . 99 € Artikelpreis 84,99 € Anzahl 1 Winston - Feine Häppchen in Gelee Multipack 5 1581 Winston Feine Häppchen in Gelee Multipack 1.200 g (1kg = 2,49 €) / 12x 100 g 2 . 99 € Artikelpreis 2,99 € Anzahl 1 Cat's Best - ",
+      "responses": [
+        {
+          "url": "https://www.rossmann.de/_next/static/media/4663c2f634602873-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/99abc2b22bbc27f4-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/f4a92fd12043357d-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/b78140843fdb7427.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/6255af9d8027245b-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/6ccaf595a6924268.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/f5039924c29af953.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/355e65eef1cd6ca8.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/webpack-c42f924b1a861f24.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7135858d-028815645406bfe5.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9771-79e48772818577e2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2868-1a0a2d80f4411307.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4666-50d213c9aca49bb8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/main-app-e4a03c4d5e949427.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8424-9c267d4196fc4719.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/1862-377e9e8e64afd026.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/112-30bb14e805ee64a7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6034-cfb211a0ecbd8855.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6897-f9f6e1114a850199.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7004-2ec106c7accbbcbf.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/5023-fedefede1a0d9159.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/543-99510e1de6c7ac99.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9744-e8a1b7f8fd9721ac.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4492-37066e149affe4be.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9402-4b72d9b955c5c281.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6274-4ccf4701ea311799.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9623-77afce8f9c856e17.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7733-a249feed6275efaa.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2564-f35e5b5af13a694b.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/not-found-f478afc9ec62481c.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Medium.4663c2f6.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.new.ab97b869.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/error-03c04f5bd3821000.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.old.dfedc59f.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Bold.f4a92fd1.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.11fedc08.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2230-41b4b76f0525dea4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/layout-5444e83592fe6526.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2937-789f4d81222bb6b2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8481.228fa9618da5efc2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/api/hybris-session",
+          "status": 200,
+          "contentType": "application/json"
+        },
+        {
+          "url": "https://www.rossmann.de/api/cart",
+          "status": 200,
+          "contentType": "application/json"
+        }
+      ]
+    },
+    "https://www.rossmann.de/de/gesundheit/c/olcat1_5": {
+      "navText": "Gesundheit",
+      "title": "Produkte für Gesundheit online kaufen | rossmann.de",
+      "bodyChars": 27894,
+      "productLinks": 50,
+      "products": [
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6ImVmMWVmMWFhLWNkYmQtNGVjYy05OTllLWE4ZDI3ZWI1NTg1YyIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MjM4NjI5LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiMDRmYWFhNzUtNGU3ZS00OTMzLTk0MGMtY2Q4ODNmMmVjNjgxIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2Mjk2OTF9.FsPyZOOVGWM_yVr_r4mT_mZTpvU3nRy1Z4LETbiOZ1k%3D",
+          "text": "Stérimar Nasenhygiene Baby 2 in 1 Nasenspray Spülung"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6ImVmMWVmMWFhLWNkYmQtNGVjYy05OTllLWE4ZDI3ZWI1NTg1YyIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MjM4NjI5LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiMDRmYWFhNzUtNGU3ZS00OTMzLTk0MGMtY2Q4ODNmMmVjNjgxIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2Mjk2OTF9.FsPyZOOVGWM_yVr_r4mT_mZTpvU3nRy1Z4LETbiOZ1k%3D#GRP_ANWENDUNGGEBRAUCH",
+          "text": "Medizinprodukt"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6ImVmMWVmMWFhLWNkYmQtNGVjYy05OTllLWE4ZDI3ZWI1NTg1YyIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MjM4NjI5LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiMDRmYWFhNzUtNGU3ZS00OTMzLTk0MGMtY2Q4ODNmMmVjNjgxIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2Mjk2OTF9.FsPyZOOVGWM_yVr_r4mT_mZTpvU3nRy1Z4LETbiOZ1k%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/gesundheit-cb12-professionelle-performance-mundspuelung-minze/p/4262490430316?rm_tt=eyJhZF9pZCI6IjY2MWYzZmQxLWRjYTAtNGU5YS05NjUwLTdiY2Q1MmMzMTIzZCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MjYyNDkwNDMwMzE2IiwiaWF0IjoxNzg3MjM4NjI5LCJsaSI6IjE5ZWY0MTY2LWUxMTQtNDA3Ny1iMjQwLThiMjQwZTg5MDBmYyIsImFzIjoiMDRmYWFhNzUtNGU3ZS00OTMzLTk0MGMtY2Q4ODNmMmVjNjgxIiwiYmMiOjU5LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYyOTY5MX0%3D.s9TL7MuJI3ujYZKxTuK-KqwCBisjajEE3aw1sWiLmAA%3D",
+          "text": "CB12 Professionelle Performance Mundspülung Minze"
+        },
+        {
+          "href": "https://www.rossmann.de/de/gesundheit-facelle-diskret-vorteilspack-pants-super-gr-xl/p/2001234027649",
+          "text": "facelle diskret Vorteilspack Pants super Gr. XL"
+        },
+        {
+          "href": "https://www.rossmann.de/de/gesundheit-facelle-diskret-vorteilspack-pants-super-gr-xl/p/2001234027649#GRP_ANWENDUNGGEBRAUCH",
+          "text": "Medizinprodukt"
+        },
+        {
+          "href": "https://www.rossmann.de/de/gesundheit-oral-b-io-series-5n-elektrische-zahnbuerste-quite-white/p/4210201415060",
+          "text": "Oral-B iO Series 5N Elektrische Zahnbürste Quite White"
+        },
+        {
+          "href": "https://www.rossmann.de/de/gesundheit-oral-b-io-series-5n-elektrische-zahnbuerste-matt-black/p/4210201415107",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/gesundheit-oral-b-io-series-5n-elektrische-zahnbuerste-quite-white/p/4210201415060#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-oral-b-io-kids-6-elektrische-zahnbuerste-mit-reiseetui-stitch/p/8700216931663",
+          "text": ""
+        }
+      ],
+      "bodySample": "Filiale finden Anmelden 0 Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Startseite Gesundheit Ambulante Pflegehilfsmittel Corona Schnelltest Coronavirus Antikörpertest Einlegesohlen & Blasenpflaster Erotikartikel & Verhütungsmittel Frauengesundheit Hausapotheke Immunabwehr Kontaktlinsen Lesehilfen & Zubehör Mundschutz Nahrungsergänzungsmittel Selbsttest für zu Hause Vorteilspacks & Großpackungen Zahnpflege Gesundheits-Ratgeber Gesundheit Nächste Sortieren nach: Relevanz filter Kategorie filter Marke filter Empfohlene Filter filter Verfügbarkeit filter Bewertungen filter Geschlecht filter Produkteigenschaften filter Hauttyp filter Geschmacksrichtung filter Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung Gesponsert Stérimar Nasenhygiene Baby 2 in 1 Nasenspray Spülung 50 ml (1L = 119,80 €) Medizinprodukt Hinweise 5 . 99 € Artikelpreis 5,99 € Anzahl 1 CB12 - Professionelle Performance Mundspülung Minze Gesponsert 22 CB12 Professionelle Performance Mundspülung Minze 200 ml (1L = 34,95 €) 6 . 99 € Artikelpreis 6,99 € Anzahl 1 facelle diskret - Vorteilspack Pants super Gr. XL Nur Online 99 facelle diskret Vorteilspack Pants super Gr. XL 64 Stück (10Stück = 6,72 €) / 8x 8 Stück Medizinprodukt 42 . 99 € Artikelpreis 42,99 € Anzahl 1 Oral-B - iO Series 5N Elektrische Zahnbürste Quite White 2 525 Oral-B iO Series 5N Elekt",
+      "responses": [
+        {
+          "url": "https://www.rossmann.de/_next/static/media/4663c2f634602873-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/6255af9d8027245b-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/99abc2b22bbc27f4-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/f4a92fd12043357d-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/b78140843fdb7427.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/f5039924c29af953.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/6ccaf595a6924268.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/355e65eef1cd6ca8.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/webpack-c42f924b1a861f24.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/112-30bb14e805ee64a7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/5023-fedefede1a0d9159.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6897-f9f6e1114a850199.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/main-app-e4a03c4d5e949427.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8424-9c267d4196fc4719.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9771-79e48772818577e2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2868-1a0a2d80f4411307.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/1862-377e9e8e64afd026.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7135858d-028815645406bfe5.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4666-50d213c9aca49bb8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2937-789f4d81222bb6b2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6034-cfb211a0ecbd8855.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7004-2ec106c7accbbcbf.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9623-77afce8f9c856e17.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4492-37066e149affe4be.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2230-41b4b76f0525dea4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/layout-5444e83592fe6526.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/not-found-f478afc9ec62481c.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/error-03c04f5bd3821000.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9402-4b72d9b955c5c281.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2564-f35e5b5af13a694b.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6274-4ccf4701ea311799.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7733-a249feed6275efaa.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9744-e8a1b7f8fd9721ac.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.old.dfedc59f.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.new.ab97b869.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Bold.f4a92fd1.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/543-99510e1de6c7ac99.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.11fedc08.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Medium.4663c2f6.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8481.228fa9618da5efc2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/api/hybris-session",
+          "status": 200,
+          "contentType": "application/json"
+        },
+        {
+          "url": "https://www.rossmann.de/api/cart",
+          "status": 200,
+          "contentType": "application/json"
+        }
+      ]
+    },
+    "https://www.rossmann.de/de/lebensmittel/c/olcat1_4": {
+      "navText": "Lebensmittel",
+      "title": "Lebensmittel online bestellen | rossmann.de",
+      "bodyChars": 33313,
+      "productLinks": 35,
+      "products": [
+        {
+          "href": "https://www.rossmann.de/de/haushalt-brita-wasserfilter-kartuschen-maxtra-pro-extra-kalkschutz/p/4006387122188?rm_tt=eyJhZF9pZCI6ImFkYjJjMzYzLTcyNjItNDdhMy1hOWNkLTdjNGM4Mzg0ZDBhZSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA2Mzg3MTIyMTg4IiwiaWF0IjoxNzg3MjM4NjM3LCJsaSI6IjBlODM4YzQ4LTQ2MjItNGJiMC1hNTA4LTE1ODAxMjI2ZGVlNiIsImFzIjoiOWU1MDhkMjktOTY2OC00ZDAxLTkwODYtNTA0OThkYzAyMmUwIiwiYmMiOjU0LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYzNzM3M30%3D.EhfRMuWAs0r3OnkL8YpiJInSCIo0f7xLYn3kKgWjiCs%3D",
+          "text": "Brita Wasserfilter Kartuschen MAXTRA PRO Extra Kalkschutz"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-eat-natural-eat-natural-protein/p/8000500435700?rm_tt=eyJhZF9pZCI6IjdhYmJhMDU4LTY1YjktNGFhNC1iMGI3LWU5NzUwODgzMjJlOCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI4MDAwNTAwNDM1NzAwIiwiaWF0IjoxNzg3MjM4NjM3LCJsaSI6IjliODc2MjUzLWQyYzgtNDU4MS05YzJhLWMxOGM1M2I2MGVjOCIsImFzIjoiOWU1MDhkMjktOTY2OC00ZDAxLTkwODYtNTA0OThkYzAyMmUwIiwiYmMiOjUzLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODYzNzM3M30%3D.bLSScPY8atT_aQqduym6lHSJecrY5XMM9V0mSOJCXBc%3D",
+          "text": "Eat Natural Eat Natural Protein"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-lavazza-kaffee-crema-e-aroma-ganze-bohne/p/8000070025400",
+          "text": "Lavazza Kaffee Crema e Aroma ganze Bohne"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-lavazza-kaffee-crema-e-aroma-ganze-bohne/p/8000070025400#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-koro-erdbeerscheiben-gefriergetrocknet/p/4260335835791",
+          "text": "KoRo Erdbeerscheiben gefriergetrocknet"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-koro-soja-protein-crispies-60-/p/4260335837344",
+          "text": "KoRo Soja Protein Crispies 60 %"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-enerbio-barista-caffe-crema-ganze-bohnen/p/4068134079510",
+          "text": "enerBiO Barista Caffè Crema ganze Bohnen"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-dallmayr-crema-doro-ganze-bohnen/p/4008167152729",
+          "text": "Dallmayr Crema d'Oro Ganze Bohnen"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-dallmayr-crema-doro-ganze-bohnen/p/4008167152729#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-holy-hydration-15er-dose---blaue-himbeere/p/4255882901549",
+          "text": "HOLY Hydration 15er Dose - Blaue Himbeere"
+        }
+      ],
+      "bodySample": "Filiale finden Anmelden 0 Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Startseite Lebensmittel Brot & Brotaufstriche Cerealien Diät & Sportlernahrung Getränke Heißgetränke Kochen & Backen Spirituosen Süßigkeiten & Snacks Vorteilspacks & Großpackungen Wein & Schaumwein Ratgeber & Aktuelles Rezepte Lebensmittel online bestellen und Vorteile genießen Nächste Sortieren nach: Relevanz filter Kategorie filter Marke filter Empfohlene Filter filter Verfügbarkeit filter Produkteigenschaften filter Bewertungen filter Geschmacksrichtung filter Geschmacksprofil filter Herkunftsland filter Geschlecht filter Brita - Wasserfilter Kartuschen MAXTRA PRO Extra Kalkschutz Gesponsert 2 Brita Wasserfilter Kartuschen MAXTRA PRO Extra Kalkschutz 4 Stück (1Stück = 6,00 €) / 4 Stück 23 . 99 € Artikelpreis 23,99 € Anzahl 1 Eat Natural - Eat Natural Protein Gesponsert 0 Eat Natural Eat Natural Protein 40 g (1kg = 37,25 €) / 40g = 1 Riegel 1 . 49 € Artikelpreis 1,49 € Anzahl 1 Lavazza - Kaffee Crema e Aroma ganze Bohne 53 Lavazza Kaffee Crema e Aroma ganze Bohne 1.000 g (1kg = 19,99 €) Hinweise 19 . 99 € Artikelpreis 19,99 € Anzahl 1 KoRo - Erdbeerscheiben gefriergetrocknet Nur Online 9 KoRo Erdbeerscheiben gefriergetrocknet 350 g (1kg = 68,54 €) 23 . 99 € Artikelpreis 23,99 € Anzahl 1 KoRo - Soja Protein Crispies 60 % Nur Online 3 KoRo Soja Pr",
+      "responses": [
+        {
+          "url": "https://www.rossmann.de/_next/static/media/6255af9d8027245b-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/f4a92fd12043357d-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/355e65eef1cd6ca8.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/4663c2f634602873-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/99abc2b22bbc27f4-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/f5039924c29af953.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/6ccaf595a6924268.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/b78140843fdb7427.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/webpack-c42f924b1a861f24.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8424-9c267d4196fc4719.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2868-1a0a2d80f4411307.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4666-50d213c9aca49bb8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6897-f9f6e1114a850199.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/112-30bb14e805ee64a7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9771-79e48772818577e2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6034-cfb211a0ecbd8855.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/1862-377e9e8e64afd026.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/5023-fedefede1a0d9159.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7135858d-028815645406bfe5.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/main-app-e4a03c4d5e949427.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2230-41b4b76f0525dea4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/layout-5444e83592fe6526.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/not-found-f478afc9ec62481c.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2937-789f4d81222bb6b2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9623-77afce8f9c856e17.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7004-2ec106c7accbbcbf.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9402-4b72d9b955c5c281.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.new.ab97b869.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.old.dfedc59f.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Bold.f4a92fd1.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.11fedc08.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Medium.4663c2f6.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/543-99510e1de6c7ac99.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2564-f35e5b5af13a694b.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9744-e8a1b7f8fd9721ac.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4492-37066e149affe4be.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/error-03c04f5bd3821000.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6274-4ccf4701ea311799.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7733-a249feed6275efaa.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8481.228fa9618da5efc2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/api/hybris-session",
+          "status": 200,
+          "contentType": "application/json"
+        },
+        {
+          "url": "https://www.rossmann.de/api/cart",
+          "status": 200,
+          "contentType": "application/json"
+        }
+      ]
+    },
+    "https://www.rossmann.de/de/baby-und-kind/c/olcat1_2": {
+      "navText": "Baby & Spielzeug",
+      "title": "Babyartikel & Kinderartikel online kaufen | rossmann.de",
+      "bodyChars": 30696,
+      "productLinks": 64,
+      "products": [
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-nestle-cerelac-milch-getreidebrei-weizenhonig-ab-dem-12-monat/p/7616100756865?rm_tt=eyJhZF9pZCI6ImM4NjkwYjg3LTNhMTMtNDliZC04NWZiLWQ1OWRjY2UwZTlmMSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjE2MTAwNzU2ODY1IiwiaWF0IjoxNzg3MjM4NjQ0LCJsaSI6IjNjZDQyODg2LTdjZmUtNGViZC1hNzZlLTIzODFhNWY2NzE4NyIsImFzIjoiYWI0YzAzYTktZmE5YS00NGFhLTllZDMtOTg5Njg3Zjg2OTNjIiwiYmMiOjg3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODY0NDMxMH0%3D.G87dZ8tp7iEJ2MQ3pYR4DDh_VyNwv0F7HPQVwgAAY-w%3D",
+          "text": "Nestlé Cerelac Milch-Getreidebrei Weizen+Honig ab dem 12. Monat"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-nestle-cerelac-milch-getreidebrei-weizenhonig-ab-dem-12-monat/p/7616100756865?rm_tt=eyJhZF9pZCI6ImM4NjkwYjg3LTNhMTMtNDliZC04NWZiLWQ1OWRjY2UwZTlmMSIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI3NjE2MTAwNzU2ODY1IiwiaWF0IjoxNzg3MjM4NjQ0LCJsaSI6IjNjZDQyODg2LTdjZmUtNGViZC1hNzZlLTIzODFhNWY2NzE4NyIsImFzIjoiYWI0YzAzYTktZmE5YS00NGFhLTllZDMtOTg5Njg3Zjg2OTNjIiwiYmMiOjg3LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODY0NDMxMH0%3D.G87dZ8tp7iEJ2MQ3pYR4DDh_VyNwv0F7HPQVwgAAY-w%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6IjVlZDQ1Yjg5LTEyNjEtNDQxMy1iMDRjLTRhMjg4MjdiNzdlMiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MjM4NjQ0LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiYWI0YzAzYTktZmE5YS00NGFhLTllZDMtOTg5Njg3Zjg2OTNjIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2NDQzMTB9.HntAuhs1xcXvf4SZFROGp0rF67GP08kQiclzl-cvL4I%3D",
+          "text": "Stérimar Nasenhygiene Baby 2 in 1 Nasenspray Spülung"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6IjVlZDQ1Yjg5LTEyNjEtNDQxMy1iMDRjLTRhMjg4MjdiNzdlMiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MjM4NjQ0LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiYWI0YzAzYTktZmE5YS00NGFhLTllZDMtOTg5Njg3Zjg2OTNjIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2NDQzMTB9.HntAuhs1xcXvf4SZFROGp0rF67GP08kQiclzl-cvL4I%3D#GRP_ANWENDUNGGEBRAUCH",
+          "text": "Medizinprodukt"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-sterimar-nasenhygiene-baby-2-in-1-nasenspray-spuelung/p/5010724001356?rm_tt=eyJhZF9pZCI6IjVlZDQ1Yjg5LTEyNjEtNDQxMy1iMDRjLTRhMjg4MjdiNzdlMiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI1MDEwNzI0MDAxMzU2IiwiaWF0IjoxNzg3MjM4NjQ0LCJsaSI6ImNlZmYyMmEzLTYzYWMtNGJhNi04ZDk0LTUxOTIyOGU3MWFmMyIsImFzIjoiYWI0YzAzYTktZmE5YS00NGFhLTllZDMtOTg5Njg3Zjg2OTNjIiwiYmMiOjEwMCwiYnQiOjEsInBsIjoiM2M1OWUxYzYtYzM5Zi00YzZkLWJmMGItYmQzMzM3NjkyYTU1IiwiYXQiOjE3ODcyMzg2NDQzMTB9.HntAuhs1xcXvf4SZFROGp0rF67GP08kQiclzl-cvL4I%3D#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-babydream-extra-sensitiv-feuchttuecher-xxl-spar-pack-9600-stueck/p/4068134156723",
+          "text": "Babydream extra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-babydream-extra-sensitiv-feuchttuecher-xxl-spar-pack-9600-stueck/p/4068134156723#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-pampers-premium-protection-windeln-gr-2-mini-4-8-kg-monatsbox-240-stueck/p/8006540705544",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-pampers-premium-protection-windeln-gr-4-maxi-plus-10-15kg-monatsbox/p/8006530107129",
+          "text": ""
+        },
+        {
+          "href": "https://www.rossmann.de/de/baby-und-spielzeug-pampers-premium-protection-windeln-gr-7-extra-large-15kg-monatsbox/p/8700216418195",
+          "text": ""
+        }
+      ],
+      "bodySample": "Filiale finden Anmelden 0 Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Startseite Baby & Spielzeug Baby Erstausstattung Babymöbel & Kindermöbel Babynahrung Babypflege Babytextilien Babytragen Dreiräder & Laufräder Für Mamas Kindersicherungen Kindersitze Kinderwagen Schnuller, Fläschchen & Beißringe Spielzeug Stillzeit Vorteilspacks & Großpackungen Windeln & Wickeln babywelt - die Ratgeber babywelt - der Baby-Club Baby & Spielzeug Nächste Sortieren nach: Relevanz filter Kategorie filter Marke filter Empfohlene Filter filter Verfügbarkeit filter Bewertungen filter Produkteigenschaften filter Geschlecht filter Farbe filter Geschmacksrichtung filter Hauttyp filter Gewichtsbeschränkung filter Lichtschutzfaktor filter Haartyp filter Nestlé - Cerelac Milch-Getreidebrei Weizen+Honig ab dem 12. Monat Gesponsert 56 Nestlé Cerelac Milch-Getreidebrei Weizen+Honig ab dem 12. Monat 400 g (1kg = 9,98 €) Hinweise 3 . 99 € Artikelpreis 3,99 € Anzahl 1 Stérimar - Nasenhygiene Baby 2 in 1 Nasenspray Spülung Gesponsert Stérimar Nasenhygiene Baby 2 in 1 Nasenspray Spülung 50 ml (1L = 119,80 €) Medizinprodukt Hinweise 5 . 99 € Artikelpreis 5,99 € Anzahl 1 Babydream - extra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück 119 Babydream extra sensitiv Feuchttücher XXL Spar-Pack 960.0 Stück 12 Stück (10Stück = 7,24 €) / 12 x 80 Tücher Hinweis",
+      "responses": [
+        {
+          "url": "https://www.rossmann.de/_next/static/media/4663c2f634602873-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/6255af9d8027245b-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/99abc2b22bbc27f4-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/b78140843fdb7427.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/f4a92fd12043357d-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/f5039924c29af953.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/6ccaf595a6924268.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/355e65eef1cd6ca8.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/main-app-e4a03c4d5e949427.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8424-9c267d4196fc4719.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/webpack-c42f924b1a861f24.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7135858d-028815645406bfe5.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2868-1a0a2d80f4411307.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6897-f9f6e1114a850199.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4666-50d213c9aca49bb8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/112-30bb14e805ee64a7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9771-79e48772818577e2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/1862-377e9e8e64afd026.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/5023-fedefede1a0d9159.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6034-cfb211a0ecbd8855.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7004-2ec106c7accbbcbf.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9402-4b72d9b955c5c281.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9744-e8a1b7f8fd9721ac.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4492-37066e149affe4be.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2230-41b4b76f0525dea4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/layout-5444e83592fe6526.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/error-03c04f5bd3821000.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2937-789f4d81222bb6b2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9623-77afce8f9c856e17.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.new.ab97b869.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.old.dfedc59f.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Bold.f4a92fd1.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.11fedc08.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Medium.4663c2f6.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/543-99510e1de6c7ac99.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2564-f35e5b5af13a694b.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/not-found-f478afc9ec62481c.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6274-4ccf4701ea311799.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7733-a249feed6275efaa.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8481.228fa9618da5efc2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/api/hybris-session",
+          "status": 200,
+          "contentType": "application/json"
+        },
+        {
+          "url": "https://www.rossmann.de/api/cart",
+          "status": 200,
+          "contentType": "application/json"
+        }
+      ]
+    },
+    "https://www.rossmann.de/de/ernaehrung/c/olcat1_4": {
+      "navText": "Ernährung",
+      "title": "Lebensmittel online bestellen | rossmann.de",
+      "bodyChars": 33313,
+      "productLinks": 35,
+      "products": [
+        {
+          "href": "https://www.rossmann.de/de/haushalt-brita-wasserfilter-kartuschen-maxtra-pro-extra-kalkschutz/p/4006387122188?rm_tt=eyJhZF9pZCI6IjBkZjQyOGJkLWM5OGMtNGIxZS1iZDBiLWJhMzM3NGNhNWRjOCIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI0MDA2Mzg3MTIyMTg4IiwiaWF0IjoxNzg3MjM4NjUxLCJsaSI6IjBlODM4YzQ4LTQ2MjItNGJiMC1hNTA4LTE1ODAxMjI2ZGVlNiIsImFzIjoiMDI5YWRlOGItNzhhOS00MGYxLWFjNWEtOGQ4YTVhOTk2OTZiIiwiYmMiOjU0LCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODY1MTk2MH0%3D.mk0GYRKvbiiDkckWjzvm7SxM9i9yOoK0TMCJANoJDSc%3D",
+          "text": "Brita Wasserfilter Kartuschen MAXTRA PRO Extra Kalkschutz"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-eat-natural-eat-natural-protein/p/8000500435700?rm_tt=eyJhZF9pZCI6IjI0NzgyOGQxLWFhZTgtNDhlZC1iZjA4LTQ4Zjc4MTNkMzE0ZiIsInByb2plY3RfaWQiOiJkZGY0YzYyMy1iYTBkLTQ2ZjEtOThjMi03OWRhMjVkYmExNjYiLCJza3UiOiI4MDAwNTAwNDM1NzAwIiwiaWF0IjoxNzg3MjM4NjUxLCJsaSI6IjliODc2MjUzLWQyYzgtNDU4MS05YzJhLWMxOGM1M2I2MGVjOCIsImFzIjoiMDI5YWRlOGItNzhhOS00MGYxLWFjNWEtOGQ4YTVhOTk2OTZiIiwiYmMiOjUzLCJidCI6MSwicGwiOiIzYzU5ZTFjNi1jMzlmLTRjNmQtYmYwYi1iZDMzMzc2OTJhNTUiLCJhdCI6MTc4NzIzODY1MTk2MH0%3D.TEUIycbZgPzl2yBGcnVa2EK5REIrwwQ4nK49WbUrPtY%3D",
+          "text": "Eat Natural Eat Natural Protein"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-lavazza-kaffee-crema-e-aroma-ganze-bohne/p/8000070025400",
+          "text": "Lavazza Kaffee Crema e Aroma ganze Bohne"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-lavazza-kaffee-crema-e-aroma-ganze-bohne/p/8000070025400#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-koro-erdbeerscheiben-gefriergetrocknet/p/4260335835791",
+          "text": "KoRo Erdbeerscheiben gefriergetrocknet"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-koro-soja-protein-crispies-60-/p/4260335837344",
+          "text": "KoRo Soja Protein Crispies 60 %"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-enerbio-barista-caffe-crema-ganze-bohnen/p/4068134079510",
+          "text": "enerBiO Barista Caffè Crema ganze Bohnen"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-dallmayr-crema-doro-ganze-bohnen/p/4008167152729",
+          "text": "Dallmayr Crema d'Oro Ganze Bohnen"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-dallmayr-crema-doro-ganze-bohnen/p/4008167152729#GRP_WARNHINWEISE",
+          "text": "Hinweise"
+        },
+        {
+          "href": "https://www.rossmann.de/de/lebensmittel-holy-hydration-15er-dose---blaue-himbeere/p/4255882901549",
+          "text": "HOLY Hydration 15er Dose - Blaue Himbeere"
+        }
+      ],
+      "bodySample": "Filiale finden Anmelden 0 Neu IDEENWELT Make-Up Pflege & Duft Baby & Spielzeug Haushalt Tier Gesundheit Lebensmittel Marken Angebote Startseite Lebensmittel Brot & Brotaufstriche Cerealien Diät & Sportlernahrung Getränke Heißgetränke Kochen & Backen Spirituosen Süßigkeiten & Snacks Vorteilspacks & Großpackungen Wein & Schaumwein Ratgeber & Aktuelles Rezepte Lebensmittel online bestellen und Vorteile genießen Nächste Sortieren nach: Relevanz filter Kategorie filter Marke filter Empfohlene Filter filter Verfügbarkeit filter Produkteigenschaften filter Bewertungen filter Geschmacksrichtung filter Geschmacksprofil filter Herkunftsland filter Geschlecht filter Brita - Wasserfilter Kartuschen MAXTRA PRO Extra Kalkschutz Gesponsert 2 Brita Wasserfilter Kartuschen MAXTRA PRO Extra Kalkschutz 4 Stück (1Stück = 6,00 €) / 4 Stück 23 . 99 € Artikelpreis 23,99 € Anzahl 1 Eat Natural - Eat Natural Protein Gesponsert 0 Eat Natural Eat Natural Protein 40 g (1kg = 37,25 €) / 40g = 1 Riegel 1 . 49 € Artikelpreis 1,49 € Anzahl 1 Lavazza - Kaffee Crema e Aroma ganze Bohne 53 Lavazza Kaffee Crema e Aroma ganze Bohne 1.000 g (1kg = 19,99 €) Hinweise 19 . 99 € Artikelpreis 19,99 € Anzahl 1 KoRo - Erdbeerscheiben gefriergetrocknet Nur Online 9 KoRo Erdbeerscheiben gefriergetrocknet 350 g (1kg = 68,54 €) 23 . 99 € Artikelpreis 23,99 € Anzahl 1 KoRo - Soja Protein Crispies 60 % Nur Online 3 KoRo Soja Pr",
+      "responses": [
+        {
+          "url": "https://www.rossmann.de/_next/static/media/6255af9d8027245b-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/99abc2b22bbc27f4-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/f4a92fd12043357d-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/6ccaf595a6924268.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/355e65eef1cd6ca8.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/f5039924c29af953.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/css/b78140843fdb7427.css",
+          "status": 200,
+          "contentType": "text/css; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/4663c2f634602873-s.p.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2868-1a0a2d80f4411307.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6034-cfb211a0ecbd8855.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8424-9c267d4196fc4719.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/webpack-c42f924b1a861f24.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/112-30bb14e805ee64a7.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9771-79e48772818577e2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4666-50d213c9aca49bb8.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/main-app-e4a03c4d5e949427.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/1862-377e9e8e64afd026.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7135858d-028815645406bfe5.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2230-41b4b76f0525dea4.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/c/%5BcategoryCode%5D/page-5fd64fd4bbbc845d.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.old.dfedc59f.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Medium.4663c2f6.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/4492-37066e149affe4be.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2564-f35e5b5af13a694b.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/not-found-f478afc9ec62481c.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9402-4b72d9b955c5c281.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9623-77afce8f9c856e17.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/error-03c04f5bd3821000.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/543-99510e1de6c7ac99.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/2937-789f4d81222bb6b2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6274-4ccf4701ea311799.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/9744-e8a1b7f8fd9721ac.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/6897-f9f6e1114a850199.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7733-a249feed6275efaa.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/app/%5Blocale%5D/(shop)/layout-5444e83592fe6526.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/7004-2ec106c7accbbcbf.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/5023-fedefede1a0d9159.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.new.ab97b869.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/ROSSMANNSans-Bold.f4a92fd1.woff2",
+          "status": 200,
+          "contentType": "font/woff2"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/media/icomoon.11fedc08.woff",
+          "status": 200,
+          "contentType": "font/woff"
+        },
+        {
+          "url": "https://www.rossmann.de/_next/static/chunks/8481.228fa9618da5efc2.js",
+          "status": 200,
+          "contentType": "application/javascript; charset=UTF-8"
+        },
+        {
+          "url": "https://www.rossmann.de/api/hybris-session",
+          "status": 200,
+          "contentType": "application/json"
+        },
+        {
+          "url": "https://www.rossmann.de/api/cart",
+          "status": 200,
+          "contentType": "application/json"
         }
       ]
     }
-  }
+  },
+  "navigation": [
+    {
+      "text": "ROSSMANN IDEENWELT",
+      "href": "https://www.rossmann.de/de/ideenwelt/c/olcat1_8686696"
+    },
+    {
+      "text": "Make-Up",
+      "href": "https://www.rossmann.de/de/make-up/c/olcat1_1"
+    },
+    {
+      "text": "Pflege & Duft",
+      "href": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_2325036"
+    },
+    {
+      "text": "Baby & Spielzeug",
+      "href": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2"
+    },
+    {
+      "text": "Haushalt",
+      "href": "https://www.rossmann.de/de/haushalt/c/olcat1_3"
+    },
+    {
+      "text": "Tier",
+      "href": "https://www.rossmann.de/de/tier/c/olcat1_k_5190857"
+    },
+    {
+      "text": "Gesundheit",
+      "href": "https://www.rossmann.de/de/gesundheit/c/olcat1_5"
+    },
+    {
+      "text": "Lebensmittel",
+      "href": "https://www.rossmann.de/de/lebensmittel/c/olcat1_4"
+    },
+    {
+      "text": "Marken",
+      "href": "https://www.rossmann.de/de/Marken/c/brands"
+    },
+    {
+      "text": "Jetzt entdecken",
+      "href": "https://www.rossmann.de/de/alle-marken/alterra/c/online-dachmarke_4455045#LimitedEdition"
+    },
+    {
+      "text": "Jetzt entdecken",
+      "href": "https://www.rossmann.de/de/alle-marken/oral-b/c/online-dachmarke_4455567#aktion-tonies"
+    },
+    {
+      "text": "Zu den Produkten",
+      "href": "https://www.rossmann.de/de/alle-marken/mcobeauty/c/online-dachmarke_53808538"
+    },
+    {
+      "text": "Jetzt entdecken",
+      "href": "https://www.rossmann.de/de/alle-marken/rival-loves-me/c/online-dachmarke_5860876#SignatureGlam"
+    },
+    {
+      "text": "Korean Skincare",
+      "href": "https://www.rossmann.de/de/pflege-und-duft/koreanische-kosmetik/c/olcat2_56525523"
+    },
+    {
+      "text": "Proteinprodukte",
+      "href": "https://www.rossmann.de/de/lebensmittel/diaet-und-sportlernahrung/c/olcat2_6569952"
+    },
+    {
+      "text": "Sommerfüße",
+      "href": "https://www.rossmann.de/de/pflege-und-duft/fusspflege/c/olcat2_6076408"
+    },
+    {
+      "text": "Neue Lieblingsstücke Kleine Akzente, schönes Zuhause",
+      "href": "https://www.rossmann.de/de/alle-marken/dekowelt/c/online-dachmarke_6298547#Neuheiten"
+    },
+    {
+      "text": "Immer an deiner Seite... Mit maximaler Vielfalt für jedes Abenteuer",
+      "href": "https://www.rossmann.de/de/alle-marken/babydream/c/online-dachmarke_4455064#Windelvielfalt"
+    },
+    {
+      "text": "Swim Essentials Sommer-Basics mit einzigartigen Designs",
+      "href": "https://www.rossmann.de/de/alle-marken/swim-essentials/c/online-dachmarke_55062001"
+    },
+    {
+      "text": "Menstruationstassen",
+      "href": "https://www.rossmann.de/de/pflege-und-duft/hygiene/menstruationstassen/c/olcat3_6076476"
+    },
+    {
+      "text": "Miniju",
+      "href": "https://www.rossmann.de/de/alle-marken/miniju/c/online-dachmarke_12846357"
+    },
+    {
+      "text": "NYX",
+      "href": "https://www.rossmann.de/de/alle-marken/nyx-professional-makeup/c/online-dachmarke_12822302"
+    },
+    {
+      "text": "e.l.f. Cosmetics",
+      "href": "https://www.rossmann.de/de/alle-marken/elf-cosmetics/c/online-dachmarke_13603142"
+    },
+    {
+      "text": "Periodenunterwäsche",
+      "href": "https://www.rossmann.de/de/pflege-und-duft/hygiene/periodenunterwaesche/c/olcat3_8577899"
+    },
+    {
+      "text": "Ideenwelt",
+      "href": "https://www.rossmann.de/de/marken/ideenwelt/c/online-dachmarke_4455374"
+    },
+    {
+      "text": "Baby & Spielzeug",
+      "href": "https://www.rossmann.de/de/baby-und-kind/c/olcat1_2"
+    },
+    {
+      "text": "Ernährung",
+      "href": "https://www.rossmann.de/de/ernaehrung/c/olcat1_4"
+    },
+    {
+      "text": "Marken",
+      "href": "https://www.rossmann.de/de/marken/c/brands"
+    }
+  ],
+  "apiHints": [
+    {
+      "chunk": "https://www.rossmann.de/_next/static/chunks/6034-cfb211a0ecbd8855.js",
+      "hints": [
+        "https://nextjs.org/docs/messages/next-dynamic-api-wrong-context",
+        "https://nextjs.org/docs/canary/app/api-reference/functions/after",
+        "https://nextjs.org/docs/app/api-reference/functions/unstable_cache"
+      ]
+    },
+    {
+      "chunk": "https://www.rossmann.de/_next/static/chunks/4666-50d213c9aca49bb8.js",
+      "hints": [
+        "https://nextjs.org/docs/app/api-reference/functions/use-search-params#updating-searchparams"
+      ]
+    },
+    {
+      "chunk": "https://www.rossmann.de/_next/static/chunks/5023-fedefede1a0d9159.js",
+      "hints": [
+        "http://localhost:3000/api/auth"
+      ]
+    }
+  ]
 }
