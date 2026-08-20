@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T05:55:18.132Z",
-  "testedCommit": "c625c4e7b92ea67beb233a3ce2111561021c3c46",
-  "runId": "32337272984",
+  "generatedAt": "2026-08-20T06:18:11.621Z",
+  "testedCommit": "b264e2990ad7bae89208f04e1202f48b1c7b8c09",
+  "runId": "32338880059",
   "runAttempt": "1",
   "outcomes": {
     "preTests": "success",
@@ -14,9 +14,9 @@
     "marketGuard": "success",
     "priceHistory": "success",
     "postTests": "success",
-    "frontendE2E": "success",
+    "frontendE2E": "failure",
     "diagnostics": "success",
-    "releaseGate": "success"
+    "releaseGate": "failure"
   },
   "diagnostics": {
     "configuredSources": 12,
@@ -27,9 +27,9 @@
     "noData": 1,
     "errors": 0,
     "skipped": 0,
-    "offerCount": 1356,
-    "liveGeneratedAt": "2026-08-20T05:55:13.796Z",
+    "offerCount": 1357,
+    "liveGeneratedAt": "2026-08-20T06:18:09.096Z",
     "liveDataCurrent": true
   },
-  "status": "passed"
+  "status": "failed"
 }
