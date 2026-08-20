@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-20T05:55:13.222Z",
-  "before": 447,
-  "after": 376,
-  "rejected": 71,
-  "repaired": 623,
+  "generatedAt": "2026-08-20T08:39:48.399Z",
+  "before": 461,
+  "after": 392,
+  "rejected": 69,
+  "repaired": 636,
   "rejectedReasons": {
-    "quantity_as_name": 23,
-    "navigation_or_ui": 14,
+    "quantity_as_name": 22,
     "name_length": 16,
+    "navigation_or_ui": 13,
     "invalid_unit": 4,
     "invalid_price": 6,
     "duplicate": 4,
@@ -17,21 +17,21 @@
   "storeBefore": {
     "ALDI SÜD": 67,
     "PENNY": 140,
-    "ROSSMANN": 59,
-    "MÜLLER": 24,
-    "EDEKA": 39,
-    "dm": 97,
-    "REWE": 20,
+    "ROSSMANN": 60,
+    "EDEKA": 40,
+    "MÜLLER": 23,
+    "dm": 100,
+    "REWE": 30,
     "Lidl": 1
   },
   "storeAfter": {
     "ALDI SÜD": 61,
-    "EDEKA": 39,
+    "EDEKA": 40,
     "PENNY": 109,
     "MÜLLER": 20,
-    "dm": 86,
-    "ROSSMANN": 40,
-    "REWE": 20,
+    "dm": 89,
+    "ROSSMANN": 42,
+    "REWE": 30,
     "Lidl": 1
   },
   "rejectedExamples": [
@@ -117,11 +117,6 @@
     },
     {
       "store": "ROSSMANN",
-      "name": "50 ml (1L = 299,80 €) / ca. 25 Anwendungen",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
       "name": "64 Stück (10Stück = 2,19 €)",
       "reason": "quantity_as_name"
     },
@@ -134,11 +129,6 @@
       "store": "ROSSMANN",
       "name": "94 Stück (10Stück = 3,83 €)",
       "reason": "quantity_as_name"
-    },
-    {
-      "store": "MÜLLER",
-      "name": "ab 3,95 €\nOnline verfügbar\nIn die Filiale lieferbar\nElvital Shampoo Glycolic Gloss Spiegelglanz\n3,99 € / 300 ml\n13,30 € / 1 l\nOnline verfügb",
-      "reason": "navigation_or_ui"
     },
     {
       "store": "PENNY",
@@ -184,24 +174,34 @@
       "store": "PENNY",
       "name": "Angebotspreis 1.75€\n1.75",
       "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.79€\n1.79",
+      "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.89€\n1.89",
+      "reason": "name_length"
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-20T05:55:13.305Z",
-    "before": 376,
-    "after": 193,
-    "rejected": 183,
-    "repaired": 110,
+    "generatedAt": "2026-08-20T08:39:48.487Z",
+    "before": 392,
+    "after": 194,
+    "rejected": 198,
+    "repaired": 112,
     "rejectedReasons": {
       "name": 6,
-      "ui": 32,
+      "ui": 35,
       "produce_unit": 1,
       "price": 1,
       "concatenated_offer": 9,
       "unit_high": 1,
-      "duplicate": 39,
-      "size_duplicate": 40,
-      "semantic_duplicate": 51
+      "duplicate": 40,
+      "size_duplicate": 41,
+      "semantic_duplicate": 61
     },
     "rejectedExamples": [
       {
@@ -237,6 +237,21 @@
       {
         "store": "PENNY",
         "name": "Diese Woche",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
+        "reason": "ui"
+      },
+      {
+        "store": "dm",
+        "name": "dm-Markt wählen",
         "reason": "ui"
       },
       {
@@ -438,33 +453,18 @@
         "store": "ROSSMANN",
         "name": "Services in Ihrer FilialeGeschenkgutscheineRossmann FotoservicePrepaidkartenRücknahmegarantieTeppichreiniger-VerleihGratis WLANRücknahme Ele",
         "reason": "name"
-      },
-      {
-        "store": "MÜLLER",
-        "name": "Sicher einkaufen",
-        "reason": "unit_high"
-      },
-      {
-        "store": "PENNY",
-        "name": "ZESPRI SunGold Kiwi Gold* je 3er-Schale Angebotspreis 2.49€ 2.49 Aktion PINK LADY Rote Äpfel* je 1-kg-Packun",
-        "reason": "concatenated_offer"
-      },
-      {
-        "store": "ALDI SÜD",
-        "name": "Zum Inhalt springen Aktuelle Filiale45475, Mülheim an der RuhrFilialauswahlWähle deine Filiale aus, um die verfügbaren Produkte zu entdecken",
-        "reason": "name"
       }
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-20T05:55:13.367Z",
-    "before": 193,
-    "after": 163,
-    "rejected": 30,
+    "generatedAt": "2026-08-20T08:39:48.558Z",
+    "before": 194,
+    "after": 166,
+    "rejected": 28,
     "repaired": 6,
     "reasons": {
-      "not_food": 19,
-      "nonfood": 11
+      "not_food": 18,
+      "nonfood": 10
     },
     "rejectedExamples": [
       {
@@ -477,12 +477,6 @@
         "store": "MÜLLER",
         "name": "BEAUTY OF JOSEON Relief Sun Rice + Probiotics LSF50+",
         "cleaned": "BEAUTY OF JOSEON Relief Sun Rice + Probiotics LSF50+",
-        "reason": "not_food"
-      },
-      {
-        "store": "dm",
-        "name": "Bewertung",
-        "cleaned": "Bewertung",
         "reason": "not_food"
       },
       {
@@ -556,12 +550,6 @@
         "name": "Mivolis Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel)",
         "cleaned": "Mivolis Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel",
         "reason": "not_food"
-      },
-      {
-        "store": "ROSSMANN",
-        "name": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
-        "cleaned": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
-        "reason": "nonfood"
       },
       {
         "store": "ALDI SÜD",
@@ -650,9 +638,9 @@
     ]
   },
   "semanticPass": {
-    "at": "2026-08-20T05:55:13.450Z",
-    "before": 163,
-    "after": 163,
+    "at": "2026-08-20T08:39:48.651Z",
+    "before": 166,
+    "after": 166,
     "repaired": 0,
     "normalizer": "product-normalizer-v1"
   }
