@@ -1,0 +1,66 @@
+name: Konkrete Produktsichtbarkeit reparieren
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-product-visibility.yml'
+      - 'scripts/fix-product-visibility.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fix-product-visibility
+  cancel-in-progress: true
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Aktuellen Milchbestand auditieren
+        run: |
+          mkdir -p docs
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const live=JSON.parse(fs.readFileSync('data/offers-live.json','utf8'));
+          const rows=(live.offers||[]).filter(o=>o.semanticType==='Milch'||o.canonicalGroup==='Milch'||o.bundleKey==='Milch'||o.key==='Milch');
+          const concrete=o=>o.canonicalProductId||o.exactMatchKey||`${o.canonicalProduct||o.name}|${o.size||''}`;
+          const bundles=new Set(rows.map(o=>o.bundleKey||o.key||o.canonicalGroup||o.canonicalProduct||o.name));
+          const concreteIds=new Set(rows.map(concrete));
+          const names=[...new Set(rows.map(o=>o.name).filter(Boolean))];
+          const stores=[...new Set(rows.map(o=>o.store).filter(Boolean))];
+          const report={generatedAt:new Date().toISOString(),liveGeneratedAt:live.generatedAt||null,milkRows:rows.length,bundleGroups:bundles.size,concreteProducts:concreteIds.size,uniqueNames:names.length,stores,examples:names.slice(0,40)};
+          fs.writeFileSync('docs/milk-visibility-audit.json',JSON.stringify(report,null,2)+'\n');
+          console.log(report);
+          NODE
+
+      - name: Konkrete Produktdarstellung patchen
+        run: node scripts/fix-product-visibility.mjs
+
+      - name: Abhängigkeiten installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+
+      - name: Gesamte Test-Suite
+        working-directory: importer
+        run: npm test
+
+      - name: Ergebnis committen
+        run: |
+          git config user.name "AngebotsRadar Test Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html importer/frontend-smoke.test.js docs/milk-visibility-audit.json
+          if git diff --cached --quiet; then
+            echo "Keine Änderung nötig."
+            exit 0
+          fi
+          git commit -m "Konkrete Produkte in Suche und Filtern sichtbar machen"
+          git pull --rebase origin main
+          git push origin main
