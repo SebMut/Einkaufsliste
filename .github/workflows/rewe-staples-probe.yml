@@ -1,0 +1,53 @@
+name: REWE Grundlebensmittel Preisprobe
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'importer/rewe-staples-probe.js'
+      - 'data/staples.json'
+      - 'data/markets.json'
+      - '.github/workflows/rewe-staples-probe.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rewe-staples-probe
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: REWE-Märkte und Standortpreise prüfen
+        id: probe
+        working-directory: importer
+        shell: bash
+        run: |
+          set +e
+          node rewe-staples-probe.js
+          CODE=$?
+          echo "exit_code=$CODE" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Probe-Ergebnis veröffentlichen
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "AngebotsRadar REWE Probe"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/rewe-staples-probe.json 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "REWE-Preisprobe aktualisieren [skip ci]"
+          git pull --rebase origin main
+          git push origin main
+      - name: Probe bewerten
+        if: always()
+        run: test "${{ steps.probe.outputs.exit_code }}" = "0"
