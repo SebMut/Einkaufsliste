@@ -61,4 +61,4 @@ jobs:
           git pull --rebase origin main
           git push origin main
 
-# Trigger refresh: 2026-08-20
+# Manual sync trigger: 2026-08-20T22:00:00+02:00
