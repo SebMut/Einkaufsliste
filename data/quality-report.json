@@ -1,36 +1,37 @@
 {
-  "generatedAt": "2026-08-19T23:04:53.101Z",
-  "before": 449,
-  "after": 384,
-  "rejected": 65,
-  "repaired": 622,
+  "generatedAt": "2026-08-20T05:55:13.222Z",
+  "before": 447,
+  "after": 376,
+  "rejected": 71,
+  "repaired": 623,
   "rejectedReasons": {
     "quantity_as_name": 23,
-    "navigation_or_ui": 11,
+    "navigation_or_ui": 14,
     "name_length": 16,
+    "invalid_unit": 4,
     "invalid_price": 6,
     "duplicate": 4,
     "number_as_name": 3,
-    "invalid_unit": 2
+    "baseprice_as_name": 1
   },
   "storeBefore": {
     "ALDI SÜD": 67,
     "PENNY": 140,
     "ROSSMANN": 59,
-    "dm": 96,
+    "MÜLLER": 24,
     "EDEKA": 39,
-    "MÜLLER": 17,
-    "REWE": 30,
+    "dm": 97,
+    "REWE": 20,
     "Lidl": 1
   },
   "storeAfter": {
     "ALDI SÜD": 61,
     "EDEKA": 39,
     "PENNY": 109,
-    "MÜLLER": 17,
-    "dm": 85,
-    "ROSSMANN": 42,
-    "REWE": 30,
+    "MÜLLER": 20,
+    "dm": 86,
+    "ROSSMANN": 40,
+    "REWE": 20,
     "Lidl": 1
   },
   "rejectedExamples": [
@@ -51,17 +52,12 @@
     },
     {
       "store": "ROSSMANN",
-      "name": "138 Stück (100Stück = 38,88 €)",
+      "name": "132 Stück (100Stück = 51,48 €)",
       "reason": "quantity_as_name"
     },
     {
       "store": "ROSSMANN",
       "name": "144 Stück (100Stück = 41,63 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
-      "name": "148 Stück (100Stück = 36,15 €)",
       "reason": "quantity_as_name"
     },
     {
@@ -106,11 +102,6 @@
     },
     {
       "store": "ROSSMANN",
-      "name": "204 Stück (100Stück = 26,69 €)",
-      "reason": "quantity_as_name"
-    },
-    {
-      "store": "ROSSMANN",
       "name": "204 Stück (100Stück = 27,18 €)",
       "reason": "quantity_as_name"
     },
@@ -120,18 +111,33 @@
       "reason": "quantity_as_name"
     },
     {
-      "store": "ROSSMANN",
-      "name": "320 Stück (100Stück = 0,93 €) / 4x80 Tücher",
-      "reason": "quantity_as_name"
-    },
-    {
       "store": "PENNY",
       "name": "je 3er-Schale",
       "reason": "quantity_as_name"
     },
     {
-      "store": "dm",
-      "name": "Alle dm-Märkte",
+      "store": "ROSSMANN",
+      "name": "50 ml (1L = 299,80 €) / ca. 25 Anwendungen",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "64 Stück (10Stück = 2,19 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "80 Stück (10Stück = 1,75 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "ROSSMANN",
+      "name": "94 Stück (10Stück = 3,83 €)",
+      "reason": "quantity_as_name"
+    },
+    {
+      "store": "MÜLLER",
+      "name": "ab 3,95 €\nOnline verfügbar\nIn die Filiale lieferbar\nElvital Shampoo Glycolic Gloss Spiegelglanz\n3,99 € / 300 ml\n13,30 € / 1 l\nOnline verfügb",
       "reason": "navigation_or_ui"
     },
     {
@@ -178,19 +184,14 @@
       "store": "PENNY",
       "name": "Angebotspreis 1.75€\n1.75",
       "reason": "name_length"
-    },
-    {
-      "store": "PENNY",
-      "name": "Angebotspreis 1.79€\n1.79",
-      "reason": "name_length"
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-19T23:04:53.181Z",
-    "before": 384,
+    "generatedAt": "2026-08-20T05:55:13.305Z",
+    "before": 376,
     "after": 193,
-    "rejected": 191,
-    "repaired": 114,
+    "rejected": 183,
+    "repaired": 110,
     "rejectedReasons": {
       "name": 6,
       "ui": 32,
@@ -199,8 +200,8 @@
       "concatenated_offer": 9,
       "unit_high": 1,
       "duplicate": 39,
-      "size_duplicate": 38,
-      "semantic_duplicate": 61
+      "size_duplicate": 40,
+      "semantic_duplicate": 51
     },
     "rejectedExamples": [
       {
@@ -456,7 +457,7 @@
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-19T23:04:53.248Z",
+    "generatedAt": "2026-08-20T05:55:13.367Z",
     "before": 193,
     "after": 163,
     "rejected": 30,
@@ -470,6 +471,12 @@
         "store": "dm",
         "name": "AMORELIE Beckenbodentrainer Perifit Care App-gesteuert, Pink",
         "cleaned": "AMORELIE Beckenbodentrainer Perifit Care App-gesteuert, Pink",
+        "reason": "not_food"
+      },
+      {
+        "store": "MÜLLER",
+        "name": "BEAUTY OF JOSEON Relief Sun Rice + Probiotics LSF50+",
+        "cleaned": "BEAUTY OF JOSEON Relief Sun Rice + Probiotics LSF50+",
         "reason": "not_food"
       },
       {
@@ -612,12 +619,6 @@
       },
       {
         "store": "ROSSMANN",
-        "name": "Supreme Junior Kindergetränk am dem 1. Geburtstag",
-        "cleaned": "Supreme Junior Kindergetränk am dem 1. Geburtstag",
-        "reason": "not_food"
-      },
-      {
-        "store": "ROSSMANN",
         "name": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
         "cleaned": "Verkäufer der über den Onlineshop der Dirk Rossmann GmbH erwerbbaren Produkte ist die Dirk Rossmann GmbH.",
         "reason": "not_food"
@@ -649,7 +650,7 @@
     ]
   },
   "semanticPass": {
-    "at": "2026-08-19T23:04:53.325Z",
+    "at": "2026-08-20T05:55:13.450Z",
     "before": 163,
     "after": 163,
     "repaired": 0,

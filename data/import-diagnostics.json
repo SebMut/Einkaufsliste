@@ -1,30 +1,30 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-19T23:04:57.906Z",
+  "generatedAt": "2026-08-20T05:55:18.040Z",
   "run": {
-    "id": "32311500437",
+    "id": "32337272984",
     "attempt": "1",
     "event": "schedule",
-    "sha": "6e35318e3a3c5a4f84f6eda69a21ef284e4258af",
+    "sha": "c625c4e7b92ea67beb233a3ce2111561021c3c46",
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 0,
-    "status": "completed",
-    "startedAt": "2026-08-19T23:02:51.205Z",
-    "finishedAt": "2026-08-19T23:04:15.311Z",
-    "durationMs": 84106
+    "status": "partial",
+    "startedAt": "2026-08-20T05:53:00.903Z",
+    "finishedAt": "2026-08-20T05:54:25.043Z",
+    "durationMs": 84140
   },
   "summary": {
     "configuredSources": 12,
-    "ok": 12,
+    "ok": 11,
     "loginRequired": 0,
     "credentialsMissing": 0,
     "authErrors": 0,
-    "noData": 0,
+    "noData": 1,
     "errors": 0,
     "skipped": 0,
-    "offerCount": 1364,
-    "liveGeneratedAt": "2026-08-19T23:04:53.658Z",
+    "offerCount": 1356,
+    "liveGeneratedAt": "2026-08-20T05:55:13.796Z",
     "liveDataCurrent": true
   },
   "sources": [
@@ -34,13 +34,13 @@
       "address": "Kapellenstraße 16b, 85622 Feldkirchen",
       "sourceUrl": "https://www.rewe.de/angebote/feldkirchen/461761/rewe-markt-kapellenstr-16b/",
       "scope": "market",
-      "status": "ok",
-      "count": 10,
-      "message": "10 qualitätsgeprüfte Angebote",
+      "status": "no_data",
+      "count": 0,
+      "message": "Reader erreichbar, aber 0 valide Angebote (291 Zeichen).",
       "transport": "reader",
-      "startedAt": "2026-08-19T23:02:52.928Z",
-      "finishedAt": "2026-08-19T23:02:59.425Z",
-      "durationMs": 6497
+      "startedAt": "2026-08-20T05:53:02.591Z",
+      "finishedAt": "2026-08-20T05:53:09.057Z",
+      "durationMs": 6466
     },
     {
       "store": "REWE",
@@ -49,12 +49,12 @@
       "sourceUrl": "https://www.rewe.de/angebote/aschheim-dornach/440674/rewe-markt-humboldtstr-2b/",
       "scope": "market",
       "status": "ok",
-      "count": 2,
-      "message": "2 qualitätsgeprüfte Angebote",
+      "count": 10,
+      "message": "10 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-19T23:02:59.427Z",
-      "finishedAt": "2026-08-19T23:03:05.633Z",
-      "durationMs": 6206
+      "startedAt": "2026-08-20T05:53:09.058Z",
+      "finishedAt": "2026-08-20T05:53:15.270Z",
+      "durationMs": 6212
     },
     {
       "store": "REWE",
@@ -66,9 +66,9 @@
       "count": 2,
       "message": "2 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-19T23:02:59.427Z",
-      "finishedAt": "2026-08-19T23:03:05.633Z",
-      "durationMs": 6206
+      "startedAt": "2026-08-20T05:53:09.058Z",
+      "finishedAt": "2026-08-20T05:53:15.270Z",
+      "durationMs": 6212
     },
     {
       "store": "EDEKA",
@@ -80,9 +80,9 @@
       "count": 11,
       "message": "11 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-19T23:03:11.801Z",
-      "finishedAt": "2026-08-19T23:03:18.025Z",
-      "durationMs": 6224
+      "startedAt": "2026-08-20T05:53:21.490Z",
+      "finishedAt": "2026-08-20T05:53:27.817Z",
+      "durationMs": 6327
     },
     {
       "store": "EDEKA",
@@ -94,9 +94,9 @@
       "count": 2,
       "message": "2 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-19T23:03:18.027Z",
-      "finishedAt": "2026-08-19T23:03:24.085Z",
-      "durationMs": 6058
+      "startedAt": "2026-08-20T05:53:27.819Z",
+      "finishedAt": "2026-08-20T05:53:33.939Z",
+      "durationMs": 6120
     },
     {
       "store": "EDEKA",
@@ -108,9 +108,9 @@
       "count": 1,
       "message": "1 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-19T23:03:24.087Z",
-      "finishedAt": "2026-08-19T23:03:30.223Z",
-      "durationMs": 6136
+      "startedAt": "2026-08-20T05:53:33.941Z",
+      "finishedAt": "2026-08-20T05:53:40.064Z",
+      "durationMs": 6123
     },
     {
       "store": "PENNY",
@@ -122,9 +122,9 @@
       "count": 52,
       "message": "52 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-19T23:03:30.225Z",
-      "finishedAt": "2026-08-19T23:03:38.227Z",
-      "durationMs": 8002
+      "startedAt": "2026-08-20T05:53:40.065Z",
+      "finishedAt": "2026-08-20T05:53:47.967Z",
+      "durationMs": 7902
     },
     {
       "store": "ALDI SÜD",
@@ -136,9 +136,9 @@
       "count": 27,
       "message": "27 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-19T23:03:38.229Z",
-      "finishedAt": "2026-08-19T23:03:46.021Z",
-      "durationMs": 7792
+      "startedAt": "2026-08-20T05:53:47.970Z",
+      "finishedAt": "2026-08-20T05:53:55.579Z",
+      "durationMs": 7609
     },
     {
       "store": "Lidl",
@@ -150,9 +150,9 @@
       "count": 1,
       "message": "1 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-19T23:03:46.023Z",
-      "finishedAt": "2026-08-19T23:03:53.637Z",
-      "durationMs": 7614
+      "startedAt": "2026-08-20T05:53:55.582Z",
+      "finishedAt": "2026-08-20T05:54:03.369Z",
+      "durationMs": 7787
     },
     {
       "store": "dm",
@@ -161,12 +161,12 @@
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "scope": "regional",
       "status": "ok",
-      "count": 29,
-      "message": "29 qualitätsgeprüfte Angebote",
+      "count": 30,
+      "message": "30 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-19T23:03:53.641Z",
-      "finishedAt": "2026-08-19T23:04:00.823Z",
-      "durationMs": 7182
+      "startedAt": "2026-08-20T05:54:03.371Z",
+      "finishedAt": "2026-08-20T05:54:10.696Z",
+      "durationMs": 7325
     },
     {
       "store": "ROSSMANN",
@@ -175,12 +175,12 @@
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "scope": "regional",
       "status": "ok",
-      "count": 17,
-      "message": "17 qualitätsgeprüfte Angebote",
+      "count": 18,
+      "message": "18 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-19T23:04:00.826Z",
-      "finishedAt": "2026-08-19T23:04:07.698Z",
-      "durationMs": 6872
+      "startedAt": "2026-08-20T05:54:10.698Z",
+      "finishedAt": "2026-08-20T05:54:17.410Z",
+      "durationMs": 6712
     },
     {
       "store": "MÜLLER",
@@ -192,9 +192,9 @@
       "count": 9,
       "message": "9 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-19T23:04:07.700Z",
-      "finishedAt": "2026-08-19T23:04:15.265Z",
-      "durationMs": 7565
+      "startedAt": "2026-08-20T05:54:17.412Z",
+      "finishedAt": "2026-08-20T05:54:24.982Z",
+      "durationMs": 7570
     }
   ],
   "lastLogLines": [
@@ -203,29 +203,29 @@
     "> node import.js",
     "",
     "Importiere REWE Feldkirchen ...",
-    "REWE: no_data, 0 (6496 ms)",
+    "REWE: no_data, 0 (6465 ms)",
     "Importiere REWE Aschheim-Dornach ...",
-    "REWE: no_data, 0 (6209 ms)",
+    "REWE: no_data, 0 (6212 ms)",
     "Importiere REWE Aschheim ...",
-    "REWE: no_data, 0 (6166 ms)",
+    "REWE: no_data, 0 (6220 ms)",
     "Importiere EDEKA Berghammer Feldkirchen ...",
-    "EDEKA: no_data, 0 (6227 ms)",
+    "EDEKA: no_data, 0 (6328 ms)",
     "Importiere EDEKA Pfeilstetter Kirchheim ...",
-    "EDEKA: no_data, 0 (6059 ms)",
+    "EDEKA: no_data, 0 (6123 ms)",
     "Importiere EDEKA Pfeilstetter Heimstetten ...",
-    "EDEKA: no_data, 0 (6137 ms)",
+    "EDEKA: no_data, 0 (6124 ms)",
     "Importiere PENNY Feldkirchen ...",
-    "PENNY: ok, 140 (8003 ms)",
+    "PENNY: ok, 140 (7901 ms)",
     "Importiere ALDI SÜD Aschheim ...",
-    "ALDI SÜD: ok, 67 (7795 ms)",
+    "ALDI SÜD: ok, 67 (7614 ms)",
     "Importiere Lidl Aschheim ...",
-    "Lidl: ok, 1 (7611 ms)",
+    "Lidl: ok, 1 (7790 ms)",
     "Importiere dm München-Riem Arcaden ...",
-    "dm: ok, 96 (7189 ms)",
+    "dm: ok, 97 (7327 ms)",
     "Importiere ROSSMANN Kirchheim-Heimstetten ...",
-    "ROSSMANN: ok, 59 (6873 ms)",
+    "ROSSMANN: ok, 59 (6714 ms)",
     "Importiere MÜLLER München-Riem Arcaden ...",
-    "MÜLLER: ok, 17 (7567 ms)",
-    "Fertig: 380 Live-Angebote aus 6/12 Quellen."
+    "MÜLLER: ok, 24 (7570 ms)",
+    "Fertig: 388 Live-Angebote aus 6/12 Quellen."
   ]
 }
