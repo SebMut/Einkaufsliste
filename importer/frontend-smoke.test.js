@@ -6,6 +6,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 
 const html=await fs.readFile(path.resolve(process.cwd(),'..','index.html'),'utf8');
+const live=JSON.parse(await fs.readFile(path.resolve(process.cwd(),'..','data','offers-live.json'),'utf8'));
 
 test('UI nennt keine alte 15-km-Logik mehr',()=>{
   assert.equal(/15[- ]?km|15-km-radius/i.test(html),false);
@@ -44,11 +45,19 @@ test('Inline-JavaScript ist syntaktisch gültig',async()=>{
   try{execFileSync(process.execPath,['--check',file],{stdio:'pipe'})}finally{await fs.unlink(file).catch(()=>{})}
 });
 
-
 test('Suche zeigt konkrete Produkte statt nur einer Bundle-Karte',()=>{
   assert.match(html,/concreteKeyOf=o=>o\.canonicalProductId\|\|o\.exactMatchKey/);
   assert.match(html,/const key=concreteKeyOf\(o\),bundleKey=keyOf\(o\)/);
   assert.match(html,/comparisonPool=offers\.filter\(eligible\)\.filter\(o=>keyOf\(o\)===g\.bundleKey\)/);
-  assert.match(html,/data-add=\\"\$\{encodeURIComponent\(p\.g\.bundleKey\)\}/);
+  assert.ok(html.includes('data-add="${encodeURIComponent(p.g.bundleKey)}"'));
   assert.equal(/lastResult\.length} Produktgruppen/.test(html),false);
+});
+
+test('Live-Daten enthalten mehrere konkrete Milchprodukte',()=>{
+  const rows=(live.offers||[]).filter(o=>o.semanticType==='Milch'||o.canonicalGroup==='Milch'||o.bundleKey==='Milch'||o.key==='Milch');
+  const ids=new Set(rows.map(o=>o.canonicalProductId||o.exactMatchKey||`${o.canonicalProduct||o.name}|${o.size||''}`));
+  const names=new Set(rows.map(o=>o.name).filter(Boolean));
+  console.log(`# Milch-Audit: ${rows.length} Datensaetze, ${ids.size} konkrete Produkte, ${names.size} Produktnamen`);
+  assert.ok(rows.length>1,`Nur ${rows.length} Milch-Datensatz vorhanden`);
+  assert.ok(ids.size>1,`Nur ${ids.size} konkretes Milchprodukt vorhanden`);
 });
