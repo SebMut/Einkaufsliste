@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "title": "Unsere Grundlebensmittel",
-  "updatedAt": "2026-08-20T13:52:00+02:00",
+  "updatedAt": "2026-08-20T14:07:00+02:00",
   "description": "Persönliche Standardprodukte. Konkrete Markenprodukte werden streng gematcht; allgemeine Gruppen werden nur dann verglichen, wenn sie wirklich als direkte Alternativen taugen. Die Liste wird gemeinsam weiter verfeinert.",
   "items": [
     {
@@ -96,7 +96,7 @@
       "mode": "group",
       "semanticGroups": ["Eier"],
       "requiredAny": ["eier", "hühnereier", "huehnereier"],
-      "excludedAny": ["schoko eier", "schokoeier", "überraschungsei", "ueberraschungsei"],
+      "excludedAny": ["eierwaffeln", "schoko eier", "schokoeier", "überraschungsei", "ueberraschungsei"],
       "bioPreferred": true,
       "icon": "🥚",
       "active": true
@@ -115,7 +115,8 @@
       "name": "Quark",
       "mode": "group",
       "semanticGroups": ["Quark"],
-      "requiredAny": ["quark", "speisequark"],
+      "requiredAny": ["quark", "speisequark", "quarkcreme"],
+      "excludedAny": ["quarkbällchen", "quarkbaellchen", "quarktasche"],
       "icon": "🥣",
       "active": true
     },
@@ -143,7 +144,7 @@
       "name": "Reis",
       "mode": "group",
       "semanticGroups": ["Reis"],
-      "requiredAny": ["reis", "basmati", "jasminreis"],
+      "requiredAny": ["reis", "basmati", "basmatireis", "jasminreis"],
       "excludedAny": ["milchreis", "reiswaffel", "reisdrink", "hundeleckerli", "hundefutter", "katzenfutter", "tierfutter", "ergänzungsfuttermittel", "erganzungsfuttermittel"],
       "icon": "🍚",
       "active": true
