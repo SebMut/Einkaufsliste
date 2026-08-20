@@ -1,6 +1,6 @@
 {
-  "schema": 2,
-  "generatedAt": "2026-08-20T13:40:25.650Z",
+  "schema": 3,
+  "generatedAt": "2026-08-20T13:43:28.419Z",
   "rewe": {
     "*": {
       "status": 200,
@@ -11,8 +11,8 @@
       "objectsPerPage": 250,
       "sample": [
         "Salatgurke 1 Stück",
-        "WC Frisch Kraft-Aktiv Hawaii 50g",
         "WC Frisch Kraft-Aktiv Frische Brise 50g",
+        "WC Frisch Kraft-Aktiv Hawaii 50g",
         "Lauchzwiebeln im Bund",
         "WC Frisch WC Reiniger Gel Kraft Aktiv Ozeanfrische 750ml"
       ]
@@ -26,10 +26,10 @@
       "objectsPerPage": 250,
       "sample": [
         "Berchtesgadener Land Haltbare Bergbauern-Milch 1,5% 1l",
-        "yfood Trinkmahlzeit Fruity Mango 500ml",
         "yfood Trinkmahlzeit Classic Choco 500ml",
+        "Danone Actimel Kids Erdbeere Banane 8x100g",
         "Rottaler H-Vollmilch 3.5% 0,2l",
-        "Danone Actimel Kids Erdbeere Banane 8x100g"
+        "Danone Actimel Drink Erdbeere 8x100g"
       ]
     },
     "brot": {
@@ -57,21 +57,439 @@
       "sample": [
         "HYDR8 Elektrolyt-Getränk Zitrone-Limette 6x0,5l",
         "Lipton Sensations Pink Ice Tea Peach Paradise 6x1l",
-        "Lipton Ice Tea Pfirsich Zero Zucker 6x1,25l",
+        "Lipton Ice Tea Zitrone Zero Zucker 6x1,25l",
         "Hydr8 Zitrone-Limette Elektrolyt-Getränk 0,5l",
-        "Lipton Ice Tea Zitrone Zero Zucker 6x1,25l"
+        "Lipton Ice Tea Pfirsich Zero Zucker 6x1,25l"
       ]
     }
   },
   "dm": {
-    "starPage0": {
+    "paginationCandidates": {
+      "page1": {
+        "status": 200,
+        "ok": true,
+        "products": 48,
+        "count": 21055,
+        "currentPage": 0,
+        "pageSize": 48,
+        "totalPages": 21,
+        "firstDan": 1292653,
+        "lastDan": 1491795,
+        "firstProduct": {
+          "gtin": 4066447912111,
+          "dan": 1292653,
+          "brandName": "Soft&Sicher",
+          "title": "Taschentücher Box Design, 100 St",
+          "tileData": {
+            "dan": 1292653,
+            "gtin": 4066447912111,
+            "self": "/p/d/1292653/soft-und-sicher-taschentuecher-box-design",
+            "brand": {
+              "name": "Soft&Sicher"
+            },
+            "price": {
+              "price": {
+                "current": {
+                  "value": "0,95 €"
+                }
+              },
+              "prefix": "Einzelpreis",
+              "tileInfos": [
+                "100 St (0,95 € je 100 St)"
+              ]
+            },
+            "title": {
+              "tileHeadline": "Taschentücher Box Design, 100 St"
+            },
+            "images": [
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713011/assets/pas/images/c66324ef-b5d1-4b50-9deb-908606825b88/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F5F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713123/assets/pas/images/fc03c53f-396e-4f0a-a56b-89b0be3285d6/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F2F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713139/assets/pas/images/fa276953-019c-4dc5-9a70-b2b9f5744298/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F2F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713158/assets/pas/images/ac233825-f733-4821-b087-f4e4204ef073/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F4F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713250/assets/pas/images/85506325-af92-4336-9543-fd11c923832e/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F4F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713268/assets/pas/images/97c5edae-35c7-49ec-8322-153c49b64324/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F3F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713338/assets/pas/images/3c5a2d97-efbd-4c40-8a14-79946c3daf05/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F6F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713364/assets/pas/images/ea3cc1e0-456f-49f9-9575-75c2d09f6a17/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F2F1"
+              }
+            ],
+            "infoHint": {
+              "text": "Hinweise"
+            },
+            "netPrice": {
+              "price": {
+                "current": {
+                  "value": "0,80 €"
+                }
+              },
+              "prefix": "Einzelpreis",
+              "tileInfos": [
+                "100 St (0,80 € je 100 St)"
+              ]
+            },
+            "a11yLabel": "Marke: Soft&Sicher; Produktname: Taschentücher Box Design, 100 St; Preis: 0,95 €; Grundpreis: 100 St (0,95 € je 100 St); Marke von dm Grafik",
+            "isPharmacy": false,
+            "eyecatchers": [
+              {
+                "alt": "Marke von dm Grafik",
+                "src": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_150/v1782977607/assets/mp/highlight-graphics/media_highlight_graphic_dm_brand_de_de/media_highlight_graphic_dm_brand_de_de"
+              }
+            ],
+            "trackingData": {
+              "brand": "Soft&Sicher",
+              "price": 0.95,
+              "currency": "EUR",
+              "categories": [
+                "Taschentücher"
+              ],
+              "isPharmacy": false
+            }
+          },
+          "context": {
+            "rating": {
+              "ratingValue": 4.1937,
+              "ratingCount": 573
+            }
+          }
+        }
+      },
+      "page2": {
+        "status": 200,
+        "ok": true,
+        "products": 48,
+        "count": 21055,
+        "currentPage": 0,
+        "pageSize": 48,
+        "totalPages": 21,
+        "firstDan": 1292653,
+        "lastDan": 1491795,
+        "firstProduct": {
+          "gtin": 4066447912111,
+          "dan": 1292653,
+          "brandName": "Soft&Sicher",
+          "title": "Taschentücher Box Design, 100 St",
+          "tileData": {
+            "dan": 1292653,
+            "gtin": 4066447912111,
+            "self": "/p/d/1292653/soft-und-sicher-taschentuecher-box-design",
+            "brand": {
+              "name": "Soft&Sicher"
+            },
+            "price": {
+              "price": {
+                "current": {
+                  "value": "0,95 €"
+                }
+              },
+              "prefix": "Einzelpreis",
+              "tileInfos": [
+                "100 St (0,95 € je 100 St)"
+              ]
+            },
+            "title": {
+              "tileHeadline": "Taschentücher Box Design, 100 St"
+            },
+            "images": [
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713011/assets/pas/images/c66324ef-b5d1-4b50-9deb-908606825b88/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F5F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713123/assets/pas/images/fc03c53f-396e-4f0a-a56b-89b0be3285d6/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F2F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713139/assets/pas/images/fa276953-019c-4dc5-9a70-b2b9f5744298/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F2F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713158/assets/pas/images/ac233825-f733-4821-b087-f4e4204ef073/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F4F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713250/assets/pas/images/85506325-af92-4336-9543-fd11c923832e/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F4F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713268/assets/pas/images/97c5edae-35c7-49ec-8322-153c49b64324/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F3F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713338/assets/pas/images/3c5a2d97-efbd-4c40-8a14-79946c3daf05/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F6F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713364/assets/pas/images/ea3cc1e0-456f-49f9-9575-75c2d09f6a17/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F2F1"
+              }
+            ],
+            "infoHint": {
+              "text": "Hinweise"
+            },
+            "netPrice": {
+              "price": {
+                "current": {
+                  "value": "0,80 €"
+                }
+              },
+              "prefix": "Einzelpreis",
+              "tileInfos": [
+                "100 St (0,80 € je 100 St)"
+              ]
+            },
+            "a11yLabel": "Marke: Soft&Sicher; Produktname: Taschentücher Box Design, 100 St; Preis: 0,95 €; Grundpreis: 100 St (0,95 € je 100 St); Marke von dm Grafik",
+            "isPharmacy": false,
+            "eyecatchers": [
+              {
+                "alt": "Marke von dm Grafik",
+                "src": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_150/v1782977607/assets/mp/highlight-graphics/media_highlight_graphic_dm_brand_de_de/media_highlight_graphic_dm_brand_de_de"
+              }
+            ],
+            "trackingData": {
+              "brand": "Soft&Sicher",
+              "price": 0.95,
+              "currency": "EUR",
+              "categories": [
+                "Taschentücher"
+              ],
+              "isPharmacy": false
+            }
+          },
+          "context": {
+            "rating": {
+              "ratingValue": 4.1937,
+              "ratingCount": 573
+            }
+          }
+        }
+      },
+      "pageNumber1": {
+        "status": 429,
+        "ok": false,
+        "products": 0,
+        "count": null,
+        "currentPage": null,
+        "pageSize": null,
+        "totalPages": null,
+        "firstDan": null,
+        "lastDan": null,
+        "firstProduct": null
+      },
+      "currentPage1": {
+        "status": 429,
+        "ok": false,
+        "products": 0,
+        "count": null,
+        "currentPage": null,
+        "pageSize": null,
+        "totalPages": null,
+        "firstDan": null,
+        "lastDan": null,
+        "firstProduct": null
+      },
+      "offset48": {
+        "status": 200,
+        "ok": true,
+        "products": 48,
+        "count": 21055,
+        "currentPage": 0,
+        "pageSize": 48,
+        "totalPages": 21,
+        "firstDan": 1292653,
+        "lastDan": 1491795,
+        "firstProduct": {
+          "gtin": 4066447912111,
+          "dan": 1292653,
+          "brandName": "Soft&Sicher",
+          "title": "Taschentücher Box Design, 100 St",
+          "tileData": {
+            "dan": 1292653,
+            "gtin": 4066447912111,
+            "self": "/p/d/1292653/soft-und-sicher-taschentuecher-box-design",
+            "brand": {
+              "name": "Soft&Sicher"
+            },
+            "price": {
+              "price": {
+                "current": {
+                  "value": "0,95 €"
+                }
+              },
+              "prefix": "Einzelpreis",
+              "tileInfos": [
+                "100 St (0,95 € je 100 St)"
+              ]
+            },
+            "title": {
+              "tileHeadline": "Taschentücher Box Design, 100 St"
+            },
+            "images": [
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713011/assets/pas/images/c66324ef-b5d1-4b50-9deb-908606825b88/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F5F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713123/assets/pas/images/fc03c53f-396e-4f0a-a56b-89b0be3285d6/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F2F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713139/assets/pas/images/fa276953-019c-4dc5-9a70-b2b9f5744298/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F2F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713158/assets/pas/images/ac233825-f733-4821-b087-f4e4204ef073/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F4F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713250/assets/pas/images/85506325-af92-4336-9543-fd11c923832e/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F4F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713268/assets/pas/images/97c5edae-35c7-49ec-8322-153c49b64324/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F3F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713338/assets/pas/images/3c5a2d97-efbd-4c40-8a14-79946c3daf05/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F6F1"
+              },
+              {
+                "alt": "Taschentücher Box Design Soft&Sicher",
+                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713364/assets/pas/images/ea3cc1e0-456f-49f9-9575-75c2d09f6a17/soft-und-sicher-taschentuecher-box-design",
+                "isAiGenerated": false,
+                "backgroundColor": "#F9F2F1"
+              }
+            ],
+            "infoHint": {
+              "text": "Hinweise"
+            },
+            "netPrice": {
+              "price": {
+                "current": {
+                  "value": "0,80 €"
+                }
+              },
+              "prefix": "Einzelpreis",
+              "tileInfos": [
+                "100 St (0,80 € je 100 St)"
+              ]
+            },
+            "a11yLabel": "Marke: Soft&Sicher; Produktname: Taschentücher Box Design, 100 St; Preis: 0,95 €; Grundpreis: 100 St (0,95 € je 100 St); Marke von dm Grafik",
+            "isPharmacy": false,
+            "eyecatchers": [
+              {
+                "alt": "Marke von dm Grafik",
+                "src": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_150/v1782977607/assets/mp/highlight-graphics/media_highlight_graphic_dm_brand_de_de/media_highlight_graphic_dm_brand_de_de"
+              }
+            ],
+            "trackingData": {
+              "brand": "Soft&Sicher",
+              "price": 0.95,
+              "currency": "EUR",
+              "categories": [
+                "Taschentücher"
+              ],
+              "isPharmacy": false
+            }
+          },
+          "context": {
+            "rating": {
+              "ratingValue": 4.1937,
+              "ratingCount": 573
+            }
+          }
+        }
+      },
+      "start48": {
+        "status": 429,
+        "ok": false,
+        "products": 0,
+        "count": null,
+        "currentPage": null,
+        "pageSize": null,
+        "totalPages": null,
+        "firstDan": null,
+        "lastDan": null,
+        "firstProduct": null
+      }
+    },
+    "base": {
       "status": 200,
       "ok": true,
-      "products": 500,
+      "products": 48,
       "count": 21055,
       "currentPage": 0,
-      "pageSize": 500,
-      "totalPages": 2,
+      "pageSize": 48,
+      "totalPages": 21,
+      "firstDan": 1292653,
+      "lastDan": 1491795,
       "firstProduct": {
         "gtin": 4066447912111,
         "dan": 1292653,
@@ -187,621 +605,6 @@
           }
         }
       }
-    },
-    "starPage1": {
-      "status": 200,
-      "ok": true,
-      "products": 500,
-      "count": 21055,
-      "currentPage": 0,
-      "pageSize": 500,
-      "totalPages": 2,
-      "firstProduct": {
-        "gtin": 4066447912111,
-        "dan": 1292653,
-        "brandName": "Soft&Sicher",
-        "title": "Taschentücher Box Design, 100 St",
-        "tileData": {
-          "dan": 1292653,
-          "gtin": 4066447912111,
-          "self": "/p/d/1292653/soft-und-sicher-taschentuecher-box-design",
-          "brand": {
-            "name": "Soft&Sicher"
-          },
-          "price": {
-            "price": {
-              "current": {
-                "value": "0,95 €"
-              }
-            },
-            "prefix": "Einzelpreis",
-            "tileInfos": [
-              "100 St (0,95 € je 100 St)"
-            ]
-          },
-          "title": {
-            "tileHeadline": "Taschentücher Box Design, 100 St"
-          },
-          "images": [
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713011/assets/pas/images/c66324ef-b5d1-4b50-9deb-908606825b88/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F5F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713123/assets/pas/images/fc03c53f-396e-4f0a-a56b-89b0be3285d6/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F2F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713139/assets/pas/images/fa276953-019c-4dc5-9a70-b2b9f5744298/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F2F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713158/assets/pas/images/ac233825-f733-4821-b087-f4e4204ef073/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F4F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713250/assets/pas/images/85506325-af92-4336-9543-fd11c923832e/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F4F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713268/assets/pas/images/97c5edae-35c7-49ec-8322-153c49b64324/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F3F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713338/assets/pas/images/3c5a2d97-efbd-4c40-8a14-79946c3daf05/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F6F1"
-            },
-            {
-              "alt": "Taschentücher Box Design Soft&Sicher",
-              "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784713364/assets/pas/images/ea3cc1e0-456f-49f9-9575-75c2d09f6a17/soft-und-sicher-taschentuecher-box-design",
-              "isAiGenerated": false,
-              "backgroundColor": "#F9F2F1"
-            }
-          ],
-          "infoHint": {
-            "text": "Hinweise"
-          },
-          "netPrice": {
-            "price": {
-              "current": {
-                "value": "0,80 €"
-              }
-            },
-            "prefix": "Einzelpreis",
-            "tileInfos": [
-              "100 St (0,80 € je 100 St)"
-            ]
-          },
-          "a11yLabel": "Marke: Soft&Sicher; Produktname: Taschentücher Box Design, 100 St; Preis: 0,95 €; Grundpreis: 100 St (0,95 € je 100 St); Marke von dm Grafik",
-          "isPharmacy": false,
-          "eyecatchers": [
-            {
-              "alt": "Marke von dm Grafik",
-              "src": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_150/v1782977607/assets/mp/highlight-graphics/media_highlight_graphic_dm_brand_de_de/media_highlight_graphic_dm_brand_de_de"
-            }
-          ],
-          "trackingData": {
-            "brand": "Soft&Sicher",
-            "price": 0.95,
-            "currency": "EUR",
-            "categories": [
-              "Taschentücher"
-            ],
-            "isPharmacy": false
-          }
-        },
-        "context": {
-          "rating": {
-            "ratingValue": 4.1937,
-            "ratingCount": 573
-          }
-        }
-      }
-    },
-    "milch": {
-      "status": 429,
-      "ok": false,
-      "products": 0,
-      "count": null,
-      "currentPage": null,
-      "pageSize": null,
-      "totalPages": null,
-      "sample": []
-    },
-    "lebensmittel": {
-      "status": 200,
-      "ok": true,
-      "products": 100,
-      "count": 1481,
-      "currentPage": 0,
-      "pageSize": 100,
-      "totalPages": 10,
-      "sample": [
-        {
-          "gtin": 4009077020559,
-          "dan": 1212391,
-          "brandName": "Kinder Em-eukal",
-          "title": "Bonbon, Wildkirsche für Kinder, zuckerfrei, 75 g",
-          "tileData": {
-            "a11yLabel": "Marke: Kinder Em-eukal; Produktname: Bonbon, Wildkirsche für Kinder, zuckerfrei, 75 g; Preis: 1,45 €; Grundpreis: 0,075 kg (19,33 € je 1 kg)",
-            "brand": {
-              "name": "Kinder Em-eukal"
-            },
-            "dan": 1212391,
-            "gtin": 4009077020559,
-            "images": [
-              {
-                "alt": "Bonbon, Wildkirsche für Kinder, zuckerfrei Kinder Em-eukal",
-                "backgroundColor": "#F9F4F1",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1755104921/assets/pas/images/4a216e35-8676-46d3-9471-2c9ecaffac92/kinder-em-eukal-bonbon-wildkirsche-fuer-kinder-zuckerfrei"
-              },
-              {
-                "alt": "Bonbon, Wildkirsche für Kinder, zuckerfrei Kinder Em-eukal",
-                "backgroundColor": "#F9F4F1",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747436149/assets/pas/images/3eaeb9db-f1d3-4918-90cb-20cf4ebbb829/kinder-em-eukal-bonbon-wildkirsche-fuer-kinder-zuckerfrei"
-              }
-            ],
-            "infoHint": {
-              "text": "Hinweise"
-            },
-            "isPharmacy": false,
-            "netPrice": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "1,36 €"
-                }
-              },
-              "tileInfos": [
-                "0,075 kg (18,07 € je 1 kg)"
-              ]
-            },
-            "price": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "1,45 €"
-                }
-              },
-              "tileInfos": [
-                "0,075 kg (19,33 € je 1 kg)"
-              ]
-            },
-            "self": "/p/d/1212391/kinder-em-eukal-bonbon-wildkirsche-fuer-kinder-zuckerfrei",
-            "title": {
-              "tileHeadline": "Bonbon, Wildkirsche für Kinder, zuckerfrei, 75 g"
-            },
-            "trackingData": {
-              "brand": "Kinder Em-eukal",
-              "categories": [
-                "Baby- & Kindergesundheit",
-                "Bonbons & Fruchtgummi"
-              ],
-              "currency": "EUR",
-              "isPharmacy": false,
-              "price": 1.45
-            }
-          },
-          "context": {
-            "rating": {
-              "ratingValue": 4.8933,
-              "ratingCount": 75
-            }
-          }
-        },
-        {
-          "gtin": 4009077020122,
-          "dan": 1212389,
-          "brandName": "Kinder Em-eukal",
-          "title": "Bonbon, Wildkirsche für Kinder, 75 g",
-          "tileData": {
-            "a11yLabel": "Marke: Kinder Em-eukal; Produktname: Bonbon, Wildkirsche für Kinder, 75 g; Preis: 1,25 €; Grundpreis: 0,075 kg (16,67 € je 1 kg)",
-            "brand": {
-              "name": "Kinder Em-eukal"
-            },
-            "dan": 1212389,
-            "gtin": 4009077020122,
-            "images": [
-              {
-                "alt": "Bonbon, Wildkirsche für Kinder Kinder Em-eukal",
-                "backgroundColor": "#F9F3F1",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1755101952/assets/pas/images/7a085d08-9348-43f2-bff2-0b83c5bb923d/kinder-em-eukal-bonbon-wildkirsche-fuer-kinder"
-              }
-            ],
-            "isPharmacy": false,
-            "netPrice": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "1,17 €"
-                }
-              },
-              "tileInfos": [
-                "0,075 kg (15,58 € je 1 kg)"
-              ]
-            },
-            "price": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "1,25 €"
-                }
-              },
-              "tileInfos": [
-                "0,075 kg (16,67 € je 1 kg)"
-              ]
-            },
-            "self": "/p/d/1212389/kinder-em-eukal-bonbon-wildkirsche-fuer-kinder",
-            "title": {
-              "tileHeadline": "Bonbon, Wildkirsche für Kinder, 75 g"
-            },
-            "trackingData": {
-              "brand": "Kinder Em-eukal",
-              "categories": [
-                "Baby- & Kindergesundheit",
-                "Bonbons & Fruchtgummi"
-              ],
-              "currency": "EUR",
-              "isPharmacy": false,
-              "price": 1.25
-            }
-          },
-          "context": {
-            "rating": {
-              "ratingValue": 4.9531,
-              "ratingCount": 64
-            }
-          }
-        },
-        {
-          "gtin": 4070765057522,
-          "dan": 3127080,
-          "brandName": "dmBio",
-          "title": "Chili con Tofu, 350 g",
-          "tileData": {
-            "a11yLabel": "Marke: dmBio; Produktname: Chili con Tofu, 350 g; Preis: 2,75 €; Grundpreis: 0,35 kg (7,86 € je 1 kg); Marke von dm Grafik",
-            "brand": {
-              "name": "dmBio"
-            },
-            "dan": 3127080,
-            "eyecatchers": [
-              {
-                "alt": "Marke von dm Grafik",
-                "src": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_150/v1782977607/assets/mp/highlight-graphics/media_highlight_graphic_dm_brand_de_de/media_highlight_graphic_dm_brand_de_de"
-              }
-            ],
-            "gtin": 4070765057522,
-            "images": [
-              {
-                "alt": "Chili con Tofu dmBio",
-                "backgroundColor": "#F9F5F1",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1781129196/assets/pas/images/d12fda67-7bc2-43f1-8a0b-248ec9a666de/dmbio-chili-con-tofu"
-              },
-              {
-                "alt": "Chili con Tofu dmBio",
-                "backgroundColor": "#F9F4F1",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1774739351/assets/pas/images/c6ae7478-b9f6-474b-92c9-37c5bcfcaa36/dmbio-chili-con-tofu"
-              },
-              {
-                "alt": "Chili con Tofu dmBio",
-                "backgroundColor": "#F9F3F1",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1781129190/assets/pas/images/8cf0e656-4966-4603-8d08-a2ecd3d14c2f/dmbio-chili-con-tofu"
-              }
-            ],
-            "infoHint": {
-              "text": "Hinweise"
-            },
-            "isPharmacy": false,
-            "netPrice": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "2,57 €"
-                }
-              },
-              "tileInfos": [
-                "0,35 kg (7,35 € je 1 kg)"
-              ]
-            },
-            "price": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "2,75 €"
-                }
-              },
-              "tileInfos": [
-                "0,35 kg (7,86 € je 1 kg)"
-              ]
-            },
-            "self": "/p/d/3127080/dmbio-chili-con-tofu",
-            "title": {
-              "tileHeadline": "Chili con Tofu, 350 g"
-            },
-            "trackingData": {
-              "brand": "dmBio",
-              "categories": [
-                "Schnelle Gerichte"
-              ],
-              "currency": "EUR",
-              "isPharmacy": false,
-              "price": 2.75
-            }
-          },
-          "context": {
-            "rating": {
-              "ratingValue": 4.4375,
-              "ratingCount": 48
-            }
-          }
-        }
-      ]
-    },
-    "baby": {
-      "status": 429,
-      "ok": false,
-      "products": 0,
-      "count": null,
-      "currentPage": null,
-      "pageSize": null,
-      "totalPages": null,
-      "sample": []
-    },
-    "haushalt": {
-      "status": 200,
-      "ok": true,
-      "products": 100,
-      "count": 579,
-      "currentPage": 0,
-      "pageSize": 100,
-      "totalPages": 6,
-      "sample": [
-        {
-          "gtin": 4070765024531,
-          "dan": 1374152,
-          "brandName": "Profissimo",
-          "title": "Haushaltshandschuhe Komfort (2 Paar), 4 St",
-          "tileData": {
-            "a11yLabel": "Marke: Profissimo; Produktname: Haushaltshandschuhe Komfort (2 Paar), 4 St; Preis: 1,75 €; Grundpreis: 2 St (0,88 € je 1 St); Marke von dm Grafik",
-            "brand": {
-              "name": "Profissimo"
-            },
-            "dan": 1374152,
-            "eyecatchers": [
-              {
-                "alt": "Marke von dm Grafik",
-                "src": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,w_150/v1782977607/assets/mp/highlight-graphics/media_highlight_graphic_dm_brand_de_de/media_highlight_graphic_dm_brand_de_de"
-              }
-            ],
-            "gtin": 4070765024531,
-            "images": [
-              {
-                "alt": "Haushaltshandschuhe Komfort (2 Paar) Profissimo",
-                "backgroundColor": "#F9F3F1",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1782086412/assets/pas/images/244573c7-1f03-4fb6-beb5-e6829941c5ec/profissimo-haushaltshandschuhe-komfort-2-paar"
-              },
-              {
-                "alt": "Haushaltshandschuhe Komfort (2 Paar) Profissimo",
-                "backgroundColor": "#F1F9F9",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1782086418/assets/pas/images/19d4ad7c-8145-48aa-9723-1d6633a22acc/profissimo-haushaltshandschuhe-komfort-2-paar"
-              },
-              {
-                "alt": "Haushaltshandschuhe Komfort (2 Paar) Profissimo",
-                "backgroundColor": "#F1F7F9",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1782086425/assets/pas/images/4fb93803-83cd-4374-a5b5-8c949dd6bbe6/profissimo-haushaltshandschuhe-komfort-2-paar"
-              }
-            ],
-            "isPharmacy": false,
-            "netPrice": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "1,47 €"
-                }
-              },
-              "tileInfos": [
-                "2 St (0,74 € je 1 St)"
-              ]
-            },
-            "price": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "1,75 €"
-                }
-              },
-              "tileInfos": [
-                "2 St (0,88 € je 1 St)"
-              ]
-            },
-            "self": "/p/d/1374152/profissimo-haushaltshandschuhe-komfort-2-paar",
-            "title": {
-              "tileHeadline": "Haushaltshandschuhe Komfort (2 Paar), 4 St"
-            },
-            "trackingData": {
-              "brand": "Profissimo",
-              "categories": [
-                "Haushaltshandschuhe"
-              ],
-              "currency": "EUR",
-              "isPharmacy": false,
-              "price": 1.75
-            }
-          },
-          "context": {
-            "rating": {
-              "ratingValue": 4.03,
-              "ratingCount": 100
-            }
-          }
-        },
-        {
-          "gtin": 4003387000898,
-          "dan": 3069763,
-          "brandName": "SURIG",
-          "title": "Essigreiniger Spray für Küche und Haushalt, 500 ml",
-          "tileData": {
-            "a11yLabel": "Marke: SURIG; Produktname: Essigreiniger Spray für Küche und Haushalt, 500 ml; Preis: 1,95 €; Grundpreis: 0,5 l (3,90 € je 1 l)",
-            "brand": {
-              "name": "SURIG"
-            },
-            "dan": 3069763,
-            "gtin": 4003387000898,
-            "images": [
-              {
-                "alt": "Essigreiniger Spray für Küche und Haushalt SURIG",
-                "backgroundColor": "#F9F4F1",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747431244/assets/pas/images/b838bf6e-1ca7-4b55-bc16-faf7ee1d81d5/surig-essigreiniger-spray-fuer-kueche-und-haushalt"
-              },
-              {
-                "alt": "Essigreiniger Spray für Küche und Haushalt SURIG",
-                "backgroundColor": "#F8F9F1",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747431259/assets/pas/images/0039a5d8-bd8c-4474-abad-60a20d00eced/surig-essigreiniger-spray-fuer-kueche-und-haushalt"
-              }
-            ],
-            "isPharmacy": false,
-            "netPrice": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "1,82 €"
-                }
-              },
-              "tileInfos": [
-                "0,5 l (3,64 € je 1 l)"
-              ]
-            },
-            "price": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "1,95 €"
-                }
-              },
-              "tileInfos": [
-                "0,5 l (3,90 € je 1 l)"
-              ]
-            },
-            "self": "/p/d/3069763/surig-essigreiniger-spray-fuer-kueche-und-haushalt",
-            "title": {
-              "tileHeadline": "Essigreiniger Spray für Küche und Haushalt, 500 ml"
-            },
-            "trackingData": {
-              "brand": "SURIG",
-              "categories": [
-                "Spezialreiniger"
-              ],
-              "currency": "EUR",
-              "isPharmacy": false,
-              "price": 1.95
-            }
-          },
-          "context": {
-            "rating": {
-              "ratingValue": 4.8333,
-              "ratingCount": 60
-            }
-          }
-        },
-        {
-          "gtin": 5060481022040,
-          "dan": 1524779,
-          "brandName": "Scrub Daddy",
-          "title": "Haushaltsschwamm Mommy, 1 St",
-          "tileData": {
-            "a11yLabel": "Marke: Scrub Daddy; Produktname: Haushaltsschwamm Mommy, 1 St; Preis: 3,95 €; Grundpreis: 1 St (3,95 € je 1 St)",
-            "brand": {
-              "name": "Scrub Daddy"
-            },
-            "dan": 1524779,
-            "gtin": 5060481022040,
-            "images": [
-              {
-                "alt": "Haushaltsschwamm Mommy Scrub Daddy",
-                "backgroundColor": "#F9F1F3",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747500157/assets/pas/images/47550d45-ba67-4507-8f4f-f6f1d1db8952/scrub-daddy-haushaltsschwamm-mommy"
-              },
-              {
-                "alt": "Haushaltsschwamm Mommy Scrub Daddy",
-                "backgroundColor": "#F9F7F1",
-                "isAiGenerated": false,
-                "tileSrc": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747499857/assets/pas/images/f2634db4-e738-412b-98b2-20b6559905fe/scrub-daddy-haushaltsschwamm-mommy"
-              }
-            ],
-            "infoHint": {
-              "text": "Hinweise"
-            },
-            "isPharmacy": false,
-            "netPrice": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "3,32 €"
-                }
-              },
-              "tileInfos": [
-                "1 St (3,32 € je 1 St)"
-              ]
-            },
-            "price": {
-              "prefix": "Einzelpreis",
-              "price": {
-                "current": {
-                  "value": "3,95 €"
-                }
-              },
-              "tileInfos": [
-                "1 St (3,95 € je 1 St)"
-              ]
-            },
-            "self": "/p/d/1524779/scrub-daddy-haushaltsschwamm-mommy",
-            "title": {
-              "tileHeadline": "Haushaltsschwamm Mommy, 1 St"
-            },
-            "trackingData": {
-              "brand": "Scrub Daddy",
-              "categories": [
-                "Putztücher, Schwämme & Co."
-              ],
-              "currency": "EUR",
-              "isPharmacy": false,
-              "price": 3.95
-            }
-          },
-          "context": {
-            "rating": {
-              "ratingValue": 4.4925,
-              "ratingCount": 67
-            }
-          }
-        }
-      ]
     }
   },
   "rossmann": {
@@ -817,20 +620,6 @@
         },
         {
           "pageIndex": 1,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
-        },
-        {
-          "pageIndex": 2,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
-        },
-        {
-          "pageIndex": 3,
           "status": 200,
           "bytes": 3038,
           "productLinks": 0,
@@ -854,20 +643,6 @@
           "bytes": 3038,
           "productLinks": 0,
           "sample": []
-        },
-        {
-          "pageIndex": 2,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
-        },
-        {
-          "pageIndex": 3,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
         }
       ]
     },
@@ -887,31 +662,52 @@
           "bytes": 3038,
           "productLinks": 0,
           "sample": []
-        },
-        {
-          "pageIndex": 2,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
-        },
-        {
-          "pageIndex": 3,
-          "status": 200,
-          "bytes": 3038,
-          "productLinks": 0,
-          "sample": []
         }
       ]
     }
   },
   "summary": {
     "reweStarTotal": 10000,
-    "reweStarFirstPage": 255,
-    "dmStarCount": 21055,
-    "dmStarTotalPages": 2,
-    "dmStarPage0": 500,
-    "dmStarPage1": 500,
-    "rossmannPagePotential": 0
+    "dmCount": 21055,
+    "dmPageSize": 48,
+    "dmTotalPages": 21,
+    "dmPagination": {
+      "page1": {
+        "currentPage": 0,
+        "firstDan": 1292653,
+        "lastDan": 1491795,
+        "status": 200
+      },
+      "page2": {
+        "currentPage": 0,
+        "firstDan": 1292653,
+        "lastDan": 1491795,
+        "status": 200
+      },
+      "pageNumber1": {
+        "currentPage": null,
+        "firstDan": null,
+        "lastDan": null,
+        "status": 429
+      },
+      "currentPage1": {
+        "currentPage": null,
+        "firstDan": null,
+        "lastDan": null,
+        "status": 429
+      },
+      "offset48": {
+        "currentPage": 0,
+        "firstDan": 1292653,
+        "lastDan": 1491795,
+        "status": 200
+      },
+      "start48": {
+        "currentPage": null,
+        "firstDan": null,
+        "lastDan": null,
+        "status": 429
+      }
+    }
   }
 }
