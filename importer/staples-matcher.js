@@ -7,7 +7,7 @@ const includesTerm=(text,term)=>{
 };
 const fieldText=o=>[
   o.name,o.brand,o.canonicalProduct,o.canonicalProductId,o.canonicalGroup,o.semanticType,
-  o.bundleKey,o.key,o.cat,o.category,o.size,o.description
+  o.bundleKey,o.key,o.cat,o.category,o.size,o.description,o.packaging
 ].filter(Boolean).join(' ');
 const semanticText=o=>[o.semanticType,o.canonicalGroup,o.bundleKey,o.key,o.canonicalProduct].filter(Boolean).join(' ');
 const categoryText=o=>[o.cat,o.category].filter(Boolean).join(' ');
@@ -17,7 +17,7 @@ const storeName=o=>o.market?`${o.store} · ${o.market}`:o.store;
 const num=v=>{const n=Number(v);return Number.isFinite(n)?n:null};
 
 export function matchStaple(staple,offer){
-  if(!staple||!offer||staple.active===false)return {matches:false,score:-Infinity,reasons:['inactive']};
+  if(!staple||!offer||staple.active===false||staple.needsDefinition===true)return {matches:false,score:-Infinity,reasons:['inactive-or-undefined']};
   const text=fieldText(offer),sem=semanticText(offer),cat=categoryText(offer),reasons=[];
   const excluded=(staple.excludedAny||[]).find(t=>includesTerm(text,t));
   if(excluded)return {matches:false,score:-Infinity,reasons:[`excluded:${excluded}`]};
@@ -34,6 +34,12 @@ export function matchStaple(staple,offer){
   const any=(staple.requiredAny||[]);
   if(any.length&&!any.some(t=>includesTerm(text,t)))return {matches:false,score:-Infinity,reasons:['required-any-missing']};
   if(any.length)reasons.push('required-any');
+  const anyGroups=Array.isArray(staple.requiredAnyGroups)?staple.requiredAnyGroups:[];
+  for(let i=0;i<anyGroups.length;i++){
+    const group=Array.isArray(anyGroups[i])?anyGroups[i]:[];
+    if(group.length&&!group.some(t=>includesTerm(text,t)))return {matches:false,score:-Infinity,reasons:[`required-group-${i+1}-missing`]};
+  }
+  if(anyGroups.length)reasons.push('required-any-groups');
   const groups=(staple.semanticGroups||[]);
   const groupMatch=groups.some(g=>includesTerm(sem,g)||fold(sem)===fold(g));
   const catTerms=(staple.categoryContains||[]);
@@ -47,6 +53,7 @@ export function matchStaple(staple,offer){
   if(groupMatch)score+=30;
   if(catMatch)score+=15;
   score+=all.length*8;
+  score+=anyGroups.length*10;
   if(any.length)score+=12;
   for(const t of staple.preferredAny||[])if(includesTerm(text,t))score+=4;
   if(staple.bioRequired&&isBio(offer))score+=10;
