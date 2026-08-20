@@ -1,6 +1,6 @@
 {
   "schema": 4,
-  "generatedAt": "2026-08-20T05:07:04.662Z",
+  "generatedAt": "2026-08-20T06:46:01.827Z",
   "retailer": "dm",
   "catalogStatus": "partial_catalog",
   "branches": [
@@ -20,7 +20,7 @@
       "isRiemArcaden": false
     }
   ],
-  "productCount": 230,
+  "productCount": 234,
   "sources": [
     {
       "category": "Haushalt",
@@ -28,28 +28,28 @@
       "status": "ok",
       "count": 47,
       "mode": "browser",
-      "htmlBytes": 488250,
-      "jsonResponses": 11,
+      "htmlBytes": 488467,
+      "jsonResponses": 12,
       "networkProducts": 0
     },
     {
       "category": "Körperpflege",
       "url": "https://www.dm.de/pflege-und-parfum",
       "status": "ok",
-      "count": 45,
+      "count": 44,
       "mode": "browser",
-      "htmlBytes": 498129,
-      "jsonResponses": 10,
+      "htmlBytes": 498720,
+      "jsonResponses": 11,
       "networkProducts": 0
     },
     {
       "category": "Haarpflege",
       "url": "https://www.dm.de/haare",
       "status": "ok",
-      "count": 43,
+      "count": 47,
       "mode": "browser",
-      "htmlBytes": 517034,
-      "jsonResponses": 9,
+      "htmlBytes": 538650,
+      "jsonResponses": 11,
       "networkProducts": 0
     },
     {
@@ -58,7 +58,7 @@
       "status": "ok",
       "count": 68,
       "mode": "browser",
-      "htmlBytes": 450623,
+      "htmlBytes": 450627,
       "jsonResponses": 8,
       "networkProducts": 0
     },
@@ -66,9 +66,9 @@
       "category": "Baby & Kleinkind",
       "url": "https://www.dm.de/baby-und-kind",
       "status": "ok",
-      "count": 67,
+      "count": 71,
       "mode": "browser",
-      "htmlBytes": 595605,
+      "htmlBytes": 616336,
       "jsonResponses": 11,
       "networkProducts": 0
     },
@@ -78,7 +78,7 @@
       "status": "ok",
       "count": 58,
       "mode": "browser",
-      "htmlBytes": 645180,
+      "htmlBytes": 644879,
       "jsonResponses": 11,
       "networkProducts": 0
     },
@@ -88,8 +88,8 @@
       "status": "ok",
       "count": 35,
       "mode": "browser",
-      "htmlBytes": 391904,
-      "jsonResponses": 10,
+      "htmlBytes": 393832,
+      "jsonResponses": 11,
       "networkProducts": 0
     }
   ],
@@ -159,7 +159,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: HEITMANN pure; Produktname: Reines Aktiv Natron Pulver, 400 g;",
@@ -226,7 +226,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: HEITMANN pure; Produktname: Zitronensäure Pulver, 350 g;",
@@ -293,7 +293,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Tempo; Produktname: Feuchtes Toilettenpapier Just 1 XL-Tuch, 56 St;",
@@ -360,7 +360,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Vakuumbeutel-Set, 3",
@@ -427,7 +427,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Denkmit; Produktname: Lufterfrischer Duftstecker Orchidee, 1 St;",
@@ -494,7 +494,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Hawaiian Tropic; Produktname: Sonnenschutz Travel Set 3tlg, 1 St;",
@@ -561,7 +561,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Punch; Produktname: Spülschwamm Zitrone, 1 St;",
@@ -628,7 +628,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Energizer; Produktname: Knopfzelle CR2032 Lithium Child Shield, 2 St;",
@@ -695,7 +695,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Ungezieferspray, 500 ml;",
@@ -762,7 +762,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Vanish Oxi Action; Produktname: Fleckenentferner Pulver Oxi Action Pink, 750 g;",
@@ -829,44 +829,44 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
-      "name": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine Sauerstoffbleiche, 400 g;",
-      "brand": "HEITMANN pure",
+      "name": "Marke: Denkmit; Produktname: Desinfektionstücher für Flächen, 40 St; Rechtliche Kategorie: Biozidprodukt;",
+      "brand": "Denkmit",
       "ean": null,
-      "size": "400 g",
-      "currentPrice": 3.25,
-      "regularPrice": 3.25,
+      "size": "40 St",
+      "currentPrice": 0.95,
+      "regularPrice": 0.95,
       "offerPrice": null,
       "isOffer": false,
-      "basePrice": 8.13,
-      "baseUnit": "€/kg",
-      "productUrl": "/p/d/3138994/heitmann-pure-bleichmittel-reine-sauerstoffbleiche",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1777938687/assets/pas/images/bd035403-4979-46a7-94db-22481767d2ba/heitmann-pure-bleichmittel-reine-sauerstoffbleiche",
+      "basePrice": 0.02,
+      "baseUnit": "€/Stk.",
+      "productUrl": "/p/d/3144762/denkmit-desinfektionstuecher-fuer-flaechen",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1785368907/assets/pas/images/00e84dd9-114e-45f5-bb52-c096b01ec4bd/denkmit-desinfektionstuecher-fuer-flaechen",
       "sourceUrl": "https://www.dm.de/haushalt",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "dm",
       "market": "Katalog",
       "cat": "Lebensmittel",
-      "price": 3.25,
-      "unit": 8.13,
-      "unitLabel": "€/kg",
+      "price": 0.95,
+      "unit": 0.02,
+      "unitLabel": "€/Stk.",
       "bio": false,
-      "originalName": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine Sauerstoffbleiche, 400 g;",
+      "originalName": "Marke: Denkmit; Produktname: Desinfektionstücher für Flächen, 40 St; Rechtliche Kategorie: Biozidprodukt;",
       "department": "Lebensmittel",
       "category": "Lebensmittel",
       "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S",
-      "canonicalProduct": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S",
-      "canonicalId": "marke-heitmann-pure-produktname-bleichmittel-reine-s-marke-heitmann-pure-produktname-bleichmittel-reine-s",
-      "bundleKey": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S",
-      "key": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S",
-      "similarityKey": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S|Marke: HEITMANN pure; Produktname: Bleichmittel Reine S",
-      "exactMatchKey": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S|Marke: HEITMANN pure; Produktname: Bleichmittel Reine S|label:heitmann-pure|size:400-g",
+      "canonicalGroup": "Marke: Denkmit; Produktname: Desinfektionstücher für Fl",
+      "canonicalProduct": "Marke: Denkmit; Produktname: Desinfektionstücher für Fl",
+      "canonicalId": "marke-denkmit-produktname-desinfektionstucher-fur-fl-marke-denkmit-produktname-desinfektionstucher-fur-fl",
+      "bundleKey": "Marke: Denkmit; Produktname: Desinfektionstücher für Fl",
+      "key": "Marke: Denkmit; Produktname: Desinfektionstücher für Fl",
+      "similarityKey": "Marke: Denkmit; Produktname: Desinfektionstücher für Fl|Marke: Denkmit; Produktname: Desinfektionstücher für Fl",
+      "exactMatchKey": "Marke: Denkmit; Produktname: Desinfektionstücher für Fl|Marke: Denkmit; Produktname: Desinfektionstücher für Fl|label:denkmit|size:40-st",
       "semanticType": null,
-      "semanticGroupId": "marke-heitmann-pure-produktname-bleichmittel-reine-s",
+      "semanticGroupId": "marke-denkmit-produktname-desinfektionstucher-fur-fl",
       "comparisonKey": null,
       "criticalAttributes": [],
       "useCase": "",
@@ -885,18 +885,18 @@
         "diaperForm": null,
         "detergentForm": null,
         "processing": null,
-        "packageCount": null,
+        "packageCount": 40,
         "form": null
       },
       "marketSection": "Lebensmittel",
       "confidence": 0.58,
       "icon": "🛒",
       "gtin": null,
-      "canonicalProductId": "heitmann-pure-marke-heitmann-pure-produktname-bleichmittel-reine-s-marke-heitmann-pure-produktname-bleichmittel-reine-s-400-g",
+      "canonicalProductId": "denkmit-marke-denkmit-produktname-desinfektionstucher-fur-fl-marke-denkmit-produktname-desinfektionstucher-fur-fl-40-st",
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Tempo; Produktname: Taschentücher Light Box XXL, 140 St;",
@@ -963,7 +963,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Verschlussklammern aus Edelstahl, 3 St;",
@@ -1030,7 +1030,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Denkmit; Produktname: Lufterfrischer Duftstecker Vanille, 1 St;",
@@ -1097,7 +1097,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Finish; Produktname: Spülmaschinen-Caps Ultimate Citrus, 49 St;",
@@ -1164,7 +1164,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Energizer; Produktname: Knopfzelle CR2025 Lithium Child Shield, 2 St;",
@@ -1231,7 +1231,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Nexa Lotte; Produktname: Mottenpapier, 6 St; Rechtliche Kategorie: Biozidprodukt;",
@@ -1298,7 +1298,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Vanish Oxi Action; Produktname: Fleckenentferner Pulver Oxi Action Weiß, 750 g;",
@@ -1365,44 +1365,44 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
-      "name": "Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Flower Nachfüllpack 1 St, 75 ml;",
-      "brand": "Denkmit",
+      "name": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine Sauerstoffbleiche, 400 g;",
+      "brand": "HEITMANN pure",
       "ean": null,
-      "size": "1 St",
-      "currentPrice": 1.65,
-      "regularPrice": 1.65,
+      "size": "400 g",
+      "currentPrice": 3.25,
+      "regularPrice": 3.25,
       "offerPrice": null,
       "isOffer": false,
-      "basePrice": 1.65,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3138202/denkmit-wc-reiniger-gel-stempel-flower-nachfuellpack-1-st",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1780786121/assets/pas/images/b110141b-2124-47bf-8647-4f48fd1beb57/denkmit-wc-reiniger-gel-stempel-flower-nachfuellpack-1-st",
+      "basePrice": 8.13,
+      "baseUnit": "€/kg",
+      "productUrl": "/p/d/3138994/heitmann-pure-bleichmittel-reine-sauerstoffbleiche",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1777938687/assets/pas/images/bd035403-4979-46a7-94db-22481767d2ba/heitmann-pure-bleichmittel-reine-sauerstoffbleiche",
       "sourceUrl": "https://www.dm.de/haushalt",
       "sourceType": "official_catalog",
       "sourceCategory": "Haushalt",
       "store": "dm",
       "market": "Katalog",
       "cat": "Lebensmittel",
-      "price": 1.65,
-      "unit": 1.65,
-      "unitLabel": "€/Stk.",
+      "price": 3.25,
+      "unit": 8.13,
+      "unitLabel": "€/kg",
       "bio": false,
-      "originalName": "Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Flower Nachfüllpack 1 St, 75 ml;",
+      "originalName": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine Sauerstoffbleiche, 400 g;",
       "department": "Lebensmittel",
       "category": "Lebensmittel",
       "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Fl",
-      "canonicalProduct": "Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Fl",
-      "canonicalId": "marke-denkmit-produktname-wc-reiniger-gel-stempel-fl-marke-denkmit-produktname-wc-reiniger-gel-stempel-fl",
-      "bundleKey": "Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Fl",
-      "key": "Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Fl",
-      "similarityKey": "Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Fl|Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Fl",
-      "exactMatchKey": "Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Fl|Marke: Denkmit; Produktname: WC-Reiniger Gel Stempel Fl|label:denkmit|size:1-st",
+      "canonicalGroup": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S",
+      "canonicalProduct": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S",
+      "canonicalId": "marke-heitmann-pure-produktname-bleichmittel-reine-s-marke-heitmann-pure-produktname-bleichmittel-reine-s",
+      "bundleKey": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S",
+      "key": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S",
+      "similarityKey": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S|Marke: HEITMANN pure; Produktname: Bleichmittel Reine S",
+      "exactMatchKey": "Marke: HEITMANN pure; Produktname: Bleichmittel Reine S|Marke: HEITMANN pure; Produktname: Bleichmittel Reine S|label:heitmann-pure|size:400-g",
       "semanticType": null,
-      "semanticGroupId": "marke-denkmit-produktname-wc-reiniger-gel-stempel-fl",
+      "semanticGroupId": "marke-heitmann-pure-produktname-bleichmittel-reine-s",
       "comparisonKey": null,
       "criticalAttributes": [],
       "useCase": "",
@@ -1419,20 +1419,20 @@
         "animal": null,
         "feedForm": null,
         "diaperForm": null,
-        "detergentForm": "Flüssig",
+        "detergentForm": null,
         "processing": null,
-        "packageCount": 1,
+        "packageCount": null,
         "form": null
       },
       "marketSection": "Lebensmittel",
       "confidence": 0.58,
       "icon": "🛒",
       "gtin": null,
-      "canonicalProductId": "denkmit-marke-denkmit-produktname-wc-reiniger-gel-stempel-fl-marke-denkmit-produktname-wc-reiniger-gel-stempel-fl-1-st",
+      "canonicalProductId": "heitmann-pure-marke-heitmann-pure-produktname-bleichmittel-reine-s-marke-heitmann-pure-produktname-bleichmittel-reine-s-400-g",
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Danke; Produktname: Küchenrolle Halbblatt 3-lagig (4x100 Blatt), 4 St;",
@@ -1499,7 +1499,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Sidolin; Produktname: Glasreiniger Kirschblüte, 500 ml;",
@@ -1566,7 +1566,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Domestos; Produktname: WC-Reiniger Gel Kraft & Frische Floral Fresh, 750 ml; Rechtliche Kategorie: Biozidprodukt;",
@@ -1633,7 +1633,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Einmalhandschuhe latexfrei schwarz Mittel, 60 St;",
@@ -1700,7 +1700,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Einmal-Handschuhe latexfrei weiß Mittel, 60 St;",
@@ -1767,7 +1767,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Lebensmittelmottenfallen, 2 St; Rechtliche Kategorie: Biozidprodukt;",
@@ -1834,7 +1834,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Fusselroller Nachfüllpack, 2 St;",
@@ -1901,7 +1901,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Sanft&Sicher; Produktname: Feuchtes Toilettenpapier Ultra Sensitiv (2x50 Stück), 100 St;",
@@ -1968,7 +1968,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Denkmit; Produktname: Colorwaschmittel Touch of Brazil, 30 Wl;",
@@ -2037,7 +2037,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Sanft&Sicher; Produktname: Feuchtes Toilettenpapier Zarte Pflege (3x50 St), 150 St;",
@@ -2104,7 +2104,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Kühne; Produktname: Essigreiniger Essenz zum Reinigen & Kochen, 0,4 l;",
@@ -2171,7 +2171,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Desinfektionstücher, 30 St; Rechtliche Kategorie: Biozidprodukt, Medizinprodukt;",
@@ -2238,7 +2238,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Profissimo; Produktname: Müllbeutel Recycling Schwerlastsack heavy duty 120L, 10 St;",
@@ -2305,7 +2305,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Gesponsert",
@@ -2372,7 +2372,7 @@
       "identitySource": "semantic_name",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Neu im Sortiment",
@@ -2439,7 +2439,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Estrid; Produktname: Rasierklingen Body, 4 St;",
@@ -2506,7 +2506,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: S-QUiTO free; Produktname: Insektenstichpflaster Soforthilfe, 30 St; Rechtliche Kategorie: Medizinprodukt;",
@@ -2573,7 +2573,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Balea; Produktname: Gesichtscreme Beauty Expert NMF Base, 125 ml;",
@@ -2640,7 +2640,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Balea; Produktname: Cleanser Gentle Mochi, korean skincare balea, 100 ml;",
@@ -2707,7 +2707,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: sebamed; Produktname: Duschgel Frische Dusche Allantoin, 400 ml;",
@@ -2774,7 +2774,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: SUNDANCE; Produktname: Sonncreme Gel MED ultra sensitiv, LSF 50+, 100 ml;",
@@ -2841,7 +2841,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: SHIRIN BEAUTY; Produktname: Body Milk Strawberry, 300 g;",
@@ -2908,7 +2908,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Multi-Gyn; Produktname: FloraBalance Vaginalgel gesunde Vaginalflora, 50 ml; Rechtliche Kategorie: Medizinprodukt;",
@@ -2975,7 +2975,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Jean&Len; Produktname: Flüssigseife Tutto Bene Coco/Vanilla, 250 ml;",
@@ -3042,7 +3042,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Old Spice; Produktname: Antitranspirant Deostick Cold Spice Clear Gel, 70 ml;",
@@ -3109,74 +3109,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: Compeed; Produktname: Blasenpflaster Medium, 4 St; Rechtliche Kategorie: Medizinprodukt;",
-      "brand": "Compeed",
-      "ean": null,
-      "size": "4 St",
-      "currentPrice": 4.95,
-      "regularPrice": 4.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 1.24,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3148872/compeed-blasenpflaster-medium",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1782891947/assets/pas/images/ea871814-9130-441e-8741-d25e3e7a5498/compeed-blasenpflaster-medium",
-      "sourceUrl": "https://www.dm.de/pflege-und-parfum",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Körperpflege",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 4.95,
-      "unit": 1.24,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Compeed; Produktname: Blasenpflaster Medium, 4 St; Rechtliche Kategorie: Medizinprodukt;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Compeed; Produktname: Blasenpflaster Medium, 4 S",
-      "canonicalProduct": "Marke: Compeed; Produktname: Blasenpflaster Medium, 4 S",
-      "canonicalId": "marke-compeed-produktname-blasenpflaster-medium-4-s-marke-compeed-produktname-blasenpflaster-medium-4-s",
-      "bundleKey": "Marke: Compeed; Produktname: Blasenpflaster Medium, 4 S",
-      "key": "Marke: Compeed; Produktname: Blasenpflaster Medium, 4 S",
-      "similarityKey": "Marke: Compeed; Produktname: Blasenpflaster Medium, 4 S|Marke: Compeed; Produktname: Blasenpflaster Medium, 4 S",
-      "exactMatchKey": "Marke: Compeed; Produktname: Blasenpflaster Medium, 4 S|Marke: Compeed; Produktname: Blasenpflaster Medium, 4 S|label:compeed|size:4-st",
-      "semanticType": null,
-      "semanticGroupId": "marke-compeed-produktname-blasenpflaster-medium-4-s",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": 4,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "gtin": null,
-      "canonicalProductId": "compeed-marke-compeed-produktname-blasenpflaster-medium-4-s-marke-compeed-produktname-blasenpflaster-medium-4-s-4-st",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Körper- & Shampoobürste Seaside Balance 2in1, 1 St;",
@@ -3243,7 +3176,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Balea; Produktname: Handmaske Sweet Berry bedruckt (1 Paar), 2 St;",
@@ -3310,7 +3243,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: LeGer; Produktname: Signature Velvet Eau de Parfum, 30 ml;",
@@ -3377,7 +3310,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Jessa; Produktname: Periodenunterwäsche Slip Teens Gr. 146/152, 1 St;",
@@ -3444,7 +3377,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: TENA; Produktname: discreet Einlagen Inkontinenz Protect+ Maxi, 8 St; Rechtliche Kategorie: Medizinprodukt;",
@@ -3511,7 +3444,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ARTDECO; Produktname: Geschenkset All in One Mascara + Micellar Water 2tlg, 1 St;",
@@ -3578,7 +3511,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: M. Asam; Produktname: Lippenpflege Smoothing Lip Butter Fruity Passion, 14 g;",
@@ -3645,7 +3578,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: AMORELIE; Produktname: Beckenbodentrainer Perifit Care App-gesteuert, Pink, 1 St;",
@@ -3712,7 +3645,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: NIVEA SUN; Produktname: Sonnenspray Schutz & Bräune LSF 50, 200 ml;",
@@ -3779,7 +3712,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: o.b.; Produktname: Tampons ExtraProtect Normal, 56 St;",
@@ -3846,7 +3779,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Moskinto; Produktname: Mückenstichpflaster Soforthilfe, 24 St; Rechtliche Kategorie: Medizinprodukt;",
@@ -3913,7 +3846,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: SUNDANCE; Produktname: Sonnenspray transparent Sport, LSF 50, 200 ml;",
@@ -3980,7 +3913,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: SUNDANCE; Produktname: Sonnenmilch Kids MED ultra sensitiv LSF 50+, 200 ml;",
@@ -4047,7 +3980,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Rexona; Produktname: Antitranspirant Deocreme Maximum Protection Confidence, 45 ml;",
@@ -4114,7 +4047,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: SUNDANCE; Produktname: Sonnenroller Kids MED ultra sensitiv, LSF 50+, 100 ml;",
@@ -4181,7 +4114,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: SUNDANCE; Produktname: Sonnenspray sensitiv, Emulsion LSF 50, 150 ml;",
@@ -4248,7 +4181,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Balea; Produktname: Flüssigseife Ginseng & Green Mandarin Nachfüllpack, 500 ml;",
@@ -4315,7 +4248,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Balea; Produktname: Gesichtshaarentferner, 3 St;",
@@ -4382,7 +4315,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Neu im Sortiment",
@@ -4449,7 +4382,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ebelin PROFESSIONAL; Produktname: Spiralentwirrbürste Pflege, Mischborste, 1 St;",
@@ -4516,7 +4449,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: BALI CURLS; Produktname: Leave-In Spray Curl Defining, 150 ml;",
@@ -4583,7 +4516,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Haarturban Seaside Balance, 1 St;",
@@ -4650,7 +4583,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: DEJAN GARZ; Produktname: Shampoo The Sensitive, 300 ml;",
@@ -4717,7 +4650,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Alpecin; Produktname: Shampoo Grey Attack XStrong, 200 ml;",
@@ -4784,7 +4717,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: NEQI; Produktname: Glossing Dark Brown, 120 ml;",
@@ -4851,7 +4784,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: WAVYTALK; Produktname: Volumenbürste Blowout Boost, 1 St;",
@@ -4918,7 +4851,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ARTDECO; Produktname: Beauty Box Trio, 1 St;",
@@ -4985,7 +4918,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Haarbürste gemustert, Leooptik, 1 St;",
@@ -5052,7 +4985,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Balea; Produktname: Locken Revitalizing Spray, 150 ml;",
@@ -5119,7 +5052,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Schwarzkopf taft; Produktname: Refresh Spray Good Hair Soft Jasmine, 150 ml;",
@@ -5186,7 +5119,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Haarhaube Seaside Balance, 1 St;",
@@ -5253,7 +5186,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: L'ORÉAL PARiS ELVITAL; Produktname: Haarmaske Glycolic Gloss Spiegelglanz, 300 ml;",
@@ -5320,7 +5253,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Schwarzkopf Brillance; Produktname: Haarfarbe L854 Goldbraun, 1 St;",
@@ -5387,7 +5320,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Spiralbürste ohne Griff, 1 St;",
@@ -5454,7 +5387,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: alverde NATURKOSMETIK; Produktname: Shampoo Locken, 200 ml;",
@@ -5521,7 +5454,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: alverde NATURKOSMETIK; Produktname: Beach Waves Spray Seaside Balance, 150 ml;",
@@ -5588,7 +5521,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ebelin; Produktname: Haarklammer In My Pink Era, 1 St;",
@@ -5655,7 +5588,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Balea PROFESSIONAL; Produktname: Haarkur Silberglanz 2in1 Color Intense Kur, 150 ml;",
@@ -5722,7 +5655,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Schwarzkopf Brillance; Produktname: Haarfarbe L865 Honigbraun, 1 St;",
@@ -5789,7 +5722,141 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: Schwarzkopf Blonde; Produktname: Strähnchen Set M1;",
+      "brand": "Schwarzkopf Blonde",
+      "ean": null,
+      "size": "1 St",
+      "currentPrice": 5.95,
+      "regularPrice": 5.95,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 5.95,
+      "baseUnit": "€/Stk.",
+      "productUrl": "/p/d/1426477/schwarzkopf-blonde-straehnchen-set-m1",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1785367147/assets/pas/images/0b948d18-80ea-4708-bcdb-99bf44e24d5f/schwarzkopf-blonde-straehnchen-set-m1",
+      "sourceUrl": "https://www.dm.de/haare",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Haarpflege",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Lebensmittel",
+      "price": 5.95,
+      "unit": 5.95,
+      "unitLabel": "€/Stk.",
+      "bio": false,
+      "originalName": "Marke: Schwarzkopf Blonde; Produktname: Strähnchen Set M1;",
+      "department": "Lebensmittel",
+      "category": "Lebensmittel",
+      "subcategory": "Lebensmittel",
+      "canonicalGroup": "Marke: Schwarzkopf Blonde; Produktname: Strähnchen Set ",
+      "canonicalProduct": "Marke: Schwarzkopf Blonde; Produktname: Strähnchen Set ",
+      "canonicalId": "marke-schwarzkopf-blonde-produktname-strahnchen-set-marke-schwarzkopf-blonde-produktname-strahnchen-set",
+      "bundleKey": "Marke: Schwarzkopf Blonde; Produktname: Strähnchen Set ",
+      "key": "Marke: Schwarzkopf Blonde; Produktname: Strähnchen Set ",
+      "similarityKey": "Marke: Schwarzkopf Blonde; Produktname: Strähnchen Set |Marke: Schwarzkopf Blonde; Produktname: Strähnchen Set ",
+      "exactMatchKey": "Marke: Schwarzkopf Blonde; Produktname: Strähnchen Set |Marke: Schwarzkopf Blonde; Produktname: Strähnchen Set |label:schwarzkopf-blonde|size:1-st",
+      "semanticType": null,
+      "semanticGroupId": "marke-schwarzkopf-blonde-produktname-strahnchen-set",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": 1,
+        "form": null
+      },
+      "marketSection": "Lebensmittel",
+      "confidence": 0.58,
+      "icon": "🛒",
+      "gtin": null,
+      "canonicalProductId": "schwarzkopf-blonde-marke-schwarzkopf-blonde-produktname-strahnchen-set-marke-schwarzkopf-blonde-produktname-strahnchen-set-1-st",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: Palette Intensive Color Creme; Produktname: Haarfarbe 8-11 Kühles Naturblond, 1 St;",
+      "brand": "Palette Intensive Color Creme",
+      "ean": null,
+      "size": "1 St",
+      "currentPrice": 3.45,
+      "regularPrice": 3.45,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 3.45,
+      "baseUnit": "€/Stk.",
+      "productUrl": "/p/d/2486730/palette-intensive-color-creme-haarfarbe-8-11-kuehles-naturblond",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1785368079/assets/pas/images/939d2822-4637-43c0-b989-79f51b44b210/palette-intensive-color-creme-haarfarbe-8-11-kuehles-naturblond",
+      "sourceUrl": "https://www.dm.de/haare",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Haarpflege",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Lebensmittel",
+      "price": 3.45,
+      "unit": 3.45,
+      "unitLabel": "€/Stk.",
+      "bio": false,
+      "originalName": "Marke: Palette Intensive Color Creme; Produktname: Haarfarbe 8-11 Kühles Naturblond, 1 St;",
+      "department": "Lebensmittel",
+      "category": "Lebensmittel",
+      "subcategory": "Lebensmittel",
+      "canonicalGroup": "Marke: Palette Intensive Color Creme; Produktname: Haar",
+      "canonicalProduct": "Marke: Palette Intensive Color Creme; Produktname: Haar",
+      "canonicalId": "marke-palette-intensive-color-creme-produktname-haar-marke-palette-intensive-color-creme-produktname-haar",
+      "bundleKey": "Marke: Palette Intensive Color Creme; Produktname: Haar",
+      "key": "Marke: Palette Intensive Color Creme; Produktname: Haar",
+      "similarityKey": "Marke: Palette Intensive Color Creme; Produktname: Haar|Marke: Palette Intensive Color Creme; Produktname: Haar",
+      "exactMatchKey": "Marke: Palette Intensive Color Creme; Produktname: Haar|Marke: Palette Intensive Color Creme; Produktname: Haar|label:palette-intensive-color-creme|size:1-st",
+      "semanticType": null,
+      "semanticGroupId": "marke-palette-intensive-color-creme-produktname-haar",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": 1,
+        "form": null
+      },
+      "marketSection": "Lebensmittel",
+      "confidence": 0.58,
+      "icon": "🛒",
+      "gtin": null,
+      "canonicalProductId": "palette-intensive-color-creme-marke-palette-intensive-color-creme-produktname-haar-marke-palette-intensive-color-creme-produktname-haar-1-st",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: PANTENE PRO-V; Produktname: Haarserum Grow Abundant Anti-Haarverlust, 60 ml;",
@@ -5856,7 +5923,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: PANTENE PRO-V; Produktname: Conditioner Grow Abundant Anti-Haarverlust, 250 ml;",
@@ -5923,7 +5990,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Balea med; Produktname: Shampoo Ultra Sensitive, 250 ml;",
@@ -5990,7 +6057,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ebelin PROFESSIONAL; Produktname: 5in1 Multi-Styler, 1 St;",
@@ -6057,7 +6124,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ebelin PROFESSIONAL; Produktname: Haarbürste Anti-Haarverlust, 1 St;",
@@ -6124,7 +6191,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Balea; Produktname: Trockenshampoo Soft Cotton, 200 ml;",
@@ -6191,7 +6258,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: head&shoulders; Produktname: Shampoo Anti-Schuppen Classic Clean, 500 ml;",
@@ -6258,7 +6325,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Herbal Essences; Produktname: Haarserum Fiji mit Kokosnussöl, 95 ml;",
@@ -6325,7 +6392,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: yuicy; Produktname: Haarvitamine Hair Glow Biotin I B12 + 8 Essentials Gummies (45 Stück), 121 g; Rechtliche Kategorie: Nahrungsergänzungsmittel;",
@@ -6392,7 +6459,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Balea med; Produktname: Conditioner Ultra Sensitive, 250 ml;",
@@ -6459,7 +6526,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Philips Sonicare; Produktname: Schallzahnbürste 2100 schwarz, 1 St;",
@@ -6526,7 +6593,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: CB12; Produktname: Mundspülung Zahnfleischschutz, 200 ml;",
@@ -6593,7 +6660,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Oral-B; Produktname: Zahnpasta PRO 3D White Clinical Intensive Whitening, 75 ml;",
@@ -6660,7 +6727,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: elmex; Produktname: Zahnbürste Kinder, 2-6 Jahren, 1 St;",
@@ -6727,7 +6794,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: elmex; Produktname: Zahnpflege Set Kinder, 0-2 Jahren, 1 St;",
@@ -6794,7 +6861,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: elmex; Produktname: Zahnpasta Sensitive Professional Repair & Prevent, 75 ml; Rechtliche Kategorie: Medizinprodukt;",
@@ -6861,7 +6928,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: elmex; Produktname: Zahnpasta Kinder Junior, 6-12 Jahren, 75 ml;",
@@ -6928,7 +6995,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: meridol; Produktname: Zahnpasta Parodont Expert, 75 ml;",
@@ -6995,7 +7062,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimative Reinigung schwarz, 4 St;",
@@ -7062,7 +7129,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: AJONA; Produktname: Zahnpasta Konzentrat fluoridfrei, 25 ml;",
@@ -7129,7 +7196,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Erste Zähne, 0-2 Jahren, 1 St;",
@@ -7196,7 +7263,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Oral-B; Produktname: Zahnpasta Pro-Expert Professioneller Schutz, 75 ml;",
@@ -7263,7 +7330,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Odol med 3; Produktname: Zahnpasta Juniorzahn 6-13 Jahren, 75 ml;",
@@ -7330,7 +7397,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: CB12; Produktname: Mundspülung white, 200 ml;",
@@ -7397,7 +7464,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Philips Sonicare; Produktname: Schallzahnbürste 4100 weiß, 1 St;",
@@ -7464,7 +7531,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: SENSODYNE; Produktname: Zahnpasta Clinical Repair, 75 ml; Rechtliche Kategorie: Medizinprodukt;",
@@ -7531,7 +7598,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Oral-B; Produktname: Zahnpasta 3D White Luxe Perfection, 75 ml;",
@@ -7598,7 +7665,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Oral-B; Produktname: Zahnpasta Pro-Expert Frischer Atem, 75 ml;",
@@ -7665,7 +7732,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten W2 OptimalWhite schwarz, 3 St;",
@@ -7732,7 +7799,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Philips Sonicare; Produktname: Aufsteckbürsten C3 Premium Plaque Defence weiß, 3 St;",
@@ -7799,7 +7866,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Dr. BEST; Produktname: Zahnbürste Kinder Paw Patrol, bis 7 Jahren Vorteilspack (2+1 Gratis), 3 St;",
@@ -7866,7 +7933,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Oral-B; Produktname: Zahnseide Superfloss Threader, 50 St;",
@@ -7933,7 +8000,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Odol med 3; Produktname: Zahnpasta Milchzahn 0-6 Jahren, 50 ml;",
@@ -8000,7 +8067,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Colgate; Produktname: Zahnpasta Komplett Extra Frisch, 75 ml;",
@@ -8067,7 +8134,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Oral-B; Produktname: Elektrische Zahnbürste iO Series 6 Black Lava, 1 St;",
@@ -8134,7 +8201,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: SENSODYNE; Produktname: Zahnpasta Proschmelz, 75 ml;",
@@ -8201,7 +8268,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: lavera NATURKOSMETIK; Produktname: Zahnpasta Complete Care fluoridfrei, 75 ml;",
@@ -8268,7 +8335,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Odol med 3; Produktname: Zahnpasta White & Shine, 75 ml;",
@@ -8335,7 +8402,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Oral-B; Produktname: Zahnpasta 3D White Professional Express Whitening frisches Strahlen, 75 ml;",
@@ -8402,7 +8469,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Parodontax; Produktname: Zahnpasta Complete Protection extra frisch, 75 ml;",
@@ -8469,7 +8536,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Oral-B; Produktname: Aufsteckbürste iO Ultimative Reinigung weiß, 4 St;",
@@ -8536,7 +8603,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: elmex; Produktname: Zahnbürste Junior weich, 1 St;",
@@ -8603,7 +8670,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: SENSODYNE; Produktname: Zahnpasta ProSchmelz Repair Whitening, 75 ml;",
@@ -8670,7 +8737,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: KAREX; Produktname: Zahnpasta Kinder, 0-6 Jahren fluoridfrei, 50 ml;",
@@ -8737,7 +8804,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Neu im Sortiment",
@@ -8804,7 +8871,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: CD; Produktname: Deo Roll-on, Mein erstes Deo, 50 ml;",
@@ -8871,7 +8938,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Kölln; Produktname: Getreidebrei Hafer Schmelzflocken ab dem 5. Monat, 275 g; Rechtliche Kategorie: Beikost;",
@@ -8938,7 +9005,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Flaschen- und Saugerbürste, 1 St;",
@@ -9005,7 +9072,883 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: Pampers baby-dry; Produktname: Baby Pants baby-dry Gr. 5 (11-17 kg) Big Economy Pack, 62 St;",
+      "brand": "Pampers baby-dry",
+      "ean": null,
+      "size": "17 kg",
+      "currentPrice": 19.95,
+      "regularPrice": 19.95,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 0.32,
+      "baseUnit": "€/Stk.",
+      "productUrl": "/p/d/3135344/pampers-baby-dry-baby-pants-baby-dry-gr-5-11-17-kg-big-economy-pack",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1777535203/assets/pas/images/b2234f46-1d3e-4886-b736-6da532ab2cf7/pampers-baby-dry-baby-pants-baby-dry-gr-5-11-17-kg-big-economy-pack",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 19.95,
+      "unit": 0.32,
+      "unitLabel": "€/Stk.",
+      "bio": false,
+      "originalName": "Marke: Pampers baby-dry; Produktname: Baby Pants baby-dry Gr. 5 (11-17 kg) Big Economy Pack, 62 St;",
+      "department": "Drogerie",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Wickeln",
+      "canonicalGroup": "Windeln",
+      "canonicalProduct": "Pants Gr. 5",
+      "canonicalId": "windeln-diaperform-pants-diapersize-5-weightminkg-11-weightmaxkg-17",
+      "bundleKey": "Pants Gr. 5",
+      "key": "Pants Gr. 5",
+      "similarityKey": "semantic:windeln|diaperForm:pants|diaperSize:5|weightMinKg:11|weightMaxKg:17",
+      "exactMatchKey": "semantic:windeln|diaperForm:pants|diaperSize:5|weightMinKg:11|weightMaxKg:17|label:pampers-baby-dry|size:17-kg",
+      "semanticType": "Windeln",
+      "semanticGroupId": "pants-gr-5",
+      "comparisonKey": "windeln|diaperForm:pants|diaperSize:5|weightMinKg:11|weightMaxKg:17",
+      "criticalAttributes": [
+        "diaperForm",
+        "diaperSize",
+        "weightMinKg",
+        "weightMaxKg"
+      ],
+      "useCase": "Aufnahme von Ausscheidungen bei Babys/Kleinkindern",
+      "semanticConfidence": 0.99,
+      "organic": false,
+      "variant": "Pants",
+      "attributes": {
+        "diaperSize": "5",
+        "weightMinKg": 11,
+        "weightMaxKg": 17,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": "Pants",
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": 62,
+        "form": "Pants"
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.99,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "pampers-baby-dry-windeln-pants-gr-5-diaperform-pants-diapersize-5-weightminkg-11-weightmaxkg-17-17-kg",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: Carlsen; Produktname: Adventskalender Wieso? Weshalb? Warum? 2026, 1 St;",
+      "brand": "Carlsen",
+      "ean": null,
+      "size": "1 St",
+      "currentPrice": 19.99,
+      "regularPrice": 19.99,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 19.99,
+      "baseUnit": "€/Stk.",
+      "productUrl": "/p/d/3135934/carlsen-adventskalender-wieso-weshalb-warum-2026",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1779357203/assets/pas/images/3a18ca2a-1e5c-4592-abba-9aaa825252b4/carlsen-adventskalender-wieso-weshalb-warum-2026",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 19.99,
+      "unit": 19.99,
+      "unitLabel": "€/Stk.",
+      "bio": false,
+      "originalName": "Marke: Carlsen; Produktname: Adventskalender Wieso? Weshalb? Warum? 2026, 1 St;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes",
+      "canonicalProduct": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes",
+      "canonicalId": "marke-carlsen-produktname-adventskalender-wieso-wes-marke-carlsen-produktname-adventskalender-wieso-wes",
+      "bundleKey": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes",
+      "key": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes",
+      "similarityKey": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes|Marke: Carlsen; Produktname: Adventskalender Wieso? Wes",
+      "exactMatchKey": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes|Marke: Carlsen; Produktname: Adventskalender Wieso? Wes|label:carlsen|size:1-st",
+      "semanticType": null,
+      "semanticGroupId": "marke-carlsen-produktname-adventskalender-wieso-wes",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": 1,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "carlsen-marke-carlsen-produktname-adventskalender-wieso-wes-marke-carlsen-produktname-adventskalender-wieso-wes-1-st",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: babylove; Produktname: Trinkbecher bunt, 5 St;",
+      "brand": "babylove",
+      "ean": null,
+      "size": "5 St",
+      "currentPrice": 3.45,
+      "regularPrice": 3.45,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 3.45,
+      "baseUnit": "€/Stk.",
+      "productUrl": "/p/d/3123992/babylove-trinkbecher-bunt",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784251026/assets/pas/images/68734dfc-afad-4ad1-a839-abf7d5e01af6/babylove-trinkbecher-bunt",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 3.45,
+      "unit": 3.45,
+      "unitLabel": "€/Stk.",
+      "bio": false,
+      "originalName": "Marke: babylove; Produktname: Trinkbecher bunt, 5 St;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: babylove; Produktname: Trinkbecher bunt, 5 St;",
+      "canonicalProduct": "Marke: babylove; Produktname: Trinkbecher bunt, 5 St;",
+      "canonicalId": "marke-babylove-produktname-trinkbecher-bunt-5-st-marke-babylove-produktname-trinkbecher-bunt-5-st",
+      "bundleKey": "Marke: babylove; Produktname: Trinkbecher bunt, 5 St;",
+      "key": "Marke: babylove; Produktname: Trinkbecher bunt, 5 St;",
+      "similarityKey": "Marke: babylove; Produktname: Trinkbecher bunt, 5 St;|Marke: babylove; Produktname: Trinkbecher bunt, 5 St;",
+      "exactMatchKey": "Marke: babylove; Produktname: Trinkbecher bunt, 5 St;|Marke: babylove; Produktname: Trinkbecher bunt, 5 St;|label:babylove|size:5-st",
+      "semanticType": null,
+      "semanticGroupId": "marke-babylove-produktname-trinkbecher-bunt-5-st",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": 5,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "babylove-marke-babylove-produktname-trinkbecher-bunt-5-st-marke-babylove-produktname-trinkbecher-bunt-5-st-5-st",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 110/116, 1 St;",
+      "brand": "Mikk-Line",
+      "ean": null,
+      "size": "1 St",
+      "currentPrice": 36.9,
+      "regularPrice": 36.9,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": null,
+      "baseUnit": null,
+      "productUrl": "/p/d/3103928/mikk-line-wolljacke-braun-gr-110-116",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1781906426/assets/pas/images/a5ef6490-a007-41b4-be82-c9f797e60597/mikk-line-wolljacke-braun-gr-110-116",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 36.9,
+      "unit": 36.9,
+      "unitLabel": "€/Packung",
+      "bio": false,
+      "originalName": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 110/116, 1 St;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11",
+      "canonicalProduct": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11",
+      "canonicalId": "marke-mikk-line-produktname-wolljacke-braun-gr-11-marke-mikk-line-produktname-wolljacke-braun-gr-11",
+      "bundleKey": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11",
+      "key": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11",
+      "similarityKey": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11|Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11",
+      "exactMatchKey": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11|Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11|label:mikk-line|size:1-st",
+      "semanticType": null,
+      "semanticGroupId": "marke-mikk-line-produktname-wolljacke-braun-gr-11",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": 1,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "mikk-line-marke-mikk-line-produktname-wolljacke-braun-gr-11-marke-mikk-line-produktname-wolljacke-braun-gr-11-1-st",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 ml;",
+      "brand": "Lansinoh",
+      "ean": null,
+      "size": "100 ml",
+      "currentPrice": 11.95,
+      "regularPrice": 11.95,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 119.5,
+      "baseUnit": "€/l",
+      "productUrl": "/p/d/3149637/lansinoh-regenerationsspray",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1781680891/assets/pas/images/195482b9-cb27-41fe-8032-8cbefbbad4d3/lansinoh-regenerationsspray",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 11.95,
+      "unit": 119.5,
+      "unitLabel": "€/l",
+      "bio": false,
+      "originalName": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 ml;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m",
+      "canonicalProduct": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m",
+      "canonicalId": "marke-lansinoh-produktname-regenerationsspray-100-m-marke-lansinoh-produktname-regenerationsspray-100-m",
+      "bundleKey": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m",
+      "key": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m",
+      "similarityKey": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m|Marke: Lansinoh; Produktname: Regenerationsspray, 100 m",
+      "exactMatchKey": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m|Marke: Lansinoh; Produktname: Regenerationsspray, 100 m|label:lansinoh|size:100-ml",
+      "semanticType": null,
+      "semanticGroupId": "marke-lansinoh-produktname-regenerationsspray-100-m",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": null,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "lansinoh-marke-lansinoh-produktname-regenerationsspray-100-m-marke-lansinoh-produktname-regenerationsspray-100-m-100-ml",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: Naty; Produktname: Feuchttücher herunterspülbar, 56 St;",
+      "brand": "Naty",
+      "ean": null,
+      "size": "56 St",
+      "currentPrice": 3.65,
+      "regularPrice": 3.65,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 0.07,
+      "baseUnit": "€/Stk.",
+      "productUrl": "/p/d/3154245/naty-feuchttuecher-herunterspuelbar",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1785364438/assets/pas/images/b6904145-c14a-4e37-8994-69faef7b366a/naty-feuchttuecher-herunterspuelbar",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 3.65,
+      "unit": 0.07,
+      "unitLabel": "€/Stk.",
+      "bio": false,
+      "originalName": "Marke: Naty; Produktname: Feuchttücher herunterspülbar, 56 St;",
+      "department": "Drogerie",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Wickeln",
+      "canonicalGroup": "Feuchttücher",
+      "canonicalProduct": "Feuchttücher",
+      "canonicalId": "feuchttucher",
+      "bundleKey": "Feuchttücher",
+      "key": "Feuchttücher",
+      "similarityKey": "semantic:feuchttucher",
+      "exactMatchKey": "semantic:feuchttucher|label:naty|size:56-st",
+      "semanticType": "Feuchttücher",
+      "semanticGroupId": "feuchttucher",
+      "comparisonKey": "feuchttucher",
+      "criticalAttributes": [],
+      "useCase": "Feuchtreinigung der Haut",
+      "semanticConfidence": 0.99,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": 56,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.99,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "naty-feuchttucher-feuchttucher-56-st",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in1, 150 ml;",
+      "brand": "LILLYDOO",
+      "ean": null,
+      "size": "150 ml",
+      "currentPrice": 2.95,
+      "regularPrice": 2.95,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 19.67,
+      "baseUnit": "€/l",
+      "productUrl": "/p/d/3138581/lillydoo-shampoo-und-waschlotion-2in1",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1777296819/assets/pas/images/61437bcf-51c9-44b7-bb2f-c739d8479752/lillydoo-shampoo-und-waschlotion-2in1",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 2.95,
+      "unit": 19.67,
+      "unitLabel": "€/l",
+      "bio": false,
+      "originalName": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in1, 150 ml;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in",
+      "canonicalProduct": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in",
+      "canonicalId": "marke-lillydoo-produktname-shampoo-waschlotion-2in-marke-lillydoo-produktname-shampoo-waschlotion-2in",
+      "bundleKey": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in",
+      "key": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in",
+      "similarityKey": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in|Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in",
+      "exactMatchKey": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in|Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in|label:lillydoo|size:150-ml",
+      "semanticType": null,
+      "semanticGroupId": "marke-lillydoo-produktname-shampoo-waschlotion-2in",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": null,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "lillydoo-marke-lillydoo-produktname-shampoo-waschlotion-2in-marke-lillydoo-produktname-shampoo-waschlotion-2in-150-ml",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee für Kinder (12 Beutel), 18 g; Rechtliche Kategorie: Arzneimittel;",
+      "brand": "Mivolis",
+      "ean": null,
+      "size": "18 g",
+      "currentPrice": 1.15,
+      "regularPrice": 1.15,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 63.89,
+      "baseUnit": "€/kg",
+      "productUrl": "/p/d/3132396/mivolis-arzneitee-erkaeltungs-tee-fuer-kinder-12-beutel",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784075585/assets/pas/images/2c78d154-faa7-4f39-8f80-a0a41a0b8094/mivolis-arzneitee-erkaeltungs-tee-fuer-kinder-12-beutel",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 1.15,
+      "unit": 63.89,
+      "unitLabel": "€/kg",
+      "bio": false,
+      "originalName": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee für Kinder (12 Beutel), 18 g; Rechtliche Kategorie: Arzneimittel;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee ",
+      "canonicalProduct": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee ",
+      "canonicalId": "marke-mivolis-produktname-arzneitee-erkaltungs-tee-marke-mivolis-produktname-arzneitee-erkaltungs-tee",
+      "bundleKey": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee ",
+      "key": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee ",
+      "similarityKey": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee |Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee ",
+      "exactMatchKey": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee |Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee |label:mivolis|size:18-g",
+      "semanticType": null,
+      "semanticGroupId": "marke-mivolis-produktname-arzneitee-erkaltungs-tee",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": null,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "mivolis-marke-mivolis-produktname-arzneitee-erkaltungs-tee-marke-mivolis-produktname-arzneitee-erkaltungs-tee-18-g",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, rot, 140 x 200 + 80 x 80, 1 St;",
+      "brand": "ALANA",
+      "ean": null,
+      "size": "1 St",
+      "currentPrice": 19.9,
+      "regularPrice": 19.9,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": null,
+      "baseUnit": null,
+      "productUrl": "/p/d/3132915/alana-bettwaesche-mit-baum-muster-rot-140-x-200-80-x-80",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1786359630/assets/pas/images/c0887cbd-a2f9-4b3f-ae63-69dc84dd7b39/alana-bettwaesche-mit-baum-muster-rot-140-x-200-80-x-80",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 19.9,
+      "unit": 19.9,
+      "unitLabel": "€/Packung",
+      "bio": false,
+      "originalName": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, rot, 140 x 200 + 80 x 80, 1 St;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, ",
+      "canonicalProduct": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, ",
+      "canonicalId": "marke-alana-produktname-bettwasche-mit-baum-muster-marke-alana-produktname-bettwasche-mit-baum-muster",
+      "bundleKey": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, ",
+      "key": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, ",
+      "similarityKey": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, |Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, ",
+      "exactMatchKey": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, |Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, |label:alana|size:1-st",
+      "semanticType": null,
+      "semanticGroupId": "marke-alana-produktname-bettwasche-mit-baum-muster",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": 1,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "alana-marke-alana-produktname-bettwasche-mit-baum-muster-marke-alana-produktname-bettwasche-mit-baum-muster-1-st",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel), 18 g; Rechtliche Kategorie: Arzneimittel;",
+      "brand": "Mivolis",
+      "ean": null,
+      "size": "18 g",
+      "currentPrice": 1.15,
+      "regularPrice": 1.15,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 63.89,
+      "baseUnit": "€/kg",
+      "productUrl": "/p/d/3132398/mivolis-arzneitee-magen-und-darm-beruhigungs-tee-fuer-kinder-12-beutel",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784755309/assets/pas/images/11e89123-15cf-4a20-83da-6ce6f309221b/mivolis-arzneitee-magen-und-darm-beruhigungs-tee-fuer-kinder-12-beutel",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 1.15,
+      "unit": 63.89,
+      "unitLabel": "€/kg",
+      "bio": false,
+      "originalName": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel), 18 g; Rechtliche Kategorie: Arzneimittel;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be",
+      "canonicalProduct": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be",
+      "canonicalId": "marke-mivolis-produktname-arzneitee-magen-darm-be-marke-mivolis-produktname-arzneitee-magen-darm-be",
+      "bundleKey": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be",
+      "key": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be",
+      "similarityKey": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be|Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be",
+      "exactMatchKey": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be|Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be|label:mivolis|size:18-g",
+      "semanticType": null,
+      "semanticGroupId": "marke-mivolis-produktname-arzneitee-magen-darm-be",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": null,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "mivolis-marke-mivolis-produktname-arzneitee-magen-darm-be-marke-mivolis-produktname-arzneitee-magen-darm-be-18-g",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spülung 3in1 Dinorino, 250 ml;",
+      "brand": "CD",
+      "ean": null,
+      "size": "250 ml",
+      "currentPrice": 1.95,
+      "regularPrice": 1.95,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 7.8,
+      "baseUnit": "€/l",
+      "productUrl": "/p/d/3146125/cd-kinder-duschgel-shampoo-und-spuelung-3in1-dinorino",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1779367540/assets/pas/images/f0f200e3-b6fe-4d75-a902-e71a1e9fd990/cd-kinder-duschgel-shampoo-und-spuelung-3in1-dinorino",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 1.95,
+      "unit": 7.8,
+      "unitLabel": "€/l",
+      "bio": false,
+      "originalName": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spülung 3in1 Dinorino, 250 ml;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül",
+      "canonicalProduct": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül",
+      "canonicalId": "marke-cd-produktname-kinder-duschgel-shampoo-spul-marke-cd-produktname-kinder-duschgel-shampoo-spul",
+      "bundleKey": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül",
+      "key": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül",
+      "similarityKey": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül|Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül",
+      "exactMatchKey": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül|Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül|label:cd|size:250-ml",
+      "semanticType": null,
+      "semanticGroupId": "marke-cd-produktname-kinder-duschgel-shampoo-spul",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": "Flüssig",
+        "processing": null,
+        "packageCount": null,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "cd-marke-cd-produktname-kinder-duschgel-shampoo-spul-marke-cd-produktname-kinder-duschgel-shampoo-spul-250-ml",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack Kakao Waffeln ab 3 Jahren, 100 g;",
+      "brand": "FRUCHTBAR Pausenfreund",
+      "ean": null,
+      "size": "100 g",
+      "currentPrice": 2.45,
+      "regularPrice": 2.45,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 24.5,
+      "baseUnit": "€/kg",
+      "productUrl": "/p/d/3137491/fruchtbar-pausenfreund-kindersnack-kakao-waffeln-ab-3-jahren",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784082661/assets/pas/images/c20fdebf-268d-42e3-9fcd-24ad5b0b0554/fruchtbar-pausenfreund-kindersnack-kakao-waffeln-ab-3-jahren",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 2.45,
+      "unit": 24.5,
+      "unitLabel": "€/kg",
+      "bio": false,
+      "originalName": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack Kakao Waffeln ab 3 Jahren, 100 g;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack",
+      "canonicalProduct": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack",
+      "canonicalId": "marke-fruchtbar-pausenfreund-produktname-kindersnack-marke-fruchtbar-pausenfreund-produktname-kindersnack",
+      "bundleKey": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack",
+      "key": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack",
+      "similarityKey": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack|Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack",
+      "exactMatchKey": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack|Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack|label:fruchtbar-pausenfreund|size:100-g",
+      "semanticType": null,
+      "semanticGroupId": "marke-fruchtbar-pausenfreund-produktname-kindersnack",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": null,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "fruchtbar-pausenfreund-marke-fruchtbar-pausenfreund-produktname-kindersnack-marke-fruchtbar-pausenfreund-produktname-kindersnack-100-g",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: babylove; Produktname: Schnuller Naturlatex, symmetrisch, beige/lila, Gr. 2, 5-18 Monate, 2 St;",
+      "brand": "babylove",
+      "ean": null,
+      "size": "2 St",
+      "currentPrice": 2.75,
+      "regularPrice": 2.75,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 1.38,
+      "baseUnit": "€/Stk.",
+      "productUrl": "/p/d/3124401/babylove-schnuller-naturlatex-symmetrisch-beige-lila-gr-2-5-18-monate",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1775168108/assets/pas/images/9dc11fe3-628e-4a7b-913a-e2508ac8eb97/babylove-schnuller-naturlatex-symmetrisch-beige-lila-gr-2-5-18-monate",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 2.75,
+      "unit": 1.38,
+      "unitLabel": "€/Stk.",
+      "bio": false,
+      "originalName": "Marke: babylove; Produktname: Schnuller Naturlatex, symmetrisch, beige/lila, Gr. 2, 5-18 Monate, 2 St;",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Marke: babylove; Produktname: Schnuller Naturlatex, sym",
+      "canonicalProduct": "Marke: babylove; Produktname: Schnuller Naturlatex, sym",
+      "canonicalId": "marke-babylove-produktname-schnuller-naturlatex-sym-marke-babylove-produktname-schnuller-naturlatex-sym-size-2",
+      "bundleKey": "Marke: babylove; Produktname: Schnuller Naturlatex, sym",
+      "key": "Marke: babylove; Produktname: Schnuller Naturlatex, sym",
+      "similarityKey": "Marke: babylove; Produktname: Schnuller Naturlatex, sym|Marke: babylove; Produktname: Schnuller Naturlatex, sym",
+      "exactMatchKey": "Marke: babylove; Produktname: Schnuller Naturlatex, sym|Marke: babylove; Produktname: Schnuller Naturlatex, sym|label:babylove|size:2-st",
+      "semanticType": null,
+      "semanticGroupId": "marke-babylove-produktname-schnuller-naturlatex-sym",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": "2",
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": 2,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "babylove-marke-babylove-produktname-schnuller-naturlatex-sym-marke-babylove-produktname-schnuller-naturlatex-sym-2-st",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Pampers baby-dry; Produktname: Windeln baby-dry Gr. 5 (11-16 kg) Big Economy Pack, 68 St;",
@@ -9077,141 +10020,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: Carlsen; Produktname: Adventskalender Wieso? Weshalb? Warum? 2026, 1 St;",
-      "brand": "Carlsen",
-      "ean": null,
-      "size": "1 St",
-      "currentPrice": 19.99,
-      "regularPrice": 19.99,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 19.99,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3135934/carlsen-adventskalender-wieso-weshalb-warum-2026",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1779357203/assets/pas/images/3a18ca2a-1e5c-4592-abba-9aaa825252b4/carlsen-adventskalender-wieso-weshalb-warum-2026",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 19.99,
-      "unit": 19.99,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Carlsen; Produktname: Adventskalender Wieso? Weshalb? Warum? 2026, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes",
-      "canonicalProduct": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes",
-      "canonicalId": "marke-carlsen-produktname-adventskalender-wieso-wes-marke-carlsen-produktname-adventskalender-wieso-wes",
-      "bundleKey": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes",
-      "key": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes",
-      "similarityKey": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes|Marke: Carlsen; Produktname: Adventskalender Wieso? Wes",
-      "exactMatchKey": "Marke: Carlsen; Produktname: Adventskalender Wieso? Wes|Marke: Carlsen; Produktname: Adventskalender Wieso? Wes|label:carlsen|size:1-st",
-      "semanticType": null,
-      "semanticGroupId": "marke-carlsen-produktname-adventskalender-wieso-wes",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": 1,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "carlsen-marke-carlsen-produktname-adventskalender-wieso-wes-marke-carlsen-produktname-adventskalender-wieso-wes-1-st",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 110/116, 1 St;",
-      "brand": "Mikk-Line",
-      "ean": null,
-      "size": "1 St",
-      "currentPrice": 36.9,
-      "regularPrice": 36.9,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": null,
-      "baseUnit": null,
-      "productUrl": "/p/d/3103928/mikk-line-wolljacke-braun-gr-110-116",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1781906426/assets/pas/images/a5ef6490-a007-41b4-be82-c9f797e60597/mikk-line-wolljacke-braun-gr-110-116",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 36.9,
-      "unit": 36.9,
-      "unitLabel": "€/Packung",
-      "bio": false,
-      "originalName": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 110/116, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11",
-      "canonicalProduct": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11",
-      "canonicalId": "marke-mikk-line-produktname-wolljacke-braun-gr-11-marke-mikk-line-produktname-wolljacke-braun-gr-11",
-      "bundleKey": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11",
-      "key": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11",
-      "similarityKey": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11|Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11",
-      "exactMatchKey": "Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11|Marke: Mikk-Line; Produktname: Wolljacke, braun, Gr. 11|label:mikk-line|size:1-st",
-      "semanticType": null,
-      "semanticGroupId": "marke-mikk-line-produktname-wolljacke-braun-gr-11",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": 1,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "mikk-line-marke-mikk-line-produktname-wolljacke-braun-gr-11-marke-mikk-line-produktname-wolljacke-braun-gr-11-1-st",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Trinkflasche Kinder Edelstahl beige Flamingo, 1 St;",
@@ -9278,245 +10087,44 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
-      "name": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 ml;",
-      "brand": "Lansinoh",
+      "name": "Marke: Nestlé BEBACARE; Produktname: Mama Lacto+ Kapseln 28 St, 19,9 g; Rechtliche Kategorie: Nahrungsergänzungsmittel;",
+      "brand": "Nestlé BEBACARE",
       "ean": null,
-      "size": "100 ml",
-      "currentPrice": 11.95,
-      "regularPrice": 11.95,
+      "size": "28 St",
+      "currentPrice": 8.45,
+      "regularPrice": 8.45,
       "offerPrice": null,
       "isOffer": false,
-      "basePrice": 119.5,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/3149637/lansinoh-regenerationsspray",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1781680891/assets/pas/images/195482b9-cb27-41fe-8032-8cbefbbad4d3/lansinoh-regenerationsspray",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 11.95,
-      "unit": 119.5,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 ml;",
-      "department": "Lebensmittel",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m",
-      "canonicalProduct": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m",
-      "canonicalId": "marke-lansinoh-produktname-regenerationsspray-100-m-marke-lansinoh-produktname-regenerationsspray-100-m",
-      "bundleKey": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m",
-      "key": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m",
-      "similarityKey": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m|Marke: Lansinoh; Produktname: Regenerationsspray, 100 m",
-      "exactMatchKey": "Marke: Lansinoh; Produktname: Regenerationsspray, 100 m|Marke: Lansinoh; Produktname: Regenerationsspray, 100 m|label:lansinoh|size:100-ml",
-      "semanticType": null,
-      "semanticGroupId": "marke-lansinoh-produktname-regenerationsspray-100-m",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": null,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "lansinoh-marke-lansinoh-produktname-regenerationsspray-100-m-marke-lansinoh-produktname-regenerationsspray-100-m-100-ml",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: Naty; Produktname: Feuchttücher herunterspülbar, 56 St;",
-      "brand": "Naty",
-      "ean": null,
-      "size": "56 St",
-      "currentPrice": 3.65,
-      "regularPrice": 3.65,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 0.07,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3154245/naty-feuchttuecher-herunterspuelbar",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1785364438/assets/pas/images/b6904145-c14a-4e37-8994-69faef7b366a/naty-feuchttuecher-herunterspuelbar",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 3.65,
-      "unit": 0.07,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Naty; Produktname: Feuchttücher herunterspülbar, 56 St;",
-      "department": "Drogerie",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Wickeln",
-      "canonicalGroup": "Feuchttücher",
-      "canonicalProduct": "Feuchttücher",
-      "canonicalId": "feuchttucher",
-      "bundleKey": "Feuchttücher",
-      "key": "Feuchttücher",
-      "similarityKey": "semantic:feuchttucher",
-      "exactMatchKey": "semantic:feuchttucher|label:naty|size:56-st",
-      "semanticType": "Feuchttücher",
-      "semanticGroupId": "feuchttucher",
-      "comparisonKey": "feuchttucher",
-      "criticalAttributes": [],
-      "useCase": "Feuchtreinigung der Haut",
-      "semanticConfidence": 0.99,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": 56,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.99,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "naty-feuchttucher-feuchttucher-56-st",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in1, 150 ml;",
-      "brand": "LILLYDOO",
-      "ean": null,
-      "size": "150 ml",
-      "currentPrice": 2.95,
-      "regularPrice": 2.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 19.67,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/3138581/lillydoo-shampoo-und-waschlotion-2in1",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1777296819/assets/pas/images/61437bcf-51c9-44b7-bb2f-c739d8479752/lillydoo-shampoo-und-waschlotion-2in1",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 2.95,
-      "unit": 19.67,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in1, 150 ml;",
-      "department": "Lebensmittel",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in",
-      "canonicalProduct": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in",
-      "canonicalId": "marke-lillydoo-produktname-shampoo-waschlotion-2in-marke-lillydoo-produktname-shampoo-waschlotion-2in",
-      "bundleKey": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in",
-      "key": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in",
-      "similarityKey": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in|Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in",
-      "exactMatchKey": "Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in|Marke: LILLYDOO; Produktname: Shampoo & Waschlotion 2in|label:lillydoo|size:150-ml",
-      "semanticType": null,
-      "semanticGroupId": "marke-lillydoo-produktname-shampoo-waschlotion-2in",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": null,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "lillydoo-marke-lillydoo-produktname-shampoo-waschlotion-2in-marke-lillydoo-produktname-shampoo-waschlotion-2in-150-ml",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee für Kinder (12 Beutel), 18 g; Rechtliche Kategorie: Arzneimittel;",
-      "brand": "Mivolis",
-      "ean": null,
-      "size": "18 g",
-      "currentPrice": 1.15,
-      "regularPrice": 1.15,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 63.89,
+      "basePrice": 424.62,
       "baseUnit": "€/kg",
-      "productUrl": "/p/d/3132396/mivolis-arzneitee-erkaeltungs-tee-fuer-kinder-12-beutel",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784075585/assets/pas/images/2c78d154-faa7-4f39-8f80-a0a41a0b8094/mivolis-arzneitee-erkaeltungs-tee-fuer-kinder-12-beutel",
+      "productUrl": "/p/d/1886217/nestle-bebacare-mama-lacto-kapseln-28-st",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1775720724/assets/pas/images/e85eff5e-edf6-431d-b098-cc4a78aa37df/nestle-bebacare-mama-lacto-kapseln-28-st",
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceType": "official_catalog",
       "sourceCategory": "Baby & Kleinkind",
       "store": "dm",
       "market": "Katalog",
       "cat": "Baby & Kleinkind",
-      "price": 1.15,
-      "unit": 63.89,
+      "price": 8.45,
+      "unit": 424.62,
       "unitLabel": "€/kg",
       "bio": false,
-      "originalName": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee für Kinder (12 Beutel), 18 g; Rechtliche Kategorie: Arzneimittel;",
+      "originalName": "Marke: Nestlé BEBACARE; Produktname: Mama Lacto+ Kapseln 28 St, 19,9 g; Rechtliche Kategorie: Nahrungsergänzungsmittel;",
       "department": "Lebensmittel",
       "category": "Baby & Kleinkind",
       "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee ",
-      "canonicalProduct": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee ",
-      "canonicalId": "marke-mivolis-produktname-arzneitee-erkaltungs-tee-marke-mivolis-produktname-arzneitee-erkaltungs-tee",
-      "bundleKey": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee ",
-      "key": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee ",
-      "similarityKey": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee |Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee ",
-      "exactMatchKey": "Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee |Marke: Mivolis; Produktname: Arzneitee, Erkältungs Tee |label:mivolis|size:18-g",
+      "canonicalGroup": "Marke: Nestlé BEBACARE; Produktname: Mama Lacto+ Kapsel",
+      "canonicalProduct": "Marke: Nestlé BEBACARE; Produktname: Mama Lacto+ Kapsel",
+      "canonicalId": "marke-nestle-bebacare-produktname-mama-lacto-kapsel-marke-nestle-bebacare-produktname-mama-lacto-kapsel",
+      "bundleKey": "Marke: Nestlé BEBACARE; Produktname: Mama Lacto+ Kapsel",
+      "key": "Marke: Nestlé BEBACARE; Produktname: Mama Lacto+ Kapsel",
+      "similarityKey": "Marke: Nestlé BEBACARE; Produktname: Mama Lacto+ Kapsel|Marke: Nestlé BEBACARE; Produktname: Mama Lacto+ Kapsel",
+      "exactMatchKey": "Marke: Nestlé BEBACARE; Produktname: Mama Lacto+ Kapsel|Marke: Nestlé BEBACARE; Produktname: Mama Lacto+ Kapsel|label:nestle-bebacare|size:28-st",
       "semanticType": null,
-      "semanticGroupId": "marke-mivolis-produktname-arzneitee-erkaltungs-tee",
+      "semanticGroupId": "marke-nestle-bebacare-produktname-mama-lacto-kapsel",
       "comparisonKey": null,
       "criticalAttributes": [],
       "useCase": "",
@@ -9535,122 +10143,55 @@
         "diaperForm": null,
         "detergentForm": null,
         "processing": null,
-        "packageCount": null,
+        "packageCount": 28,
         "form": null
       },
       "marketSection": "Baby & Kleinkind",
       "confidence": 0.58,
       "icon": "👶",
       "gtin": null,
-      "canonicalProductId": "mivolis-marke-mivolis-produktname-arzneitee-erkaltungs-tee-marke-mivolis-produktname-arzneitee-erkaltungs-tee-18-g",
+      "canonicalProductId": "nestle-bebacare-marke-nestle-bebacare-produktname-mama-lacto-kapsel-marke-nestle-bebacare-produktname-mama-lacto-kapsel-28-st",
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
-      "name": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, rot, 140 x 200 + 80 x 80, 1 St;",
-      "brand": "ALANA",
+      "name": "Marke: Nestlé Cerelac; Produktname: Getreidebrei Milch Weizen ab 6.Monat, 400 g; Rechtliche Kategorie: Beikost;",
+      "brand": "Nestlé Cerelac",
       "ean": null,
-      "size": "1 St",
-      "currentPrice": 19.9,
-      "regularPrice": 19.9,
+      "size": "400 g",
+      "currentPrice": 3.75,
+      "regularPrice": 3.75,
       "offerPrice": null,
       "isOffer": false,
-      "basePrice": null,
-      "baseUnit": null,
-      "productUrl": "/p/d/3132915/alana-bettwaesche-mit-baum-muster-rot-140-x-200-80-x-80",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1786359630/assets/pas/images/c0887cbd-a2f9-4b3f-ae63-69dc84dd7b39/alana-bettwaesche-mit-baum-muster-rot-140-x-200-80-x-80",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 19.9,
-      "unit": 19.9,
-      "unitLabel": "€/Packung",
-      "bio": false,
-      "originalName": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, rot, 140 x 200 + 80 x 80, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, ",
-      "canonicalProduct": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, ",
-      "canonicalId": "marke-alana-produktname-bettwasche-mit-baum-muster-marke-alana-produktname-bettwasche-mit-baum-muster",
-      "bundleKey": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, ",
-      "key": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, ",
-      "similarityKey": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, |Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, ",
-      "exactMatchKey": "Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, |Marke: ALANA; Produktname: Bettwäsche mit Baum-Muster, |label:alana|size:1-st",
-      "semanticType": null,
-      "semanticGroupId": "marke-alana-produktname-bettwasche-mit-baum-muster",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": 1,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "alana-marke-alana-produktname-bettwasche-mit-baum-muster-marke-alana-produktname-bettwasche-mit-baum-muster-1-st",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel), 18 g; Rechtliche Kategorie: Arzneimittel;",
-      "brand": "Mivolis",
-      "ean": null,
-      "size": "18 g",
-      "currentPrice": 1.15,
-      "regularPrice": 1.15,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 63.89,
+      "basePrice": 9.38,
       "baseUnit": "€/kg",
-      "productUrl": "/p/d/3132398/mivolis-arzneitee-magen-und-darm-beruhigungs-tee-fuer-kinder-12-beutel",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784755309/assets/pas/images/11e89123-15cf-4a20-83da-6ce6f309221b/mivolis-arzneitee-magen-und-darm-beruhigungs-tee-fuer-kinder-12-beutel",
+      "productUrl": "/p/d/1554885/nestle-cerelac-getreidebrei-milch-weizen-ab-6-monat",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1786832555/assets/pas/images/c486b868-0f5e-4388-a45c-80f3b7ba896b/nestle-cerelac-getreidebrei-milch-weizen-ab-6-monat",
       "sourceUrl": "https://www.dm.de/baby-und-kind",
       "sourceType": "official_catalog",
       "sourceCategory": "Baby & Kleinkind",
       "store": "dm",
       "market": "Katalog",
       "cat": "Baby & Kleinkind",
-      "price": 1.15,
-      "unit": 63.89,
+      "price": 3.75,
+      "unit": 9.38,
       "unitLabel": "€/kg",
       "bio": false,
-      "originalName": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel), 18 g; Rechtliche Kategorie: Arzneimittel;",
+      "originalName": "Marke: Nestlé Cerelac; Produktname: Getreidebrei Milch Weizen ab 6.Monat, 400 g; Rechtliche Kategorie: Beikost;",
       "department": "Lebensmittel",
       "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be",
-      "canonicalProduct": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be",
-      "canonicalId": "marke-mivolis-produktname-arzneitee-magen-darm-be-marke-mivolis-produktname-arzneitee-magen-darm-be",
-      "bundleKey": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be",
-      "key": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be",
-      "similarityKey": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be|Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be",
-      "exactMatchKey": "Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be|Marke: Mivolis; Produktname: Arzneitee, Magen & Darm Be|label:mivolis|size:18-g",
+      "subcategory": "Babynahrung",
+      "canonicalGroup": "Babybrei",
+      "canonicalProduct": "Babybrei",
+      "canonicalId": "babybrei-babybrei",
+      "bundleKey": "Babybrei",
+      "key": "Babybrei",
+      "similarityKey": "Babybrei|Babybrei",
+      "exactMatchKey": "Babybrei|Babybrei|label:nestle-cerelac|size:400-g",
       "semanticType": null,
-      "semanticGroupId": "marke-mivolis-produktname-arzneitee-magen-darm-be",
+      "semanticGroupId": "babybrei",
       "comparisonKey": null,
       "criticalAttributes": [],
       "useCase": "",
@@ -9673,354 +10214,14 @@
         "form": null
       },
       "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
+      "confidence": 0.97,
       "icon": "👶",
       "gtin": null,
-      "canonicalProductId": "mivolis-marke-mivolis-produktname-arzneitee-magen-darm-be-marke-mivolis-produktname-arzneitee-magen-darm-be-18-g",
+      "canonicalProductId": "nestle-cerelac-babybrei-babybrei-400-g",
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spülung 3in1 Dinorino, 250 ml;",
-      "brand": "CD",
-      "ean": null,
-      "size": "250 ml",
-      "currentPrice": 1.95,
-      "regularPrice": 1.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 7.8,
-      "baseUnit": "€/l",
-      "productUrl": "/p/d/3146125/cd-kinder-duschgel-shampoo-und-spuelung-3in1-dinorino",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1779367540/assets/pas/images/f0f200e3-b6fe-4d75-a902-e71a1e9fd990/cd-kinder-duschgel-shampoo-und-spuelung-3in1-dinorino",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 1.95,
-      "unit": 7.8,
-      "unitLabel": "€/l",
-      "bio": false,
-      "originalName": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spülung 3in1 Dinorino, 250 ml;",
-      "department": "Lebensmittel",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül",
-      "canonicalProduct": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül",
-      "canonicalId": "marke-cd-produktname-kinder-duschgel-shampoo-spul-marke-cd-produktname-kinder-duschgel-shampoo-spul",
-      "bundleKey": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül",
-      "key": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül",
-      "similarityKey": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül|Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül",
-      "exactMatchKey": "Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül|Marke: CD; Produktname: Kinder Duschgel, Shampoo & Spül|label:cd|size:250-ml",
-      "semanticType": null,
-      "semanticGroupId": "marke-cd-produktname-kinder-duschgel-shampoo-spul",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": "Flüssig",
-        "processing": null,
-        "packageCount": null,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "cd-marke-cd-produktname-kinder-duschgel-shampoo-spul-marke-cd-produktname-kinder-duschgel-shampoo-spul-250-ml",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack Kakao Waffeln ab 3 Jahren, 100 g;",
-      "brand": "FRUCHTBAR Pausenfreund",
-      "ean": null,
-      "size": "100 g",
-      "currentPrice": 2.45,
-      "regularPrice": 2.45,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 24.5,
-      "baseUnit": "€/kg",
-      "productUrl": "/p/d/3137491/fruchtbar-pausenfreund-kindersnack-kakao-waffeln-ab-3-jahren",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784082661/assets/pas/images/c20fdebf-268d-42e3-9fcd-24ad5b0b0554/fruchtbar-pausenfreund-kindersnack-kakao-waffeln-ab-3-jahren",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 2.45,
-      "unit": 24.5,
-      "unitLabel": "€/kg",
-      "bio": false,
-      "originalName": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack Kakao Waffeln ab 3 Jahren, 100 g;",
-      "department": "Lebensmittel",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack",
-      "canonicalProduct": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack",
-      "canonicalId": "marke-fruchtbar-pausenfreund-produktname-kindersnack-marke-fruchtbar-pausenfreund-produktname-kindersnack",
-      "bundleKey": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack",
-      "key": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack",
-      "similarityKey": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack|Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack",
-      "exactMatchKey": "Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack|Marke: FRUCHTBAR Pausenfreund; Produktname: Kindersnack|label:fruchtbar-pausenfreund|size:100-g",
-      "semanticType": null,
-      "semanticGroupId": "marke-fruchtbar-pausenfreund-produktname-kindersnack",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": null,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "fruchtbar-pausenfreund-marke-fruchtbar-pausenfreund-produktname-kindersnack-marke-fruchtbar-pausenfreund-produktname-kindersnack-100-g",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: babylove; Produktname: Schnuller Naturlatex, symmetrisch, beige/lila, Gr. 2, 5-18 Monate, 2 St;",
-      "brand": "babylove",
-      "ean": null,
-      "size": "2 St",
-      "currentPrice": 2.75,
-      "regularPrice": 2.75,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 1.38,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3124401/babylove-schnuller-naturlatex-symmetrisch-beige-lila-gr-2-5-18-monate",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1775168108/assets/pas/images/9dc11fe3-628e-4a7b-913a-e2508ac8eb97/babylove-schnuller-naturlatex-symmetrisch-beige-lila-gr-2-5-18-monate",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 2.75,
-      "unit": 1.38,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: babylove; Produktname: Schnuller Naturlatex, symmetrisch, beige/lila, Gr. 2, 5-18 Monate, 2 St;",
-      "department": "Lebensmittel",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: babylove; Produktname: Schnuller Naturlatex, sym",
-      "canonicalProduct": "Marke: babylove; Produktname: Schnuller Naturlatex, sym",
-      "canonicalId": "marke-babylove-produktname-schnuller-naturlatex-sym-marke-babylove-produktname-schnuller-naturlatex-sym-size-2",
-      "bundleKey": "Marke: babylove; Produktname: Schnuller Naturlatex, sym",
-      "key": "Marke: babylove; Produktname: Schnuller Naturlatex, sym",
-      "similarityKey": "Marke: babylove; Produktname: Schnuller Naturlatex, sym|Marke: babylove; Produktname: Schnuller Naturlatex, sym",
-      "exactMatchKey": "Marke: babylove; Produktname: Schnuller Naturlatex, sym|Marke: babylove; Produktname: Schnuller Naturlatex, sym|label:babylove|size:2-st",
-      "semanticType": null,
-      "semanticGroupId": "marke-babylove-produktname-schnuller-naturlatex-sym",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": "2",
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": 2,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "babylove-marke-babylove-produktname-schnuller-naturlatex-sym-marke-babylove-produktname-schnuller-naturlatex-sym-2-st",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 5+ (12-17 kg) Monatsbox, 148 St;",
-      "brand": "Pampers premium protection",
-      "ean": null,
-      "size": "17 kg",
-      "currentPrice": 59.95,
-      "regularPrice": 59.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 0.41,
-      "baseUnit": "€/Stk.",
-      "productUrl": "/p/d/3149355/pampers-premium-protection-windeln-gr-5-12-17-kg-monatsbox",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1783589708/assets/pas/images/262b1365-08ce-41d1-9fc8-8023672c1b99/pampers-premium-protection-windeln-gr-5-12-17-kg-monatsbox",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 59.95,
-      "unit": 0.41,
-      "unitLabel": "€/Stk.",
-      "bio": false,
-      "originalName": "Marke: Pampers premium protection; Produktname: Windeln Gr. 5+ (12-17 kg) Monatsbox, 148 St;",
-      "department": "Drogerie",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Wickeln",
-      "canonicalGroup": "Windeln",
-      "canonicalProduct": "Windeln Gr. 5",
-      "canonicalId": "windeln-diaperform-windeln-diapersize-5-weightminkg-12-weightmaxkg-17",
-      "bundleKey": "Windeln Gr. 5",
-      "key": "Windeln Gr. 5",
-      "similarityKey": "semantic:windeln|diaperForm:windeln|diaperSize:5|weightMinKg:12|weightMaxKg:17",
-      "exactMatchKey": "semantic:windeln|diaperForm:windeln|diaperSize:5|weightMinKg:12|weightMaxKg:17|label:pampers-premium-protection|size:17-kg",
-      "semanticType": "Windeln",
-      "semanticGroupId": "windeln-gr-5",
-      "comparisonKey": "windeln|diaperForm:windeln|diaperSize:5|weightMinKg:12|weightMaxKg:17",
-      "criticalAttributes": [
-        "diaperForm",
-        "diaperSize",
-        "weightMinKg",
-        "weightMaxKg"
-      ],
-      "useCase": "Aufnahme von Ausscheidungen bei Babys/Kleinkindern",
-      "semanticConfidence": 0.99,
-      "organic": false,
-      "variant": "Windeln",
-      "attributes": {
-        "diaperSize": "5",
-        "weightMinKg": 12,
-        "weightMaxKg": 17,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": "Windeln",
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": 148,
-        "form": "Windeln"
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.99,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "pampers-premium-protection-windeln-windeln-gr-5-diaperform-windeln-diapersize-5-weightminkg-12-weightmaxkg-17-17-kg",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: fehn; Produktname: Rasselring Raupe, 1 St;",
-      "brand": "fehn",
-      "ean": null,
-      "size": "1 St",
-      "currentPrice": 4.9,
-      "regularPrice": 4.9,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": null,
-      "baseUnit": null,
-      "productUrl": "/p/d/3121984/fehn-rasselring-raupe",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1778571591/assets/pas/images/c8b521b4-aa43-42fa-abb0-3414f44c8958/fehn-rasselring-raupe",
-      "sourceUrl": "https://www.dm.de/baby-und-kind",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Baby & Kleinkind",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Baby & Kleinkind",
-      "price": 4.9,
-      "unit": 4.9,
-      "unitLabel": "€/Packung",
-      "bio": false,
-      "originalName": "Marke: fehn; Produktname: Rasselring Raupe, 1 St;",
-      "department": "Lebensmittel",
-      "category": "Baby & Kleinkind",
-      "subcategory": "Baby & Kleinkind",
-      "canonicalGroup": "Marke: fehn; Produktname: Rasselring Raupe, 1 St;",
-      "canonicalProduct": "Marke: fehn; Produktname: Rasselring Raupe, 1 St;",
-      "canonicalId": "marke-fehn-produktname-rasselring-raupe-1-st-marke-fehn-produktname-rasselring-raupe-1-st",
-      "bundleKey": "Marke: fehn; Produktname: Rasselring Raupe, 1 St;",
-      "key": "Marke: fehn; Produktname: Rasselring Raupe, 1 St;",
-      "similarityKey": "Marke: fehn; Produktname: Rasselring Raupe, 1 St;|Marke: fehn; Produktname: Rasselring Raupe, 1 St;",
-      "exactMatchKey": "Marke: fehn; Produktname: Rasselring Raupe, 1 St;|Marke: fehn; Produktname: Rasselring Raupe, 1 St;|label:fehn|size:1-st",
-      "semanticType": null,
-      "semanticGroupId": "marke-fehn-produktname-rasselring-raupe-1-st",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": 1,
-        "form": null
-      },
-      "marketSection": "Baby & Kleinkind",
-      "confidence": 0.58,
-      "icon": "👶",
-      "gtin": null,
-      "canonicalProductId": "fehn-marke-fehn-produktname-rasselring-raupe-1-st-marke-fehn-produktname-rasselring-raupe-1-st-1-st",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: HiPP; Produktname: Anfangsmilch Pre Combiotik von Geburt an, 600 g; Rechtliche Kategorie: Säuglingsanfangsnahrung;",
@@ -10089,7 +10290,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Pampers; Produktname: Feuchttücher 99 % water (18x60 St), 1.080 St;",
@@ -10156,7 +10357,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 5 Junior (11-16 kg) Monatsbox, 152 St;",
@@ -10228,7 +10429,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Pampers; Produktname: Feuchttücher 99 % water (4x60 St), 240 St;",
@@ -10295,7 +10496,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 4 Maxi (9-14 kg) Monatsbox, 174 St;",
@@ -10367,7 +10568,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Aptamil; Produktname: Anfangsmilch Pre Pronutra von Geburt an, 1,2 kg; Rechtliche Kategorie: Säuglingsanfangsnahrung;",
@@ -10436,7 +10637,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Pampers; Produktname: Feuchttücher aqua soft touch (18x48 St), 864 St;",
@@ -10503,7 +10704,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 3 Midi (6-10 kg) Monatsbox, 204 St;",
@@ -10575,7 +10776,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Pampers premium protection; Produktname: Windeln Gr. 6 Extra Large (13+ kg) Monatsbox, 144 St;",
@@ -10647,7 +10848,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Bebivita; Produktname: Anfangsmilch Pre von Geburt an, 500 g; Rechtliche Kategorie: Säuglingsanfangsnahrung;",
@@ -10716,7 +10917,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Neuheiten von babylove",
@@ -10783,7 +10984,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Feuchte Waschlappen, 80 St;",
@@ -10850,7 +11051,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Milchpulverbox mit Portionierlöffel 800 g, 1 St;",
@@ -10917,7 +11118,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Schwimmwindeln Disney Gr. Large (10-14 kg), 12 St;",
@@ -10986,7 +11187,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Sonnenspray Baby ultra sensitive LSF 50+, 150 ml;",
@@ -11053,7 +11254,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Windelbeutel mit Frischeduft, 100 St;",
@@ -11120,7 +11321,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Nagelschere Baby antiallergen, 1 St;",
@@ -11187,7 +11388,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Sicherheits-Wattestäbchen, 72 St;",
@@ -11254,7 +11455,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Flaschenbürste Premium, 1 St;",
@@ -11321,7 +11522,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Snack-Piekser, 10 St;",
@@ -11388,7 +11589,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Reinigungs Wattepads, 60 St;",
@@ -11455,7 +11656,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: babylove; Produktname: Schwimmwindeln Disney Gr. Extralarge (13+ kg), 12 St;",
@@ -11524,7 +11725,74 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Gesponsert",
+      "brand": "",
+      "ean": null,
+      "size": "28 St",
+      "currentPrice": 1.05,
+      "regularPrice": 1.05,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": null,
+      "baseUnit": null,
+      "productUrl": "/p/d/1886217/nestle-bebacare-mama-lacto-kapseln-28-st",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1775720724/assets/pas/images/e85eff5e-edf6-431d-b098-cc4a78aa37df/nestle-bebacare-mama-lacto-kapseln-28-st",
+      "sourceUrl": "https://www.dm.de/baby-und-kind",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Baby & Kleinkind",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Baby & Kleinkind",
+      "price": 1.05,
+      "unit": 1.05,
+      "unitLabel": "€/Packung",
+      "bio": false,
+      "originalName": "Gesponsert",
+      "department": "Lebensmittel",
+      "category": "Baby & Kleinkind",
+      "subcategory": "Baby & Kleinkind",
+      "canonicalGroup": "Gesponsert",
+      "canonicalProduct": "Gesponsert",
+      "canonicalId": "gesponsert-gesponsert",
+      "bundleKey": "Gesponsert",
+      "key": "Gesponsert",
+      "similarityKey": "Gesponsert|Gesponsert",
+      "exactMatchKey": "Gesponsert|Gesponsert|label:gesponsert|size:28-st",
+      "semanticType": null,
+      "semanticGroupId": "gesponsert",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": 28,
+        "form": null
+      },
+      "marketSection": "Baby & Kleinkind",
+      "confidence": 0.58,
+      "icon": "👶",
+      "gtin": null,
+      "canonicalProductId": "gesponsert-gesponsert-gesponsert-28-st",
+      "identitySource": "semantic_name",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Neu im Sortiment",
@@ -11591,7 +11859,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Trockenfrüchte, Mangostücke gefriergetrocknet, 25 g;",
@@ -11658,7 +11926,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Pasta Bucatini No 6, 500 g;",
@@ -11725,7 +11993,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Barebells; Produktname: Proteinriegel Pistachio Spread, 45 g;",
@@ -11792,7 +12060,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Vitamin Well; Produktname: Erfrischungsgetränk, Zero Lemon, 500 ml EINWEG;",
@@ -11859,7 +12127,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Mivolis; Produktname: Erythrit, 500 g;",
@@ -11926,7 +12194,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: pukka; Produktname: Grüner Tee Matcha, Vanilla Chai, 30 g;",
@@ -11993,7 +12261,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Tomatensauce Ziegenfrischkäse, 320 ml;",
@@ -12060,74 +12328,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: Mivolis; Produktname: Bonbon, Himbeere-Aronia, zuckerfrei, 50 g;",
-      "brand": "Mivolis",
-      "ean": null,
-      "size": "50 g",
-      "currentPrice": 0.75,
-      "regularPrice": 0.75,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 15,
-      "baseUnit": "€/kg",
-      "productUrl": "/p/d/3144236/mivolis-bonbon-himbeere-aronia-zuckerfrei",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1784082133/assets/pas/images/5b6b01d6-9be0-4131-b42d-58538b434bb5/mivolis-bonbon-himbeere-aronia-zuckerfrei",
-      "sourceUrl": "https://www.dm.de/ernaehrung",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Lebensmittel",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 0.75,
-      "unit": 15,
-      "unitLabel": "€/kg",
-      "bio": false,
-      "originalName": "Marke: Mivolis; Produktname: Bonbon, Himbeere-Aronia, zuckerfrei, 50 g;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Mivolis; Produktname: Bonbon, Himbeere-Aronia, z",
-      "canonicalProduct": "Marke: Mivolis; Produktname: Bonbon, Himbeere-Aronia, z",
-      "canonicalId": "marke-mivolis-produktname-bonbon-himbeere-aronia-z-marke-mivolis-produktname-bonbon-himbeere-aronia-z",
-      "bundleKey": "Marke: Mivolis; Produktname: Bonbon, Himbeere-Aronia, z",
-      "key": "Marke: Mivolis; Produktname: Bonbon, Himbeere-Aronia, z",
-      "similarityKey": "Marke: Mivolis; Produktname: Bonbon, Himbeere-Aronia, z|Marke: Mivolis; Produktname: Bonbon, Himbeere-Aronia, z",
-      "exactMatchKey": "Marke: Mivolis; Produktname: Bonbon, Himbeere-Aronia, z|Marke: Mivolis; Produktname: Bonbon, Himbeere-Aronia, z|label:mivolis|size:50-g",
-      "semanticType": null,
-      "semanticGroupId": "marke-mivolis-produktname-bonbon-himbeere-aronia-z",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": null,
-        "processing": null,
-        "packageCount": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "gtin": null,
-      "canonicalProductId": "mivolis-marke-mivolis-produktname-bonbon-himbeere-aronia-z-marke-mivolis-produktname-bonbon-himbeere-aronia-z-50-g",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Seeberger; Produktname: Adventskalender 2026, O du fröhliche Snackzeit, 1 St;",
@@ -12194,7 +12395,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Mivolis; Produktname: Arzneitee, Brennnessel Tee (12 Beutel), 21,6 g; Rechtliche Kategorie: Arzneimittel;",
@@ -12261,7 +12462,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: EXTRA; Produktname: Kaugummi, Strong Mint, zuckerfrei, 50 St;",
@@ -12328,7 +12529,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Pasta Gigli, 500 g;",
@@ -12395,7 +12596,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: oatsome; Produktname: Karamell-Keks Creme, Lovely Caramel, 190 g;",
@@ -12462,7 +12663,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Naduria; Produktname: Proteinpulver Hanf, Mandel & Macadamia, ungesüßt, vegan, 240 g;",
@@ -12529,7 +12730,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Ivorell; Produktname: Erfrischungsgetränk, Wasser+ Protein, Mango-Maracuja, 330 ml EINWEG;",
@@ -12596,7 +12797,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: pukka; Produktname: Grüner Tee Matcha, Tulsi Lemon, 30 g;",
@@ -12663,7 +12864,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: LaSelva; Produktname: Pesto, Zitrone, 130 g;",
@@ -12730,7 +12931,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Schoko Adventskalender 2026, 1 St;",
@@ -12797,7 +12998,74 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12 Beutel), 24 g;",
+      "brand": "Mivolis",
+      "ean": null,
+      "size": "24 g",
+      "currentPrice": 0.7,
+      "regularPrice": 0.7,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 29.17,
+      "baseUnit": "€/kg",
+      "productUrl": "/p/d/3132400/mivolis-kraeutertee-frauen-tee-12-beutel",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1780786075/assets/pas/images/8378cc10-873d-4ad8-aa81-604c3171f2be/mivolis-kraeutertee-frauen-tee-12-beutel",
+      "sourceUrl": "https://www.dm.de/ernaehrung",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Lebensmittel",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Lebensmittel",
+      "price": 0.7,
+      "unit": 29.17,
+      "unitLabel": "€/kg",
+      "bio": false,
+      "originalName": "Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12 Beutel), 24 g;",
+      "department": "Lebensmittel",
+      "category": "Lebensmittel",
+      "subcategory": "Lebensmittel",
+      "canonicalGroup": "Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12",
+      "canonicalProduct": "Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12",
+      "canonicalId": "marke-mivolis-produktname-krautertee-frauen-tee-12-marke-mivolis-produktname-krautertee-frauen-tee-12",
+      "bundleKey": "Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12",
+      "key": "Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12",
+      "similarityKey": "Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12|Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12",
+      "exactMatchKey": "Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12|Marke: Mivolis; Produktname: Kräutertee, Frauen Tee (12|label:mivolis|size:24-g",
+      "semanticType": null,
+      "semanticGroupId": "marke-mivolis-produktname-krautertee-frauen-tee-12",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": null,
+        "form": null
+      },
+      "marketSection": "Lebensmittel",
+      "confidence": 0.58,
+      "icon": "🛒",
+      "gtin": null,
+      "canonicalProductId": "mivolis-marke-mivolis-produktname-krautertee-frauen-tee-12-marke-mivolis-produktname-krautertee-frauen-tee-12-24-g",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Made Good; Produktname: Organic Granola Bites, Chocolate Chip (5 Stück), 120 g;",
@@ -12864,7 +13132,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Beauty Sweeties; Produktname: Fruchtgummi, Matcha-Sonnen, 125 g;",
@@ -12931,7 +13199,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Mandelmus, braun, 250 g;",
@@ -12998,7 +13266,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Bourbon-Vanille gemahlen, 5 g;",
@@ -13065,7 +13333,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Mandelmus weiß, 250 g;",
@@ -13132,7 +13400,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Haferflocken, Feinblatt, glutenfrei, 500 g;",
@@ -13199,7 +13467,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Sportness; Produktname: Zero Sirup Pfirsich Eistee Geschmack, 65 ml;",
@@ -13266,7 +13534,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Trockenfrüchte, Gojibeeren sonnengetrocknet, 150 g;",
@@ -13333,7 +13601,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: oatsome; Produktname: Haselnussmus, \"Happy Hazel\" Feelgood Spreads, Haselnuss Kakao, 200 g;",
@@ -13400,7 +13668,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Dinkelflakes, 400 g;",
@@ -13467,7 +13735,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Barebells; Produktname: Proteinriegel Soft Cinnamon Bun, 55 g;",
@@ -13534,7 +13802,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Vanillezucker mit Bourbon-Vanille (4x8g), 32 g;",
@@ -13601,74 +13869,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
-    },
-    {
-      "name": "Marke: Sportness; Produktname: Proteinriegel 30% Natural Protein, Salty Chocolate Nut Geschmack, 40 g;",
-      "brand": "Sportness",
-      "ean": null,
-      "size": "40 g",
-      "currentPrice": 0.95,
-      "regularPrice": 0.95,
-      "offerPrice": null,
-      "isOffer": false,
-      "basePrice": 23.75,
-      "baseUnit": "€/kg",
-      "productUrl": "/p/d/1697548/sportness-proteinriegel-30-prozent-natural-protein-salty-chocolate-nut-geschmack",
-      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1747475817/assets/pas/images/616daa4b-cf9d-4d17-8050-d429755b9004/sportness-proteinriegel-30-prozent-natural-protein-salty-chocolate-nut-geschmack",
-      "sourceUrl": "https://www.dm.de/ernaehrung",
-      "sourceType": "official_catalog",
-      "sourceCategory": "Lebensmittel",
-      "store": "dm",
-      "market": "Katalog",
-      "cat": "Lebensmittel",
-      "price": 0.95,
-      "unit": 23.75,
-      "unitLabel": "€/kg",
-      "bio": false,
-      "originalName": "Marke: Sportness; Produktname: Proteinriegel 30% Natural Protein, Salty Chocolate Nut Geschmack, 40 g;",
-      "department": "Lebensmittel",
-      "category": "Lebensmittel",
-      "subcategory": "Lebensmittel",
-      "canonicalGroup": "Marke: Sportness; Produktname: Proteinriegel 30% Natura",
-      "canonicalProduct": "Marke: Sportness; Produktname: Proteinriegel 30% Natura",
-      "canonicalId": "marke-sportness-produktname-proteinriegel-30-natura-marke-sportness-produktname-proteinriegel-30-natura",
-      "bundleKey": "Marke: Sportness; Produktname: Proteinriegel 30% Natura",
-      "key": "Marke: Sportness; Produktname: Proteinriegel 30% Natura",
-      "similarityKey": "Marke: Sportness; Produktname: Proteinriegel 30% Natura|Marke: Sportness; Produktname: Proteinriegel 30% Natura",
-      "exactMatchKey": "Marke: Sportness; Produktname: Proteinriegel 30% Natura|Marke: Sportness; Produktname: Proteinriegel 30% Natura|label:sportness|size:40-g",
-      "semanticType": null,
-      "semanticGroupId": "marke-sportness-produktname-proteinriegel-30-natura",
-      "comparisonKey": null,
-      "criticalAttributes": [],
-      "useCase": "",
-      "semanticConfidence": null,
-      "organic": false,
-      "variant": "",
-      "attributes": {
-        "diaperSize": null,
-        "weightMinKg": null,
-        "weightMaxKg": null,
-        "fatContent": null,
-        "washLoads": null,
-        "babyStage": null,
-        "animal": null,
-        "feedForm": null,
-        "diaperForm": null,
-        "detergentForm": "Flüssig",
-        "processing": null,
-        "packageCount": null,
-        "form": null
-      },
-      "marketSection": "Lebensmittel",
-      "confidence": 0.58,
-      "icon": "🛒",
-      "gtin": null,
-      "canonicalProductId": "sportness-marke-sportness-produktname-proteinriegel-30-natura-marke-sportness-produktname-proteinriegel-30-natura-40-g",
-      "identitySource": "semantic_brand",
-      "availability": null,
-      "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Frusano; Produktname: Crispies, Reis, 125 g;",
@@ -13735,7 +13936,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: EXTRA; Produktname: Kaugummi, Sweet Mint, zuckerfrei, 50 St;",
@@ -13802,7 +14003,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: ESN; Produktname: Ultrapure Creatine, 250 g; Rechtliche Kategorie: Nahrungsergänzungsmittel;",
@@ -13869,7 +14070,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: HEIMATGUT; Produktname: Linsenchips mit Meersalz, 75 g;",
@@ -13936,7 +14137,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: dmBio; Produktname: Linsenwaffeln, gesalzen, 100 g;",
@@ -14003,7 +14204,74 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
+    },
+    {
+      "name": "Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten Granola, 500 g;",
+      "brand": "dmBio",
+      "ean": null,
+      "size": "500 g",
+      "currentPrice": 3.45,
+      "regularPrice": 3.45,
+      "offerPrice": null,
+      "isOffer": false,
+      "basePrice": 6.9,
+      "baseUnit": "€/kg",
+      "productUrl": "/p/d/1494147/dmbio-knuspermuesli-kerne-und-saaten-granola",
+      "image": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_320,w_320/v1775169279/assets/pas/images/03d0f4e5-574b-40a9-9ab3-8753f42b5df8/dmbio-knuspermuesli-kerne-und-saaten-granola",
+      "sourceUrl": "https://www.dm.de/ernaehrung",
+      "sourceType": "official_catalog",
+      "sourceCategory": "Lebensmittel",
+      "store": "dm",
+      "market": "Katalog",
+      "cat": "Lebensmittel",
+      "price": 3.45,
+      "unit": 6.9,
+      "unitLabel": "€/kg",
+      "bio": false,
+      "originalName": "Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten Granola, 500 g;",
+      "department": "Lebensmittel",
+      "category": "Lebensmittel",
+      "subcategory": "Lebensmittel",
+      "canonicalGroup": "Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten",
+      "canonicalProduct": "Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten",
+      "canonicalId": "marke-dmbio-produktname-knuspermusli-kerne-saaten-marke-dmbio-produktname-knuspermusli-kerne-saaten",
+      "bundleKey": "Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten",
+      "key": "Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten",
+      "similarityKey": "Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten|Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten",
+      "exactMatchKey": "Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten|Marke: dmBio; Produktname: Knuspermüsli, Kerne & Saaten|label:dmbio|size:500-g",
+      "semanticType": null,
+      "semanticGroupId": "marke-dmbio-produktname-knuspermusli-kerne-saaten",
+      "comparisonKey": null,
+      "criticalAttributes": [],
+      "useCase": "",
+      "semanticConfidence": null,
+      "organic": false,
+      "variant": "",
+      "attributes": {
+        "diaperSize": null,
+        "weightMinKg": null,
+        "weightMaxKg": null,
+        "fatContent": null,
+        "washLoads": null,
+        "babyStage": null,
+        "animal": null,
+        "feedForm": null,
+        "diaperForm": null,
+        "detergentForm": null,
+        "processing": null,
+        "packageCount": null,
+        "form": null
+      },
+      "marketSection": "Lebensmittel",
+      "confidence": 0.58,
+      "icon": "🛒",
+      "gtin": null,
+      "canonicalProductId": "dmbio-marke-dmbio-produktname-knuspermusli-kerne-saaten-marke-dmbio-produktname-knuspermusli-kerne-saaten-500-g",
+      "identitySource": "semantic_brand",
+      "availability": null,
+      "filialAvailabilityKnown": false,
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Gesponsert",
@@ -14070,7 +14338,7 @@
       "identitySource": "semantic_name",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Neu im Sortiment",
@@ -14137,7 +14405,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Katzenleckerli Leberwurstcreme (8x10 g), 80 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -14204,7 +14472,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: 8in1; Produktname: Kausnack Hund super meaty, Größe L, 150 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -14271,7 +14539,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, sensitiv Multipack (12x85 g), 1,02 kg; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -14341,7 +14609,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Good Boy; Produktname: Kausnack Hund, Enten Happen, 75 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -14408,7 +14676,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze Mousse mit Lachs, Revelations, Multipack (4x75 g), 228 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -14478,7 +14746,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Kausnack Hund Twister reich an Huhn, 70 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -14545,7 +14813,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Ente & Hühnerleber in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -14615,7 +14883,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: PERFECT FIT; Produktname: Nassfutter Katze mit Huhn & Lachs, Indoor Multipack (12x85 g), 1.020 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -14685,7 +14953,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Whiskas; Produktname: Nassfutter Katze mit Hühnerleber & Thunfisch in Gelee, Multipack (6x50 g), 300 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -14755,7 +15023,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Trockenfutter Katze reich an Pute, 750 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -14825,7 +15093,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Purina Gourmet; Produktname: Nassfutter Katze, Truthahn, Ente, Lamm, Thunfisch, Perle - erlesene Streifen in Sauce, Multipack (8x85 g), 680 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -14895,7 +15163,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: PURINA ONE; Produktname: Nassfutter Katze mit Huhn, hydralife Multipack (6x50 g), 300 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -14965,7 +15233,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Katzenstreu Aktiv-Klumpstreu mit Aloe Vera Duft, Exquisit, 6 l;",
@@ -15032,7 +15300,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Katzenstreu, Ultra-Klumpstreu, 6 l;",
@@ -15099,7 +15367,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Katzenstreu, Holzstreu, 10 l;",
@@ -15166,7 +15434,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Good Boy; Produktname: Kausnack Hund Mega Kau-Twister mit Hӓhnchen, Adult, 70 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -15233,7 +15501,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Trockenfutter Katze reich an Huhn, Naturverliebt, 500 g; Rechtliche Kategorie: Alleinfuttermittel;",
@@ -15303,7 +15571,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Felix; Produktname: Nassfutter Katze mit Rind, Huhn & Lamm, Original Soup Time Multipack (6x48 g), 288 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -15373,7 +15641,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Good Boy; Produktname: Hundeleckerli Hähnchen Reis-Sticks, Adult, 90 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -15440,7 +15708,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Felix; Produktname: Nassfutter Katze mit Kabeljau, Thunfisch, Scholle, Original Soup Time, Multipack (6x48g), 288 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -15510,7 +15778,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     },
     {
       "name": "Marke: Dein Bestes; Produktname: Hundeleckerli Leberwurst, 75 g; Rechtliche Kategorie: Ergänzungsfuttermittel;",
@@ -15577,7 +15845,7 @@
       "identitySource": "semantic_brand",
       "availability": null,
       "filialAvailabilityKnown": false,
-      "importedAt": "2026-08-20T05:07:04.662Z"
+      "importedAt": "2026-08-20T06:46:01.827Z"
     }
   ]
 }
