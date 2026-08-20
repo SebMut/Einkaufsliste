@@ -1,6 +1,6 @@
 {
-  "schema": 2,
-  "generatedAt": "2026-08-20T14:55:52.899Z",
+  "schema": 3,
+  "generatedAt": "2026-08-20T15:00:37.501Z",
   "retailers": {
     "REWE": {
       "markets": {
@@ -11,16 +11,14 @@
             "ok": true,
             "products": 0,
             "totalResultCount": 0,
-            "totalPages": 0,
-            "market": null
+            "totalPages": 0
           },
           "none": {
             "status": 200,
             "ok": true,
             "products": 0,
             "totalResultCount": 0,
-            "totalPages": 0,
-            "market": null
+            "totalPages": 0
           }
         },
         "Aschheim-Dornach": {
@@ -30,16 +28,14 @@
             "ok": true,
             "products": 0,
             "totalResultCount": 0,
-            "totalPages": 0,
-            "market": null
+            "totalPages": 0
           },
           "none": {
             "status": 200,
             "ok": true,
             "products": 0,
             "totalResultCount": 0,
-            "totalPages": 0,
-            "market": null
+            "totalPages": 0
           }
         },
         "Aschheim": {
@@ -49,16 +45,14 @@
             "ok": true,
             "products": 255,
             "totalResultCount": 10000,
-            "totalPages": 40,
-            "market": null
+            "totalPages": 40
           },
           "none": {
             "status": 200,
             "ok": true,
             "products": 0,
             "totalResultCount": 0,
-            "totalPages": 0,
-            "market": null
+            "totalPages": 0
           }
         }
       }
@@ -68,52 +62,146 @@
         "status": 200,
         "ok": true,
         "finalUrl": "https://www.aldi-sued.de/produkte",
-        "bytes": 1066357,
+        "bytes": 1066358,
         "contentType": "text/html;charset=utf-8",
         "productLinks": 30,
         "sampleLinks": [
-          "https://www.aldi-sued.de/produkt/no-brand-doppio-tratto-primitivo-igt-0-75-l-000000000000182791",
-          "https://www.aldi-sued.de/produkt/king-s-crown-sonnenmais-285-g-000000000000192131",
-          "https://www.aldi-sued.de/produkt/milsani-h-schmand-200-g-000000000000202669",
-          "https://www.aldi-sued.de/produkt/milsani-emmentaler-250-g-000000000000202742",
-          "https://www.aldi-sued.de/produkt/coca-cola-cola-original-1-25-l-000000000000202753"
+          {
+            "url": "https://www.aldi-sued.de/produkt/no-brand-doppio-tratto-primitivo-igt-0-75-l-000000000000182791",
+            "text": "Doppio Tratto Primitivo IGT 0,75 l0,75 l(3,05 €/1 l) Spare 37 %2,29 €² 3,69 €"
+          },
+          {
+            "url": "https://www.aldi-sued.de/produkt/king-s-crown-sonnenmais-285-g-000000000000192131",
+            "text": "VeganKING'S CROWNSonnenmais 285 g0,29 KG/ATG(2,42 €/1 KG/ATG) Spare 22 %0,69 €² 0,89 €"
+          },
+          {
+            "url": "https://www.aldi-sued.de/produkt/milsani-h-schmand-200-g-000000000000202669",
+            "text": "MILSANIH-Schmand 200 g0,2 kg(2,75 €/1 kg) Spare 30 %0,55 €² 0,79 €"
+          },
+          {
+            "url": "https://www.aldi-sued.de/produkt/milsani-emmentaler-250-g-000000000000202742",
+            "text": "Vegetarisch KühlungMILSANIEmmentaler 250 g0,25 kg(7,16 €/1 kg) Spare 21 %1,79 €² 2,29 €"
+          },
+          {
+            "url": "https://www.aldi-sued.de/produkt/coca-cola-cola-original-1-25-l-000000000000202753",
+            "text": "COCA-COLACola Original 1,25 l1,25 l(0,79 €/1 l)0,99 €+ 0,25 € Pfand EINWEG"
+          }
         ],
         "jsonScriptSizes": [
           818056,
           262
         ],
-        "title": "Unsere Produkte | ALDI SÜD"
+        "title": "Unsere Produkte | ALDI SÜD",
+        "countHints": []
       },
       "variants": {
-        "page1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?page=1",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
+        "https://www.aldi-sued.de/produkte?page=2": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.aldi-sued.de/produkte?page=2",
+          "bytes": 1073729,
+          "contentType": "text/html;charset=utf-8",
+          "productLinks": 30,
+          "sampleLinks": [
+            {
+              "url": "https://www.aldi-sued.de/produkt/meine-metzgerei-puten-minifilet-400-g-000000000000717847",
+              "text": "KühlungMEINE METZGEREIPuten-Minifilet 400 g0,4 kg(11,48 €/1 kg) Spare 17 %4,59 €² 5,59 €"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/bbq-schweine-grillbauchscheiben-gewuerzt-500-g-000000000000718010",
+              "text": "KühlungBBQSchweine-Grillbauchscheiben, gewürzt 500 g0,5 kg(6,18 €/1 kg) Spare 18 %3,09 €² 3,79 €"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/meine-backwelt-kartoffelkruestchen-000000000000766102",
+              "text": "MEINE BACKWELTKartoffelkrüstchen Spare 35 %0,29 €² 0,45 €"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/bresso-bresso-150-g-kraeuter-000000000112409005",
+              "text": "KühlungBRESSOBresso 150 g, Kräuter0,15 kg(8,60 €/1 kg) Spare 46 %1,29 €² 2,39 €"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/bresso-bresso-150-g-kraeuter-der-provence-000000000112409006",
+              "text": "KühlungBRESSOBresso 150 g, Kräuter der Provence0,15 kg(8,60 €/1 kg) Spare 46 %1,29 €² 2,39 €"
+            }
+          ],
+          "jsonScriptSizes": [
+            817559,
+            262
+          ],
+          "title": "Unsere Produkte | ALDI SÜD - Page 2",
+          "countHints": []
         },
-        "page2": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?page=2",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
+        "https://www.aldi-sued.de/produkte?page=3": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.aldi-sued.de/produkte?page=3",
+          "bytes": 1078250,
+          "contentType": "text/html;charset=utf-8",
+          "productLinks": 30,
+          "sampleLinks": [
+            {
+              "url": "https://www.aldi-sued.de/produkt/milsani-schmelzkaesezubereitung-200-g-kraeuter-000000000202670002",
+              "text": "MILSANISchmelzkäsezubereitung 200 g, Kräuter0,2 kg(4,95 €/1 kg) Spare 33 %0,99 €² 1,49 €"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/milsani-schmelzkaesezubereitung-200-g-leicht-000000000202670003",
+              "text": "MILSANISchmelzkäsezubereitung 200 g, Leicht0,2 kg(4,95 €/1 kg) Spare 33 %0,99 €² 1,49 €"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/milsani-schmelzkaesezubereitung-200-g-gouda-000000000202670004",
+              "text": "MILSANISchmelzkäsezubereitung 200 g, Gouda0,2 kg(4,95 €/1 kg) Spare 33 %0,99 €² 1,49 €"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/milsani-sahnepudding-200-g-schokolade-000000000202695001",
+              "text": "KühlungMILSANISahnepudding 200 g, Schokolade0,2 kg(1,95 €/1 kg) Spare 20 %0,39 €² 0,49 €"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/milsani-sahnepudding-200-g-vanille-000000000202695002",
+              "text": "KühlungMILSANISahnepudding 200 g, Vanille0,2 kg(1,95 €/1 kg) Spare 20 %0,39 €² 0,49 €"
+            }
+          ],
+          "jsonScriptSizes": [
+            818739,
+            262
+          ],
+          "title": "Unsere Produkte | ALDI SÜD - Page 3",
+          "countHints": []
         },
-        "pageIndex1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?pageIndex=1",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
+        "https://www.aldi-sued.de/produkte?page=113": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.aldi-sued.de/produkte?page=113",
+          "bytes": 1069450,
+          "contentType": "text/html;charset=utf-8",
+          "productLinks": 30,
+          "sampleLinks": [
+            {
+              "url": "https://www.aldi-sued.de/produkt/original-wagner-piccolinis-270-g-salami-000000000748858001",
+              "text": "TiefkühlungORIGINAL WAGNERPiccolinis 270 g, Salami3,69 €"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/original-wagner-piccolinis-270-g-drei-kaese-000000000748858002",
+              "text": "Tiefkühlung VegetarischORIGINAL WAGNERPiccolinis 270 g, Drei-Käse3,69 €"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/sagrotan-waesche-hygienespueler-3-l-himmelsfrische-000000000748878001",
+              "text": "Verfügbar ab 21.08.2026 AktionSAGROTANWäsche-Hygienespüler 3 l, Himmelsfrische40 WL(0,15 €/1 WL)5,99 €¹"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/gardenline-frische-kraeuter-rosmarin-000000000748896001",
+              "text": "Verfügbar ab 27.08.2026GARDENLINEFrische Kräuter, Rosmarin2,49 €¹"
+            },
+            {
+              "url": "https://www.aldi-sued.de/produkt/gardenline-kraeuter-schnittlauch-000000000748904001",
+              "text": "Verfügbar ab 27.08.2026GARDENLINEKräuter, Schnittlauch1,49 €¹"
+            }
+          ],
+          "jsonScriptSizes": [
+            818656,
+            262
+          ],
+          "title": "Unsere Produkte | ALDI SÜD - Page 113",
+          "countHints": []
         }
       }
     },
@@ -126,45 +214,97 @@
         "contentType": "text/html;charset=UTF-8",
         "productLinks": 15,
         "sampleLinks": [
-          "https://www.penny.de/sortiment/food-for-future/fuer-die-schnelle-kueche/food-for-future-reis-nuggets-vegan",
-          "https://www.penny.de/sortiment/food-for-future/fuers-vegane-fruehstueck/food-for-future-genuss-scheiben-",
-          "https://www.penny.de/sortiment/naturgut/eiskalter-genuss/naturgut-bio-blattspinat",
-          "https://www.penny.de/sortiment/naturgut/fruehstueck/konfituere-himbeer",
-          "https://www.penny.de/sortiment/naturgut/auch-naschen-ist-erlaubt/haferriegel"
+          {
+            "url": "https://www.penny.de/sortiment/food-for-future/fuer-die-schnelle-kueche/food-for-future-reis-nuggets-vegan",
+            "text": "window.pageData.products[\"d567dc8e-51a4-4f18-ae94-c56ec951b6a6\"] = {\"id\":\"d567dc8e-51a4-4f18-ae94-c56ec951b6a6\",\"name\":\"food-for-future-reis-nuggets-vegan\",\"category\":\"fuer-die-schnelle-kueche\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"s"
+          },
+          {
+            "url": "https://www.penny.de/sortiment/food-for-future/fuers-vegane-fruehstueck/food-for-future-genuss-scheiben-",
+            "text": "window.pageData.products[\"fc26cd95-c4aa-41bb-a1a5-d076a701dda8\"] = {\"id\":\"fc26cd95-c4aa-41bb-a1a5-d076a701dda8\",\"name\":\"food-for-future-genuss-scheiben-\",\"category\":\"fuers-vegane-fruehstueck\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"sav"
+          },
+          {
+            "url": "https://www.penny.de/sortiment/naturgut/eiskalter-genuss/naturgut-bio-blattspinat",
+            "text": "window.pageData.products[\"737aef13-70ab-433a-8716-8fc943633b51\"] = {\"id\":\"737aef13-70ab-433a-8716-8fc943633b51\",\"name\":\"naturgut-bio-blattspinat\",\"category\":\"eiskalter-genuss\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"savingsPercent\":\"0."
+          },
+          {
+            "url": "https://www.penny.de/sortiment/naturgut/fruehstueck/konfituere-himbeer",
+            "text": "window.pageData.products[\"995ba284-ee0b-42f0-ac88-2da3cdc31ad2\"] = {\"id\":\"995ba284-ee0b-42f0-ac88-2da3cdc31ad2\",\"name\":\"konfituere-himbeer\",\"category\":\"fruehstueck\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"savingsPercent\":\"0.0000\",\"savi"
+          },
+          {
+            "url": "https://www.penny.de/sortiment/naturgut/auch-naschen-ist-erlaubt/haferriegel",
+            "text": "window.pageData.products[\"26271cf5-2552-463d-8799-665045b51ab5\"] = {\"id\":\"26271cf5-2552-463d-8799-665045b51ab5\",\"name\":\"haferriegel\",\"category\":\"auch-naschen-ist-erlaubt\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"savingsPercent\":\"0.0000\""
+          }
         ],
         "jsonScriptSizes": [],
-        "title": "Alle Eigenmarken-Produkte entdecken  | PENNY.de"
+        "title": "Alle Eigenmarken-Produkte entdecken  | PENNY.de",
+        "countHints": []
       },
       "variants": {
-        "page1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?page=1",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
+        "https://www.penny.de/sortiment?tx_solr%5Bpage%5D=2": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.penny.de/sortiment?tx_solr%5Bpage%5D=2",
+          "bytes": 479685,
+          "contentType": "text/html;charset=UTF-8",
+          "productLinks": 15,
+          "sampleLinks": [
+            {
+              "url": "https://www.penny.de/sortiment/food-for-future/fuer-die-schnelle-kueche/food-for-future-reis-nuggets-vegan",
+              "text": "window.pageData.products[\"d567dc8e-51a4-4f18-ae94-c56ec951b6a6\"] = {\"id\":\"d567dc8e-51a4-4f18-ae94-c56ec951b6a6\",\"name\":\"food-for-future-reis-nuggets-vegan\",\"category\":\"fuer-die-schnelle-kueche\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"s"
+            },
+            {
+              "url": "https://www.penny.de/sortiment/food-for-future/fuers-vegane-fruehstueck/food-for-future-genuss-scheiben-",
+              "text": "window.pageData.products[\"fc26cd95-c4aa-41bb-a1a5-d076a701dda8\"] = {\"id\":\"fc26cd95-c4aa-41bb-a1a5-d076a701dda8\",\"name\":\"food-for-future-genuss-scheiben-\",\"category\":\"fuers-vegane-fruehstueck\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"sav"
+            },
+            {
+              "url": "https://www.penny.de/sortiment/naturgut/eiskalter-genuss/naturgut-bio-blattspinat",
+              "text": "window.pageData.products[\"737aef13-70ab-433a-8716-8fc943633b51\"] = {\"id\":\"737aef13-70ab-433a-8716-8fc943633b51\",\"name\":\"naturgut-bio-blattspinat\",\"category\":\"eiskalter-genuss\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"savingsPercent\":\"0."
+            },
+            {
+              "url": "https://www.penny.de/sortiment/naturgut/fruehstueck/konfituere-himbeer",
+              "text": "window.pageData.products[\"995ba284-ee0b-42f0-ac88-2da3cdc31ad2\"] = {\"id\":\"995ba284-ee0b-42f0-ac88-2da3cdc31ad2\",\"name\":\"konfituere-himbeer\",\"category\":\"fruehstueck\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"savingsPercent\":\"0.0000\",\"savi"
+            },
+            {
+              "url": "https://www.penny.de/sortiment/naturgut/auch-naschen-ist-erlaubt/haferriegel",
+              "text": "window.pageData.products[\"26271cf5-2552-463d-8799-665045b51ab5\"] = {\"id\":\"26271cf5-2552-463d-8799-665045b51ab5\",\"name\":\"haferriegel\",\"category\":\"auch-naschen-ist-erlaubt\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"savingsPercent\":\"0.0000\""
+            }
+          ],
           "jsonScriptSizes": [],
-          "title": ""
+          "title": "Alle Eigenmarken-Produkte entdecken  | PENNY.de",
+          "countHints": []
         },
-        "page2": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?page=2",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
+        "https://www.penny.de/sortiment?page=2": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.penny.de/sortiment?page=2",
+          "bytes": 479685,
+          "contentType": "text/html;charset=UTF-8",
+          "productLinks": 15,
+          "sampleLinks": [
+            {
+              "url": "https://www.penny.de/sortiment/food-for-future/fuer-die-schnelle-kueche/food-for-future-reis-nuggets-vegan",
+              "text": "window.pageData.products[\"d567dc8e-51a4-4f18-ae94-c56ec951b6a6\"] = {\"id\":\"d567dc8e-51a4-4f18-ae94-c56ec951b6a6\",\"name\":\"food-for-future-reis-nuggets-vegan\",\"category\":\"fuer-die-schnelle-kueche\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"s"
+            },
+            {
+              "url": "https://www.penny.de/sortiment/food-for-future/fuers-vegane-fruehstueck/food-for-future-genuss-scheiben-",
+              "text": "window.pageData.products[\"fc26cd95-c4aa-41bb-a1a5-d076a701dda8\"] = {\"id\":\"fc26cd95-c4aa-41bb-a1a5-d076a701dda8\",\"name\":\"food-for-future-genuss-scheiben-\",\"category\":\"fuers-vegane-fruehstueck\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"sav"
+            },
+            {
+              "url": "https://www.penny.de/sortiment/naturgut/eiskalter-genuss/naturgut-bio-blattspinat",
+              "text": "window.pageData.products[\"737aef13-70ab-433a-8716-8fc943633b51\"] = {\"id\":\"737aef13-70ab-433a-8716-8fc943633b51\",\"name\":\"naturgut-bio-blattspinat\",\"category\":\"eiskalter-genuss\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"savingsPercent\":\"0."
+            },
+            {
+              "url": "https://www.penny.de/sortiment/naturgut/fruehstueck/konfituere-himbeer",
+              "text": "window.pageData.products[\"995ba284-ee0b-42f0-ac88-2da3cdc31ad2\"] = {\"id\":\"995ba284-ee0b-42f0-ac88-2da3cdc31ad2\",\"name\":\"konfituere-himbeer\",\"category\":\"fruehstueck\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"savingsPercent\":\"0.0000\",\"savi"
+            },
+            {
+              "url": "https://www.penny.de/sortiment/naturgut/auch-naschen-ist-erlaubt/haferriegel",
+              "text": "window.pageData.products[\"26271cf5-2552-463d-8799-665045b51ab5\"] = {\"id\":\"26271cf5-2552-463d-8799-665045b51ab5\",\"name\":\"haferriegel\",\"category\":\"auch-naschen-ist-erlaubt\",\"price\":\"not_set\",\"units\":1,\"rrp\":\"not_set\",\"savingsPercent\":\"0.0000\""
+            }
+          ],
           "jsonScriptSizes": [],
-          "title": ""
-        },
-        "pageIndex1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?pageIndex=1",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
+          "title": "Alle Eigenmarken-Produkte entdecken  | PENNY.de",
+          "countHints": []
         }
       }
     },
@@ -175,49 +315,40 @@
         "finalUrl": "https://www.lidl.de/c/lidl-plus-sortimentsliste/s10007380",
         "bytes": 163878,
         "contentType": "text/html;charset=utf-8",
-        "productLinks": 48,
-        "sampleLinks": [
-          "https://www.lidl.de/c/30-auf-parkside-performance/s10080471",
-          "https://www.lidl.de/c/online-prospekte/s10005610",
-          "https://www.lidl.de/c/lidl-plus-sortimentsliste/s10007380",
-          "https://www.lidl.de/c/essen-trinken/s10068374",
-          "https://www.lidl.de/c/wein-spirituosen/s10067766"
-        ],
+        "productLinks": 0,
+        "sampleLinks": [],
         "jsonScriptSizes": [
           153
         ],
-        "title": "Sortimentsliste - Lidl.de\nsearch"
+        "title": "Sortimentsliste - Lidl.de\nsearch",
+        "countHints": []
       },
       "variants": {
-        "page1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?page=1",
-          "bytes": 0,
+        "https://www.lidl.de/c/essen-trinken/s10068374": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.lidl.de/l/prospekte/latest-leaflet-f5771509-f19a-11e9-b196-005056ab0fb6/view/flyer/page/1",
+          "bytes": 1158,
+          "contentType": "text/html; charset=utf-8",
           "productLinks": 0,
           "sampleLinks": [],
           "jsonScriptSizes": [],
-          "title": ""
+          "title": "Leaflets",
+          "countHints": []
         },
-        "page2": {
-          "status": 0,
+        "https://www.lidl.de/c/baby-kind/s10069222": {
+          "status": 404,
           "ok": false,
-          "finalUrl": "?page=2",
-          "bytes": 0,
+          "finalUrl": "https://www.lidl.de/c/baby-kind/s10069222",
+          "bytes": 157507,
+          "contentType": "text/html;charset=utf-8",
           "productLinks": 0,
           "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
-        },
-        "pageIndex1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?pageIndex=1",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
+          "jsonScriptSizes": [
+            153
+          ],
+          "title": "search",
+          "countHints": []
         }
       }
     },
@@ -231,38 +362,33 @@
         "productLinks": 0,
         "sampleLinks": [],
         "jsonScriptSizes": [],
-        "title": "Client Challenge"
+        "title": "Client Challenge",
+        "countHints": []
       },
       "variants": {
-        "page1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?page=1",
-          "bytes": 0,
+        "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=1": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=1",
+          "bytes": 3038,
+          "contentType": "text/html; charset=utf-8",
           "productLinks": 0,
           "sampleLinks": [],
           "jsonScriptSizes": [],
-          "title": ""
+          "title": "Client Challenge",
+          "countHints": []
         },
-        "page2": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?page=2",
-          "bytes": 0,
+        "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=1": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=1",
+          "bytes": 3038,
+          "contentType": "text/html; charset=utf-8",
           "productLinks": 0,
           "sampleLinks": [],
           "jsonScriptSizes": [],
-          "title": ""
-        },
-        "pageIndex1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?pageIndex=1",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
+          "title": "Client Challenge",
+          "countHints": []
         }
       }
     },
@@ -271,15 +397,30 @@
         "status": 200,
         "ok": true,
         "finalUrl": "https://www.mueller.de/c/drogerie/alle-drogerie-produkte/",
-        "bytes": 1627274,
+        "bytes": 1627280,
         "contentType": "text/html; charset=utf-8",
         "productLinks": 60,
         "sampleLinks": [
-          "https://www.mueller.de/p/softstar-toilettenpapier-das-zuverlaessige-3-lagig-20x200-blatt-IPN2998372/",
-          "https://www.mueller.de/p/gillette-mach3-rasierklingen-2410830/",
-          "https://www.mueller.de/p/hipp-bio-milchnahrung-pre-bio-combiotik-540517/",
-          "https://www.mueller.de/p/softstar-toilettenpapier-das-zaertliche-4-lagig-16x200-blatt-IPN3051074/",
-          "https://www.mueller.de/p/softstar-toilettenpapier-das-zuverlaessige-3-lagig-10x200-blatt-IPN2998370/"
+          {
+            "url": "https://www.mueller.de/p/softstar-toilettenpapier-das-zuverlaessige-3-lagig-20x200-blatt-IPN2998372/",
+            "text": ""
+          },
+          {
+            "url": "https://www.mueller.de/p/gillette-mach3-rasierklingen-2410830/",
+            "text": ""
+          },
+          {
+            "url": "https://www.mueller.de/p/hipp-bio-milchnahrung-pre-bio-combiotik-540517/",
+            "text": ""
+          },
+          {
+            "url": "https://www.mueller.de/p/softstar-toilettenpapier-das-zaertliche-4-lagig-16x200-blatt-IPN3051074/",
+            "text": ""
+          },
+          {
+            "url": "https://www.mueller.de/p/softstar-toilettenpapier-das-zuverlaessige-3-lagig-10x200-blatt-IPN2998370/",
+            "text": ""
+          }
         ],
         "jsonScriptSizes": [
           24132,
@@ -288,83 +429,176 @@
           241,
           241
         ],
-        "title": "Alle Drogerie Produkte online bestellen | MÜLLER"
+        "title": "Alle Drogerie Produkte online bestellen | MÜLLER",
+        "countHints": [
+          15727
+        ]
       },
       "variants": {
-        "page1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?page=1",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
+        "https://www.mueller.de/c/drogerie/alle-drogerie-produkte/?p=2": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.mueller.de/c/drogerie/alle-drogerie-produkte/",
+          "bytes": 1627280,
+          "contentType": "text/html; charset=utf-8",
+          "productLinks": 60,
+          "sampleLinks": [
+            {
+              "url": "https://www.mueller.de/p/softstar-toilettenpapier-das-zuverlaessige-3-lagig-20x200-blatt-IPN2998372/",
+              "text": ""
+            },
+            {
+              "url": "https://www.mueller.de/p/gillette-mach3-rasierklingen-2410830/",
+              "text": ""
+            },
+            {
+              "url": "https://www.mueller.de/p/hipp-bio-milchnahrung-pre-bio-combiotik-540517/",
+              "text": ""
+            },
+            {
+              "url": "https://www.mueller.de/p/softstar-toilettenpapier-das-zaertliche-4-lagig-16x200-blatt-IPN3051074/",
+              "text": ""
+            },
+            {
+              "url": "https://www.mueller.de/p/softstar-toilettenpapier-das-zuverlaessige-3-lagig-10x200-blatt-IPN2998370/",
+              "text": ""
+            }
+          ],
+          "jsonScriptSizes": [
+            24132,
+            834,
+            402,
+            241,
+            241
+          ],
+          "title": "Alle Drogerie Produkte online bestellen | MÜLLER",
+          "countHints": [
+            15727
+          ]
         },
-        "page2": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?page=2",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
+        "https://www.mueller.de/c/drogerie/alle-drogerie-produkte/?page=2": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.mueller.de/c/drogerie/alle-drogerie-produkte/?page=2",
+          "bytes": 1621460,
+          "contentType": "text/html; charset=utf-8",
+          "productLinks": 60,
+          "sampleLinks": [
+            {
+              "url": "https://www.mueller.de/p/elvital-shampoo-glycolic-gloss-spiegelglanz-PPN3133549/",
+              "text": ""
+            },
+            {
+              "url": "https://www.mueller.de/p/zewa-wisch-weg-sparblatt-2389738/",
+              "text": ""
+            },
+            {
+              "url": "https://www.mueller.de/p/plantur-dmg-clinical-kopfhaut-serum-PPN3141793/",
+              "text": ""
+            },
+            {
+              "url": "https://www.mueller.de/p/lacalut-zahncreme-aktiv-496461/",
+              "text": ""
+            },
+            {
+              "url": "https://www.mueller.de/p/swiffer-duster-staubmagnet-nachfuellset-66676/",
+              "text": ""
+            }
+          ],
+          "jsonScriptSizes": [
+            23569,
+            834,
+            402,
+            241,
+            241
+          ],
+          "title": "Alle Drogerie Produkte online bestellen - Seite 2 | MÜLLER",
+          "countHints": [
+            15727
+          ]
         },
-        "pageIndex1": {
-          "status": 0,
+        "https://www.mueller.de/c/drogerie/alle-drogerie-produkte/?p=261": {
+          "status": 403,
           "ok": false,
-          "finalUrl": "?pageIndex=1",
-          "bytes": 0,
+          "finalUrl": "https://www.mueller.de/c/drogerie/alle-drogerie-produkte/?p=261",
+          "bytes": 3038,
+          "contentType": "text/html; charset=utf-8",
           "productLinks": 0,
           "sampleLinks": [],
           "jsonScriptSizes": [],
-          "title": ""
+          "title": "Client Challenge",
+          "countHints": []
         }
       }
     },
     "EDEKA": {
       "base": {
-        "status": 404,
-        "ok": false,
-        "finalUrl": "https://www.edeka.de/unsere-marken/produkte.jsp",
-        "bytes": 27009,
+        "status": 200,
+        "ok": true,
+        "finalUrl": "https://www.edeka.de/",
+        "bytes": 128412,
         "contentType": "text/html; charset=utf-8",
-        "productLinks": 0,
-        "sampleLinks": [],
-        "jsonScriptSizes": [],
-        "title": "EDEKA - Wir lieben Lebensmittel"
+        "productLinks": 1,
+        "sampleLinks": [
+          {
+            "url": "https://www.edeka.de/unsere-marken/produkte/index.jsp",
+            "text": "Produktsuche"
+          }
+        ],
+        "jsonScriptSizes": [
+          813,
+          261,
+          122,
+          6
+        ],
+        "title": "EDEKA – Wir lieben Lebensmittel",
+        "countHints": []
       },
       "variants": {
-        "page1": {
-          "status": 0,
+        "https://www.edeka.de/unsere-marken/edeka-herzstuecke/produkte.jsp": {
+          "status": 404,
           "ok": false,
-          "finalUrl": "?page=1",
-          "bytes": 0,
+          "finalUrl": "https://www.edeka.de/unsere-marken/edeka-herzstuecke/produkte.jsp",
+          "bytes": 27009,
+          "contentType": "text/html; charset=utf-8",
           "productLinks": 0,
           "sampleLinks": [],
           "jsonScriptSizes": [],
-          "title": ""
+          "title": "EDEKA - Wir lieben Lebensmittel",
+          "countHints": []
         },
-        "page2": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?page=2",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
+        "https://www.edeka24.de/Lebensmittel/": {
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.edeka24.de/Lebensmittel/",
+          "bytes": 764842,
+          "contentType": "text/html; charset=UTF-8",
+          "productLinks": 35,
+          "sampleLinks": [
+            {
+              "url": "https://www.edeka24.de/Lebensmittel/Sossen/Fix-Produkte/",
+              "text": "Fix-Produkte"
+            },
+            {
+              "url": "https://www.edeka24.de/Lebensmittel/Beilagen/Knoedel-Kartoffelprodukte/",
+              "text": "Knödel-Kartoffelprodukte"
+            },
+            {
+              "url": "https://www.edeka24.de/Bio-Produkte/Bio-Marken/EDEKA-Bio/",
+              "text": "EDEKA Bio"
+            },
+            {
+              "url": "https://www.edeka24.de/Bio-Produkte/Bio-Marken/Bauckhof/",
+              "text": "Bauckhof"
+            },
+            {
+              "url": "https://www.edeka24.de/Bio-Produkte/Bio-Marken/BESH-Bio-Konserven/",
+              "text": "BESH Bio-Konserven"
+            }
+          ],
           "jsonScriptSizes": [],
-          "title": ""
-        },
-        "pageIndex1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?pageIndex=1",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
+          "title": "EDEKA24 | LebensmittelSucheWarenkorbWarenkorbSucheWarenkorbWarenkorb",
+          "countHints": []
         }
       }
     },
@@ -380,38 +614,33 @@
         "jsonScriptSizes": [
           2732
         ],
-        "title": "Getränkemarkt München mit besonderer Bierauswahl - Getränke Haußmann"
+        "title": "Getränkemarkt München mit besonderer Bierauswahl - Getränke Haußmann",
+        "countHints": []
       },
       "variants": {
-        "page1": {
-          "status": 0,
+        "https://www.getraenke-haussmann.de/biersortiment/": {
+          "status": 404,
           "ok": false,
-          "finalUrl": "?page=1",
-          "bytes": 0,
+          "finalUrl": "https://www.getraenke-haussmann.de/biersortiment/",
+          "bytes": 34440,
+          "contentType": "text/html; charset=UTF-8",
           "productLinks": 0,
           "sampleLinks": [],
           "jsonScriptSizes": [],
-          "title": ""
+          "title": "Seite nicht gefunden - Getränke Haußmann",
+          "countHints": []
         },
-        "page2": {
-          "status": 0,
+        "https://www.getraenke-haussmann.de/getraenkesortiment/": {
+          "status": 404,
           "ok": false,
-          "finalUrl": "?page=2",
-          "bytes": 0,
+          "finalUrl": "https://www.getraenke-haussmann.de/getraenkesortiment/",
+          "bytes": 34440,
+          "contentType": "text/html; charset=UTF-8",
           "productLinks": 0,
           "sampleLinks": [],
           "jsonScriptSizes": [],
-          "title": ""
-        },
-        "pageIndex1": {
-          "status": 0,
-          "ok": false,
-          "finalUrl": "?pageIndex=1",
-          "bytes": 0,
-          "productLinks": 0,
-          "sampleLinks": [],
-          "jsonScriptSizes": [],
-          "title": ""
+          "title": "Seite nicht gefunden - Getränke Haußmann",
+          "countHints": []
         }
       }
     },
@@ -455,9 +684,9 @@
         },
         "Haar": {
           "id": "110000",
-          "status": 200,
-          "count": 1786,
-          "products": 1
+          "status": 429,
+          "count": null,
+          "products": 0
         }
       }
     }
