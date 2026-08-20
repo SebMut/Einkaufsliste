@@ -10,7 +10,6 @@ on:
       - 'importer/**'
       - 'scripts/fix-product-visibility.mjs'
       - 'scripts/fix-mobile-overflow.mjs'
-      - 'scripts/add-grundlebensmittel-navigation.mjs'
       - '.github/workflows/test-suite.yml'
 
 permissions:
@@ -45,13 +44,10 @@ jobs:
           else
             node scripts/fix-mobile-overflow.mjs
           fi
-      - name: Navigation zu Unsere Grundlebensmittel sicherstellen
+      - name: Grundlebensmittel-Navigation prüfen
         run: |
-          if grep -q 'href="./grundlebensmittel.html"' index.html; then
-            echo 'Bereits aktiv.'
-          else
-            node scripts/add-grundlebensmittel-navigation.mjs
-          fi
+          grep -q 'data-staples-nav="1"' index.html
+          grep -q 'href="./grundlebensmittel.html"' index.html
       - name: Gefundenen Semantik-Randfall idempotent korrigieren
         run: |
           python3 - <<'PY'
