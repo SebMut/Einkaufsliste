@@ -38,12 +38,15 @@ async function runViewport(label,viewport){
 
   const initialCards=await page.locator('.card').count();
   assert(initialCards>0,`${label}: keine Produktkarten`);
-  assert(await page.locator('#productCount').textContent()!=='0',`${label}: Produktgruppen-Zähler blieb 0`);
+  assert(await page.locator('#productCount').textContent()!=='0',`${label}: Produkte-Zähler blieb 0`);
 
   await page.locator('#q').fill('Milch');
-  await page.waitForTimeout(250);
+  await page.waitForTimeout(300);
   const filteredStatus=await page.locator('#status').textContent();
-  assert(/Produktgruppen/.test(filteredStatus||''),`${label}: Suche aktualisiert Status nicht`);
+  const milkCards=await page.locator('.card').count();
+  assert(/Produkte/.test(filteredStatus||''),`${label}: Suche aktualisiert Produktstatus nicht`);
+  assert(!/Produktgruppen/.test(filteredStatus||''),`${label}: alte Produktgruppen-Anzeige ist noch aktiv`);
+  assert(milkCards>=2,`${label}: Milchsuche zeigt nur ${milkCards} konkrete Produktkarte(n)`);
   await page.locator('#q').fill('');
   await page.waitForTimeout(250);
 
@@ -82,7 +85,7 @@ async function runViewport(label,viewport){
   assert(overflow<=3,`${label}: horizontaler Überlauf ${overflow}px`);
   assert(pageErrors.length===0,`${label}: JavaScript-Fehler: ${pageErrors.join(' | ')}`);
 
-  const result={label,viewport,initialCards,filteredStatus,overflow,pageErrors};
+  const result={label,viewport,initialCards,milkCards,filteredStatus,overflow,pageErrors};
   results.push(result);
   await context.close();
 }
