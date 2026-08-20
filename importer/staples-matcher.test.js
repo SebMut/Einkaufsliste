@@ -7,11 +7,13 @@ const config=JSON.parse(fs.readFileSync(new URL('../data/staples.json',import.me
 const byId=id=>config.items.find(x=>x.id===id);
 const offer=(x={})=>({id:Math.random(),store:'REWE',market:'Feldkirchen',price:2.49,unit:2.49,unitLabel:'€/l',activeMarket:true,...x});
 
-test('Andechser Bio-Milch matcht nur passendes Marken-Milchprodukt',()=>{
+test('Andechser Bio-Milch matcht nur passendes Markenprodukt in Glas/Mehrweg',()=>{
   const s=byId('andechser-bio-milch-glas');
   assert.equal(matchStaple(s,offer({name:'Andechser Natur Bio Vollmilch 3,5% Glasflasche',brand:'Andechser',semanticType:'Milch',canonicalGroup:'Milch',bio:true})).matches,true);
-  assert.equal(matchStaple(s,offer({name:'Andechser Bio Naturjoghurt',brand:'Andechser',semanticType:'Joghurt',canonicalGroup:'Joghurt',bio:true})).matches,false);
-  assert.equal(matchStaple(s,offer({name:'Milchreis klassisch',brand:'Andechser',semanticType:'Milchreis',canonicalGroup:'Milchreis',bio:true})).matches,false);
+  assert.equal(matchStaple(s,offer({name:'Andechser Natur Bio Vollmilch 3,5% Mehrweg',brand:'Andechser',semanticType:'Milch',canonicalGroup:'Milch',bio:true})).matches,true);
+  assert.equal(matchStaple(s,offer({name:'Andechser Natur Bio Vollmilch 3,5% Karton',brand:'Andechser',semanticType:'Milch',canonicalGroup:'Milch',bio:true})).matches,false);
+  assert.equal(matchStaple(s,offer({name:'Andechser Bio Naturjoghurt Glas',brand:'Andechser',semanticType:'Joghurt',canonicalGroup:'Joghurt',bio:true})).matches,false);
+  assert.equal(matchStaple(s,offer({name:'Milchreis klassisch Glas',brand:'Andechser',semanticType:'Milchreis',canonicalGroup:'Milchreis',bio:true})).matches,false);
   assert.equal(matchStaple(s,offer({name:'Bio Vollmilch Glasflasche',brand:'Berchtesgadener Land',semanticType:'Milch',canonicalGroup:'Milch',bio:true})).matches,false);
 });
 
@@ -27,23 +29,28 @@ test('Adelholzener Mineralwasser schließt Schorle aus',()=>{
   assert.equal(matchStaple(s,offer({name:'Adelholzener Bio Apfelschorle',brand:'Adelholzener',semanticType:'Schorle',canonicalGroup:'Schorle'})).matches,false);
 });
 
-test('Alkoholfreies Bier verlangt alkoholfrei und Bierbezug',()=>{
+test('Alkoholfreies Bier verlangt alkoholfrei/0,0 und Bierbezug',()=>{
   const s=byId('alkoholfreies-bier');
   assert.equal(matchStaple(s,offer({name:'Paulaner Münchner Hell alkoholfrei Bier',semanticType:'Bier',canonicalGroup:'Alkoholfreies Bier'})).matches,true);
+  assert.equal(matchStaple(s,offer({name:'Bayerisches Helles 0,0 Bier',semanticType:'Bier',canonicalGroup:'Bier'})).matches,true);
   assert.equal(matchStaple(s,offer({name:'Paulaner Münchner Hell Bier',semanticType:'Bier',canonicalGroup:'Bier'})).matches,false);
   assert.equal(matchStaple(s,offer({name:'Alkoholfreier Sekt',semanticType:'Sekt',canonicalGroup:'Sekt'})).matches,false);
+  assert.equal(matchStaple(s,offer({name:'Alkoholfreies Radler Bier',semanticType:'Bier',canonicalGroup:'Bier'})).matches,false);
 });
 
-test('Halloumi erkennt Halloumi bzw Grillkäse, aber nicht beliebigen Käse',()=>{
+test('Halloumi ist nicht automatisch jeder Grillkäse',()=>{
   const s=byId('halloumi');
   assert.equal(matchStaple(s,offer({name:'Bio Halloumi Grillkäse',semanticType:'Käse',canonicalGroup:'Käse'})).matches,true);
+  assert.equal(matchStaple(s,offer({name:'Bio Grillkäse Kräuter',semanticType:'Käse',canonicalGroup:'Käse'})).matches,false);
   assert.equal(matchStaple(s,offer({name:'Gouda jung',semanticType:'Käse',canonicalGroup:'Käse'})).matches,false);
 });
 
-test('Bio-Gemüse verlangt Bio',()=>{
-  const s=byId('bio-gemuese');
-  assert.equal(matchStaple(s,offer({name:'Bio Gurke',category:'Obst & Gemüse',bio:true})).matches,true);
-  assert.equal(matchStaple(s,offer({name:'Gurke',category:'Obst & Gemüse',bio:false})).matches,false);
+test('Bio-Obst und Bio-Gemüse werden bis zur Sortendefinition nicht pauschal verglichen',()=>{
+  const obst=byId('bio-obst'),gemuese=byId('bio-gemuese');
+  assert.equal(obst.needsDefinition,true);
+  assert.equal(gemuese.needsDefinition,true);
+  assert.equal(matchStaple(obst,offer({name:'Bio Banane',category:'Obst & Gemüse',bio:true})).matches,false);
+  assert.equal(matchStaple(gemuese,offer({name:'Bio Gurke',category:'Obst & Gemüse',bio:true})).matches,false);
 });
 
 test('Reis schließt Milchreis und Reiswaffeln aus',()=>{
@@ -85,8 +92,10 @@ test('Bio-Priorität gewinnt gegen billigere konventionelle Ware',()=>{
   assert.equal(result.conventional.id,'conv');
 });
 
-test('Inaktive noch zu definierende Produkte werden nicht ausgewertet',()=>{
-  const rows=evaluateStaples([byId('kaese-definieren')],[offer({name:'Gouda',semanticType:'Käse',canonicalGroup:'Käse'})]);
-  assert.equal(rows.length,1);
-  assert.equal(rows[0].best,null);
+test('Noch zu definierende Produkte werden nicht ausgewertet',()=>{
+  const rows=evaluateStaples([
+    byId('kaese-definieren'),byId('bio-obst'),byId('bio-gemuese')
+  ],[offer({name:'Gouda',semanticType:'Käse',canonicalGroup:'Käse'})]);
+  assert.equal(rows.length,3);
+  assert.ok(rows.every(r=>r.best===null));
 });
