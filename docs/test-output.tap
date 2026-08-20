@@ -6,423 +6,423 @@ TAP version 13
 # Subtest: UI nennt keine alte 15-km-Logik mehr
 ok 1 - UI nennt keine alte 15-km-Logik mehr
   ---
-  duration_ms: 1.606201
+  duration_ms: 2.15017
   ...
 # Subtest: UI unterscheidet Produkte, Angebote und reguläre Preise
 ok 2 - UI unterscheidet Produkte, Angebote und reguläre Preise
   ---
-  duration_ms: 0.276602
+  duration_ms: 0.300857
   ...
 # Subtest: Frontend verwendet die semantische Vergleichsprüfung
 ok 3 - Frontend verwendet die semantische Vergleichsprüfung
   ---
-  duration_ms: 0.309961
+  duration_ms: 0.347918
   ...
 # Subtest: Preisbewertung nutzt ausschließlich konkrete Produkthistorie
 ok 4 - Preisbewertung nutzt ausschließlich konkrete Produkthistorie
   ---
-  duration_ms: 0.264504
+  duration_ms: 0.42344
   ...
 # Subtest: mobile CSS bleibt vorhanden
 ok 5 - mobile CSS bleibt vorhanden
   ---
-  duration_ms: 0.212006
+  duration_ms: 0.231725
   ...
 # \# Milch-Audit: 6 Datensaetze, 4 konkrete Produkte, 4 Produktnamen
 # Subtest: Inline-JavaScript ist syntaktisch gültig
 ok 6 - Inline-JavaScript ist syntaktisch gültig
   ---
-  duration_ms: 52.548595
+  duration_ms: 55.286029
   ...
 # Subtest: Suche zeigt konkrete Produkte statt nur einer Bundle-Karte
 ok 7 - Suche zeigt konkrete Produkte statt nur einer Bundle-Karte
   ---
-  duration_ms: 0.411212
+  duration_ms: 0.416811
   ...
 # Subtest: Live-Daten enthalten mehrere konkrete Milchprodukte
 ok 8 - Live-Daten enthalten mehrere konkrete Milchprodukte
   ---
-  duration_ms: 1.952917
+  duration_ms: 3.122247
   ...
 # Subtest: Startseite verlinkt Unsere Grundlebensmittel
 ok 9 - Startseite verlinkt Unsere Grundlebensmittel
   ---
-  duration_ms: 0.364102
+  duration_ms: 0.35585
   ...
 # Subtest: Grundlebensmittel-Seite nutzt Live-Angebote, Prospekte und konkrete Historie
 ok 10 - Grundlebensmittel-Seite nutzt Live-Angebote, Prospekte und konkrete Historie
   ---
-  duration_ms: 0.36954
+  duration_ms: 0.377872
   ...
 # Subtest: Breite Bio-Obst- und Gemüsegruppen werden bis zur Sortendefinition nicht pauschal bepreist
 ok 11 - Breite Bio-Obst- und Gemüsegruppen werden bis zur Sortendefinition nicht pauschal bepreist
   ---
-  duration_ms: 0.29605
+  duration_ms: 0.40979
   ...
 # Subtest: Grundlebensmittel-Inline-JavaScript ist syntaktisch gültig
 ok 12 - Grundlebensmittel-Inline-JavaScript ist syntaktisch gültig
   ---
-  duration_ms: 49.783764
+  duration_ms: 48.327383
   ...
 # Subtest: Feldkirchen ist erlaubt
 ok 13 - Feldkirchen ist erlaubt
   ---
-  duration_ms: 2.109029
+  duration_ms: 2.418139
   ...
 # Subtest: Aschheim ist erlaubt
 ok 14 - Aschheim ist erlaubt
   ---
-  duration_ms: 1.183041
+  duration_ms: 1.281167
   ...
 # Subtest: Heimstetten ist erlaubt
 ok 15 - Heimstetten ist erlaubt
   ---
-  duration_ms: 0.538482
+  duration_ms: 0.595186
   ...
 # Subtest: Kirchheim ist erlaubt
 ok 16 - Kirchheim ist erlaubt
   ---
-  duration_ms: 0.400195
+  duration_ms: 0.367266
   ...
 # Subtest: Riem Arcaden ist erlaubt
 ok 17 - Riem Arcaden ist erlaubt
   ---
-  duration_ms: 0.198626
+  duration_ms: 0.236623
   ...
 # Subtest: Haar ist gesperrt
 ok 18 - Haar ist gesperrt
   ---
-  duration_ms: 0.276832
+  duration_ms: 0.307117
   ...
 # Subtest: Vaterstetten ist gesperrt
 ok 19 - Vaterstetten ist gesperrt
   ---
-  duration_ms: 0.334218
+  duration_ms: 0.286186
   ...
 # Subtest: Parsdorf ist gesperrt
 ok 20 - Parsdorf ist gesperrt
   ---
-  duration_ms: 0.182842
+  duration_ms: 0.206838
   ...
 # Subtest: Poing ist gesperrt
 ok 21 - Poing ist gesperrt
   ---
-  duration_ms: 0.326045
+  duration_ms: 0.312725
   ...
 # Subtest: Trudering ist gesperrt
 ok 22 - Trudering ist gesperrt
   ---
-  duration_ms: 0.460996
+  duration_ms: 0.514066
   ...
 # Subtest: München-Freimann ist gesperrt
 ok 23 - München-Freimann ist gesperrt
   ---
-  duration_ms: 0.224624
+  duration_ms: 0.2214
   ...
 # Subtest: München-Berg am Laim ist gesperrt
 ok 24 - München-Berg am Laim ist gesperrt
   ---
-  duration_ms: 0.224965
+  duration_ms: 0.220518
   ...
 # Subtest: Riem außerhalb Arcaden ist gesperrt
 ok 25 - Riem außerhalb Arcaden ist gesperrt
   ---
-  duration_ms: 0.263993
+  duration_ms: 0.29562
   ...
 # Subtest: Riem Arcaden ist nur an der belegten Arcaden-Adresse aktiv
 ok 26 - Riem Arcaden ist nur an der belegten Arcaden-Adresse aktiv
   ---
-  duration_ms: 0.341979
+  duration_ms: 0.359896
   ...
 # Subtest: explizites isRiemArcaden darf belastbar verifizierte Datensätze zulassen
 ok 27 - explizites isRiemArcaden darf belastbar verifizierte Datensätze zulassen
   ---
-  duration_ms: 0.19511
+  duration_ms: 0.218435
   ...
 # Subtest: valide EAN/GTIN wird erkannt
 ok 28 - valide EAN/GTIN wird erkannt
   ---
-  duration_ms: 1.90758
+  duration_ms: 1.637798
   ...
 # Subtest: ungültige EAN wird nicht als Identität verwendet
 ok 29 - ungültige EAN wird nicht als Identität verwendet
   ---
-  duration_ms: 0.248269
+  duration_ms: 0.253087
   ...
 # Subtest: identische EAN hat Vorrang und ergibt exact_match
 ok 30 - identische EAN hat Vorrang und ergibt exact_match
   ---
-  duration_ms: 6.470481
+  duration_ms: 5.285758
   ...
 # Subtest: Eigenmarken derselben Milchgruppe bleiben konkrete unterschiedliche Produkte
 ok 31 - Eigenmarken derselben Milchgruppe bleiben konkrete unterschiedliche Produkte
   ---
-  duration_ms: 1.207698
+  duration_ms: 1.035922
   ...
 # Subtest: gleiches Markenprodukt bei zwei Händlern erhält dieselbe konkrete Produkt-ID
 ok 32 - gleiches Markenprodukt bei zwei Händlern erhält dieselbe konkrete Produkt-ID
   ---
-  duration_ms: 0.819509
+  duration_ms: 0.710577
   ...
 # Subtest: Windbeutel, Windelbeutel und Windeln erhalten verschiedene konkrete IDs
 ok 33 - Windbeutel, Windelbeutel und Windeln erhalten verschiedene konkrete IDs
   ---
-  duration_ms: 1.764396
+  duration_ms: 2.819987
   ...
 # Subtest: Frische Vollmilch wird als Milch gebündelt
 ok 34 - Frische Vollmilch wird als Milch gebündelt
   ---
-  duration_ms: 5.612755
+  duration_ms: 5.297505
   ...
 # Subtest: Milch und Vollmilch gehören zur selben allgemeinen Produktgruppe
 ok 35 - Milch und Vollmilch gehören zur selben allgemeinen Produktgruppe
   ---
-  duration_ms: 1.287116
+  duration_ms: 0.872789
   ...
 # Subtest: Bio Vollmilch bleibt Bio und Milch
 ok 36 - Bio Vollmilch bleibt Bio und Milch
   ---
-  duration_ms: 0.339646
+  duration_ms: 0.256091
   ...
 # Subtest: Windbeutel ist eine Süßspeise und weder Windel noch Windelbeutel
 ok 37 - Windbeutel ist eine Süßspeise und weder Windel noch Windelbeutel
   ---
-  duration_ms: 1.757446
+  duration_ms: 1.490899
   ...
 # Subtest: Windeln und Windelbeutel werden selbst bei gleicher Einheit nie preislich verglichen
 ok 38 - Windeln und Windelbeutel werden selbst bei gleicher Einheit nie preislich verglichen
   ---
-  duration_ms: 1.734622
+  duration_ms: 0.799871
   ...
 # Subtest: Windbeutel und Windeln werden selbst bei künstlich gleicher Einheit nie verglichen
 ok 39 - Windbeutel und Windeln werden selbst bei künstlich gleicher Einheit nie verglichen
   ---
-  duration_ms: 0.554235
+  duration_ms: 0.425153
   ...
 # Subtest: Windel-Wortfamilie bleibt funktional getrennt
 ok 40 - Windel-Wortfamilie bleibt funktional getrennt
   ---
-  duration_ms: 2.374324
+  duration_ms: 1.443399
   ...
 # Subtest: Windelgrößen sind gleiche Obergruppe, aber nicht austauschbar
 ok 41 - Windelgrößen sind gleiche Obergruppe, aber nicht austauschbar
   ---
-  duration_ms: 0.681274
+  duration_ms: 0.645491
   ...
 # Subtest: Milchreis ist keine Milch
 ok 42 - Milchreis ist keine Milch
   ---
-  duration_ms: 0.532703
+  duration_ms: 0.560645
   ...
 # Subtest: Milchschokolade ist keine Milch
 ok 43 - Milchschokolade ist keine Milch
   ---
-  duration_ms: 0.5911
+  duration_ms: 0.533604
   ...
 # Subtest: Kokosmilch, Babymilch, Kondensmilch und Milchpulver sind keine Trinkmilch-Gruppe
 ok 44 - Kokosmilch, Babymilch, Kondensmilch und Milchpulver sind keine Trinkmilch-Gruppe
   ---
-  duration_ms: 1.150102
+  duration_ms: 0.986187
   ...
 # Subtest: Butter und Deutsche Markenbutter gehören zusammen
 ok 45 - Butter und Deutsche Markenbutter gehören zusammen
   ---
-  duration_ms: 0.995422
+  duration_ms: 1.883323
   ...
 # Subtest: Butterkeks, Erdnussbutter und Kakaobutter sind keine Butter
 ok 46 - Butterkeks, Erdnussbutter und Kakaobutter sind keine Butter
   ---
-  duration_ms: 1.740971
+  duration_ms: 0.754403
   ...
 # Subtest: Zahnpasta und Zahncreme werden zusammengefasst
 ok 47 - Zahnpasta und Zahncreme werden zusammengefasst
   ---
-  duration_ms: 0.621846
+  duration_ms: 0.608625
   ...
 # Subtest: Zahnpasta und Zahnbürste bleiben getrennt
 ok 48 - Zahnpasta und Zahnbürste bleiben getrennt
   ---
-  duration_ms: 0.643868
+  duration_ms: 0.670257
   ...
 # Subtest: Spülmittel und Spülmaschinentabs bleiben getrennt
 ok 49 - Spülmittel und Spülmaschinentabs bleiben getrennt
   ---
-  duration_ms: 0.614294
+  duration_ms: 0.609477
   ...
 # Subtest: Waschmittel und Weichspüler bleiben getrennt
 ok 50 - Waschmittel und Weichspüler bleiben getrennt
   ---
-  duration_ms: 0.539654
+  duration_ms: 0.538451
   ...
 # Subtest: Toilettenpapier und Küchenpapier bleiben getrennt
 ok 51 - Toilettenpapier und Küchenpapier bleiben getrennt
   ---
-  duration_ms: 0.77866
+  duration_ms: 0.691569
   ...
 # Subtest: Windeln sind weder Feuchttücher noch Wickelunterlagen
 ok 52 - Windeln sind weder Feuchttücher noch Wickelunterlagen
   ---
-  duration_ms: 0.650348
+  duration_ms: 0.45703
   ...
 # Subtest: Apfelsaft ist kein Apfel-Angebot
 ok 53 - Apfelsaft ist kein Apfel-Angebot
   ---
-  duration_ms: 0.898086
+  duration_ms: 0.897486
   ...
 # Subtest: Sicherheits-Wattestäbchen werden Baby & Kleinkind zugeordnet
 ok 54 - Sicherheits-Wattestäbchen werden Baby & Kleinkind zugeordnet
   ---
-  duration_ms: 0.669196
+  duration_ms: 0.548416
   ...
 # Subtest: Rinderhack und gemischtes Hack sind gleiche Gruppe, aber nicht exakt
 ok 55 - Rinderhack und gemischtes Hack sind gleiche Gruppe, aber nicht exakt
   ---
-  duration_ms: 1.049622
+  duration_ms: 1.119566
   ...
 # Subtest: Ein einzelnes Angebot vergleicht sich nicht mit sich selbst
 ok 56 - Ein einzelnes Angebot vergleicht sich nicht mit sich selbst
   ---
-  duration_ms: 0.385624
+  duration_ms: 0.47757
   ...
 # Subtest: Doppelter Import desselben Angebots erzeugt keinen Vergleich
 ok 57 - Doppelter Import desselben Angebots erzeugt keinen Vergleich
   ---
-  duration_ms: 0.398724
+  duration_ms: 0.381688
   ...
 # Subtest: dm und Rossmann ergeben bei wirklich austauschbarem Produkt einen Händlervergleich
 ok 58 - dm und Rossmann ergeben bei wirklich austauschbarem Produkt einen Händlervergleich
   ---
-  duration_ms: 0.603788
+  duration_ms: 0.714443
   ...
 # Subtest: Preisbewertung meldet deutlich günstigeren Preis
 ok 59 - Preisbewertung meldet deutlich günstigeren Preis
   ---
-  duration_ms: 1.015842
+  duration_ms: 1.081289
   ...
 # Subtest: ungültige gleiche GTIN erzeugt niemals ein exact_match
 ok 60 - ungültige gleiche GTIN erzeugt niemals ein exact_match
   ---
-  duration_ms: 5.777249
+  duration_ms: 8.089261
   ...
 # Subtest: valide gleiche GTIN bleibt stärkste konkrete Produktidentität
 ok 61 - valide gleiche GTIN bleibt stärkste konkrete Produktidentität
   ---
-  duration_ms: 0.40273
+  duration_ms: 0.509919
   ...
 # Subtest: Preisbewertung mischt andere konkrete Produkte derselben Gruppe nicht ein
 ok 62 - Preisbewertung mischt andere konkrete Produkte derselben Gruppe nicht ein
   ---
-  duration_ms: 0.835584
+  duration_ms: 0.90712
   ...
 # Subtest: mindestens 100 zusätzliche semantische Edge-Cases sind klassifiziert
 ok 63 - mindestens 100 zusätzliche semantische Edge-Cases sind klassifiziert
   ---
-  duration_ms: 30.022889
+  duration_ms: 48.000215
   ...
 # Subtest: funktional verschiedene Produkte bleiben auch bei identischer künstlicher Preiseinheit unvergleichbar
 ok 64 - funktional verschiedene Produkte bleiben auch bei identischer künstlicher Preiseinheit unvergleichbar
   ---
-  duration_ms: 14.075602
+  duration_ms: 12.985878
   ...
 # Subtest: bekannte zusammengesetzte Produktnamen werden im Live-Bestand semantisch korrekt erkannt
 ok 65 - bekannte zusammengesetzte Produktnamen werden im Live-Bestand semantisch korrekt erkannt
   ---
-  duration_ms: 5.766033
+  duration_ms: 8.376578
   ...
 # Subtest: kein UI-Bundle mischt unterschiedliche bekannte Hauptprodukttypen
 ok 66 - kein UI-Bundle mischt unterschiedliche bekannte Hauptprodukttypen
   ---
-  duration_ms: 1.779218
+  duration_ms: 2.71399
   ...
 # Subtest: unterschiedliche Varianten eines Produkttyps dürfen eine Obergruppe teilen, aber nicht blind verglichen werden
 ok 67 - unterschiedliche Varianten eines Produkttyps dürfen eine Obergruppe teilen, aber nicht blind verglichen werden
   ---
-  duration_ms: 0.515828
+  duration_ms: 0.552352
   ...
 # Subtest: Windbeutel, Windelbeutel und Windeln können nie denselben Bundle-Key erhalten
 ok 68 - Windbeutel, Windelbeutel und Windeln können nie denselben Bundle-Key erhalten
   ---
-  duration_ms: 0.553915
+  duration_ms: 0.623929
   ...
 # Subtest: Andechser Bio-Milch matcht nur passendes Markenprodukt in Glas/Mehrweg
 ok 69 - Andechser Bio-Milch matcht nur passendes Markenprodukt in Glas/Mehrweg
   ---
-  duration_ms: 2.970262
+  duration_ms: 2.752197
   ...
 # Subtest: Andechser Butter verwechselt Butter nicht mit Butterkeks
 ok 70 - Andechser Butter verwechselt Butter nicht mit Butterkeks
   ---
-  duration_ms: 0.300898
+  duration_ms: 0.300717
   ...
 # Subtest: Adelholzener Mineralwasser schließt Schorle aus
 ok 71 - Adelholzener Mineralwasser schließt Schorle aus
   ---
-  duration_ms: 0.335319
+  duration_ms: 0.363531
   ...
 # Subtest: Alkoholfreies Bier verlangt alkoholfrei/0,0 und Bierbezug
 ok 72 - Alkoholfreies Bier verlangt alkoholfrei/0,0 und Bierbezug
   ---
-  duration_ms: 0.677909
+  duration_ms: 0.382629
   ...
 # Subtest: Halloumi ist nicht automatisch jeder Grillkäse
 ok 73 - Halloumi ist nicht automatisch jeder Grillkäse
   ---
-  duration_ms: 0.301339
+  duration_ms: 0.217444
   ...
 # Subtest: Bio-Obst und Bio-Gemüse werden bis zur Sortendefinition nicht pauschal verglichen
 ok 74 - Bio-Obst und Bio-Gemüse werden bis zur Sortendefinition nicht pauschal verglichen
   ---
-  duration_ms: 0.225666
+  duration_ms: 0.148571
   ...
 # Subtest: Reis schließt Milchreis und Reiswaffeln aus
 ok 75 - Reis schließt Milchreis und Reiswaffeln aus
   ---
-  duration_ms: 0.435278
+  duration_ms: 0.457931
   ...
 # Subtest: Live-Daten: unklassifizierter Himalaya Basmatireis wird als Reis erkannt
 ok 76 - Live-Daten: unklassifizierter Himalaya Basmatireis wird als Reis erkannt
   ---
-  duration_ms: 0.431753
+  duration_ms: 0.387606
   ...
 # Subtest: Live-Daten: unklassifizierte Quarkcreme wird als Quark erkannt
 ok 77 - Live-Daten: unklassifizierte Quarkcreme wird als Quark erkannt
   ---
-  duration_ms: 1.982301
+  duration_ms: 0.588336
   ...
 # Subtest: Explizit fremder semantischer Produkttyp schlägt reinen Worttreffer
 ok 78 - Explizit fremder semantischer Produkttyp schlägt reinen Worttreffer
   ---
-  duration_ms: 0.371733
+  duration_ms: 0.357553
   ...
 # Subtest: Live-Regressionsfall: RAMA Brotaufstrich ist kein Brot
 ok 79 - Live-Regressionsfall: RAMA Brotaufstrich ist kein Brot
   ---
-  duration_ms: 0.259376
+  duration_ms: 0.223563
   ...
 # Subtest: Live-Regressionsfall: Hunde-Reis-Sticks sind kein Reis-Grundlebensmittel
 ok 80 - Live-Regressionsfall: Hunde-Reis-Sticks sind kein Reis-Grundlebensmittel
   ---
-  duration_ms: 0.23565
+  duration_ms: 0.270593
   ...
 # Subtest: Gruppenvergleich nutzt bei mehreren Produkten den Grundpreis
 ok 81 - Gruppenvergleich nutzt bei mehreren Produkten den Grundpreis
   ---
-  duration_ms: 0.740051
+  duration_ms: 0.688034
   ...
 # Subtest: Bei nur einem Händler wird kein zweiter Händler erfunden
 ok 82 - Bei nur einem Händler wird kein zweiter Händler erfunden
   ---
-  duration_ms: 0.533545
+  duration_ms: 0.538541
   ...
 # Subtest: Bio-Priorität gewinnt gegen billigere konventionelle Ware
 ok 83 - Bio-Priorität gewinnt gegen billigere konventionelle Ware
   ---
-  duration_ms: 0.51693
+  duration_ms: 0.473795
   ...
 # Subtest: Noch zu definierende Produkte werden nicht ausgewertet
 ok 84 - Noch zu definierende Produkte werden nicht ausgewertet
   ---
-  duration_ms: 0.410411
+  duration_ms: 0.420676
   ...
 1..84
 # tests 84
@@ -432,4 +432,4 @@ ok 84 - Noch zu definierende Produkte werden nicht ausgewertet
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 481.48155
+# duration_ms 520.243678
