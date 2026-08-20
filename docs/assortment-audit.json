@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-20T13:45:58.320Z",
-  "liveGeneratedAt": "2026-08-20T12:31:43.129Z",
-  "liveProductRows": 1605,
-  "liveConcreteProducts": 1026,
-  "catalogIndexGeneratedAt": "2026-08-20T08:28:12.975Z",
-  "catalogImporterProducts": 650,
+  "generatedAt": "2026-08-20T13:52:23.894Z",
+  "liveGeneratedAt": "2026-08-20T13:46:10.589Z",
+  "liveProductRows": 1591,
+  "liveConcreteProducts": 1019,
+  "catalogIndexGeneratedAt": "2026-08-20T13:46:05.173Z",
+  "catalogImporterProducts": 641,
   "importantGroups": [
     "Milch",
     "Butter",
@@ -25,9 +25,9 @@
   ],
   "overallGroups": {
     "Milch": {
-      "rows": 7,
-      "concreteProducts": 5,
-      "catalogProducts": 2,
+      "rows": 6,
+      "concreteProducts": 4,
+      "catalogProducts": 1,
       "offerProducts": 3
     },
     "Butter": {
@@ -73,15 +73,15 @@
       "offerProducts": 0
     },
     "Zucker": {
-      "rows": 4,
-      "concreteProducts": 2,
-      "catalogProducts": 2,
+      "rows": 3,
+      "concreteProducts": 1,
+      "catalogProducts": 1,
       "offerProducts": 0
     },
     "Brot": {
-      "rows": 20,
-      "concreteProducts": 19,
-      "catalogProducts": 0,
+      "rows": 21,
+      "concreteProducts": 20,
+      "catalogProducts": 1,
       "offerProducts": 1
     },
     "Wasser": {
@@ -91,27 +91,27 @@
       "offerProducts": 0
     },
     "Kaffee": {
-      "rows": 3,
-      "concreteProducts": 3,
-      "catalogProducts": 2,
+      "rows": 2,
+      "concreteProducts": 2,
+      "catalogProducts": 1,
       "offerProducts": 1
     },
     "Windeln": {
-      "rows": 152,
-      "concreteProducts": 116,
-      "catalogProducts": 97,
+      "rows": 160,
+      "concreteProducts": 126,
+      "catalogProducts": 107,
       "offerProducts": 0
     },
     "Waschmittel": {
-      "rows": 27,
-      "concreteProducts": 25,
-      "catalogProducts": 25,
+      "rows": 18,
+      "concreteProducts": 16,
+      "catalogProducts": 16,
       "offerProducts": 0
     },
     "Toilettenpapier": {
-      "rows": 23,
-      "concreteProducts": 17,
-      "catalogProducts": 17,
+      "rows": 29,
+      "concreteProducts": 23,
+      "catalogProducts": 23,
       "offerProducts": 0
     }
   },
@@ -226,14 +226,14 @@
     {
       "retailer": "dm",
       "branches": 3,
-      "rows": 723,
-      "concreteProducts": 241,
-      "catalogRows": 639,
-      "catalogProducts": 213,
+      "rows": 720,
+      "concreteProducts": 240,
+      "catalogRows": 636,
+      "catalogProducts": 212,
       "offerRows": 0,
       "offerProducts": 0,
       "catalogStatus": "partial_catalog",
-      "catalogImporterProductCount": 229,
+      "catalogImporterProductCount": 230,
       "sourceCoverage": "catalog_plus_offers",
       "coreGroupsVisible": 7,
       "coreGroupsTotal": 15,
@@ -547,22 +547,22 @@
     {
       "retailer": "MÜLLER",
       "branches": 1,
-      "rows": 362,
-      "concreteProducts": 342,
-      "catalogRows": 353,
-      "catalogProducts": 334,
-      "offerRows": 5,
-      "offerProducts": 5,
+      "rows": 351,
+      "concreteProducts": 336,
+      "catalogRows": 342,
+      "catalogProducts": 328,
+      "offerRows": 6,
+      "offerProducts": 6,
       "catalogStatus": "partial_catalog",
-      "catalogImporterProductCount": 354,
+      "catalogImporterProductCount": 344,
       "sourceCoverage": "catalog_plus_offers",
       "coreGroupsVisible": 6,
       "coreGroupsTotal": 15,
       "groups": {
         "Milch": {
-          "rows": 2,
-          "concreteProducts": 2,
-          "catalogProducts": 2,
+          "rows": 1,
+          "concreteProducts": 1,
+          "catalogProducts": 1,
           "offerProducts": 0
         },
         "Butter": {
@@ -608,15 +608,15 @@
           "offerProducts": 0
         },
         "Zucker": {
-          "rows": 1,
-          "concreteProducts": 1,
-          "catalogProducts": 1,
-          "offerProducts": 0
-        },
-        "Brot": {
           "rows": 0,
           "concreteProducts": 0,
           "catalogProducts": 0,
+          "offerProducts": 0
+        },
+        "Brot": {
+          "rows": 1,
+          "concreteProducts": 1,
+          "catalogProducts": 1,
           "offerProducts": 0
         },
         "Wasser": {
@@ -626,27 +626,27 @@
           "offerProducts": 0
         },
         "Kaffee": {
-          "rows": 2,
-          "concreteProducts": 2,
-          "catalogProducts": 2,
+          "rows": 1,
+          "concreteProducts": 1,
+          "catalogProducts": 1,
           "offerProducts": 0
         },
         "Windeln": {
-          "rows": 94,
-          "concreteProducts": 82,
-          "catalogProducts": 82,
+          "rows": 102,
+          "concreteProducts": 92,
+          "catalogProducts": 92,
           "offerProducts": 0
         },
         "Waschmittel": {
-          "rows": 20,
-          "concreteProducts": 20,
-          "catalogProducts": 20,
+          "rows": 10,
+          "concreteProducts": 10,
+          "catalogProducts": 10,
           "offerProducts": 0
         },
         "Toilettenpapier": {
-          "rows": 12,
-          "concreteProducts": 12,
-          "catalogProducts": 12,
+          "rows": 18,
+          "concreteProducts": 18,
+          "catalogProducts": 18,
           "offerProducts": 0
         }
       }
@@ -959,9 +959,9 @@
           "offerProducts": 0
         },
         "Waschmittel": {
-          "rows": 4,
-          "concreteProducts": 4,
-          "catalogProducts": 4,
+          "rows": 5,
+          "concreteProducts": 5,
+          "catalogProducts": 5,
           "offerProducts": 0
         },
         "Toilettenpapier": {
@@ -983,6 +983,10 @@
     ],
     "sparseCoreGroups": [
       {
+        "group": "Milch",
+        "count": 4
+      },
+      {
         "group": "Butter",
         "count": 3
       },
@@ -992,11 +996,11 @@
       },
       {
         "group": "Zucker",
-        "count": 2
+        "count": 1
       },
       {
         "group": "Kaffee",
-        "count": 3
+        "count": 2
       }
     ],
     "note": "Abdeckung misst ausschließlich die aktuell importierten Daten. Sie beweist nicht die reale Sortimentsgröße eines Händlers."
