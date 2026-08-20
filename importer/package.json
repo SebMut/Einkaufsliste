@@ -1,6 +1,6 @@
 {
   "name": "angebotsradar-live-importer",
-  "version": "5.1.0",
+  "version": "5.2.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,6 +9,7 @@
     "catalog": "node catalog-import.js",
     "merge": "node catalog-merge.js",
     "fallback": "node fallback.js",
+    "rewe:staples": "node rewe-staples-import.js",
     "history": "node price-history.js",
     "history:backfill": "node history-backfill.js",
     "audit:assortment": "node assortment-audit.js",
