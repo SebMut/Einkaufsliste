@@ -1,18 +1,18 @@
 {
   "schema": 3,
-  "generatedAt": "2026-08-20T12:29:00.855Z",
+  "generatedAt": "2026-08-20T12:31:50.435Z",
   "run": {
-    "id": "32368873827",
+    "id": "32369114255",
     "attempt": "1",
     "event": "push",
-    "sha": "d0b63e44412899c64824a0156fe2b5574144706a",
+    "sha": "0b8d6d565dd54342c9d60f3e3c0cbc0e9913734a",
     "ref": "main",
     "actor": "SebMut",
     "exitCode": 0,
     "status": "completed",
-    "startedAt": "2026-08-20T12:27:20.808Z",
-    "finishedAt": "2026-08-20T12:28:45.102Z",
-    "durationMs": 84294
+    "startedAt": "2026-08-20T12:30:05.891Z",
+    "finishedAt": "2026-08-20T12:31:36.001Z",
+    "durationMs": 90110
   },
   "summary": {
     "configuredSources": 12,
@@ -23,8 +23,8 @@
     "noData": 0,
     "errors": 0,
     "skipped": 0,
-    "offerCount": 1358,
-    "liveGeneratedAt": "2026-08-20T12:28:54.292Z",
+    "offerCount": 1605,
+    "liveGeneratedAt": "2026-08-20T12:31:43.129Z",
     "liveDataCurrent": true
   },
   "sources": [
@@ -38,9 +38,9 @@
       "count": 10,
       "message": "10 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-20T12:27:21.401Z",
-      "finishedAt": "2026-08-20T12:27:27.831Z",
-      "durationMs": 6430
+      "startedAt": "2026-08-20T12:30:06.465Z",
+      "finishedAt": "2026-08-20T12:30:12.834Z",
+      "durationMs": 6369
     },
     {
       "store": "REWE",
@@ -52,9 +52,9 @@
       "count": 2,
       "message": "2 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-20T12:27:27.833Z",
-      "finishedAt": "2026-08-20T12:27:34.044Z",
-      "durationMs": 6211
+      "startedAt": "2026-08-20T12:30:12.836Z",
+      "finishedAt": "2026-08-20T12:30:19.022Z",
+      "durationMs": 6186
     },
     {
       "store": "REWE",
@@ -63,12 +63,12 @@
       "sourceUrl": "https://www.rewe.de/angebote/aschheim/562345/rewe-markt-jedovnicestr-10/",
       "scope": "market",
       "status": "ok",
-      "count": 2,
-      "message": "2 qualitätsgeprüfte Angebote",
+      "count": 258,
+      "message": "258 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-20T12:27:27.833Z",
-      "finishedAt": "2026-08-20T12:27:34.044Z",
-      "durationMs": 6211
+      "startedAt": "2026-08-20T12:30:12.836Z",
+      "finishedAt": "2026-08-20T12:30:19.022Z",
+      "durationMs": 6186
     },
     {
       "store": "EDEKA",
@@ -80,9 +80,9 @@
       "count": 11,
       "message": "11 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-20T12:27:40.226Z",
-      "finishedAt": "2026-08-20T12:27:46.430Z",
-      "durationMs": 6204
+      "startedAt": "2026-08-20T12:30:25.220Z",
+      "finishedAt": "2026-08-20T12:30:31.672Z",
+      "durationMs": 6452
     },
     {
       "store": "EDEKA",
@@ -94,9 +94,9 @@
       "count": 2,
       "message": "2 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-20T12:27:46.431Z",
-      "finishedAt": "2026-08-20T12:27:52.488Z",
-      "durationMs": 6057
+      "startedAt": "2026-08-20T12:30:31.674Z",
+      "finishedAt": "2026-08-20T12:30:37.734Z",
+      "durationMs": 6060
     },
     {
       "store": "EDEKA",
@@ -108,9 +108,9 @@
       "count": 1,
       "message": "1 qualitätsgeprüfte Angebote",
       "transport": "reader",
-      "startedAt": "2026-08-20T12:27:52.489Z",
-      "finishedAt": "2026-08-20T12:27:58.542Z",
-      "durationMs": 6053
+      "startedAt": "2026-08-20T12:30:37.735Z",
+      "finishedAt": "2026-08-20T12:30:43.796Z",
+      "durationMs": 6061
     },
     {
       "store": "PENNY",
@@ -122,9 +122,9 @@
       "count": 52,
       "message": "52 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-20T12:27:58.544Z",
-      "finishedAt": "2026-08-20T12:28:06.890Z",
-      "durationMs": 8346
+      "startedAt": "2026-08-20T12:30:43.798Z",
+      "finishedAt": "2026-08-20T12:30:51.541Z",
+      "durationMs": 7743
     },
     {
       "store": "ALDI SÜD",
@@ -133,12 +133,12 @@
       "sourceUrl": "https://www.aldi-sued.de/angebote",
       "scope": "regional",
       "status": "ok",
-      "count": 27,
-      "message": "27 qualitätsgeprüfte Angebote",
+      "count": 22,
+      "message": "22 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-20T12:28:06.892Z",
-      "finishedAt": "2026-08-20T12:28:14.378Z",
-      "durationMs": 7486
+      "startedAt": "2026-08-20T12:30:51.543Z",
+      "finishedAt": "2026-08-20T12:30:59.464Z",
+      "durationMs": 7921
     },
     {
       "store": "Lidl",
@@ -150,9 +150,9 @@
       "count": 1,
       "message": "1 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-20T12:28:14.382Z",
-      "finishedAt": "2026-08-20T12:28:22.684Z",
-      "durationMs": 8302
+      "startedAt": "2026-08-20T12:30:59.466Z",
+      "finishedAt": "2026-08-20T12:31:07.368Z",
+      "durationMs": 7902
     },
     {
       "store": "dm",
@@ -164,9 +164,9 @@
       "count": 28,
       "message": "28 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-20T12:28:22.686Z",
-      "finishedAt": "2026-08-20T12:28:30.280Z",
-      "durationMs": 7594
+      "startedAt": "2026-08-20T12:31:07.370Z",
+      "finishedAt": "2026-08-20T12:31:14.973Z",
+      "durationMs": 7603
     },
     {
       "store": "ROSSMANN",
@@ -175,12 +175,12 @@
       "sourceUrl": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2?pageIndex=0",
       "scope": "regional",
       "status": "ok",
-      "count": 18,
-      "message": "18 qualitätsgeprüfte Angebote",
+      "count": 19,
+      "message": "19 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-20T12:28:30.283Z",
-      "finishedAt": "2026-08-20T12:28:37.410Z",
-      "durationMs": 7127
+      "startedAt": "2026-08-20T12:31:14.974Z",
+      "finishedAt": "2026-08-20T12:31:21.954Z",
+      "durationMs": 6980
     },
     {
       "store": "MÜLLER",
@@ -192,40 +192,44 @@
       "count": 9,
       "message": "9 qualitätsgeprüfte Angebote",
       "transport": "browser",
-      "startedAt": "2026-08-20T12:28:37.412Z",
-      "finishedAt": "2026-08-20T12:28:45.040Z",
-      "durationMs": 7628
+      "startedAt": "2026-08-20T12:31:21.956Z",
+      "finishedAt": "2026-08-20T12:31:29.431Z",
+      "durationMs": 7475
     }
   ],
   "lastLogLines": [
     "",
     "> angebotsradar-live-importer@5.2.0 import",
-    "> node import.js",
+    "> node import.js && node rewe-staples-import.js",
     "",
     "Importiere REWE Feldkirchen ...",
-    "REWE: no_data, 0 (6434 ms)",
+    "REWE: no_data, 0 (6369 ms)",
     "Importiere REWE Aschheim-Dornach ...",
-    "REWE: no_data, 0 (6213 ms)",
+    "REWE: no_data, 0 (6188 ms)",
     "Importiere REWE Aschheim ...",
-    "REWE: no_data, 0 (6178 ms)",
+    "REWE: no_data, 0 (6197 ms)",
     "Importiere EDEKA Berghammer Feldkirchen ...",
-    "EDEKA: no_data, 0 (6207 ms)",
+    "EDEKA: no_data, 0 (6453 ms)",
     "Importiere EDEKA Pfeilstetter Kirchheim ...",
-    "EDEKA: no_data, 0 (6057 ms)",
+    "EDEKA: no_data, 0 (6062 ms)",
     "Importiere EDEKA Pfeilstetter Heimstetten ...",
-    "EDEKA: no_data, 0 (6055 ms)",
+    "EDEKA: no_data, 0 (6062 ms)",
     "Importiere PENNY Feldkirchen ...",
-    "PENNY: ok, 140 (8346 ms)",
+    "PENNY: ok, 140 (7744 ms)",
     "Importiere ALDI SÜD Aschheim ...",
-    "ALDI SÜD: ok, 67 (7486 ms)",
+    "ALDI SÜD: ok, 67 (7919 ms)",
     "Importiere Lidl Aschheim ...",
-    "Lidl: ok, 1 (8308 ms)",
+    "Lidl: ok, 1 (7907 ms)",
     "Importiere dm München-Riem Arcaden ...",
-    "dm: ok, 98 (7596 ms)",
+    "dm: ok, 98 (7604 ms)",
     "Importiere ROSSMANN Kirchheim-Heimstetten ...",
-    "ROSSMANN: ok, 60 (7130 ms)",
+    "ROSSMANN: ok, 60 (6982 ms)",
     "Importiere MÜLLER München-Riem Arcaden ...",
-    "MÜLLER: ok, 22 (7629 ms)",
-    "Fertig: 388 Live-Angebote aus 6/12 Quellen."
+    "MÜLLER: ok, 22 (7474 ms)",
+    "Fertig: 388 Live-Angebote aus 6/12 Quellen.",
+    "REWE Feldkirchen: kein passender Pickup-Markt, übersprungen.",
+    "REWE Aschheim-Dornach: kein passender Pickup-Markt, übersprungen.",
+    "REWE Aschheim (562345): 281 passende Grundlebensmittel aus 13/13 Suchabfragen.",
+    "REWE-Grundlebensmittel: 281 standortbezogene Produkte aus 1 Pickup-Filialen importiert."
   ]
 }

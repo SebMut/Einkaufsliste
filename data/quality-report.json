@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-08-20T12:28:53.645Z",
-  "before": 459,
-  "after": 388,
-  "rejected": 71,
-  "repaired": 626,
+  "generatedAt": "2026-08-20T12:31:42.394Z",
+  "before": 699,
+  "after": 629,
+  "rejected": 70,
+  "repaired": 928,
   "rejectedReasons": {
     "quantity_as_name": 22,
-    "navigation_or_ui": 15,
     "name_length": 16,
     "invalid_unit": 4,
+    "navigation_or_ui": 14,
     "invalid_price": 6,
     "duplicate": 4,
     "number_as_name": 3,
     "baseprice_as_name": 1
   },
   "storeBefore": {
-    "ALDI SÜD": 67,
-    "PENNY": 140,
+    "PENNY": 138,
     "ROSSMANN": 60,
-    "dm": 98,
     "EDEKA": 41,
+    "REWE": 305,
     "MÜLLER": 22,
-    "REWE": 30,
+    "dm": 93,
+    "ALDI SÜD": 39,
     "Lidl": 1
   },
   "storeAfter": {
-    "ALDI SÜD": 61,
     "EDEKA": 41,
-    "PENNY": 109,
+    "REWE": 305,
+    "PENNY": 107,
     "MÜLLER": 19,
-    "dm": 85,
+    "dm": 81,
     "ROSSMANN": 42,
-    "REWE": 30,
+    "ALDI SÜD": 33,
     "Lidl": 1
   },
   "rejectedExamples": [
@@ -131,11 +131,6 @@
       "reason": "quantity_as_name"
     },
     {
-      "store": "dm",
-      "name": "Alle dm-Märkte",
-      "reason": "navigation_or_ui"
-    },
-    {
       "store": "PENNY",
       "name": "Angebotspreis 0.29€\n0.29",
       "reason": "name_length"
@@ -184,24 +179,29 @@
       "store": "PENNY",
       "name": "Angebotspreis 1.79€\n1.79",
       "reason": "name_length"
+    },
+    {
+      "store": "PENNY",
+      "name": "Angebotspreis 1.89€\n1.89",
+      "reason": "name_length"
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-20T12:28:53.732Z",
-    "before": 388,
-    "after": 194,
-    "rejected": 194,
-    "repaired": 110,
+    "generatedAt": "2026-08-20T12:31:42.524Z",
+    "before": 629,
+    "after": 444,
+    "rejected": 185,
+    "repaired": 108,
     "rejectedReasons": {
       "name": 6,
-      "ui": 31,
+      "ui": 27,
       "produce_unit": 1,
       "price": 2,
       "concatenated_offer": 9,
       "unit_high": 1,
-      "duplicate": 39,
-      "size_duplicate": 41,
-      "semantic_duplicate": 61
+      "duplicate": 24,
+      "size_duplicate": 40,
+      "semantic_duplicate": 74
     },
     "rejectedExamples": [
       {
@@ -237,26 +237,6 @@
       {
         "store": "PENNY",
         "name": "Diese Woche",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
         "reason": "ui"
       },
       {
@@ -457,14 +437,14 @@
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-20T12:28:53.802Z",
-    "before": 194,
-    "after": 163,
-    "rejected": 31,
+    "generatedAt": "2026-08-20T12:31:42.621Z",
+    "before": 444,
+    "after": 415,
+    "rejected": 29,
     "repaired": 6,
     "reasons": {
       "not_food": 20,
-      "nonfood": 11
+      "nonfood": 9
     },
     "rejectedExamples": [
       {
@@ -502,12 +482,6 @@
         "name": "Bio Champignons braun",
         "cleaned": "Bio Champignons braun",
         "reason": "not_food"
-      },
-      {
-        "store": "ALDI SÜD",
-        "name": "Duschgel 675 ml, Noire",
-        "cleaned": "Duschgel 675 ml, Noire",
-        "reason": "nonfood"
       },
       {
         "store": "ALDI SÜD",
@@ -550,12 +524,6 @@
         "name": "Mivolis Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel)",
         "cleaned": "Mivolis Arzneitee, Magen & Darm Beruhigungs Tee für Kinder (12 Beutel",
         "reason": "not_food"
-      },
-      {
-        "store": "ROSSMANN",
-        "name": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
-        "cleaned": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
-        "reason": "nonfood"
       },
       {
         "store": "ALDI SÜD",
@@ -656,9 +624,9 @@
     ]
   },
   "semanticPass": {
-    "at": "2026-08-20T12:28:53.895Z",
-    "before": 163,
-    "after": 163,
+    "at": "2026-08-20T12:31:42.737Z",
+    "before": 415,
+    "after": 415,
     "repaired": 0,
     "normalizer": "product-normalizer-v1"
   }
