@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-20T11:41:59.499Z",
-  "before": 448,
-  "after": 379,
-  "rejected": 69,
+  "generatedAt": "2026-08-20T12:28:53.645Z",
+  "before": 459,
+  "after": 388,
+  "rejected": 71,
   "repaired": 626,
   "rejectedReasons": {
     "quantity_as_name": 22,
-    "navigation_or_ui": 13,
+    "navigation_or_ui": 15,
     "name_length": 16,
     "invalid_unit": 4,
     "invalid_price": 6,
@@ -18,20 +18,20 @@
     "ALDI SÜD": 67,
     "PENNY": 140,
     "ROSSMANN": 60,
-    "dm": 99,
-    "EDEKA": 39,
+    "dm": 98,
+    "EDEKA": 41,
     "MÜLLER": 22,
-    "REWE": 20,
+    "REWE": 30,
     "Lidl": 1
   },
   "storeAfter": {
     "ALDI SÜD": 61,
-    "EDEKA": 39,
+    "EDEKA": 41,
     "PENNY": 109,
     "MÜLLER": 19,
-    "dm": 88,
+    "dm": 85,
     "ROSSMANN": 42,
-    "REWE": 20,
+    "REWE": 30,
     "Lidl": 1
   },
   "rejectedExamples": [
@@ -187,21 +187,21 @@
     }
   ],
   "finalPass": {
-    "generatedAt": "2026-08-20T11:41:59.589Z",
-    "before": 379,
-    "after": 193,
-    "rejected": 186,
-    "repaired": 112,
+    "generatedAt": "2026-08-20T12:28:53.732Z",
+    "before": 388,
+    "after": 194,
+    "rejected": 194,
+    "repaired": 110,
     "rejectedReasons": {
       "name": 6,
-      "ui": 33,
+      "ui": 31,
       "produce_unit": 1,
       "price": 2,
       "concatenated_offer": 9,
       "unit_high": 1,
       "duplicate": 39,
-      "size_duplicate": 40,
-      "semantic_duplicate": 52
+      "size_duplicate": 41,
+      "semantic_duplicate": 61
     },
     "rejectedExamples": [
       {
@@ -237,16 +237,6 @@
       {
         "store": "PENNY",
         "name": "Diese Woche",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
-        "reason": "ui"
-      },
-      {
-        "store": "dm",
-        "name": "dm-Markt wählen",
         "reason": "ui"
       },
       {
@@ -453,18 +443,28 @@
         "store": "MÜLLER",
         "name": "Sicher einkaufen",
         "reason": "unit_high"
+      },
+      {
+        "store": "PENNY",
+        "name": "ZESPRI SunGold Kiwi Gold* je 3er-Schale Angebotspreis 2.49€ 2.49 Aktion PINK LADY Rote Äpfel* je 1-kg-Packun",
+        "reason": "concatenated_offer"
+      },
+      {
+        "store": "ALDI SÜD",
+        "name": "Zum Inhalt springen Aktuelle Filiale45475, Mülheim an der RuhrFilialauswahlWähle deine Filiale aus, um die verfügbaren Produkte zu entdecken",
+        "reason": "name"
       }
     ]
   },
   "strictFoodPass": {
-    "generatedAt": "2026-08-20T11:41:59.664Z",
-    "before": 193,
+    "generatedAt": "2026-08-20T12:28:53.802Z",
+    "before": 194,
     "after": 163,
-    "rejected": 30,
+    "rejected": 31,
     "repaired": 6,
     "reasons": {
       "not_food": 20,
-      "nonfood": 10
+      "nonfood": 11
     },
     "rejectedExamples": [
       {
@@ -552,15 +552,15 @@
         "reason": "not_food"
       },
       {
+        "store": "ROSSMANN",
+        "name": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
+        "cleaned": "Nasenhygiene Baby 2 in 1 Nasenspray Spülung",
+        "reason": "nonfood"
+      },
+      {
         "store": "ALDI SÜD",
         "name": "Bio Naturland Hokkaido, lose",
         "cleaned": "Bio Naturland Hokkaido, lose",
-        "reason": "not_food"
-      },
-      {
-        "store": "dm",
-        "name": "Nestlé BEBACARE Mama Lacto+ Kapseln 28 St",
-        "cleaned": "Nestlé BEBACARE Mama Lacto+ Kapseln 28 St",
         "reason": "not_food"
       },
       {
@@ -579,6 +579,12 @@
         "store": "ROSSMANN",
         "name": "SICHER BEZAHLEN",
         "cleaned": "SICHER BEZAHLEN",
+        "reason": "not_food"
+      },
+      {
+        "store": "dm",
+        "name": "SIGG Trinkflasche & Brotdose Kinder Lumo Fussball Set 2tlg",
+        "cleaned": "SIGG Trinkflasche & Brotdose Kinder Lumo Fussball Set 2tlg",
         "reason": "not_food"
       },
       {
@@ -650,7 +656,7 @@
     ]
   },
   "semanticPass": {
-    "at": "2026-08-20T11:41:59.754Z",
+    "at": "2026-08-20T12:28:53.895Z",
     "before": 163,
     "after": 163,
     "repaired": 0,
