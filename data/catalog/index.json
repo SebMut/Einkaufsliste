@@ -1,12 +1,12 @@
 {
   "schema": 4,
-  "generatedAt": "2026-08-20T08:28:12.975Z",
+  "generatedAt": "2026-08-20T13:46:05.173Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
       "catalogStatus": "partial_catalog",
-      "productCount": 229,
+      "productCount": 230,
       "branchCount": 3,
       "sources": [
         {
@@ -15,8 +15,8 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 487953,
-          "jsonResponses": 13,
+          "htmlBytes": 487066,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
@@ -25,8 +25,8 @@
           "status": "ok",
           "count": 45,
           "mode": "browser",
-          "htmlBytes": 497602,
-          "jsonResponses": 10,
+          "htmlBytes": 495963,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
@@ -35,18 +35,18 @@
           "status": "ok",
           "count": 43,
           "mode": "browser",
-          "htmlBytes": 517101,
-          "jsonResponses": 9,
+          "htmlBytes": 517092,
+          "jsonResponses": 10,
           "networkProducts": 0
         },
         {
           "category": "Mundpflege",
           "url": "https://www.dm.de/gesundheit/zahnpflege",
           "status": "ok",
-          "count": 62,
+          "count": 68,
           "mode": "browser",
-          "htmlBytes": 414466,
-          "jsonResponses": 7,
+          "htmlBytes": 451389,
+          "jsonResponses": 8,
           "networkProducts": 0
         },
         {
@@ -55,7 +55,7 @@
           "status": "ok",
           "count": 71,
           "mode": "browser",
-          "htmlBytes": 616685,
+          "htmlBytes": 614524,
           "jsonResponses": 12,
           "networkProducts": 0
         },
@@ -65,7 +65,7 @@
           "status": "ok",
           "count": 58,
           "mode": "browser",
-          "htmlBytes": 644998,
+          "htmlBytes": 642375,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -73,10 +73,10 @@
           "category": "Tierbedarf",
           "url": "https://www.dm.de/tier",
           "status": "ok",
-          "count": 35,
+          "count": 31,
           "mode": "browser",
-          "htmlBytes": 393832,
-          "jsonResponses": 10,
+          "htmlBytes": 375324,
+          "jsonResponses": 9,
           "networkProducts": 0
         }
       ]
@@ -93,7 +93,7 @@
           "status": "ok",
           "count": 26,
           "mode": "browser",
-          "htmlBytes": 1273762,
+          "htmlBytes": 1272369,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -103,7 +103,7 @@
           "status": "ok",
           "count": 26,
           "mode": "browser",
-          "htmlBytes": 1313167,
+          "htmlBytes": 1168898,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -113,7 +113,7 @@
           "status": "ok",
           "count": 21,
           "mode": "browser",
-          "htmlBytes": 1356520,
+          "htmlBytes": 1356314,
           "jsonResponses": 2,
           "networkProducts": 0
         }
@@ -122,7 +122,7 @@
     {
       "retailer": "MÜLLER",
       "catalogStatus": "partial_catalog",
-      "productCount": 354,
+      "productCount": 344,
       "branchCount": 1,
       "sources": [
         {
@@ -131,7 +131,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1628590,
+          "htmlBytes": 1624360,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -139,9 +139,9 @@
           "category": "Haushalt & Reinigung",
           "url": "https://www.mueller.de/c/drogerie/haushalt/",
           "status": "ok",
-          "count": 177,
+          "count": 180,
           "mode": "static",
-          "htmlBytes": 1168431,
+          "htmlBytes": 1202335,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -151,7 +151,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1126862,
+          "htmlBytes": 1107173,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -161,7 +161,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1114511,
+          "htmlBytes": 1102938,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -180,5 +180,5 @@
     "rossmann.json",
     "mueller.json"
   ],
-  "productCount": 650
+  "productCount": 641
 }
