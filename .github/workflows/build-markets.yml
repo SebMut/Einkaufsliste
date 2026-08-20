@@ -1,6 +1,7 @@
 name: Strikte Markt-, Katalog- und Preisdaten
 
 # Audit-Lauf: Markt-Whitelist, offizielle Kataloge, Historie und Post-Tests vollständig ausführen.
+# Manueller Vollsync: 2026-08-20T08:22Z
 on:
   workflow_dispatch:
   schedule:
