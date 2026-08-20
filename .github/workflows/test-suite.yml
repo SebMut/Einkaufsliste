@@ -7,6 +7,7 @@ on:
       - 'index.html'
       - 'importer/**'
       - 'scripts/fix-product-visibility.mjs'
+      - 'scripts/fix-mobile-overflow.mjs'
       - '.github/workflows/test-suite.yml'
 
 permissions:
@@ -33,6 +34,13 @@ jobs:
             echo 'Bereits aktiv.'
           else
             node scripts/fix-product-visibility.mjs
+          fi
+      - name: Mobilen horizontalen Überlauf absichern
+        run: |
+          if grep -q 'mobile-overflow-guard' index.html; then
+            echo 'Bereits aktiv.'
+          else
+            node scripts/fix-mobile-overflow.mjs
           fi
       - name: Gefundenen Semantik-Randfall idempotent korrigieren
         run: |
