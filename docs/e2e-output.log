@@ -1,29 +1,11 @@
-{
-  "status": "passed",
-  "results": [
-    {
-      "label": "Desktop",
-      "viewport": {
-        "width": 1440,
-        "height": 900
-      },
-      "initialCards": 80,
-      "milkCards": 27,
-      "filteredStatus": "27 Produkte · 153 Angebote · 1210 reguläre Produkte",
-      "overflow": 0,
-      "pageErrors": []
-    },
-    {
-      "label": "iPhone",
-      "viewport": {
-        "width": 390,
-        "height": 844
-      },
-      "initialCards": 40,
-      "milkCards": 27,
-      "filteredStatus": "27 Produkte · 153 Angebote · 1210 reguläre Produkte",
-      "overflow": 0,
-      "pageErrors": []
-    }
-  ]
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+page.waitForFunction: Timeout 10000ms exceeded.
+    at runViewport (/home/runner/work/Einkaufsliste/Einkaufsliste/importer/frontend-e2e.js:37:14)
+    at async file:///home/runner/work/Einkaufsliste/Einkaufsliste/importer/frontend-e2e.js:95:3 {
+  name: 'TimeoutError'
 }
+
+Node.js v20.20.2
