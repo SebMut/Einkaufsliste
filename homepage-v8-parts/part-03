@@ -1,0 +1,33 @@
+f;border:1px solid var(--line);border-radius:14px;padding:13px}.historyBox h3{font-size:15px;margin:0 0 5px}.historyBox p{font-size:11px;color:var(--muted);line-height:1.5}.historyStats{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:10px}.historyStat{background:#f6f8f7;border-radius:11px;padding:10px}.historyStat b{display:block;font-size:14px}.historyStat span{font-size:9px;color:var(--muted)}
+footer{display:flex;justify-content:space-between;gap:15px;align-items:center;color:var(--muted);font-size:10px;padding:34px 2px 0}.footerLinks{display:flex;gap:12px}.footerLinks a{text-decoration:none}
+@media(max-width:1050px){.featured{grid-template-columns:repeat(2,minmax(0,1fr))}.productGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.intro{grid-template-columns:1fr}.stats{grid-template-columns:repeat(3,1fr);width:100%}.searchRow{grid-template-columns:minmax(0,1fr) 170px 46px}.searchRow .typeSelect{display:none}}
+@media(max-width:720px){.shell{width:min(100% - 18px,1240px)}.topbar{height:62px}.brandText span{max-width:210px}.miniLink{display:none}.intro{padding:18px 2px 14px}.intro h1{font-size:36px}.intro p{font-size:13px}.stats{gap:5px}.stat{padding:10px 6px}.stat b{font-size:18px}.searchPanel{border-radius:17px;padding:10px;box-shadow:none}.searchRow{grid-template-columns:minmax(0,1fr) 46px}.searchRow .select{display:none}.filterArea{display:none}.filterArea.open{display:block}.filterLine{grid-template-columns:1fr}.filterLabel{padding:3px 1px}.dataBar{align-items:flex-start}.dataTools{display:none}.featured{display:flex;overflow:auto;gap:8px}.featuredCard{min-width:78vw}.productGrid{grid-template-columns:1fr}.productCard{grid-template-columns:48px minmax(0,1fr) auto;padding:11px}.thumb{width:48px;height:48px}.priceBox{min-width:80px}.section{margin-top:22px}.sectionHead{align-items:flex-start}.resultMeta{white-space:normal;text-align:right}.historyStats{grid-template-columns:1fr}.footerLinks{display:none}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand">
+      <div class="brandMark">🛒</div>
+      <div class="brandText"><strong>AngebotsRadar</strong><span>Feldkirchen · Heimstetten · Aschheim · Kirchheim · Riem Arcaden</span></div>
+    </div>
+    <div class="topActions">
+      <a class="miniLink" href="./grundlebensmittel.html">🏠 Grundlebensmittel</a>
+      <button id="openList" class="listButton" type="button">♡ Einkaufsliste <span id="listCount" class="listBadge">0</span></button>
+    </div>
+  </header>
+
+  <section class="intro">
+    <div>
+      <div class="kicker">PREISE IN DEINER NÄHE</div>
+      <h1>Finde schneller, was sich wirklich lohnt.</h1>
+      <p>Produkte und Angebote aus deinen lokalen Märkten – mit Bio-Priorität, Grundpreisvergleich und relevanter Suche. Bei „Butter“ kommt echte Butter vor Butterkeksen.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><b id="productCount">–</b><span>Produkte</span></div>
+      <div class="stat"><b id="offerCount">–</b><span>Angebote</span></div>
+      <div class="stat"><b id="storeCount">–</b><span>Händler</span></div>
+    </div>
+  </section>
+
+  <section class="searchPanel" aria-label="Prod
