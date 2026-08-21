@@ -1,12 +1,12 @@
 {
   "schema": 4,
-  "generatedAt": "2026-08-20T15:07:25.374Z",
+  "generatedAt": "2026-08-21T05:10:41.636Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
-      "catalogStatus": "full_public_catalog",
-      "productCount": 19917,
+      "catalogStatus": "partial_catalog",
+      "productCount": 234,
       "branchCount": 3,
       "sources": [
         {
@@ -15,28 +15,28 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 487066,
-          "jsonResponses": 11,
+          "htmlBytes": 488271,
+          "jsonResponses": 12,
           "networkProducts": 0
         },
         {
           "category": "Körperpflege",
           "url": "https://www.dm.de/pflege-und-parfum",
           "status": "ok",
-          "count": 45,
+          "count": 44,
           "mode": "browser",
-          "htmlBytes": 495963,
-          "jsonResponses": 11,
+          "htmlBytes": 497796,
+          "jsonResponses": 10,
           "networkProducts": 0
         },
         {
           "category": "Haarpflege",
           "url": "https://www.dm.de/haare",
           "status": "ok",
-          "count": 43,
+          "count": 47,
           "mode": "browser",
-          "htmlBytes": 517092,
-          "jsonResponses": 10,
+          "htmlBytes": 540231,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
@@ -45,7 +45,7 @@
           "status": "ok",
           "count": 68,
           "mode": "browser",
-          "htmlBytes": 451389,
+          "htmlBytes": 452231,
           "jsonResponses": 8,
           "networkProducts": 0
         },
@@ -55,7 +55,7 @@
           "status": "ok",
           "count": 71,
           "mode": "browser",
-          "htmlBytes": 614524,
+          "htmlBytes": 617593,
           "jsonResponses": 12,
           "networkProducts": 0
         },
@@ -65,101 +65,26 @@
           "status": "ok",
           "count": 58,
           "mode": "browser",
-          "htmlBytes": 642375,
-          "jsonResponses": 11,
+          "htmlBytes": 645992,
+          "jsonResponses": 10,
           "networkProducts": 0
         },
         {
           "category": "Tierbedarf",
           "url": "https://www.dm.de/tier",
           "status": "ok",
-          "count": 31,
+          "count": 35,
           "mode": "browser",
-          "htmlBytes": 375324,
-          "jsonResponses": 9,
+          "htmlBytes": 395740,
+          "jsonResponses": 11,
           "networkProducts": 0
-        }
-      ],
-      "sourceType": "official_catalog_full",
-      "categoryReports": [
-        {
-          "category": "Make-up",
-          "id": "010000",
-          "reportedAcrossWindows": 5261,
-          "receivedAcrossWindows": 5261,
-          "windows": 14,
-          "overflowWindows": 0,
-          "errors": 0
-        },
-        {
-          "category": "Pflege & Duft",
-          "id": "020000",
-          "reportedAcrossWindows": 4013,
-          "receivedAcrossWindows": 4013,
-          "windows": 12,
-          "overflowWindows": 0,
-          "errors": 0
-        },
-        {
-          "category": "Gesundheit",
-          "id": "030000",
-          "reportedAcrossWindows": 1948,
-          "receivedAcrossWindows": 1948,
-          "windows": 11,
-          "overflowWindows": 0,
-          "errors": 0
-        },
-        {
-          "category": "Ernährung",
-          "id": "040000",
-          "reportedAcrossWindows": 1708,
-          "receivedAcrossWindows": 1708,
-          "windows": 11,
-          "overflowWindows": 0,
-          "errors": 0
-        },
-        {
-          "category": "Baby & Kind",
-          "id": "050000",
-          "reportedAcrossWindows": 3540,
-          "receivedAcrossWindows": 3540,
-          "windows": 11,
-          "overflowWindows": 0,
-          "errors": 0
-        },
-        {
-          "category": "Haushalt",
-          "id": "060000",
-          "reportedAcrossWindows": 1242,
-          "receivedAcrossWindows": 1242,
-          "windows": 11,
-          "overflowWindows": 0,
-          "errors": 0
-        },
-        {
-          "category": "Tierprodukte",
-          "id": "070000",
-          "reportedAcrossWindows": 517,
-          "receivedAcrossWindows": 517,
-          "windows": 11,
-          "overflowWindows": 0,
-          "errors": 0
-        },
-        {
-          "category": "Haar",
-          "id": "110000",
-          "reportedAcrossWindows": 1785,
-          "receivedAcrossWindows": 1785,
-          "windows": 11,
-          "overflowWindows": 0,
-          "errors": 0
         }
       ]
     },
     {
       "retailer": "ROSSMANN",
       "catalogStatus": "partial_catalog",
-      "productCount": 67,
+      "productCount": 68,
       "branchCount": 1,
       "sources": [
         {
@@ -168,7 +93,7 @@
           "status": "ok",
           "count": 26,
           "mode": "browser",
-          "htmlBytes": 1272369,
+          "htmlBytes": 1291242,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -178,7 +103,7 @@
           "status": "ok",
           "count": 26,
           "mode": "browser",
-          "htmlBytes": 1168898,
+          "htmlBytes": 1306060,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -186,9 +111,9 @@
           "category": "Baby & Kleinkind",
           "url": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
           "status": "ok",
-          "count": 21,
+          "count": 22,
           "mode": "browser",
-          "htmlBytes": 1356314,
+          "htmlBytes": 1359838,
           "jsonResponses": 2,
           "networkProducts": 0
         }
@@ -197,7 +122,7 @@
     {
       "retailer": "MÜLLER",
       "catalogStatus": "partial_catalog",
-      "productCount": 344,
+      "productCount": 345,
       "branchCount": 1,
       "sources": [
         {
@@ -206,7 +131,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1624360,
+          "htmlBytes": 1619365,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -216,7 +141,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1202335,
+          "htmlBytes": 1206808,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -226,7 +151,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1107173,
+          "htmlBytes": 1059795,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -236,7 +161,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1102938,
+          "htmlBytes": 1107290,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -248,21 +173,12 @@
           "message": "HTTP 403"
         }
       ]
-    },
-    {
-      "retailer": "ALDI SÜD",
-      "catalogStatus": "expanded_catalog",
-      "productCount": 3411,
-      "sourceType": "official_catalog_full",
-      "reportedPages": 114,
-      "pagesLoaded": 114
     }
   ],
   "files": [
     "dm.json",
     "rossmann.json",
-    "mueller.json",
-    "aldi-sued.json"
+    "mueller.json"
   ],
-  "productCount": 23739
+  "productCount": 647
 }
