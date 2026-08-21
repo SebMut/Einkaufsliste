@@ -1,0 +1,70 @@
+name: Homepage V8 neu aufbauen
+
+on:
+  push:
+    paths:
+      - '.github/workflows/apply-homepage-v8.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Neue Homepage zusammensetzen
+        shell: bash
+        run: |
+          cat homepage-v8-parts/part-* > index.html
+
+      - name: Implementierung prüfen
+        shell: bash
+        run: |
+          grep -q 'id="q"' index.html
+          grep -q 'id="cards"' index.html
+          grep -q 'id="openList"' index.html
+          grep -q 'offers-live.json' index.html
+          grep -q 'Bei „Butter“ kommt echte Butter vor Butterkeksen' index.html
+          if grep -Eq 'manualSync|syncBtn|🔄 Sync' index.html; then
+            echo 'Fehler: Sync-Button ist noch in der Implementierung.'
+            exit 1
+          fi
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('index.html').read_text(encoding='utf-8')
+          js=s.split('<script>',1)[1].split('</script>',1)[0]
+          Path('/tmp/homepage-v8.js').write_text(js,encoding='utf-8')
+          PY
+          node --check /tmp/homepage-v8.js
+
+      - name: Service Worker Cache erneuern
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('sw.js')
+          s=p.read_text(encoding='utf-8')
+          import re
+          s=re.sub(r"const CACHE='[^']+';", "const CACHE='angebotsradar-v8-home';", s, count=1)
+          p.write_text(s,encoding='utf-8')
+          PY
+
+      - name: Temporäre Builder entfernen und veröffentlichen
+        shell: bash
+        run: |
+          git config user.name "AngebotsRadar UI Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -- index.html sw.js
+          git rm -r -- homepage-v8-parts .github/workflows/apply-homepage-v8.yml
+          git commit -m "Homepage komplett neu gestalten [skip ci]"
+          git pull --rebase origin main
+          git push origin main
