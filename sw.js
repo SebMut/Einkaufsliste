@@ -1,4 +1,4 @@
-const CACHE='angebotsradar-v5.2-staples';
+const CACHE='angebotsradar-v7-home-clean';
 const ASSETS=['./','./index.html','./grundlebensmittel.html','./manifest.webmanifest','./icon.svg','./importer/product-normalizer.js','./importer/staples-matcher.js','./data/staples.json'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
