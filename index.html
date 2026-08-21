@@ -4,106 +4,275 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b6b4f">
-<title>AngebotsRadar 85622</title>
+<title>AngebotsRadar – Preise rund um Feldkirchen</title>
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="icon" href="./icon.svg">
 <style>
-:root{--green:#0b6b4f;--ink:#14231d;--muted:#687b73;--line:#dce7e2;--bg:#f4f7f5;--soft:#e9f7eb;--baby:#fff2dc;--offer:#fff0e6}
-/* mobile-overflow-guard */
-html,body{max-width:100%;overflow-x:hidden}
-.hero>*,.row>*,.layout>*,.card>*,.stats>*,.side>*,.drawerHead>*{min-width:0}
-.card h3,.meta,.panel,.hint,.item span{overflow-wrap:anywhere;word-break:break-word}
-select,input{min-width:0;max-width:100%}
-*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;background:linear-gradient(#eef8f3,#f7f9f8 360px);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-tap-highlight-color:transparent}.wrap{width:min(1120px,calc(100% - 22px));margin:auto;padding-bottom:70px}button,input,select{font:inherit;touch-action:manipulation}button{cursor:pointer}
-header{display:flex;justify-content:space-between;align-items:center;padding:15px 0}.brand{display:flex;gap:10px;align-items:center}.logo{width:45px;height:45px;border-radius:14px;background:var(--green);color:#fff;display:grid;place-items:center;font-size:23px}.brand b{display:block}.brand small,.muted{color:var(--muted)}.headerActions{display:flex;align-items:center;gap:7px;flex-shrink:0}.ver{font-size:11px;background:#fff;border:1px solid var(--line);border-radius:99px;padding:7px 10px}
-.hero{background:linear-gradient(135deg,#07553f,#0d7b5c);color:#fff;border-radius:27px;padding:25px;display:grid;grid-template-columns:1.45fr .85fr;gap:18px}.hero h1{font-size:clamp(30px,5vw,48px);line-height:1.02;margin:10px 0}.hero p{line-height:1.5;color:#dcefe8}.ey{display:inline-block;font-size:12px;background:#ffffff1f;padding:7px 10px;border-radius:99px}.stats{display:grid;gap:8px;align-content:center}.stat{background:#ffffff18;border:1px solid #ffffff22;padding:13px;border-radius:16px}.stat b{display:block;font-size:23px}.stat span{font-size:11px;color:#dcefe8}
-.notice{margin:14px 0;background:#fff8df;border:1px solid #ecd98b;border-radius:15px;padding:12px;font-size:12px;line-height:1.5}.priority{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:11px}.hint{background:#fff;border:1px solid var(--line);border-radius:15px;padding:12px;font-size:12px;line-height:1.45}.hint.biohint{background:#effaf1;border-color:#cce8d2}.hint.scopehint{background:#eef5ff;border-color:#d1dff3}
-.tools{position:sticky;top:0;z-index:20;background:#f4f7f5f5;padding:8px 0}.row{display:grid;grid-template-columns:1fr auto auto auto;gap:7px}.search,.select,.listBtn{background:#fff;border:1px solid var(--line);border-radius:14px}.search{display:flex;align-items:center;padding:0 12px}.search input{border:0;outline:0;width:100%;padding:13px 7px;background:transparent;font-size:16px}.select{padding:0 10px}.listBtn{min-width:50px;font-size:19px;position:relative}.count{position:absolute;right:-5px;top:-6px;background:#ffb000;border:2px solid #fff;border-radius:99px;min-width:20px;height:20px;font-size:10px;display:grid;place-items:center;font-weight:800}.chips{display:flex;gap:6px;overflow:auto;padding-top:8px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}.chip{border:1px solid var(--line);background:#fff;border-radius:99px;padding:7px 10px;white-space:nowrap;font-size:11px;font-weight:700;color:var(--muted)}.chip.on{background:var(--ink);color:#fff}
-.head{display:flex;justify-content:space-between;align-items:end;margin:22px 2px 9px}.head h2{font-size:21px;margin:0}.head p{font-size:12px;color:var(--muted);margin:3px 0}.top{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.topcard,.card,.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px}.topcard h3{font-size:15px;margin:8px 0 3px}.emoji{font-size:27px}.bigprice{font-size:24px;font-weight:900;margin-top:9px}
-.layout{display:grid;grid-template-columns:1fr 265px;gap:13px}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.card{display:grid;grid-template-columns:44px 1fr auto;gap:10px;content-visibility:auto;contain-intrinsic-size:145px}.card.offer{border-color:#efd8c8;background:linear-gradient(135deg,#fff,#fffaf7)}.ico{width:44px;height:44px;border-radius:13px;background:var(--soft);display:grid;place-items:center;font-size:23px}.card h3{font-size:14px;margin:0 0 3px}.meta{font-size:10px;color:var(--muted);line-height:1.45}.tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:6px}.tag{font-size:9px;padding:4px 6px;border-radius:7px;background:#eef2f0}.tag.bio{background:var(--soft);color:#24733b;font-weight:800}.tag.baby{background:var(--baby);color:#7c5413;font-weight:800}.tag.app{background:#eceaff;color:#5543aa}.tag.coupon{background:#fff0dc;color:#8b5300}.tag.ad{background:#ffe4d2;color:#934314;font-weight:800}.tag.reg{background:#edf1f0;color:#586a62}.tag.variant{background:#f4f0ff;color:#604990}.price{text-align:right;min-width:112px}.price>b{font-size:19px}.price small{display:block;color:var(--muted);font-size:9px}.oldprice{text-decoration:line-through;color:#8c9691!important;font-size:10px!important;margin-bottom:2px}.add{margin-top:8px;border:0;background:var(--ink);color:#fff;border-radius:9px;padding:7px 9px;font-size:10px;font-weight:800}.add.added{background:var(--soft);color:var(--green)}.compare{margin-top:7px;background:#f4f6f5;border-radius:9px;padding:7px;font-size:9px;color:#586a62;line-height:1.4}.historyBtn,.ratingBtn{border:0;border-radius:9px;padding:6px 7px;margin-top:7px;font-size:9px;font-weight:800;background:#edf7f1;color:#176833}.ratingBtn{display:block;background:#fff3df;color:#805111;text-align:left}.more{display:block;width:100%;border:1px solid var(--line);background:#fff;border-radius:14px;padding:13px;font-weight:800;margin-top:10px}.more[hidden]{display:none}
-.side{position:sticky;top:105px;align-self:start}.panel{font-size:11px;line-height:1.65;margin-bottom:8px}.panel h3{font-size:13px;margin:0 0 7px}.toggle{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #edf1ef}.sourceRow{padding:3px 0}.empty{text-align:center;padding:35px;background:#fff;border:1px dashed var(--line);border-radius:16px;color:var(--muted);grid-column:1/-1}.back{position:fixed;inset:0;background:#0a1d1766;z-index:50;display:none}.back.open{display:block}.drawer{position:absolute;right:0;top:0;height:100%;width:min(430px,94vw);background:#f7f9f8;padding:16px;overflow:auto;-webkit-overflow-scrolling:touch}.drawerHead{display:flex;justify-content:space-between;gap:10px}.close{border:1px solid var(--line);background:#fff;border-radius:10px;width:36px;height:36px}.item{display:flex;gap:8px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;margin-top:7px}.item span{flex:1}.rm{border:0;background:#f9ecec;color:#a22d2d;border-radius:8px;width:30px;height:30px}.opt{border:0;background:var(--green);color:#fff;width:100%;padding:12px;border-radius:12px;font-weight:800;margin:11px 0}.result{background:#eaf7ef;border:1px solid #cce7d8;border-radius:13px;padding:11px;font-size:11px;line-height:1.55}.shop{padding-top:6px;margin-top:6px;border-top:1px solid #cfe6da}.clear{border:0;background:transparent;color:#b33131;width:100%;padding:10px}.historyDrawer{width:min(680px,96vw)}.historySummary{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:14px 0}.historyStat{background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px}.historyStat b{display:block;font-size:16px}.historyStat span{font-size:9px;color:var(--muted)}.historyControls{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin:8px 0}.historyControls select{border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 8px;font-size:10px}.period{border:1px solid var(--line);background:#fff;border-radius:8px;padding:6px 8px;font-size:10px}.period.on{background:var(--ink);color:#fff}.chartBox{background:#fff;border:1px solid var(--line);border-radius:15px;padding:10px;overflow:hidden}.chartBox svg{display:block;width:100%;height:auto}.historyExplain{font-size:10px;line-height:1.5;color:var(--muted);margin-top:10px}.chartEmpty{padding:40px 10px;text-align:center;color:var(--muted);font-size:11px}.chartLabel{font-size:10px;fill:#6d7f77}.chartGrid{stroke:#e3ebe7;stroke-width:1}.chartLine{fill:none;stroke:currentColor;stroke-width:3}.chartPoint{fill:currentColor}.chartArea{fill:#eaf7ef}footer{text-align:center;color:var(--muted);font-size:10px;padding:30px 0}
-@media(max-width:850px){.hero{grid-template-columns:1fr}.stats{grid-template-columns:repeat(3,1fr)}.layout{grid-template-columns:1fr}.side{position:static;display:grid;grid-template-columns:1fr 1fr}.top{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:640px){.ver{display:none}.row{grid-template-columns:1fr auto}.select{grid-column:1/-1;height:40px}.priority{grid-template-columns:1fr}.top{display:flex;overflow:auto}.topcard{min-width:79vw}.cards{grid-template-columns:1fr}.side{grid-template-columns:1fr}.card{grid-template-columns:42px 1fr auto}.price{min-width:92px}.historySummary{grid-template-columns:1fr 1fr}.historyDrawer{width:100vw}}
-</style>
-
-
-<style id="homepage-clean-v7">
-:root{--surface:#fff;--surface2:#f7faf8;--shadow:0 8px 28px rgba(20,35,29,.07)}
-body{background:#f5f7f6!important}
-.wrap{width:min(1180px,calc(100% - 28px))!important;padding-bottom:50px!important}
-header{padding:12px 0!important}.syncBtn{display:none!important}.headerActions{gap:0!important}
-.brand small{display:block;max-width:560px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.hero{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:24px!important;padding:18px 20px!important;border-radius:20px!important;margin-bottom:10px!important}
-.hero h1{font-size:clamp(24px,4vw,36px)!important;margin:6px 0!important;max-width:720px!important}.hero p{margin:0!important;max-width:700px!important;font-size:13px!important}.hero .ey{font-size:10px!important;padding:5px 8px!important}
-.stats{display:flex!important;gap:6px!important;flex-shrink:0!important}.stat{min-width:86px!important;padding:9px 10px!important;text-align:center!important}.stat b{font-size:19px!important}.stat span{font-size:9px!important}
-.notice{margin:7px 0!important;padding:8px 11px!important;border-radius:11px!important}.priority{display:none!important}
-[data-staples-nav="1"]{margin:7px 0!important}[data-staples-nav="1"] a{padding:9px 12px!important;border-radius:12px!important;box-shadow:none!important}
-.tools{top:0!important;padding:8px 0!important;background:rgba(245,247,246,.97)!important;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-.row{grid-template-columns:minmax(260px,1fr) 190px 170px 52px!important}.search,.select,.listBtn{border-radius:12px!important;box-shadow:0 1px 2px rgba(20,35,29,.03)}.search input{padding:11px 7px!important}.chips{padding-top:6px!important;gap:5px!important}.chip{padding:6px 9px!important;font-size:10px!important}
-.head{margin:15px 2px 7px!important}.head h2{font-size:18px!important}.head p{margin:1px 0!important}.top{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:7px!important}.topcard{padding:10px!important;border-radius:14px!important}.topcard .emoji{font-size:20px!important}.topcard h3{font-size:13px!important;margin:4px 0 2px!important}.topcard .bigprice{font-size:19px!important;margin-top:5px!important}
-.layout{grid-template-columns:minmax(0,1fr)!important;gap:0!important}.side{display:none!important}.cards{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}.card{grid-template-columns:38px minmax(0,1fr) auto!important;padding:10px!important;border-radius:14px!important;gap:8px!important;min-height:108px!important}.ico{width:38px!important;height:38px!important;border-radius:11px!important;font-size:19px!important}.card h3{font-size:13px!important;line-height:1.25!important}.meta{font-size:9px!important}.tags{margin-top:4px!important}.tag{font-size:8px!important;padding:3px 5px!important}.price{min-width:82px!important}.price>b{font-size:17px!important}.add{margin-top:6px!important;padding:6px 8px!important}.compare{display:none!important}.historyBtn,.ratingBtn{font-size:8px!important;margin-top:5px!important;padding:5px 6px!important}.more{border-radius:12px!important;padding:11px!important}footer{padding:22px 0!important}
-@media(max-width:920px){.hero{align-items:flex-start!important;flex-direction:column!important}.stats{display:grid!important;grid-template-columns:repeat(3,1fr)!important;width:100%!important}.stat{min-width:0!important}.cards{grid-template-columns:repeat(2,minmax(0,1fr))!important}.row{grid-template-columns:minmax(0,1fr) 52px!important}.row .select{display:none!important}.tools:focus-within .row .select{display:block!important;grid-column:1/-1!important;height:38px!important}}
-@media(max-width:640px){.wrap{width:min(100% - 18px,1180px)!important}.brand small{max-width:225px}.headerActions{display:none!important}.hero{padding:15px!important;border-radius:17px!important;gap:12px!important}.hero p{font-size:12px!important}.stats{gap:5px!important}.stat{padding:8px 6px!important}.stat b{font-size:17px!important}.notice{font-size:10px!important}[data-staples-nav="1"] a small{display:none!important}.cards{grid-template-columns:1fr!important}.card{min-height:102px!important}.top{display:none!important}.head:has(+ .top){display:none!important}.tools{margin-left:-9px;margin-right:-9px;padding-left:9px!important;padding-right:9px!important}.chips{max-width:100vw!important}.price{min-width:76px!important}}
+:root{
+  --green:#0b6b4f;--green-2:#0f7f60;--green-soft:#eaf6f1;--ink:#17231f;--muted:#687871;
+  --line:#dfe7e3;--bg:#f5f7f6;--card:#fff;--offer:#fff5ef;--danger:#c53c31;--amber:#a96600;
+  --shadow:0 12px 35px rgba(20,35,29,.07)
+}
+*{box-sizing:border-box}
+html{background:var(--bg);scroll-behavior:smooth}
+body{margin:0;color:var(--ink);background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent}
+button,input,select{font:inherit}button{cursor:pointer}a{color:inherit}
+.shell{width:min(1240px,calc(100% - 32px));margin:auto;padding-bottom:72px}
+.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:11px;min-width:0}.brandMark{width:42px;height:42px;border-radius:13px;background:var(--green);color:#fff;display:grid;place-items:center;font-size:21px;box-shadow:0 5px 16px #0b6b4f24}.brandText{min-width:0}.brandText strong{display:block;font-size:16px}.brandText span{display:block;color:var(--muted);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:620px}
+.topActions{display:flex;align-items:center;gap:8px}.miniLink,.listButton{height:38px;border:1px solid var(--line);background:#fff;border-radius:12px;display:inline-flex;align-items:center;gap:7px;padding:0 12px;text-decoration:none;font-size:12px;font-weight:750}.miniLink:hover,.listButton:hover{border-color:#bfd0c8}.listButton{position:relative}.listBadge{min-width:20px;height:20px;border-radius:99px;background:var(--green);color:#fff;display:grid;place-items:center;font-size:10px;font-weight:900}
+.intro{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end;padding:28px 4px 22px}.kicker{color:var(--green);font-size:12px;font-weight:850;letter-spacing:.02em}.intro h1{font-size:clamp(32px,5vw,56px);line-height:1.02;letter-spacing:-.035em;margin:6px 0 10px;max-width:760px}.intro p{margin:0;color:var(--muted);font-size:15px;line-height:1.55;max-width:720px}.stats{display:grid;grid-template-columns:repeat(3,108px);gap:8px}.stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:13px 12px;text-align:center}.stat b{display:block;font-size:21px;line-height:1.1}.stat span{display:block;color:var(--muted);font-size:10px;margin-top:4px}
+.searchPanel{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:16px}.searchRow{display:grid;grid-template-columns:minmax(260px,1fr) 190px 160px 46px;gap:9px}.searchBox{height:48px;border:1px solid var(--line);border-radius:14px;display:flex;align-items:center;gap:9px;padding:0 14px;background:#fbfcfb}.searchBox:focus-within{border-color:#7fb7a4;box-shadow:0 0 0 3px #0b6b4f12}.searchBox svg{width:18px;color:var(--muted);flex:0 0 auto}.searchBox input{border:0;outline:0;width:100%;background:transparent;color:var(--ink);font-size:16px}.searchBox input::placeholder{color:#9aa7a1}.select{height:48px;border:1px solid var(--line);border-radius:14px;background:#fff;padding:0 12px;color:var(--ink)}.filterToggle{height:48px;border:1px solid var(--line);border-radius:14px;background:#fff;font-size:18px}.filterToggle.active{background:var(--green-soft);border-color:#bcded0;color:var(--green)}
+.filterArea{padding-top:13px}.filterLine{display:grid;grid-template-columns:78px minmax(0,1fr);gap:8px;align-items:start;margin-top:7px}.filterLabel{font-size:10px;font-weight:850;color:var(--muted);padding-top:8px;text-transform:uppercase;letter-spacing:.04em}.chips{display:flex;gap:6px;overflow-x:auto;padding:1px 1px 4px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 11px;white-space:nowrap;font-size:11px;font-weight:750;color:#4f6159}.chip:hover{border-color:#bdcec6}.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.dataBar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 2px 0;color:var(--muted);font-size:11px}.dataState{display:flex;align-items:center;gap:7px;min-width:0}.dot{width:8px;height:8px;border-radius:50%;background:#90a099;flex:0 0 auto}.dot.ok{background:#28a162}.dot.warn{background:#d89726}.dataState span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.dataTools{display:flex;gap:10px;align-items:center}.textLink{border:0;background:transparent;color:var(--green);font-weight:800;font-size:11px;padding:5px 0;text-decoration:none}
+.section{margin-top:28px}.sectionHead{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:11px}.sectionTitle h2{font-size:21px;margin:0;letter-spacing:-.02em}.sectionTitle p{font-size:11px;color:var(--muted);margin:3px 0 0}.resultMeta{font-size:11px;color:var(--muted);white-space:nowrap}
+.featured{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.featured:empty{display:none}.featuredCard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:13px;min-height:158px;display:flex;flex-direction:column;gap:10px}.featuredTop{display:flex;justify-content:space-between;gap:8px;align-items:center}.storePill{display:inline-flex;align-items:center;gap:5px;color:#53645d;font-size:10px;font-weight:850}.offerPill{border-radius:8px;padding:4px 7px;background:#ffe7dc;color:#a63b20;font-size:9px;font-weight:900}.featuredCard h3{font-size:14px;line-height:1.25;margin:0}.featuredMeta{font-size:10px;color:var(--muted)}.featuredPrice{margin-top:auto;display:flex;align-items:end;justify-content:space-between;gap:10px}.featuredPrice b{font-size:21px}.featuredPrice span{font-size:9px;color:var(--muted)}
+.productGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.productCard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:13px;display:grid;grid-template-columns:54px minmax(0,1fr) auto;gap:11px;min-height:144px;content-visibility:auto;contain-intrinsic-size:160px}.productCard.isOffer{border-color:#ead5c8;background:linear-gradient(145deg,#fff 0%,#fffaf7 100%)}.thumb{width:54px;height:54px;border-radius:14px;background:var(--green-soft);display:grid;place-items:center;overflow:hidden;font-size:24px}.thumb img{width:100%;height:100%;object-fit:contain;background:#fff}.productMain{min-width:0}.productTopline{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:5px}.smallStore{font-size:9px;color:#56665f;font-weight:900}.badge{font-size:8px;border-radius:7px;padding:3px 5px;background:#edf2f0;color:#5e6e67;font-weight:850}.badge.bio{background:#e9f7ed;color:#23713b}.badge.offer{background:#ffe8dc;color:#a34422}.badge.baby{background:#fff1da;color:#7a5415}.productCard h3{font-size:13px;line-height:1.28;margin:0 0 5px;overflow-wrap:anywhere}.productMeta{font-size:9px;color:var(--muted);line-height:1.45}.productActions{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}.ghostBtn,.addBtn{border:0;border-radius:9px;padding:6px 8px;font-size:9px;font-weight:850}.ghostBtn{background:#f1f5f3;color:#52645c}.addBtn{background:var(--ink);color:#fff}.addBtn.added{background:var(--green-soft);color:var(--green)}
+.priceBox{text-align:right;min-width:92px}.priceBox .old{text-decoration:line-through;color:#929c97;font-size:9px}.priceBox .price{font-size:18px;font-weight:900;margin-top:2px}.priceBox .unit{font-size:9px;color:var(--muted);margin-top:2px}.priceBox .saving{font-size:9px;color:#a34323;font-weight:850;margin-top:6px}.priceBox .usual{font-size:9px;color:var(--green);font-weight:850;margin-top:6px}
+.empty{grid-column:1/-1;border:1px dashed #cbd7d2;background:#fff;border-radius:18px;padding:42px 20px;text-align:center;color:var(--muted)}.empty b{display:block;color:var(--ink);margin-bottom:5px}.more{display:block;width:100%;margin-top:12px;border:1px solid var(--line);background:#fff;border-radius:14px;padding:12px;font-weight:850}.more[hidden]{display:none}
+.backdrop{position:fixed;inset:0;background:rgba(7,22,16,.42);display:none;z-index:60}.backdrop.open{display:block}.drawer{position:absolute;right:0;top:0;width:min(440px,94vw);height:100%;background:#f7f9f8;padding:18px;overflow:auto;box-shadow:-20px 0 50px rgba(0,0,0,.12)}.drawerHead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}.drawerHead h2{margin:0;font-size:20px}.closeBtn{width:38px;height:38px;border:1px solid var(--line);background:#fff;border-radius:11px}.listEmpty{padding:28px 12px;text-align:center;color:var(--muted);font-size:12px}.listItem{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:11px;margin-bottom:7px}.listItem b{font-size:12px;display:block}.listItem small{color:var(--muted);font-size:9px}.listPrice{font-weight:900;font-size:13px;text-align:right}.removeBtn{border:0;background:#fdeeee;color:#a62d2d;border-radius:8px;padding:5px 7px;font-size:9px;margin-top:5px}.summary{margin-top:12px;background:#eaf6f1;border:1px solid #cfe6dc;border-radius:14px;padding:12px;font-size:11px;line-height:1.55}.summary b{font-size:15px}.clearBtn{width:100%;border:0;background:transparent;color:#a52f2f;padding:12px;font-size:11px;font-weight:800}
+.historyBox{background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px}.historyBox h3{font-size:15px;margin:0 0 5px}.historyBox p{font-size:11px;color:var(--muted);line-height:1.5}.historyStats{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:10px}.historyStat{background:#f6f8f7;border-radius:11px;padding:10px}.historyStat b{display:block;font-size:14px}.historyStat span{font-size:9px;color:var(--muted)}
+footer{display:flex;justify-content:space-between;gap:15px;align-items:center;color:var(--muted);font-size:10px;padding:34px 2px 0}.footerLinks{display:flex;gap:12px}.footerLinks a{text-decoration:none}
+@media(max-width:1050px){.featured{grid-template-columns:repeat(2,minmax(0,1fr))}.productGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.intro{grid-template-columns:1fr}.stats{grid-template-columns:repeat(3,1fr);width:100%}.searchRow{grid-template-columns:minmax(0,1fr) 170px 46px}.searchRow .typeSelect{display:none}}
+@media(max-width:720px){.shell{width:min(100% - 18px,1240px)}.topbar{height:62px}.brandText span{max-width:210px}.miniLink{display:none}.intro{padding:18px 2px 14px}.intro h1{font-size:36px}.intro p{font-size:13px}.stats{gap:5px}.stat{padding:10px 6px}.stat b{font-size:18px}.searchPanel{border-radius:17px;padding:10px;box-shadow:none}.searchRow{grid-template-columns:minmax(0,1fr) 46px}.searchRow .select{display:none}.filterArea{display:none}.filterArea.open{display:block}.filterLine{grid-template-columns:1fr}.filterLabel{padding:3px 1px}.dataBar{align-items:flex-start}.dataTools{display:none}.featured{display:flex;overflow:auto;gap:8px}.featuredCard{min-width:78vw}.productGrid{grid-template-columns:1fr}.productCard{grid-template-columns:48px minmax(0,1fr) auto;padding:11px}.thumb{width:48px;height:48px}.priceBox{min-width:80px}.section{margin-top:22px}.sectionHead{align-items:flex-start}.resultMeta{white-space:normal;text-align:right}.historyStats{grid-template-columns:1fr}.footerLinks{display:none}}
 </style>
 </head>
 <body>
-<div class="wrap">
-<header><div class="brand"><div class="logo">🛒</div><div><b>AngebotsRadar</b><small>Feldkirchen · Heimstetten · Aschheim · Kirchheim · Riem Arcaden</small></div></div><div class="headerActions"><span class="ver">V5.1 · strikt lokal</span></div></header>
-<section class="hero"><div><span class="ey">🛒 Preise in deiner Nähe vergleichen</span><h1>Was möchtest du einkaufen?</h1><p>Produkte und Angebote aus deinen Märkten rund um Feldkirchen. Bio wird bevorzugt, Preise und Grundpreise bleiben direkt vergleichbar.</p></div><div class="stats"><div class="stat"><b id="productCount">0</b><span>Produkte</span></div><div class="stat"><b id="offerCount">0</b><span>Angebote</span></div><div class="stat"><b id="storeCount">0</b><span>Händler</span></div></div></section>
-<div class="notice" id="liveNote">⏳ <b>Preise werden geladen …</b></div>
-<div class="priority"><div class="hint biohint">🌱 <b>Bio bleibt priorisiert.</b> Konventionelle Alternativen werden separat gezeigt und nicht als identisches Produkt behandelt.</div><div class="hint scopehint">📍 <b>Strikte Marktgrenze.</b> Nur Feldkirchen, Heimstetten, Aschheim, Kirchheim und nachweisliche Geschäfte in den Riem Arcaden.</div></div>
-<div data-staples-nav="1" style="margin:12px 0"><a href="./grundlebensmittel.html" style="display:flex;align-items:center;justify-content:space-between;gap:10px;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:16px;padding:13px 14px"><span><b>🏠 Unsere Grundlebensmittel</b><br><small class="muted">Standardvorrat: aktueller Bestpreis inkl. Prospektangebote</small></span><span style="font-size:20px">›</span></a></div>
-<div class="tools"><div class="row"><label class="search">🔎<input id="q" autocomplete="off" placeholder="Milch, Butter, Windeln …"></label><select id="sort" class="select"><option value="bio">Bio zuerst</option><option value="price">Niedrigster Packungspreis</option><option value="unit">Niedrigster Grundpreis</option><option value="name">A–Z</option></select><select id="type" class="select"><option>Alle Typen</option></select><button id="openList" class="listBtn">🧾<span id="listCount" class="count">0</span></button></div><div id="cats" class="chips"></div><div id="stores" class="chips"></div></div>
-<div class="head"><div><h2>🌱 Bio-Angebote</h2><p>mit echter konventioneller Alternative, wenn vorhanden</p></div></div><div id="top" class="top"></div>
-<div class="head"><div><h2>Produkte & Angebote</h2><p id="status"></p></div></div>
-<div class="layout"><div><main id="cards" class="cards"></main><button id="more" class="more" hidden>Mehr Produkte anzeigen</button></div><aside class="side"><div class="panel"><h3>Preise berücksichtigen</h3><label class="toggle">📱 App-Preise <input id="useApp" type="checkbox" checked></label><label class="toggle">🎟️ Coupon-Preise <input id="useCoupon" type="checkbox" checked></label></div><div class="panel"><h3>Importstatus</h3><div id="importState" class="muted">Status wird geladen …</div></div><div class="panel"><h3>Aktive Filialen</h3><div id="marketList" class="muted"></div></div></aside></div>
-<footer>V5.1 · strikte Markt-Whitelist · Katalog + Angebote · Bio-Priorisierung · Preisverlauf</footer>
+<div class="shell">
+  <header class="topbar">
+    <div class="brand">
+      <div class="brandMark">🛒</div>
+      <div class="brandText"><strong>AngebotsRadar</strong><span>Feldkirchen · Heimstetten · Aschheim · Kirchheim · Riem Arcaden</span></div>
+    </div>
+    <div class="topActions">
+      <a class="miniLink" href="./grundlebensmittel.html">🏠 Grundlebensmittel</a>
+      <button id="openList" class="listButton" type="button">♡ Einkaufsliste <span id="listCount" class="listBadge">0</span></button>
+    </div>
+  </header>
+
+  <section class="intro">
+    <div>
+      <div class="kicker">PREISE IN DEINER NÄHE</div>
+      <h1>Finde schneller, was sich wirklich lohnt.</h1>
+      <p>Produkte und Angebote aus deinen lokalen Märkten – mit Bio-Priorität, Grundpreisvergleich und relevanter Suche. Bei „Butter“ kommt echte Butter vor Butterkeksen.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><b id="productCount">–</b><span>Produkte</span></div>
+      <div class="stat"><b id="offerCount">–</b><span>Angebote</span></div>
+      <div class="stat"><b id="storeCount">–</b><span>Händler</span></div>
+    </div>
+  </section>
+
+  <section class="searchPanel" aria-label="Produktsuche und Filter">
+    <div class="searchRow">
+      <label class="searchBox">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.4-3.4"></path></svg>
+        <input id="q" autocomplete="off" placeholder="Milch, Butter, Windeln …" aria-label="Produkte suchen">
+      </label>
+      <select id="sort" class="select" aria-label="Sortierung">
+        <option value="smart">Empfohlen</option>
+        <option value="price">Packungspreis</option>
+        <option value="unit">Grundpreis</option>
+        <option value="saving">Größte Ersparnis</option>
+        <option value="name">A–Z</option>
+      </select>
+      <select id="type" class="select typeSelect" aria-label="Produkttyp">
+        <option value="all">Alle Produkte</option>
+        <option value="offers">Nur Angebote</option>
+        <option value="regular">Reguläre Preise</option>
+        <option value="bio">Nur Bio</option>
+      </select>
+      <button id="filterToggle" class="filterToggle" type="button" aria-label="Filter anzeigen">☷</button>
+    </div>
+    <div id="filterArea" class="filterArea">
+      <div class="filterLine"><div class="filterLabel">Kategorie</div><div id="cats" class="chips"></div></div>
+      <div class="filterLine"><div class="filterLabel">Händler</div><div id="stores" class="chips"></div></div>
+    </div>
+  </section>
+
+  <div class="dataBar">
+    <div class="dataState"><span id="dataDot" class="dot"></span><span id="liveNote">Produktdaten werden geladen …</span></div>
+    <div class="dataTools"><a class="textLink" href="./grundlebensmittel.html">Grundlebensmittel ansehen →</a></div>
+  </div>
+
+  <section id="featuredSection" class="section">
+    <div class="sectionHead"><div class="sectionTitle"><h2>Top-Angebote</h2><p>Aktuelle Preisvorteile aus deiner Region</p></div></div>
+    <div id="featured" class="featured"></div>
+  </section>
+
+  <section class="section">
+    <div class="sectionHead">
+      <div class="sectionTitle"><h2>Produkte & Angebote</h2><p id="status">Wird geladen …</p></div>
+      <div id="resultMeta" class="resultMeta"></div>
+    </div>
+    <main id="cards" class="productGrid"></main>
+    <button id="more" class="more" type="button" hidden>Mehr anzeigen</button>
+  </section>
+
+  <footer><span>AngebotsRadar · lokale Preisübersicht</span><div class="footerLinks"><a href="./grundlebensmittel.html">Grundlebensmittel</a><a href="https://github.com/SebMut/Einkaufsliste" target="_blank" rel="noopener">Projekt</a></div></footer>
 </div>
-<div id="backdrop" class="back"><aside class="drawer"><div class="drawerHead"><div><h2 style="margin:0">🧾 Einkaufsliste</h2><small class="muted">Bio wird bevorzugt</small></div><button id="closeList" class="close">✕</button></div><div id="items"></div><button id="optimize" class="opt">Einkauf optimieren</button><div id="result"></div><button id="clearList" class="clear">Liste leeren</button></aside></div>
-<div id="historyBack" class="back"><aside class="drawer historyDrawer"><div class="drawerHead"><div><h2 id="historyTitle" style="margin:0">📈 Preisverlauf</h2><small id="historySub" class="muted"></small></div><button id="closeHistory" class="close">✕</button></div><div id="historyContent"><div class="chartEmpty">Preisverlauf wird geladen …</div></div></aside></div>
-<script type="module">
-import {normalizeOffer,assessPrice,priceMetric,median,unitLabel,comparable} from './importer/product-normalizer.js';
-const DEMO=[{id:'demo-1',key:'Butter',canonicalProductId:'demo-bio-butter',name:'Bio Butter',store:'EDEKA',market:'Berghammer Feldkirchen',address:'Brauereiweg 1, 85622 Feldkirchen',cat:'Milchprodukte',size:'250 g',price:2.19,currentPrice:2.19,regularPrice:2.19,isOffer:false,advertised:false,unit:8.76,unitLabel:'€/kg',icon:'🧈',bio:true}].map(normalizeOffer);
-const $=s=>document.querySelector(s),money=n=>Number(n).toLocaleString('de-DE',{style:'currency',currency:'EUR'}),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const el={q:$('#q'),sort:$('#sort'),type:$('#type'),useApp:$('#useApp'),useCoupon:$('#useCoupon'),cats:$('#cats'),stores:$('#stores'),cards:$('#cards'),top:$('#top'),status:$('#status'),productCount:$('#productCount'),offerCount:$('#offerCount'),storeCount:$('#storeCount'),liveNote:$('#liveNote'),importState:$('#importState'),marketList:$('#marketList'),listCount:$('#listCount'),items:$('#items'),result:$('#result'),backdrop:$('#backdrop'),historyBack:$('#historyBack'),historyTitle:$('#historyTitle'),historySub:$('#historySub'),historyContent:$('#historyContent'),more:$('#more')};
-let offers=DEMO,sources=[],nearby=[],groups=[],groupMap=new Map(),storeTypes=new Map(),selectedStore='Alle Händler',selectedCat='Alle Kategorien',selectedType='Alle Typen',visibleLimit=matchMedia('(max-width:640px)').matches?40:80,lastResult=[];
-let history=null,historyPromise=null,historyConcrete=new Map(),historyOffer=null,historyPeriod='6M',historyStore='Alle Händler';
-let list=JSON.parse(localStorage.getItem('ar-list-v5')||localStorage.getItem('ar-list-v4')||'[]'),listSet=new Set(list);
-const keyOf=o=>o.bundleKey||o.key||o.canonicalGroup||o.canonicalProduct||o.name,concreteKeyOf=o=>o.canonicalProductId||o.exactMatchKey||`${o.canonicalProduct||o.name}|${o.size||''}`,storeName=o=>o.market?`${o.store} · ${o.market}`:o.store,eligible=o=>(el.useApp.checked||!o.app)&&(el.useCoupon.checked||!o.coupon),isOffer=o=>o.isOffer===true||o.advertised===true;
-function cheapest(a){let best=null,bm=Infinity,bp=Infinity;for(const o of a){const m=priceMetric(o),p=Number(o.price);if(m<bm||(m===bm&&p<bp)){best=o;bm=m;bp=p}}return best}
-function rebuildIndex(){groupMap=new Map();for(const o of offers){const key=concreteKeyOf(o),bundleKey=keyOf(o);let g=groupMap.get(key);if(!g){g={key,bundleKey,all:[],search:''};groupMap.set(key,g)}g.all.push(o);g.search+=` ${bundleKey} ${key} ${o.name} ${o.store} ${o.market||''} ${o.brand||''} ${o.ean||''} ${o.canonicalProduct||''} ${o.canonicalGroup||''}`.toLocaleLowerCase('de-DE')}groups=[...groupMap.values()];el.productCount.textContent=groups.length;el.offerCount.textContent=offers.filter(isOffer).length;el.storeCount.textContent=new Set(offers.map(o=>o.store).filter(Boolean)).size}
-function comparisonCandidates(main,all){return all.filter(o=>String(o.id)!==String(main.id)&&storeName(o)!==storeName(main)&&o.store!==main.store&&comparable(main,o))}
-function bundle(g){const all=g.all.filter(eligible),scoped=selectedStore==='Alle Händler'?all:all.filter(o=>o.store===selectedStore);const bio=cheapest(scoped.filter(o=>o.bio)),fallback=cheapest(scoped.filter(o=>!o.bio)),main=bio||fallback;if(!main)return null;const comparisonPool=offers.filter(eligible).filter(o=>keyOf(o)===g.bundleKey),other=comparisonCandidates(main,comparisonPool);let comparison=null,comparisonMode='';if(main.bio){comparison=cheapest(other.filter(o=>!o.bio));comparisonMode='conventional'}else{comparison=cheapest(other);if(comparison)comparisonMode=priceMetric(comparison)<priceMetric(main)?'cheaper':'next'}return{g,main,bio,all,comparison,comparisonMode,sellerCount:new Set(all.map(storeName)).size}}
-function fmtUnit(o,n=priceMetric(o)){const d=n<.1?3:n<10?2:1;return`${Number(n).toLocaleString('de-DE',{maximumFractionDigits:d})} ${unitLabel(o)}`}
-function comparisonHtml(p){const o=p.comparison;if(!o)return'';if(p.comparisonMode==='conventional')return`<div class="compare"><b>⚪ Konventionelle Alternative:</b><br>${esc(storeName(o))} · ${money(o.price)} · ${fmtUnit(o)}</div>`;if(p.comparisonMode==='cheaper')return`<div class="compare"><b>Günstiger bei:</b><br>${esc(storeName(o))} · ${money(o.price)} · ${fmtUnit(o)}</div>`;return`<div class="compare"><b>🏆 Günstigstes Angebot</b><br>Nächster Preis: ${esc(storeName(o))} · ${money(o.price)}</div>`}
-function categories(){return['Alle Kategorien',...new Set(offers.map(o=>o.cat||o.category||'Lebensmittel'))]}
-function retailers(){return['Alle Händler',...new Set(offers.map(o=>o.store).filter(Boolean))]}
-function renderChips(){el.cats.innerHTML=categories().map(x=>`<button class="chip ${x===selectedCat?'on':''}" data-cat="${encodeURIComponent(x)}">${esc(x)}</button>`).join('');el.stores.innerHTML=retailers().map(x=>`<button class="chip ${x===selectedStore?'on':''}" data-store="${encodeURIComponent(x)}">${esc(x)}</button>`).join('')}
-function getBundles(){const term=el.q.value.trim().toLocaleLowerCase('de-DE'),mode=el.sort.value,arr=[];for(const g of groups){if(term&&!g.search.includes(term))continue;const p=bundle(g);if(!p)continue;if(selectedCat!=='Alle Kategorien'&&(p.main.cat||p.main.category)!==selectedCat)continue;if(selectedType!=='Alle Typen'&&(storeTypes.get(p.main.store)||'Sonstige')!==selectedType)continue;arr.push(p)}arr.sort((a,b)=>mode==='price'?a.main.price-b.main.price:mode==='unit'?priceMetric(a.main)-priceMetric(b.main):mode==='name'?a.g.key.localeCompare(b.g.key,'de'):(Number(!!b.bio)-Number(!!a.bio))||(Number(isOffer(b.main))-Number(isOffer(a.main)))||a.main.price-b.main.price);return arr}
-function historyKey(o){const id=o.canonicalProductId;return id?`${id}|${!!(o.bio??o.organic)}|${o.baseUnit||unitLabel(o)||'€/Packung'}`:null}
-function indexHistory(h){historyConcrete=new Map();for(const e of h.events||[]){const key=historyKey(e);if(!key)continue;let a=historyConcrete.get(key);if(!a)historyConcrete.set(key,a=[]);a.push(e)}}
-function hEvents(o){const key=historyKey(o);return key?historyConcrete.get(key)||[]:[]}
-function assessment(o){if(!history)return null;const events=hEvents(o);if(!events.length)return null;return assessPrice(o,events,{minObservations:history.minObservationsForRating||4})}
-function historyButton(o){return`<button class="historyBtn" data-history="${encodeURIComponent(String(o.id))}">📈 Preisverlauf</button>`}
-function ratingButton(o){const a=assessment(o);return a?`<button class="ratingBtn" data-history="${encodeURIComponent(String(o.id))}">${esc(a.label)}</button>`:''}
-function priceHtml(o){const regular=Number(o.regularPrice),current=Number(o.price),strike=isOffer(o)&&Number.isFinite(regular)&&regular>current+.001;return`${strike?`<small class="oldprice">statt ${money(regular)}</small>`:''}<b>${isOffer(o)?'🔥 ':''}${money(current)}</b><small>${fmtUnit(o)}</small>`}
-function card(p){const o=p.main,added=listSet.has(p.g.bundleKey),baby=(o.cat||o.category)==='Baby & Kleinkind';return`<article class="card ${isOffer(o)?'offer':''}"><div class="ico">${o.icon||'🛒'}</div><div><h3>${esc(o.name)}</h3><div class="meta">${esc(storeName(o))} · ${esc(o.size||'Packung')}</div><div class="tags">${o.bio?'<span class="tag bio">🌱 BIO</span>':''}${baby?'<span class="tag baby">👶 Baby & Kleinkind</span>':''}${p.sellerCount>1?`<span class="tag variant">${p.sellerCount} Händler</span>`:''}${o.app?'<span class="tag app">App</span>':''}${o.coupon?'<span class="tag coupon">Coupon</span>':''}${isOffer(o)?'<span class="tag ad">ANGEBOT</span>':'<span class="tag reg">Regulär</span>'}</div>${ratingButton(o)}${historyButton(o)}${comparisonHtml(p)}</div><div class="price">${priceHtml(o)}<button class="add ${added?'added':''}" data-add="${encodeURIComponent(p.g.bundleKey)}">${added?'✓ Liste':'+ Liste'}</button></div></article>`}
-function render(){lastResult=getBundles();const shown=lastResult.slice(0,visibleLimit);el.cards.innerHTML=shown.length?shown.map(card).join(''):'<div class="empty">Keine passenden Produkte.</div>';el.more.hidden=shown.length>=lastResult.length;el.more.textContent=`Mehr Produkte anzeigen (${lastResult.length-shown.length})`;const topBio=lastResult.filter(p=>p.bio&&isOffer(p.main)).sort((a,b)=>priceMetric(a.bio)-priceMetric(b.bio)).slice(0,3);el.top.innerHTML=topBio.length?topBio.map(p=>`<article class="topcard"><div class="emoji">${p.bio.icon||'🌱'}</div><h3>${esc(p.bio.name)}</h3><small class="muted">🌱 ${esc(storeName(p.bio))} · ${esc(p.bio.size||'Packung')}</small><div class="bigprice">${money(p.bio.price)}</div>${ratingButton(p.bio)}${historyButton(p.bio)}${comparisonHtml(p)}</article>`).join(''):'<div class="empty">Aktuell keine Bio-Angebote im gewählten Filter.</div>';el.status.textContent=`${lastResult.length} Produkte · ${offers.filter(isOffer).length} Angebote · ${offers.filter(o=>!isOffer(o)).length} reguläre Produkte`}
-let searchTimer=0;function scheduleRender(){clearTimeout(searchTimer);searchTimer=setTimeout(()=>{visibleLimit=matchMedia('(max-width:640px)').matches?40:80;render()},110)}
-function toggleList(k){if(listSet.has(k))listSet.delete(k);else listSet.add(k);list=[...listSet];localStorage.setItem('ar-list-v5',JSON.stringify(list));el.listCount.textContent=list.length;render();if(el.backdrop.classList.contains('open'))renderList()}
-function renderList(){el.items.innerHTML=list.length?list.map(k=>`<div class="item"><span><b>${esc(k)}</b><br><small class="muted">Bio bevorzugt</small></span><button class="rm" data-rm="${encodeURIComponent(k)}">✕</button></div>`).join(''):'<div class="empty" style="margin-top:12px">Liste ist leer.</div>'}
-function optimizeList(){const chosen=[];for(const k of list){const matches=groups.filter(g=>g.bundleKey===k).map(bundle).filter(Boolean),mains=matches.map(p=>p.main);if(!mains.length)continue;const main=cheapest(mains.filter(o=>o.bio))||cheapest(mains.filter(o=>!o.bio));if(main)chosen.push(main)}const by={};for(const o of chosen)(by[o.store]??=[]).push(o);const total=chosen.reduce((s,o)=>s+Number(o.price),0);el.result.innerHTML=`<div class="result"><b style="font-size:22px">${money(total)}</b><br>Bio-priorisierter Einkauf${Object.entries(by).map(([s,a])=>`<div class="shop"><b>${esc(s)} · ${money(a.reduce((z,o)=>z+Number(o.price),0))}</b><br>${a.map(o=>(o.bio?'🌱':'⚪')+' '+esc(keyOf(o))+' – '+money(o.price)).join('<br>')}</div>`).join('')}</div>`}
-async function loadHistory(){if(history)return history;if(historyPromise)return historyPromise;historyPromise=fetch('./data/price-history.json',{cache:'no-store'}).then(r=>r.ok?r.json():{events:[],minObservationsForRating:4}).then(h=>{history=h;indexHistory(h);return h}).catch(()=>history={events:[],minObservationsForRating:4});return historyPromise}
-function eventDate(e){return new Date(e.lastSeen||e.observedAt||e.validTo||e.validFrom||e.firstSeen||0)}function cutoff(){const d=new Date();if(historyPeriod==='1M')d.setMonth(d.getMonth()-1);else if(historyPeriod==='3M')d.setMonth(d.getMonth()-3);else if(historyPeriod==='6M')d.setMonth(d.getMonth()-6);else if(historyPeriod==='1J')d.setFullYear(d.getFullYear()-1);else return null;return d}
-function chartRows(events){const c=cutoff();let rows=events.filter(e=>!c||eventDate(e)>=c);if(historyStore!=='Alle Händler')rows=rows.filter(e=>e.store===historyStore);rows.sort((a,b)=>eventDate(a)-eventDate(b));return rows}
-function chartSvg(rows,o){if(!rows.length)return'<div class="chartEmpty">Noch keine Preispunkte für diesen Zeitraum.</div>';const w=620,h=240,p={l:46,r:14,t:16,b:34},vals=rows.map(e=>Number(e.basePrice??e.effectivePrice??e.price)).filter(Number.isFinite);if(!vals.length)return'<div class="chartEmpty">Keine vergleichbaren Grundpreise.</div>';let min=Math.min(...vals),max=Math.max(...vals);if(max-min<.01){min=Math.max(0,min*.9);max=max*1.1+.01}else{const m=(max-min)*.15;min=Math.max(0,min-m);max+=m}const x=i=>p.l+(rows.length===1?(w-p.l-p.r)/2:i*(w-p.l-p.r)/(rows.length-1)),y=v=>p.t+(max-v)*(h-p.t-p.b)/(max-min),points=rows.map((e,i)=>({x:x(i),y:y(Number(e.basePrice??e.effectivePrice??e.price)),offer:e.isOffer})),pts=points.map(v=>`${v.x},${v.y}`).join(' ');let grid='';for(let i=0;i<4;i++){const yy=p.t+i*(h-p.t-p.b)/3,v=max-i*(max-min)/3;grid+=`<line class="chartGrid" x1="${p.l}" y1="${yy}" x2="${w-p.r}" y2="${yy}"/><text class="chartLabel" x="2" y="${yy+3}">${Number(v).toLocaleString('de-DE',{maximumFractionDigits:2})}</text>`}const circles=points.map(v=>`<circle class="chartPoint" cx="${v.x}" cy="${v.y}" r="${v.offer?5:3}"/>`).join('');return`<svg viewBox="0 0 ${w} ${h}" style="color:#0b6b4f">${grid}<polyline class="chartLine" points="${pts}"/>${circles}</svg>`}
-function renderHistory(){const o=historyOffer;if(!o)return;const events=hEvents(o),stores=['Alle Händler',...new Set(events.map(e=>e.store).filter(Boolean))];if(!stores.includes(historyStore))historyStore='Alle Händler';const rows=chartRows(events),vals=rows.map(e=>Number(e.basePrice??e.effectivePrice??e.price)).filter(Number.isFinite),med=median(vals),mn=vals.length?Math.min(...vals):null,mx=vals.length?Math.max(...vals):null,a=assessPrice(o,events,{minObservations:history?.minObservationsForRating||4});el.historyTitle.textContent=`📈 ${o.canonicalProduct||o.name}`;el.historySub.textContent=`${o.bio?'Bio · ':''}${storeName(o)} · ${unitLabel(o)}`;el.historyContent.innerHTML=`<div class="historySummary"><div class="historyStat"><b>${money(o.price)}</b><span>Aktueller Preis</span></div><div class="historyStat"><b>${med==null?'–':fmtUnit(o,med)}</b><span>Median</span></div><div class="historyStat"><b>${mn==null?'–':fmtUnit(o,mn)}</b><span>Tiefstpreis</span></div><div class="historyStat"><b>${mx==null?'–':fmtUnit(o,mx)}</b><span>Höchstpreis</span></div></div><div class="historyControls">${['1M','3M','6M','1J','Alles'].map(p=>`<button class="period ${p===historyPeriod?'on':''}" data-period="${p}">${p}</button>`).join('')}<select id="historyStoreSelect">${stores.map(s=>`<option ${s===historyStore?'selected':''}>${esc(s)}</option>`).join('')}</select></div><div class="chartBox">${chartSvg(rows,o)}</div><div class="historyExplain"><b>${esc(a.label)}</b>${a.typical?`<br>Üblicher Preis: ${esc(fmtUnit(o,a.typical))}<br>Differenz: ${a.differencePct.toLocaleString('de-DE',{maximumFractionDigits:1})} %`:''}<br>Basis: Median der verfügbaren passenden Preisbeobachtungen.<br>${events.length} historische Preisereignisse.</div>`}
-async function openHistory(id){historyOffer=offers.find(o=>String(o.id)===String(id));if(!historyOffer)return;historyPeriod='6M';historyStore='Alle Händler';el.historyBack.classList.add('open');el.historyContent.innerHTML='<div class="chartEmpty">Preisverlauf wird geladen …</div>';await loadHistory();renderHistory()}
-async function loadLive(){try{const [r,mr]=await Promise.all([fetch('./data/offers-live.json',{cache:'no-store'}),fetch('./data/markets.json',{cache:'no-store'})]);if(!r.ok||!mr.ok)throw new Error('Produkt- oder Marktdaten nicht verfügbar');const d=await r.json(),md=await mr.json(),live=Array.isArray(d.offers)?d.offers.filter(o=>Number.isFinite(Number(o.price))&&o.name&&o.activeMarket!==false):[];sources=Array.isArray(d.sources)?d.sources:[];nearby=Array.isArray(md.markets)?md.markets.filter(m=>m.activeMarket!==false):[];storeTypes=new Map(nearby.map(m=>[m.store,m.type||'Sonstige']));const typeOptions=['Alle Typen',...new Set(nearby.map(m=>m.type).filter(Boolean))];el.type.innerHTML=typeOptions.map(t=>`<option>${esc(t)}</option>`).join('');if(live.length){offers=live.map((o,i)=>normalizeOffer({...o,id:o.id||i+1,unit:Number(o.unit??o.basePrice??o.price),price:Number(o.price)}));const t=d.generatedAt?new Date(d.generatedAt).toLocaleString('de-DE'):'unbekannt';el.liveNote.innerHTML=`✅ <b>Daten aktiv:</b> ${offers.length} Produkte · ${offers.filter(isOffer).length} Angebote · ${offers.filter(o=>!isOffer(o)).length} regulär · Stand ${t}.`}else el.liveNote.innerHTML='⚠️ <b>Noch keine validen Produktdaten.</b> Demo-Fallback aktiv.';el.importState.innerHTML=nearby.length?nearby.map(m=>`<div class="sourceRow">${m.catalogStatus==='full_catalog'?'🟢':m.catalogStatus==='partial_catalog'?'🟡':m.catalogStatus==='offers_only'?'🔵':'⚪'} <b>${esc(m.store)} · ${esc(m.market)}</b><br><span class="muted">${esc(m.catalogStatus||'unavailable')}</span></div>`).join(''):'Kein Importstatus.';el.marketList.innerHTML=nearby.length?nearby.map(m=>`• ${esc(m.store)} · ${esc(m.market)}${m.isRiemArcaden?' · Riem Arcaden':''}`).join('<br>'):'Keine aktiven Filialen.';rebuildIndex();renderChips();render();await loadHistory();render()}catch(e){el.liveNote.innerHTML=`⚠️ <b>Daten konnten nicht geladen werden.</b> Demo-Fallback (${esc(e.message)}).`;rebuildIndex();renderChips();render()}}
-el.q.addEventListener('input',scheduleRender,{passive:true});el.sort.onchange=()=>{visibleLimit=80;render()};el.type.onchange=()=>{selectedType=el.type.value;visibleLimit=80;render()};el.useApp.onchange=()=>{visibleLimit=80;render()};el.useCoupon.onchange=()=>{visibleLimit=80;render()};el.more.onclick=()=>{visibleLimit+=matchMedia('(max-width:640px)').matches?40:80;render()};
-el.cats.onclick=e=>{const b=e.target.closest('[data-cat]');if(!b)return;selectedCat=decodeURIComponent(b.dataset.cat);visibleLimit=40;renderChips();render()};el.stores.onclick=e=>{const b=e.target.closest('[data-store]');if(!b)return;selectedStore=decodeURIComponent(b.dataset.store);visibleLimit=40;renderChips();render()};const cardClick=e=>{const a=e.target.closest('[data-add]');if(a){toggleList(decodeURIComponent(a.dataset.add));return}const h=e.target.closest('[data-history]');if(h)openHistory(decodeURIComponent(h.dataset.history))};el.cards.onclick=cardClick;el.top.onclick=cardClick;
-$('#openList').onclick=()=>{el.backdrop.classList.add('open');renderList()};$('#closeList').onclick=()=>el.backdrop.classList.remove('open');el.backdrop.onclick=e=>{if(e.target===el.backdrop)el.backdrop.classList.remove('open')};el.items.onclick=e=>{const b=e.target.closest('[data-rm]');if(b)toggleList(decodeURIComponent(b.dataset.rm))};$('#optimize').onclick=optimizeList;$('#clearList').onclick=()=>{list=[];listSet.clear();localStorage.setItem('ar-list-v5','[]');el.listCount.textContent=0;render();renderList()};$('#closeHistory').onclick=()=>el.historyBack.classList.remove('open');el.historyBack.onclick=e=>{if(e.target===el.historyBack)el.historyBack.classList.remove('open')};el.historyContent.onclick=e=>{const b=e.target.closest('[data-period]');if(b){historyPeriod=b.dataset.period;renderHistory()}};el.historyContent.onchange=e=>{if(e.target.id==='historyStoreSelect'){historyStore=e.target.value;renderHistory()}};
-el.listCount.textContent=list.length;rebuildIndex();renderChips();render();loadLive();if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+
+<div id="listBack" class="backdrop" aria-hidden="true"><aside class="drawer" role="dialog" aria-modal="true" aria-label="Einkaufsliste"><div class="drawerHead"><h2>Deine Einkaufsliste</h2><button class="closeBtn" data-close="listBack" type="button">✕</button></div><div id="listItems"></div><div id="listSummary"></div><button id="clearList" class="clearBtn" type="button">Liste leeren</button></aside></div>
+<div id="historyBack" class="backdrop" aria-hidden="true"><aside class="drawer" role="dialog" aria-modal="true" aria-label="Preisverlauf"><div class="drawerHead"><h2>Preisdetails</h2><button class="closeBtn" data-close="historyBack" type="button">✕</button></div><div id="historyContent"></div></aside></div>
+
+<script>
+const $=s=>document.querySelector(s);
+const $$=s=>[...document.querySelectorAll(s)];
+const money=n=>Number.isFinite(Number(n))?Number(n).toLocaleString('de-DE',{style:'currency',currency:'EUR'}):'–';
+const num=n=>Number.isFinite(Number(n))?Number(n):null;
+const norm=s=>String(s??'').toLocaleLowerCase('de-DE').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/ß/g,'ss').replace(/[^a-z0-9]+/g,' ').trim();
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+const iconFor=o=>/baby|windel|pampers/i.test(`${o.cat} ${o.name}`)?'🧸':/milch|butter|käse|joghurt/i.test(`${o.cat} ${o.name}`)?'🥛':/fleisch|wurst|fisch/i.test(`${o.cat} ${o.name}`)?'🥩':/obst|gemüse/i.test(`${o.cat} ${o.name}`)?'🥕':/getränk|wasser|saft|bier/i.test(`${o.cat} ${o.name}`)?'🥤':/haushalt|drogerie|wasch|reiniger/i.test(`${o.cat} ${o.name}`)?'🧼':'🛒';
+
+let offers=[];
+let state={q:'',cat:'Alle Kategorien',store:'Alle Händler',type:'all',sort:'smart',visible:36};
+let list=[];
+const LIST_KEY='angebotsradar-list-v8';
+try{list=JSON.parse(localStorage.getItem(LIST_KEY)||'[]');if(!Array.isArray(list))list=[]}catch{list=[]}
+
+function priceOf(o){return num(o.currentPrice??o.offerPrice??o.price)}
+function regularOf(o){return num(o.regularPrice)}
+function unitOf(o){return num(o.unit)}
+function isOffer(o){return o.isOffer===true || (num(o.offerPrice)!=null && regularOf(o)!=null && num(o.offerPrice)<regularOf(o))}
+function keyOf(o){return String(o.ean||o.gtin||o.canonicalProductId||o.reweProductId||`${o.store}|${o.market}|${o.name}|${o.size}`)}
+function savingPct(o){const p=priceOf(o),r=regularOf(o);return p&&r&&r>p?Math.round((1-p/r)*100):0}
+function isBaby(o){return /baby|kleinkind|windel|pampers|feuchttuch|schnuller|folgemilch/i.test(`${o.cat||''} ${o.name||''}`)}
+
+function relevance(o,q){
+  q=norm(q);if(!q)return 0;
+  const n=norm(o.name),b=norm(o.brand),c=norm(o.cat),canonical=norm(o.canonicalName||o.canonicalProductId||o.productGroup||'');
+  const parts=q.split(' ').filter(Boolean);let score=0;
+  if(n===q)score+=1600;
+  if(n.startsWith(q+' '))score+=950;
+  if(n.endsWith(' '+q))score+=900;
+  const whole=new RegExp(`(^| )${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}( |$)`);
+  if(whole.test(n))score+=1100;
+  if(n.includes(q))score+=420;
+  if(canonical.includes(q))score+=260;
+  if(b.includes(q))score+=90;
+  if(c.includes(q))score+=55;
+  for(const p of parts){if(new RegExp(`(^| )${p.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}( |$)`).test(n))score+=180;else if(n.includes(p))score+=55}
+  if(q==='butter'){
+    if(/(^| )butter( |$)|markenbutter|sussrahmbutter|weidebutter|irische butter|mildgesauerte butter/.test(n))score+=900;
+    if(/streichbutter|krauterbutter/.test(n))score-=120;
+    if(/butterschmalz/.test(n))score-=360;
+    if(/butterkeks|buttermilch|butter chicken|butter chicken|buttergemuse/.test(n))score-=1100;
+  }
+  return score;
+}
+
+function filterOffers(){
+  const q=state.q.trim();
+  let rows=offers.filter(o=>{
+    if(state.cat!=='Alle Kategorien' && String(o.cat||'Sonstiges')!==state.cat)return false;
+    if(state.store!=='Alle Händler' && String(o.store||'Unbekannt')!==state.store)return false;
+    if(state.type==='offers'&&!isOffer(o))return false;
+    if(state.type==='regular'&&isOffer(o))return false;
+    if(state.type==='bio'&&!o.bio)return false;
+    if(q && relevance(o,q)<=0)return false;
+    return priceOf(o)!=null;
+  });
+  rows.sort((a,b)=>{
+    if(state.sort==='price')return (priceOf(a)??Infinity)-(priceOf(b)??Infinity);
+    if(state.sort==='unit')return (unitOf(a)??Infinity)-(unitOf(b)??Infinity);
+    if(state.sort==='saving')return savingPct(b)-savingPct(a)||(priceOf(a)??Infinity)-(priceOf(b)??Infinity);
+    if(state.sort==='name')return String(a.name).localeCompare(String(b.name),'de');
+    if(q){const d=relevance(b,q)-relevance(a,q);if(d)return d}
+    if(Boolean(a.bio)!==Boolean(b.bio))return a.bio?-1:1;
+    if(isOffer(a)!==isOffer(b))return isOffer(a)?-1:1;
+    return savingPct(b)-savingPct(a)||(unitOf(a)??Infinity)-(unitOf(b)??Infinity);
+  });
+  return rows;
+}
+
+function renderChips(){
+  const categories=['Alle Kategorien',...new Set(offers.map(o=>String(o.cat||'Sonstiges')).filter(Boolean))].sort((a,b)=>a==='Alle Kategorien'?-1:b==='Alle Kategorien'?1:a.localeCompare(b,'de'));
+  const stores=['Alle Händler',...new Set(offers.map(o=>String(o.store||'Unbekannt')).filter(Boolean))].sort((a,b)=>a==='Alle Händler'?-1:b==='Alle Händler'?1:a.localeCompare(b,'de'));
+  $('#cats').innerHTML=categories.map(x=>`<button class="chip ${x===state.cat?'on':''}" data-cat="${esc(x)}" type="button">${esc(x)}</button>`).join('');
+  $('#stores').innerHTML=stores.map(x=>`<button class="chip ${x===state.store?'on':''}" data-store="${esc(x)}" type="button">${esc(x)}</button>`).join('');
+  $$('#cats [data-cat]').forEach(b=>b.onclick=()=>{state.cat=b.dataset.cat;state.visible=36;renderChips();render()});
+  $$('#stores [data-store]').forEach(b=>b.onclick=()=>{state.store=b.dataset.store;state.visible=36;renderChips();render()});
+}
+
+function cardHtml(o){
+  const p=priceOf(o),r=regularOf(o),u=unitOf(o),save=savingPct(o),added=list.some(x=>x.key===keyOf(o));
+  const image=o.image||o.imageUrl||'';
+  return `<article class="productCard ${isOffer(o)?'isOffer':''}">
+    <div class="thumb">${image?`<img src="${esc(image)}" alt="" loading="lazy" onerror="this.parentNode.textContent='${iconFor(o)}'">`:iconFor(o)}</div>
+    <div class="productMain">
+      <div class="productTopline"><span class="smallStore">${esc(o.store||'Markt')}</span>${isOffer(o)?'<span class="badge offer">ANGEBOT</span>':''}${o.bio?'<span class="badge bio">BIO</span>':''}${isBaby(o)?'<span class="badge baby">BABY</span>':''}</div>
+      <h3>${esc(o.name||'Produkt')}</h3>
+      <div class="productMeta">${[o.brand,o.size,o.market].filter(Boolean).map(esc).join(' · ')}</div>
+      <div class="productActions"><button class="addBtn ${added?'added':''}" data-add="${esc(keyOf(o))}" type="button">${added?'✓ Auf Liste':'+ Einkaufsliste'}</button><button class="ghostBtn" data-history="${esc(keyOf(o))}" type="button">Preisdetails</button></div>
+    </div>
+    <div class="priceBox">${r&&r>p?`<div class="old">${money(r)}</div>`:''}<div class="price">${money(p)}</div>${u?`<div class="unit">${money(u)} ${esc(o.unitLabel||'')}</div>`:''}${save?`<div class="saving">-${save}%</div>`:''}</div>
+  </article>`;
+}
+
+function renderFeatured(){
+  const rows=offers.filter(o=>isOffer(o)&&priceOf(o)!=null).sort((a,b)=>savingPct(b)-savingPct(a)||(unitOf(a)??Infinity)-(unitOf(b)??Infinity)).slice(0,4);
+  $('#featured').innerHTML=rows.map(o=>`<article class="featuredCard"><div class="featuredTop"><span class="storePill">${esc(o.store||'Markt')}</span><span class="offerPill">${savingPct(o)?`-${savingPct(o)}%`:'ANGEBOT'}</span></div><div><h3>${esc(o.name||'Produkt')}</h3><div class="featuredMeta">${[o.brand,o.size,o.market].filter(Boolean).map(esc).join(' · ')}</div></div><div class="featuredPrice"><b>${money(priceOf(o))}</b><span>${unitOf(o)?`${money(unitOf(o))} ${esc(o.unitLabel||'')}`:''}</span></div></article>`).join('');
+  $('#featuredSection').hidden=!rows.length;
+}
+
+function render(){
+  const rows=filterOffers();
+  const shown=rows.slice(0,state.visible);
+  $('#cards').innerHTML=shown.length?shown.map(cardHtml).join(''):`<div class="empty"><b>Keine passenden Produkte gefunden</b>Versuche einen allgemeineren Suchbegriff oder entferne einen Filter.</div>`;
+  $('#status').textContent=state.q?`Treffer für „${state.q}“`:'Lokales Sortiment und aktuelle Angebote';
+  $('#resultMeta').textContent=`${rows.length.toLocaleString('de-DE')} Treffer`;
+  $('#more').hidden=rows.length<=state.visible;
+  $('#more').textContent=`Mehr anzeigen · ${Math.min(rows.length-state.visible,36)} weitere`;
+  $$('[data-add]').forEach(b=>b.onclick=()=>toggleList(b.dataset.add));
+  $$('[data-history]').forEach(b=>b.onclick=()=>openHistory(b.dataset.history));
+}
+
+function saveList(){localStorage.setItem(LIST_KEY,JSON.stringify(list));renderListCount()}
+function renderListCount(){$('#listCount').textContent=list.length}
+function toggleList(key){
+  const i=list.findIndex(x=>x.key===key);
+  if(i>=0)list.splice(i,1);else{const o=offers.find(x=>keyOf(x)===key);if(o)list.push({key,name:o.name,store:o.store,market:o.market,size:o.size,price:priceOf(o),unit:unitOf(o),unitLabel:o.unitLabel,bio:!!o.bio})}
+  saveList();render();if($('#listBack').classList.contains('open'))renderList();
+}
+function renderList(){
+  const box=$('#listItems');
+  if(!list.length){box.innerHTML='<div class="listEmpty">Noch nichts auf der Liste.<br>Füge Produkte direkt aus der Übersicht hinzu.</div>';$('#listSummary').innerHTML='';return}
+  box.innerHTML=list.map(x=>`<div class="listItem"><div><b>${esc(x.name)}</b><small>${[x.store,x.market,x.size].filter(Boolean).map(esc).join(' · ')}</small></div><div><div class="listPrice">${money(x.price)}</div><button class="removeBtn" data-remove="${esc(x.key)}" type="button">Entfernen</button></div></div>`).join('');
+  const total=list.reduce((s,x)=>s+(num(x.price)||0),0);const shops=new Set(list.map(x=>x.store).filter(Boolean)).size;
+  $('#listSummary').innerHTML=`<div class="summary"><b>${money(total)}</b><br>${list.length} Produkte · ${shops} Händler<br><span style="color:var(--muted)">Summe basiert auf den aktuell ausgewählten Produkten.</span></div>`;
+  $$('[data-remove]').forEach(b=>b.onclick=()=>{list=list.filter(x=>x.key!==b.dataset.remove);saveList();renderList();render()});
+}
+function openDrawer(id){const el=$('#'+id);el.classList.add('open');el.setAttribute('aria-hidden','false');document.body.style.overflow='hidden'}
+function closeDrawer(id){const el=$('#'+id);el.classList.remove('open');el.setAttribute('aria-hidden','true');document.body.style.overflow=''}
+function openHistory(key){
+  const o=offers.find(x=>keyOf(x)===key);if(!o)return;const p=priceOf(o),r=regularOf(o),save=savingPct(o),u=unitOf(o);
+  $('#historyContent').innerHTML=`<div class="historyBox"><h3>${esc(o.name||'Produkt')}</h3><p>${[o.brand,o.size,o.store,o.market].filter(Boolean).map(esc).join(' · ')}</p><div class="historyStats"><div class="historyStat"><b>${money(p)}</b><span>aktueller Preis</span></div><div class="historyStat"><b>${r?money(r):'–'}</b><span>regulärer Preis</span></div><div class="historyStat"><b>${save?`${save}%`:'–'}</b><span>aktuelle Ersparnis</span></div></div>${u?`<p><b>Grundpreis:</b> ${money(u)} ${esc(o.unitLabel||'')}</p>`:''}<p>Der längerfristige Preisverlauf wird automatisch ergänzt, sobald für dieses Produkt mehrere historische Messpunkte vorliegen.</p></div>`;
+  openDrawer('historyBack');
+}
+
+async function load(){
+  try{
+    const r=await fetch(`./data/offers-live.json?v=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);const data=await r.json();offers=Array.isArray(data.offers)?data.offers:[];
+    offers=offers.filter(o=>o&&o.name&&priceOf(o)!=null&&o.activeMarket!==false);
+    $('#productCount').textContent=offers.length.toLocaleString('de-DE');$('#offerCount').textContent=offers.filter(isOffer).length.toLocaleString('de-DE');$('#storeCount').textContent=new Set(offers.map(o=>o.store).filter(Boolean)).size.toLocaleString('de-DE');
+    const generated=data.generatedAt?new Date(data.generatedAt):null;const stamp=generated&&!Number.isNaN(generated.getTime())?generated.toLocaleString('de-DE',{dateStyle:'short',timeStyle:'short'}):'aktuell';
+    $('#dataDot').className='dot ok';$('#liveNote').textContent=`Daten aktuell · ${offers.length.toLocaleString('de-DE')} Produkte · Stand ${stamp}`;
+    renderChips();renderFeatured();render();
+  }catch(e){$('#dataDot').className='dot warn';$('#liveNote').textContent='Produktdaten konnten gerade nicht geladen werden.';$('#status').textContent='Bitte später erneut laden';$('#cards').innerHTML='<div class="empty"><b>Daten momentan nicht verfügbar</b>Die Oberfläche funktioniert, aber der Produktbestand konnte nicht geladen werden.</div>';console.error(e)}
+}
+
+$('#q').addEventListener('input',e=>{state.q=e.target.value;state.visible=36;render()});
+$('#sort').addEventListener('change',e=>{state.sort=e.target.value;render()});
+$('#type').addEventListener('change',e=>{state.type=e.target.value;state.visible=36;render()});
+$('#more').onclick=()=>{state.visible+=36;render()};
+$('#filterToggle').onclick=()=>{const area=$('#filterArea');area.classList.toggle('open');$('#filterToggle').classList.toggle('active',area.classList.contains('open'))};
+$('#openList').onclick=()=>{renderList();openDrawer('listBack')};
+$('#clearList').onclick=()=>{list=[];saveList();renderList();render()};
+$$('[data-close]').forEach(b=>b.onclick=()=>closeDrawer(b.dataset.close));
+$$('.backdrop').forEach(b=>b.addEventListener('click',e=>{if(e.target===b)closeDrawer(b.id)}));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')$$('.backdrop.open').forEach(b=>closeDrawer(b.id))});
+renderListCount();load();
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
 </script>
 </body>
 </html>

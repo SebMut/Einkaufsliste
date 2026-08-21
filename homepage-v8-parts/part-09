@@ -1,8 +1,0 @@
-ch(b=>b.onclick=()=>closeDrawer(b.dataset.close));
-$$('.backdrop').forEach(b=>b.addEventListener('click',e=>{if(e.target===b)closeDrawer(b.id)}));
-document.addEventListener('keydown',e=>{if(e.key==='Escape')$$('.backdrop.open').forEach(b=>closeDrawer(b.id))});
-renderListCount();load();
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
-</script>
-</body>
-</html>
