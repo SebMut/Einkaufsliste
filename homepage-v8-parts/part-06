@@ -1,0 +1,42 @@
+=state.cat)return false;
+    if(state.store!=='Alle Händler' && String(o.store||'Unbekannt')!==state.store)return false;
+    if(state.type==='offers'&&!isOffer(o))return false;
+    if(state.type==='regular'&&isOffer(o))return false;
+    if(state.type==='bio'&&!o.bio)return false;
+    if(q && relevance(o,q)<=0)return false;
+    return priceOf(o)!=null;
+  });
+  rows.sort((a,b)=>{
+    if(state.sort==='price')return (priceOf(a)??Infinity)-(priceOf(b)??Infinity);
+    if(state.sort==='unit')return (unitOf(a)??Infinity)-(unitOf(b)??Infinity);
+    if(state.sort==='saving')return savingPct(b)-savingPct(a)||(priceOf(a)??Infinity)-(priceOf(b)??Infinity);
+    if(state.sort==='name')return String(a.name).localeCompare(String(b.name),'de');
+    if(q){const d=relevance(b,q)-relevance(a,q);if(d)return d}
+    if(Boolean(a.bio)!==Boolean(b.bio))return a.bio?-1:1;
+    if(isOffer(a)!==isOffer(b))return isOffer(a)?-1:1;
+    return savingPct(b)-savingPct(a)||(unitOf(a)??Infinity)-(unitOf(b)??Infinity);
+  });
+  return rows;
+}
+
+function renderChips(){
+  const categories=['Alle Kategorien',...new Set(offers.map(o=>String(o.cat||'Sonstiges')).filter(Boolean))].sort((a,b)=>a==='Alle Kategorien'?-1:b==='Alle Kategorien'?1:a.localeCompare(b,'de'));
+  const stores=['Alle Händler',...new Set(offers.map(o=>String(o.store||'Unbekannt')).filter(Boolean))].sort((a,b)=>a==='Alle Händler'?-1:b==='Alle Händler'?1:a.localeCompare(b,'de'));
+  $('#cats').innerHTML=categories.map(x=>`<button class="chip ${x===state.cat?'on':''}" data-cat="${esc(x)}" type="button">${esc(x)}</button>`).join('');
+  $('#stores').innerHTML=stores.map(x=>`<button class="chip ${x===state.store?'on':''}" data-store="${esc(x)}" type="button">${esc(x)}</button>`).join('');
+  $$('#cats [data-cat]').forEach(b=>b.onclick=()=>{state.cat=b.dataset.cat;state.visible=36;renderChips();render()});
+  $$('#stores [data-store]').forEach(b=>b.onclick=()=>{state.store=b.dataset.store;state.visible=36;renderChips();render()});
+}
+
+function cardHtml(o){
+  const p=priceOf(o),r=regularOf(o),u=unitOf(o),save=savingPct(o),added=list.some(x=>x.key===keyOf(o));
+  const image=o.image||o.imageUrl||'';
+  return `<article class="productCard ${isOffer(o)?'isOffer':''}">
+    <div class="thumb">${image?`<img src="${esc(image)}" alt="" loading="lazy" onerror="this.parentNode.textContent='${iconFor(o)}'">`:iconFor(o)}</div>
+    <div class="productMain">
+      <div class="productTopline"><span class="smallStore">${esc(o.store||'Markt')}</span>${isOffer(o)?'<span class="badge offer">ANGEBOT</span>':''}${o.bio?'<span class="badge bio">BIO</span>':''}${isBaby(o)?'<span class="badge baby">BABY</span>':''}</div>
+      <h3>${esc(o.name||'Produkt')}</h3>
+      <div class="productMeta">${[o.brand,o.size,o.market].filter(Boolean).map(esc).join(' · ')}</div>
+      <div class="productActions"><button class="addBtn ${added?'added':''}" data-add="${esc(keyOf(o))}" type="button">${added?'✓ Auf Liste':'+ Einkaufsliste'}</button><button class="ghostBtn" data-history="${esc(keyOf(o))}" type="button">Preisdetails</button></div>
+    </div>
+    <div class="priceBox">${r&&r>p?`<div class="old">${money(r)}</div>`:''}<div class="price">${money(p)}</div>${u?`
