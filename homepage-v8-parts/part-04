@@ -1,0 +1,51 @@
+uktsuche und Filter">
+    <div class="searchRow">
+      <label class="searchBox">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.4-3.4"></path></svg>
+        <input id="q" autocomplete="off" placeholder="Milch, Butter, Windeln …" aria-label="Produkte suchen">
+      </label>
+      <select id="sort" class="select" aria-label="Sortierung">
+        <option value="smart">Empfohlen</option>
+        <option value="price">Packungspreis</option>
+        <option value="unit">Grundpreis</option>
+        <option value="saving">Größte Ersparnis</option>
+        <option value="name">A–Z</option>
+      </select>
+      <select id="type" class="select typeSelect" aria-label="Produkttyp">
+        <option value="all">Alle Produkte</option>
+        <option value="offers">Nur Angebote</option>
+        <option value="regular">Reguläre Preise</option>
+        <option value="bio">Nur Bio</option>
+      </select>
+      <button id="filterToggle" class="filterToggle" type="button" aria-label="Filter anzeigen">☷</button>
+    </div>
+    <div id="filterArea" class="filterArea">
+      <div class="filterLine"><div class="filterLabel">Kategorie</div><div id="cats" class="chips"></div></div>
+      <div class="filterLine"><div class="filterLabel">Händler</div><div id="stores" class="chips"></div></div>
+    </div>
+  </section>
+
+  <div class="dataBar">
+    <div class="dataState"><span id="dataDot" class="dot"></span><span id="liveNote">Produktdaten werden geladen …</span></div>
+    <div class="dataTools"><a class="textLink" href="./grundlebensmittel.html">Grundlebensmittel ansehen →</a></div>
+  </div>
+
+  <section id="featuredSection" class="section">
+    <div class="sectionHead"><div class="sectionTitle"><h2>Top-Angebote</h2><p>Aktuelle Preisvorteile aus deiner Region</p></div></div>
+    <div id="featured" class="featured"></div>
+  </section>
+
+  <section class="section">
+    <div class="sectionHead">
+      <div class="sectionTitle"><h2>Produkte & Angebote</h2><p id="status">Wird geladen …</p></div>
+      <div id="resultMeta" class="resultMeta"></div>
+    </div>
+    <main id="cards" class="productGrid"></main>
+    <button id="more" class="more" type="button" hidden>Mehr anzeigen</button>
+  </section>
+
+  <footer><span>AngebotsRadar · lokale Preisübersicht</span><div class="footerLinks"><a href="./grundlebensmittel.html">Grundlebensmittel</a><a href="https://github.com/SebMut/Einkaufsliste" target="_blank" rel="noopener">Projekt</a></div></footer>
+</div>
+
+<div id="listBack" class="backdrop" aria-hidden="true"><aside class="drawer" role="dialog" aria-modal="true" aria-label="Einkaufsliste"><div class="drawerHead"><h2>Deine Einkaufsliste</h2><button class="closeBtn" data-close="listBack" type="button">✕</button></div><div id="listItems"></div><div id="listSummary"></div><button id="clearList" class="clearBtn" type="button">Liste leeren</button></aside></div>
+<div id="historyBack" class="backdrop" aria-hidden="true"><aside class="drawer" role="dialog" aria-modal="true" aria-label="Preisverlauf"><div class="drawerHead"><h2>Preisdetails</h2><button class="
