@@ -3,276 +3,68 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0b6b4f">
+<meta name="theme-color" content="#116149">
 <title>AngebotsRadar – Preise rund um Feldkirchen</title>
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="icon" href="./icon.svg">
-<style>
-:root{
-  --green:#0b6b4f;--green-2:#0f7f60;--green-soft:#eaf6f1;--ink:#17231f;--muted:#687871;
-  --line:#dfe7e3;--bg:#f5f7f6;--card:#fff;--offer:#fff5ef;--danger:#c53c31;--amber:#a96600;
-  --shadow:0 12px 35px rgba(20,35,29,.07)
-}
-*{box-sizing:border-box}
-html{background:var(--bg);scroll-behavior:smooth}
-body{margin:0;color:var(--ink);background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent}
-button,input,select{font:inherit}button{cursor:pointer}a{color:inherit}
-.shell{width:min(1240px,calc(100% - 32px));margin:auto;padding-bottom:72px}
-.topbar{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.brand{display:flex;align-items:center;gap:11px;min-width:0}.brandMark{width:42px;height:42px;border-radius:13px;background:var(--green);color:#fff;display:grid;place-items:center;font-size:21px;box-shadow:0 5px 16px #0b6b4f24}.brandText{min-width:0}.brandText strong{display:block;font-size:16px}.brandText span{display:block;color:var(--muted);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:620px}
-.topActions{display:flex;align-items:center;gap:8px}.miniLink,.listButton{height:38px;border:1px solid var(--line);background:#fff;border-radius:12px;display:inline-flex;align-items:center;gap:7px;padding:0 12px;text-decoration:none;font-size:12px;font-weight:750}.miniLink:hover,.listButton:hover{border-color:#bfd0c8}.listButton{position:relative}.listBadge{min-width:20px;height:20px;border-radius:99px;background:var(--green);color:#fff;display:grid;place-items:center;font-size:10px;font-weight:900}
-.intro{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end;padding:28px 4px 22px}.kicker{color:var(--green);font-size:12px;font-weight:850;letter-spacing:.02em}.intro h1{font-size:clamp(32px,5vw,56px);line-height:1.02;letter-spacing:-.035em;margin:6px 0 10px;max-width:760px}.intro p{margin:0;color:var(--muted);font-size:15px;line-height:1.55;max-width:720px}.stats{display:grid;grid-template-columns:repeat(3,108px);gap:8px}.stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:13px 12px;text-align:center}.stat b{display:block;font-size:21px;line-height:1.1}.stat span{display:block;color:var(--muted);font-size:10px;margin-top:4px}
-.searchPanel{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:16px}.searchRow{display:grid;grid-template-columns:minmax(260px,1fr) 190px 160px 46px;gap:9px}.searchBox{height:48px;border:1px solid var(--line);border-radius:14px;display:flex;align-items:center;gap:9px;padding:0 14px;background:#fbfcfb}.searchBox:focus-within{border-color:#7fb7a4;box-shadow:0 0 0 3px #0b6b4f12}.searchBox svg{width:18px;color:var(--muted);flex:0 0 auto}.searchBox input{border:0;outline:0;width:100%;background:transparent;color:var(--ink);font-size:16px}.searchBox input::placeholder{color:#9aa7a1}.select{height:48px;border:1px solid var(--line);border-radius:14px;background:#fff;padding:0 12px;color:var(--ink)}.filterToggle{height:48px;border:1px solid var(--line);border-radius:14px;background:#fff;font-size:18px}.filterToggle.active{background:var(--green-soft);border-color:#bcded0;color:var(--green)}
-.filterArea{padding-top:13px}.filterLine{display:grid;grid-template-columns:78px minmax(0,1fr);gap:8px;align-items:start;margin-top:7px}.filterLabel{font-size:10px;font-weight:850;color:var(--muted);padding-top:8px;text-transform:uppercase;letter-spacing:.04em}.chips{display:flex;gap:6px;overflow-x:auto;padding:1px 1px 4px;scrollbar-width:none}.chips::-webkit-scrollbar{display:none}.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 11px;white-space:nowrap;font-size:11px;font-weight:750;color:#4f6159}.chip:hover{border-color:#bdcec6}.chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
-.dataBar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:12px 2px 0;color:var(--muted);font-size:11px}.dataState{display:flex;align-items:center;gap:7px;min-width:0}.dot{width:8px;height:8px;border-radius:50%;background:#90a099;flex:0 0 auto}.dot.ok{background:#28a162}.dot.warn{background:#d89726}.dataState span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.dataTools{display:flex;gap:10px;align-items:center}.textLink{border:0;background:transparent;color:var(--green);font-weight:800;font-size:11px;padding:5px 0;text-decoration:none}
-.section{margin-top:28px}.sectionHead{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:11px}.sectionTitle h2{font-size:21px;margin:0;letter-spacing:-.02em}.sectionTitle p{font-size:11px;color:var(--muted);margin:3px 0 0}.resultMeta{font-size:11px;color:var(--muted);white-space:nowrap}
-.featured{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.featured:empty{display:none}.featuredCard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:13px;min-height:158px;display:flex;flex-direction:column;gap:10px}.featuredTop{display:flex;justify-content:space-between;gap:8px;align-items:center}.storePill{display:inline-flex;align-items:center;gap:5px;color:#53645d;font-size:10px;font-weight:850}.offerPill{border-radius:8px;padding:4px 7px;background:#ffe7dc;color:#a63b20;font-size:9px;font-weight:900}.featuredCard h3{font-size:14px;line-height:1.25;margin:0}.featuredMeta{font-size:10px;color:var(--muted)}.featuredPrice{margin-top:auto;display:flex;align-items:end;justify-content:space-between;gap:10px}.featuredPrice b{font-size:21px}.featuredPrice span{font-size:9px;color:var(--muted)}
-.productGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.productCard{background:#fff;border:1px solid var(--line);border-radius:18px;padding:13px;display:grid;grid-template-columns:54px minmax(0,1fr) auto;gap:11px;min-height:144px;content-visibility:auto;contain-intrinsic-size:160px}.productCard.isOffer{border-color:#ead5c8;background:linear-gradient(145deg,#fff 0%,#fffaf7 100%)}.thumb{width:54px;height:54px;border-radius:14px;background:var(--green-soft);display:grid;place-items:center;overflow:hidden;font-size:24px}.thumb img{width:100%;height:100%;object-fit:contain;background:#fff}.productMain{min-width:0}.productTopline{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:5px}.smallStore{font-size:9px;color:#56665f;font-weight:900}.badge{font-size:8px;border-radius:7px;padding:3px 5px;background:#edf2f0;color:#5e6e67;font-weight:850}.badge.bio{background:#e9f7ed;color:#23713b}.badge.offer{background:#ffe8dc;color:#a34422}.badge.baby{background:#fff1da;color:#7a5415}.productCard h3{font-size:13px;line-height:1.28;margin:0 0 5px;overflow-wrap:anywhere}.productMeta{font-size:9px;color:var(--muted);line-height:1.45}.productActions{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}.ghostBtn,.addBtn{border:0;border-radius:9px;padding:6px 8px;font-size:9px;font-weight:850}.ghostBtn{background:#f1f5f3;color:#52645c}.addBtn{background:var(--ink);color:#fff}.addBtn.added{background:var(--green-soft);color:var(--green)}
-.priceBox{text-align:right;min-width:92px}.priceBox .old{text-decoration:line-through;color:#929c97;font-size:9px}.priceBox .price{font-size:18px;font-weight:900;margin-top:2px}.priceBox .unit{font-size:9px;color:var(--muted);margin-top:2px}.priceBox .saving{font-size:9px;color:#a34323;font-weight:850;margin-top:6px}.priceBox .usual{font-size:9px;color:var(--green);font-weight:850;margin-top:6px}
-.empty{grid-column:1/-1;border:1px dashed #cbd7d2;background:#fff;border-radius:18px;padding:42px 20px;text-align:center;color:var(--muted)}.empty b{display:block;color:var(--ink);margin-bottom:5px}.more{display:block;width:100%;margin-top:12px;border:1px solid var(--line);background:#fff;border-radius:14px;padding:12px;font-weight:850}.more[hidden]{display:none}
-.backdrop{position:fixed;inset:0;background:rgba(7,22,16,.42);display:none;z-index:60}.backdrop.open{display:block}.drawer{position:absolute;right:0;top:0;width:min(440px,94vw);height:100%;background:#f7f9f8;padding:18px;overflow:auto;box-shadow:-20px 0 50px rgba(0,0,0,.12)}.drawerHead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}.drawerHead h2{margin:0;font-size:20px}.closeBtn{width:38px;height:38px;border:1px solid var(--line);background:#fff;border-radius:11px}.listEmpty{padding:28px 12px;text-align:center;color:var(--muted);font-size:12px}.listItem{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:11px;margin-bottom:7px}.listItem b{font-size:12px;display:block}.listItem small{color:var(--muted);font-size:9px}.listPrice{font-weight:900;font-size:13px;text-align:right}.removeBtn{border:0;background:#fdeeee;color:#a62d2d;border-radius:8px;padding:5px 7px;font-size:9px;margin-top:5px}.summary{margin-top:12px;background:#eaf6f1;border:1px solid #cfe6dc;border-radius:14px;padding:12px;font-size:11px;line-height:1.55}.summary b{font-size:15px}.clearBtn{width:100%;border:0;background:transparent;color:#a52f2f;padding:12px;font-size:11px;font-weight:800}
-.historyBox{background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px}.historyBox h3{font-size:15px;margin:0 0 5px}.historyBox p{font-size:11px;color:var(--muted);line-height:1.5}.historyStats{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:10px}.historyStat{background:#f6f8f7;border-radius:11px;padding:10px}.historyStat b{display:block;font-size:14px}.historyStat span{font-size:9px;color:var(--muted)}
-footer{display:flex;justify-content:space-between;gap:15px;align-items:center;color:var(--muted);font-size:10px;padding:34px 2px 0}.footerLinks{display:flex;gap:12px}.footerLinks a{text-decoration:none}
-@media(max-width:1050px){.featured{grid-template-columns:repeat(2,minmax(0,1fr))}.productGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.intro{grid-template-columns:1fr}.stats{grid-template-columns:repeat(3,1fr);width:100%}.searchRow{grid-template-columns:minmax(0,1fr) 170px 46px}.searchRow .typeSelect{display:none}}
-@media(max-width:720px){.shell{width:min(100% - 18px,1240px)}.topbar{height:62px}.brandText span{max-width:210px}.miniLink{display:none}.intro{padding:18px 2px 14px}.intro h1{font-size:36px}.intro p{font-size:13px}.stats{gap:5px}.stat{padding:10px 6px}.stat b{font-size:18px}.searchPanel{border-radius:17px;padding:10px;box-shadow:none}.searchRow{grid-template-columns:minmax(0,1fr) 46px}.searchRow .select{display:none}.filterArea{display:none}.filterArea.open{display:block}.filterLine{grid-template-columns:1fr}.filterLabel{padding:3px 1px}.dataBar{align-items:flex-start}.dataTools{display:none}.featured{display:flex;overflow:auto;gap:8px}.featuredCard{min-width:78vw}.productGrid{grid-template-columns:1fr}.productCard{grid-template-columns:48px minmax(0,1fr) auto;padding:11px}.thumb{width:48px;height:48px}.priceBox{min-width:80px}.section{margin-top:22px}.sectionHead{align-items:flex-start}.resultMeta{white-space:normal;text-align:right}.historyStats{grid-template-columns:1fr}.footerLinks{display:none}}
-</style>
+<link rel="stylesheet" href="./app.css">
 </head>
 <body>
-<div class="shell">
+<div class="app">
   <header class="topbar">
-    <div class="brand">
-      <div class="brandMark">🛒</div>
-      <div class="brandText"><strong>AngebotsRadar</strong><span>Feldkirchen · Heimstetten · Aschheim · Kirchheim · Riem Arcaden</span></div>
-    </div>
-    <div class="topActions">
-      <a class="miniLink" href="./grundlebensmittel.html">🏠 Grundlebensmittel</a>
-      <button id="openList" class="listButton" type="button">♡ Einkaufsliste <span id="listCount" class="listBadge">0</span></button>
+    <a class="brand" href="./" aria-label="AngebotsRadar Startseite"><div class="mark">🛒</div><div class="brandCopy"><strong>AngebotsRadar</strong><span>Feldkirchen · Heimstetten · Aschheim · Kirchheim · Riem Arcaden</span></div></a>
+    <div class="topRight">
+      <a id="commitBadge" class="commit" href="https://github.com/SebMut/Einkaufsliste" target="_blank" rel="noopener" title="Aktueller Git-Commit">Commit …</a>
+      <button id="openList" class="listBtn" type="button"><span>♡</span><span class="label">Einkaufsliste</span><span id="listCount" class="listCount">0</span></button>
     </div>
   </header>
 
-  <section class="intro">
-    <div>
-      <div class="kicker">PREISE IN DEINER NÄHE</div>
-      <h1>Finde schneller, was sich wirklich lohnt.</h1>
-      <p>Produkte und Angebote aus deinen lokalen Märkten – mit Bio-Priorität, Grundpreisvergleich und relevanter Suche. Bei „Butter“ kommt echte Butter vor Butterkeksen.</p>
+  <section class="hero">
+    <div class="eyebrow">Lokaler Preisvergleich</div>
+    <h1>Was brauchst du?</h1>
+    <p>Suche ein Produkt und vergleiche direkt die Preise in deinen Märkten. Bio bleibt priorisiert, Angebote sind klar markiert und doppelte Filialtreffer werden zusammengefasst.</p>
+  </section>
+
+  <section class="searchCard" aria-label="Suche und Filter">
+    <div class="searchMain">
+      <label class="searchInput"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg><input id="q" autocomplete="off" placeholder="z. B. Butter, Milch, Nudeln, Windeln …" aria-label="Produkte suchen"></label>
+      <button id="filterBtn" class="filterBtn" type="button"><span>☷</span><span class="filterText">Filter</span><span id="filterCount" class="filterCount">0</span></button>
     </div>
-    <div class="stats">
-      <div class="stat"><b id="productCount">–</b><span>Produkte</span></div>
-      <div class="stat"><b id="offerCount">–</b><span>Angebote</span></div>
-      <div class="stat"><b id="storeCount">–</b><span>Händler</span></div>
+    <div class="quickRow" aria-label="Schnellfilter">
+      <button class="quick on" data-quick="all" type="button">Alle</button>
+      <button class="quick offer" data-quick="offers" type="button">🔥 Angebote</button>
+      <button class="quick bio" data-quick="bio" type="button">🌱 Bio</button>
+      <button class="quick" data-quick="regular" type="button">Reguläre Preise</button>
+    </div>
+    <div id="filters" class="filters">
+      <div class="filterGrid">
+        <div class="filterBlock"><label for="sort">Sortierung</label><select id="sort" class="select"><option value="smart">Empfohlen</option><option value="unit">Niedrigster Grundpreis</option><option value="price">Niedrigster Packungspreis</option><option value="saving">Größte Ersparnis</option><option value="name">A–Z</option></select></div>
+        <div class="filterBlock"><label for="branchMode">Filialansicht</label><select id="branchMode" class="select"><option value="collapsed">Gleiche Filialtreffer bündeln</option><option value="individual">Jede Filiale einzeln</option></select></div>
+      </div>
+      <span class="chipLabel">Kategorie</span><div id="cats" class="chips"></div>
+      <span class="chipLabel">Händler</span><div id="stores" class="chips"></div>
     </div>
   </section>
 
-  <section class="searchPanel" aria-label="Produktsuche und Filter">
-    <div class="searchRow">
-      <label class="searchBox">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.4-3.4"></path></svg>
-        <input id="q" autocomplete="off" placeholder="Milch, Butter, Windeln …" aria-label="Produkte suchen">
-      </label>
-      <select id="sort" class="select" aria-label="Sortierung">
-        <option value="smart">Empfohlen</option>
-        <option value="price">Packungspreis</option>
-        <option value="unit">Grundpreis</option>
-        <option value="saving">Größte Ersparnis</option>
-        <option value="name">A–Z</option>
-      </select>
-      <select id="type" class="select typeSelect" aria-label="Produkttyp">
-        <option value="all">Alle Produkte</option>
-        <option value="offers">Nur Angebote</option>
-        <option value="regular">Reguläre Preise</option>
-        <option value="bio">Nur Bio</option>
-      </select>
-      <button id="filterToggle" class="filterToggle" type="button" aria-label="Filter anzeigen">☷</button>
-    </div>
-    <div id="filterArea" class="filterArea">
-      <div class="filterLine"><div class="filterLabel">Kategorie</div><div id="cats" class="chips"></div></div>
-      <div class="filterLine"><div class="filterLabel">Händler</div><div id="stores" class="chips"></div></div>
-    </div>
-  </section>
+  <div class="statusBar"><div class="dataStatus"><span id="dot" class="dot"></span><span id="dataStatus">Produktdaten werden geladen …</span></div><button id="reset" class="resetBtn" type="button">Filter zurücksetzen</button></div>
 
-  <div class="dataBar">
-    <div class="dataState"><span id="dataDot" class="dot"></span><span id="liveNote">Produktdaten werden geladen …</span></div>
-    <div class="dataTools"><a class="textLink" href="./grundlebensmittel.html">Grundlebensmittel ansehen →</a></div>
-  </div>
-
-  <section id="featuredSection" class="section">
-    <div class="sectionHead"><div class="sectionTitle"><h2>Top-Angebote</h2><p>Aktuelle Preisvorteile aus deiner Region</p></div></div>
-    <div id="featured" class="featured"></div>
+  <section id="dealSection" class="section">
+    <div class="sectionHead"><div><h2>Gerade interessant</h2><p>Aktuelle Angebote mit erkennbarem Preisvorteil</p></div></div>
+    <div id="deals" class="deals"></div>
   </section>
 
   <section class="section">
-    <div class="sectionHead">
-      <div class="sectionTitle"><h2>Produkte & Angebote</h2><p id="status">Wird geladen …</p></div>
-      <div id="resultMeta" class="resultMeta"></div>
-    </div>
-    <main id="cards" class="productGrid"></main>
+    <div class="sectionHead"><div><h2 id="resultsTitle">Preisvergleich</h2><p id="resultsSubtitle">Produkte aus deinen lokalen Märkten</p></div><div id="resultInfo" class="resultInfo"></div></div>
+    <main id="products" class="products"></main>
     <button id="more" class="more" type="button" hidden>Mehr anzeigen</button>
   </section>
 
-  <footer><span>AngebotsRadar · lokale Preisübersicht</span><div class="footerLinks"><a href="./grundlebensmittel.html">Grundlebensmittel</a><a href="https://github.com/SebMut/Einkaufsliste" target="_blank" rel="noopener">Projekt</a></div></footer>
+  <footer><span>AngebotsRadar · lokale Preisübersicht</span><div class="footerLinks"><a href="./grundlebensmittel.html">Grundlebensmittel</a><a href="https://github.com/SebMut/Einkaufsliste" target="_blank" rel="noopener">GitHub</a></div></footer>
 </div>
 
-<div id="listBack" class="backdrop" aria-hidden="true"><aside class="drawer" role="dialog" aria-modal="true" aria-label="Einkaufsliste"><div class="drawerHead"><h2>Deine Einkaufsliste</h2><button class="closeBtn" data-close="listBack" type="button">✕</button></div><div id="listItems"></div><div id="listSummary"></div><button id="clearList" class="clearBtn" type="button">Liste leeren</button></aside></div>
-<div id="historyBack" class="backdrop" aria-hidden="true"><aside class="drawer" role="dialog" aria-modal="true" aria-label="Preisverlauf"><div class="drawerHead"><h2>Preisdetails</h2><button class="closeBtn" data-close="historyBack" type="button">✕</button></div><div id="historyContent"></div></aside></div>
+<div id="listBack" class="back" aria-hidden="true"><aside class="drawer" role="dialog" aria-modal="true"><div class="drawerHead"><h2>Deine Einkaufsliste</h2><button class="close" data-close="listBack" type="button">✕</button></div><div id="listItems"></div><div id="listSummary"></div><button id="clearList" class="clear" type="button">Liste leeren</button></aside></div>
+<div id="detailBack" class="back" aria-hidden="true"><aside class="drawer" role="dialog" aria-modal="true"><div class="drawerHead"><h2>Preisdetails</h2><button class="close" data-close="detailBack" type="button">✕</button></div><div id="detailContent"></div></aside></div>
 
-<script>
-const $=s=>document.querySelector(s);
-const $$=s=>[...document.querySelectorAll(s)];
-const money=n=>Number.isFinite(Number(n))?Number(n).toLocaleString('de-DE',{style:'currency',currency:'EUR'}):'–';
-const num=n=>Number.isFinite(Number(n))?Number(n):null;
-const norm=s=>String(s??'').toLocaleLowerCase('de-DE').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/ß/g,'ss').replace(/[^a-z0-9]+/g,' ').trim();
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
-const iconFor=o=>/baby|windel|pampers/i.test(`${o.cat} ${o.name}`)?'🧸':/milch|butter|käse|joghurt/i.test(`${o.cat} ${o.name}`)?'🥛':/fleisch|wurst|fisch/i.test(`${o.cat} ${o.name}`)?'🥩':/obst|gemüse/i.test(`${o.cat} ${o.name}`)?'🥕':/getränk|wasser|saft|bier/i.test(`${o.cat} ${o.name}`)?'🥤':/haushalt|drogerie|wasch|reiniger/i.test(`${o.cat} ${o.name}`)?'🧼':'🛒';
-
-let offers=[];
-let state={q:'',cat:'Alle Kategorien',store:'Alle Händler',type:'all',sort:'smart',visible:36};
-let list=[];
-const LIST_KEY='angebotsradar-list-v8';
-try{list=JSON.parse(localStorage.getItem(LIST_KEY)||'[]');if(!Array.isArray(list))list=[]}catch{list=[]}
-
-function priceOf(o){return num(o.currentPrice??o.offerPrice??o.price)}
-function regularOf(o){return num(o.regularPrice)}
-function unitOf(o){return num(o.unit)}
-function isOffer(o){return o.isOffer===true || (num(o.offerPrice)!=null && regularOf(o)!=null && num(o.offerPrice)<regularOf(o))}
-function keyOf(o){return String(o.ean||o.gtin||o.canonicalProductId||o.reweProductId||`${o.store}|${o.market}|${o.name}|${o.size}`)}
-function savingPct(o){const p=priceOf(o),r=regularOf(o);return p&&r&&r>p?Math.round((1-p/r)*100):0}
-function isBaby(o){return /baby|kleinkind|windel|pampers|feuchttuch|schnuller|folgemilch/i.test(`${o.cat||''} ${o.name||''}`)}
-
-function relevance(o,q){
-  q=norm(q);if(!q)return 0;
-  const n=norm(o.name),b=norm(o.brand),c=norm(o.cat),canonical=norm(o.canonicalName||o.canonicalProductId||o.productGroup||'');
-  const parts=q.split(' ').filter(Boolean);let score=0;
-  if(n===q)score+=1600;
-  if(n.startsWith(q+' '))score+=950;
-  if(n.endsWith(' '+q))score+=900;
-  const whole=new RegExp(`(^| )${q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}( |$)`);
-  if(whole.test(n))score+=1100;
-  if(n.includes(q))score+=420;
-  if(canonical.includes(q))score+=260;
-  if(b.includes(q))score+=90;
-  if(c.includes(q))score+=55;
-  for(const p of parts){if(new RegExp(`(^| )${p.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}( |$)`).test(n))score+=180;else if(n.includes(p))score+=55}
-  if(q==='butter'){
-    if(/(^| )butter( |$)|markenbutter|sussrahmbutter|weidebutter|irische butter|mildgesauerte butter/.test(n))score+=900;
-    if(/streichbutter|krauterbutter/.test(n))score-=120;
-    if(/butterschmalz/.test(n))score-=360;
-    if(/butterkeks|buttermilch|butter chicken|butter chicken|buttergemuse/.test(n))score-=1100;
-  }
-  return score;
-}
-
-function filterOffers(){
-  const q=state.q.trim();
-  let rows=offers.filter(o=>{
-    if(state.cat!=='Alle Kategorien' && String(o.cat||'Sonstiges')!==state.cat)return false;
-    if(state.store!=='Alle Händler' && String(o.store||'Unbekannt')!==state.store)return false;
-    if(state.type==='offers'&&!isOffer(o))return false;
-    if(state.type==='regular'&&isOffer(o))return false;
-    if(state.type==='bio'&&!o.bio)return false;
-    if(q && relevance(o,q)<=0)return false;
-    return priceOf(o)!=null;
-  });
-  rows.sort((a,b)=>{
-    if(state.sort==='price')return (priceOf(a)??Infinity)-(priceOf(b)??Infinity);
-    if(state.sort==='unit')return (unitOf(a)??Infinity)-(unitOf(b)??Infinity);
-    if(state.sort==='saving')return savingPct(b)-savingPct(a)||(priceOf(a)??Infinity)-(priceOf(b)??Infinity);
-    if(state.sort==='name')return String(a.name).localeCompare(String(b.name),'de');
-    if(q){const d=relevance(b,q)-relevance(a,q);if(d)return d}
-    if(Boolean(a.bio)!==Boolean(b.bio))return a.bio?-1:1;
-    if(isOffer(a)!==isOffer(b))return isOffer(a)?-1:1;
-    return savingPct(b)-savingPct(a)||(unitOf(a)??Infinity)-(unitOf(b)??Infinity);
-  });
-  return rows;
-}
-
-function renderChips(){
-  const categories=['Alle Kategorien',...new Set(offers.map(o=>String(o.cat||'Sonstiges')).filter(Boolean))].sort((a,b)=>a==='Alle Kategorien'?-1:b==='Alle Kategorien'?1:a.localeCompare(b,'de'));
-  const stores=['Alle Händler',...new Set(offers.map(o=>String(o.store||'Unbekannt')).filter(Boolean))].sort((a,b)=>a==='Alle Händler'?-1:b==='Alle Händler'?1:a.localeCompare(b,'de'));
-  $('#cats').innerHTML=categories.map(x=>`<button class="chip ${x===state.cat?'on':''}" data-cat="${esc(x)}" type="button">${esc(x)}</button>`).join('');
-  $('#stores').innerHTML=stores.map(x=>`<button class="chip ${x===state.store?'on':''}" data-store="${esc(x)}" type="button">${esc(x)}</button>`).join('');
-  $$('#cats [data-cat]').forEach(b=>b.onclick=()=>{state.cat=b.dataset.cat;state.visible=36;renderChips();render()});
-  $$('#stores [data-store]').forEach(b=>b.onclick=()=>{state.store=b.dataset.store;state.visible=36;renderChips();render()});
-}
-
-function cardHtml(o){
-  const p=priceOf(o),r=regularOf(o),u=unitOf(o),save=savingPct(o),added=list.some(x=>x.key===keyOf(o));
-  const image=o.image||o.imageUrl||'';
-  return `<article class="productCard ${isOffer(o)?'isOffer':''}">
-    <div class="thumb">${image?`<img src="${esc(image)}" alt="" loading="lazy" onerror="this.parentNode.textContent='${iconFor(o)}'">`:iconFor(o)}</div>
-    <div class="productMain">
-      <div class="productTopline"><span class="smallStore">${esc(o.store||'Markt')}</span>${isOffer(o)?'<span class="badge offer">ANGEBOT</span>':''}${o.bio?'<span class="badge bio">BIO</span>':''}${isBaby(o)?'<span class="badge baby">BABY</span>':''}</div>
-      <h3>${esc(o.name||'Produkt')}</h3>
-      <div class="productMeta">${[o.brand,o.size,o.market].filter(Boolean).map(esc).join(' · ')}</div>
-      <div class="productActions"><button class="addBtn ${added?'added':''}" data-add="${esc(keyOf(o))}" type="button">${added?'✓ Auf Liste':'+ Einkaufsliste'}</button><button class="ghostBtn" data-history="${esc(keyOf(o))}" type="button">Preisdetails</button></div>
-    </div>
-    <div class="priceBox">${r&&r>p?`<div class="old">${money(r)}</div>`:''}<div class="price">${money(p)}</div>${u?`<div class="unit">${money(u)} ${esc(o.unitLabel||'')}</div>`:''}${save?`<div class="saving">-${save}%</div>`:''}</div>
-  </article>`;
-}
-
-function renderFeatured(){
-  const rows=offers.filter(o=>isOffer(o)&&priceOf(o)!=null).sort((a,b)=>savingPct(b)-savingPct(a)||(unitOf(a)??Infinity)-(unitOf(b)??Infinity)).slice(0,4);
-  $('#featured').innerHTML=rows.map(o=>`<article class="featuredCard"><div class="featuredTop"><span class="storePill">${esc(o.store||'Markt')}</span><span class="offerPill">${savingPct(o)?`-${savingPct(o)}%`:'ANGEBOT'}</span></div><div><h3>${esc(o.name||'Produkt')}</h3><div class="featuredMeta">${[o.brand,o.size,o.market].filter(Boolean).map(esc).join(' · ')}</div></div><div class="featuredPrice"><b>${money(priceOf(o))}</b><span>${unitOf(o)?`${money(unitOf(o))} ${esc(o.unitLabel||'')}`:''}</span></div></article>`).join('');
-  $('#featuredSection').hidden=!rows.length;
-}
-
-function render(){
-  const rows=filterOffers();
-  const shown=rows.slice(0,state.visible);
-  $('#cards').innerHTML=shown.length?shown.map(cardHtml).join(''):`<div class="empty"><b>Keine passenden Produkte gefunden</b>Versuche einen allgemeineren Suchbegriff oder entferne einen Filter.</div>`;
-  $('#status').textContent=state.q?`Treffer für „${state.q}“`:'Lokales Sortiment und aktuelle Angebote';
-  $('#resultMeta').textContent=`${rows.length.toLocaleString('de-DE')} Treffer`;
-  $('#more').hidden=rows.length<=state.visible;
-  $('#more').textContent=`Mehr anzeigen · ${Math.min(rows.length-state.visible,36)} weitere`;
-  $$('[data-add]').forEach(b=>b.onclick=()=>toggleList(b.dataset.add));
-  $$('[data-history]').forEach(b=>b.onclick=()=>openHistory(b.dataset.history));
-}
-
-function saveList(){localStorage.setItem(LIST_KEY,JSON.stringify(list));renderListCount()}
-function renderListCount(){$('#listCount').textContent=list.length}
-function toggleList(key){
-  const i=list.findIndex(x=>x.key===key);
-  if(i>=0)list.splice(i,1);else{const o=offers.find(x=>keyOf(x)===key);if(o)list.push({key,name:o.name,store:o.store,market:o.market,size:o.size,price:priceOf(o),unit:unitOf(o),unitLabel:o.unitLabel,bio:!!o.bio})}
-  saveList();render();if($('#listBack').classList.contains('open'))renderList();
-}
-function renderList(){
-  const box=$('#listItems');
-  if(!list.length){box.innerHTML='<div class="listEmpty">Noch nichts auf der Liste.<br>Füge Produkte direkt aus der Übersicht hinzu.</div>';$('#listSummary').innerHTML='';return}
-  box.innerHTML=list.map(x=>`<div class="listItem"><div><b>${esc(x.name)}</b><small>${[x.store,x.market,x.size].filter(Boolean).map(esc).join(' · ')}</small></div><div><div class="listPrice">${money(x.price)}</div><button class="removeBtn" data-remove="${esc(x.key)}" type="button">Entfernen</button></div></div>`).join('');
-  const total=list.reduce((s,x)=>s+(num(x.price)||0),0);const shops=new Set(list.map(x=>x.store).filter(Boolean)).size;
-  $('#listSummary').innerHTML=`<div class="summary"><b>${money(total)}</b><br>${list.length} Produkte · ${shops} Händler<br><span style="color:var(--muted)">Summe basiert auf den aktuell ausgewählten Produkten.</span></div>`;
-  $$('[data-remove]').forEach(b=>b.onclick=()=>{list=list.filter(x=>x.key!==b.dataset.remove);saveList();renderList();render()});
-}
-function openDrawer(id){const el=$('#'+id);el.classList.add('open');el.setAttribute('aria-hidden','false');document.body.style.overflow='hidden'}
-function closeDrawer(id){const el=$('#'+id);el.classList.remove('open');el.setAttribute('aria-hidden','true');document.body.style.overflow=''}
-function openHistory(key){
-  const o=offers.find(x=>keyOf(x)===key);if(!o)return;const p=priceOf(o),r=regularOf(o),save=savingPct(o),u=unitOf(o);
-  $('#historyContent').innerHTML=`<div class="historyBox"><h3>${esc(o.name||'Produkt')}</h3><p>${[o.brand,o.size,o.store,o.market].filter(Boolean).map(esc).join(' · ')}</p><div class="historyStats"><div class="historyStat"><b>${money(p)}</b><span>aktueller Preis</span></div><div class="historyStat"><b>${r?money(r):'–'}</b><span>regulärer Preis</span></div><div class="historyStat"><b>${save?`${save}%`:'–'}</b><span>aktuelle Ersparnis</span></div></div>${u?`<p><b>Grundpreis:</b> ${money(u)} ${esc(o.unitLabel||'')}</p>`:''}<p>Der längerfristige Preisverlauf wird automatisch ergänzt, sobald für dieses Produkt mehrere historische Messpunkte vorliegen.</p></div>`;
-  openDrawer('historyBack');
-}
-
-async function load(){
-  try{
-    const r=await fetch(`./data/offers-live.json?v=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);const data=await r.json();offers=Array.isArray(data.offers)?data.offers:[];
-    offers=offers.filter(o=>o&&o.name&&priceOf(o)!=null&&o.activeMarket!==false);
-    $('#productCount').textContent=offers.length.toLocaleString('de-DE');$('#offerCount').textContent=offers.filter(isOffer).length.toLocaleString('de-DE');$('#storeCount').textContent=new Set(offers.map(o=>o.store).filter(Boolean)).size.toLocaleString('de-DE');
-    const generated=data.generatedAt?new Date(data.generatedAt):null;const stamp=generated&&!Number.isNaN(generated.getTime())?generated.toLocaleString('de-DE',{dateStyle:'short',timeStyle:'short'}):'aktuell';
-    $('#dataDot').className='dot ok';$('#liveNote').textContent=`Daten aktuell · ${offers.length.toLocaleString('de-DE')} Produkte · Stand ${stamp}`;
-    renderChips();renderFeatured();render();
-  }catch(e){$('#dataDot').className='dot warn';$('#liveNote').textContent='Produktdaten konnten gerade nicht geladen werden.';$('#status').textContent='Bitte später erneut laden';$('#cards').innerHTML='<div class="empty"><b>Daten momentan nicht verfügbar</b>Die Oberfläche funktioniert, aber der Produktbestand konnte nicht geladen werden.</div>';console.error(e)}
-}
-
-$('#q').addEventListener('input',e=>{state.q=e.target.value;state.visible=36;render()});
-$('#sort').addEventListener('change',e=>{state.sort=e.target.value;render()});
-$('#type').addEventListener('change',e=>{state.type=e.target.value;state.visible=36;render()});
-$('#more').onclick=()=>{state.visible+=36;render()};
-$('#filterToggle').onclick=()=>{const area=$('#filterArea');area.classList.toggle('open');$('#filterToggle').classList.toggle('active',area.classList.contains('open'))};
-$('#openList').onclick=()=>{renderList();openDrawer('listBack')};
-$('#clearList').onclick=()=>{list=[];saveList();renderList();render()};
-$$('[data-close]').forEach(b=>b.onclick=()=>closeDrawer(b.dataset.close));
-$$('.backdrop').forEach(b=>b.addEventListener('click',e=>{if(e.target===b)closeDrawer(b.id)}));
-document.addEventListener('keydown',e=>{if(e.key==='Escape')$$('.backdrop.open').forEach(b=>closeDrawer(b.id))});
-renderListCount();load();
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
-</script>
+<script type="module" src="./app.js"></script>
 </body>
 </html>

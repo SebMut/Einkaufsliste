@@ -1,6 +1,6 @@
 {
   "name": "angebotsradar-live-importer",
-  "version": "5.5.0",
+  "version": "5.6.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -16,10 +16,11 @@
     "history": "node price-history.js",
     "history:backfill": "node history-backfill.js",
     "audit:assortment": "node assortment-audit.js",
+    "audit:duplicates": "node duplicate-audit.js",
     "guard:catalog": "node refresh-guards.js catalog",
     "guard:live": "node refresh-guards.js live",
     "refresh:status": "node refresh-status.js",
-    "test": "node --test product-normalizer.test.js semantic-edge-cases.test.js semantic-live-audit.test.js safety-regression.test.js market-policy.test.js product-identity.test.js frontend-smoke.test.js staples-matcher.test.js refresh-schedule.test.js refresh-guards.test.js"
+    "test": "node --test product-normalizer.test.js semantic-edge-cases.test.js semantic-live-audit.test.js safety-regression.test.js market-policy.test.js product-identity.test.js product-dedupe.test.js frontend-smoke.test.js staples-matcher.test.js refresh-schedule.test.js refresh-guards.test.js"
   },
   "dependencies": {
     "playwright": "1.55.0",

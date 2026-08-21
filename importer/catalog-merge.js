@@ -1,7 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { normalizeOffer, norm } from './product-normalizer.js';
+import { normalizeOffer } from './product-normalizer.js';
 import { applyProductIdentity } from './product-identity.js';
+import { dedupeProducts } from './product-dedupe.js';
 import { isAllowedMarket, withMarketPolicy, normalizeMarketText } from './market-policy.js';
 
 const ROOT=path.resolve(process.cwd(),'..');
@@ -44,7 +45,7 @@ for(const raw of live.offers||[]){
     const o=identify({...raw,market:b.market,address:b.address,lat:b.lat??raw.lat??null,lon:b.lon??raw.lon??null,isRiemArcaden:!!b.isRiemArcaden});
     normalized.push(withMarketPolicy({
       ...o,market:b.market,address:b.address,lat:b.lat??o.lat??null,lon:b.lon??o.lon??null,isRiemArcaden:!!b.isRiemArcaden,
-      currentPrice:current,
+      currentPrice:current,price:current,
       regularPrice:Number.isFinite(Number(raw.regularPrice))?Number(raw.regularPrice):offerFlag?null:current,
       offerPrice:offerFlag?Number(raw.offerPrice??raw.price):null,
       isOffer:!!offerFlag,advertised:!!offerFlag,sourceType:raw.sourceType||'official_offer'
@@ -69,18 +70,14 @@ for(const filename of index.files||[]){
   }
 }
 
-const map=new Map();
-for(const o of normalized){
-  if(!o.activeMarket||!Number.isFinite(Number(o.price)))continue;
-  const productKey=o.ean?`ean:${o.ean}`:`${o.canonicalProductId}|${norm(o.size)}`;
-  const k=[o.store,o.market,productKey].join('|');
-  const previous=map.get(k);
-  if(!previous||(!previous.isOffer&&o.isOffer)||(previous.sourceType==='official_catalog'&&o.sourceType==='official_offer'))map.set(k,o);
-}
-const products=[...map.values()].sort((a,b)=>(a.key||a.name).localeCompare(b.key||b.name,'de')||Number(b.bio)-Number(a.bio)||Number(a.price)-Number(b.price));
+// Mehrstufige Dublettenauflösung:
+// 1) identische GTIN/Artikel-ID, 2) konkrete semantische Identität,
+// 3) konservativer Name/Marke/Größe/Bio-Abgleich innerhalb derselben Filiale.
+// So werden Katalog + Prospekt + Sortimentssuche zusammengeführt, Varianten bleiben getrennt.
+const dedupe=dedupeProducts(normalized,{scope:'branch',report:true});
+const products=dedupe.products.sort((a,b)=>(a.key||a.name).localeCompare(b.key||b.name,'de')||Number(b.bio)-Number(a.bio)||Number(a.price)-Number(b.price));
 const offers=products.map((o,i)=>({id:i+1,...o}));
 
-// Diagnose-/Quellenmetadaten ebenfalls strikt auf konkrete erlaubte Filialen begrenzen.
 const sourceMap=new Map();
 for(const source of live.sources||[]){
   if(!branchMap.has(source.store))continue;
@@ -94,11 +91,15 @@ for(const source of live.sources||[]){
 }
 const activeSources=[...sourceMap.values()];
 
-// Harte Ausgabe-Validierung: jedes Produkt muss exakt einer aktiven Filiale zuordenbar sein.
 const branchKeys=new Set((markets.markets||[]).map(m=>[normalizeMarketText(m.store),normalizeMarketText(m.market),normalizeMarketText(m.address)].join('|')));
 const invalid=offers.filter(o=>!branchKeys.has([normalizeMarketText(o.store),normalizeMarketText(o.market),normalizeMarketText(o.address)].join('|')));
 if(invalid.length)throw new Error(`Markt-Guard: ${invalid.length} Produkte ohne konkrete erlaubte Filiale.`);
 
-const out={...live,schema:6,generatedAt:new Date().toISOString(),center:markets.center,marketPolicy:markets.marketPolicy,nearbyMarkets:markets.nearbyMarkets,sources:activeSources,productCount:offers.length,offerCount:offers.filter(o=>o.isOffer).length,regularProductCount:offers.filter(o=>!o.isOffer).length,catalogIndex:'data/catalog/index.json',offers};
+const out={
+  ...live,schema:7,generatedAt:new Date().toISOString(),center:markets.center,marketPolicy:markets.marketPolicy,
+  nearbyMarkets:markets.nearbyMarkets,sources:activeSources,productCount:offers.length,offerCount:offers.filter(o=>o.isOffer).length,
+  regularProductCount:offers.filter(o=>!o.isOffer).length,catalogIndex:'data/catalog/index.json',
+  duplicateResolution:{inputCount:normalized.length,removedCount:dedupe.removedCount,uniqueCount:offers.length},offers
+};
 await fs.writeFile(livePath,JSON.stringify(out,null,2)+'\n');
-console.log(`Aktive Daten: ${out.productCount} Produkte (${out.offerCount} Angebote, ${out.regularProductCount} regulär) in ${markets.markets?.length||0} konkreten Filialen; ${activeSources.length} aktive Importquellen.`);
+console.log(`Aktive Daten: ${out.productCount} Produkte (${out.offerCount} Angebote, ${out.regularProductCount} regulär) in ${markets.markets?.length||0} konkreten Filialen; ${activeSources.length} aktive Importquellen; ${dedupe.removedCount} Dubletten zusammengeführt.`);

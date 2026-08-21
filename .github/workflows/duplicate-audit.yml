@@ -1,0 +1,32 @@
+name: Produkt-Dubletten prüfen
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'importer/product-dedupe.js'
+      - 'importer/product-dedupe.test.js'
+      - 'importer/catalog-merge.js'
+      - 'importer/duplicate-audit.js'
+      - 'data/offers-live.json'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Abhängigkeiten installieren
+        working-directory: importer
+        run: npm install --no-audit --no-fund
+      - name: Unit- und Regressionstests
+        working-directory: importer
+        run: npm test
+      - name: Sichtbare Produkt-Dubletten prüfen
+        working-directory: importer
+        run: npm run audit:duplicates
