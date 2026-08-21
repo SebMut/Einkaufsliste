@@ -1,0 +1,43 @@
+name: Sync-Button vollständig entfernen
+
+on:
+  push:
+    paths:
+      - '.github/workflows/remove-sync-button.yml'
+      - 'scripts/remove-sync-button.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Sync-Button aus index.html entfernen
+        run: node scripts/remove-sync-button.mjs
+
+      - name: Prüfen
+        shell: bash
+        run: |
+          if grep -q 'id="manualSync"' index.html; then exit 1; fi
+          if grep -q 'class="syncBtn"' index.html; then exit 1; fi
+
+      - name: Änderungen veröffentlichen
+        shell: bash
+        run: |
+          git config user.name "AngebotsRadar UI Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -- index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Sync-Button aus der Homepage entfernen [skip ci]"
+          git pull --rebase origin main
+          git push origin main
