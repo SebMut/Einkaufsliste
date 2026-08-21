@@ -1,0 +1,36 @@
+<div class="unit">${money(u)} ${esc(o.unitLabel||'')}</div>`:''}${save?`<div class="saving">-${save}%</div>`:''}</div>
+  </article>`;
+}
+
+function renderFeatured(){
+  const rows=offers.filter(o=>isOffer(o)&&priceOf(o)!=null).sort((a,b)=>savingPct(b)-savingPct(a)||(unitOf(a)??Infinity)-(unitOf(b)??Infinity)).slice(0,4);
+  $('#featured').innerHTML=rows.map(o=>`<article class="featuredCard"><div class="featuredTop"><span class="storePill">${esc(o.store||'Markt')}</span><span class="offerPill">${savingPct(o)?`-${savingPct(o)}%`:'ANGEBOT'}</span></div><div><h3>${esc(o.name||'Produkt')}</h3><div class="featuredMeta">${[o.brand,o.size,o.market].filter(Boolean).map(esc).join(' · ')}</div></div><div class="featuredPrice"><b>${money(priceOf(o))}</b><span>${unitOf(o)?`${money(unitOf(o))} ${esc(o.unitLabel||'')}`:''}</span></div></article>`).join('');
+  $('#featuredSection').hidden=!rows.length;
+}
+
+function render(){
+  const rows=filterOffers();
+  const shown=rows.slice(0,state.visible);
+  $('#cards').innerHTML=shown.length?shown.map(cardHtml).join(''):`<div class="empty"><b>Keine passenden Produkte gefunden</b>Versuche einen allgemeineren Suchbegriff oder entferne einen Filter.</div>`;
+  $('#status').textContent=state.q?`Treffer für „${state.q}“`:'Lokales Sortiment und aktuelle Angebote';
+  $('#resultMeta').textContent=`${rows.length.toLocaleString('de-DE')} Treffer`;
+  $('#more').hidden=rows.length<=state.visible;
+  $('#more').textContent=`Mehr anzeigen · ${Math.min(rows.length-state.visible,36)} weitere`;
+  $$('[data-add]').forEach(b=>b.onclick=()=>toggleList(b.dataset.add));
+  $$('[data-history]').forEach(b=>b.onclick=()=>openHistory(b.dataset.history));
+}
+
+function saveList(){localStorage.setItem(LIST_KEY,JSON.stringify(list));renderListCount()}
+function renderListCount(){$('#listCount').textContent=list.length}
+function toggleList(key){
+  const i=list.findIndex(x=>x.key===key);
+  if(i>=0)list.splice(i,1);else{const o=offers.find(x=>keyOf(x)===key);if(o)list.push({key,name:o.name,store:o.store,market:o.market,size:o.size,price:priceOf(o),unit:unitOf(o),unitLabel:o.unitLabel,bio:!!o.bio})}
+  saveList();render();if($('#listBack').classList.contains('open'))renderList();
+}
+function renderList(){
+  const box=$('#listItems');
+  if(!list.length){box.innerHTML='<div class="listEmpty">Noch nichts auf der Liste.<br>Füge Produkte direkt aus der Übersicht hinzu.</div>';$('#listSummary').innerHTML='';return}
+  box.innerHTML=list.map(x=>`<div class="listItem"><div><b>${esc(x.name)}</b><small>${[x.store,x.market,x.size].filter(Boolean).map(esc).join(' · ')}</small></div><div><div class="listPrice">${money(x.price)}</div><button class="removeBtn" data-remove="${esc(x.key)}" type="button">Entfernen</button></div></div>`).join('');
+  const total=list.reduce((s,x)=>s+(num(x.price)||0),0);const shops=new Set(list.map(x=>x.store).filter(Boolean)).size;
+  $('#listSummary').innerHTML=`<div class="summary"><b>${money(total)}</b><br>${list.length} Produkte · ${shops} Händler<br><span style="color:var(--muted)">Summe basiert auf den aktuell ausgewählten Produkten.</span></div>`;
+  $$('[data-remove]').forEach(b=>b.onclick=()=>{list=list.filter(x=>x.key!==b.datase
