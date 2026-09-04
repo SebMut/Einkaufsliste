@@ -1,99 +1,78 @@
 {
   "schema": 4,
-  "generatedAt": "2026-08-21T05:10:41.636Z",
+  "generatedAt": "2026-09-04T08:00:28.117Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
-      "catalogStatus": "partial_catalog",
-      "productCount": 234,
+      "catalogStatus": "unavailable",
+      "productCount": 0,
       "branchCount": 3,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.dm.de/haushalt",
-          "status": "ok",
-          "count": 47,
-          "mode": "browser",
-          "htmlBytes": 488271,
-          "jsonResponses": 12,
-          "networkProducts": 0
+          "status": "unavailable",
+          "count": 0,
+          "message": "HTTP 403"
         },
         {
           "category": "Körperpflege",
           "url": "https://www.dm.de/pflege-und-parfum",
-          "status": "ok",
-          "count": 44,
-          "mode": "browser",
-          "htmlBytes": 497796,
-          "jsonResponses": 10,
-          "networkProducts": 0
+          "status": "unavailable",
+          "count": 0,
+          "message": "HTTP 403"
         },
         {
           "category": "Haarpflege",
           "url": "https://www.dm.de/haare",
-          "status": "ok",
-          "count": 47,
-          "mode": "browser",
-          "htmlBytes": 540231,
-          "jsonResponses": 11,
-          "networkProducts": 0
+          "status": "unavailable",
+          "count": 0,
+          "message": "HTTP 403"
         },
         {
           "category": "Mundpflege",
           "url": "https://www.dm.de/gesundheit/zahnpflege",
-          "status": "ok",
-          "count": 68,
-          "mode": "browser",
-          "htmlBytes": 452231,
-          "jsonResponses": 8,
-          "networkProducts": 0
+          "status": "unavailable",
+          "count": 0,
+          "message": "HTTP 403"
         },
         {
           "category": "Baby & Kleinkind",
           "url": "https://www.dm.de/baby-und-kind",
-          "status": "ok",
-          "count": 71,
-          "mode": "browser",
-          "htmlBytes": 617593,
-          "jsonResponses": 12,
-          "networkProducts": 0
+          "status": "unavailable",
+          "count": 0,
+          "message": "HTTP 403"
         },
         {
           "category": "Lebensmittel",
           "url": "https://www.dm.de/ernaehrung",
-          "status": "ok",
-          "count": 58,
-          "mode": "browser",
-          "htmlBytes": 645992,
-          "jsonResponses": 10,
-          "networkProducts": 0
+          "status": "unavailable",
+          "count": 0,
+          "message": "HTTP 403"
         },
         {
           "category": "Tierbedarf",
           "url": "https://www.dm.de/tier",
-          "status": "ok",
-          "count": 35,
-          "mode": "browser",
-          "htmlBytes": 395740,
-          "jsonResponses": 11,
-          "networkProducts": 0
+          "status": "unavailable",
+          "count": 0,
+          "message": "HTTP 403"
         }
       ]
     },
     {
       "retailer": "ROSSMANN",
       "catalogStatus": "partial_catalog",
-      "productCount": 68,
+      "productCount": 74,
       "branchCount": 1,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
           "status": "ok",
-          "count": 26,
+          "count": 25,
           "mode": "browser",
-          "htmlBytes": 1291242,
+          "htmlBytes": 1313480,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -101,9 +80,9 @@
           "category": "Körperpflege",
           "url": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
           "status": "ok",
-          "count": 26,
+          "count": 37,
           "mode": "browser",
-          "htmlBytes": 1306060,
+          "htmlBytes": 1352642,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -113,7 +92,7 @@
           "status": "ok",
           "count": 22,
           "mode": "browser",
-          "htmlBytes": 1359838,
+          "htmlBytes": 1380246,
           "jsonResponses": 2,
           "networkProducts": 0
         }
@@ -122,7 +101,7 @@
     {
       "retailer": "MÜLLER",
       "catalogStatus": "partial_catalog",
-      "productCount": 345,
+      "productCount": 347,
       "branchCount": 1,
       "sources": [
         {
@@ -131,7 +110,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1619365,
+          "htmlBytes": 1665437,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -141,7 +120,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1206808,
+          "htmlBytes": 1191783,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -151,7 +130,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1059795,
+          "htmlBytes": 1139702,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -161,7 +140,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1107290,
+          "htmlBytes": 1135501,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -180,5 +159,5 @@
     "rossmann.json",
     "mueller.json"
   ],
-  "productCount": 647
+  "productCount": 421
 }
