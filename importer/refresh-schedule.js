@@ -49,3 +49,4 @@ export function formatBerlin(date){
 
 // Manueller Sync-Trigger: 2026-08-20 21:20 Europe/Berlin
 // Manueller Sync-Trigger: 2026-09-04 09:40 Europe/Berlin
+// Manueller Sync-Trigger: 2026-09-04 09:44 Europe/Berlin (nach Smoke-Test-Anpassung)
