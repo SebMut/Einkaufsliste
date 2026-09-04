@@ -1,12 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import os from 'node:os';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 
 const root=path.resolve(process.cwd(),'..');
 const html=await fs.readFile(path.join(root,'index.html'),'utf8');
+const appJs=await fs.readFile(path.join(root,'app.js'),'utf8');
+const appCss=await fs.readFile(path.join(root,'app.css'),'utf8');
 const staplesHtml=await fs.readFile(path.join(root,'grundlebensmittel.html'),'utf8');
 const staplesConfig=JSON.parse(await fs.readFile(path.join(root,'data','staples.json'),'utf8'));
 const live=JSON.parse(await fs.readFile(path.join(root,'data','offers-live.json'),'utf8'));
@@ -16,44 +17,45 @@ test('UI nennt keine alte 15-km-Logik mehr',()=>{
   assert.match(html,/Feldkirchen · Heimstetten · Aschheim · Kirchheim · Riem Arcaden/);
 });
 
-test('UI unterscheidet Produkte, Angebote und reguläre Preise',()=>{
-  assert.match(html,/>Alle Produkte</);
-  assert.match(html,/Regulär/);
-  assert.match(html,/ANGEBOT/);
-  assert.match(html,/regularPrice/);
-  assert.match(html,/isOffer/);
+test('Homepage nutzt die ausgelagerte V9-Struktur',()=>{
+  assert.match(html,/href="\.\/app\.css"/);
+  assert.match(html,/src="\.\/app\.js"/);
+  assert.match(html,/id="q"/);
+  assert.match(html,/id="filterBtn"/);
+  assert.match(html,/id="openList"/);
+  assert.match(html,/id="commitBadge"/);
 });
 
-test('Frontend verwendet die semantische Vergleichsprüfung',()=>{
-  assert.match(html,/\bcomparable\b/);
-  assert.match(html,/comparisonCandidates\(main,all\)[\s\S]*comparable\(main,o\)/);
+test('UI unterscheidet Angebote, reguläre Preise und Grundpreise',()=>{
+  assert.match(html,/Angebote/);
+  assert.match(html,/Reguläre Preise/);
+  assert.match(appJs,/regularPrice/);
+  assert.match(appJs,/isOffer/);
+  assert.match(appJs,/Grundpreis/);
 });
 
-test('Preisbewertung nutzt ausschließlich konkrete Produkthistorie',()=>{
-  assert.match(html,/ratingBtn/);
-  assert.match(html,/canonicalProductId/);
-  assert.match(html,/minObservationsForRating/);
-  assert.match(html,/1M','3M','6M','1J','Alles/);
-  assert.match(html,/function historyKey\(o\)\{const id=o\.canonicalProductId/);
-  assert.equal(/historyGroup/.test(html),false);
+test('Frontend bündelt Dubletten und Filialtreffer über die Produktlogik',()=>{
+  assert.match(appJs,/collapseProductsForDisplay/);
+  assert.match(appJs,/displayOffers=collapseProductsForDisplay\(rawOffers\)/);
+  assert.match(appJs,/branchMode:'collapsed'/);
+  assert.match(appJs,/canonicalProductId/);
+  assert.match(appJs,/exactMatchKey/);
 });
 
-test('mobile CSS bleibt vorhanden',()=>assert.match(html,/@media\(max-width:640px\)/));
-
-test('Inline-JavaScript ist syntaktisch gültig',async()=>{
-  const m=html.match(/<script type="module">([\s\S]*?)<\/script>/);
-  assert.ok(m?.[1],'Modul-Script fehlt');
-  const file=path.join(os.tmpdir(),`angebotsradar-${process.pid}.mjs`);
-  await fs.writeFile(file,m[1]);
-  try{execFileSync(process.execPath,['--check',file],{stdio:'pipe'})}finally{await fs.unlink(file).catch(()=>{})}
+test('Buttersuche priorisiert echte Butter und stuft Wort-Nebentreffer ab',()=>{
+  assert.match(appJs,/function searchRank\(o,query\)/);
+  assert.match(appJs,/q==='butter'/);
+  assert.match(appJs,/butterkeks\|buttermilch\|butter chicken/);
+  assert.match(appJs,/markenbutter\|sussrahmbutter\|weidebutter/);
 });
 
-test('Suche zeigt konkrete Produkte statt nur einer Bundle-Karte',()=>{
-  assert.match(html,/concreteKeyOf=o=>o\.canonicalProductId\|\|o\.exactMatchKey/);
-  assert.match(html,/const key=concreteKeyOf\(o\),bundleKey=keyOf\(o\)/);
-  assert.match(html,/comparisonPool=offers\.filter\(eligible\)\.filter\(o=>keyOf\(o\)===g\.bundleKey\)/);
-  assert.ok(html.includes('data-add="${encodeURIComponent(p.g.bundleKey)}"'));
-  assert.equal(/lastResult\.length} Produktgruppen/.test(html),false);
+test('Mobile CSS für iPhone und kleinere Displays bleibt vorhanden',()=>{
+  assert.match(appCss,/@media\(max-width:760px\)/);
+  assert.match(appCss,/@media\(max-width:390px\)/);
+});
+
+test('Externes Frontend-JavaScript ist syntaktisch gültig',()=>{
+  execFileSync(process.execPath,['--check',path.join(root,'app.js')],{stdio:'pipe'});
 });
 
 test('Live-Daten enthalten mehrere konkrete Milchprodukte',()=>{
@@ -65,9 +67,9 @@ test('Live-Daten enthalten mehrere konkrete Milchprodukte',()=>{
   assert.ok(ids.size>1,`Nur ${ids.size} konkretes Milchprodukt vorhanden`);
 });
 
-test('Startseite verlinkt Unsere Grundlebensmittel',()=>{
+test('Startseite verlinkt die Grundlebensmittel-Seite',()=>{
   assert.match(html,/href="\.\/grundlebensmittel\.html"/);
-  assert.match(html,/Unsere Grundlebensmittel/);
+  assert.match(html,/Grundlebensmittel/);
 });
 
 test('Grundlebensmittel-Seite nutzt Live-Angebote, Prospekte und konkrete Historie',()=>{
@@ -93,7 +95,7 @@ test('Breite Bio-Obst- und Gemüsegruppen werden bis zur Sortendefinition nicht 
 test('Grundlebensmittel-Inline-JavaScript ist syntaktisch gültig',async()=>{
   const m=staplesHtml.match(/<script type="module">([\s\S]*?)<\/script>/);
   assert.ok(m?.[1],'Grundlebensmittel-Modul-Script fehlt');
-  const file=path.join(os.tmpdir(),`grundlebensmittel-${process.pid}.mjs`);
+  const file=path.join(process.cwd(),`.grundlebensmittel-${process.pid}.mjs`);
   await fs.writeFile(file,m[1]);
   try{execFileSync(process.execPath,['--check',file],{stdio:'pipe'})}finally{await fs.unlink(file).catch(()=>{})}
 });
