@@ -1,6 +1,6 @@
 {
   "schema": 10,
-  "generatedAt": "2026-09-04T07:59:39.515Z",
+  "generatedAt": "2026-09-05T07:41:26.447Z",
   "center": {
     "name": "85622 Feldkirchen bei München",
     "lat": 48.145,
@@ -213,7 +213,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "business_search",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Riem Arcaden",
       "isRiemArcaden": true
@@ -293,7 +293,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "business_search",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Aschheim",
       "isRiemArcaden": false
@@ -353,7 +353,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "estimated_from_location",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Aschheim",
       "isRiemArcaden": false
@@ -595,7 +595,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "business_search",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Riem Arcaden",
       "isRiemArcaden": true
@@ -675,7 +675,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "business_search",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Aschheim",
       "isRiemArcaden": false
@@ -735,7 +735,7 @@
       "active": true,
       "importStatus": "supported",
       "distanceMethod": "estimated_from_location",
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Aschheim",
       "isRiemArcaden": false
@@ -1097,7 +1097,7 @@
           "isRiemArcaden": false
         }
       ],
-      "catalogStatus": "unavailable",
+      "catalogStatus": "partial_catalog",
       "activeMarket": true,
       "allowedArea": "Riem Arcaden",
       "isRiemArcaden": true
@@ -1727,8 +1727,8 @@
     },
     "catalogStatusCounts": {
       "offers_only": 12,
-      "unavailable": 5,
-      "partial_catalog": 2
+      "unavailable": 2,
+      "partial_catalog": 5
     }
   }
 }

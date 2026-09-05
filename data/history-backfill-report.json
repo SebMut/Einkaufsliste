@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "generatedAt": "2026-09-04T08:00:37.967Z",
-  "gitCommitsInspected": 66,
-  "offerFilesRead": 65,
-  "rawPriceRecords": 44342,
-  "historicalPriceEvents": 2729,
-  "productsWithHistory": 1057,
+  "generatedAt": "2026-09-05T07:45:19.041Z",
+  "gitCommitsInspected": 67,
+  "offerFilesRead": 66,
+  "rawPriceRecords": 46028,
+  "historicalPriceEvents": 3020,
+  "productsWithHistory": 1103,
   "oldestPriceDate": "2026-08-19T11:27:00.000Z",
   "retailers": [
     "ALDI SÜD",
@@ -16,8 +16,8 @@
     "REWE",
     "ROSSMANN"
   ],
-  "duplicatesRemoved": 15143,
-  "rejectedUncertain": 26268,
+  "duplicatesRemoved": 15709,
+  "rejectedUncertain": 27097,
   "archivedExcludedMarketEvents": 202,
   "minConfidence": 0.8
 }
