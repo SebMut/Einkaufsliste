@@ -1,22 +1,22 @@
 {
   "schema": 4,
-  "generatedAt": "2026-09-05T07:45:08.963Z",
+  "generatedAt": "2026-09-06T07:59:19.288Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
       "catalogStatus": "partial_catalog",
-      "productCount": 235,
+      "productCount": 230,
       "branchCount": 3,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.dm.de/haushalt",
           "status": "ok",
-          "count": 43,
+          "count": 47,
           "mode": "browser",
-          "htmlBytes": 472243,
-          "jsonResponses": 12,
+          "htmlBytes": 490526,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
@@ -25,7 +25,7 @@
           "status": "ok",
           "count": 46,
           "mode": "browser",
-          "htmlBytes": 501447,
+          "htmlBytes": 500396,
           "jsonResponses": 10,
           "networkProducts": 0
         },
@@ -35,17 +35,17 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 536510,
-          "jsonResponses": 11,
+          "htmlBytes": 536780,
+          "jsonResponses": 10,
           "networkProducts": 0
         },
         {
           "category": "Mundpflege",
           "url": "https://www.dm.de/gesundheit/zahnpflege",
           "status": "ok",
-          "count": 72,
+          "count": 70,
           "mode": "browser",
-          "htmlBytes": 470107,
+          "htmlBytes": 461530,
           "jsonResponses": 8,
           "networkProducts": 0
         },
@@ -53,10 +53,10 @@
           "category": "Baby & Kleinkind",
           "url": "https://www.dm.de/baby-und-kind",
           "status": "ok",
-          "count": 71,
+          "count": 67,
           "mode": "browser",
-          "htmlBytes": 617969,
-          "jsonResponses": 12,
+          "htmlBytes": 598217,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
@@ -65,7 +65,7 @@
           "status": "ok",
           "count": 58,
           "mode": "browser",
-          "htmlBytes": 650367,
+          "htmlBytes": 650342,
           "jsonResponses": 10,
           "networkProducts": 0
         },
@@ -73,9 +73,9 @@
           "category": "Tierbedarf",
           "url": "https://www.dm.de/tier",
           "status": "ok",
-          "count": 34,
+          "count": 30,
           "mode": "browser",
-          "htmlBytes": 382040,
+          "htmlBytes": 361920,
           "jsonResponses": 10,
           "networkProducts": 0
         }
@@ -84,16 +84,16 @@
     {
       "retailer": "ROSSMANN",
       "catalogStatus": "partial_catalog",
-      "productCount": 66,
+      "productCount": 68,
       "branchCount": 1,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
           "status": "ok",
-          "count": 24,
+          "count": 25,
           "mode": "browser",
-          "htmlBytes": 1295138,
+          "htmlBytes": 1308254,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -101,9 +101,9 @@
           "category": "Körperpflege",
           "url": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
           "status": "ok",
-          "count": 26,
+          "count": 27,
           "mode": "browser",
-          "htmlBytes": 1293432,
+          "htmlBytes": 1293983,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -113,7 +113,7 @@
           "status": "ok",
           "count": 22,
           "mode": "browser",
-          "htmlBytes": 1370020,
+          "htmlBytes": 1365137,
           "jsonResponses": 2,
           "networkProducts": 0
         }
@@ -122,7 +122,7 @@
     {
       "retailer": "MÜLLER",
       "catalogStatus": "partial_catalog",
-      "productCount": 355,
+      "productCount": 420,
       "branchCount": 1,
       "sources": [
         {
@@ -131,7 +131,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1652201,
+          "htmlBytes": 1638930,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -141,7 +141,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1176213,
+          "htmlBytes": 1183246,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -151,7 +151,7 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1144826,
+          "htmlBytes": 1115234,
           "jsonResponses": 0,
           "networkProducts": 0
         },
@@ -161,16 +161,19 @@
           "status": "ok",
           "count": 180,
           "mode": "static",
-          "htmlBytes": 1138967,
+          "htmlBytes": 1140286,
           "jsonResponses": 0,
           "networkProducts": 0
         },
         {
           "category": "Tierbedarf",
           "url": "https://www.mueller.de/c/tiershop/alle-tiershop-produkte/",
-          "status": "unavailable",
-          "count": 0,
-          "message": "HTTP 403"
+          "status": "ok",
+          "count": 180,
+          "mode": "static",
+          "htmlBytes": 987367,
+          "jsonResponses": 0,
+          "networkProducts": 0
         }
       ]
     }
@@ -180,5 +183,5 @@
     "rossmann.json",
     "mueller.json"
   ],
-  "productCount": 656
+  "productCount": 718
 }
