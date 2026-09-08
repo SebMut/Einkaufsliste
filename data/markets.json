@@ -1,6 +1,6 @@
 {
   "schema": 10,
-  "generatedAt": "2026-09-07T08:20:00.709Z",
+  "generatedAt": "2026-09-08T08:06:20.536Z",
   "center": {
     "name": "85622 Feldkirchen bei München",
     "lat": 48.145,
@@ -274,7 +274,7 @@
       "importStatus": "partial",
       "distanceMethod": "riem_arcaden_official_directory",
       "isRiemArcaden": true,
-      "catalogStatus": "partial_catalog",
+      "catalogStatus": "unavailable",
       "activeMarket": true,
       "allowedArea": "Riem Arcaden"
     },
@@ -656,7 +656,7 @@
       "importStatus": "partial",
       "distanceMethod": "riem_arcaden_official_directory",
       "isRiemArcaden": true,
-      "catalogStatus": "partial_catalog",
+      "catalogStatus": "unavailable",
       "activeMarket": true,
       "allowedArea": "Riem Arcaden"
     },
@@ -1142,7 +1142,7 @@
           "isRiemArcaden": true
         }
       ],
-      "catalogStatus": "partial_catalog",
+      "catalogStatus": "unavailable",
       "activeMarket": true,
       "allowedArea": "Riem Arcaden"
     }
@@ -1727,8 +1727,8 @@
     },
     "catalogStatusCounts": {
       "offers_only": 12,
-      "unavailable": 2,
-      "partial_catalog": 5
+      "unavailable": 3,
+      "partial_catalog": 4
     }
   }
 }
