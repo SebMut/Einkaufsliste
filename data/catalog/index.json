@@ -1,6 +1,6 @@
 {
   "schema": 4,
-  "generatedAt": "2026-09-08T08:09:51.304Z",
+  "generatedAt": "2026-09-09T08:13:43.193Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
@@ -15,7 +15,7 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 491967,
+          "htmlBytes": 490009,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -25,7 +25,7 @@
           "status": "ok",
           "count": 46,
           "mode": "browser",
-          "htmlBytes": 502978,
+          "htmlBytes": 501453,
           "jsonResponses": 10,
           "networkProducts": 0
         },
@@ -35,17 +35,17 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 537853,
-          "jsonResponses": 10,
+          "htmlBytes": 537452,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
           "category": "Mundpflege",
           "url": "https://www.dm.de/gesundheit/zahnpflege",
           "status": "ok",
-          "count": 64,
+          "count": 66,
           "mode": "browser",
-          "htmlBytes": 435653,
+          "htmlBytes": 444599,
           "jsonResponses": 8,
           "networkProducts": 0
         },
@@ -53,9 +53,9 @@
           "category": "Baby & Kleinkind",
           "url": "https://www.dm.de/baby-und-kind",
           "status": "ok",
-          "count": 71,
+          "count": 72,
           "mode": "browser",
-          "htmlBytes": 620094,
+          "htmlBytes": 618134,
           "jsonResponses": 12,
           "networkProducts": 0
         },
@@ -63,9 +63,9 @@
           "category": "Lebensmittel",
           "url": "https://www.dm.de/ernaehrung",
           "status": "ok",
-          "count": 59,
+          "count": 60,
           "mode": "browser",
-          "htmlBytes": 650141,
+          "htmlBytes": 650245,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -73,10 +73,10 @@
           "category": "Tierbedarf",
           "url": "https://www.dm.de/tier",
           "status": "ok",
-          "count": 35,
+          "count": 33,
           "mode": "browser",
-          "htmlBytes": 391124,
-          "jsonResponses": 10,
+          "htmlBytes": 390348,
+          "jsonResponses": 11,
           "networkProducts": 0
         }
       ]
@@ -93,7 +93,7 @@
           "status": "ok",
           "count": 25,
           "mode": "browser",
-          "htmlBytes": 1327413,
+          "htmlBytes": 1332619,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -103,7 +103,7 @@
           "status": "ok",
           "count": 26,
           "mode": "browser",
-          "htmlBytes": 1306940,
+          "htmlBytes": 1307433,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -113,7 +113,7 @@
           "status": "ok",
           "count": 23,
           "mode": "browser",
-          "htmlBytes": 1361005,
+          "htmlBytes": 1364143,
           "jsonResponses": 2,
           "networkProducts": 0
         }
