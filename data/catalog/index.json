@@ -1,22 +1,22 @@
 {
   "schema": 4,
-  "generatedAt": "2026-09-10T08:13:15.119Z",
+  "generatedAt": "2026-09-11T08:08:14.909Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
       "catalogStatus": "partial_catalog",
-      "productCount": 236,
+      "productCount": 228,
       "branchCount": 3,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.dm.de/haushalt",
           "status": "ok",
-          "count": 47,
+          "count": 43,
           "mode": "browser",
-          "htmlBytes": 489193,
-          "jsonResponses": 11,
+          "htmlBytes": 471726,
+          "jsonResponses": 10,
           "networkProducts": 0
         },
         {
@@ -25,8 +25,8 @@
           "status": "ok",
           "count": 46,
           "mode": "browser",
-          "htmlBytes": 501272,
-          "jsonResponses": 10,
+          "htmlBytes": 500607,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
@@ -35,18 +35,18 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 537833,
-          "jsonResponses": 10,
+          "htmlBytes": 537773,
+          "jsonResponses": 11,
           "networkProducts": 0
         },
         {
           "category": "Mundpflege",
           "url": "https://www.dm.de/gesundheit/zahnpflege",
           "status": "ok",
-          "count": 68,
+          "count": 62,
           "mode": "browser",
-          "htmlBytes": 452684,
-          "jsonResponses": 8,
+          "htmlBytes": 417345,
+          "jsonResponses": 7,
           "networkProducts": 0
         },
         {
@@ -55,18 +55,18 @@
           "status": "ok",
           "count": 72,
           "mode": "browser",
-          "htmlBytes": 618764,
-          "jsonResponses": 14,
+          "htmlBytes": 617735,
+          "jsonResponses": 12,
           "networkProducts": 0
         },
         {
           "category": "Lebensmittel",
           "url": "https://www.dm.de/ernaehrung",
           "status": "ok",
-          "count": 59,
+          "count": 57,
           "mode": "browser",
-          "htmlBytes": 650376,
-          "jsonResponses": 11,
+          "htmlBytes": 653036,
+          "jsonResponses": 10,
           "networkProducts": 0
         },
         {
@@ -75,7 +75,7 @@
           "status": "ok",
           "count": 36,
           "mode": "browser",
-          "htmlBytes": 402618,
+          "htmlBytes": 402713,
           "jsonResponses": 10,
           "networkProducts": 0
         }
@@ -93,7 +93,7 @@
           "status": "ok",
           "count": 24,
           "mode": "browser",
-          "htmlBytes": 1333845,
+          "htmlBytes": 1330048,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -103,7 +103,7 @@
           "status": "ok",
           "count": 26,
           "mode": "browser",
-          "htmlBytes": 1319224,
+          "htmlBytes": 1300621,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -113,7 +113,7 @@
           "status": "ok",
           "count": 23,
           "mode": "browser",
-          "htmlBytes": 1353887,
+          "htmlBytes": 1353133,
           "jsonResponses": 2,
           "networkProducts": 0
         }
@@ -168,5 +168,5 @@
     "rossmann.json",
     "mueller.json"
   ],
-  "productCount": 303
+  "productCount": 295
 }
