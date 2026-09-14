@@ -1,12 +1,12 @@
 {
   "schema": 4,
-  "generatedAt": "2026-09-13T08:23:45.694Z",
+  "generatedAt": "2026-09-14T09:00:48.871Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
       "catalogStatus": "partial_catalog",
-      "productCount": 229,
+      "productCount": 234,
       "branchCount": 3,
       "sources": [
         {
@@ -15,7 +15,7 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 491408,
+          "htmlBytes": 490823,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -25,17 +25,17 @@
           "status": "ok",
           "count": 46,
           "mode": "browser",
-          "htmlBytes": 500789,
-          "jsonResponses": 11,
+          "htmlBytes": 501671,
+          "jsonResponses": 10,
           "networkProducts": 0
         },
         {
           "category": "Haarpflege",
           "url": "https://www.dm.de/haare",
           "status": "ok",
-          "count": 43,
+          "count": 47,
           "mode": "browser",
-          "htmlBytes": 517633,
+          "htmlBytes": 539402,
           "jsonResponses": 10,
           "networkProducts": 0
         },
@@ -43,10 +43,10 @@
           "category": "Mundpflege",
           "url": "https://www.dm.de/gesundheit/zahnpflege",
           "status": "ok",
-          "count": 62,
+          "count": 68,
           "mode": "browser",
-          "htmlBytes": 418408,
-          "jsonResponses": 7,
+          "htmlBytes": 453829,
+          "jsonResponses": 8,
           "networkProducts": 0
         },
         {
@@ -55,7 +55,7 @@
           "status": "ok",
           "count": 70,
           "mode": "browser",
-          "htmlBytes": 618459,
+          "htmlBytes": 620613,
           "jsonResponses": 12,
           "networkProducts": 0
         },
@@ -65,7 +65,7 @@
           "status": "ok",
           "count": 59,
           "mode": "browser",
-          "htmlBytes": 654286,
+          "htmlBytes": 654898,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -73,9 +73,9 @@
           "category": "Tierbedarf",
           "url": "https://www.dm.de/tier",
           "status": "ok",
-          "count": 38,
+          "count": 37,
           "mode": "browser",
-          "htmlBytes": 421688,
+          "htmlBytes": 412564,
           "jsonResponses": 10,
           "networkProducts": 0
         }
@@ -84,7 +84,7 @@
     {
       "retailer": "ROSSMANN",
       "catalogStatus": "partial_catalog",
-      "productCount": 68,
+      "productCount": 71,
       "branchCount": 1,
       "sources": [
         {
@@ -93,7 +93,7 @@
           "status": "ok",
           "count": 25,
           "mode": "browser",
-          "htmlBytes": 1330946,
+          "htmlBytes": 1337076,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -101,9 +101,9 @@
           "category": "Körperpflege",
           "url": "https://www.rossmann.de/de/pflege-und-duft/c/olcat1_1",
           "status": "ok",
-          "count": 26,
+          "count": 34,
           "mode": "browser",
-          "htmlBytes": 1295811,
+          "htmlBytes": 1358184,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -113,7 +113,7 @@
           "status": "ok",
           "count": 23,
           "mode": "browser",
-          "htmlBytes": 1355957,
+          "htmlBytes": 1382797,
           "jsonResponses": 2,
           "networkProducts": 0
         }
@@ -168,5 +168,5 @@
     "rossmann.json",
     "mueller.json"
   ],
-  "productCount": 297
+  "productCount": 305
 }
