@@ -1,12 +1,12 @@
 {
   "schema": 4,
-  "generatedAt": "2026-09-14T09:00:48.871Z",
+  "generatedAt": "2026-09-15T08:45:49.765Z",
   "sourceType": "official_catalog",
   "retailers": [
     {
       "retailer": "dm",
       "catalogStatus": "partial_catalog",
-      "productCount": 234,
+      "productCount": 231,
       "branchCount": 3,
       "sources": [
         {
@@ -15,7 +15,7 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 490823,
+          "htmlBytes": 491281,
           "jsonResponses": 11,
           "networkProducts": 0
         },
@@ -23,10 +23,10 @@
           "category": "Körperpflege",
           "url": "https://www.dm.de/pflege-und-parfum",
           "status": "ok",
-          "count": 46,
+          "count": 42,
           "mode": "browser",
-          "htmlBytes": 501671,
-          "jsonResponses": 10,
+          "htmlBytes": 481843,
+          "jsonResponses": 9,
           "networkProducts": 0
         },
         {
@@ -35,7 +35,7 @@
           "status": "ok",
           "count": 47,
           "mode": "browser",
-          "htmlBytes": 539402,
+          "htmlBytes": 538008,
           "jsonResponses": 10,
           "networkProducts": 0
         },
@@ -43,9 +43,9 @@
           "category": "Mundpflege",
           "url": "https://www.dm.de/gesundheit/zahnpflege",
           "status": "ok",
-          "count": 68,
+          "count": 66,
           "mode": "browser",
-          "htmlBytes": 453829,
+          "htmlBytes": 445126,
           "jsonResponses": 8,
           "networkProducts": 0
         },
@@ -55,7 +55,7 @@
           "status": "ok",
           "count": 70,
           "mode": "browser",
-          "htmlBytes": 620613,
+          "htmlBytes": 618908,
           "jsonResponses": 12,
           "networkProducts": 0
         },
@@ -63,19 +63,19 @@
           "category": "Lebensmittel",
           "url": "https://www.dm.de/ernaehrung",
           "status": "ok",
-          "count": 59,
+          "count": 58,
           "mode": "browser",
-          "htmlBytes": 654898,
-          "jsonResponses": 11,
+          "htmlBytes": 655620,
+          "jsonResponses": 10,
           "networkProducts": 0
         },
         {
           "category": "Tierbedarf",
           "url": "https://www.dm.de/tier",
           "status": "ok",
-          "count": 37,
+          "count": 38,
           "mode": "browser",
-          "htmlBytes": 412564,
+          "htmlBytes": 421619,
           "jsonResponses": 10,
           "networkProducts": 0
         }
@@ -84,16 +84,16 @@
     {
       "retailer": "ROSSMANN",
       "catalogStatus": "partial_catalog",
-      "productCount": 71,
+      "productCount": 72,
       "branchCount": 1,
       "sources": [
         {
           "category": "Haushalt",
           "url": "https://www.rossmann.de/de/haushalt/c/olcat1_3/?pageIndex=0",
           "status": "ok",
-          "count": 25,
+          "count": 26,
           "mode": "browser",
-          "htmlBytes": 1337076,
+          "htmlBytes": 1305428,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -103,7 +103,7 @@
           "status": "ok",
           "count": 34,
           "mode": "browser",
-          "htmlBytes": 1358184,
+          "htmlBytes": 1351124,
           "jsonResponses": 2,
           "networkProducts": 0
         },
@@ -111,9 +111,9 @@
           "category": "Baby & Kleinkind",
           "url": "https://www.rossmann.de/de/baby-und-spielzeug/c/olcat1_2",
           "status": "ok",
-          "count": 23,
+          "count": 24,
           "mode": "browser",
-          "htmlBytes": 1382797,
+          "htmlBytes": 1369314,
           "jsonResponses": 2,
           "networkProducts": 0
         }
@@ -168,5 +168,5 @@
     "rossmann.json",
     "mueller.json"
   ],
-  "productCount": 305
+  "productCount": 303
 }
